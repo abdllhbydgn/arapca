@@ -1,0 +1,1518 @@
+[
+{
+"id": "k6sjlz8qt",
+"ex": {
+"ar": "متشكر أوي على مساعدتك",
+"fr": "motashakker awi 3ala mosa3dtak",
+"ok": "mutaşakkir avi ala musadtak",
+"tr": "Yardımın için çok teşekkürler"
+},
+"why": "Örnek: 'المساعدة' kitabi; halk 'متشكر أوي على مساعدتك' der"
+},
+{
+"id": "k7ej662nm",
+"ar": "العفو",
+"fr": "el-3afw",
+"ok": "el-afv",
+"note": "Resmi: عفوًا. Halk: العفو / ولا يهمك",
+"why": "Mısır'da teşekküre cevap 'العفو'"
+},
+{
+"id": "k3hx6tqyn",
+"ar": "ممكن تقول تاني؟",
+"fr": "momken t2ool tani?",
+"ok": "mumkin tiul tani",
+"why": "'تعيد' kitabi kaçıyor; halk 'تقول تاني' der"
+},
+{
+"id": "kcn97xuzq",
+"ex": {
+"ar": "كل سنة وانت طيب",
+"fr": "kol sana wenta tayyeb",
+"ok": "kull sene ve inte tayyib",
+"tr": "Nice yıllara"
+},
+"why": "'سنة جديدة سعيدة' çeviri kokuyor; Mısır'da 'كل سنة وانت طيب'"
+},
+{
+"id": "kcl62hz6x",
+"ar": "جدو",
+"fr": "geddo",
+"ok": "geddo",
+"note": "Resmi: جدّ",
+"why": "Halk ağzında dede 'جدو'"
+},
+{
+"id": "kam0x2bba",
+"ar": "تيتة",
+"fr": "teta",
+"ok": "teta",
+"note": "Resmi: جدّة",
+"why": "Halk ağzında nine 'تيتة'"
+},
+{
+"id": "kcaol1m1a",
+"ar": "عسكري",
+"fr": "3askari",
+"ok": "askari",
+"tr": "Polis (memuru)",
+"note": "Resmi: شرطي. Subaya ظابط denir",
+"why": "'شرطي' Fusha; halk polise 'عسكري / ظابط' der"
+},
+{
+"id": "kbluvvptg",
+"ar": "برتقاني",
+"fr": "borto2ani",
+"ok": "burtuani",
+"why": "Halk telaffuzu 'برتقاني'"
+},
+{
+"id": "k92mcdakd",
+"ar": "بمبي",
+"fr": "bamby",
+"ok": "bambi",
+"note": "Resmi: وردي",
+"why": "Mısır'da pembe 'بمبي'"
+},
+{
+"id": "k7yyvp50n",
+"ar": "موف",
+"fr": "mov",
+"ok": "mov",
+"note": "Resmi: بنفسجي",
+"why": "Atölyede mor renk 'موف' denir"
+},
+{
+"id": "k1bjt6e45",
+"ar": "هوا",
+"fr": "hawa",
+"ok": "heva",
+"tr": "Rüzgâr / hava",
+"note": "Resmi: ريح. 'الهوا جامد' = rüzgâr sert",
+"why": "Halk rüzgâra 'هوا' der"
+},
+{
+"id": "k3kyh1tv5",
+"ar": "أهلين",
+"fr": "ahlein",
+"ok": "ehleyn",
+"note": "مرحبا Mısır'da pek kullanılmaz; halk أهلا / أهلين / إزيك der",
+"why": "'مرحبا' Levanten/resmi; Mısır halkı 'أهلين' der"
+},
+{
+"id": "k34vwq318",
+"ar": "والنبي",
+"fr": "wennabi",
+"ok": "vennebi",
+"tr": "Ne olur, lütfen (samimi rica)",
+"ex": {
+"ar": "والنبي اقفل الباب",
+"fr": "wennabi e2fel el-bab",
+"ok": "vennebi i'fil el-bab",
+"tr": "Ne olur kapıyı kapat"
+},
+"note": "Resmi: من فضلك. Kibarı: لو سمحت",
+"why": "'من فضلك' kitabi; halk 'والنبي / لو سمحت' der"
+},
+{
+"id": "kbzaeowm8",
+"ar": "لا مؤاخذة",
+"fr": "la mo2akhza",
+"ok": "la muahze",
+"note": "Resmi: عفوًا",
+"why": "Mısır halkı 'pardon' için 'لا مؤاخذة' der"
+},
+{
+"id": "k6qxhr2n0",
+"ar": "اتفضل",
+"fr": "etfaddal",
+"ok": "itfaddal",
+"why": "Halk yazımı/telaffuzu 'اتفضل'"
+},
+{
+"id": "k5rjl05ts",
+"ar": "أوقات",
+"fr": "aw2at",
+"ok": "ev'at",
+"note": "Resmi: أحيانًا. Halk: أوقات / ساعات",
+"why": "'أحياناً' Fusha; halk 'أوقات' der"
+},
+{
+"id": "k686eg31u",
+"ar": "أبو",
+"fr": "abu",
+"ok": "ebu",
+"tr": "Baba (أبويا = babam)",
+"note": "Resmi: أب. Gündelik: بابا",
+"why": "'أب' tek başına kitabi; halk 'أبويا / أبوه' der"
+},
+{
+"id": "kc35k45in",
+"ar": "صنعة",
+"fr": "san3a",
+"ok": "sanaa",
+"tr": "Meslek, zanaat",
+"note": "Resmi: مهنة",
+"why": "Atölyede meslek 'صنعة' denir"
+},
+{
+"id": "k9dmv39fk",
+"ex": {
+"ar": "الفني جاي يصلح المكنة",
+"fr": "el-fanni gayy ysalla7 el-makana",
+"ok": "el-fenni gayy yisallah el-makana",
+"tr": "Teknisyen makineyi tamire geliyor"
+},
+"why": "Örnekte 'الماكينة' yerine halk 'المكنة'"
+},
+{
+"id": "k1u8kvhup",
+"ar": "ست بيت",
+"fr": "sett beit",
+"ok": "sitt beyt",
+"note": "Resmi: ربة بيت",
+"why": "Halk 'ست بيت' der"
+},
+{
+"id": "kby9cev89",
+"ar": "حتة",
+"fr": "7etta",
+"ok": "hitte",
+"tr": "Semt, mahalle (gündelik); yer",
+"note": "Resmi: حي",
+"why": "Halk semt için 'حتة' der"
+},
+{
+"id": "k9hyfoe4b",
+"ar": "البوستة",
+"fr": "el-bosta",
+"ok": "el-bosta",
+"note": "Resmi: مكتب بريد",
+"why": "Halk postaneye 'البوستة' der"
+},
+{
+"id": "kdehkjjkg",
+"ex": {
+"ar": "بتستعمل المكنة دي إزاي؟",
+"fr": "btesta3mel el-makana di ezzay?",
+"ok": "bitista'mil el-makana di izzay?",
+"tr": "Bu makineyi nasıl kullanıyorsun?"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "k9iuhb0uq",
+"ex": {
+"ar": "شغل المكنة",
+"fr": "shaghghal el-makana",
+"ok": "şaggal el-makana",
+"tr": "Makineyi çalıştır"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "kgclvt0t",
+"ex": {
+"ar": "لازم نصلح المكنة",
+"fr": "lazem nsalla7 el-makana",
+"ok": "lazim nisallah el-makana",
+"tr": "Makineyi tamir etmemiz lazım"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "k4c98kqvi",
+"ex": {
+"ar": "ممنوع تدخن هنا",
+"fr": "mamnoo3 tdakhkhan hena",
+"ok": "memnu' tidahhan hina",
+"tr": "Burada sigara içmek yasak"
+},
+"note": "Tabelada: ممنوع التدخين",
+"why": "'ممنوع التدخين' tabela dili; konuşmada 'ممنوع تدخن هنا'"
+},
+{
+"id": "k8vqvitic",
+"ex": {
+"ar": "محتاج حد يساعدني",
+"fr": "me7tag 7add ysa3edni",
+"ok": "mihtag hadd yisaidni",
+"tr": "Bana yardım edecek birine ihtiyacım var"
+},
+"why": "'محتاج مساعدة' kitabi; halk 'محتاج حد يساعدني' der"
+},
+{
+"id": "k51kb7hu1",
+"ex": {
+"ar": "المكنة عطلانة",
+"fr": "el-makana 3atlana",
+"ok": "el-makana atlana",
+"tr": "Makine arızalı"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "k6fza3dqf",
+"ar": "مخضوض",
+"fr": "makhdood",
+"ok": "mahdud",
+"tr": "Şaşkın, ürkmüş",
+"note": "Resmi: متفاجئ",
+"why": "'متفاجئ' eğitimli ağzı; halk 'مخضوض / اتخضيت' der"
+},
+{
+"id": "k1yl5gxdh",
+"ar": "متغاظ",
+"fr": "metghaaz",
+"ok": "mitgaz",
+"tr": "Kızgın, öfkeli",
+"note": "Resmi: غضبان",
+"why": "'غضبان' Fusha; halk 'متغاظ / متعصب' der"
+},
+{
+"id": "k53ex7p53",
+"ar": "ريّس",
+"fr": "rayyes",
+"ok": "rayyis",
+"tr": "Şef, reis (atölye)",
+"note": "Resmi: رئيس",
+"why": "Atölyede şefe 'الريّس' denir"
+},
+{
+"id": "k106qftbw",
+"ar": "مكنة",
+"fr": "makana",
+"ok": "makana",
+"ex": {
+"ar": "المكنة دي واقفة",
+"fr": "el-makana di wa2fa",
+"ok": "el-makana di va'fa",
+"tr": "Bu makine duruyor"
+},
+"note": "Yazıda: ماكينة",
+"why": "Halk yazımı/telaffuzu 'مكنة'"
+},
+{
+"id": "k1aq8wl3q",
+"ex": {
+"ar": "التطريز ده شغل إيد",
+"fr": "et-tatreez da shoghl eid",
+"ok": "et-tatriz da şugl id",
+"tr": "Bu nakış el işi"
+},
+"why": "'يدوي' kitabi; halk 'شغل إيد' der"
+},
+{
+"id": "k7m3sw4jj",
+"ex": {
+"ar": "السلامة قبل أي حاجة",
+"fr": "es-salama 2abl ay 7aga",
+"ok": "es-selame abl ey haga",
+"tr": "Önce güvenlik (her şeyden önce)"
+},
+"why": "'السلامة أولاً' slogan/Fusha; konuşmada 'قبل أي حاجة'"
+},
+{
+"id": "k55zgawkd",
+"ex": {
+"ar": "خطر، ماتقربش",
+"fr": "khatar, mat2arrabsh",
+"ok": "hatar, mat'arrabş",
+"tr": "Tehlike, yaklaşma"
+},
+"why": "'ممنوع الاقتراب' tabela Fushası; halk 'ماتقربش' der"
+},
+{
+"id": "kagyqvpvu",
+"ex": {
+"ar": "فيه عطل في المكنة",
+"fr": "fi 3otl fel-makana",
+"ok": "fi utl fil-makana",
+"tr": "Makinede arıza var"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "k7edvnhpv",
+"ex": {
+"ar": "المكنة في الصيانة",
+"fr": "el-makana fes-seyana",
+"ok": "el-makana fis-siyane",
+"tr": "Makine bakımda"
+},
+"why": "Örnekte 'الماكينة' yerine 'المكنة'"
+},
+{
+"id": "k53od6d6j",
+"ar": "مواعيد الشغل",
+"fr": "mawa3eed esh-shoghl",
+"ok": "mevaid eş-şugl",
+"note": "Resmi: ساعات العمل",
+"why": "'ساعات عمل' resmi; halk 'مواعيد الشغل' der"
+},
+{
+"id": "k31my3f6l",
+"ar": "مكالمة",
+"fr": "mokalma",
+"ok": "mukalme",
+"tr": "Arama (telefon görüşmesi)",
+"note": "Resmi: اتصال",
+"why": "Halk telefon araması için 'مكالمة' der"
+},
+{
+"id": "k9ugb85f0",
+"ar": "اليومين دول",
+"fr": "el-yomein dol",
+"ok": "el-yomeyn dol",
+"tr": "Şu sıralar, bu aralar",
+"note": "Resmi: حاليًا. 'Şu an' için: دلوقتي",
+"why": "'حالياً' Fusha/TV dili; halk 'اليومين دول / دلوقتي' der"
+},
+{
+"id": "kdteokg6",
+"ar": "خلاص، متشكر",
+"fr": "khalaas, motshakker",
+"ok": "halâs, mutşakkir",
+"why": "شكرًا yerine halk ağzı متشكر"
+},
+{
+"id": "k31chv2yp",
+"ar": "المكنة بايظة",
+"fr": "el makana bayza",
+"ok": "il-makana bâyze",
+"tr": "Makine bozuk / arızalı",
+"note": "Resmi: الماكينة عطلانة",
+"why": "ماكينة→مكنة, atölyede 'bayza' denir"
+},
+{
+"id": "k93kuv8mm",
+"ar": "الشحنة اتأخرت",
+"fr": "el sha7na et2akharet",
+"ok": "iş-şahne it'ahharit",
+"tr": "Sevkiyat gecikti",
+"why": "'fih ta2khir' kitabi yapı; fiille söylenir"
+},
+{
+"id": "k5yrk0sj9",
+"ar": "لازم نجهز الأوردر",
+"fr": "lazem ngahhez el order",
+"ok": "lâzim nigahhiz il-ordır",
+"note": "Resmi: الطلبية",
+"why": "Fabrikada sipariş = أوردر"
+},
+{
+"id": "k5h57p8df",
+"ar": "الوردية التانية دخلت",
+"fr": "el wardiya el tanya dakhalet",
+"ok": "il-vardiyye it-tânye dahalit",
+"why": "بدأت Fusha'ya kayıyor; vardiya 'dahalit' denir"
+},
+{
+"id": "kcyl7116g",
+"ar": "مدير الكواليتي",
+"fr": "modir el kwaliti",
+"ok": "mudîr il-kuvâliti",
+"note": "Resmi: مدير الجودة",
+"why": "Atölyede kalite = كواليتي"
+},
+{
+"id": "k10szm1mj",
+"ar": "تفتيش الكواليتي",
+"fr": "taftish el kwaliti",
+"ok": "taftîş il-kuvâliti",
+"note": "Resmi: تفتيش الجودة",
+"why": "Atölyede kalite = كواليتي"
+},
+{
+"id": "k5i5hvkor",
+"ar": "لازم نشيّك تاني",
+"fr": "lazem nshayyek tani",
+"ok": "lâzim nişayyik tâni",
+"note": "Resmi: لازم نعيد الفحص",
+"why": "نعيد الفحص kitabi; 'nşayyik' (check) halk dili"
+},
+{
+"id": "kcjouqf0l",
+"ar": "العيوب كتير أوي",
+"fr": "el 3oyoub keteer awi",
+"ok": "il-uyûb kitîr ovi",
+"tr": "Kusurlar çok fazla (kusur oranı yüksek)",
+"note": "Resmi: نسبة العيوب عالية",
+"why": "İşçi 'oran' demez, 'çok' der"
+},
+{
+"id": "k55pflcvf",
+"ar": "العينة اتوافق عليها",
+"fr": "el 3ayyena etwafe2 3aleha",
+"ok": "il-ayyine itvâfi' aleyha",
+"why": "موافق عليها resmi edilgen; اتـ kalıbı halk dili"
+},
+{
+"id": "kb0db2u17",
+"ar": "فيه وساخة على الخط",
+"fr": "fih wasakha 3al khat",
+"ok": "fîh visâha al-hatt",
+"tr": "Hatta kir/pislik var (kontaminasyon)",
+"note": "Resmi: تلوث",
+"why": "تلوث kitabi; atölyede 'وساخة'"
+},
+{
+"id": "k4q7ny8rr",
+"ar": "المكنة عايزة صيانة",
+"fr": "el makana 3ayza siyana",
+"ok": "il-makana âyze siyâne",
+"why": "ماكينة→مكنة, محتاجة→عايزة"
+},
+{
+"id": "k210o9wpt",
+"ar": "فرصة سعيدة",
+"fr": "forsa sa3eeda",
+"ok": "fursa sa'îde",
+"why": "Çeviri kokan cümle; Mısır'da kalıp 'فرصة سعيدة'"
+},
+{
+"id": "k25d5la4b",
+"ar": "تارجت",
+"fr": "target",
+"ok": "târgit",
+"note": "Resmi: هدف",
+"why": "Fabrikada hedef = تارجت"
+},
+{
+"id": "k41ptbmfl",
+"ar": "تيست",
+"fr": "test",
+"ok": "test",
+"note": "Resmi: اختبار",
+"why": "Laboratuvar/atölyede 'تيست' denir"
+},
+{
+"id": "k77cyqlk4",
+"ar": "كَشّ",
+"fr": "kash",
+"ok": "kaşş",
+"tr": "Büzülme / çekme (kumaşta)",
+"note": "Resmi: انكماش",
+"why": "Atölyede 'القماش كش' denir"
+},
+{
+"id": "k6g4akvs4",
+"ar": "ستاندرد",
+"fr": "standard",
+"ok": "stândard",
+"note": "Resmi: معيار",
+"why": "معيار kitabi"
+},
+{
+"id": "k2dkrdhye",
+"ar": "ترجيع",
+"fr": "targee3",
+"ok": "targî'",
+"note": "Resmi: استرجاع",
+"why": "استرجاع resmi; halk 'ترجيع'"
+},
+{
+"id": "k8wvuhm0l",
+"ar": "صنف وحش",
+"fr": "sanf we7esh",
+"ok": "sanf vihiş",
+"tr": "Kötü / düşük kaliteli mal",
+"note": "Resmi: جودة منخفضة",
+"why": "Halk 'sanf vihiş' der"
+},
+{
+"id": "k3r5fy61e",
+"ar": "صنف عالي",
+"fr": "sanf 3ali",
+"ok": "sanf âli",
+"tr": "Yüksek kaliteli mal",
+"note": "Resmi: جودة عالية",
+"why": "Halk 'sanf âli' der"
+},
+{
+"id": "k1bz8by16",
+"ar": "كل سنة وانت طيب",
+"fr": "kol sana w enta tayyeb",
+"ok": "kull sene w inta tayyib",
+"tr": "Doğum günün kutlu olsun (nice yıllara)",
+"note": "Resmi: عيد ميلاد سعيد",
+"why": "Mısır'da doğum günü böyle kutlanır"
+},
+{
+"id": "katm10hms",
+"ar": "البوردينج",
+"fr": "el boarding",
+"ok": "il-bording",
+"note": "Resmi: بطاقة الصعود",
+"why": "Havalimanında halk 'البوردينج' der"
+},
+{
+"id": "k9bkin2g4",
+"ar": "اجتماع مستعجل",
+"fr": "egtema3 mesta3gel",
+"ok": "igtimâ' mista'gil",
+"note": "Resmi: اجتماع طارئ",
+"why": "طارئ Fusha"
+},
+{
+"id": "k767cutvh",
+"ar": "خلصنا قد إيه",
+"fr": "khallasna 2add eih",
+"ok": "hallasna add eyh",
+"tr": "Ne kadarını bitirdik? (tamamlanma oranı)",
+"note": "Resmi: نسبة الإنجاز",
+"why": "نسبة الإنجاز rapor dili"
+},
+{
+"id": "k39huzw9e",
+"ar": "تظبيط",
+"fr": "tazbeet",
+"ok": "tazbît",
+"tr": "Düzeltme / ayarlama",
+"note": "Resmi: تصحيح",
+"why": "Atölyede 'ظبّط' kullanılır"
+},
+{
+"id": "kanxap91k",
+"ar": "أبديت",
+"fr": "update",
+"ok": "abdeyt",
+"note": "Resmi: تحديث",
+"why": "Halk 'أبديت' der"
+},
+{
+"id": "k2jqxkn64",
+"ar": "نسخة",
+"fr": "noskha",
+"ok": "nusha",
+"tr": "Versiyon / nüsha",
+"note": "Resmi: إصدار",
+"why": "إصدار kitabi"
+},
+{
+"id": "k6yhsklse",
+"ar": "عِدّة",
+"fr": "3edda",
+"ok": "idde",
+"tr": "Ekipman / takım-taklavat",
+"note": "Resmi: معدات",
+"why": "Atölyede ekipman = 'العدة'"
+},
+{
+"id": "k5hxcag3p",
+"ar": "بلد",
+"fr": "balad",
+"ok": "balad",
+"note": "Resmi: دولة",
+"why": "Halk 'بلد' der"
+},
+{
+"id": "k45myaubu",
+"ar": "عينة ببلاش",
+"fr": "3ayyena bebalash",
+"ok": "ayyine bi-balâş",
+"note": "Resmi: عينة مجانية",
+"why": "مجانية resmi; 'ببلاش' halk dili"
+},
+{
+"id": "k1p4guzex",
+"ar": "أبويا",
+"fr": "abouya",
+"ok": "abûya",
+"note": "Resmi: والدي",
+"why": "والدي kibar/resmi"
+},
+{
+"id": "k7ruvt64l",
+"ar": "أمي",
+"fr": "ommi",
+"ok": "ummi",
+"note": "Resmi: والدتي",
+"why": "والدتي kibar/resmi"
+},
+{
+"id": "k61v4pqy1",
+"ar": "قسم الكواليتي",
+"fr": "2esm el kwaliti",
+"ok": "ism il-kuvâliti",
+"note": "Resmi: قسم الجودة",
+"why": "Atölyede kalite = كواليتي"
+},
+{
+"id": "kbfmusdz6",
+"ar": "تارجت الإنتاج",
+"fr": "target el entag",
+"ok": "târgit il-intâg",
+"note": "Resmi: هدف الإنتاج",
+"why": "Fabrikada hedef = تارجت"
+},
+{
+"id": "kdnewaydh",
+"ar": "جبنا التارجت",
+"fr": "gebna el target",
+"ok": "gibna t-târgit",
+"note": "Resmi: وصلنا الهدف",
+"why": "İşçi ağzı 'gibna t-târgit'"
+},
+{
+"id": "k6ykbh92p",
+"ar": "عطل في المكنة",
+"fr": "3otl fel makana",
+"ok": "utl fil-makana",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "k2hoy5bjy",
+"ar": "كمية الأوردر",
+"fr": "kammeyet el order",
+"ok": "kammiyyit il-ordır",
+"note": "Resmi: كمية الطلبية",
+"why": "Fabrikada sipariş = أوردر"
+},
+{
+"id": "k1roqiism",
+"ar": "الأمن الصناعي",
+"fr": "el amn el sena3i",
+"ok": "il-amn is-sinâ'i",
+"note": "Resmi: السلامة المهنية",
+"why": "Mısır fabrikalarında İSG'ye 'الأمن الصناعي' denir"
+},
+{
+"id": "k8802tmq3",
+"ar": "مهمات الوقاية",
+"fr": "mohemmat el we2aya",
+"ok": "muhimmât il-wi'âye",
+"note": "Resmi: معدات الحماية",
+"why": "Mısır fabrikasında yerleşik terim"
+},
+{
+"id": "kb5n9gqh8",
+"ar": "الكواليتي كنترول",
+"fr": "el kwaliti kontrol",
+"ok": "il-kuvâliti kontrol",
+"note": "Resmi: مراقبة الجودة",
+"why": "Atölyede QC böyle söylenir"
+},
+{
+"id": "kc7tbeui5",
+"ar": "عيب صناعة",
+"fr": "3eib sena3a",
+"ok": "ayb sinâ'a",
+"note": "Resmi: عيب مصنعي",
+"why": "Halk 'عيب صناعة' der"
+},
+{
+"id": "k8q8jiiev",
+"ar": "عيب في القماش",
+"fr": "3eib fel 2omash",
+"ok": "ayb fil-umâş",
+"tr": "Kumaş (dokuma) kusuru",
+"note": "Resmi: عيب في النسيج",
+"why": "النسيج teknik/kitabi; atölyede 'القماش'"
+},
+{
+"id": "ko8isgph",
+"ar": "تيست غسيل",
+"fr": "test ghaseel",
+"ok": "test ğasîl",
+"note": "Resmi: اختبار غسيل",
+"why": "Laboratuvarda 'تيست' denir"
+},
+{
+"id": "k3m1er7if",
+"ar": "تيست المتانة",
+"fr": "test el matana",
+"ok": "test il-matâne",
+"note": "Resmi: اختبار المتانة",
+"why": "Laboratuvarda 'تيست' denir"
+},
+{
+"id": "k6lh7btea",
+"ar": "مكنة التريكو",
+"fr": "makanet el triko",
+"ok": "makanit it-trîko",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "kcml9sct6",
+"ar": "مكنة الخياطة",
+"fr": "makanet el khiyata",
+"ok": "makanit il-hiyâta",
+"tr": "Dikiş makinesi (ayrıca: السنجر)",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "k8uhq2br0",
+"ar": "مكنة القص",
+"fr": "makanet el 2ass",
+"ok": "makanit il-ass",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "k4lo4jo9j",
+"ar": "مولد كهربا",
+"fr": "mowalled kahraba",
+"ok": "muvallid kahraba",
+"why": "كهرباء→كهربا (halk yazımı)"
+},
+{
+"id": "k7k0il32v",
+"ar": "كهربا المصنع",
+"fr": "kahraba el masna3",
+"ok": "kahraba l-masna'",
+"why": "كهرباء→كهربا (halk yazımı)"
+},
+{
+"id": "kdht7m47",
+"ar": "مية الصرف",
+"fr": "mayyet el sarf",
+"ok": "mayyit is-sarf",
+"note": "Resmi: مياه الصرف",
+"why": "مياه Fusha; halk 'مية'"
+},
+{
+"id": "k4836d3bh",
+"ar": "معالجة المية",
+"fr": "mo3algat el mayya",
+"ok": "mu'âlgit il-mayye",
+"note": "Resmi: معالجة المياه",
+"why": "مياه Fusha; halk 'مية'"
+},
+{
+"id": "k2w6lssut",
+"ar": "خامات ريسايكل",
+"fr": "khamat recycle",
+"ok": "hâmât risâykil",
+"note": "Resmi: خامات معاد تدويرها",
+"why": "Kitabi edilgen yapı; atölyede 'ريسايكل'"
+},
+{
+"id": "kcobytp47",
+"ar": "باقي الفلوس",
+"fr": "ba2i el felous",
+"ok": "bâ'i l-filûs",
+"tr": "Kalan para / tutar",
+"note": "Resmi: باقي المبلغ",
+"why": "المبلغ resmi"
+},
+{
+"id": "kc99amos4",
+"ar": "مقدّم",
+"fr": "mo2addam",
+"ok": "mu'addam",
+"tr": "Ön ödeme / peşinat",
+"note": "Resmi: دفعة مقدمة",
+"why": "Halk sadece 'مقدّم' der"
+},
+{
+"id": "k9el5w1nn",
+"ar": "عرض لكام يوم بس",
+"fr": "3ard le kam yom bas",
+"ok": "ard li-kâm yôm bass",
+"tr": "Sadece birkaç günlük teklif (sınırlı süreli)",
+"note": "Resmi: عرض لفترة محدودة",
+"why": "Reklam dili; halk böyle söyler"
+},
+{
+"id": "k93hwv7ji",
+"ar": "الحقوني!",
+"fr": "el7a2ouni!",
+"ok": "ilha'ûni!",
+"tr": "İmdat! / Yetişin!",
+"note": "Resmi: النجدة",
+"why": "Halk imdat için 'الحقوني' diye bağırır"
+},
+{
+"id": "k3h0exjz2",
+"ar": "مكان التجمع",
+"fr": "makan el tagammo3",
+"ok": "makân it-tagammu'",
+"note": "Resmi: منطقة التجمع",
+"why": "منطقة resmi tabela dili"
+},
+{
+"id": "k9twdqug5",
+"ar": "وقع من فوق",
+"fr": "we2e3 men fo2",
+"ok": "vi'i' min fô'",
+"tr": "Yukarıdan düştü (yüksekten düşme)",
+"note": "Resmi: السقوط من مكان مرتفع",
+"why": "Kitabi masdar yerine fiil"
+},
+{
+"id": "k1zc1r98w",
+"ar": "طفّي الحريقة",
+"fr": "taffi el 7aree2a",
+"ok": "taffi l-harî'a",
+"tr": "Yangını söndür",
+"note": "Resmi: إطفاء الحريق",
+"why": "Halk 'حريقة' ve 'طفّي' der"
+},
+{
+"id": "k8cvkamph",
+"ar": "ربنا معاك وبالتوفيق",
+"fr": "rabbena ma3ak w bel tawfee2",
+"ok": "rabbina ma'âk vi bit-tavfî'",
+"tr": "Allah yardımcın olsun, başarılar",
+"note": "Resmi: أتمنى لك التوفيق",
+"why": "أتمنالك çeviri kokuyor; halk dua kalıbı kullanır"
+},
+{
+"id": "k8h89e0r6",
+"ar": "يا رب نتقابل تاني على خير",
+"fr": "ya rab net2abel tani 3ala kheir",
+"ok": "ya rabb nit'âbil tâni ala heyr",
+"tr": "İnşallah yine hayırla görüşürüz",
+"why": "أتمنى kitabi; halk 'يا رب' der"
+},
+{
+"id": "k7f05jcal",
+"ar": "احنا إيد واحدة",
+"fr": "e7na eid wa7da",
+"ok": "ihna îd vahde",
+"tr": "Biz tek yürek / bir ekibiz",
+"why": "فريق kurumsal dil; halk 'إيد واحدة' der"
+},
+{
+"id": "k1fj0yg5b",
+"ar": "لازم نكلم المورد على التأخير",
+"fr": "lazem nkallem el mowarred 3al ta2kheer",
+"ok": "lâzim nikallim il-muvarrid ala t-te'hîr",
+"why": "بخصوص resmi; 'على' yeterli, 'نكلم' halk"
+},
+{
+"id": "kap9vggj1",
+"ar": "العميل بيسأل الأوردر وصل لفين",
+"fr": "el 3ameel beyes2al el order wesel le feen",
+"ok": "il-amîl biyis'al il-ordır vişil li-fîn",
+"tr": "Müşteri sipariş ne aşamada diye soruyor",
+"why": "حالة الأوردر resmi; 'وصل لفين' halk"
+},
+{
+"id": "kbaqhq0zl",
+"ar": "لازم نبعت للعميل أبديت كل أسبوع",
+"fr": "lazem neb3at lel 3ameel update kol esboo3",
+"ok": "lâzim nib'at lil-amîl abdeyt kull isbû'",
+"why": "تحديث kitabi; ofiste 'أبديت' denir"
+},
+{
+"id": "knmgbc37",
+"ar": "الخط وقف عشان فيه عطل",
+"fr": "el khat we2ef 3ashan fih 3otl",
+"ok": "il-hatt vi'if aşân fîh utl",
+"tr": "Hat arıza yüzünden durdu",
+"why": "بسبب→عشان, اتوقف→وقف"
+},
+{
+"id": "kbcm5h3kp",
+"ar": "الميكانيكي جه يصلح المكنة",
+"fr": "el mekaniki geh yesalla7 el makana",
+"ok": "il-mikanîki gih yisallah il-makana",
+"tr": "Tamirci makineyi tamir etmeye geldi",
+"why": "Atölyede tamirciye 'الميكانيكي' denir; ماكينة→مكنة"
+},
+{
+"id": "k75xfy35c",
+"ar": "المكنة عايزة قطع غيار",
+"fr": "el makana 3ayza 2eta3 gheyar",
+"ok": "il-makana âyze ita' ğiyâr",
+"tr": "Makineye yedek parça lazım",
+"why": "ماكينة→مكنة, daha doğal yapı"
+},
+{
+"id": "ke0mpdh0h",
+"ar": "الإنتاج زاد الشهر ده",
+"fr": "el entag zad el shahr da",
+"ok": "il-intâg zâd iş-şahr da",
+"tr": "Üretim bu ay arttı",
+"note": "Resmi: الإنتاجية",
+"why": "الإنتاجية teknik/kitabi"
+},
+{
+"id": "k8yb1kjto",
+"ar": "لازم نراجع خطة الأسبوع",
+"fr": "lazem nrag3 khettet el esboo3",
+"ok": "lâzim nirâgi' hittit il-isbû'",
+"why": "الأسبوعية sıfatı kitabi"
+},
+{
+"id": "k8rgwnb3v",
+"ar": "العمال لازم يتدربوا على المكنة الجديدة",
+"fr": "el 3ommal lazem yetdarrabo 3ala el makana el gedeeda",
+"ok": "il-ummâl lâzim yitdarrabu ala l-makana l-gidîde",
+"tr": "İşçilerin yeni makinede eğitilmesi lazım",
+"why": "ماكينة→مكنة, daha doğal fiil yapısı"
+},
+{
+"id": "k1f8ms8l6",
+"ar": "المدير عايز تقرير الإنتاج كله",
+"fr": "el modir 3ayez ta2reer el entag kollo",
+"ok": "il-mudîr âyiz ta'rîr il-intâg kullu",
+"why": "'تقرير كامل عن' resmi kalıp"
+},
+{
+"id": "k3k31b4ch",
+"ar": "مستنيين العميل يوافق على العينة",
+"fr": "mestanyeen el 3ameel ywafe2 3ala el 3ayyena",
+"ok": "mistanyîn il-amîl yivâfi' ala l-ayyine",
+"why": "في انتظار موافقة kitabi"
+},
+{
+"id": "kbzyriik2",
+"ar": "اتأخرنا عشان الخامة ناقصة",
+"fr": "et2akharna 3ashan el khama na2sa",
+"ok": "it'ahharna aşân il-hâme nâ'sa",
+"tr": "Hammadde eksik olduğu için geciktik",
+"why": "Masdar zinciri (تأخير بسبب نقص) kitabi"
+},
+{
+"id": "k8o2pg61o",
+"ar": "لازم نراجع كل حاجة قبل الشحن",
+"fr": "lazem nrag3 kol 7aga 2abl el sha7n",
+"ok": "lâzim nirâgi' kull hâge abl iş-şahn",
+"tr": "Sevkiyattan önce her şeyi kontrol etmemiz lazım",
+"why": "نتأكد من كل التفاصيل resmi"
+},
+{
+"id": "kcrtj00i1",
+"ar": "محتاجين نشغّل عمال جداد",
+"fr": "me7tageen nshaghghal 3ommal godad",
+"ok": "mihtâgîn nişağğal ummâl gudâd",
+"note": "Resmi: نوظف",
+"why": "نوظف ofis dili; halk 'نشغّل'"
+},
+{
+"id": "k1opc6t8y",
+"ar": "الإنترفيو بكرة",
+"fr": "el interview bokra",
+"ok": "il-intırviyu bukra",
+"note": "Resmi: المقابلة الشخصية",
+"why": "Halk 'إنترفيو' der"
+},
+{
+"id": "k3w18v6wh",
+"ar": "المرتب بيتحسب بالساعة",
+"fr": "el morattab beyet7eseb bel sa3a",
+"ok": "il-murattab biyithisib bis-sâ'a",
+"tr": "Maaş saat başına hesaplanıyor",
+"why": "على حسب الساعات uzun/resmi"
+},
+{
+"id": "k3eofe7y4",
+"ar": "الخط بيطلّع كام في اليوم؟",
+"fr": "el khat betalla3 kam fel yom?",
+"ok": "il-hatt biytalla' kâm fil-yôm?",
+"tr": "Hat günde kaç çıkarıyor? (üretim kapasitesi)",
+"note": "Resmi: الطاقة الإنتاجية كام؟",
+"why": "طاقة الإنتاج teknik/kitabi"
+},
+{
+"id": "k6lqa1cyz",
+"ar": "تارجت الشهر كام؟",
+"fr": "target el shahr kam?",
+"ok": "târgit iş-şahr kâm?",
+"note": "Resmi: هدف",
+"why": "Fabrikada hedef = تارجت"
+},
+{
+"id": "kdjte1vyq",
+"ar": "العميل عايز ييجي يشوف المصنع",
+"fr": "el 3ameel 3ayez yeegi yshoof el masna3",
+"ok": "il-amîl âyiz yîgi yişûf il-masna'",
+"tr": "Müşteri gelip fabrikayı görmek istiyor",
+"why": "يزور resmi"
+},
+{
+"id": "k5as6fmjo",
+"ar": "لازم ناخد إذن من المدير",
+"fr": "lazem nakhod ezn men el modir",
+"ok": "lâzim nâhud izn min il-mudîr",
+"tr": "Müdürden izin almamız lazım",
+"why": "تصريح resmi belge dili"
+},
+{
+"id": "k3xfp6qoy",
+"ar": "العمال ناقصين",
+"fr": "el 3ommal na2seen",
+"ok": "il-ummâl nâ'sîn",
+"tr": "İşçi eksik",
+"note": "Resmi: نقص في العمالة",
+"why": "العمالة kitabi"
+},
+{
+"id": "kac7o69mn",
+"ar": "لسه بنخطط",
+"fr": "lessa benkhattat",
+"ok": "lissa binhattat",
+"tr": "Hâlâ planlıyoruz",
+"why": "في مرحلة التخطيط kitabi"
+},
+{
+"id": "k9jp3nh2v",
+"ar": "العميل مش عاجبه الكواليتي",
+"fr": "el 3ameel mesh 3agbo el kwaliti",
+"ok": "il-amîl miş âgbu l-kuvâliti",
+"tr": "Müşteri kaliteyi beğenmiyor",
+"why": "راضي عن الجودة resmi; atölyede 'الكواليتي'"
+},
+{
+"id": "k5zz0fug9",
+"ar": "لازم نقعد مع الجماعة",
+"fr": "lazem no23od ma3a el gama3a",
+"ok": "lâzim nu'ud ma'a l-gamâ'a",
+"tr": "Ekiple oturup konuşmamız lazım",
+"why": "اجتماع مع الفريق kurumsal dil"
+},
+{
+"id": "kcnrbjr7a",
+"ar": "الجماعة شغالين كويس",
+"fr": "el gama3a shaghaleen kwayes",
+"ok": "il-gamâ'a şağğalîn kuveyyis",
+"why": "الفريق kurumsal; halk 'الجماعة'"
+},
+{
+"id": "k6t7umevs",
+"ar": "الشغل اتحسن الشهر ده",
+"fr": "el shoghl et7assen el shahr da",
+"ok": "iş-şuğl ithassin iş-şahr da",
+"tr": "İş bu ay düzeldi",
+"why": "الأداء kurumsal dil"
+},
+{
+"id": "kdq6urgfp",
+"ar": "لازم نعرف المشكلة جاية منين أصلاً",
+"fr": "lazem ne3raf el moshkela gaya mnein aslan",
+"ok": "lâzim ni'raf il-muşkile gâye minîn aslan",
+"tr": "Sorunun asıl nereden geldiğini bulmalıyız (kök neden)",
+"note": "Resmi: تحليل السبب الجذري",
+"why": "Teknik terim halk diline çevrildi"
+},
+{
+"id": "k3qmf0j0y",
+"ar": "الكواليتي أهم من السرعة",
+"fr": "el kwaliti aham men el sor3a",
+"ok": "il-kuvâliti ahamm min is-sur'a",
+"note": "Resmi: الجودة",
+"why": "Atölyede kalite = كواليتي"
+},
+{
+"id": "kdqqvjxjp",
+"ar": "لازم نكتب كل خطوة على الورق",
+"fr": "lazem nekteb kol khatwa 3al wara2",
+"ok": "lâzim niktib kull hatve al-wara'",
+"tr": "Her adımı kâğıda yazmalıyız (belgelemek)",
+"note": "Resmi: نوثق",
+"why": "نوثق kitabi"
+},
+{
+"id": "k19xttwy5",
+"ar": "فحص على الخط",
+"fr": "fa7s 3al khat",
+"ok": "fahs al-hatt",
+"tr": "Hat üzerinde kontrol (inline)",
+"note": "Resmi: فحص أثناء الإنتاج",
+"why": "أثناء Fusha"
+},
+{
+"id": "kd97wbhke",
+"ar": "الشهادة بتخلص إمتى؟",
+"fr": "el shehada betkhallas emta?",
+"ok": "iş-şihâde bitihlas imta?",
+"tr": "Sertifikanın süresi ne zaman bitiyor?",
+"note": "Resmi: سارية لحد إمتى",
+"why": "سارية resmi"
+},
+{
+"id": "k6gkknnw6",
+"ar": "العيب ده يعدّي",
+"fr": "el 3eib da ye3addi",
+"ok": "il-ayb da yi'addi",
+"tr": "Bu kusur geçer (kabul edilir)",
+"note": "Resmi: مقبول",
+"why": "Atölyede 'يعدّي' denir"
+},
+{
+"id": "k609axt3o",
+"ar": "عملنا احتياطات الأمان",
+"fr": "3amalna e7tyatat el aman",
+"ok": "amalna ihtiyâtât il-amân",
+"tr": "Güvenlik önlemlerini aldık",
+"why": "إجراءات اتاخدت resmi edilgen"
+},
+{
+"id": "k6vjvd8xy",
+"ar": "لازم نلبس مهمات الوقاية",
+"fr": "lazem nelbes mohemmat el we2aya",
+"ok": "lâzim nilbis muhimmât il-wi'âye",
+"note": "Resmi: معدات الحماية",
+"why": "Mısır fabrikasında yerleşik terim"
+},
+{
+"id": "k1r9g1w0u",
+"ar": "الطفاية فين؟",
+"fr": "el taffaya feen?",
+"ok": "it-taffâye fîn?",
+"why": "Halk kısaca 'الطفاية' der"
+},
+{
+"id": "kdnbqsa18",
+"ar": "مش عارف أقولك حصل إيه",
+"fr": "mesh 3aref a2ollak 7asal eih",
+"ok": "miş ârif a'ullak hasal eyh",
+"why": "أوصف kitabi"
+},
+{
+"id": "kc91ydrsc",
+"ar": "قول تاني كده؟",
+"fr": "2oul tani keda?",
+"ok": "ûl tâni kida?",
+"tr": "Bir daha söyler misin?",
+"why": "تعيد اللي قولته resmi/uzun"
+},
+{
+"id": "k9c6uc4m7",
+"ar": "يلا نبتدي",
+"fr": "yalla nebtedi",
+"ok": "yalla nibtidi",
+"why": "نبدأ Fusha; halk 'نبتدي'"
+},
+{
+"id": "k2pn9my8g",
+"ar": "هو ده بس؟",
+"fr": "howwa da bas?",
+"ok": "huvva da bass?",
+"tr": "Bu kadar mı?",
+"why": "ده كل حاجة؟ çeviri kokuyor"
+},
+{
+"id": "k36jtcwg6",
+"ar": "الناس هنا طيبين أوي",
+"fr": "el nas hena tayyebeen awi",
+"ok": "in-nâs hina tayyibîn ovi",
+"tr": "Buradaki insanlar çok iyi",
+"why": "لطيفة kibar/kitabi"
+},
+{
+"id": "k2x6qv1wt",
+"ar": "عايز أتفسح في أماكن جديدة",
+"fr": "3ayez atfassa7 fi amaken gedeeda",
+"ok": "âyiz atfassah fi amâkin gidîde",
+"tr": "Yeni yerler gezmek istiyorum",
+"why": "أزور resmi; halk 'أتفسح'"
+},
+{
+"id": "k3h6ahssc",
+"ar": "أنا محتار",
+"fr": "ana me7tar",
+"ok": "ana mihtâr",
+"tr": "Kararsızım / karar veremiyorum",
+"why": "أقرر kitabi"
+},
+{
+"id": "k9tuk2k38",
+"ar": "ممكن تشيل معايا ده؟",
+"fr": "momken tsheel ma3aya da?",
+"ok": "mumkin tişîl ma'âya da?",
+"why": "أحمل Fusha; halk 'شال'"
+},
+{
+"id": "k17e57jt0",
+"ar": "خد بالك من المكنة دي",
+"fr": "khod balak men el makana di",
+"ok": "hud bâlak min il-makana di",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "k94lj6bcm",
+"ar": "حاول تفهمني",
+"fr": "7awel tefhamni",
+"ok": "hâvil tifhamni",
+"tr": "Beni anlamaya çalış",
+"why": "وجهة نظري kitabi"
+},
+{
+"id": "k18hf61xg",
+"ar": "نضّف المكان قبل ما تمشي",
+"fr": "naddaf el makan 2abl ma temshi",
+"ok": "naddaf il-makân abl ma timşi",
+"why": "نظف→نضّف (halk telaffuz/yazım)"
+},
+{
+"id": "kce28bttw",
+"ar": "رجّع العدة مكانها",
+"fr": "raggaa3 el 3edda makanha",
+"ok": "raggâ' il-idde makânha",
+"tr": "Takımları yerine geri koy",
+"why": "رتب الأدوات resmi; atölyede 'العدة'"
+},
+{
+"id": "k266yd91e",
+"ar": "اتأكد إن كله تمام قبل ما تمشي",
+"fr": "et2akked enn kollo tamam 2abl ma temshi",
+"ok": "it'akkid inn kullu tamâm abl ma timşi",
+"tr": "Gitmeden önce her şeyin yolunda olduğundan emin ol",
+"why": "تسيب المكان uzun; daha kısa ve doğal"
+},
+{
+"id": "k8qb0rn0g",
+"ar": "القماش لسه في الصباغة",
+"fr": "el 2omash lessa fel sebagha",
+"ok": "il-umâş lissa fis-sibâğa",
+"why": "في مرحلة kitabi"
+},
+{
+"id": "k54301u2v",
+"ar": "القطع البايظة زادت",
+"fr": "el 2eta3 el bayza zadet",
+"ok": "il-ita' il-bâyze zâdit",
+"tr": "Bozuk (kusurlu) parçalar arttı",
+"note": "Resmi: القطع المعيبة",
+"why": "المعيبة kitabi"
+},
+{
+"id": "k3cqcsi69",
+"ar": "كام مكنة شغالة؟",
+"fr": "kam makana shaghala?",
+"ok": "kâm makana şağğâle?",
+"tr": "Kaç makine çalışıyor?",
+"why": "عدد الماكينات resmi"
+},
+{
+"id": "k10vqbmpx",
+"ar": "فيه مكنة بايظة من امبارح",
+"fr": "fih makana bayza men embare7",
+"ok": "fîh makana bâyze min imbârih",
+"why": "ماكينة عطلانة→مكنة بايظة"
+},
+{
+"id": "k9zo5p3qj",
+"ar": "الكواليتي رفضت الشحنة",
+"fr": "el kwaliti rafadet el sha7na",
+"ok": "il-kuvâliti rafadit iş-şahne",
+"note": "Resmi: قسم الجودة",
+"why": "Atölyede kalite bölümü = الكواليتي"
+},
+{
+"id": "k7zed0e75",
+"ar": "مكنة خياطة",
+"fr": "makanet khiyata",
+"ok": "makanit hiyâta",
+"tr": "Dikiş makinesi (ayrıca: سنجر)",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "kbtxdulv4",
+"ar": "قصاقيص قماش",
+"fr": "2osa2ees 2omash",
+"ok": "usa'îs umâş",
+"tr": "Kumaş kırpıntıları",
+"why": "قصاصة kitabi; halk 'قصاقيص'"
+},
+{
+"id": "k9bz8mjj6",
+"ar": "المكنة واقفة",
+"fr": "el makana wa2fa",
+"ok": "il-makana vâ'fe",
+"why": "ماكينة→مكنة"
+},
+{
+"id": "k90pu6m4c",
+"ar": "تارجت النهارده كام؟",
+"fr": "target el naharda kam?",
+"ok": "târgit in-nahârda kâm?",
+"tr": "Bugünün hedefi kaç?",
+"note": "Resmi: الهدف اليومي",
+"why": "Fabrikada hedef = تارجت"
+},
+{
+"id": "kc9ga0ma5",
+"ar": "الخامة ناقصة",
+"fr": "el khama na2sa",
+"ok": "il-hâme nâ'sa",
+"tr": "Hammadde eksik",
+"why": "فيه نقص في kitabi"
+},
+{
+"id": "k4q6sli9v",
+"ar": "المخزن جهز الأوردر",
+"fr": "el makhzan gahhez el order",
+"ok": "il-mahzen gahhiz il-ordır",
+"note": "Resmi: الطلبية",
+"why": "Fabrikada sipariş = أوردر"
+},
+{
+"id": "kba4esuhe",
+"ar": "الزبون وافق على العينة",
+"fr": "el zeboon wafe2 3ala el 3ayyena",
+"ok": "iz-zibûn vâfi' ala l-ayyine",
+"tr": "Müşteri numuneyi onayladı",
+"why": "موافق عليها من edilgen yapı kitabi"
+},
+{
+"id": "k5m4h8xd5",
+"ar": "لازم نشيّك على الكواليتي تاني",
+"fr": "lazem nshayyek 3ala el kwaliti tani",
+"ok": "lâzim nişayyik ala l-kuvâliti tâni",
+"note": "Resmi: نراجع الجودة",
+"why": "Atölyede 'نشيّك' ve 'الكواليتي' denir"
+},
+{
+"id": "k1032vcjs",
+"ar": "الغرزة مش مظبوطة",
+"fr": "el ghorza mesh mazboota",
+"ok": "il-ğurza miş mazbûta",
+"tr": "Dikiş düzgün değil",
+"why": "سليمة kitabi; halk 'مظبوطة'"
+},
+{
+"id": "k3mtxmq7l",
+"ar": "البس مهمات الوقاية",
+"fr": "elbes mohemmat el we2aya",
+"ok": "ilbis muhimmât il-wi'âye",
+"tr": "Koruyucu ekipmanını giy",
+"note": "Resmi: معدات الأمان",
+"why": "Mısır fabrikasında yerleşik terim"
+},
+{
+"id": "kb9ykverx",
+"ar": "روح على المكنة التانية",
+"fr": "rou7 3ala el makana el tanya",
+"ok": "rûh ala l-makana t-tânye",
+"why": "اتنقل resmi; ماكينة→مكنة"
+},
+{
+"id": "ka79e6347",
+"ar": "الأوردر جاهز للشحن",
+"fr": "el order gahez lel sha7n",
+"ok": "il-ordır gâhiz liş-şahn",
+"note": "Resmi: الطلبية",
+"why": "Fabrikada sipariş = أوردر"
+},
+{
+"id": "kdy5px7mw",
+"ar": "لازم ناخد موافقة من فوق",
+"fr": "lazem nakhod mwaf2a men fo2",
+"ok": "lâzim nâhud muvaf'a min fô'",
+"tr": "Yukarıdan (üst yönetimden) onay almamız lazım",
+"note": "Resmi: الإدارة العليا",
+"why": "الإدارة العليا kurumsal dil; halk 'من فوق'"
+},
+{
+"id": "k1sslbu8h",
+"ar": "شؤون العاملين فين؟",
+"fr": "sho2oon el 3amleen feen?",
+"ok": "şu'ûn il-amlîn fîn?",
+"tr": "Personel (İK) bölümü nerede?",
+"note": "Resmi: الموارد البشرية",
+"why": "Mısır fabrikalarında İK = شؤون العاملين"
+},
+{
+"id": "kbau3gzvy",
+"ar": "عايز أشتكي",
+"fr": "3ayez ashteki",
+"ok": "âyiz aştiki",
+"tr": "Şikâyet etmek istiyorum",
+"why": "أقدم شكوى resmi"
+},
+{
+"id": "k7hkt33rm",
+"ar": "ممكن توصلوها لحد المصنع؟",
+"fr": "momken twasslooha le7add el masna3?",
+"ok": "mumkin tivassalûha li-hadd il-masna'?",
+"tr": "Fabrikaya kadar getirir misiniz?",
+"why": "محتاج توصيل çeviri kokuyor"
+},
+{
+"id": "k3doyso2k",
+"ar": "الجرح ابتدى يخف",
+"fr": "el gor7 ebtada ykhef",
+"ok": "il-gurh ibtada yihiff",
+"why": "بدأ Fusha; halk 'ابتدى'"
+},
+{
+"id": "k4llby75",
+"ar": "أنا دايخ",
+"fr": "ana dayekh",
+"ok": "ana dâyih",
+"tr": "Başım dönüyor",
+"why": "بحس بدوخة çeviri kokuyor"
+},
+{
+"id": "k56uugmcp",
+"ar": "البيت عايز يتنضف",
+"fr": "el beit 3ayez yetnaddaf",
+"ok": "il-bêt âyiz yitnaddaf",
+"why": "محتاج تنظيف masdarlı yapı kitabi"
+},
+{
+"id": "k3hkqtdrn",
+"ar": "ممكن موبايلك ثانية؟",
+"fr": "momken mobilak sanya?",
+"ok": "mumkin mobâylak sânye?",
+"tr": "Telefonunu bir saniye alabilir miyim?",
+"why": "أستخدم resmi"
+},
+{
+"id": "k9d93fitl",
+"ar": "الطيارة بتاعتي متأخرة",
+"fr": "el tayyara beta3ti met2akhara",
+"ok": "it-tayyâra bitâ'ti mit'ahhara",
+"tr": "Uçağım rötarlı",
+"why": "عندي تأخير في الرحلة çeviri kokuyor"
+},
+{
+"id": "k4ee8mdgw",
+"ar": "أنا مضغوط أوي",
+"fr": "ana madghout awi",
+"ok": "ana madğût ovi",
+"tr": "Çok baskı altındayım / bunaldım",
+"why": "تحت ضغط çeviri kalıbı"
+},
+{
+"id": "kdd8an2uo",
+"ar": "إن شاء الله الدنيا هتتحسن",
+"fr": "en shaa2 allah el donya hatet7assen",
+"ok": "inşallah id-dunya hatithassin",
+"tr": "İnşallah işler düzelecek",
+"why": "الأمور ve واثق إن kitabi"
+},
+{
+"id": "kdbbxap08",
+"ar": "أنا مرتاح دلوقتي، متشكر",
+"fr": "ana merta7 dilwa2ti, motshakker",
+"ok": "ana mirtâh dilva'ti, mutşakkir",
+"why": "شكراً→متشكر"
+},
+{
+"id": "k3h34t4zk",
+"ar": "محتاج أغيّر جو",
+"fr": "me7tag aghayyar gaw",
+"ok": "mihtâg ağayyar gav",
+"tr": "Hava değişimine ihtiyacım var",
+"why": "حاسس إني محتاج تغيير çeviri kokuyor"
+},
+{
+"id": "k3re8s5mq",
+"ar": "أنا زعلان أوي",
+"fr": "ana za3lan awi",
+"ok": "ana za'lân ovi",
+"tr": "Çok üzgünüm",
+"note": "Resmi: حزين",
+"why": "حزين kitabi; halk 'زعلان'"
+},
+{
+"id": "k2jz6g7u1",
+"ar": "وقت البريك",
+"fr": "wa2t el break",
+"ok": "va't il-breyk",
+"why": "Fabrikada mola = بريك"
+},
+{
+"id": "k5rkqxte6",
+"ar": "عشر تلاف",
+"fr": "3ashar talaf",
+"ok": "aşar talâf",
+"note": "Resmi: عشرة آلاف",
+"why": "Halk telaffuzu (bkz. تلات تلاف)"
+}
+]

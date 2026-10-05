@@ -54,7 +54,8 @@
     sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     moon: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
-    verb: '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>'
+    verb: '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+    fab: '<path d="M3 21V10l5 3V10l5 3V6l8 4v11z"/><path d="M7 17h2M12 17h2M17 17h2"/>'
   };
   const ic = (n, cls) => `<svg class="i${cls ? ' ' + cls : ''}" viewBox="0 0 24 24" aria-hidden="true">${IC[n] || ''}</svg>`;
 
@@ -85,7 +86,7 @@
   });
   // Tek kelimeler önce, sonra kısa ifadeler / Single words first, then short phrases
   // Kadına özel söyleyişler ve uzun açıklamalar geriye / Feminine-only forms and long glosses go last
-  const SRC_RANK = { a1: 0, conv: 1, core: 2, phr: 3, alf: 4 };
+  const SRC_RANK = { fab: 0, a1: 0, conv: 1, core: 2, phr: 3, alf: 4 };
   const rank = e => (e.k === 'w' ? 0 : 1) * 1000 + (/\((k|kadın|kadına|dişil)/i.test(e.tr) ? 300 : 0) + (SRC_RANK[e.src] || 0) * 20 + Math.min(19, (e.tr || '').length / 3);
   // Aranan anlam kaydın birincil (ilk) anlamıysa öne alınır / Entries whose first meaning is the key come first
   IX.tr.forEach((a, k) => a.sort((x, y) => {
@@ -220,7 +221,7 @@
 
   // ── Yönlendirme / Routing ──
   const NAV = [
-    ['', 'home', 'Ana Sayfa'], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
+    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
     ['h', 'Öğren'], ['kartlar', 'cards', 'Kelime Kartları'], ['alfabe', 'abc', 'Alfabe', () => ((C.alphabet || {}).letters || []).length],
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
@@ -265,6 +266,7 @@
     const learned = Object.values(cards).filter(c => c.box >= 2).length;
     const due = dueCount();
     const mods = [
+      ['fabrika', '🧵', '#FBF1DA', 'Fabrika Dili', 'Konfeksiyon atölyesinin halk dili: makine, hat, kalite, vardiya'],
       ['ceviri', '🔁', '#DDF4F1', 'Çeviri', 'Türkçe ⇄ Mısır lehçesi, kelime kelime açıklamalı'],
       ['sozluk', '📖', '#FBF1DA', 'Sözlük', E.length.toLocaleString('tr-TR') + ' kelime ve ifade'],
       ['kartlar', '🃏', '#E8EEFB', 'Kelime Kartları', due ? due + ' kart tekrar bekliyor' : '3 kutu yöntemiyle ezberle'],
@@ -425,7 +427,26 @@
       const out = $('#trOut'), more = $('#trMore');
       if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri burada görünecek.</div>`; more.innerHTML = ''; return; }
       let main = r.exact[0], approx = false;
-      if (!main && r.similar.length && !r.gloss.every(g => g.e)) { main = r.similar[0]; approx = true; r.similar = r.similar.slice(1); }
+      if (!main && r.similar.length && !r.gloss.every(g => g.e)) {
+        // En yakın ifade, sözlükte bulunan asıl kelimeleri de içermeli (ör. "avans") / The closest phrase must contain the known content words
+        const need = r.gloss.filter(g => g.e).map(g => g.src.split(' ')).flat().filter(w => w.length > 2);
+        const has = (e, w) => e._tr.split(' ').some(t => t.startsWith(w.slice(0, Math.max(3, w.length - 2))));
+        let cand = r.similar.find(e => need.every(w => has(e, w)));
+        // Örnek cümleler de aranır / Example sentences are searched too
+        if (!cand && dir === 'tr') {
+          const qt = normTr(text).split(' ').filter(w => w.length > 1);
+          let best = null, bs = 0;
+          E.forEach(e => {
+            if (!e.ex || !e.ex.tr) return;
+            const x = { _tr: normTr(e.ex.tr) };
+            if (!need.every(w => has(x, w))) return;
+            const sc = qt.filter(w => has(x, w)).length / Math.max(qt.length, x._tr.split(' ').length);
+            if (sc > bs) { bs = sc; best = e; }
+          });
+          if (best && bs >= .5) cand = { id: best.id, ar: best.ex.ar, ok: best.ex.ok, fr: best.ex.fr, tr: best.ex.tr, cat: best.cat, _tr: normTr(best.ex.tr) };
+        }
+        if (cand) { main = cand; approx = true; r.similar = r.similar.filter(e => e !== cand); }
+      }
       if (main) {
         out.innerHTML = dir === 'tr'
           ? `<div class="ar">${esc(main.ar)}</div><div class="ok">${esc(main.ok)}</div><div class="fr">${esc(main.fr)}</div><div style="display:flex;gap:8px;margin-top:6px">${playBtn(main.ar)}${favBtn(main)}<button class="icon-btn" data-copy="${esc(main.ar)}" title="Kopyala">${ic('copy')}</button></div><span class="tr-src${approx ? ' mt' : ''}"><span class="dot"></span>${approx ? 'En yakın ifade: “' + esc(main.tr) + '”' : 'Portal sözlüğü'} · ${esc(main.cat)}</span>`
@@ -456,9 +477,23 @@
     inp.focus();
   };
 
+  // ── Fabrika dili / Garment-factory shop-floor language ──
+  ROUTES.fabrika = function () {
+    const F = E.filter(e => e.src === 'fab');
+    const subs = new Map();
+    F.forEach(e => { const k = e.sub || 'Genel'; if (!subs.has(k)) subs.set(k, []); subs.get(k).push(e); });
+    const EM = { 'Makineler & Ekipman': '🪡', 'Kumaş & Malzeme': '🧶', 'Kesim': '✂️', 'Dikim Hattı': '🧵', 'Ütü & Paketleme': '📦', 'Kalite Kontrol': '🔍', 'Üretim & Hedef': '🎯', 'Vardiya & Devam': '⏰', 'Maaş & Prim': '💵', 'İş Güvenliği': '🦺', 'Usta–İşçi Konuşmaları': '🗣️', 'Halk Deyimleri': '🇪🇬' };
+    const quick = F.filter(e => e.k === 'p').slice(0, 12);
+    view.innerHTML = pageHead('🧵 Fabrika Dili', 'Konfeksiyon atölyesinde ustaların ve işçilerin gerçekten konuştuğu Mısır halk dili: makineler, dikim hattı, kalite, hedef, vardiya, maaş ve günlük atölye konuşmaları.', `<a class="btn gold" href="#/kartlar/${encodeURIComponent('Konfeksiyon Fabrikası')}" id="fabCards">${ic('cards')} Kartlarla çalış</a>`) +
+      (F.length ? `<div class="grid g3">${Array.from(subs.entries()).map(([k, list]) => `<a class="card mod" href="#/sozluk?cat=${encodeURIComponent('Konfeksiyon Fabrikası')}&sub=${encodeURIComponent(k)}"><div class="ic" style="background:var(--gold-soft)">${EM[k] || '🧵'}</div><div><b>${esc(k)}</b><small>${list.length} kelime ve ifade</small><small class="ar" style="font-size:16px;margin-top:4px;text-align:left">${esc(list.slice(0, 3).map(e => e.ar).join(' · '))}</small></div></a>`).join('')}</div>
+      ${quick.length ? `<div class="sec-h"><h2>🗣️ Atölyede en çok duyacağın cümleler</h2></div><div class="grid gauto">${quick.map(e => entryHtml(e)).join('')}</div>` : ''}` : `<div class="card empty"><b>🧵</b>Fabrika dili içeriği hazırlanıyor.</div>`);
+    const fc = $('#fabCards');
+    if (fc) fc.onclick = ev => { ev.preventDefault(); const ids = F.map(e => e.id); flashSession({ key: 'fabrika', cat: 'Konfeksiyon Fabrikası', em: '🧵', ids: ids }); };
+  };
+
   // ── Sözlük / Dictionary ──
   ROUTES.sozluk = function (a, q) {
-    const cat = q.cat || '', lv = q.lv || '', kind = q.k || '';
+    const cat = q.cat || '', lv = q.lv || '', kind = q.k || '', sub = q.sub || '';
     const counts = {};
     E.forEach(e => counts[e.cat] = (counts[e.cat] || 0) + 1);
     view.innerHTML = pageHead('Sözlük', 'Mısır lehçesi kelime ve ifadeler. Türkçe, Arapça ya da Franko yazarak arayın.',
@@ -478,7 +513,7 @@
     const filter = () => {
       const s = $('#dIn').value.trim();
       let base = s ? search(s, 400) : E;
-      list = base.filter(e => (!cat || e.cat === cat) && (!lv || e.lv === lv) && (!kind || e.k === kind));
+      list = base.filter(e => (!cat || e.cat === cat) && (!sub || e.sub === sub) && (!lv || e.lv === lv) && (!kind || e.k === kind));
       draw(true);
     };
     let tm;
@@ -491,8 +526,9 @@
   const DAY = 864e5, INTERVAL = { 1: 0, 2: 2 * DAY, 3: 7 * DAY };
   const deckList = () => {
     const m = new Map();
-    E.forEach(e => { if (e.k !== 'w') return; const key = (e.src === 'a1' ? 'A1 · ' : '') + e.cat; if (!m.has(key)) m.set(key, { key: key, cat: e.cat, a1: e.src === 'a1', em: e.em && e.src === 'a1' ? e.em : catEmoji(e.cat), ids: [] }); m.get(key).ids.push(e.id); });
-    return Array.from(m.values()).sort((x, y) => (y.a1 - x.a1) || x.cat.localeCompare(y.cat, 'tr'));
+    E.forEach(e => { if (e.k !== 'w' && e.src !== 'fab') return; const key = (e.src === 'a1' ? 'A1 · ' : '') + e.cat + (e.sub ? ' · ' + e.sub : ''); if (!m.has(key)) m.set(key, { key: key, cat: e.sub ? e.cat + ' · ' + e.sub : e.cat, a1: e.src === 'a1', em: e.em && e.src === 'a1' ? e.em : catEmoji(e.cat), ids: [] }); m.get(key).ids.push(e.id); });
+    const fabFirst = d => /^Konfeksiyon/.test(d.cat) ? 0 : 1;
+    return Array.from(m.values()).sort((x, y) => fabFirst(x) - fabFirst(y) || (y.a1 - x.a1) || x.cat.localeCompare(y.cat, 'tr'));
   };
   const isDue = id => { const c = cards[id]; return !!c && Date.now() >= (c.t || 0) + INTERVAL[c.box || 1]; };
   const dueCount = () => Object.keys(cards).filter(id => byId.has(id) && isDue(id)).length;

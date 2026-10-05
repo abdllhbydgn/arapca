@@ -87,7 +87,16 @@ def collect():
 
 def speakable(t):
     # "مشي / بمشي" gibi alternatifler kısa duraklamayla okunur / Alternatives are read with a short pause
-    return re.sub(r'\s*/\s*', '، ', t)
+    t = re.sub(r'\s*/\s*', '، ', t)
+    # Kahire halk ağzı: ق yutulur, hemze okunur (قلم → 'alam). Yazı değişmez, yalnız ses /
+    # Cairo street pronunciation: ق is a glottal stop. Only the audio input changes, not the displayed text
+    t = t.replace('ق', 'أ')
+    return t
+
+
+def rv(t):
+    # Seslendirme girdisinin özeti; kural değişince ilgili sesler yeniden üretilir / Hash of the TTS input
+    return key(speakable(t) + '|' + VOICE + '|' + RATE).split('-')[0]
 
 
 async def main():
@@ -100,7 +109,13 @@ async def main():
         if k in keys and keys[k] != t:
             print('UYARI: anahtar çakışması', k, file=sys.stderr)
         keys[k] = t
-    todo = [(k, t) for k, t in keys.items() if not os.path.exists(os.path.join(AUDIO, k + '.mp3'))]
+    try:
+        old_rv = json.load(open(os.path.join(AUDIO, 'index.json'))).get('rv', {})
+    except Exception:
+        old_rv = {}
+    # Eski kayıtlarda rv yoksa: yalnız ق içerenler yeniden seslendirilir / Without rv: only texts with ق are redone
+    stale = lambda k, t: (old_rv.get(k) != rv(t)) if old_rv else ('ق' in t)
+    todo = [(k, t) for k, t in keys.items() if not os.path.exists(os.path.join(AUDIO, k + '.mp3')) or stale(k, t)]
     if LIMIT:
         todo = todo[:LIMIT]
     print(f'{len(keys)} metin, {len(todo)} yeni seslendirilecek ({VOICE})')
@@ -139,7 +154,7 @@ async def main():
     if removed:
         print(f'{removed} kullanılmayan ses silindi')
     have = sorted(f[:-4] for f in os.listdir(AUDIO) if f.endswith('.mp3'))
-    json.dump({'voice': VOICE, 'keys': have}, open(os.path.join(AUDIO, 'index.json'), 'w'), separators=(',', ':'))
+    json.dump({'voice': VOICE, 'keys': have, 'rv': {k: rv(keys[k]) for k in have if k in keys}}, open(os.path.join(AUDIO, 'index.json'), 'w'), separators=(',', ':'))
     print(f'bitti: {done} yeni, {fail} hata, toplam {len(have)} ses')
 
 
