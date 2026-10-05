@@ -15,7 +15,7 @@
   // ── Depolama / Storage ──
   const store = {
     get(k, d) { try { const v = localStorage.getItem('masri.' + k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
-    set(k, v) { try { localStorage.setItem('masri.' + k, JSON.stringify(v)); } catch (e) {} }
+    set(k, v) { try { localStorage.setItem('masri.' + k, JSON.stringify(v)); } catch (e) {} try { if (window.MASRI_ONSET) window.MASRI_ONSET(k, v); } catch (e) {} }
   };
   let favs = new Set(store.get('favs', []));
   let cards = store.get('cards', {});
@@ -98,6 +98,13 @@
     sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     moon: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
+    users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/>',
+    shield: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
+    save: '<path d="M5 3h11l3 3v15H5z"/><path d="M8 3v6h8V3M8 21v-7h8v7"/>',
+    mega: '<path d="M3 10v4h4l6 4V6L7 10z"/><path d="M17 8a5 5 0 0 1 0 8M20 5a9 9 0 0 1 0 14"/>',
+    lock: '<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
+    out: '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h11"/>',
     verb: '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
     fab: '<path d="M3 21V10l5 3V10l5 3V6l8 4v11z"/><path d="M7 17h2M12 17h2M17 17h2"/>'
   };
@@ -278,7 +285,9 @@
       <div class="side-mini"><span>🔥 ${s.n} gün seri</span><span>🎯 Bugün ${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL}</span></div>`;
   }
   function buildNav() {
-    $('#nav').innerHTML = NAV.map(n => n[0] === 'h' ? `<div class="nav-h">${n[1]}</div>` : `<a href="#/${n[0]}" data-r="${n[0]}" style="--nc:${NAV_COL[n[0]] || '#E9C46A'}"><span class="ni">${ic(n[1])}</span><span>${n[2]}</span>${n[3] ? `<span class="cnt">${n[3]()}</span>` : ''}</a>`).join('');
+    // Üyelik modülü menüyü süzebilir (kilit, yönetim bölümü) / The membership module may filter the menu (locks, admin section)
+    const items = window.MASRI_NAV_FILTER ? window.MASRI_NAV_FILTER(NAV.slice()) : NAV;
+    $('#nav').innerHTML = items.map(n => n[0] === 'h' ? `<div class="nav-h">${n[1]}</div>` : `<a href="#/${n[0]}" data-r="${n[0]}" style="--nc:${NAV_COL[n[0]] || n[5] || '#E9C46A'}"><span class="ni">${ic(n[1])}</span><span>${n[2]}</span>${n[4] === 'lock' ? '<span class="lockb" title="Üyelere özel">🔒</span>' : n[3] ? `<span class="cnt">${n[3]()}</span>` : ''}</a>`).join('');
     $('#bnav').innerHTML = [['', 'home', 'Ana'], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük'], ['kartlar', 'cards', 'Kartlar']].map(n => `<a href="#/${n[0]}" data-r="${n[0]}">${ic(n[1])}<span>${n[2]}</span></a>`).join('') + `<button id="bMore">${ic('more')}<span>Daha</span></button>`;
     buildSideCard();
   }
@@ -293,9 +302,11 @@
   const ROUTES = {};
   function render() {
     const { r, a, q } = parseHash();
-    $$('#nav a, #bnav a').forEach(x => x.classList.toggle('on', x.dataset.r === r));
+    $$('#nav a, #bnav a').forEach(x => x.classList.toggle('on', x.dataset.r === r || (x.dataset.r && x.dataset.r.indexOf('/') > 0 && location.hash.indexOf('#/' + x.dataset.r) === 0)));
     closeSide();
-    (ROUTES[r] || ROUTES[''])(a, q);
+    if (window.MASRI_GATE && !window.MASRI_GATE(r) && ROUTES.__locked) ROUTES.__locked(r, a, q);
+    else (ROUTES[r] || ROUTES[''])(a, q);
+    try { if (window.MASRI_AFTER_RENDER) window.MASRI_AFTER_RENDER(r, a, q); } catch (e) {}
     if (!render._first) window.scrollTo(0, 0);
     render._first = false;
     document.title = ($('.ph h1', view) || {}).textContent ? $('.ph h1', view).textContent + ' | Arapça Öğren' : 'Arapça Öğren | Mısır Lehçesi Portalı';
@@ -1024,6 +1035,12 @@
   setSpeedBtn();
   $('#themeBtn').onclick = () => { const dark = setThemeIcon(); const t = dark ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); store.set('theme', t); try { localStorage.setItem('masri.theme', t); } catch (e) {} setThemeIcon(); };
 
+  // Üyelik modülü (members.js) için arayüz / API for the membership module
+  window.MASRI_APP = {
+    store: store, ROUTES: ROUTES, view: view, esc: esc, ic: ic, pageHead: pageHead, toast: toast, go: go, confetti: confetti,
+    buildNav: buildNav, render: render, xpState: xpState, lvlOf: lvlOf, lvlName: lvlName,
+    reloadState: () => { favs = new Set(store.get('favs', [])); cards = store.get('cards', {}); }
+  };
   buildNav();
   initSearch();
   setThemeIcon();
