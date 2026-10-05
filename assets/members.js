@@ -10,7 +10,7 @@
   const CFG = window.MASRI_FB;
   if (!A || !CFG || !CFG.apiKey) return;
 
-  const ADMIN = 'baydogan.sevtap@gmail.com';
+  const ADMINS = ['baydogan.sevtap@gmail.com', 'abdllhbydgn@gmail.com'];
   const MEMBER_ROUTES = ['kartlar', 'alistirma', 'test', 'favoriler'];
   const SYNC_KEYS = ['xp', 'cards', 'favs', 'wb', 'tests', 'streak'];
   const SDK = 'https://www.gstatic.com/firebasejs/10.13.2/';
@@ -38,10 +38,27 @@
     b.hidden = false;
     if (ST.user) {
       const nm = (ST.prof && ST.prof.name) || ST.user.displayName || ST.user.email || '?';
-      b.innerHTML = `<span class="avatar${isAdmin() ? ' adm' : ''}">${esc(nm.trim().charAt(0).toLocaleUpperCase('tr'))}</span>`;
+      b.innerHTML = avatar(nm, myPhoto(), isAdmin() ? 'adm' : '');
       b.title = nm + (isAdmin() ? ' (Admin)' : ST.role === 'pending' ? ' (onay bekliyor)' : '');
       b.href = '#/hesabim';
     } else { b.innerHTML = ic('user'); b.title = 'Giriş yap / Üye ol'; b.href = '#/giris'; }
+  }
+  // Profil fotoğrafı (yoksa baş harf) / Profile photo (initial as fallback)
+  const avatar = (name, photo, cls) => `<span class="avatar${cls ? ' ' + cls : ''}">${photo ? `<img src="${esc(photo)}" alt="">` : esc(String(name || '?').trim().charAt(0).toLocaleUpperCase('tr'))}</span>`;
+  const myPhoto = () => (ST.prof && ST.prof.photo) || (ST.user && ST.user.photoURL) || '';
+  // Seçilen resmi 192×192 JPEG'e küçült (bulutta ~15 KB) / Shrink to a 192px square JPEG
+  function shrinkPhoto(file) {
+    return new Promise((ok, no) => {
+      const img = new Image(), url = URL.createObjectURL(file);
+      img.onload = () => {
+        const n = 192, c = document.createElement('canvas'), m = Math.min(img.width, img.height);
+        c.width = c.height = n;
+        c.getContext('2d').drawImage(img, (img.width - m) / 2, (img.height - m) / 2, m, m, 0, 0, n, n);
+        URL.revokeObjectURL(url); ok(c.toDataURL('image/jpeg', 0.82));
+      };
+      img.onerror = () => { URL.revokeObjectURL(url); no(new Error('Resim okunamadı')); };
+      img.src = url;
+    });
   }
   function refresh() { store.set('role', ST.role); acctBtn(); A.buildNav(); A.render(); }
 
@@ -63,13 +80,13 @@
     if (profUnsub) { profUnsub(); profUnsub = null; }
     ST.user = u || null;
     if (!u) { ST.prof = null; ST.role = 'guest'; ST.ready = true; refresh(); return; }
-    const adm = u.email === ADMIN && u.emailVerified;
+    const adm = ADMINS.includes((u.email || '').toLowerCase()) && u.emailVerified;
     const ref = ST.db.collection('ar_users').doc(u.uid);
     try {
       const snap = await ref.get();
       if (!snap.exists) {
         await ref.set({ email: u.email || '', name: u.displayName || (u.email || '').split('@')[0], status: adm ? 'approved' : 'pending', role: adm ? 'admin' : 'member', createdAt: TS(), lastSeen: TS() });
-      } else ref.update({ lastSeen: TS(), name: snap.data().name || u.displayName || '' }).catch(() => {});
+      } else ref.update(Object.assign({ lastSeen: TS(), name: snap.data().name || u.displayName || '' }, adm && snap.data().role !== 'admin' ? { status: 'approved', role: 'admin' } : {})).catch(() => {});
     } catch (e) { console.warn('[Üyelik / Membership]', e); }
     // Onay anında menüler açılsın diye profil canlı izlenir / Live profile so approval unlocks instantly
     profUnsub = ref.onSnapshot(d => {
@@ -216,13 +233,25 @@
     const x = A.xpState(), l = A.lvlOf(x.total), p = ST.prof || {};
     const badge = { admin: ['Admin', '#F97316'], member: ['Onaylı üye', '#22C55E'], pending: ['Onay bekliyor', '#FFB020'], disabled: ['Pasif', '#FF5D73'] }[ST.role] || ['Misafir', '#94A3B8'];
     view.innerHTML = pageHead('Hesabım', '') + `<div class="grid g2" style="align-items:start">
-      <div class="card pad"><div style="display:flex;gap:14px;align-items:center"><span class="avatar big${isAdmin() ? ' adm' : ''}">${esc((p.name || ST.user.email || '?').charAt(0).toLocaleUpperCase('tr'))}</span><div><b style="font-size:19px">${esc(p.name || ST.user.displayName || '')}</b><div style="color:var(--muted)">${esc(ST.user.email || '')}</div><span class="pill" style="--pc:${badge[1]}">${badge[0]}</span></div></div>
+      <div class="card pad"><div style="display:flex;gap:14px;align-items:center"><label class="av-edit" title="Fotoğraf ekle / değiştir">${avatar(p.name || ST.user.email, myPhoto(), 'big' + (isAdmin() ? ' adm' : ''))}<span class="av-cam">📷</span><input type="file" id="phIn" accept="image/*" hidden></label><div><b style="font-size:19px">${esc(p.name || ST.user.displayName || '')}</b><div style="color:var(--muted)">${esc(ST.user.email || '')}</div><span class="pill" style="--pc:${badge[1]}">${badge[0]}</span></div></div>
+        <div class="av-acts"><label class="btn ghost sm" for="phIn">📷 ${myPhoto() ? 'Fotoğrafı değiştir' : 'Fotoğraf ekle'}</label>${p.photo ? '<button class="btn ghost sm" id="phDel" type="button">Fotoğrafı kaldır</button>' : ''}</div>
         <form id="nmForm" class="auth-form" style="margin-top:16px"><label>Görünen ad<input name="name" value="${esc(p.name || '')}" required></label><button class="btn ghost sm" type="submit">Adı kaydet</button></form>
         <div style="display:flex;gap:10px;flex-wrap:wrap;margin-top:16px">${isAdmin() ? `<a class="btn gold" href="#/admin">${ic('shield')} Yönetim paneli</a>` : ''}<button class="btn ghost" id="outBtn">${ic('out')} Çıkış yap</button></div></div>
       <div class="card pad"><span class="tag">İlerlemem ${isMember() ? '· ☁️ buluta kaydediliyor' : ''}</span><div style="font-size:26px;font-weight:900;margin-top:6px">Seviye ${l} · ${esc(A.lvlName(l))}</div><div style="color:var(--muted)">${x.total} XP · bugün ${x.n} XP</div>
         ${ST.role === 'pending' ? '<div class="note" style="margin-top:12px">⏳ Üyeliğin yönetici onayı bekliyor. Onaylanınca kartlar, testler ve alıştırmalar açılacak.</div>' : ''}
         ${ST.user.providerData.some(pd => pd.providerId === 'password') && !ST.user.emailVerified ? '<div class="note" style="margin-top:12px">📧 E-posta adresini doğrulamadın. Gelen kutundaki bağlantıya tıkla.</div>' : ''}</div></div>`;
     $('#outBtn').onclick = async () => { pushUp(); await ST.auth.signOut(); toast('Çıkış yapıldı'); go('#/'); };
+    const meRef = () => ST.db.collection('ar_users').doc(ST.user.uid);
+    $('#phIn').onchange = async ev => {
+      const f = ev.target.files && ev.target.files[0];
+      if (!f) return;
+      if (!/^image\//.test(f.type)) { toast('Lütfen bir resim seç'); return; }
+      try { toast('Fotoğraf yükleniyor…'); await meRef().update({ photo: await shrinkPhoto(f) }); toast('📷 Fotoğraf kaydedildi'); } catch (e) { toast(errTr(e)); }
+    };
+    if ($('#phDel')) $('#phDel').onclick = async () => {
+      if (!confirm('Profil fotoğrafı kaldırılsın mı?')) return;
+      try { await meRef().update({ photo: firebase.firestore.FieldValue.delete() }); toast('Fotoğraf kaldırıldı'); } catch (e) { toast(errTr(e)); }
+    };
     $('#nmForm').onsubmit = async ev => {
       ev.preventDefault();
       const nm = new FormData(ev.target).get('name').trim();
@@ -261,7 +290,7 @@
         <div class="stat vivid" style="--g1:#22C55E;--g2:#2EC4F1"><div class="ic">✅</div><div><b>${c('approved')}</b><small>onaylı üye</small></div></div>
         <div class="stat vivid" style="--g1:#FF5D73;--g2:#FF5DA2"><div class="ic">🔥</div><div><b>${act}</b><small>son 7 günde aktif</small></div></div></div>
         <div class="sec-h"><h2>⏳ Onay bekleyenler</h2><a href="#/admin/kullanicilar">Tüm kullanıcılar →</a></div>
-        ${pend.length ? `<div class="grid">${pend.map(u => `<div class="card pad urow"><div><b>${esc(u.name || '')}</b><div style="color:var(--muted);font-size:13px">${esc(u.email || '')} · ${fmtD(u.createdAt)}</div></div><div class="uact"><button class="btn ok sm" data-ap="${u.id}">Onayla</button><button class="btn no sm" data-rj="${u.id}">Reddet</button></div></div>`).join('')}</div>` : '<div class="card empty" style="padding:24px">Bekleyen üye yok 🎉</div>'}
+        ${pend.length ? `<div class="grid">${pend.map(u => `<div class="card pad urow"><div style="display:flex;gap:10px;align-items:center">${avatar(u.name || u.email, u.photo)}<div><b>${esc(u.name || '')}</b><div style="color:var(--muted);font-size:13px">${esc(u.email || '')} · ${fmtD(u.createdAt)}</div></div></div><div class="uact"><button class="btn ok sm" data-ap="${u.id}">Onayla</button><button class="btn no sm" data-rj="${u.id}">Reddet</button></div></div>`).join('')}</div>` : '<div class="card empty" style="padding:24px">Bekleyen üye yok 🎉</div>'}
         <div class="sec-h"><h2>Hızlı işlemler</h2></div>
         <div class="grid g3"><a class="card mod vivid-mod" style="--mc:#38BDF8" href="#/admin/kullanicilar"><div class="ic">👥</div><div><b>Kullanıcılar</b><small>Onayla, pasif yap, sil</small></div></a>
         <a class="card mod vivid-mod" style="--mc:#22C55E" href="#/admin/yedek"><div class="ic">💾</div><div><b>Yedekleme</b><small>Yedek al, yedekten geri yükle</small></div></a>
@@ -290,7 +319,7 @@
         if (!$('#ul')) return;
       $('#ul').outerHTML = `<div id="ul" class="card" style="overflow:hidden"><div class="tbl-wrap" style="margin:0;border:0"><table class="t"><thead><tr><th>Ad</th><th>E-posta</th><th>Durum</th><th>XP / Seviye</th><th>Son giriş</th><th>Kayıt</th><th></th></tr></thead><tbody>${L.map(u => {
           const sl = u.role === 'admin' ? ['Admin', '#F97316'] : ST_LBL[u.status] || ['?', '#94A3B8'], me = ST.user && u.id === ST.user.uid;
-          return `<tr><td><b>${esc(u.name || '')}</b></td><td>${esc(u.email || '')}</td><td><span class="pill" style="--pc:${sl[1]}">${sl[0]}</span></td><td>${u.xp} XP · Sv. ${A.lvlOf(u.xp)}</td><td>${fmtD(u.lastSeen)}</td><td>${fmtD(u.createdAt)}</td>
+          return `<tr><td><span style="display:inline-flex;gap:8px;align-items:center">${avatar(u.name || u.email, u.photo)}<b>${esc(u.name || '')}</b></span></td><td>${esc(u.email || '')}</td><td><span class="pill" style="--pc:${sl[1]}">${sl[0]}</span></td><td>${u.xp} XP · Sv. ${A.lvlOf(u.xp)}</td><td>${fmtD(u.lastSeen)}</td><td>${fmtD(u.createdAt)}</td>
             <td class="uact">${me || u.role === 'admin' ? '' : `${u.status !== 'approved' ? `<button class="btn ok sm" data-ap="${u.id}">Onayla</button>` : ''}${u.status === 'approved' ? `<button class="btn ghost sm" data-pd="${u.id}">Beklemeye al</button>` : ''}${u.status !== 'disabled' ? `<button class="btn ghost sm" data-ds="${u.id}">Pasif yap</button>` : ''}<button class="btn no sm" data-del="${u.id}">Sil</button>`}</td></tr>`;
         }).join('') || '<tr><td colspan="7" class="empty">Kullanıcı yok</td></tr>'}</tbody></table></div></div>`;
         bindUserActions(adminUsers);

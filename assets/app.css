@@ -532,3 +532,10 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
   .totop { right: 14px; bottom: 82px; width: 44px; height: 44px; }
   .xp-pop { bottom: 136px; }
 }
+/* Profil fotoğrafı / Profile photo */
+.avatar { overflow: hidden; }
+.avatar img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.av-edit { position: relative; cursor: pointer; flex-shrink: 0; }
+.av-cam { position: absolute; right: -4px; bottom: -4px; width: 26px; height: 26px; border-radius: 50%; background: var(--card, #fff); box-shadow: 0 2px 8px rgba(0,0,0,.18); display: grid; place-items: center; font-size: 13px; }
+.av-acts { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
+.av-acts label.btn { cursor: pointer; }

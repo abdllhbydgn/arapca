@@ -1,13 +1,13 @@
     // ── Arapça Öğren (abdllhbydgn.github.io/arapca) — yalnız ar_* koleksiyonları ──
     // Projede zaten kurallar varsa bu bloğu "match /databases/{database}/documents {" satırının hemen altına ekleyin.
     function arSignedIn() { return request.auth != null; }
-    function arAdmin() { return arSignedIn() && request.auth.token.email == 'baydogan.sevtap@gmail.com' && request.auth.token.email_verified == true; }
+    function arAdmin() { return arSignedIn() && request.auth.token.email in ['baydogan.sevtap@gmail.com', 'abdllhbydgn@gmail.com'] && request.auth.token.email_verified == true; }
     function arMe(uid) { return arSignedIn() && request.auth.uid == uid; }
     function arApproved() { return arSignedIn() && get(/databases/$(database)/documents/ar_users/$(request.auth.uid)).data.status == 'approved'; }
     match /ar_users/{uid} {
       allow read: if arMe(uid) || arAdmin();
       allow create: if arAdmin() || (arMe(uid) && request.resource.data.status == 'pending' && request.resource.data.role == 'member');
-      allow update: if arAdmin() || (arMe(uid) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['status', 'role', 'email']));
+      allow update: if arAdmin() || (arMe(uid) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['status', 'role', 'email']) && (!('photo' in request.resource.data) || request.resource.data.photo.size() < 150000));
       allow delete: if arAdmin();
     }
     match /ar_progress/{uid} { allow read, write: if (arMe(uid) && arApproved()) || arAdmin(); }

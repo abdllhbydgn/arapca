@@ -9,7 +9,7 @@ Canlı: https://abdllhbydgn.github.io/arapca/ — statik SPA (GitHub Pages), has
 - Arayüz Türkçe. Kullanıcıya Türkçe açıkla; 2–3 dk sonra Ctrl+F5 de.
 - Dal `claude/selam-pwr5q1`. Akış: commit → push → main'e PR → PR'ı birleştir. Commit/PR metnine model adı yazma.
 - Site herkese açık; üyelik yalnız ek menü açar.
-- Admin: baydogan.sevtap@gmail.com.
+- Admin: baydogan.sevtap@gmail.com ve abdllhbydgn@gmail.com (doğrulanmış e-posta). Firebase projesi `baydogan-ailesi` (aile sitesiyle ortak): veriler `ar_*` koleksiyonlarında, kurallar `tools/firestore-arapca-blok.rules`. Profil fotoğrafı `ar_users.photo` (192px JPEG dataURL).
 - Veri dosyalarını (`data/*.js`) elle düzenleme; `tools/src/*.json` → `python3 tools/build.py`.
 - Her yayında sürüm artır:
   - `index.html` içinde `?v=N`;
@@ -21,7 +21,7 @@ Canlı: https://abdllhbydgn.github.io/arapca/ — statik SPA (GitHub Pages), has
 | `index.html` | Kabuk: yan menü `#nav`, üst bar (`#gsInput` arama, `#acctBtn`, `#speedBtn`, `#themeBtn`), `#pnav` geri/ileri/ana sayfa, `#view` sayfa alanı, `#bnav` mobil alt menü, `#toTop` |
 | `assets/app.js` (~90 KB) | Tüm uygulama (aşağıda) |
 | `assets/members.js` | Firebase üyelik/admin (`MASRI_FB` boşsa pasif) |
-| `assets/fb-config.js` | `window.MASRI_FB` = firebaseConfig (şimdilik null) |
+| `assets/fb-config.js` | `window.MASRI_FB` = firebaseConfig (baydogan-ailesi) |
 | `assets/app.css` | Tema; sonda pnav/totop, canlı tema, üyelik stilleri |
 | `data/dict.js` (690 KB) | `window.MASRI_DICT={entries,cats}` — **okuma, grep kullan** |
 | `data/content.js` (200 KB) | `window.MASRI={quotes,a1,alphabet,conv,grammar,workbook}` — **okuma, grep kullan** |
