@@ -49,12 +49,13 @@
   const loadJS = src => new Promise((ok, no) => { const s = document.createElement('script'); s.src = src; s.onload = ok; s.onerror = no; document.head.appendChild(s); });
   const TS = () => firebase.firestore.FieldValue.serverTimestamp();
   loadJS(SDK + 'firebase-app-compat.js').then(() => Promise.all([loadJS(SDK + 'firebase-auth-compat.js'), loadJS(SDK + 'firebase-firestore-compat.js')])).then(() => {
-    firebase.initializeApp(CFG);
-    ST.auth = firebase.auth();
-    ST.db = firebase.firestore();
+    // EMS ile aynı Firebase projesi: ayrı uygulama adı → oturumlar karışmaz; veriler ar_* koleksiyonlarında
+    const app = firebase.initializeApp(CFG, 'arapca');
+    ST.auth = app.auth();
+    ST.db = app.firestore();
     ST.auth.getRedirectResult().catch(e => toast(errTr(e)));
     ST.auth.onAuthStateChanged(onUser);
-    ST.db.collection('site').doc('settings').onSnapshot(d => { ST.announce = d.exists ? d.data().announce || null : null; banner(); }, () => {});
+    ST.db.collection('ar_site').doc('settings').onSnapshot(d => { ST.announce = d.exists ? d.data().announce || null : null; banner(); }, () => {});
   }).catch(() => { ST.ready = true; acctBtn(); });
 
   let profUnsub = null;
@@ -63,7 +64,7 @@
     ST.user = u || null;
     if (!u) { ST.prof = null; ST.role = 'guest'; ST.ready = true; refresh(); return; }
     const adm = u.email === ADMIN && u.emailVerified;
-    const ref = ST.db.collection('users').doc(u.uid);
+    const ref = ST.db.collection('ar_users').doc(u.uid);
     try {
       const snap = await ref.get();
       if (!snap.exists) {
@@ -83,7 +84,7 @@
     if (isAdmin()) watchPending();
   }
   function watchPending() {
-    ST.db.collection('users').where('status', '==', 'pending').onSnapshot(q => { ST.pendingCount = q.size; A.buildNav(); }, () => {});
+    ST.db.collection('ar_users').where('status', '==', 'pending').onSnapshot(q => { ST.pendingCount = q.size; A.buildNav(); }, () => {});
   }
 
   // ── İlerleme senkronu / Progress sync ──
@@ -98,11 +99,11 @@
     const data = {};
     SYNC_KEYS.forEach(k => { data[k] = store.get(k, null); });
     const x = data.xp || {};
-    ST.db.collection('progress').doc(ST.user.uid).set({ data: JSON.stringify(data), xp: x.total || 0, updatedAt: TS() }).catch(e => console.warn('[Senkron / Sync]', e));
+    ST.db.collection('ar_progress').doc(ST.user.uid).set({ data: JSON.stringify(data), xp: x.total || 0, updatedAt: TS() }).catch(e => console.warn('[Senkron / Sync]', e));
   }
   async function syncDown() {
     try {
-      const d = await ST.db.collection('progress').doc(ST.user.uid).get();
+      const d = await ST.db.collection('ar_progress').doc(ST.user.uid).get();
       if (d.exists && d.data().data) {
         const R = JSON.parse(d.data().data), L = {};
         SYNC_KEYS.forEach(k => { L[k] = store.get(k, null); });
@@ -193,7 +194,7 @@
           if (tab === 'kayit') {
             const r = await ST.auth.createUserWithEmailAndPassword(email, pass);
             await r.user.updateProfile({ displayName: String(f.get('name')).trim() });
-            await ST.db.collection('users').doc(r.user.uid).set({ name: String(f.get('name')).trim() }, { merge: true }).catch(() => {});
+            await ST.db.collection('ar_users').doc(r.user.uid).set({ name: String(f.get('name')).trim() }, { merge: true }).catch(() => {});
             r.user.sendEmailVerification().catch(() => {});
           } else await ST.auth.signInWithEmailAndPassword(email, pass);
           go('#/hesabim');
@@ -225,7 +226,7 @@
     $('#nmForm').onsubmit = async ev => {
       ev.preventDefault();
       const nm = new FormData(ev.target).get('name').trim();
-      try { await ST.db.collection('users').doc(ST.user.uid).update({ name: nm }); await ST.user.updateProfile({ displayName: nm }); toast('Ad kaydedildi'); } catch (e) { toast(errTr(e)); }
+      try { await ST.db.collection('ar_users').doc(ST.user.uid).update({ name: nm }); await ST.user.updateProfile({ displayName: nm }); toast('Ad kaydedildi'); } catch (e) { toast(errTr(e)); }
     };
   };
 
@@ -241,7 +242,7 @@
     adminHome();
   };
   async function loadUsers() {
-    const [u, p] = await Promise.all([ST.db.collection('users').get(), ST.db.collection('progress').get()]);
+    const [u, p] = await Promise.all([ST.db.collection('ar_users').get(), ST.db.collection('ar_progress').get()]);
     const xp = {};
     p.forEach(d => { xp[d.id] = d.data().xp || 0; });
     return u.docs.map(d => Object.assign({ id: d.id, xp: xp[d.id] || 0 }, d.data()));
@@ -269,14 +270,14 @@
     } catch (e) { if ($('#adm')) $('#adm').textContent = errTr(e); }
   }
   function bindUserActions(again) {
-    const upd = (id, data, msg) => ST.db.collection('users').doc(id).update(data).then(() => { toast(msg); again(); }).catch(e => toast(errTr(e)));
+    const upd = (id, data, msg) => ST.db.collection('ar_users').doc(id).update(data).then(() => { toast(msg); again(); }).catch(e => toast(errTr(e)));
     $$('[data-ap]').forEach(b => b.onclick = () => upd(b.dataset.ap, { status: 'approved' }, '✅ Üyelik onaylandı'));
     $$('[data-rj]').forEach(b => b.onclick = () => { if (confirm('Bu üyelik başvurusu reddedilip hesap pasif yapılsın mı?')) upd(b.dataset.rj, { status: 'disabled' }, 'Başvuru reddedildi'); });
     $$('[data-ds]').forEach(b => b.onclick = () => { if (confirm('Bu kullanıcı pasif yapılsın mı? Üyelere özel bölümlere erişemez.')) upd(b.dataset.ds, { status: 'disabled' }, 'Kullanıcı pasif yapıldı'); });
     $$('[data-pd]').forEach(b => b.onclick = () => upd(b.dataset.pd, { status: 'pending' }, 'Kullanıcı beklemeye alındı'));
     $$('[data-del]').forEach(b => b.onclick = () => {
       if (!confirm('Kullanıcının üyelik kaydı ve ilerlemesi silinsin mi? Bu işlem geri alınamaz (yedeğiniz yoksa).')) return;
-      Promise.all([ST.db.collection('users').doc(b.dataset.del).delete(), ST.db.collection('progress').doc(b.dataset.del).delete()]).then(() => { toast('Kullanıcı silindi'); again(); }).catch(e => toast(errTr(e)));
+      Promise.all([ST.db.collection('ar_users').doc(b.dataset.del).delete(), ST.db.collection('ar_progress').doc(b.dataset.del).delete()]).then(() => { toast('Kullanıcı silindi'); again(); }).catch(e => toast(errTr(e)));
     });
   }
   async function adminUsers() {
@@ -344,8 +345,8 @@
       try {
         const s = await snapshot(), json = JSON.stringify(s);
         if (json.length > 900000) { download(s); toast('Yedek bulut sınırını aşıyor; dosya olarak indirildi'); return; }
-        await ST.db.collection('backups').add({ createdAt: TS(), by: ST.user.email, users: Object.keys(s.collections.users).length, json: json });
-        const old = await ST.db.collection('backups').orderBy('createdAt', 'desc').get();
+        await ST.db.collection('ar_backups').add({ createdAt: TS(), by: ST.user.email, users: Object.keys(s.collections.users).length, json: json });
+        const old = await ST.db.collection('ar_backups').orderBy('createdAt', 'desc').get();
         old.docs.slice(10).forEach(d => d.ref.delete());
         toast('☁️ Buluta yedeklendi'); adminBackup();
       } catch (e) { toast(errTr(e)); }
@@ -358,19 +359,19 @@
         const obj = JSON.parse(await f.text());
         if (!ask('“' + f.name + '” dosyasından geri yüklenecek.')) return;
         toast('Önce mevcut durum buluta yedekleniyor…');
-        await ST.db.collection('backups').add({ createdAt: TS(), by: ST.user.email, note: 'Geri yükleme öncesi otomatik', json: JSON.stringify(await snapshot()) }).catch(() => {});
+        await ST.db.collection('ar_backups').add({ createdAt: TS(), by: ST.user.email, note: 'Geri yükleme öncesi otomatik', json: JSON.stringify(await snapshot()) }).catch(() => {});
         const n = await restore(obj);
         toast('✅ Geri yüklendi (' + n + ' kayıt)'); adminBackup();
       } catch (e) { toast(e.message || errTr(e)); }
     };
     try {
-      const q = await ST.db.collection('backups').orderBy('createdAt', 'desc').limit(10).get();
+      const q = await ST.db.collection('ar_backups').orderBy('createdAt', 'desc').limit(10).get();
       if (!$('#bList')) return;
       $('#bList').outerHTML = q.empty ? '<div class="card empty" style="padding:24px">Henüz bulut yedeği yok.</div>' : `<div class="grid">${q.docs.map(d => { const b = d.data(); return `<div class="card pad urow"><div><b>${fmtD(b.createdAt)}</b><div style="color:var(--muted);font-size:13px">${esc(b.by || '')}${b.users != null ? ' · ' + b.users + ' üye' : ''}${b.note ? ' · ' + esc(b.note) : ''}</div></div><div class="uact"><button class="btn ghost sm" data-bd="${d.id}">İndir</button><button class="btn gold sm" data-br="${d.id}">Geri yükle</button><button class="btn no sm" data-bx="${d.id}">Sil</button></div></div>`; }).join('')}</div>`;
-      const get = async id => JSON.parse((await ST.db.collection('backups').doc(id).get()).data().json);
+      const get = async id => JSON.parse((await ST.db.collection('ar_backups').doc(id).get()).data().json);
       $$('[data-bd]').forEach(b => b.onclick = async () => download(await get(b.dataset.bd)));
       $$('[data-br]').forEach(b => b.onclick = async () => { if (!ask('Seçilen bulut yedeğinden geri yüklenecek.')) return; try { const n = await restore(await get(b.dataset.br)); toast('✅ Geri yüklendi (' + n + ' kayıt)'); } catch (e) { toast(e.message || errTr(e)); } });
-      $$('[data-bx]').forEach(b => b.onclick = () => { if (confirm('Bu bulut yedeği silinsin mi?')) ST.db.collection('backups').doc(b.dataset.bx).delete().then(adminBackup); });
+      $$('[data-bx]').forEach(b => b.onclick = () => { if (confirm('Bu bulut yedeği silinsin mi?')) ST.db.collection('ar_backups').doc(b.dataset.bx).delete().then(adminBackup); });
     } catch (e) { if ($('#bList')) $('#bList').textContent = errTr(e); }
   }
 
@@ -385,7 +386,7 @@
     $('#anF').onsubmit = async ev => {
       ev.preventDefault();
       const f = new FormData(ev.target);
-      try { await ST.db.collection('site').doc('settings').set({ announce: { text: String(f.get('text')).trim(), tone: f.get('tone'), on: !!f.get('on'), updatedAt: TS() } }, { merge: true }); toast('📣 Duyuru kaydedildi'); } catch (e) { toast(errTr(e)); }
+      try { await ST.db.collection('ar_site').doc('settings').set({ announce: { text: String(f.get('text')).trim(), tone: f.get('tone'), on: !!f.get('on'), updatedAt: TS() } }, { merge: true }); toast('📣 Duyuru kaydedildi'); } catch (e) { toast(errTr(e)); }
     };
   }
   function banner() {

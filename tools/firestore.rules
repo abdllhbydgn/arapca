@@ -7,26 +7,26 @@ service cloud.firestore {
     // Admin: yalnız Google ile doğrulanmış bu e-posta
     function isAdmin() { return signedIn() && request.auth.token.email == 'baydogan.sevtap@gmail.com' && request.auth.token.email_verified == true; }
     function isMe(uid) { return signedIn() && request.auth.uid == uid; }
-    function approved() { return signedIn() && get(/databases/$(database)/documents/users/$(request.auth.uid)).data.status == 'approved'; }
+    function approved() { return signedIn() && get(/databases/$(database)/documents/ar_users/$(request.auth.uid)).data.status == 'approved'; }
 
     // Üye profilleri: herkes yalnız kendini görür; durum ve rolü yalnız admin değiştirir
-    match /users/{uid} {
+    match /ar_users/{uid} {
       allow read: if isMe(uid) || isAdmin();
       allow create: if isAdmin() || (isMe(uid) && request.resource.data.status == 'pending' && request.resource.data.role == 'member');
       allow update: if isAdmin() || (isMe(uid) && !request.resource.data.diff(resource.data).affectedKeys().hasAny(['status', 'role', 'email']));
       allow delete: if isAdmin();
     }
     // İlerleme: yalnız onaylı üyenin kendisi ve admin
-    match /progress/{uid} {
+    match /ar_progress/{uid} {
       allow read, write: if (isMe(uid) && approved()) || isAdmin();
     }
     // Site ayarları (duyuru): herkes okur, yalnız admin yazar
-    match /site/{doc} {
+    match /ar_site/{doc} {
       allow read: if true;
       allow write: if isAdmin();
     }
     // Yedekler: yalnız admin
-    match /backups/{id} {
+    match /ar_backups/{id} {
       allow read, write: if isAdmin();
     }
     // Diğer her şey kapalı
