@@ -139,6 +139,8 @@
     return ('0000000' + h.toString(16)).slice(-8) + '-' + t.length;
   };
   let audioIdx = null, audioLoad = null, curAudio = null;
+  let slow = !!store.get('slow', false);
+  const newAudio = k => { const a = new Audio('audio/' + k + '.mp3'); a.playbackRate = slow ? .75 : 1; a.preservesPitch = true; return a; };
   const loadAudioIdx = () => audioLoad || (audioLoad = fetch('audio/index.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : { keys: [] }).then(j => { audioIdx = new Set(j.keys || []); }).catch(() => { audioIdx = new Set(); }));
   loadAudioIdx();
   // Yalnız Mısır Arapçası (ar-EG) cihaz sesi kullanılır; standart Arapça (Fusha) sese asla düşülmez /
@@ -149,7 +151,7 @@
     try {
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      u.voice = eg; u.lang = eg.lang; u.rate = .85;
+      u.voice = eg; u.lang = eg.lang; u.rate = slow ? .65 : .85;
       if (btn) u.onend = u.onerror = () => btn.classList.remove('playing');
       speechSynthesis.speak(u);
     } catch (e) { if (btn) btn.classList.remove('playing'); }
@@ -159,7 +161,7 @@
     let i = 0;
     const next = () => {
       if (i >= keys.length) { if (btn) btn.classList.remove('playing'); return; }
-      const a = curAudio = new Audio('audio/' + keys[i++] + '.mp3');
+      const a = curAudio = newAudio(keys[i++]);
       a.onended = next;
       a.onerror = next;
       a.play().catch(() => { if (i === 1 && onFail) onFail(); else next(); });
@@ -176,7 +178,7 @@
       const k = audioKey(text);
       if (audioIdx && audioIdx.has(k)) {
         try { if (curAudio) curAudio.pause(); if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) {}
-        const a = curAudio = new Audio('audio/' + k + '.mp3');
+        const a = curAudio = newAudio(k);
         let fell = false;
         const fallback = () => { if (fell) return; fell = true; deviceSpeak(text, btn); };
         a.onended = done;
@@ -583,13 +585,14 @@
     const t = a[0] && T.find(x => x.id === a[0]);
     if (t) {
       view.innerHTML = pageHead(esc((t.emoji || '') + ' ' + t.title), esc(t.summary || ''), '', '<a href="#/konusma">Konuşma Rehberi</a>') +
-        ((t.dialogs || []).map(d => `<div class="sec-h"><h2>🎭 ${esc(d.title || 'Diyalog')}</h2></div><div class="card chat">${(d.lines || []).map((l, k) => {
+        ((t.dialogs || []).map((d, di) => `<div class="sec-h"><h2>🎭 ${esc(d.title || 'Diyalog')}</h2><button class="btn ghost sm" data-dialog="${di}">${ic('vol')} Baştan sona dinle</button></div><div class="card chat" id="dlg-${di}">${(d.lines || []).map((l, k) => {
           const side = (d._sides = d._sides || {}), w = l.who || (k % 2 ? 'B' : 'A');
           if (!side[w]) side[w] = Object.keys(side).length % 2 ? 'b' : 'a';
           return `<div class="bub ${side[w]}"><span class="who">${esc(w)}</span><span class="ar">${esc(l.ar)}</span><span class="ok">${esc(l.ok || l.fr || '')}</span><span class="tr">${esc(l.tr)}</span>${playBtn(l.ar)}</div>`;
         }).join('')}</div>`).join('')) +
         ((t.phrases || []).length ? `<div class="sec-h"><h2>🗣️ Kalıplar ve ifadeler</h2></div><div class="grid gauto">${t.phrases.map((p, k) => entryHtml(Object.assign({ id: 'cv-' + t.id + '-' + k, cat: t.title }, p, byArTr(p)))).join('')}</div>` : '') +
         ((t.tips || []).length ? `<div class="sec-h"><h2>💡 İpuçları</h2></div><div class="card pad"><ul class="tips">${t.tips.map(x => `<li>${esc(x)}</li>`).join('')}</ul></div>` : '');
+      $$('[data-dialog]').forEach(b => b.onclick = () => playDialog(t.dialogs[+b.dataset.dialog], $('#dlg-' + b.dataset.dialog), b));
       return;
     }
     view.innerHTML = pageHead('Konuşma Rehberi', esc((C.conv || {}).intro || 'Günlük hayatta en çok ihtiyaç duyacağın durumlar: kalıplar, diyaloglar ve ipuçları.')) +
@@ -829,6 +832,27 @@
   }
 
   // ── Menü, tema, ortak tıklamalar / Menu, theme, shared clicks ──
+  // Diyaloğu satır satır, konuşan balonu vurgulayarak çalar / Plays a dialogue line by line, highlighting the speaker
+  function playDialog(d, box, btn) {
+    const lines = (d.lines || []).map(l => l.ar), bubs = $$('.bub', box);
+    let i = 0;
+    try { if (curAudio) curAudio.pause(); } catch (e) {}
+    const mark = n => bubs.forEach((b, k) => { b.style.outline = k === n ? '3px solid var(--gold)' : ''; });
+    btn.classList.add('playing');
+    const next = () => {
+      if (i >= lines.length || !document.body.contains(box)) { mark(-1); btn.classList.remove('playing'); return; }
+      const n = i++, k = audioKey(lines[n]);
+      mark(n);
+      if (bubs[n]) bubs[n].scrollIntoView({ block: 'nearest', behavior: 'smooth' });
+      if (!audioIdx || !audioIdx.has(k)) return setTimeout(next, 400);
+      const a = curAudio = newAudio(k);
+      a.onended = () => setTimeout(next, 350);
+      a.onerror = next;
+      a.play().catch(next);
+    };
+    loadAudioIdx().then(next);
+  }
+  function setSpeedBtn() { const b = $('#speedBtn'); if (b) { b.textContent = slow ? '0,75×' : '1×'; b.title = slow ? 'Yavaş dinleme açık' : 'Normal hız'; b.classList.toggle('on', slow); } }
   function closeSide() { $('#side').classList.remove('open'); const s = $('.scrim'); if (s) s.remove(); }
   function openSide() { $('#side').classList.add('open'); const s = document.createElement('div'); s.className = 'scrim'; s.onclick = closeSide; document.body.appendChild(s); }
   function setThemeIcon() { const dark = document.documentElement.getAttribute('data-theme') === 'dark' || (!document.documentElement.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches); $('#themeBtn').innerHTML = ic(dark ? 'sun' : 'moon'); return dark; }
@@ -850,6 +874,8 @@
     if (ev.target.closest('#bMore')) { openSide(); }
   }, true);
   $('#menuBtn').onclick = openSide;
+  $('#speedBtn').onclick = () => { slow = !slow; store.set('slow', slow); setSpeedBtn(); toast(slow ? '🐢 Yavaş dinleme açık' : 'Normal hızda dinleme'); };
+  setSpeedBtn();
   $('#themeBtn').onclick = () => { const dark = setThemeIcon(); const t = dark ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); store.set('theme', t); try { localStorage.setItem('masri.theme', t); } catch (e) {} setThemeIcon(); };
 
   buildNav();

@@ -84,6 +84,8 @@ svg.i { width: 20px; height: 20px; flex-shrink: 0; stroke: currentColor; fill: n
 .gs-more { display: block; text-align: center; padding: 10px; font-weight: 700; color: var(--teal); text-decoration: none; }
 .tbtn { width: 42px; height: 42px; border-radius: 12px; border: 1.5px solid var(--line); background: var(--surface); display: inline-flex; align-items: center; justify-content: center; color: var(--ink2); }
 .tbtn:hover { border-color: var(--gold); color: var(--gold); }
+.tbtn.on { background: var(--gold-soft); border-color: var(--gold); color: var(--gold); }
+.sec-h .btn.playing { background: var(--teal); color: #fff; border-color: var(--teal); }
 .content { padding: 28px; width: 100%; max-width: 1240px; margin: 0 auto; flex: 1; }
 .bnav { display: none; }
 

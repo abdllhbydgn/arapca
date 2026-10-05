@@ -130,6 +130,14 @@ async def main():
             print('HATA', k, t[:40], err, file=sys.stderr)
 
     await asyncio.gather(*(one(k, t) for k, t in todo))
+    # Artık sitede geçmeyen metinlerin sesleri silinir / Clips for texts no longer on the site are removed
+    removed = 0
+    for f in os.listdir(AUDIO):
+        if f.endswith('.mp3') and f[:-4] not in keys:
+            os.remove(os.path.join(AUDIO, f))
+            removed += 1
+    if removed:
+        print(f'{removed} kullanılmayan ses silindi')
     have = sorted(f[:-4] for f in os.listdir(AUDIO) if f.endswith('.mp3'))
     json.dump({'voice': VOICE, 'keys': have}, open(os.path.join(AUDIO, 'index.json'), 'w'), separators=(',', ':'))
     print(f'bitti: {done} yeni, {fail} hata, toplam {len(have)} ses')
