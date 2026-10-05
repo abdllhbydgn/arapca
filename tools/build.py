@@ -33,7 +33,7 @@ def norm_tr(s):
 
 # Kanonik kategoriler (sıra = menü sırası) / Canonical categories (order = menu order)
 CATS = [
-    ('Selamlaşma & Nezaket', '👋'), ('Günlük Konuşma', '💬'), ('Zamirler & Soru Kelimeleri', '❓'), ('Sayılar', '🔢'),
+    ('Konfeksiyon Fabrikası', '🧵'), ('Selamlaşma & Nezaket', '👋'), ('Günlük Konuşma', '💬'), ('Zamirler & Soru Kelimeleri', '❓'), ('Sayılar', '🔢'),
     ('Zaman & Takvim', '📅'), ('Aile & İnsanlar', '👨‍👩‍👧'), ('Meslekler', '💼'), ('Vücut & Sağlık', '🫀'),
     ('Yiyecek & İçecek', '🍽️'), ('Renkler', '🎨'), ('Ev & Eşyalar', '🏠'), ('Giyim', '👕'), ('Şehir & Ulaşım', '🚕'),
     ('Doğa & Hava', '🌤️'), ('Hayvanlar', '🐾'), ('Fiiller', '⚡'), ('Sıfatlar', '🏷️'), ('Yer & Yön', '🧭'),
@@ -119,6 +119,8 @@ def add(rec, k, src, cat, lv=None, em=None):
         e['lv'] = lv or rec.get('level')
     if em or rec.get('emoji'):
         e['em'] = em or rec.get('emoji')
+    if rec.get('sub'):
+        e['sub'] = rec['sub']
     for f in ('note', 'pl', 'fem'):
         if rec.get(f):
             e[f] = nfc(rec[f]) if f != 'note' else rec[f]
@@ -138,6 +140,9 @@ exist = load('out_existing.json') or [dict(id=x['id'], ar=x['arabic'], fr='', ok
 
 for c in a1['cards']:
     add(c, 'w', 'a1', canon(c['cat']), 'A1', c.get('emoji'))
+# Konfeksiyon fabrikası halk dili (atölye ağzı) / Garment-factory shop-floor colloquial
+for c in load('out_factory.json', []):
+    add(c, c.get('k') or 'w', 'fab', 'Konfeksiyon Fabrikası', c.get('level'))
 for c in core:
     add(c, 'w', 'core', canon(c.get('cat')), c.get('level'))
 for t in conv['topics']:
@@ -152,6 +157,22 @@ for x in exist:
 for L in alpha['letters']:
     for w in L.get('words', []):
         add(w, 'w', 'alf', 'Alfabe Kelimeleri', 'A1', w.get('emoji'))
+
+# Halk dili düzeltmeleri aynı kimlikle uygulanır (kart ilerlemesi ve favoriler korunur) /
+# Colloquial corrections applied by the same id (card progress and favourites are kept)
+OVR = {o['id']: o for o in load('halk_overrides.json', [])}
+n_ovr = 0
+for e in entries:
+    o = OVR.get(e['id'])
+    if not o:
+        continue
+    n_ovr += 1
+    for f in ('ar', 'fr', 'ok', 'tr', 'note'):
+        if o.get(f):
+            e[f] = nfc(o[f]) if f == 'ar' else o[f]
+    if isinstance(o.get('ex'), dict) and o['ex'].get('ar'):
+        e['ex'] = {x: nfc(o['ex'].get(x, '')) if x == 'ar' else o['ex'].get(x, '') for x in ('ar', 'fr', 'ok', 'tr')}
+print('halk dili düzeltmesi', n_ovr)
 
 used = {}
 for e in entries:
