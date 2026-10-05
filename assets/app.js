@@ -948,5 +948,11 @@
   setThemeIcon();
   window.addEventListener('hashchange', render);
   render();
-  if ('serviceWorker' in navigator && /^https?:/.test(location.protocol)) navigator.serviceWorker.register('sw.js').catch(() => {});
+  if ('serviceWorker' in navigator && /^https?:/.test(location.protocol)) {
+    // Yeni sürüm devreye girince sayfa bir kez kendini yeniler / Reload once when a new version takes over
+    const hadCtrl = !!navigator.serviceWorker.controller;
+    let reloaded = false;
+    navigator.serviceWorker.addEventListener('controllerchange', () => { if (hadCtrl && !reloaded) { reloaded = true; location.reload(); } });
+    navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(r => r.update()).catch(() => {});
+  }
 })();
