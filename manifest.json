@@ -1,12 +1,12 @@
 {
-  "name": "Arapça Öğren - Mısır Lehçesi Sözlüğü",
+  "name": "Arapça Öğren — Mısır Lehçesi Portalı",
   "short_name": "Arapça Öğren",
-  "description": "Mısır lehçesi (Masri) Arapça sözlüğü, online çeviri ve sesli okuma — internetsiz de çalışır.",
-  "start_url": "./arapca.html",
+  "description": "Mısır Arapçası (Masri) öğrenme portalı: çeviri, sözlük, kelime kartları, alfabe, konuşma rehberi, gramer ve alıştırmalar — internetsiz de çalışır.",
+  "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#191919",
-  "theme_color": "#191919",
+  "background_color": "#F4F2EC",
+  "theme_color": "#12284A",
   "lang": "tr",
   "orientation": "portrait-primary",
   "icons": [
