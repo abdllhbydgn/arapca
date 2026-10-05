@@ -281,6 +281,7 @@
         <h1>Ahlan wa sahlan! 👋</h1>
         <p>Mısır lehçesini (Masri) Türkçe açıklamalarla öğren: çeviri, sözlük, kartlar, konuşma ve gramer bir arada.</p>
         <form class="hero-tr" id="heroForm"><input id="heroIn" placeholder="Türkçe veya Arapça yaz, çevirelim… (ör. nasılsın, ne kadar, ماشي)" autocomplete="off" aria-label="Çevrilecek metin"><button class="btn gold" type="submit">${ic('tr')} Çevir</button></form>
+        <div id="heroOut" class="hero-out" hidden></div>
         <div class="hero-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div>
       </section>
       <div class="stats">
@@ -302,7 +303,25 @@
         <div class="card pad"><b>ب- = şimdiki zaman</b><p style="margin:6px 0 0;color:var(--muted)">Fiilin başına b- gelir: <span class="ar">باكل</span> → bākol (yiyorum).</p></div>
       </div>`;
     $('#heroForm').onsubmit = ev => { ev.preventDefault(); const v = $('#heroIn').value.trim(); go('#/ceviri?q=' + encodeURIComponent(v)); };
-    $$('[data-hint]').forEach(b => b.onclick = () => go('#/ceviri?q=' + encodeURIComponent(b.dataset.hint)));
+    // Ana sayfada anında çeviri ve Mısır sesiyle dinleme / Instant translation with Egyptian audio on the home page
+    let hTm;
+    const heroRun = () => {
+      const v = $('#heroIn').value.trim(), box = $('#heroOut');
+      if (!v) { box.hidden = true; return; }
+      const dir = isAr(v) ? 'ar' : 'tr', r = translate(v, dir);
+      let m = r.exact[0], sentence = null;
+      if (!m && r.gloss.length && r.gloss.every(g => g.e)) sentence = r.gloss.map(g => g.e);
+      if (!m && !sentence) m = r.similar[0];
+      const ar = m ? m.ar : sentence ? sentence.map(e => e.ar).join(' ') : '';
+      const ok = m ? m.ok : sentence ? sentence.map(e => e.ok).join(' ') : '';
+      const tr = m ? m.tr : '';
+      box.hidden = false;
+      box.innerHTML = ar ? `<div class="ho-main">${dir === 'tr' ? `<span class="ar">${esc(ar)}</span><span class="ok">${esc(ok)}</span>` : `<span class="tw">${esc(tr || ok)}</span><span class="ok">${esc(ok)}</span>`}</div>
+        <div class="ho-act">${playBtn(ar)}<a class="btn sm ghost" href="#/ceviri?q=${encodeURIComponent(v)}">Detaylı çeviri →</a></div>${!r.exact.length ? '<small class="ho-note">En yakın karşılık · ayrıntı için detaylı çeviriye bakın</small>' : ''}`
+        : `<small class="ho-note">Sözlükte karşılık bulunamadı · <a href="#/ceviri?q=${encodeURIComponent(v)}">detaylı çeviriyi dene</a></small>`;
+    };
+    $('#heroIn').oninput = () => { clearTimeout(hTm); hTm = setTimeout(heroRun, 180); };
+    $$('[data-hint]').forEach(b => b.onclick = () => { $('#heroIn').value = b.dataset.hint; heroRun(); });
   };
 
   // ── Çeviri motoru / Translation engine ──
@@ -454,10 +473,10 @@
       } else {
         const known = r.gloss.filter(g => g.e);
         out.innerHTML = known.length
-          ? `<div class="${dir === 'tr' ? 'ar' : ''}" style="${dir === 'tr' ? '' : 'font-size:22px;font-weight:700'}">${esc(r.gloss.map(g => g.e ? (dir === 'tr' ? g.e.ar : g.e.tr.split(/\s*\/\s*/)[0]) : (dir === 'tr' ? '…' : g.src)).join(' '))}</div>${dir === 'tr' ? `<div class="ok">${esc(r.gloss.map(g => g.e ? g.e.ok : '…').join(' '))}</div>` : ''}<span class="tr-src mt"><span class="dot"></span>Kelime kelime çözümleme — cümle yapısını aşağıdaki benzer ifadelerle kontrol edin</span>`
+          ? `<div class="${dir === 'tr' ? 'ar' : ''}" style="${dir === 'tr' ? '' : 'font-size:22px;font-weight:700'}">${esc(r.gloss.map(g => g.e ? (dir === 'tr' ? g.e.ar : g.e.tr.split(/\s*\/\s*/)[0]) : (dir === 'tr' ? '…' : g.src)).join(' '))}</div>${dir === 'tr' ? `<div class="ok">${esc(r.gloss.map(g => g.e ? g.e.ok : '…').join(' '))}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px">${playBtn(dir === 'tr' ? known.map(g => g.e.ar).join(' ') : text.trim())}</div><span class="tr-src mt"><span class="dot"></span>Kelime kelime çözümleme — cümle yapısını aşağıdaki benzer ifadelerle kontrol edin</span>`
           : `<div style="color:var(--muted)">Sözlükte birebir karşılık bulunamadı.</div>`;
       }
-      const gl = r.gloss.length > 1 || (!main && r.gloss.length) ? `<div class="sec-h"><h2>Kelime kelime</h2></div><div class="card pad"><div class="gloss">${r.gloss.map(g => g.e ? `<div class="gl"><small>${esc(g.src)}</small><span class="ar">${esc(g.e.ar)}</span><small><b>${esc(g.e.ok)}</b></small><small>${esc(g.e.tr)}</small></div>` : `<div class="gl miss"><small>${esc(g.src)}</small><span>?</span></div>`).join('')}</div></div>` : '';
+      const gl = r.gloss.length > 1 || (!main && r.gloss.length) ? `<div class="sec-h"><h2>Kelime kelime</h2></div><div class="card pad"><div class="gloss">${r.gloss.map(g => g.e ? `<div class="gl" data-say="${esc(g.e.ar)}" style="cursor:pointer" title="Dinle"><small>${esc(g.src)}</small><span class="ar">${esc(g.e.ar)}</span><small><b>${esc(g.e.ok)}</b></small><small>${esc(g.e.tr)}</small></div>` : `<div class="gl miss"><small>${esc(g.src)}</small><span>?</span></div>`).join('')}</div></div>` : '';
       const alts = (main && !approx ? r.exact.slice(1) : r.similar);
       const al = alts.length ? `<div class="sec-h"><h2>${main && !approx ? 'Diğer karşılıklar' : 'Benzer ifadeler'}</h2></div><div class="alt-list">${alts.map(e => `<div class="card alt"><div><div style="font-weight:700">${esc(e.tr)}</div><div style="font-size:13px;color:var(--muted)">${esc(e.ok)} · <span style="font-family:monospace;color:var(--teal)">${esc(e.fr)}</span></div></div><div class="ar">${esc(e.ar)}</div>${playBtn(e.ar)}</div>`).join('')}</div>` : '';
       more.innerHTML = gl + al;
