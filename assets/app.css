@@ -160,6 +160,14 @@ svg.i { width: 20px; height: 20px; flex-shrink: 0; stroke: currentColor; fill: n
 .hero-tr { display: flex; gap: 10px; max-width: 720px; position: relative; z-index: 1; }
 .hero-tr input { flex: 1; height: 54px; border-radius: 14px; border: 0; padding: 0 18px; font-size: 16px; color: #101B2D; outline: none; box-shadow: 0 0 0 4px rgba(255,255,255,.12); }
 .hero-tr .btn { height: 54px; padding: 0 22px; border-radius: 14px; }
+.hero-out { position: relative; z-index: 1; max-width: 720px; margin-top: 12px; background: rgba(255,255,255,.96); color: #101B2D; border-radius: 14px; padding: 14px 16px; display: flex; flex-wrap: wrap; align-items: center; gap: 10px 16px; box-shadow: 0 10px 30px rgba(0,0,0,.18); }
+.hero-out .ho-main { display: flex; flex-direction: column; flex: 1; min-width: 200px; }
+.hero-out .ar { font-size: 30px; line-height: 1.4; text-align: right; }
+.hero-out .tw { font-size: 22px; font-weight: 800; }
+.hero-out .ok { font-weight: 800; color: #1D3D6E; }
+.hero-out .ho-act { display: flex; gap: 8px; align-items: center; }
+.hero-out .ho-note { width: 100%; color: #667085; }
+.hero-out .ho-note a { color: #0E9384; font-weight: 700; }
 .hero-hints { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; position: relative; z-index: 1; }
 .hero-hints button { background: rgba(255,255,255,.1); border: 1px solid rgba(255,255,255,.18); color: #fff; border-radius: 99px; padding: 5px 12px; font-size: 13px; font-weight: 600; }
 .hero-hints button:hover { background: rgba(255,255,255,.2); }
