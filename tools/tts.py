@@ -46,6 +46,8 @@ def collect():
         add(e['ar'])
         if e.get('ex'):
             add(e['ex'].get('ar'))
+    for q in c.get('quotes', []):
+        add(q.get('ar'))
     for L in c.get('alphabet', {}).get('letters', []):
         add(L.get('letter'))
         for w in L.get('words', []):
