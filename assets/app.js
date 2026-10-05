@@ -98,6 +98,7 @@
     sun: '<circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4.9 4.9l1.4 1.4M17.7 17.7l1.4 1.4M2 12h2M20 12h2M4.9 19.1l1.4-1.4M17.7 6.3l1.4-1.4"/>',
     moon: '<path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/>',
     arrow: '<path d="M5 12h14M13 6l6 6-6 6"/>',
+    back: '<path d="M19 12H5M11 6l-6 6 6 6"/>',
     user: '<circle cx="12" cy="8" r="4"/><path d="M4 21a8 8 0 0 1 16 0"/>',
     users: '<circle cx="9" cy="8" r="3.5"/><path d="M2.5 20a6.5 6.5 0 0 1 13 0"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14a6 6 0 0 1 3.5 6"/>',
     shield: '<path d="M12 3 4 6v6c0 5 3.5 8 8 9 4.5-1 8-4 8-9V6z"/><path d="m9 12 2 2 4-4"/>',
@@ -300,6 +301,27 @@
     return { r: parts[0] || '', a: parts.slice(1), q: q };
   }
   const ROUTES = {};
+  // Site içi gezinme geçmişi: Geri/İleri yalnız site içinde çalışır / In-site history: Back/Forward stay inside the site
+  const NAVH = { stack: [location.hash || '#/'], pos: 0 };
+  window.addEventListener('hashchange', () => {
+    const h = location.hash || '#/';
+    if (NAVH.stack[NAVH.pos] === h) return;
+    if (NAVH.stack[NAVH.pos - 1] === h) NAVH.pos--;
+    else if (NAVH.stack[NAVH.pos + 1] === h) NAVH.pos++;
+    else { NAVH.stack = NAVH.stack.slice(0, NAVH.pos + 1).concat(h); NAVH.pos++; }
+  });
+  const PAGE_NAMES = { '': 'Ana Sayfa', fabrika: 'Fabrika Dili', ceviri: 'Çeviri', sozluk: 'Sözlük', kartlar: 'Kelime Kartları', alfabe: 'Alfabe', konusma: 'Konuşma Rehberi', gramer: 'Gramer', fiiller: 'Fiiller', alistirma: 'Çalışma Defteri', test: 'Test Çöz', favoriler: 'Favorilerim', giris: 'Giriş', hesabim: 'Hesabım', admin: 'Yönetim' };
+  function drawPnav(r) {
+    const el = $('#pnav');
+    if (!el) return;
+    const t = (($('.ph h1', view) || {}).textContent || PAGE_NAMES[r] || '').trim();
+    el.innerHTML = `<button class="pn-b" id="pnBack" ${NAVH.pos > 0 ? '' : 'disabled'} aria-label="Geri">${ic('back')}<span>Geri</span></button>
+      <button class="pn-b" id="pnFwd" ${NAVH.pos < NAVH.stack.length - 1 ? '' : 'disabled'} aria-label="İleri"><span>İleri</span>${ic('arrow')}</button>
+      <a class="pn-b home${r === '' ? ' on' : ''}" href="#/" aria-label="Ana sayfa">${ic('home')}<span>Ana Sayfa</span></a>
+      <span class="pn-t">${esc(t)}</span>`;
+    $('#pnBack').onclick = () => { if (NAVH.pos > 0) history.back(); };
+    $('#pnFwd').onclick = () => { if (NAVH.pos < NAVH.stack.length - 1) history.forward(); };
+  }
   function render() {
     const { r, a, q } = parseHash();
     $$('#nav a, #bnav a').forEach(x => x.classList.toggle('on', x.dataset.r === r || (x.dataset.r && x.dataset.r.indexOf('/') > 0 && location.hash.indexOf('#/' + x.dataset.r) === 0)));
@@ -307,6 +329,7 @@
     if (window.MASRI_GATE && !window.MASRI_GATE(r) && ROUTES.__locked) ROUTES.__locked(r, a, q);
     else (ROUTES[r] || ROUTES[''])(a, q);
     try { if (window.MASRI_AFTER_RENDER) window.MASRI_AFTER_RENDER(r, a, q); } catch (e) {}
+    drawPnav(r);
     if (!render._first) window.scrollTo(0, 0);
     render._first = false;
     document.title = ($('.ph h1', view) || {}).textContent ? $('.ph h1', view).textContent + ' | Arapça Öğren' : 'Arapça Öğren | Mısır Lehçesi Portalı';
@@ -1031,6 +1054,10 @@
     if (ev.target.closest('#bMore')) { openSide(); }
   }, true);
   $('#menuBtn').onclick = openSide;
+  // Yukarı çık düğmesi / Back-to-top button
+  const toTop = $('#toTop');
+  addEventListener('scroll', () => { toTop.hidden = scrollY < 400; }, { passive: true });
+  toTop.onclick = () => window.scrollTo({ top: 0, behavior: 'smooth' });
   $('#speedBtn').onclick = () => { slow = !slow; store.set('slow', slow); setSpeedBtn(); toast(slow ? '🐢 Yavaş dinleme açık' : 'Normal hızda dinleme'); };
   setSpeedBtn();
   $('#themeBtn').onclick = () => { const dark = setThemeIcon(); const t = dark ? 'light' : 'dark'; document.documentElement.setAttribute('data-theme', t); store.set('theme', t); try { localStorage.setItem('masri.theme', t); } catch (e) {} setThemeIcon(); };

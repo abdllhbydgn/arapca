@@ -508,3 +508,27 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .ann.info { background: linear-gradient(135deg, #2EC4F1, #3B82F6); }
 .ann.ok { background: linear-gradient(135deg, #22C55E, #0E9384); }
 .ann.warn { background: linear-gradient(135deg, #FFB020, #F97316); }
+
+/* ═══ Sayfa gezinme şeridi ve yukarı çık / Page navigation strip and back-to-top ═══ */
+.pnav { display: flex; align-items: center; gap: 8px; padding: 12px 28px 0; max-width: 1240px; width: 100%; margin: 0 auto; }
+.pn-b { display: inline-flex; align-items: center; gap: 6px; height: 36px; padding: 0 12px; border-radius: 10px; border: 1.5px solid var(--line); background: var(--surface); color: var(--ink2); font-weight: 700; font-size: 13px; text-decoration: none; transition: .15s; }
+.pn-b svg.i { width: 17px; height: 17px; }
+.pn-b:hover:not(:disabled) { border-color: #7C5CFF; color: #7C5CFF; transform: translateY(-1px); }
+.pn-b:disabled { opacity: .4; cursor: default; }
+.pn-b.home { background: linear-gradient(135deg, #FFB020, #FF7A45); color: #fff; border-color: transparent; }
+.pn-b.home:hover { color: #fff; filter: brightness(1.05); }
+.pn-t { margin-left: auto; font-weight: 800; color: var(--muted); font-size: 13px; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; max-width: 40%; }
+.content { padding-top: 16px; }
+.totop { position: fixed; right: 22px; bottom: 26px; z-index: 45; width: 48px; height: 48px; border-radius: 50%; border: 0; color: #fff; background: linear-gradient(135deg, #7C5CFF, #FF5DA2); box-shadow: 0 10px 24px rgba(124, 92, 255, .4); display: flex; align-items: center; justify-content: center; animation: fade .2s ease; }
+.totop:hover { transform: translateY(-2px); }
+.totop[hidden] { display: none; }
+.xp-pop { bottom: 92px; }
+@media (max-width: 860px) {
+  .pnav { padding: 10px 16px 0; gap: 6px; }
+  .pn-b { height: 34px; padding: 0 10px; }
+  .pn-b span { display: none; }
+  .pn-b.home span { display: inline; }
+  .pn-t { max-width: 45%; }
+  .totop { right: 14px; bottom: 82px; width: 44px; height: 44px; }
+  .xp-pop { bottom: 136px; }
+}
