@@ -427,7 +427,26 @@
       const out = $('#trOut'), more = $('#trMore');
       if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri burada görünecek.</div>`; more.innerHTML = ''; return; }
       let main = r.exact[0], approx = false;
-      if (!main && r.similar.length && !r.gloss.every(g => g.e)) { main = r.similar[0]; approx = true; r.similar = r.similar.slice(1); }
+      if (!main && r.similar.length && !r.gloss.every(g => g.e)) {
+        // En yakın ifade, sözlükte bulunan asıl kelimeleri de içermeli (ör. "avans") / The closest phrase must contain the known content words
+        const need = r.gloss.filter(g => g.e).map(g => g.src.split(' ')).flat().filter(w => w.length > 2);
+        const has = (e, w) => e._tr.split(' ').some(t => t.startsWith(w.slice(0, Math.max(3, w.length - 2))));
+        let cand = r.similar.find(e => need.every(w => has(e, w)));
+        // Örnek cümleler de aranır / Example sentences are searched too
+        if (!cand && dir === 'tr') {
+          const qt = normTr(text).split(' ').filter(w => w.length > 1);
+          let best = null, bs = 0;
+          E.forEach(e => {
+            if (!e.ex || !e.ex.tr) return;
+            const x = { _tr: normTr(e.ex.tr) };
+            if (!need.every(w => has(x, w))) return;
+            const sc = qt.filter(w => has(x, w)).length / Math.max(qt.length, x._tr.split(' ').length);
+            if (sc > bs) { bs = sc; best = e; }
+          });
+          if (best && bs >= .5) cand = { id: best.id, ar: best.ex.ar, ok: best.ex.ok, fr: best.ex.fr, tr: best.ex.tr, cat: best.cat, _tr: normTr(best.ex.tr) };
+        }
+        if (cand) { main = cand; approx = true; r.similar = r.similar.filter(e => e !== cand); }
+      }
       if (main) {
         out.innerHTML = dir === 'tr'
           ? `<div class="ar">${esc(main.ar)}</div><div class="ok">${esc(main.ok)}</div><div class="fr">${esc(main.fr)}</div><div style="display:flex;gap:8px;margin-top:6px">${playBtn(main.ar)}${favBtn(main)}<button class="icon-btn" data-copy="${esc(main.ar)}" title="Kopyala">${ic('copy')}</button></div><span class="tr-src${approx ? ' mt' : ''}"><span class="dot"></span>${approx ? 'En yakın ifade: “' + esc(main.tr) + '”' : 'Portal sözlüğü'} · ${esc(main.cat)}</span>`

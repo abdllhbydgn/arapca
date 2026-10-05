@@ -1,0 +1,6549 @@
+[
+{
+"ar": "مكنة",
+"fr": "makana",
+"ok": "makana",
+"tr": "makine",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1",
+"note": "Resmi: ماكينة",
+"ex": {
+"ar": "المكنة دي بايظة من الصبح",
+"fr": "el makana di bayza men el sob7",
+"ok": "el makana di bayza min es-subh",
+"tr": "Bu makine sabahtan beri bozuk"
+}
+},
+{
+"ar": "السنجر",
+"fr": "el sengar",
+"ok": "es-sengar",
+"tr": "düz dikiş makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"note": "Düz makineye genel ad (Singer markasından)",
+"ex": {
+"ar": "اقعدي على السنجر اللي جنب الشباك",
+"fr": "o23odi 3ala el sengar elli ganb el shebbak",
+"ok": "u'udi 'ala-s-sengar illi gamb iş-şibbak",
+"tr": "Pencerenin yanındaki düz makineye otur (kadına)"
+}
+},
+{
+"ar": "مكنة سنجر",
+"fr": "makanet sengar",
+"ok": "makanet sengar",
+"tr": "düz dikiş makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "أوفر",
+"fr": "ovar",
+"ok": "ovar",
+"tr": "overlok (dikiş)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"note": "Hem makine hem dikiş için",
+"ex": {
+"ar": "الحتة دي لسه محتاجة أوفر",
+"fr": "el 7etta di lessa me7taga ovar",
+"ok": "el hetta di lissa mihtaga ovar",
+"tr": "Bu parçanın hâlâ overloka ihtiyacı var"
+}
+},
+{
+"ar": "مكنة أوفر",
+"fr": "makanet ovar",
+"ok": "makanet ovar",
+"tr": "overlok makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "رشمة",
+"fr": "rashma",
+"ok": "raşma",
+"tr": "reçme (kaplama dikiş) makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1",
+"note": "Tişört etek ve kol baskısı",
+"ex": {
+"ar": "الديل بيتعمل على الرشمة",
+"fr": "el deil beyet3emel 3ala el rashma",
+"ok": "ed-deyl biyit'imil 'ala-r-raşma",
+"tr": "Etek baskısı reçmede yapılıyor"
+}
+},
+{
+"ar": "مكنة زراير",
+"fr": "makanet zarayer",
+"ok": "makanet zarayir",
+"tr": "düğme dikme makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "مكنة عراوي",
+"fr": "makanet 3arawi",
+"ok": "makanet 'aravi",
+"tr": "ilik makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "مكنة العراوي بتاكل القماش",
+"fr": "makanet el 3arawi betakol el 2omash",
+"ok": "makanet el 'aravi bitakul el 'umaş",
+"tr": "İlik makinesi kumaşı yiyor"
+}
+},
+{
+"ar": "مكنة بارتك",
+"fr": "makanet bartak",
+"ok": "makanet bartak",
+"tr": "punteriz makinesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1",
+"note": "Cep ağzı ve kemer köprüsü sağlamlaştırma"
+},
+{
+"ar": "مكوة",
+"fr": "makwa",
+"ok": "makva",
+"tr": "ütü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "المكوة سخنة خلي بالك",
+"fr": "el makwa sokhna khalli balak",
+"ok": "el makva suhna halli balak",
+"tr": "Ütü sıcak, dikkat et"
+}
+},
+{
+"ar": "مكوة بخار",
+"fr": "makwet bokhar",
+"ok": "makvet buhar",
+"tr": "buharlı ütü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "ترابيزة قص",
+"fr": "tarabeezet 2ass",
+"ok": "tarabizet 'ass",
+"tr": "kesim masası",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "فضّوا ترابيزة القص عشان نفرش",
+"fr": "faddo tarabeezet el 2ass 3ashan nefresh",
+"ok": "faddu tarabizet el 'ass 'aşan nifriş",
+"tr": "Kesim masasını boşaltın, serim yapacağız"
+}
+},
+{
+"ar": "ترابيزة كوي",
+"fr": "tarabeezet kawy",
+"ok": "tarabizet kavy",
+"tr": "ütü masası",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "مقص",
+"fr": "ma2ass",
+"ok": "ma'ass",
+"tr": "makas",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "فين المقص بتاعي؟",
+"fr": "feen el ma2ass beta3i?",
+"ok": "fen el ma'ass beta'i?",
+"tr": "Benim makasım nerede?"
+}
+},
+{
+"ar": "مقص فتلة",
+"fr": "ma2ass fatla",
+"ok": "ma'ass fatla",
+"tr": "iplik makası (çıtçıt makas)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "إبرة",
+"fr": "ebra",
+"ok": "ibra",
+"tr": "iğne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الإبرة اتكسرت تاني",
+"fr": "el ebra etkasaret tani",
+"ok": "el ibra itkaseret tani",
+"tr": "İğne yine kırıldı"
+}
+},
+{
+"ar": "بوبينة",
+"fr": "bobina",
+"ok": "bobina",
+"tr": "masura (bobin)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "البوبينة خلصت غيريها",
+"fr": "el bobina khelset ghayyareeha",
+"ok": "el bobina hilset ğayyariha",
+"tr": "Masura bitti, değiştir (kadına)"
+}
+},
+{
+"ar": "مكوك",
+"fr": "makook",
+"ok": "makuk",
+"tr": "masura kovanı (mekik)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "دواسة",
+"fr": "dawwasa",
+"ok": "devvasa",
+"tr": "pedal",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "متدوسيش على الدواسة جامد كده",
+"fr": "ma tdooseesh 3ala el dawwasa gamed keda",
+"ok": "ma tdusiş 'ala-d-devvasa gamid kida",
+"tr": "Pedala öyle sert basma (kadına)"
+}
+},
+{
+"ar": "رجل المكنة",
+"fr": "regl el makana",
+"ok": "rigl el makana",
+"tr": "baskı ayağı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "سير المكنة",
+"fr": "seer el makana",
+"ok": "sir el makana",
+"tr": "makine kayışı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "سير المكنة قطع",
+"fr": "seer el makana 2ata3",
+"ok": "sir el makana 'ata'",
+"tr": "Makinenin kayışı koptu"
+}
+},
+{
+"ar": "موتور",
+"fr": "motoor",
+"ok": "motor",
+"tr": "motor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "زيت المكنة",
+"fr": "zeit el makana",
+"ok": "zeyt el makana",
+"tr": "makine yağı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "المكنة ناشفة عايزة زيت",
+"fr": "el makana nashfa 3ayza zeit",
+"ok": "el makana naşfa 'ayza zeyt",
+"tr": "Makine kurumuş, yağ istiyor"
+}
+},
+{
+"ar": "مكنة قص",
+"fr": "makanet 2ass",
+"ok": "makanet 'ass",
+"tr": "kesim makinesi (dik bıçak)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "مسدس تيكيت",
+"fr": "mosaddas tiket",
+"ok": "musaddas tiket",
+"tr": "etiket tabancası",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "طباشير",
+"fr": "tabasheer",
+"ok": "tabaşir",
+"tr": "terzi tebeşiri",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "علّم بالطباشير قبل ما تقص",
+"fr": "3allem bel tabasheer 2abl ma t2oss",
+"ok": "'allim bit-tabaşir 'abl ma t'uss",
+"tr": "Kesmeden önce tebeşirle işaretle"
+}
+},
+{
+"ar": "متر",
+"fr": "metr",
+"ok": "metr",
+"tr": "mezura (şerit metre)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "هات المتر نقيس الطول",
+"fr": "hat el metr ne2ees el tool",
+"ok": "hat el metr ni'is et-tul",
+"tr": "Mezurayı getir boyu ölçelim"
+}
+},
+{
+"ar": "دبابيس",
+"fr": "dababees",
+"ok": "dababis",
+"tr": "toplu iğneler",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"note": "Tekil: دبوس"
+},
+{
+"ar": "مسطرة",
+"fr": "mastara",
+"ok": "mastara",
+"tr": "cetvel",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كون خيط",
+"fr": "koon kheit",
+"ok": "kon heyt",
+"tr": "iplik konisi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "ركّب كون خيط جديد",
+"fr": "rakkeb koon kheit gedeed",
+"ok": "rakkib kon heyt gidid",
+"tr": "Yeni bir iplik konisi tak"
+}
+},
+{
+"ar": "قماش",
+"fr": "2omash",
+"ok": "'umaş",
+"tr": "kumaş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "القماش ده خفيف أوي",
+"fr": "el 2omash dah khafeef awi",
+"ok": "el 'umaş dah hafif ovi",
+"tr": "Bu kumaş çok ince"
+}
+},
+{
+"ar": "توب قماش",
+"fr": "toob 2omash",
+"ok": "top 'umaş",
+"tr": "top kumaş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "نزّل توب قماش من المخزن",
+"fr": "nazzel toob 2omash men el makhzan",
+"ok": "nazzil top 'umaş min el mahzan",
+"tr": "Depodan bir top kumaş indir"
+}
+},
+{
+"ar": "خيط",
+"fr": "kheit",
+"ok": "heyt",
+"tr": "iplik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "فتلة",
+"fr": "fatla",
+"ok": "fatla",
+"tr": "iplik (tek tel)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1",
+"note": "Atölyede 'iplik' için en yaygın söz",
+"ex": {
+"ar": "الفتلة دي مش نفس اللون",
+"fr": "el fatla di mesh nafs el loon",
+"ok": "el fatla di miş nafs el lon",
+"tr": "Bu iplik aynı renk değil"
+}
+},
+{
+"ar": "زراير",
+"fr": "zarayer",
+"ok": "zarayir",
+"tr": "düğmeler",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1",
+"note": "Tekil: زرار",
+"ex": {
+"ar": "الزراير خلصت من على الخط",
+"fr": "el zarayer khelset men 3ala el khatt",
+"ok": "ez-zarayir hilset min 'ala-l-hatt",
+"tr": "Hattaki düğmeler bitti"
+}
+},
+{
+"ar": "سوستة",
+"fr": "sosta",
+"ok": "susta",
+"tr": "fermuar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "السوستة مش بتقفل",
+"fr": "el sosta mesh bete2fel",
+"ok": "es-susta miş bti'fil",
+"tr": "Fermuar kapanmıyor"
+}
+},
+{
+"ar": "أستك",
+"fr": "astek",
+"ok": "astik",
+"tr": "lastik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الأستك ده واسع على الوسط",
+"fr": "el astek dah wase3 3ala el west",
+"ok": "el astik dah vasi' 'ala-l-vist",
+"tr": "Bu lastik bele bol geliyor"
+}
+},
+{
+"ar": "بطانة",
+"fr": "betana",
+"ok": "bitana",
+"tr": "astar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "البطانة أطول من الجاكت",
+"fr": "el betana atwal men el jacket",
+"ok": "el bitana atval min el ceket",
+"tr": "Astar ceketten uzun"
+}
+},
+{
+"ar": "فازلين",
+"fr": "fazleen",
+"ok": "fazlin",
+"tr": "tela (yapışkanlı ara astar)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "B1",
+"note": "Mısır atölye terimi; vazelinle ilgisi yok",
+"ex": {
+"ar": "حط فازلين في الكولة",
+"fr": "7ott fazleen fel kola",
+"ok": "hutt fazlin fil kola",
+"tr": "Yakaya tela koy"
+}
+},
+{
+"ar": "تيكيت",
+"fr": "tiket",
+"ok": "tiket",
+"tr": "etiket (askı etiketi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "التيكيت ده بتاع مقاس تاني",
+"fr": "el tiket dah betaa3 ma2as tani",
+"ok": "et-tiket dah beta' ma'as tani",
+"tr": "Bu etiket başka bedenin"
+}
+},
+{
+"ar": "ليبل",
+"fr": "label",
+"ok": "leybil",
+"tr": "dokuma etiket (marka etiketi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "كبسون",
+"fr": "kabsoon",
+"ok": "kabsun",
+"tr": "çıtçıt",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "قطن",
+"fr": "2otn",
+"ok": "'otn",
+"tr": "pamuk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "القماش ده قطن مية في المية",
+"fr": "el 2omash dah 2otn meyya fel meyya",
+"ok": "el 'umaş dah 'otn miyya fil miyya",
+"tr": "Bu kumaş yüzde yüz pamuk"
+}
+},
+{
+"ar": "جينز",
+"fr": "jeenz",
+"ok": "cinz",
+"tr": "kot (denim)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "تريكو",
+"fr": "tricot",
+"ok": "triko",
+"tr": "örme kumaş (triko)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "ليكرا",
+"fr": "likra",
+"ok": "likra",
+"tr": "likra",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "بوليستر",
+"fr": "polyester",
+"ok": "polyestir",
+"tr": "polyester",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "شريط",
+"fr": "shereet",
+"ok": "şirit",
+"tr": "şerit",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "دانتيلا",
+"fr": "dantella",
+"ok": "dantilla",
+"tr": "dantel",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "شماعة",
+"fr": "shammaa3a",
+"ok": "şemma'a",
+"tr": "askı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كيس",
+"fr": "kees",
+"ok": "kis",
+"tr": "poşet",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "لون",
+"fr": "loon",
+"ok": "lon",
+"tr": "renk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "اللون ده مش زي العينة",
+"fr": "el loon dah mesh zay el 3ayyena",
+"ok": "el lon dah miş zey el 'ayyina",
+"tr": "Bu renk numuneye benzemiyor"
+}
+},
+{
+"ar": "نمرة اللون",
+"fr": "nemret el loon",
+"ok": "nimret el lon",
+"tr": "renk numarası (kodu)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "خامات",
+"fr": "khamat",
+"ok": "hamat",
+"tr": "malzeme (kumaş ve aksesuar)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "الخامات لسه موصلتش",
+"fr": "el khamat lessa mawasaletsh",
+"ok": "el hamat lissa ma vasalitş",
+"tr": "Malzemeler daha gelmedi"
+}
+},
+{
+"ar": "اكسسوار",
+"fr": "akseswar",
+"ok": "akseswar",
+"tr": "aksesuar (düğme, fermuar vb.)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "لفة",
+"fr": "laffa",
+"ok": "laffa",
+"tr": "rulo (bobin, makara)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "قص",
+"fr": "2ass",
+"ok": "'ass",
+"tr": "kesim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "القص خلّص الأوردر؟",
+"fr": "el 2ass khallas el order?",
+"ok": "el 'ass hallas el ordır?",
+"tr": "Kesim siparişi bitirdi mi?"
+}
+},
+{
+"ar": "قصاص",
+"fr": "2assas",
+"ok": "'assas",
+"tr": "kesimci",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "القصاص غايب النهاردة",
+"fr": "el 2assas ghayeb el naharda",
+"ok": "el 'assas ğayib innaharda",
+"tr": "Kesimci bugün yok"
+}
+},
+{
+"ar": "باترون",
+"fr": "batroon",
+"ok": "batron",
+"tr": "kalıp",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الباترون ده مقاس كام؟",
+"fr": "el batroon dah ma2as kam?",
+"ok": "el batron dah ma'as kam?",
+"tr": "Bu kalıp kaç beden?"
+}
+},
+{
+"ar": "ماركر",
+"fr": "marker",
+"ok": "markır",
+"tr": "pastal planı (marker)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "فرش",
+"fr": "farsh",
+"ok": "farş",
+"tr": "pastal serimi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "فرش القماش لازم يبقى مشدود",
+"fr": "farsh el 2omash lazem yeb2a mashdood",
+"ok": "farş el 'umaş lazim yib'a maşdud",
+"tr": "Kumaş serimi gergin olmalı"
+}
+},
+{
+"ar": "رصة",
+"fr": "rassa",
+"ok": "rassa",
+"tr": "pastal (üst üste katlar)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "الرصة دي فيها كام طبقة؟",
+"fr": "el rassa di feeha kam tab2a?",
+"ok": "er-rassa di fiha kam tab'a?",
+"tr": "Bu pastalda kaç kat var?"
+}
+},
+{
+"ar": "طبقة",
+"fr": "tab2a",
+"ok": "tab'a",
+"tr": "kat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "تعشيق",
+"fr": "ta3shee2",
+"ok": "ta'şi'",
+"tr": "kalıpları iç içe yerleştirme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "مقاس",
+"fr": "ma2as",
+"ok": "ma'as",
+"tr": "beden, ölçü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "عايزين مقاس لارج أكتر",
+"fr": "3ayzeen ma2as large aktar",
+"ok": "'ayzin ma'as larc aktar",
+"tr": "Daha çok large beden lazım"
+}
+},
+{
+"ar": "نمرة",
+"fr": "nemra",
+"ok": "nimra",
+"tr": "numara (beden numarası)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "قصاقيص",
+"fr": "2asa2ees",
+"ok": "'asa'is",
+"tr": "kumaş kırpıntıları",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "لمّوا القصاقيص من الأرض",
+"fr": "lemmo el 2asa2ees men el ard",
+"ok": "limmu-l-'asa'is min el ard",
+"tr": "Kırpıntıları yerden toplayın"
+}
+},
+{
+"ar": "بواقي",
+"fr": "bawa2i",
+"ok": "bava'i",
+"tr": "artık kumaş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "استهلاك",
+"fr": "estehlak",
+"ok": "istihlak",
+"tr": "sarfiyat (kumaş tüketimi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "ترقيم",
+"fr": "tar2eem",
+"ok": "tar'im",
+"tr": "numaralama (kesilen parçalar)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "متنساش الترقيم على كل حتة",
+"fr": "matensash el tar2eem 3ala kol 7etta",
+"ok": "ma tinsaş et-tar'im 'ala kull hetta",
+"tr": "Her parçaya numara vermeyi unutma"
+}
+},
+{
+"ar": "سكينة",
+"fr": "sekkeena",
+"ok": "sikkina",
+"tr": "bıçak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "تفصيل",
+"fr": "tafseel",
+"ok": "tafsil",
+"tr": "biçki (kesip dikme)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "ورق باترون",
+"fr": "wara2 batroon",
+"ok": "vara' batron",
+"tr": "kalıp kağıdı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "وش القماش",
+"fr": "wesh el 2omash",
+"ok": "viş el 'umaş",
+"tr": "kumaşın yüzü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "اتأكد إن وش القماش لفوق",
+"fr": "et2akked en wesh el 2omash le foo2",
+"ok": "it'akkid inn viş el 'umaş li fo'",
+"tr": "Kumaşın yüzünün yukarıda olduğundan emin ol"
+}
+},
+{
+"ar": "ضهر القماش",
+"fr": "dahr el 2omash",
+"ok": "dahr el 'umaş",
+"tr": "kumaşın tersi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "عرض القماش",
+"fr": "3ard el 2omash",
+"ok": "'ard el 'umaş",
+"tr": "kumaş eni",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "طول",
+"fr": "tool",
+"ok": "tul",
+"tr": "boy, uzunluk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "خط",
+"fr": "khatt",
+"ok": "hatt",
+"tr": "hat (dikim bandı)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "خط تلاتة متأخر النهاردة",
+"fr": "khatt talata mete2akhar el naharda",
+"ok": "hatt talata mit'ahhar innaharda",
+"tr": "3 numaralı hat bugün geride"
+}
+},
+{
+"ar": "حتة",
+"fr": "7etta",
+"ok": "hetta",
+"tr": "parça",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"note": "Çoğul: حتت",
+"ex": {
+"ar": "خلّصي الحتة دي الأول",
+"fr": "khallasi el 7etta di el awwel",
+"ok": "hallasi el hetta di-l-evvil",
+"tr": "Önce bu parçayı bitir (kadına)"
+}
+},
+{
+"ar": "باكو",
+"fr": "bako",
+"ok": "bako",
+"tr": "demet (bundle)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الباكو فيه عشرين حتة",
+"fr": "el bako feeh 3eshreen 7etta",
+"ok": "el bako fih 'işrin hetta",
+"tr": "Demette yirmi parça var"
+}
+},
+{
+"ar": "ربطة",
+"fr": "rabta",
+"ok": "rabta",
+"tr": "bağ, deste",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "تجميع",
+"fr": "tagmee3",
+"ok": "tagmi'",
+"tr": "montaj (birleştirme)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "تقفيل",
+"fr": "ta2feel",
+"ok": "ta'fil",
+"tr": "kapama (yan dikiş, birleştirme)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "البنطلونات مستنية التقفيل",
+"fr": "el bantaloonat mestaneyya el ta2feel",
+"ok": "el bantalonat mistanniyya et-ta'fil",
+"tr": "Pantolonlar kapamayı bekliyor"
+}
+},
+{
+"ar": "تشطيب",
+"fr": "tashteeb",
+"ok": "taştib",
+"tr": "son işlem",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "تنضيف",
+"fr": "tandeef",
+"ok": "tandif",
+"tr": "iplik temizleme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2",
+"note": "Resmi: تنظيف",
+"ex": {
+"ar": "البنات اللي على التنضيف يقصوا الفتل كويس",
+"fr": "el banat elli 3ala el tandeef ye2osso el fatal kwayyes",
+"ok": "el banat illi 'ala-t-tandif yi'ussu-l-fatal kuvayyis",
+"tr": "Temizlemedeki kızlar iplikleri iyi kessin"
+}
+},
+{
+"ar": "عملية",
+"fr": "3amaleyya",
+"ok": "'amaliyya",
+"tr": "operasyon",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "كل واحدة ليها عملية واحدة",
+"fr": "kol wa7da leeha 3amaleyya wa7da",
+"ok": "kull vahda liha 'amaliyya vahda",
+"tr": "Her kızın tek bir operasyonu var"
+}
+},
+{
+"ar": "مرحلة",
+"fr": "mar7ala",
+"ok": "marhala",
+"tr": "aşama",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "خياط",
+"fr": "khayyat",
+"ok": "hayyat",
+"tr": "dikişçi (erkek)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "خياطة",
+"fr": "khayyata",
+"ok": "hayyata",
+"tr": "dikişçi (kadın)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "محتاجين خياطات شاطرين",
+"fr": "me7tageen khayyatat shatreen",
+"ok": "mihtagin hayyatat şatrin",
+"tr": "Becerikli dikişçilere ihtiyacımız var"
+}
+},
+{
+"ar": "مشرف",
+"fr": "moshref",
+"ok": "muşrif",
+"tr": "hat şefi (erkek)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "مشرفة",
+"fr": "moshrefa",
+"ok": "muşrifa",
+"tr": "hat şefi (kadın)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "روحي قولي للمشرفة",
+"fr": "rooḥi 2ooli lel moshrefa",
+"ok": "ruhi 'uli lil-muşrifa",
+"tr": "Git şefe söyle (kadına)"
+}
+},
+{
+"ar": "كم",
+"fr": "komm",
+"ok": "kumm",
+"tr": "kol",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"note": "Çoğul: كمام"
+},
+{
+"ar": "كولة",
+"fr": "kola",
+"ok": "kola",
+"tr": "yaka",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2",
+"note": "ياقة da denir",
+"ex": {
+"ar": "الكولة مايلة شوية",
+"fr": "el kola mayla shewayya",
+"ok": "el kola mayla şuvayya",
+"tr": "Yaka biraz eğri"
+}
+},
+{
+"ar": "جيب",
+"fr": "geib",
+"ok": "geyb",
+"tr": "cep",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الجيب ده مش مستوي",
+"fr": "el geib dah mesh mestewi",
+"ok": "el geyb dah miş mistivi",
+"tr": "Bu cep düz değil"
+}
+},
+{
+"ar": "وسط",
+"fr": "west",
+"ok": "vist",
+"tr": "bel",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "حردة",
+"fr": "7arda",
+"ok": "harda",
+"tr": "kol oyuntusu",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "ديل",
+"fr": "deil",
+"ok": "deyl",
+"tr": "etek ucu (gömlek/tişört)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "تركيب",
+"fr": "tarkeeb",
+"ok": "tarkib",
+"tr": "takma (kol, yaka takma)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "تركيب الكم محتاج إيد حلوة",
+"fr": "tarkeeb el komm me7tag eid 7elwa",
+"ok": "tarkib el kumm mihtag eyd hilva",
+"tr": "Kol takma usta el ister"
+}
+},
+{
+"ar": "تنية",
+"fr": "tanya",
+"ok": "tanya",
+"tr": "kıvırma, katlama payı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "بنطلون",
+"fr": "bantaloon",
+"ok": "bantalon",
+"tr": "pantolon",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "قميص",
+"fr": "2amees",
+"ok": "'amis",
+"tr": "gömlek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "تيشيرت",
+"fr": "tisheert",
+"ok": "tişirt",
+"tr": "tişört",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الأوردر ده تيشيرتات بس",
+"fr": "el order dah tisheertat bass",
+"ok": "el ordır dah tişirtat bass",
+"tr": "Bu sipariş sadece tişört"
+}
+},
+{
+"ar": "رجل البنطلون",
+"fr": "regl el bantaloon",
+"ok": "rigl el bantalon",
+"tr": "paça",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "عامل",
+"fr": "3amel",
+"ok": "'amil",
+"tr": "işçi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كوي",
+"fr": "kawy",
+"ok": "kavy",
+"tr": "ütüleme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "مكوجي",
+"fr": "makwagi",
+"ok": "makvagi",
+"tr": "ütücü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "المكوجي محتاج حد يساعده",
+"fr": "el makwagi me7tag 7add yesa3do",
+"ok": "el makvagi mihtag hadd yisa'du",
+"tr": "Ütücünün yardıma ihtiyacı var"
+}
+},
+{
+"ar": "تطبيق",
+"fr": "tatbee2",
+"ok": "tatbi'",
+"tr": "katlama",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "التطبيق لازم يبقى زي الصورة",
+"fr": "el tatbee2 lazem yeb2a zay el soora",
+"ok": "et-tatbi' lazim yib'a zey es-sura",
+"tr": "Katlama resimdeki gibi olmalı"
+}
+},
+{
+"ar": "تكييس",
+"fr": "takyees",
+"ok": "takyis",
+"tr": "poşetleme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "تعبئة",
+"fr": "ta3beya",
+"ok": "ta'biya",
+"tr": "koliye doldurma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "كرتونة",
+"fr": "kartoona",
+"ok": "kartona",
+"tr": "koli",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1",
+"note": "Çoğul: كراتين",
+"ex": {
+"ar": "الكرتونة دي فيها كام حتة؟",
+"fr": "el kartoona di feeha kam 7etta?",
+"ok": "el kartona di fiha kam hetta?",
+"tr": "Bu kolide kaç parça var?"
+}
+},
+{
+"ar": "تغليف",
+"fr": "taghleef",
+"ok": "tağlif",
+"tr": "ambalajlama",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "باكينج",
+"fr": "packing",
+"ok": "pekinç",
+"tr": "paketleme bölümü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "ودّي الحتت دي على الباكينج",
+"fr": "waddi el 7etat di 3ala el packing",
+"ok": "vaddi-l-hitat di 'ala-l-pekinç",
+"tr": "Bu parçaları paketlemeye götür"
+}
+},
+{
+"ar": "شريط لزق",
+"fr": "shereet lazz2",
+"ok": "şirit lazk",
+"tr": "koli bandı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "باكينج ليست",
+"fr": "packing list",
+"ok": "pekinç list",
+"tr": "çeki listesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "رص",
+"fr": "rass",
+"ok": "rass",
+"tr": "istifleme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "رصّوا الكراتين جنب الباب",
+"fr": "rasso el karateen ganb el bab",
+"ok": "rassu-l-karatin gamb el bab",
+"tr": "Kolileri kapının yanına istifleyin"
+}
+},
+{
+"ar": "مخزن",
+"fr": "makhzan",
+"ok": "mahzan",
+"tr": "depo",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الكراتين راحت المخزن",
+"fr": "el karateen ra7et el makhzan",
+"ok": "el karatin rahit el mahzan",
+"tr": "Koliler depoya gitti"
+}
+},
+{
+"ar": "كيس بلاستيك",
+"fr": "kees blastek",
+"ok": "kis blastik",
+"tr": "naylon poşet",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كلبس",
+"fr": "kelbs",
+"ok": "kilbs",
+"tr": "klips",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "B1",
+"note": "Gömlek katlamada"
+},
+{
+"ar": "ستيكر",
+"fr": "sticker",
+"ok": "stikır",
+"tr": "yapışkan etiket (koli etiketi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "حط الستيكر على جنب الكرتونة",
+"fr": "7ott el sticker 3ala ganb el kartoona",
+"ok": "hutt es-stikır 'ala gamb el kartona",
+"tr": "Etiketi kolinin yan yüzüne yapıştır"
+}
+},
+{
+"ar": "وزن",
+"fr": "wazn",
+"ok": "vazn",
+"tr": "ağırlık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كرمشة",
+"fr": "karmasha",
+"ok": "karmaşa",
+"tr": "kırışıklık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "فيه كرمشة في الضهر اكويها تاني",
+"fr": "fee karmasha fel dahr ekweeha tani",
+"ok": "fi karmaşa fid-dahr ikviha tani",
+"tr": "Sırtta kırışık var, tekrar ütüle"
+}
+},
+{
+"ar": "بخار",
+"fr": "bokhar",
+"ok": "buhar",
+"tr": "buhar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "لمعة",
+"fr": "lam3a",
+"ok": "lam'a",
+"tr": "parlama (ütü izi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "B1",
+"note": "Kalite hatası"
+},
+{
+"ar": "محروق",
+"fr": "ma7roo2",
+"ok": "mahru'",
+"tr": "yanık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الحتة دي محروقة من المكوة",
+"fr": "el 7etta di ma7roo2a men el makwa",
+"ok": "el hetta di mahru'a min el makva",
+"tr": "Bu parça ütüden yanmış"
+}
+},
+{
+"ar": "عيب",
+"fr": "3eib",
+"ok": "'eyb",
+"tr": "hata, kusur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1",
+"note": "Çoğul: عيوب",
+"ex": {
+"ar": "فيه عيب في الكم الشمال",
+"fr": "fee 3eib fel komm el shemal",
+"ok": "fi 'eyb fil kumm iş-şimal",
+"tr": "Sol kolda hata var"
+}
+},
+{
+"ar": "غرزة",
+"fr": "ghorza",
+"ok": "ğurza",
+"tr": "dikiş ilmeği",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"note": "Çoğul: غرز",
+"ex": {
+"ar": "الغرزة دي واسعة",
+"fr": "el ghorza di wes3a",
+"ok": "el ğurza di vis'a",
+"tr": "Bu dikiş adımı geniş"
+}
+},
+{
+"ar": "فتلة طالعة",
+"fr": "fatla tal3a",
+"ok": "fatla tal'a",
+"tr": "dışarı sarkan iplik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "بقعة",
+"fr": "bo23a",
+"ok": "bu''a",
+"tr": "leke",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "فيه بقعة زيت على الحتة",
+"fr": "fee bo23et zeit 3ala el 7etta",
+"ok": "fi bu''et zeyt 'ala-l-hetta",
+"tr": "Parçada yağ lekesi var"
+}
+},
+{
+"ar": "ريبير",
+"fr": "repair",
+"ok": "ripeyr",
+"tr": "tamir (onarıma giden iş)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "رجّع الريبير للخط بسرعة",
+"fr": "ragga3 el repair lel khatt besor3a",
+"ok": "ragga' er-ripeyr lil-hatt bisur'a",
+"tr": "Tamirleri hemen hatta geri gönder"
+}
+},
+{
+"ar": "تصليح",
+"fr": "taslee7",
+"ok": "taslih",
+"tr": "düzeltme, tamir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "مرفوض",
+"fr": "marfood",
+"ok": "marfud",
+"tr": "reddedildi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الباكو ده كله مرفوض",
+"fr": "el bako dah kollo marfood",
+"ok": "el bako dah kullu marfud",
+"tr": "Bu demetin hepsi ret"
+}
+},
+{
+"ar": "مقبول",
+"fr": "ma2bool",
+"ok": "ma'bul",
+"tr": "kabul (geçti)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الباكو ده مقبول عدّيه",
+"fr": "el bako dah ma2bool 3addeeh",
+"ok": "el bako dah ma'bul 'addih",
+"tr": "Bu demet kabul, geçir"
+}
+},
+{
+"ar": "كواليتي",
+"fr": "quality",
+"ok": "kualiti",
+"tr": "kalite kontrol (bölüm ya da kişi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الكواليتي رجّعت الباكو",
+"fr": "el quality ragga3et el bako",
+"ok": "el kualiti ragga'it el bako",
+"tr": "Kalite kontrol demeti geri çevirdi"
+}
+},
+{
+"ar": "فحص",
+"fr": "fa7s",
+"ok": "fahs",
+"tr": "kontrol, muayene",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "عينة",
+"fr": "3ayyena",
+"ok": "'ayyina",
+"tr": "numune",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "قارن الحتة بالعينة",
+"fr": "2aren el 7etta bel 3ayyena",
+"ok": "'arin el hetta bil-'ayyina",
+"tr": "Parçayı numuneyle karşılaştır"
+}
+},
+{
+"ar": "سامبل",
+"fr": "sample",
+"ok": "sampıl",
+"tr": "numune (sample)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "خرم",
+"fr": "khorm",
+"ok": "hurm",
+"tr": "delik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "فيه خرم في القماش هنا",
+"fr": "fee khorm fel 2omash hena",
+"ok": "fi hurm fil 'umaş hina",
+"tr": "Burada kumaşta delik var"
+}
+},
+{
+"ar": "مايل",
+"fr": "mayel",
+"ok": "mayil",
+"tr": "eğri, yamuk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "مقلوب",
+"fr": "ma2loob",
+"ok": "ma'lub",
+"tr": "ters",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الليبل متركب مقلوب",
+"fr": "el label metrakkeb ma2loob",
+"ok": "el leybil mitrakkib ma'lub",
+"tr": "Etiket ters takılmış"
+}
+},
+{
+"ar": "ناقص",
+"fr": "na2es",
+"ok": "na'is",
+"tr": "eksik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "باهت",
+"fr": "bahet",
+"ok": "bahit",
+"tr": "soluk (renk)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "سكند",
+"fr": "second",
+"ok": "sekond",
+"tr": "ikinci kalite",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "الحتت دي تتحط على جنب سكند",
+"fr": "el 7etat di tet7att 3ala ganb second",
+"ok": "el hitat di tithatt 'ala gamb sekond",
+"tr": "Bu parçalar kenara, ikinci kaliteye ayrılsın"
+}
+},
+{
+"ar": "فرز",
+"fr": "farz",
+"ok": "farz",
+"tr": "ayıklama, ayırma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "مضروب",
+"fr": "madroob",
+"ok": "madrub",
+"tr": "defolu, bozuk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1",
+"note": "Halk ağzı; sahte anlamı da var"
+},
+{
+"ar": "نط غرز",
+"fr": "natt ghorz",
+"ok": "natt ğurz",
+"tr": "atlamalı dikiş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "مشدود",
+"fr": "mashdood",
+"ok": "maşdud",
+"tr": "büzgülü, çekmiş (dikiş)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "مقاسات",
+"fr": "ma2asat",
+"ok": "ma'asat",
+"tr": "ölçüler",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "المقاسات مش مظبوطة",
+"fr": "el ma2asat mesh mazboota",
+"ok": "el ma'asat miş mazbuta",
+"tr": "Ölçüler tutmuyor"
+}
+},
+{
+"ar": "قياس",
+"fr": "2eyas",
+"ok": "'iyas",
+"tr": "ölçüm",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "أوديت",
+"fr": "audit",
+"ok": "odit",
+"tr": "denetim (müşteri denetimi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "بكرة فيه أوديت من الزبون",
+"fr": "bokra fee audit men el zeboon",
+"ok": "bukra fi odit min ez-zibun",
+"tr": "Yarın müşteriden denetim var"
+}
+},
+{
+"ar": "إنسبكتور",
+"fr": "inspector",
+"ok": "inspektır",
+"tr": "müşteri kontrolcüsü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "فاينال",
+"fr": "final",
+"ok": "faynal",
+"tr": "final kontrol",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "تارجت",
+"fr": "target",
+"ok": "targit",
+"tr": "hedef (günlük üretim hedefi)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "التارجت النهاردة ألف حتة",
+"fr": "el target el naharda alf 7etta",
+"ok": "et-targit innaharda alf hetta",
+"tr": "Bugünkü hedef bin parça"
+}
+},
+{
+"ar": "إنتاجية",
+"fr": "entageyya",
+"ok": "intagiyya",
+"tr": "verimlilik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "إنتاج",
+"fr": "entag",
+"ok": "intag",
+"tr": "üretim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الإنتاج واقع الأسبوع ده",
+"fr": "el entag wa2e3 el esboo3 dah",
+"ok": "el intag va'i' el isbu' dah",
+"tr": "Bu hafta üretim düşük"
+}
+},
+{
+"ar": "أوردر",
+"fr": "order",
+"ok": "ordır",
+"tr": "sipariş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الأوردر ده لازم يخلص الخميس",
+"fr": "el order dah lazem yekhlas el khamees",
+"ok": "el ordır dah lazim yihlas el hamis",
+"tr": "Bu sipariş perşembe bitmeli"
+}
+},
+{
+"ar": "طلبية",
+"fr": "talabeyya",
+"ok": "talabiyya",
+"tr": "sipariş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "شحنة",
+"fr": "sha7na",
+"ok": "şahna",
+"tr": "sevkiyat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الشحنة هتطلع يوم السبت",
+"fr": "el sha7na hatetla3 yoom el sabt",
+"ok": "eş-şahna hatitla' yom es-sabt",
+"tr": "Sevkiyat cumartesi çıkacak"
+}
+},
+{
+"ar": "شيبمنت",
+"fr": "shipment",
+"ok": "şipmınt",
+"tr": "sevkiyat (shipment)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "متأخرين",
+"fr": "mete2akhreen",
+"ok": "mit'ahhrin",
+"tr": "geride (gecikmiş)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "إحنا متأخرين يومين",
+"fr": "e7na mete2akhreen yomein",
+"ok": "ihna mit'ahhrin yomeyn",
+"tr": "İki gün gerideyiz"
+}
+},
+{
+"ar": "كمية",
+"fr": "kammeyya",
+"ok": "kammiyya",
+"tr": "miktar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "العدد",
+"fr": "el 3add",
+"ok": "el 'add",
+"tr": "adet, sayı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "العدد مش مظبوط",
+"fr": "el 3add mesh mazboot",
+"ok": "el 'add miş mazbut",
+"tr": "Adet tutmuyor"
+}
+},
+{
+"ar": "ميعاد التسليم",
+"fr": "me3ad el tasleem",
+"ok": "mi'ad et-teslim",
+"tr": "teslim tarihi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "الزبون",
+"fr": "el zeboon",
+"ok": "ez-zibun",
+"tr": "müşteri",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الزبون عايز الشحنة بدري",
+"fr": "el zeboon 3ayez el sha7na badri",
+"ok": "ez-zibun 'ayiz eş-şahna badri",
+"tr": "Müşteri sevkiyatı erken istiyor"
+}
+},
+{
+"ar": "براند",
+"fr": "brand",
+"ok": "brand",
+"tr": "marka",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "موديل",
+"fr": "model",
+"ok": "model",
+"tr": "model",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الموديل ده صعب شوية",
+"fr": "el model dah sa3b shewayya",
+"ok": "el model dah sa'b şuvayya",
+"tr": "Bu model biraz zor"
+}
+},
+{
+"ar": "ستايل",
+"fr": "style",
+"ok": "stayl",
+"tr": "model (stil kodu)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "خطة",
+"fr": "khotta",
+"ok": "hutta",
+"tr": "plan",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "ساعة",
+"fr": "sa3a",
+"ok": "sa'a",
+"tr": "saat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الخط بيطلع كام في الساعة؟",
+"fr": "el khatt beytalla3 kam fel sa3a?",
+"ok": "el hatt biytalla' kam fis-sa'a?",
+"tr": "Hat saatte kaç çıkarıyor?"
+}
+},
+{
+"ar": "تسليم",
+"fr": "tasleem",
+"ok": "teslim",
+"tr": "teslim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "شغل",
+"fr": "shoghl",
+"ok": "şuğl",
+"tr": "iş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الشغل كتير الأيام دي",
+"fr": "el shoghl keteer el ayyam di",
+"ok": "eş-şuğl kitir el-ayyam di",
+"tr": "Bu günlerde iş çok"
+}
+},
+{
+"ar": "ضغط شغل",
+"fr": "daght shoghl",
+"ok": "dağt şuğl",
+"tr": "iş yoğunluğu",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "واقف",
+"fr": "wa2ef",
+"ok": "va'if",
+"tr": "durmuş, duruyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "عطل",
+"fr": "3otl",
+"ok": "'utl",
+"tr": "arıza",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "فيه عطل في مكنة الأوفر",
+"fr": "fee 3otl fi makanet el ovar",
+"ok": "fi 'utl fi makanet el ovar",
+"tr": "Overlok makinesinde arıza var"
+}
+},
+{
+"ar": "وردية",
+"fr": "wardeyya",
+"ok": "vardiyya",
+"tr": "vardiya",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الوردية التانية بتبتدي الساعة تلاتة",
+"fr": "el wardeyya el tanya betebtedi el sa3a talata",
+"ok": "el vardiyya et-tanya bitibtidi-s-sa'a talata",
+"tr": "İkinci vardiya saat üçte başlıyor"
+}
+},
+{
+"ar": "شيفت",
+"fr": "shift",
+"ok": "şift",
+"tr": "vardiya",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "أنا شيفت الصبح",
+"fr": "ana shift el sob7",
+"ok": "ana şift is-subh",
+"tr": "Ben sabah vardiyasındayım"
+}
+},
+{
+"ar": "حضور",
+"fr": "7odoor",
+"ok": "hudur",
+"tr": "devam (işe geliş)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "غياب",
+"fr": "gheyab",
+"ok": "ğiyab",
+"tr": "devamsızlık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الغياب بقى كتير الأسبوع ده",
+"fr": "el gheyab ba2a keteer el esboo3 dah",
+"ok": "el ğiyab ba'a kitir el isbu' dah",
+"tr": "Bu hafta devamsızlık arttı"
+}
+},
+{
+"ar": "إذن",
+"fr": "ezn",
+"ok": "izn",
+"tr": "izin (kısa süreli çıkış)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "عايزة إذن ساعتين",
+"fr": "3ayza ezn sa3tein",
+"ok": "'ayza izn sa'teyn",
+"tr": "İki saat izin istiyorum (kadın)"
+}
+},
+{
+"ar": "إجازة",
+"fr": "agaza",
+"ok": "agaza",
+"tr": "izin, tatil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "بكرة إجازة",
+"fr": "bokra agaza",
+"ok": "bukra agaza",
+"tr": "Yarın tatil"
+}
+},
+{
+"ar": "إجازة عارضة",
+"fr": "agaza 3arda",
+"ok": "agaza 'arda",
+"tr": "mazeret izni",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "إجازة مرضي",
+"fr": "agaza maradi",
+"ok": "agaza maradi",
+"tr": "hastalık izni",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "إجازة اعتيادي",
+"fr": "agaza e3teyadi",
+"ok": "agaza i'tiyadi",
+"tr": "yıllık izin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "بريك",
+"fr": "break",
+"ok": "breyk",
+"tr": "mola",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "البريك نص ساعة بس",
+"fr": "el break noss sa3a bass",
+"ok": "el breyk nuss sa'a bass",
+"tr": "Mola sadece yarım saat"
+}
+},
+{
+"ar": "أوفر تايم",
+"fr": "over time",
+"ok": "ovır taym",
+"tr": "fazla mesai",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "النهاردة فيه أوفر تايم لحد تسعة",
+"fr": "el naharda fee over time le7add tes3a",
+"ok": "innaharda fi ovır taym lihadd tis'a",
+"tr": "Bugün dokuza kadar fazla mesai var"
+}
+},
+{
+"ar": "إضافي",
+"fr": "edafi",
+"ok": "idafi",
+"tr": "ek mesai",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "بصمة",
+"fr": "basma",
+"ok": "basma",
+"tr": "parmak izi okuyucu (giriş-çıkış)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "البصمة بايظة النهاردة",
+"fr": "el basma bayza el naharda",
+"ok": "el basma bayza innaharda",
+"tr": "Parmak izi cihazı bugün bozuk"
+}
+},
+{
+"ar": "متأخر",
+"fr": "mete2akhar",
+"ok": "mit'ahhar",
+"tr": "geç kalmış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "تأخير",
+"fr": "ta2kheer",
+"ok": "ta'hir",
+"tr": "gecikme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "التأخير عليه خصم",
+"fr": "el ta2kheer 3aleih khasm",
+"ok": "et-ta'hir 'aleyh hasm",
+"tr": "Geç kalmanın kesintisi var"
+}
+},
+{
+"ar": "كارنيه",
+"fr": "carnet",
+"ok": "karnih",
+"tr": "personel kartı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "ميعاد",
+"fr": "me3ad",
+"ok": "mi'ad",
+"tr": "saat (belirli vakit)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "شهادة مرضية",
+"fr": "shahada maradeyya",
+"ok": "şahada maradiyya",
+"tr": "doktor raporu",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "استقالة",
+"fr": "este2ala",
+"ok": "isti'ala",
+"tr": "istifa",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "قبض",
+"fr": "2abd",
+"ok": "'abd",
+"tr": "maaş ödemesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"note": "Fiil: قبض = maaşını aldı",
+"ex": {
+"ar": "القبض يوم الخميس",
+"fr": "el 2abd yoom el khamees",
+"ok": "el 'abd yom el hamis",
+"tr": "Maaş perşembe günü"
+}
+},
+{
+"ar": "مرتب",
+"fr": "morattab",
+"ok": "murattab",
+"tr": "maaş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "المرتب نزل على الفيزا",
+"fr": "el morattab nezel 3ala el visa",
+"ok": "el murattab nizil 'ala-l-viza",
+"tr": "Maaş karta yattı"
+}
+},
+{
+"ar": "حافز",
+"fr": "7afez",
+"ok": "hafiz",
+"tr": "teşvik primi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "اللي يكمل التارجت ياخد حافز",
+"fr": "elli yekammel el target yakhod 7afez",
+"ok": "illi ykammil et-targit yahud hafiz",
+"tr": "Hedefi tamamlayan prim alır"
+}
+},
+{
+"ar": "خصم",
+"fr": "khasm",
+"ok": "hasm",
+"tr": "kesinti",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الغياب عليه خصم يوم",
+"fr": "el gheyab 3aleih khasm yoom",
+"ok": "el ğiyab 'aleyh hasm yom",
+"tr": "Devamsızlığın bir gün kesintisi var"
+}
+},
+{
+"ar": "سلفة",
+"fr": "solfa",
+"ok": "sulfa",
+"tr": "avans",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "ممكن آخد سلفة لحد القبض؟",
+"fr": "momken akhod solfa le7add el 2abd?",
+"ok": "mumkin ahud sulfa lihadd el 'abd?",
+"tr": "Maaşa kadar avans alabilir miyim?"
+}
+},
+{
+"ar": "يومية",
+"fr": "yawmeyya",
+"ok": "yomiyya",
+"tr": "yevmiye",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "اليومية بكام؟",
+"fr": "el yawmeyya be kam?",
+"ok": "el yomiyya bikam?",
+"tr": "Yevmiye ne kadar?"
+}
+},
+{
+"ar": "مكافأة",
+"fr": "mokaf2a",
+"ok": "mukaf'a",
+"tr": "ikramiye",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "علاوة",
+"fr": "3elawa",
+"ok": "'ilava",
+"tr": "zam (yıllık artış)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "العلاوة هتنزل الشهر الجاي",
+"fr": "el 3elawa hatenzel el shahr el gai",
+"ok": "el 'ilava hatinzil iş-şahr eg-gay",
+"tr": "Zam gelecek ay yatacak"
+}
+},
+{
+"ar": "تأمينات",
+"fr": "ta2meenat",
+"ok": "ta'minat",
+"tr": "sigorta (sosyal güvenlik)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "أنا متأمن عليا ولا لأ؟",
+"fr": "ana mete2ammen 3alaya walla la2?",
+"ok": "ana mit'amman 'alayya valla la'?",
+"tr": "Sigortam yapıldı mı yapılmadı mı?"
+}
+},
+{
+"ar": "بدل",
+"fr": "badal",
+"ok": "badal",
+"tr": "ödenek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "بدل مواصلات",
+"fr": "badal mowaslat",
+"ok": "badal muvaslat",
+"tr": "yol parası",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "منحة",
+"fr": "men7a",
+"ok": "minha",
+"tr": "bayram ikramiyesi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "جزا",
+"fr": "gaza",
+"ok": "gaza",
+"tr": "ceza (disiplin cezası)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"note": "Resmi: جزاء",
+"ex": {
+"ar": "اللي يتأخر ياخد جزا",
+"fr": "elli yet2akhar yakhod gaza",
+"ok": "illi yit'ahhar yahud gaza",
+"tr": "Geç kalan ceza alır"
+}
+},
+{
+"ar": "بونص",
+"fr": "bonus",
+"ok": "bonus",
+"tr": "prim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "فلوس",
+"fr": "feloos",
+"ok": "filus",
+"tr": "para",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "كشف المرتبات",
+"fr": "kashf el morattabat",
+"ok": "kaşf el murattabat",
+"tr": "maaş bordrosu",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "فيزا المرتب",
+"fr": "visa el morattab",
+"ok": "viza el murattab",
+"tr": "maaş kartı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1",
+"note": "Mısır'da banka kartına 'فيزا' denir"
+},
+{
+"ar": "الأساسي",
+"fr": "el asasi",
+"ok": "el asasi",
+"tr": "çıplak (temel) maaş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "زيادة",
+"fr": "zeyada",
+"ok": "ziyada",
+"tr": "zam, artış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "فيه زيادة السنة دي؟",
+"fr": "fee zeyada el sana di?",
+"ok": "fi ziyada is-sana di?",
+"tr": "Bu sene zam var mı?"
+}
+},
+{
+"ar": "بالقطعة",
+"fr": "bel 2et3a",
+"ok": "bil 'it'a",
+"tr": "parça başı (ücret)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الشغل ده بالقطعة مش باليومية",
+"fr": "el shoghl dah bel 2et3a mesh bel yawmeyya",
+"ok": "eş-şuğl dah bil 'it'a miş bil-yomiyya",
+"tr": "Bu iş parça başı, yevmiyeyle değil"
+}
+},
+{
+"ar": "الواقي",
+"fr": "el wa2i",
+"ok": "el va'i",
+"tr": "koruyucu (iğne, kayış koruması)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "متشيلش الواقي من على المكنة",
+"fr": "ma tsheelsh el wa2i men 3ala el makana",
+"ok": "ma tşilş el va'i min 'ala-l-makana",
+"tr": "Makinenin koruyucusunu sökme"
+}
+},
+{
+"ar": "طفاية",
+"fr": "taffaya",
+"ok": "taffaya",
+"tr": "yangın söndürücü",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الطفاية لازم تبقى قدام الباب",
+"fr": "el taffaya lazem teb2a 2oddam el bab",
+"ok": "et-taffaya lazim tib'a 'uddam el bab",
+"tr": "Söndürücü kapının önünde olmalı"
+}
+},
+{
+"ar": "الإسعاف",
+"fr": "el es3af",
+"ok": "el is'af",
+"tr": "ambulans",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "شنطة الإسعافات",
+"fr": "shantet el es3afat",
+"ok": "şantet el is'afat",
+"tr": "ilk yardım çantası",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "شنطة الإسعافات فين؟",
+"fr": "shantet el es3afat feen?",
+"ok": "şantet el is'afat fen?",
+"tr": "İlk yardım çantası nerede?"
+}
+},
+{
+"ar": "حريقة",
+"fr": "7aree2a",
+"ok": "hari'a",
+"tr": "yangın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "مخرج الطوارئ",
+"fr": "makhrag el tawari2",
+"ok": "mahrag et-tavari'",
+"tr": "acil çıkış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "جوانتي",
+"fr": "gwanti",
+"ok": "guvanti",
+"tr": "eldiven",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2",
+"note": "Kesimde çelik eldiven",
+"ex": {
+"ar": "البس الجوانتي الحديد وانت بتقص",
+"fr": "elbes el gwanti el 7adeed w enta bet2oss",
+"ok": "ilbis el guvanti el hadid vinta bti'uss",
+"tr": "Keserken çelik eldiveni giy"
+}
+},
+{
+"ar": "كمامة",
+"fr": "kammama",
+"ok": "kammama",
+"tr": "maske",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الكمامة لازم في القص",
+"fr": "el kammama lazem fel 2ass",
+"ok": "el kammama lazim fil 'ass",
+"tr": "Kesimde maske şart"
+}
+},
+{
+"ar": "كهربا",
+"fr": "kahraba",
+"ok": "kahraba",
+"tr": "elektrik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الكهربا قطعت",
+"fr": "el kahraba 2ata3et",
+"ok": "el kahraba 'ata'it",
+"tr": "Elektrik kesildi"
+}
+},
+{
+"ar": "سلك عريان",
+"fr": "selk 3eryan",
+"ok": "silk 'iryan",
+"tr": "açık (soyulmuş) kablo",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "فيه سلك عريان ورا المكنة",
+"fr": "fee selk 3eryan wara el makana",
+"ok": "fi silk 'iryan vara-l-makana",
+"tr": "Makinenin arkasında açık kablo var"
+}
+},
+{
+"ar": "ماس",
+"fr": "mas",
+"ok": "mas",
+"tr": "kısa devre (kaçak)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1",
+"ex": {
+"ar": "المكنة دي فيها ماس",
+"fr": "el makana di feeha mas",
+"ok": "el makana di fiha mas",
+"tr": "Bu makine elektrik kaçırıyor"
+}
+},
+{
+"ar": "جرح",
+"fr": "gar7",
+"ok": "garh",
+"tr": "yara",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A1",
+"ex": {
+"ar": "الجرح ده محتاج يتربط",
+"fr": "el gar7 dah me7tag yetrebet",
+"ok": "eg-garh dah mihtag yitribit",
+"tr": "Bu yaranın sarılması lazım"
+}
+},
+{
+"ar": "اتعور",
+"fr": "et3awar",
+"ok": "it'avar",
+"tr": "yaralandı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "البنت اتعورت في إيدها",
+"fr": "el bent et3awaret fi eidha",
+"ok": "el bint it'avarit fi idha",
+"tr": "Kız elinden yaralandı"
+}
+},
+{
+"ar": "سدادات ودن",
+"fr": "sadadat wedn",
+"ok": "sadadat vidn",
+"tr": "kulak tıkacı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "شفاط",
+"fr": "shaffat",
+"ok": "şaffat",
+"tr": "aspiratör",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "ممر",
+"fr": "mamarr",
+"ok": "mamarr",
+"tr": "koridor, geçit",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2",
+"ex": {
+"ar": "الممر لازم يبقى فاضي",
+"fr": "el mamarr lazem yeb2a fadi",
+"ok": "el mamarr lazim yib'a fadi",
+"tr": "Koridor boş olmalı"
+}
+},
+{
+"ar": "أرض مزحلقة",
+"fr": "ard mez7ela2a",
+"ok": "ard mizhili'a",
+"tr": "kaygan zemin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1"
+},
+{
+"ar": "العيادة",
+"fr": "el 3eyada",
+"ok": "el 'iyada",
+"tr": "revir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "إبرة مكسورة",
+"fr": "ebra maksoora",
+"ok": "ibra maksura",
+"tr": "kırık iğne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "w",
+"level": "B1",
+"note": "Kırık iğne prosedürü: parçalar bulunmalı",
+"ex": {
+"ar": "لو فيه إبرة مكسورة هات الحتت كلها",
+"fr": "law fee ebra maksoora hat el 7etat kollaha",
+"ok": "lav fi ibra maksura hat el hitat kullaha",
+"tr": "Kırık iğne varsa bütün parçalarını getir"
+}
+},
+{
+"ar": "يا أسطى",
+"fr": "ya osta",
+"ok": "ya usta",
+"tr": "usta! (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Ustaya, şoföre, zanaatkâra hitap"
+},
+{
+"ar": "يا ريس",
+"fr": "ya rayyes",
+"ok": "ya rayyis",
+"tr": "şefim! (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Amire, ustabaşına hitap"
+},
+{
+"ar": "يا باشا",
+"fr": "ya basha",
+"ok": "ya başa",
+"tr": "paşam! (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Saygılı-samimi hitap"
+},
+{
+"ar": "يا معلم",
+"fr": "ya me3allem",
+"ok": "ya mi'allim",
+"tr": "usta, patron (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Atölye sahibine veya ustaya"
+},
+{
+"ar": "يا حاج",
+"fr": "ya 7ag",
+"ok": "ya hag",
+"tr": "hacı (yaşlı erkeğe hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "يا حاجة",
+"fr": "ya 7agga",
+"ok": "ya hagga",
+"tr": "hacı (yaşlı kadına hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "يا بنتي",
+"fr": "ya benti",
+"ok": "ya binti",
+"tr": "kızım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Yaşça büyükten genç kıza"
+},
+{
+"ar": "يا ابني",
+"fr": "ya ebni",
+"ok": "ya ibni",
+"tr": "oğlum",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "يا جماعة",
+"fr": "ya gama3a",
+"ok": "ya gama'a",
+"tr": "arkadaşlar! (topluluğa hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "يا بطل",
+"fr": "ya batal",
+"ok": "ya batal",
+"tr": "aslanım (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Takdir, cesaretlendirme"
+},
+{
+"ar": "يا أبلة",
+"fr": "ya abla",
+"ok": "ya abla",
+"tr": "abla (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Yaşça büyük kadına, şefe"
+},
+{
+"ar": "يا عم",
+"fr": "ya 3amm",
+"ok": "ya 'amm",
+"tr": "amca, abi (hitap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "w",
+"level": "A1",
+"note": "Erkekler arası samimi hitap"
+},
+{
+"ar": "خلصانة",
+"fr": "khalsana",
+"ok": "halsana",
+"tr": "bitti bil, hallolmuş say",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A2",
+"note": "Argo, samimi"
+},
+{
+"ar": "ماشي",
+"fr": "mashi",
+"ok": "maşi",
+"tr": "tamam, olur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "تمام",
+"fr": "tamam",
+"ok": "tamam",
+"tr": "tamam",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "حاضر",
+"fr": "7ader",
+"ok": "hadır",
+"tr": "başüstüne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1",
+"note": "Amire verilen cevap"
+},
+{
+"ar": "طيب",
+"fr": "tayyeb",
+"ok": "tayyib",
+"tr": "peki",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "خلاص",
+"fr": "khalas",
+"ok": "halas",
+"tr": "tamam, bitti, yeter",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "يلا",
+"fr": "yalla",
+"ok": "yalla",
+"tr": "haydi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "بالراحة",
+"fr": "bel ra7a",
+"ok": "bir-raha",
+"tr": "yavaş, sakin ol",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "معلش",
+"fr": "ma3lesh",
+"ok": "ma'leş",
+"tr": "kusura bakma, olsun",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "برافو",
+"fr": "bravo",
+"ok": "bravo",
+"tr": "aferin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "عاش",
+"fr": "3ash",
+"ok": "'aş",
+"tr": "helal, aferin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A2",
+"note": "Argo takdir: عاش يا بطل"
+},
+{
+"ar": "أوي",
+"fr": "awi",
+"ok": "ovi",
+"tr": "çok",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "خالص",
+"fr": "khales",
+"ok": "halis",
+"tr": "hiç, hiç de; tamamen",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A2"
+},
+{
+"ar": "كده",
+"fr": "keda",
+"ok": "kida",
+"tr": "böyle",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "w",
+"level": "A1"
+},
+{
+"ar": "المكنة بايظة",
+"fr": "el makana bayza",
+"ok": "el makana bayza",
+"tr": "Makine bozuk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "المكنة واقفة من الصبح",
+"fr": "el makana wa2fa men el sob7",
+"ok": "el makana va'fa min es-subh",
+"tr": "Makine sabahtan beri duruyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "نادي الميكانيكي",
+"fr": "nadi el mekaneeki",
+"ok": "nadi el mikaniki",
+"tr": "Tamirciyi çağır",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الميكانيكي فين؟",
+"fr": "el mekaneeki feen?",
+"ok": "el mikaniki fen?",
+"tr": "Tamirci nerede?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "المكنة بتقطع الفتلة",
+"fr": "el makana bete2ta3 el fatla",
+"ok": "el makana bti'ta' el fatla",
+"tr": "Makine ipliği koparıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المكنة بتنط غرز",
+"fr": "el makana betnott ghorz",
+"ok": "el makana bitnutt ğurz",
+"tr": "Makine dikiş atlıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "المكنة بتزيّت على القماش",
+"fr": "el makana betzayyat 3ala el 2omash",
+"ok": "el makana bitzayyit 'ala-l-'umaş",
+"tr": "Makine kumaşa yağ bulaştırıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "غيّر الإبرة",
+"fr": "ghayyar el ebra",
+"ok": "ğayyar el ibra",
+"tr": "İğneyi değiştir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الإبرة تخينة على القماش ده",
+"fr": "el ebra tekhina 3ala el 2omash dah",
+"ok": "el ibra tihina 'ala-l-'umaş dah",
+"tr": "İğne bu kumaş için kalın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "لف بوبينة جديدة",
+"fr": "leff bobina gedeeda",
+"ok": "liff bobina gidida",
+"tr": "Yeni masura sar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اظبط الشد",
+"fr": "ozbot el shadd",
+"ok": "uzbut eş-şadd",
+"tr": "İplik gerginliğini ayarla",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الشد واسع شوية",
+"fr": "el shadd wase3 shewayya",
+"ok": "eş-şadd vasi' şuvayya",
+"tr": "Gerginlik biraz gevşek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اقفل المكنة وانت قايم",
+"fr": "e2fel el makana w enta 2ayem",
+"ok": "i'fil el makana vinta 'ayim",
+"tr": "Kalkarken makineyi kapat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المكنة بتعمل صوت وحش",
+"fr": "el makana bete3mel soot we7esh",
+"ok": "el makana bti'mil sot vihiş",
+"tr": "Makine kötü ses çıkarıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "نضّف المكنة من الوبر",
+"fr": "naddaf el makana men el wabar",
+"ok": "naddaf el makana min el vabar",
+"tr": "Makineyi tüyden temizle",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "المكوة مش بتسخن",
+"fr": "el makwa mesh betsakhkhan",
+"ok": "el makva miş bitsahhan",
+"tr": "Ütü ısınmıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المكوة بتنقط ميه",
+"fr": "el makwa betna22at mayya",
+"ok": "el makva bitna''at mayya",
+"tr": "Ütü su damlatıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "فين المقص الكبير؟",
+"fr": "feen el ma2ass el kebeer?",
+"ok": "fen el ma'ass el kibir?",
+"tr": "Büyük makas nerede?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "المقص ده تلم عايز يتسن",
+"fr": "el ma2ass dah telem 3ayez yetsann",
+"ok": "el ma'ass dah tilim 'ayiz yitsann",
+"tr": "Bu makas kör, bilenmesi lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "هات مكنة من خط اتنين",
+"fr": "hat makana men khatt etnein",
+"ok": "hat makana min hatt itneyn",
+"tr": "2 numaralı hattan bir makine getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المكنة دي عايزة صيانة",
+"fr": "el makana di 3ayza seyana",
+"ok": "el makana di 'ayza siyana",
+"tr": "Bu makinenin bakıma ihtiyacı var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Makineler & Ekipman",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "القماش خلص",
+"fr": "el 2omash khels",
+"ok": "el 'umaş hilis",
+"tr": "Kumaş bitti",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "القماش لسه موصلش",
+"fr": "el 2omash lessa mawasalsh",
+"ok": "el 'umaş lissa ma vasalş",
+"tr": "Kumaş daha gelmedi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "القماش ده بيوبّر",
+"fr": "el 2omash dah beywabbar",
+"ok": "el 'umaş dah biyvabbar",
+"tr": "Bu kumaş tüy bırakıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "القماش ده بينكمش",
+"fr": "el 2omash dah beyenkemesh",
+"ok": "el 'umaş dah biyinkimiş",
+"tr": "Bu kumaş çekiyor (çekme yapıyor)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اللون مختلف من توب لتوب",
+"fr": "el loon mokhtalef men toob le toob",
+"ok": "el lon muhtalif min top li top",
+"tr": "Renk toptan topa farklı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "هات فتلة نفس اللون",
+"fr": "hat fatla nafs el loon",
+"ok": "hat fatla nafs el lon",
+"tr": "Aynı renk iplik getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الزراير مش مقاسها",
+"fr": "el zarayer mesh ma2asha",
+"ok": "ez-zarayir miş ma'asha",
+"tr": "Düğmeler ölçüsüne uymuyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اطلب سوست من المخزن",
+"fr": "otlob sowast men el makhzan",
+"ok": "utlub suvast min el mahzan",
+"tr": "Depodan fermuar iste",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الأستك ده مش بيرجع",
+"fr": "el astek dah mesh beyerga3",
+"ok": "el astik dah miş biyirga'",
+"tr": "Bu lastik geri toplanmıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "التيكيتات ناقصة",
+"fr": "el tiketat na2sa",
+"ok": "et-tiketat na'sa",
+"tr": "Etiketler eksik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "حط الليبل في النص",
+"fr": "7ott el label fel noss",
+"ok": "hutt el leybil fin-nuss",
+"tr": "Etiketi ortaya koy",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "القماش ده فيه عيوب صباغة",
+"fr": "el 2omash dah feeh 3oyoob sebagha",
+"ok": "el 'umaş dah fih 'uyub sibağa",
+"tr": "Bu kumaşta boya hataları var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kumaş & Malzeme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "افرش القماش كويس",
+"fr": "efrosh el 2omash kwayyes",
+"ok": "ifruş el 'umaş kuvayyis",
+"tr": "Kumaşı düzgün ser",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متشدش القماش وانت بتفرش",
+"fr": "matshoddesh el 2omash w enta betefrosh",
+"ok": "ma tşuddiş el 'umaş vinta btifruş",
+"tr": "Serim yaparken kumaşı çekme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "كام طبقة في الرصة؟",
+"fr": "kam tab2a fel rassa?",
+"ok": "kam tab'a fir-rassa?",
+"tr": "Pastalda kaç kat var?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "القص ده مش على الباترون",
+"fr": "el 2ass dah mesh 3ala el batroon",
+"ok": "el 'ass dah miş 'ala-l-batron",
+"tr": "Bu kesim kalıba uymuyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "قص على الخط بالظبط",
+"fr": "2oss 3ala el khatt bel zabt",
+"ok": "'uss 'ala-l-hatt biz-zabt",
+"tr": "Tam çizginin üzerinden kes",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحتت دي مقصوصة غلط",
+"fr": "el 7etat di ma2soosa ghalat",
+"ok": "el hitat di ma'susa ğalat",
+"tr": "Bu parçalar yanlış kesilmiş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "رقّم الحتت قبل ما تبعتها",
+"fr": "ra22am el 7etat 2abl ma teb3atha",
+"ok": "ra''am el hitat 'abl ma tib'atha",
+"tr": "Göndermeden önce parçaları numarala",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اربط كل مقاس لوحده",
+"fr": "orbot kol ma2as lewa7do",
+"ok": "urbut kull ma'as livahdu",
+"tr": "Her bedeni ayrı bağla",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "وفّر في القماش",
+"fr": "waffar fel 2omash",
+"ok": "vaffar fil 'umaş",
+"tr": "Kumaştan tasarruf et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الماركر ده بيضيّع قماش كتير",
+"fr": "el marker dah beydayya3 2omash keteer",
+"ok": "el markır dah biydayya' 'umaş kitir",
+"tr": "Bu marker çok kumaş harcıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "القص هيخلص امتى؟",
+"fr": "el 2ass hayekhlas emta?",
+"ok": "el 'ass hayihlas imta?",
+"tr": "Kesim ne zaman bitecek?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ابعت الباكوهات للخط",
+"fr": "eb3at el bakohat lel khatt",
+"ok": "ib'at el bakohat lil-hatt",
+"tr": "Demetleri hatta gönder",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اقطع حتة تجربة الأول",
+"fr": "e2ta3 7etta tagreba el awwel",
+"ok": "i'ta' hetta tagriba-l-evvil",
+"tr": "Önce bir deneme parçası kes",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الباترون ده قديم هات الجديد",
+"fr": "el batroon dah 2adeem hat el gedeed",
+"ok": "el batron dah 'adim hat el gidid",
+"tr": "Bu kalıp eski, yenisini getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "خلي بالك من اتجاه الوبرة",
+"fr": "khalli balak men etgah el wabara",
+"ok": "halli balak min itgah el vabara",
+"tr": "Tüy yönüne dikkat et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kesim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الخط واقف ليه؟",
+"fr": "el khatt wa2ef leih?",
+"ok": "el hatt va'if leh?",
+"tr": "Hat neden duruyor?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "هات الحتت دي هنا",
+"fr": "hat el 7etat di hena",
+"ok": "hat el hitat di hina",
+"tr": "Bu parçaları buraya getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ودّي الباكو ده للتقفيل",
+"fr": "waddi el bako dah lel ta2feel",
+"ok": "vaddi-l-bako dah lit-ta'fil",
+"tr": "Bu demeti kapamaya götür",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مين اللي عامل الغرزة دي؟",
+"fr": "meen elli 3amel el ghorza di?",
+"ok": "min illi 'amil el ğurza di?",
+"tr": "Bu dikişi kim yaptı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2",
+"note": "Hata sorgusu"
+},
+{
+"ar": "الشغل متكوم عندك ليه؟",
+"fr": "el shoghl metkawwem 3andak leih?",
+"ok": "eş-şuğl mitkavvim 'andak leh?",
+"tr": "İş neden sende yığıldı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "خلّصي اللي في إيدك الأول",
+"fr": "khallasi elli fi eidek el awwel",
+"ok": "hallasi-lli fi idik el evvil",
+"tr": "Önce elindekini bitir (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "انتي على أنهي عملية؟",
+"fr": "enti 3ala anhi 3amaleyya?",
+"ok": "inti 'ala anhi 'amaliyya?",
+"tr": "Sen hangi operasyondasın? (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اتنقلي على خط أربعة",
+"fr": "etna2ali 3ala khatt arba3a",
+"ok": "itna'ali 'ala hatt arba'a",
+"tr": "4 numaralı hatta geç (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "محتاجين حد على الأوفر",
+"fr": "me7tageen 7add 3ala el ovar",
+"ok": "mihtagin hadd 'ala-l-ovar",
+"tr": "Overloka birine ihtiyacımız var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الكم متركب مقلوب",
+"fr": "el komm metrakkeb ma2loob",
+"ok": "el kumm mitrakkib ma'lub",
+"tr": "Kol ters takılmış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الجيب مش في مكانه",
+"fr": "el geib mesh fi makano",
+"ok": "el geyb miş fi makanu",
+"tr": "Cep yerinde değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الكولة محتاجة تتعدل",
+"fr": "el kola me7taga tet3eddel",
+"ok": "el kola mihtaga tit'iddil",
+"tr": "Yakanın düzeltilmesi lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اشتغلوا بنفس الخيط",
+"fr": "eshtaghalo be nafs el kheit",
+"ok": "iştağalu bi nafs el heyt",
+"tr": "Aynı iplikle çalışın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متسيبيش الحتت على الأرض",
+"fr": "matsebeesh el 7etat 3ala el ard",
+"ok": "ma tsibiş el hitat 'ala-l-ard",
+"tr": "Parçaları yere bırakma (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الباكو ده ناقص حتتين",
+"fr": "el bako dah na2es 7etteten",
+"ok": "el bako dah na'is hittiteyn",
+"tr": "Bu demette iki parça eksik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اقلب الحتة وشوف الغرزة",
+"fr": "e2leb el 7etta w shoof el ghorza",
+"ok": "i'lib el hetta vi şuf el ğurza",
+"tr": "Parçayı çevir de dikişe bak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "خلّي بالك من المقاسات متلخبطهاش",
+"fr": "khalli balak men el ma2asat matlakhbathash",
+"ok": "halli balak min el ma'asat ma tlahbathaş",
+"tr": "Bedenlere dikkat et, karıştırma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الحتة دي تروح على الزراير",
+"fr": "el 7etta di terooḥ 3ala el zarayer",
+"ok": "el hetta di tiruh 'ala-z-zarayir",
+"tr": "Bu parça düğme makinesine gidecek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "كل واحدة تعد اللي عملته",
+"fr": "kol wa7da te3edd elli 3amaletoh",
+"ok": "kull vahda ti'idd illi 'amalitu",
+"tr": "Herkes yaptığını saysın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الشغل بيتكوم عند الكولة",
+"fr": "el shoghl beyetkawwem 3and el kola",
+"ok": "eş-şuğl biyitkavvim 'and el kola",
+"tr": "İş yaka takmada yığılıyor (darboğaz)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اسحبي من الباكو اللي جاي",
+"fr": "es7abi men el bako elli gai",
+"ok": "ishabi min el bako illi gay",
+"tr": "Sıradaki demetten al (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "مفيش شغل عندي",
+"fr": "mafeesh shoghl 3andi",
+"ok": "mafiş şuğl 'andi",
+"tr": "Bende iş yok (iş bekliyorum)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Dikim Hattı",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "اكوي الحتة دي تاني",
+"fr": "ekwi el 7etta di tani",
+"ok": "ikvi-l-hetta di tani",
+"tr": "Bu parçayı tekrar ütüle",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "المكوة على القماش ده تبقى واطية",
+"fr": "el makwa 3ala el 2omash dah teb2a watya",
+"ok": "el makva 'ala-l-'umaş dah tib'a vatya",
+"tr": "Bu kumaşta ütü düşük ısıda olsun",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "متكويش على الطبعة",
+"fr": "matekweesh 3ala el tab3a",
+"ok": "ma tikviş 'ala-t-tab'a",
+"tr": "Baskının üstünden ütüleme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "طبّق زي العينة بالظبط",
+"fr": "tabba2 zay el 3ayyena bel zabt",
+"ok": "tabba' zey el 'ayyina biz-zabt",
+"tr": "Tam numunedeki gibi katla",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "كيّس كل حتة لوحدها",
+"fr": "kayyes kol 7etta lewa7daha",
+"ok": "kayyis kull hetta livahdaha",
+"tr": "Her parçayı ayrı poşetle",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "كل كرتونة فيها عشرين حتة",
+"fr": "kol kartoona feeha 3eshreen 7etta",
+"ok": "kull kartona fiha 'işrin hetta",
+"tr": "Her kolide yirmi parça var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اقفل الكرتونة كويس بالشريط",
+"fr": "e2fel el kartoona kwayyes bel shereet",
+"ok": "i'fil el kartona kuvayyis biş-şirit",
+"tr": "Koliyi bantla iyice kapat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اكتب المقاس واللون على الكرتونة",
+"fr": "ekteb el ma2as wel loon 3ala el kartoona",
+"ok": "iktib el ma'as vil lon 'ala-l-kartona",
+"tr": "Bedeni ve rengi koliye yaz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المقاسات متلخبطة في الكرتونة",
+"fr": "el ma2asat metlakhbata fel kartoona",
+"ok": "el ma'asat mitlahbata fil kartona",
+"tr": "Kolide bedenler karışmış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الكراتين دي جاهزة للشحن",
+"fr": "el karateen di gahza lel sha7n",
+"ok": "el karatin di gahza liş-şahn",
+"tr": "Bu koliler sevkiyata hazır",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عدّوا الكراتين تاني",
+"fr": "3eddo el karateen tani",
+"ok": "'iddu-l-karatin tani",
+"tr": "Kolileri bir daha sayın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الشماعات ناقصة",
+"fr": "el shammaa3at na2sa",
+"ok": "eş-şemma'at na'sa",
+"tr": "Askılar eksik",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "علّق القمصان على الشماعات",
+"fr": "3alla2 el 2omsan 3ala el shammaa3at",
+"ok": "'alla' el 'umsan 'ala-ş-şemma'at",
+"tr": "Gömlekleri askılara as",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متضغطش على الكرتونة",
+"fr": "matedghatsh 3ala el kartoona",
+"ok": "ma tidğatş 'ala-l-kartona",
+"tr": "Koliyi ezme (bastırma)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الحتة اتكوت كويس",
+"fr": "el 7etta etkawet kwayyes",
+"ok": "el hetta itkavit kuvayyis",
+"tr": "Parça güzel ütülenmiş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Ütü & Paketleme",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحتة دي ريبير",
+"fr": "el 7etta di repair",
+"ok": "el hetta di ripeyr",
+"tr": "Bu parça tamire",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فيه فتلة طالعة هنا",
+"fr": "fee fatla tal3a hena",
+"ok": "fi fatla tal'a hina",
+"tr": "Burada sarkan iplik var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الغرزة ناطة",
+"fr": "el ghorza natta",
+"ok": "el ğurza natta",
+"tr": "Dikiş atlamış",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الغرزة مش مستقيمة",
+"fr": "el ghorza mesh mesta2eema",
+"ok": "el ğurza miş mista'ima",
+"tr": "Dikiş düz değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الشغل ده مينفعش",
+"fr": "el shoghl dah mayenfa3sh",
+"ok": "eş-şuğl dah ma yinfa'ş",
+"tr": "Bu iş olmaz (kabul edilmez)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فكّي الغرزة دي وأعيديها",
+"fr": "fokki el ghorza di w a3eedeeha",
+"ok": "fukki-l-ğurza di vi a'idiha",
+"tr": "Bu dikişi sök ve yeniden dik (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحتة دي فيها بقعة",
+"fr": "el 7etta di feeha bo23a",
+"ok": "el hetta di fiha bu''a",
+"tr": "Bu parçada leke var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "شيلوا البقعة قبل الكوي",
+"fr": "sheelo el bo23a 2abl el kawy",
+"ok": "şilu-l-bu''a 'abl el kavy",
+"tr": "Lekeyi ütüden önce çıkarın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "المقاس ده أكبر سنتي",
+"fr": "el ma2as dah akbar senti",
+"ok": "el ma'as dah akbar santi",
+"tr": "Bu beden bir santim büyük",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "قيس الطول والعرض",
+"fr": "2ees el tool wel 3ard",
+"ok": "'is et-tul vil 'ard",
+"tr": "Boyu ve eni ölç",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الكم ده أطول من التاني",
+"fr": "el komm dah atwal men el tani",
+"ok": "el kumm dah atval min et-tani",
+"tr": "Bu kol diğerinden uzun",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحتة دي مرفوضة",
+"fr": "el 7etta di marfooda",
+"ok": "el hetta di marfuda",
+"tr": "Bu parça reddedildi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الباكو ده عدّى",
+"fr": "el bako dah 3adda",
+"ok": "el bako dah 'adda",
+"tr": "Bu demet geçti (onaylandı)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "افحصي كل حتة كويس",
+"fr": "ef7asi kol 7etta kwayyes",
+"ok": "ifhasi kull hetta kuvayyis",
+"tr": "Her parçayı iyice kontrol et (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متعدّيش حتة فيها عيب",
+"fr": "mat3addeesh 7etta feeha 3eib",
+"ok": "ma t'addiş hetta fiha 'eyb",
+"tr": "Hatalı parçayı geçirme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مين اللي عدّى الحتة دي؟",
+"fr": "meen elli 3adda el 7etta di?",
+"ok": "min illi 'adda-l-hetta di?",
+"tr": "Bu parçayı kim geçirdi?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الريبير كتير أوي النهاردة",
+"fr": "el repair keteer awi el naharda",
+"ok": "er-ripeyr kitir ovi innaharda",
+"tr": "Bugün tamir çok fazla",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "حطّي العيوب في الورقة",
+"fr": "7otti el 3oyoob fel wara2a",
+"ok": "hutti-l-'uyub fil vara'a",
+"tr": "Hataları kâğıda yaz (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الإنسبكتور هيسحب عينة عشوائي",
+"fr": "el inspector hayes7ab 3ayyena 3ashwa2i",
+"ok": "el inspektır hayishab 'ayyina 'aşva'i",
+"tr": "Kontrolcü rastgele numune çekecek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الشحنة وقعت في الفاينال",
+"fr": "el sha7na we23et fel final",
+"ok": "eş-şahna vi''it fil faynal",
+"tr": "Sevkiyat final kontrolden kaldı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "لازم نعمل فرز للأوردر كله",
+"fr": "lazem ne3mel farz lel order kollo",
+"ok": "lazim ni'mil farz lil-ordır kullu",
+"tr": "Bütün siparişi ayıklamamız lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الزرار مش مخيّط كويس",
+"fr": "el zorar mesh mekhayyat kwayyes",
+"ok": "ez-zurar miş mihayyat kuvayyis",
+"tr": "Düğme iyi dikilmemiş",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الزرار بيقع",
+"fr": "el zorar beyo2a3",
+"ok": "ez-zurar biyu'a'",
+"tr": "Düğme düşüyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الخط ده نسبة العيوب فيه عالية",
+"fr": "el khatt dah nesbet el 3oyoob feeh 3alya",
+"ok": "el hatt dah nisbet el 'uyub fih 'alya",
+"tr": "Bu hatta hata oranı yüksek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "كده تمام عدّيها",
+"fr": "keda tamam 3addeeha",
+"ok": "kida tamam 'addiha",
+"tr": "Böyle tamam, geçir (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Kalite Kontrol",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "طلّعنا كام النهاردة؟",
+"fr": "talla3na kam el naharda?",
+"ok": "talla'na kam innaharda?",
+"tr": "Bugün kaç çıkardık?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "لسه فاضل كتير على التارجت",
+"fr": "lessa fadel keteer 3ala el target",
+"ok": "lissa fadil kitir 'ala-t-targit",
+"tr": "Hedefe daha çok var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "كمّلنا التارجت",
+"fr": "kammelna el target",
+"ok": "kammilna-t-targit",
+"tr": "Hedefi tamamladık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عايزين نطلّع ألفين حتة النهاردة",
+"fr": "3ayzeen netalla3 alfein 7etta el naharda",
+"ok": "'ayzin nitalla' alfeyn hetta innaharda",
+"tr": "Bugün iki bin parça çıkarmak istiyoruz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "إحنا ورا الخطة",
+"fr": "e7na wara el khotta",
+"ok": "ihna vara-l-hutta",
+"tr": "Planın gerisindeyiz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الشحنة لازم تطلع في ميعادها",
+"fr": "el sha7na lazem tetla3 fi me3adha",
+"ok": "eş-şahna lazim titla' fi mi'adha",
+"tr": "Sevkiyat zamanında çıkmalı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الأوردر ده مستعجل",
+"fr": "el order dah mest3egel",
+"ok": "el ordır dah mista'gil",
+"tr": "Bu sipariş acil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الزبون مستعجل علينا",
+"fr": "el zeboon mest3egel 3aleina",
+"ok": "ez-zibun mista'gil 'aleyna",
+"tr": "Müşteri bizi sıkıştırıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "لو اتأخرنا الشحنة هتتلغي",
+"fr": "law et2akharna el sha7na hatetlehi",
+"ok": "lav it'ahharna eş-şahna hatitliği",
+"tr": "Gecikirsek sevkiyat iptal olur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "فيه أوردر جديد داخل الأسبوع الجاي",
+"fr": "fee order gedeed dakhel el esboo3 el gai",
+"ok": "fi ordır gidid dahil el isbu' eg-gay",
+"tr": "Gelecek hafta yeni sipariş giriyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الموديل ده جديد على الخط",
+"fr": "el model dah gedeed 3ala el khatt",
+"ok": "el model dah gidid 'ala-l-hatt",
+"tr": "Bu model hatta yeni",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الخط بيطلع مية حتة في الساعة",
+"fr": "el khatt beytalla3 meyyet 7etta fel sa3a",
+"ok": "el hatt biytalla' miyyet hetta fis-sa'a",
+"tr": "Hat saatte yüz parça çıkarıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الإنتاج ده قليل",
+"fr": "el entag dah 2aleel",
+"ok": "el intag dah 'alil",
+"tr": "Bu üretim az",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "نقدر نخلص قبل الخميس؟",
+"fr": "ne2dar nekhallas 2abl el khamees?",
+"ok": "ni'dar nihallas 'abl el hamis?",
+"tr": "Perşembeden önce bitirebilir miyiz?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "شدّوا شوية عشان نلحق الشحنة",
+"fr": "shoddo shewayya 3ashan nel7a2 el sha7na",
+"ok": "şuddu şuvayya 'aşan nilha' eş-şahna",
+"tr": "Sevkiyata yetişmek için biraz asılın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اكتب العدد كل ساعة على السبورة",
+"fr": "ekteb el 3add kol sa3a 3ala el sabboora",
+"ok": "iktib el 'add kull sa'a 'ala-s-sabbura",
+"tr": "Her saat sayıyı tahtaya yaz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الخط ده سابق النهاردة",
+"fr": "el khatt dah sabe2 el naharda",
+"ok": "el hatt dah sabi' innaharda",
+"tr": "Bu hat bugün önde",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الشحنة اتشحنت الحمد لله",
+"fr": "el sha7na etsha7anet el 7amdolella",
+"ok": "eş-şahna itşahanit el hamdulillah",
+"tr": "Sevkiyat yüklendi, çok şükür",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مفيش قماش يبقى مفيش إنتاج",
+"fr": "mafeesh 2omash yeb2a mafeesh entag",
+"ok": "mafiş 'umaş yib'a mafiş intag",
+"tr": "Kumaş yoksa üretim de yok",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "بكرة هنبدأ الموديل الجديد",
+"fr": "bokra haneb2a el model el gedeed",
+"ok": "bukra hanibda' el model eg-gidid",
+"tr": "Yarın yeni modele başlıyoruz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Üretim & Hedef",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "البصمة الساعة تمانية",
+"fr": "el basma el sa3a tamanya",
+"ok": "el basma-s-sa'a tamanya",
+"tr": "Giriş (parmak izi) saat sekizde",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متنساش تبصم وانت خارج",
+"fr": "matensash tebsem w enta khareg",
+"ok": "ma tinsaş tibsim vinta harig",
+"tr": "Çıkarken parmak basmayı unutma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اتأخرت ليه النهاردة؟",
+"fr": "et2akhart leih el naharda?",
+"ok": "it'ahhart leh innaharda?",
+"tr": "Bugün neden geç kaldın?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "المواصلات كانت زحمة",
+"fr": "el mowaslat kanet za7ma",
+"ok": "el muvaslat kanit zahma",
+"tr": "Ulaşım çok kalabalıktı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2",
+"note": "Gecikme bahanesi"
+},
+{
+"ar": "الأوتوبيس عطل",
+"fr": "el otobees 3atal",
+"ok": "el otobis 'atal",
+"tr": "Servis bozuldu",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عايز إذن أمشي بدري",
+"fr": "3ayez ezn amshi badri",
+"ok": "'ayiz izn amşi badri",
+"tr": "Erken çıkmak için izin istiyorum",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عندي ظرف",
+"fr": "3andi zarf",
+"ok": "'andi zarf",
+"tr": "Bir işim (mazeretim) var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ابني عيان ولازم أروّح",
+"fr": "ebni 3ayyan w lazem arawwa7",
+"ok": "ibni 'ayyan vi lazim aravvah",
+"tr": "Oğlum hasta, eve gitmem lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "امبارح كنت تعبان",
+"fr": "embare7 kont ta3ban",
+"ok": "imbarih kunt ta'ban",
+"tr": "Dün hastaydım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "هات شهادة مرضية",
+"fr": "hat shahada maradeyya",
+"ok": "hat şahada maradiyya",
+"tr": "Doktor raporu getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "مين غايب النهاردة؟",
+"fr": "meen ghayeb el naharda?",
+"ok": "min ğayib innaharda?",
+"tr": "Bugün kim yok?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فلانة غايبة من غير إذن",
+"fr": "folana ghayba men gheir ezn",
+"ok": "fulana ğayba min ğeyr izn",
+"tr": "Falanca izinsiz gelmedi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "البريك الساعة كام؟",
+"fr": "el break el sa3a kam?",
+"ok": "el breyk is-sa'a kam?",
+"tr": "Mola saat kaçta?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "البريك خلص",
+"fr": "el break khels",
+"ok": "el breyk hilis",
+"tr": "Mola bitti",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مين عايز يقعد أوفر تايم؟",
+"fr": "meen 3ayez ye23od over time?",
+"ok": "min 'ayiz yu'ud ovır taym?",
+"tr": "Kim fazla mesaiye kalmak istiyor?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "النهاردة هنقعد لحد الساعة سبعة",
+"fr": "el naharda hano23od le7add el sa3a sab3a",
+"ok": "innaharda hanu'ud lihadd is-sa'a sab'a",
+"tr": "Bugün saat yediye kadar kalacağız",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "بكرة الجمعة إجازة",
+"fr": "bokra el gom3a agaza",
+"ok": "bukra-g-gum'a agaza",
+"tr": "Yarın cuma, tatil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "عايزة آخد يومين إجازة",
+"fr": "3ayza akhod yomein agaza",
+"ok": "'ayza ahud yomeyn agaza",
+"tr": "İki gün izin almak istiyorum (kadın)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الوردية الليلية هتشتغل الأسبوع ده",
+"fr": "el wardeyya el layleyya hateshtaghal el esboo3 dah",
+"ok": "el vardiyya-l-leyliyya hatiştağal el isbu' dah",
+"tr": "Bu hafta gece vardiyası çalışacak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "ما تيجيش متأخر تاني",
+"fr": "ma teegeesh mete2akhar tani",
+"ok": "ma ticiş mit'ahhar tani",
+"tr": "Bir daha geç gelme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Vardiya & Devam",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "القبض امتى؟",
+"fr": "el 2abd emta?",
+"ok": "el 'abd imta?",
+"tr": "Maaş ne zaman?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "قبضنا ولا لسه؟",
+"fr": "2abadna walla lessa?",
+"ok": "'abadna valla lissa?",
+"tr": "Maaşı aldık mı, daha mı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المرتب اتأخر",
+"fr": "el morattab et2akhar",
+"ok": "el murattab it'ahhar",
+"tr": "Maaş gecikti",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المرتب نازل على الفيزا",
+"fr": "el morattab nazel 3ala el visa",
+"ok": "el murattab nazil 'ala-l-viza",
+"tr": "Maaş karta yatıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اتخصم مني يوم ليه؟",
+"fr": "et-khasam menni yoom leih?",
+"ok": "ithasam minni yom leh?",
+"tr": "Benden neden bir gün kesildi?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الخصم ده عشان الغياب",
+"fr": "el khasm dah 3ashan el gheyab",
+"ok": "el hasm dah 'aşan el ğiyab",
+"tr": "Bu kesinti devamsızlık yüzünden",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحافز اتلغى الشهر ده",
+"fr": "el 7afez etlagha el shahr dah",
+"ok": "el hafiz itlağa-ş-şahr dah",
+"tr": "Bu ay prim kesildi (iptal oldu)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اللي يعدي التارجت ليه حافز",
+"fr": "elli ye3addi el target leeh 7afez",
+"ok": "illi y'addi-t-targit lih hafiz",
+"tr": "Hedefi geçenin primi var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عايز سلفة يا ريس",
+"fr": "3ayez solfa ya rayyes",
+"ok": "'ayiz sulfa ya rayyis",
+"tr": "Avans istiyorum şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "السلفة هتتخصم على شهرين",
+"fr": "el solfa hatetkhesem 3ala shahrein",
+"ok": "es-sulfa hatithisim 'ala şahreyn",
+"tr": "Avans iki aya bölünerek kesilecek",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الأوفر تايم بيتحسب بكام؟",
+"fr": "el over time beyet7eseb be kam?",
+"ok": "el ovır taym biyithisib bikam?",
+"tr": "Fazla mesai kaçtan hesaplanıyor?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الحساب مش مظبوط",
+"fr": "el 7esab mesh mazboot",
+"ok": "el hisab miş mazbut",
+"tr": "Hesap tutmuyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "راجعلي المرتب لو سمحت",
+"fr": "raga3li el morattab law sama7t",
+"ok": "raga'li-l-murattab lav samaht",
+"tr": "Lütfen maaşımı kontrol et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "المرتب مبيكفيش",
+"fr": "el morattab mabeykaffeesh",
+"ok": "el murattab ma biykaffiş",
+"tr": "Maaş yetmiyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2",
+"note": "Şikâyet"
+},
+{
+"ar": "فيه منحة للعيد؟",
+"fr": "fee men7a lel 3eed?",
+"ok": "fi minha lil-'id?",
+"tr": "Bayram ikramiyesi var mı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "الكشف متعلق على الحيطة",
+"fr": "el kashf met3alla2 3ala el 7eita",
+"ok": "el kaşf mit'alla' 'ala-l-heyta",
+"tr": "Liste duvarda asılı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اتجازيت ليه؟",
+"fr": "etgazeit leih?",
+"ok": "itgazeyt leh?",
+"tr": "Neden ceza aldım?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "حقك هيوصلك",
+"fr": "7a22ak hayewsalak",
+"ok": "ha''ak hayvassalak",
+"tr": "Hakkın sana ulaşacak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Maaş & Prim",
+"k": "p",
+"level": "A2",
+"note": "Yöneticiden güvence"
+},
+{
+"ar": "خلي بالك",
+"fr": "khalli balak",
+"ok": "halli balak",
+"tr": "Dikkat et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "خلي بالك من إيدك",
+"fr": "khalli balak men eidak",
+"ok": "halli balak min idak",
+"tr": "Eline dikkat et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "حط الواقي",
+"fr": "7ott el wa2i",
+"ok": "hutt el va'i",
+"tr": "Koruyucuyu tak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "البس الكمامة",
+"fr": "elbes el kammama",
+"ok": "ilbis el kammama",
+"tr": "Maskeyi tak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "متحطش إيدك جنب الإبرة",
+"fr": "mat7ottesh eidak ganb el ebra",
+"ok": "ma thuttiş idak gamb el ibra",
+"tr": "Elini iğnenin yanına koyma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اقفل الكهربا قبل ما تصلّح",
+"fr": "e2fel el kahraba 2abl ma tsalla7",
+"ok": "i'fil el kahraba 'abl ma tsallah",
+"tr": "Tamir etmeden önce elektriği kes",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متقفلوش مخرج الطوارئ",
+"fr": "mate2feloosh makhrag el tawari2",
+"ok": "ma ti'filuş mahrag et-tavari'",
+"tr": "Acil çıkışı kapatmayın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "شيلوا الكراتين من الممر",
+"fr": "sheelo el karateen men el mamarr",
+"ok": "şilu-l-karatin min el mamarr",
+"tr": "Kolileri koridordan kaldırın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ممنوع التدخين جوه",
+"fr": "mamnoo3 el tadkheen gowwa",
+"ok": "mamnu' et-tadhin guvva",
+"tr": "İçeride sigara içmek yasak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فيه ريحة شياط",
+"fr": "fee ree7et shayat",
+"ok": "fi rihet şiyat",
+"tr": "Yanık kokusu var",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "حريقة! اطلعوا برّه بسرعة",
+"fr": "7aree2a! etla3o barra besor3a",
+"ok": "hari'a! itla'u barra bisur'a",
+"tr": "Yangın! Hemen dışarı çıkın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "هاتوا الطفاية",
+"fr": "hato el taffaya",
+"ok": "hatu-t-taffaya",
+"tr": "Söndürücüyü getirin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "اطلبوا الإسعاف",
+"fr": "otlobo el es3af",
+"ok": "utlubu-l-is'af",
+"tr": "Ambulans çağırın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "حد يجيب شنطة الإسعافات",
+"fr": "7add yegeeb shantet el es3afat",
+"ok": "hadd yigib şantet el is'afat",
+"tr": "Biri ilk yardım çantasını getirsin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الإبرة دخلت في صباعها",
+"fr": "el ebra dakhalet fi sobo3ha",
+"ok": "el ibra dahalit fi suba'ha",
+"tr": "İğne parmağına battı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "وديها العيادة",
+"fr": "waddeeha el 3eyada",
+"ok": "vaddiha-l-'iyada",
+"tr": "Onu revire götür",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الأرض مزحلقة خلي بالك",
+"fr": "el ard mez7ela2a khalli balak",
+"ok": "el ard mizhili'a halli balak",
+"tr": "Zemin kaygan, dikkat et",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متجريش في المصنع",
+"fr": "matgreesh fel masna3",
+"ok": "ma tgiriş fil masna'",
+"tr": "Fabrikada koşma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "İş Güvenliği",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "شد حيلك يا بطل",
+"fr": "shedd 7eilak ya batal",
+"ok": "şidd heylak ya batal",
+"tr": "Gayret et aslanım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1",
+"note": "Cesaretlendirme"
+},
+{
+"ar": "يلا يا جماعة البريك خلص",
+"fr": "yalla ya gama3a el break khels",
+"ok": "yalla ya gama'a el breyk hilis",
+"tr": "Haydi arkadaşlar mola bitti",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "يلا كل واحد على مكنته",
+"fr": "yalla kol wa7ed 3ala makanto",
+"ok": "yalla kull vahid 'ala makantu",
+"tr": "Haydi herkes makinesinin başına",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "يلا بسرعة",
+"fr": "yalla besor3a",
+"ok": "yalla bisur'a",
+"tr": "Haydi çabuk",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "خلّص الحتة دي",
+"fr": "khallas el 7etta di",
+"ok": "hallas el hetta di",
+"tr": "Bu parçayı bitir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "هات الباكو",
+"fr": "hat el bako",
+"ok": "hat el bako",
+"tr": "Demeti getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فين الأسطى؟",
+"fr": "feen el osta?",
+"ok": "fen el usta?",
+"tr": "Usta nerede?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فين المشرفة؟",
+"fr": "feen el moshrefa?",
+"ok": "fen el muşrifa?",
+"tr": "Şef (kadın) nerede?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تعالى هنا",
+"fr": "ta3ala hena",
+"ok": "ta'ala hina",
+"tr": "Gel buraya",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تعالي هنا شوية",
+"fr": "ta3ali hena shewayya",
+"ok": "ta'ali hina şuvayya",
+"tr": "Bir dakika buraya gel (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "بص هنا",
+"fr": "boss hena",
+"ok": "buss hina",
+"tr": "Buraya bak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "شوف ده كده",
+"fr": "shoof dah keda",
+"ok": "şuf dah kida",
+"tr": "Şuna bir bak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "عامل إيه في الشغل؟",
+"fr": "3amel eih fel shoghl?",
+"ok": "'amil eh fiş-şuğl?",
+"tr": "İş nasıl gidiyor?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "محتاج حاجة؟",
+"fr": "me7tag 7aga?",
+"ok": "mihtag haga?",
+"tr": "Bir şeye ihtiyacın var mı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فيه مشكلة؟",
+"fr": "fee moshkela?",
+"ok": "fi muşkila?",
+"tr": "Bir sorun mu var?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "إيه اللي حصل؟",
+"fr": "eih elli 7asal?",
+"ok": "eh illi hasal?",
+"tr": "Ne oldu?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مين اللي عمل كده؟",
+"fr": "meen elli 3amal keda?",
+"ok": "min illi 'amal kida?",
+"tr": "Bunu kim yaptı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ده شغل ده؟",
+"fr": "dah shoghl dah?",
+"ok": "dah şuğl dah?",
+"tr": "Buna iş mi denir?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Sitem – sert"
+},
+{
+"ar": "عيد الحتة دي تاني",
+"fr": "3eed el 7etta di tani",
+"ok": "'id el hetta di tani",
+"tr": "Bu parçayı yeniden yap",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "اشتغل على مهلك بس صح",
+"fr": "eshtaghal 3ala mahlak bass sa7",
+"ok": "iştağal 'ala mahlak bass sah",
+"tr": "Yavaş çalış ama doğru yap",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "السرعة مش كل حاجة",
+"fr": "el sor3a mesh kol 7aga",
+"ok": "es-sur'a miş kull haga",
+"tr": "Hız her şey değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الجودة أهم من العدد",
+"fr": "el godah aham men el 3add",
+"ok": "el guda ahamm min el 'add",
+"tr": "Kalite sayıdan önemli",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "برافو عليك",
+"fr": "bravo 3aleik",
+"ok": "bravo 'aleyk",
+"tr": "Aferin sana",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تسلم إيدك",
+"fr": "teslam eidak",
+"ok": "tislam idak",
+"tr": "Ellerine sağlık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تسلم إيدك يا أسطى",
+"fr": "teslam eidak ya osta",
+"ok": "tislam idak ya usta",
+"tr": "Ellerine sağlık usta",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "عاش يا بطل",
+"fr": "3ash ya batal",
+"ok": "'aş ya batal",
+"tr": "Helal olsun aslanım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "كده الشغل ولا بلاش",
+"fr": "keda el shoghl walla balash",
+"ok": "kida-ş-şuğl valla balaş",
+"tr": "İş dediğin böyle olur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "B1",
+"note": "Övgü"
+},
+{
+"ar": "ربنا يقويك",
+"fr": "rabbena ye2aweek",
+"ok": "rabbina y'avvik",
+"tr": "Allah kuvvet versin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الله ينور",
+"fr": "allah yenawwar",
+"ok": "allah yinavvar",
+"tr": "Aferin, harika (Allah nur versin)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Övgü"
+},
+{
+"ar": "مش عايز كلام كتير",
+"fr": "mesh 3ayez kalam keteer",
+"ok": "miş 'ayiz kalam kitir",
+"tr": "Çok laf istemiyorum",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Sert"
+},
+{
+"ar": "بطّلوا رغي واشتغلوا",
+"fr": "battalo raghy w eshtaghalo",
+"ok": "battalu rağy vi ştağalu",
+"tr": "Gevezeliği bırakın da çalışın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Sert"
+},
+{
+"ar": "الموبايل في الشنطة",
+"fr": "el mobile fel shanta",
+"ok": "el mobayl fiş-şanta",
+"tr": "Telefon çantaya",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مفيش موبايلات على الخط",
+"fr": "mafeesh mobilat 3ala el khatt",
+"ok": "mafiş mobaylat 'ala-l-hatt",
+"tr": "Hatta cep telefonu yok",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اللي يخلص يقولي",
+"fr": "elli yekhallas ye2olli",
+"ok": "illi yhallas yi'ulli",
+"tr": "Bitiren bana söylesin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "خلّصت؟",
+"fr": "khallast?",
+"ok": "hallast?",
+"tr": "Bitirdin mi?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "لسه شوية",
+"fr": "lessa shewayya",
+"ok": "lissa şuvayya",
+"tr": "Az kaldı (birazdan)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "خمس دقايق وأخلّص",
+"fr": "khamas da2aye2 w akhallas",
+"ok": "hamas da'ayi' vi ahallas",
+"tr": "Beş dakikaya bitiriyorum",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "حاضر يا ريس",
+"fr": "7ader ya rayyes",
+"ok": "hadır ya rayyis",
+"tr": "Başüstüne şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تحت أمرك",
+"fr": "ta7t amrak",
+"ok": "taht amrak",
+"tr": "Emrin olur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مش فاهم قصدك",
+"fr": "mesh fahem 2asdak",
+"ok": "miş fahim 'asdak",
+"tr": "Ne demek istediğini anlamadım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "فهمت؟",
+"fr": "fehemt?",
+"ok": "fihimt?",
+"tr": "Anladın mı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فهمتي يا بنتي؟",
+"fr": "fehemti ya benti?",
+"ok": "fihimti ya binti?",
+"tr": "Anladın mı kızım?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "وريني إزاي",
+"fr": "warreeni ezzai",
+"ok": "varrini izzay",
+"tr": "Göster bakalım nasıl",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "أنا هوريك",
+"fr": "ana hawareek",
+"ok": "ana havarrik",
+"tr": "Ben sana göstereyim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "كده غلط اعمليها كده",
+"fr": "keda ghalat e3meleeha keda",
+"ok": "kida ğalat i'miliha kida",
+"tr": "Böyle yanlış, şöyle yap (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ركّز معايا",
+"fr": "rakkez ma3aya",
+"ok": "rakkiz ma'aya",
+"tr": "Beni dinle (bana odaklan)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "إيدك سريعة ما شاء الله",
+"fr": "eidek saree3a ma sha2 allah",
+"ok": "idik sari'a ma şa' allah",
+"tr": "Maşallah elin çabuk (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "انت شاطر بس محتاج تركز",
+"fr": "enta shater bass me7tag terakkez",
+"ok": "inta şatir bass mihtag tirakkiz",
+"tr": "Becerikli birisin ama dikkat etmen lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "النهاردة لازم نخلص الأوردر",
+"fr": "el naharda lazem nekhallas el order",
+"ok": "innaharda lazim nihallas el ordır",
+"tr": "Bugün siparişi bitirmemiz lazım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "محدش يمشي قبل ما نخلص",
+"fr": "ma7addesh yemshi 2abl ma nekhallas",
+"ok": "mahaddiş yimşi 'abl ma nhallas",
+"tr": "Bitirmeden kimse gitmesin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ساعدي زميلتك",
+"fr": "sa3di zemeeltek",
+"ok": "sa'di zimiltik",
+"tr": "Arkadaşına yardım et (kadına)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الحتت دي عند مين؟",
+"fr": "el 7etat di 3and meen?",
+"ok": "el hitat di 'and min?",
+"tr": "Bu parçalar kimde?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مين واخد الباكو ده؟",
+"fr": "meen wakhed el bako dah?",
+"ok": "min vahid el bako dah?",
+"tr": "Bu demeti kim aldı?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "فين باقي الباكو؟",
+"fr": "feen ba2i el bako?",
+"ok": "fen ba'i-l-bako?",
+"tr": "Demetin kalanı nerede?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مستني إيه؟",
+"fr": "mestanni eih?",
+"ok": "mistanni eh?",
+"tr": "Ne bekliyorsun?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مستني شغل يا ريس",
+"fr": "mestanni shoghl ya rayyes",
+"ok": "mistanni şuğl ya rayyis",
+"tr": "İş bekliyorum şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "المكنة عطلانة يا أسطى",
+"fr": "el makana 3atlana ya osta",
+"ok": "el makana 'atlana ya usta",
+"tr": "Makine arızalı usta",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الإبرة اتكسرت يا ريس",
+"fr": "el ebra etkasaret ya rayyes",
+"ok": "el ibra itkaserit ya rayyis",
+"tr": "İğne kırıldı şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الخيط خلص هات كون تاني",
+"fr": "el kheit khels hat koon tani",
+"ok": "el heyt hilis hat kon tani",
+"tr": "İplik bitti, bir koni daha getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "أنا تعبت يا ريس",
+"fr": "ana te3ebt ya rayyes",
+"ok": "ana ti'ibt ya rayyis",
+"tr": "Yoruldum şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1",
+"note": "Şikâyet"
+},
+{
+"ar": "ضهري واجعني",
+"fr": "dahri wage3ni",
+"ok": "dahri vagi'ni",
+"tr": "Sırtım ağrıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الجو حر أوي جوه",
+"fr": "el gaw 7arr awi gowwa",
+"ok": "eg-gav harr ovi guvva",
+"tr": "İçerisi çok sıcak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1",
+"note": "Şikâyet"
+},
+{
+"ar": "المروحة مش شغالة",
+"fr": "el marwa7a mesh shaghghala",
+"ok": "el marvaha miş şağğala",
+"tr": "Vantilatör çalışmıyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "النور ضعيف على الخط",
+"fr": "el noor da3eef 3ala el khatt",
+"ok": "en-nur da'if 'ala-l-hatt",
+"tr": "Hatta ışık zayıf",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ده مش شغلي",
+"fr": "dah mesh shoghli",
+"ok": "dah miş şuğli",
+"tr": "Bu benim işim değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "İşçi itirazı"
+},
+{
+"ar": "أنا مالي",
+"fr": "ana mali",
+"ok": "ana mali",
+"tr": "Bana ne (benim suçum yok)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Kaba olabilir – dikkat"
+},
+{
+"ar": "مش أنا اللي عملتها",
+"fr": "mesh ana elli 3amaltaha",
+"ok": "miş ana-lli 'amaltaha",
+"tr": "Onu ben yapmadım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مش ذنبي القماش كده",
+"fr": "mesh zanbi el 2omash keda",
+"ok": "miş zanbi-l-'umaş kida",
+"tr": "Kumaş böyle, benim suçum değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "حقك عليا",
+"fr": "7a22ak 3alaya",
+"ok": "ha''ak 'alayya",
+"tr": "Hakkını helal et, özür dilerim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Özür"
+},
+{
+"ar": "مش هتتكرر",
+"fr": "mesh hatetkarrar",
+"ok": "miş hatitkarrar",
+"tr": "Bir daha olmayacak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ولا يهمك إحنا نصلحها",
+"fr": "wala yehemmak e7na nesalla7ha",
+"ok": "vala yhimmak ihna nsallahha",
+"tr": "Merak etme, düzeltiriz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "متزعلش مني",
+"fr": "matez3alsh menni",
+"ok": "ma tiz'alş minni",
+"tr": "Bana gücenme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "محدش يتكلم وهو شغال",
+"fr": "ma7addesh yetkallem w howwa shaghghal",
+"ok": "mahaddiş yitkallim vi huvva şağğal",
+"tr": "Çalışırken kimse konuşmasın",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اللي عنده مشكلة ييجي يكلمني",
+"fr": "elli 3ando moshkela yeegi yekallemni",
+"ok": "illi 'andu muşkila yici ykallimni",
+"tr": "Sorunu olan gelip benimle konuşsun",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الباب مفتوح لأي حد",
+"fr": "el bab maftoo7 le ay 7add",
+"ok": "el bab maftuh li ayy hadd",
+"tr": "Kapım herkese açık",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "يا جماعة عايز أقولكم حاجة",
+"fr": "ya gama3a 3ayez a2ollokom 7aga",
+"ok": "ya gama'a 'ayiz a'ullukum haga",
+"tr": "Arkadaşlar size bir şey söylemek istiyorum",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "النهاردة الشغل حلو",
+"fr": "el naharda el shoghl 7elw",
+"ok": "innaharda-ş-şuğl hilv",
+"tr": "Bugün iş güzel gidiyor",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "النهاردة إحنا مش ماشيين كويس",
+"fr": "el naharda e7na mesh mashyeen kwayyes",
+"ok": "innaharda ihna miş maşyin kuvayyis",
+"tr": "Bugün iyi gitmiyoruz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الخط ده أحسن خط في المصنع",
+"fr": "el khatt dah a7san khatt fel masna3",
+"ok": "el hatt dah ahsan hatt fil masna'",
+"tr": "Bu hat fabrikanın en iyi hattı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2",
+"note": "Motive etme"
+},
+{
+"ar": "لو خلصنا بدري نروّح بدري",
+"fr": "law khallasna badri nerawwa7 badri",
+"ok": "lav hallasna badri nravvah badri",
+"tr": "Erken bitirirsek erken gideriz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اقعد مكانك",
+"fr": "o23od makanak",
+"ok": "u'ud makanak",
+"tr": "Yerine otur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "متسيبش مكانك",
+"fr": "matsebsh makanak",
+"ok": "ma tsibş makanak",
+"tr": "Yerinden ayrılma",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "روح هات شاي",
+"fr": "rooḥ hat shai",
+"ok": "ruh hat şay",
+"tr": "Git çay getir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تشربوا شاي؟",
+"fr": "teshrabo shai?",
+"ok": "tişrabu şay?",
+"tr": "Çay içer misiniz?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "صباح الخير يا جماعة",
+"fr": "saba7 el kheir ya gama3a",
+"ok": "sabah el heyr ya gama'a",
+"tr": "Günaydın arkadaşlar",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "صباح النور يا ريس",
+"fr": "saba7 el noor ya rayyes",
+"ok": "sabah en-nur ya rayyis",
+"tr": "Günaydın şefim (cevap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ربنا معاكم يا جماعة",
+"fr": "rabbena ma3akom ya gama3a",
+"ok": "rabbina ma'akum ya gama'a",
+"tr": "Allah yardımcınız olsun arkadaşlar (kolay gelsin)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ومعاك يا ريس",
+"fr": "w ma3ak ya rayyes",
+"ok": "vi ma'ak ya rayyis",
+"tr": "Seninle de olsun şefim (cevap)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مع السلامة نشوفكم بكرة",
+"fr": "ma3a el salama nshoofkom bokra",
+"ok": "ma'a-s-salama nşufkum bukra",
+"tr": "Hoşça kalın, yarın görüşürüz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "اتفضل",
+"fr": "etfaddal",
+"ok": "itfaddal",
+"tr": "Buyur",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Usta–İşçi Konuşmaları",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "على الله",
+"fr": "3ala allah",
+"ok": "'ala-llah",
+"tr": "Allah'a kalmış (inşallah olur)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اتكل على الله",
+"fr": "ettekel 3ala allah",
+"ok": "ittikil 'ala-llah",
+"tr": "Allah'a tevekkül et, başla haydi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ماشي يا باشا",
+"fr": "mashi ya basha",
+"ok": "maşi ya başa",
+"tr": "Tamam paşam",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ولا يهمك",
+"fr": "wala yehemmak",
+"ok": "vala yhimmak",
+"tr": "Hiç dert etme",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "خلصانة يا ريس",
+"fr": "khalsana ya rayyes",
+"ok": "halsana ya rayyis",
+"tr": "Hallolmuş say şefim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2",
+"note": "Argo"
+},
+{
+"ar": "إن شاء الله",
+"fr": "en sha2 allah",
+"ok": "in şa' allah",
+"tr": "İnşallah",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "بإذن الله",
+"fr": "be ezn allah",
+"ok": "bi-izn illah",
+"tr": "Allah'ın izniyle",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "الحمد لله",
+"fr": "el 7amdolella",
+"ok": "el hamdulillah",
+"tr": "Çok şükür",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ربنا يسهّل",
+"fr": "rabbena yesahhel",
+"ok": "rabbina ysahhil",
+"tr": "Allah kolaylık versin",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ربنا يستر",
+"fr": "rabbena yostor",
+"ok": "rabbina yustur",
+"tr": "Allah korusun (kötüsünden)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "ما شاء الله",
+"fr": "ma sha2 allah",
+"ok": "ma şa' allah",
+"tr": "Maşallah",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "على راسي",
+"fr": "3ala rasi",
+"ok": "'ala rasi",
+"tr": "Başım üstüne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "من عينيا",
+"fr": "men 3eneyya",
+"ok": "min 'eneyya",
+"tr": "Gözüm üstüne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تحت أمرك يا باشا",
+"fr": "ta7t amrak ya basha",
+"ok": "taht amrak ya başa",
+"tr": "Emrinize amadeyim paşam",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "مفيش مشكلة",
+"fr": "mafeesh moshkela",
+"ok": "mafiş muşkila",
+"tr": "Sorun yok",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "كله تمام",
+"fr": "kollo tamam",
+"ok": "kullu tamam",
+"tr": "Her şey yolunda",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "تمام يا فندم",
+"fr": "tamam ya fandem",
+"ok": "tamam ya fandim",
+"tr": "Tamam efendim",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1",
+"note": "Resmi-saygılı hitap (Türkçe 'efendim'den)"
+},
+{
+"ar": "يا ساتر",
+"fr": "ya satar",
+"ok": "ya sattar",
+"tr": "Aman Allah'ım (şaşkınlık)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "يا نهار أبيض",
+"fr": "ya nahar abyad",
+"ok": "ya nahar abyad",
+"tr": "Vay be! (şaşkınlık)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "يا نهار إسود",
+"fr": "ya nahar eswed",
+"ok": "ya nahar isvid",
+"tr": "Eyvah! (kötü haber)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "يا خبر",
+"fr": "ya khabar",
+"ok": "ya habar",
+"tr": "Hadi ya! (şaşkınlık)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مش مهم",
+"fr": "mesh mohemm",
+"ok": "miş muhimm",
+"tr": "Önemli değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "معلش المرة دي",
+"fr": "ma3lesh el marra di",
+"ok": "ma'leş el marra di",
+"tr": "Bu seferlik olsun",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "بالراحة على نفسك",
+"fr": "bel ra7a 3ala nafsak",
+"ok": "bir-raha 'ala nafsak",
+"tr": "Kendini yorma, sakin ol",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "خليها على الله",
+"fr": "khalleeha 3ala allah",
+"ok": "halliha 'ala-llah",
+"tr": "Allah'a bırak",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "الشغل مش عيب",
+"fr": "el shoghl mesh 3eib",
+"ok": "eş-şuğl miş 'eyb",
+"tr": "Çalışmak ayıp değil",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "اللي فات مات",
+"fr": "elli fat mat",
+"ok": "illi fat mat",
+"tr": "Geçmiş geçmişte kaldı",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "الصبر حلو",
+"fr": "el sabr 7elw",
+"ok": "es-sabr hilv",
+"tr": "Sabır güzeldir",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "إيد لوحدها متسقفش",
+"fr": "eid lewa7daha matsa22afsh",
+"ok": "id livahdaha ma tsa''afş",
+"tr": "Tek el şaklamaz (birlikten kuvvet doğar)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "كل تأخيرة فيها خيرة",
+"fr": "kol ta2kheera feeha kheira",
+"ok": "kull ta'hira fiha hiyra",
+"tr": "Her gecikmede bir hayır vardır",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "اللي ميعرفش يقول عدس",
+"fr": "elli maye3rafsh ye2ool 3ads",
+"ok": "illi ma yi'rafş yi'ul 'ads",
+"tr": "Bilmeyen ne der? (bilmeden yorum yapan)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "على قد لحافك مد رجليك",
+"fr": "3ala 2add le7afak medd reglek",
+"ok": "'ala 'add lihafak midd riglik",
+"tr": "Ayağını yorganına göre uzat",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "اللي بيته من إزاز ميحدفش الناس بالطوب",
+"fr": "elli beito men ezaz mai7defsh el nas bel toob",
+"ok": "illi beytu min izaz ma yihdifş in-nas bit-tub",
+"tr": "Camdan evi olan başkasına taş atmaz",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Atasözü"
+},
+{
+"ar": "الكلام ببلاش",
+"fr": "el kalam bebalash",
+"ok": "el kalam bi-balaş",
+"tr": "Laf bedava (söz kolay)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1"
+},
+{
+"ar": "اشتغل وانت ساكت",
+"fr": "eshtaghal w enta saket",
+"ok": "iştağal vinta sakit",
+"tr": "Sus da işini yap",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2",
+"note": "Sert"
+},
+{
+"ar": "على عيني وراسي",
+"fr": "3ala 3eeni w rasi",
+"ok": "'ala 'ini vi rasi",
+"tr": "Baş göz üstüne",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "فوت علينا بكرة",
+"fr": "foot 3aleina bokra",
+"ok": "fut 'aleyna bukra",
+"tr": "Yarın uğra (savsaklama)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "B1",
+"note": "Bürokratik erteleme"
+},
+{
+"ar": "ده كلام فاضي",
+"fr": "dah kalam fadi",
+"ok": "dah kalam fadi",
+"tr": "Bu boş laf",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "يعني إيه؟",
+"fr": "ya3ni eih?",
+"ok": "ya'ni eh?",
+"tr": "Ne demek yani?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "والله العظيم",
+"fr": "wallahi el 3azeem",
+"ok": "vallahi-l-'azim",
+"tr": "Vallahi billahi",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1",
+"note": "Yemin – ikna için"
+},
+{
+"ar": "بجد؟",
+"fr": "begadd?",
+"ok": "bigadd?",
+"tr": "Cidden mi?",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "ماشي الحال",
+"fr": "mashi el 7al",
+"ok": "maşi-l-hal",
+"tr": "İdare eder",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "أهو ماشي",
+"fr": "aho mashi",
+"ok": "ahu maşi",
+"tr": "İşte gidiyor (idare ediyoruz)",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+},
+{
+"ar": "فل الفل",
+"fr": "foll el foll",
+"ok": "full el full",
+"tr": "Bomba gibi, harika",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2",
+"note": "Argo"
+},
+{
+"ar": "زي الفل",
+"fr": "zay el foll",
+"ok": "zey el full",
+"tr": "Mükemmel",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "عنيا ليك",
+"fr": "3enaya leek",
+"ok": "'eneyya lik",
+"tr": "Senin için her şeyi yaparım",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A2"
+},
+{
+"ar": "مية مية",
+"fr": "meyya meyya",
+"ok": "miyya miyya",
+"tr": "Yüzde yüz, tamam",
+"cat": "Konfeksiyon Fabrikası",
+"sub": "Halk Deyimleri",
+"k": "p",
+"level": "A1"
+}
+]
