@@ -173,6 +173,20 @@ for e in entries:
     if isinstance(o.get('ex'), dict) and o['ex'].get('ar'):
         e['ex'] = {x: nfc(o['ex'].get(x, '')) if x == 'ar' else o['ex'].get(x, '') for x in ('ar', 'fr', 'ok', 'tr')}
 print('halk dili düzeltmesi', n_ovr)
+# Düzeltme sonrası aynı hale gelen kayıtlar tekilleştirilir / Entries that became identical after corrections are merged
+_seen2, _keep = {}, []
+for e in entries:
+    k2 = norm_ar(e['ar']) + '|' + norm_tr(re.split(r'\s*[/;]\s*', e['tr'])[0])
+    if k2 in _seen2:
+        o = _seen2[k2]
+        for f in ('ex', 'note', 'pl', 'fem', 'sub'):
+            if not o.get(f) and e.get(f):
+                o[f] = e[f]
+        continue
+    _seen2[k2] = e
+    _keep.append(e)
+print('tekilleştirilen', len(entries) - len(_keep))
+entries[:] = _keep
 
 used = {}
 for e in entries:
