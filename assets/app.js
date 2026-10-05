@@ -141,20 +141,31 @@
   let audioIdx = null, audioLoad = null, curAudio = null;
   const loadAudioIdx = () => audioLoad || (audioLoad = fetch('audio/index.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : { keys: [] }).then(j => { audioIdx = new Set(j.keys || []); }).catch(() => { audioIdx = new Set(); }));
   loadAudioIdx();
+  // Yalnız Mısır Arapçası (ar-EG) cihaz sesi kullanılır; standart Arapça (Fusha) sese asla düşülmez /
+  // Only an Egyptian (ar-EG) device voice is used; never a standard Arabic (Fusha) voice
   function deviceSpeak(text, btn) {
-    if (!('speechSynthesis' in window)) { toast('Bu cihazda sesli okuma yok'); if (btn) btn.classList.remove('playing'); return; }
+    const eg = 'speechSynthesis' in window ? voices.find(v => /ar[-_]EG/i.test(v.lang)) : null;
+    if (!eg) { if (btn) btn.classList.remove('playing'); toast('Bu metnin Mısır lehçesi ses kaydı yok'); return; }
     try {
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      const eg = voices.find(v => /ar[-_]EG/i.test(v.lang));
-      const v = eg || voices.find(v => /^ar/i.test(v.lang));
-      if (v) u.voice = v;
-      u.lang = v ? v.lang : 'ar-EG';
-      u.rate = .85;
+      u.voice = eg; u.lang = eg.lang; u.rate = .85;
       if (btn) u.onend = u.onerror = () => btn.classList.remove('playing');
       speechSynthesis.speak(u);
-      if (!eg && !deviceSpeak._warned) { deviceSpeak._warned = 1; toast(v ? 'Bu ifadenin Mısır lehçesi kaydı yok; cihazın standart Arapça sesi kullanılıyor' : 'Cihazınızda Arapça ses yüklü değil'); }
     } catch (e) { if (btn) btn.classList.remove('playing'); }
+  }
+  // Kaydı olmayan cümle: kelimelerin kayıtlı Mısır sesleri sırayla çalınır / Unrecorded sentence: recorded word clips in sequence
+  function playSequence(keys, btn, onFail) {
+    let i = 0;
+    const next = () => {
+      if (i >= keys.length) { if (btn) btn.classList.remove('playing'); return; }
+      const a = curAudio = new Audio('audio/' + keys[i++] + '.mp3');
+      a.onended = next;
+      a.onerror = next;
+      a.play().catch(() => { if (i === 1 && onFail) onFail(); else next(); });
+    };
+    try { if (curAudio) curAudio.pause(); } catch (e) {}
+    next();
   }
   function speak(text, btn) {
     text = String(text || '').trim();
@@ -171,7 +182,11 @@
         a.onended = done;
         a.onerror = fallback;
         a.play().catch(fallback);
-      } else deviceSpeak(text, btn);
+      } else {
+        const parts = text.replace(/[؟?!.,،:؛]/g, ' ').split(/\s+/).filter(Boolean).map(audioKey).filter(k2 => audioIdx && audioIdx.has(k2));
+        if (parts.length && parts.length >= text.split(/\s+/).filter(Boolean).length * .6) playSequence(parts, btn, () => deviceSpeak(text, btn));
+        else deviceSpeak(text, btn);
+      }
     };
     audioIdx ? go() : loadAudioIdx().then(go);
   }
@@ -378,26 +393,11 @@
     }
     return res;
   }
-  const mtCache = store.get('mt', {});
-  async function machine(text, dir) {
-    const key = dir + ':' + text;
-    if (mtCache[key]) return mtCache[key];
-    const pair = dir === 'ar' ? 'ar-EG|tr-TR' : 'tr-TR|ar-EG';
-    const r = await fetch('https://api.mymemory.translated.net/get?q=' + encodeURIComponent(text) + '&langpair=' + encodeURIComponent(pair));
-    const d = await r.json();
-    const t = d && d.responseData && d.responseData.translatedText;
-    if (!t || /MYMEMORY WARNING|NO QUERY|INVALID/i.test(t)) throw new Error('mt');
-    mtCache[key] = t;
-    const keys = Object.keys(mtCache);
-    if (keys.length > 300) delete mtCache[keys[0]];
-    store.set('mt', mtCache);
-    return t;
-  }
   ROUTES.ceviri = function (a, q) {
     let dir = q.dir === 'ar' ? 'ar' : 'tr';
     const init = q.q || '';
     if (init && isAr(init)) dir = 'ar';
-    view.innerHTML = pageHead('Çeviri', 'Türkçe ⇄ Mısır lehçesi. Önce portalın Mısır lehçesi sözlüğünde arar; bulamazsa kelime kelime çözümler. Franko (ör. <b>ezzayak</b>) da yazabilirsiniz.') +
+    view.innerHTML = pageHead('Çeviri', 'Türkçe ⇄ Mısır lehçesi. Yalnızca portalın Mısır lehçesi sözlüğünü kullanır (standart Arapça/Fusha yok); birebir karşılık yoksa kelime kelime çözümler ve en yakın ifadeyi gösterir. Franko (ör. <b>ezzayak</b>) da yazabilirsiniz.') +
       `<div class="card tr-box">
         <div class="tr-pane"><div class="tr-head"><span class="lang" id="lIn"></span></div><textarea class="tr-in" id="trIn" rows="4" placeholder="Yazın…" aria-label="Çevrilecek metin"></textarea>
           <div style="display:flex;gap:8px;align-items:center;"><button class="btn sm ghost" id="trClear">${ic('x')} Temizle</button><span id="trCount" style="margin-left:auto;font-size:12px;color:var(--muted)"></span></div></div>
@@ -414,7 +414,6 @@
       inp.dir = dir === 'ar' ? 'rtl' : 'ltr';
     };
     setDir();
-    let mtTimer = null;
     const run = () => {
       const text = inp.value;
       $('#trCount').textContent = text.length ? text.length + ' karakter' : '';
@@ -422,7 +421,6 @@
       history.replaceState(null, '', '#/ceviri?q=' + encodeURIComponent(text) + (dir === 'ar' ? '&dir=ar' : ''));
       const r = translate(text, dir);
       const out = $('#trOut'), more = $('#trMore');
-      clearTimeout(mtTimer);
       if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri burada görünecek.</div>`; more.innerHTML = ''; return; }
       let main = r.exact[0], approx = false;
       if (!main && r.similar.length && !r.gloss.every(g => g.e)) { main = r.similar[0]; approx = true; r.similar = r.similar.slice(1); }
@@ -435,16 +433,6 @@
         out.innerHTML = known.length
           ? `<div class="${dir === 'tr' ? 'ar' : ''}" style="${dir === 'tr' ? '' : 'font-size:22px;font-weight:700'}">${esc(r.gloss.map(g => g.e ? (dir === 'tr' ? g.e.ar : g.e.tr.split(/\s*\/\s*/)[0]) : (dir === 'tr' ? '…' : g.src)).join(' '))}</div>${dir === 'tr' ? `<div class="ok">${esc(r.gloss.map(g => g.e ? g.e.ok : '…').join(' '))}</div>` : ''}<span class="tr-src mt"><span class="dot"></span>Kelime kelime çözümleme — cümle yapısını aşağıdaki benzer ifadelerle kontrol edin</span>`
           : `<div style="color:var(--muted)">Sözlükte birebir karşılık bulunamadı.</div>`;
-        out.insertAdjacentHTML('beforeend', `<div id="mtBox" style="margin-top:10px"></div>`);
-        mtTimer = setTimeout(() => {
-          const box = $('#mtBox');
-          if (!box || !navigator.onLine) return;
-          box.innerHTML = `<span class="tr-src mt"><span class="dot"></span>Makine çevirisi aranıyor…</span>`;
-          machine(text.trim(), dir).then(t => {
-            if (!$('#mtBox')) return;
-            $('#mtBox').innerHTML = `<div class="note"><div class="tag" style="margin-bottom:4px">🤖 Makine çevirisi (internet)</div><div class="${isAr(t) ? 'ar' : ''}" style="font-size:${isAr(t) ? 24 : 17}px;font-weight:700">${esc(t)}</div><div style="font-size:12.5px;color:var(--muted);margin-top:4px">Makine çevirisi Fusha (standart Arapça) olabilir; Mısır lehçesi için yukarıdaki sözlük sonuçlarını tercih edin.</div>${isAr(t) ? `<div style="margin-top:6px">${playBtn(t)}</div>` : ''}</div>`;
-          }).catch(() => { if ($('#mtBox')) $('#mtBox').innerHTML = ''; });
-        }, 900);
       }
       const gl = r.gloss.length > 1 || (!main && r.gloss.length) ? `<div class="sec-h"><h2>Kelime kelime</h2></div><div class="card pad"><div class="gloss">${r.gloss.map(g => g.e ? `<div class="gl"><small>${esc(g.src)}</small><span class="ar">${esc(g.e.ar)}</span><small><b>${esc(g.e.ok)}</b></small><small>${esc(g.e.tr)}</small></div>` : `<div class="gl miss"><small>${esc(g.src)}</small><span>?</span></div>`).join('')}</div></div>` : '';
       const alts = (main && !approx ? r.exact.slice(1) : r.similar);
