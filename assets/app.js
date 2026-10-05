@@ -130,19 +130,50 @@
   let voices = [];
   const loadVoices = () => { try { voices = speechSynthesis.getVoices() || []; } catch (e) {} };
   if ('speechSynthesis' in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
-  function speak(text, btn) {
-    if (!('speechSynthesis' in window)) { toast('Bu tarayıcı sesli okumayı desteklemiyor'); return; }
+  // Kayıtlı Mısır lehçesi sesleri (audio/, ar-EG Salma) önce; yoksa cihazın ar-EG sesi, o da yoksa herhangi bir Arapça ses /
+  // Recorded Egyptian audio first; otherwise the device's ar-EG voice, then any Arabic voice
+  const audioKey = t => {
+    t = String(t || '').replace(/\s+/g, ' ').trim();
+    let h = 0x811C9DC5;
+    for (const b of new TextEncoder().encode(t)) { h ^= b; h = Math.imul(h, 0x01000193) >>> 0; }
+    return ('0000000' + h.toString(16)).slice(-8) + '-' + t.length;
+  };
+  let audioIdx = null, audioLoad = null, curAudio = null;
+  const loadAudioIdx = () => audioLoad || (audioLoad = fetch('audio/index.json', { cache: 'no-cache' }).then(r => r.ok ? r.json() : { keys: [] }).then(j => { audioIdx = new Set(j.keys || []); }).catch(() => { audioIdx = new Set(); }));
+  loadAudioIdx();
+  function deviceSpeak(text, btn) {
+    if (!('speechSynthesis' in window)) { toast('Bu cihazda sesli okuma yok'); if (btn) btn.classList.remove('playing'); return; }
     try {
       speechSynthesis.cancel();
       const u = new SpeechSynthesisUtterance(text);
-      const v = voices.find(v => /ar[-_]EG/i.test(v.lang)) || voices.find(v => /^ar/i.test(v.lang));
+      const eg = voices.find(v => /ar[-_]EG/i.test(v.lang));
+      const v = eg || voices.find(v => /^ar/i.test(v.lang));
       if (v) u.voice = v;
       u.lang = v ? v.lang : 'ar-EG';
       u.rate = .85;
-      if (btn) { btn.classList.add('playing'); u.onend = u.onerror = () => btn.classList.remove('playing'); }
+      if (btn) u.onend = u.onerror = () => btn.classList.remove('playing');
       speechSynthesis.speak(u);
-      if (!v && !speak._warned) { speak._warned = 1; toast('Cihazınızda Arapça ses yüklü değilse okuma yapılamayabilir'); }
-    } catch (e) {}
+      if (!eg && !deviceSpeak._warned) { deviceSpeak._warned = 1; toast(v ? 'Bu ifadenin Mısır lehçesi kaydı yok; cihazın standart Arapça sesi kullanılıyor' : 'Cihazınızda Arapça ses yüklü değil'); }
+    } catch (e) { if (btn) btn.classList.remove('playing'); }
+  }
+  function speak(text, btn) {
+    text = String(text || '').trim();
+    if (!text) return;
+    if (btn) btn.classList.add('playing');
+    const done = () => { if (btn) btn.classList.remove('playing'); };
+    const go = () => {
+      const k = audioKey(text);
+      if (audioIdx && audioIdx.has(k)) {
+        try { if (curAudio) curAudio.pause(); if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) {}
+        const a = curAudio = new Audio('audio/' + k + '.mp3');
+        let fell = false;
+        const fallback = () => { if (fell) return; fell = true; deviceSpeak(text, btn); };
+        a.onended = done;
+        a.onerror = fallback;
+        a.play().catch(fallback);
+      } else deviceSpeak(text, btn);
+    };
+    audioIdx ? go() : loadAudioIdx().then(go);
   }
   const playBtn = (ar, extra) => `<button class="icon-btn play${extra ? ' ' + extra : ''}" data-say="${esc(ar)}" title="Dinle" aria-label="Dinle">${ic('vol')}</button>`;
   const favBtn = e => `<button class="icon-btn${favs.has(e.id) ? ' on' : ''}" data-fav="${e.id}" title="Favorilere ekle" aria-label="Favori">${ic('star')}</button>`;

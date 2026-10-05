@@ -1,0 +1,41 @@
+# Mısır lehçesi seslendirme: data/ değiştiğinde (veya elle başlatıldığında) eksik sesleri ar-EG Salma sesiyle üretir
+# ve audio/ klasörüne işler. Yalnız yeni metinler seslendirilir.
+name: Mısır lehçesi seslendirme
+
+on:
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'data/**'
+      - 'tools/tts.py'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: tts
+  cancel-in-progress: false
+
+jobs:
+  tts:
+    runs-on: ubuntu-latest
+    timeout-minutes: 120
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: edge-tts kur
+        run: pip install edge-tts
+      - name: Sesleri üret
+        run: python tools/tts.py
+      - name: Sesleri depoya işle
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add audio
+          if git diff --cached --quiet; then echo "Yeni ses yok"; exit 0; fi
+          git commit -m "Mısır lehçesi sesleri güncellendi"
+          git pull --rebase origin main
+          git push origin HEAD:main
