@@ -1,0 +1,3848 @@
+{
+ "intro": "Kahire ağzıyla günlük konuşma rehberi: konu konu kalıplar, kelimeler, fiiller, pratik soruları ve mini diyaloglar. Her kalıpta Arapça, Franko, Türkçe okunuş ve anlam var; (e) = erkeğe / erkek konuşuyor, (k) = kadına / kadın konuşuyor.",
+ "topics": [
+  {
+   "id": "selamlasma-nezaket",
+   "title": "Selamlaşma ve Nezaket",
+   "emoji": "👋",
+   "summary": "İlk 10 saniyede güven kazandıran kalıplar",
+   "phrases": [
+    {
+     "ar": "أهلاً",
+     "fr": "ahlan",
+     "ok": "ahlan",
+     "tr": "Merhaba",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "أهلاً بيك",
+     "fr": "ahlan bik",
+     "ok": "ahlan bik",
+     "tr": "Hoş geldin (e)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "أهلاً بيكي",
+     "fr": "ahlan biki",
+     "ok": "ahlan biki",
+     "tr": "Hoş geldin (k)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "السلام عليكم",
+     "fr": "is-salaamu 3aleikum",
+     "ok": "is-salâmu ʿaleykum",
+     "tr": "Selamun aleyküm",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "وعليكم السلام",
+     "fr": "wa 3aleikum is-salaam",
+     "ok": "va ʿaleykum is-salâm",
+     "tr": "Aleyküm selam (cevap)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "صباح الخير",
+     "fr": "saba7 il-kheir",
+     "ok": "sabahh il-kheyr",
+     "tr": "Günaydın",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "صباح النور",
+     "fr": "saba7 in-noor",
+     "ok": "sabahh in-nûr",
+     "tr": "Günaydın (cevap)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "مساء الخير",
+     "fr": "masaa2 il-kheir",
+     "ok": "masâ’ il-kheyr",
+     "tr": "İyi akşamlar / iyi günler",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "مساء النور",
+     "fr": "masaa2 in-noor",
+     "ok": "masâ’ in-nûr",
+     "tr": "İyi akşamlar (cevap)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "إزيَّك؟",
+     "fr": "izzayyak?",
+     "ok": "izzayyak?",
+     "tr": "Nasılsın? (e)",
+     "fix": "Erkek/kadın biçimi ayırt edilsin diye hareke eklendi (إزيَّك)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "إزيِّك؟",
+     "fr": "izzayyik?",
+     "ok": "izzayyik?",
+     "tr": "Nasılsın? (k)",
+     "fix": "Kaynakta erkek biçimiyle aynı yazılmıştı; kesreli hareke eklendi (إزيِّك)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "عامل إيه؟",
+     "fr": "3aamil eih?",
+     "ok": "ʿâmil eyh?",
+     "tr": "Ne haber? (e)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "عاملة إيه؟",
+     "fr": "3aamla eih?",
+     "ok": "ʿâmla eyh?",
+     "tr": "Ne haber? (k)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "الحمد لله",
+     "fr": "il-7amdu lillaah",
+     "ok": "il-hhamdu lillâh",
+     "tr": "Şükür (iyiyim)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "تمام",
+     "fr": "tamaam",
+     "ok": "tamâm",
+     "tr": "Süper / tamam",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "مش وحش",
+     "fr": "mish wi7ish",
+     "ok": "miş vihhiş",
+     "tr": "Fena değil",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "وإنتَ؟",
+     "fr": "wi inta?",
+     "ok": "vi inta?",
+     "tr": "Ya sen? (e)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "وإنتِ؟",
+     "fr": "wi inti?",
+     "ok": "vi inti?",
+     "tr": "Ya sen? (k)",
+     "group": "Selamlaşma ve hal hatır"
+    },
+    {
+     "ar": "شكرًا",
+     "fr": "shukran",
+     "ok": "şukran",
+     "tr": "Teşekkürler",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "متشكر",
+     "fr": "mutashakkir",
+     "ok": "mutaşakkir",
+     "tr": "Teşekkür ederim (e)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "متشكرة",
+     "fr": "mutashakkira",
+     "ok": "mutaşakkira",
+     "tr": "Teşekkür ederim (k)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "ألف شكر",
+     "fr": "alf shukr",
+     "ok": "alf şukr",
+     "tr": "Çok teşekkürler",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "العفو",
+     "fr": "il-3afw",
+     "ok": "il-ʿafv",
+     "tr": "Rica ederim",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "لو سمحت",
+     "fr": "law sama7t",
+     "ok": "lav samahht",
+     "tr": "Lütfen / affedersiniz (e)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "لو سمحتي",
+     "fr": "law sama7ti",
+     "ok": "lav samahhti",
+     "tr": "Lütfen / affedersiniz (k)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "من فضلك",
+     "fr": "min fadlak",
+     "ok": "min fadlak",
+     "tr": "Lütfen (e)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "اتفضل",
+     "fr": "itfaddal",
+     "ok": "itfaddal",
+     "tr": "Buyurun (e)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "اتفضلي",
+     "fr": "itfaddali",
+     "ok": "itfaddali",
+     "tr": "Buyurun (k)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "آسف",
+     "fr": "aasif",
+     "ok": "âsif",
+     "tr": "Özür dilerim (e)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "آسفة",
+     "fr": "aasfa",
+     "ok": "âsfa",
+     "tr": "Özür dilerim (k)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "معلش",
+     "fr": "ma3lesh",
+     "ok": "maʿleş",
+     "tr": "Kusura bakma / boş ver / üzülme",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "عن إذنك",
+     "fr": "3an iznak",
+     "ok": "ʿan iznak",
+     "tr": "İzninle (geçerken)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "تسلم",
+     "fr": "tislam",
+     "ok": "tislam",
+     "tr": "Sağ ol (kısa)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "الله يسلمك",
+     "fr": "allaah yisallimak",
+     "ok": "allâh yisallimak",
+     "tr": "Sağ ol (cevap)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "ربنا يخليك",
+     "fr": "rabbina yikhalliik",
+     "ok": "rabbina yikhallîk",
+     "tr": "Allah seni korusun (teşekkür)",
+     "group": "Teşekkür, rica, özür"
+    },
+    {
+     "ar": "تشرفنا",
+     "fr": "tasharrafna",
+     "ok": "taşarrafna",
+     "tr": "Memnun oldum (tanışırken)",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "فرصة سعيدة",
+     "fr": "fursa sa3iida",
+     "ok": "fursa saʿîda",
+     "tr": "Tanıştığımıza memnun oldum",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "مع السلامة",
+     "fr": "ma3a is-salaama",
+     "ok": "maʿa is-salâma",
+     "tr": "Hoşça kal / güle güle",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "تصبح على خير",
+     "fr": "tusbi7 3ala kheir",
+     "ok": "tusbihh ʿala kheyr",
+     "tr": "İyi geceler (e)",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "وإنتَ من أهله",
+     "fr": "wi inta min ahlu",
+     "ok": "vi inta min ahlu",
+     "tr": "Sana da (iyi geceler cevabı)",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "بالهنا والشفا",
+     "fr": "bil-hana wish-shifa",
+     "ok": "bil-hana viş-şifa",
+     "tr": "Afiyet olsun",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "ألف مبروك",
+     "fr": "alf mabruk",
+     "ok": "alf mabruk",
+     "tr": "Tebrikler",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "كل سنة وإنتَ طيب",
+     "fr": "kull sana wi inta tayyib",
+     "ok": "kull sana vi inta tayyib",
+     "tr": "Bayramın / yeni yılın kutlu olsun",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "الحمد لله على السلامة",
+     "fr": "il-7amdu lillaah 3ala is-salaama",
+     "ok": "il-hhamdu lillâh ʿala is-salâma",
+     "tr": "Hoş geldin / geçmiş olsun (yolculuktan)",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "ألف سلامة",
+     "fr": "alf salaama",
+     "ok": "alf salâma",
+     "tr": "Geçmiş olsun (hastaya)",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "إن شاء الله",
+     "fr": "in shaa2 allaah",
+     "ok": "in şâ’ allâh",
+     "tr": "İnşallah",
+     "group": "Tanışma, vedalaşma, dilek"
+    },
+    {
+     "ar": "ما شاء الله",
+     "fr": "maa shaa2 allaah",
+     "ok": "mâ şâ’ allâh",
+     "tr": "Maşallah",
+     "group": "Tanışma, vedalaşma, dilek"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Mısırlılar selamlaşmaya ve hal hatır sormaya çok önem verir; bu kalıplar seni hemen sıcak karşılatır.",
+    "Her konuşmaya bir selam, her isteğe bir \"law sama7t\" ekle.",
+    "Karşındaki erkekse -ak / -a, kadınsa -ik / -i kullan: izzayyak (e), izzayyik (k).",
+    "Telaffuz: ق = hemze (’), ج = g, ث = t (bazen s), ذ = d (bazen z), ظ = z."
+   ],
+   "practice": [
+    {
+     "ar": "صباح الخير",
+     "fr": "saba7 il-kheir",
+     "ok": "sabahh il-kheyr",
+     "tr": "Günaydın."
+    },
+    {
+     "ar": "ألف شكر",
+     "fr": "alf shukr",
+     "ok": "alf şukr",
+     "tr": "Çok teşekkürler."
+    },
+    {
+     "ar": "إزيِّك؟",
+     "fr": "izzayyik?",
+     "ok": "izzayyik?",
+     "tr": "Nasılsın? (kadına)",
+     "fix": "Kaynakta erkek biçimiyle aynı yazılmıştı; kesreli hareke eklendi (إزيِّك)"
+    },
+    {
+     "ar": "لو سمحت",
+     "fr": "law sama7t",
+     "ok": "lav samahht",
+     "tr": "Affedersiniz / lütfen. (erkeğe)"
+    },
+    {
+     "ar": "فرصة سعيدة",
+     "fr": "fursa sa3iida",
+     "ok": "fursa saʿîda",
+     "tr": "Memnun oldum."
+    },
+    {
+     "ar": "بالهنا والشفا",
+     "fr": "bil-hana wish-shifa",
+     "ok": "bil-hana viş-şifa",
+     "tr": "Afiyet olsun."
+    }
+   ]
+  },
+  {
+   "id": "kendini-tanit-sohbet",
+   "title": "Kendini Tanıt ve Sohbet Başlat",
+   "emoji": "🙋",
+   "summary": "Tanışma, anlamadığında ne demeli, sohbeti sürdürmek",
+   "phrases": [
+    {
+     "ar": "اسمي علي",
+     "fr": "ismi 3ali",
+     "ok": "ismi ʿali",
+     "tr": "Adım Ali",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "اسمك إيه؟",
+     "fr": "ismak eih?",
+     "ok": "ismak eyh?",
+     "tr": "Adın ne? (e)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "اسمِك إيه؟",
+     "fr": "ismik eih?",
+     "ok": "ismik eyh?",
+     "tr": "Adın ne? (k)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "أنا من تركيا",
+     "fr": "ana min turkiya",
+     "ok": "ana min turkiya",
+     "tr": "Ben Türkiye'denim",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "إنتَ منين؟",
+     "fr": "inta minein?",
+     "ok": "inta mineyn?",
+     "tr": "Nerelisin? (e)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "أنا تركي / تركية",
+     "fr": "ana torki / torkiyya",
+     "ok": "ana torki / torkiyya",
+     "tr": "Ben Türküm (e / k)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "ساكن في إسطنبول",
+     "fr": "saakin fi istanbuul",
+     "ok": "sâkin fi istanbûl",
+     "tr": "İstanbul'da oturuyorum (e)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "ساكنة في أنقرة",
+     "fr": "saakna fi ankara",
+     "ok": "sâkna fi ankara",
+     "tr": "Ankara'da oturuyorum (k)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "عندي تلاتين سنة",
+     "fr": "3andi talaatiin sana",
+     "ok": "ʿandi talâtîn sana",
+     "tr": "Otuz yaşındayım",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "عندك كام سنة؟",
+     "fr": "3andak kaam sana?",
+     "ok": "ʿandak kâm sana?",
+     "tr": "Kaç yaşındasın? (e)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "بشتغل في شركة",
+     "fr": "bashtaghal fi shirka",
+     "ok": "baştağal fi şirka",
+     "tr": "Bir şirkette çalışıyorum",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "بتشتغل إيه؟",
+     "fr": "bitishtaghal eih?",
+     "ok": "bitiştağal eyh?",
+     "tr": "Ne iş yapıyorsun? (e)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "أنا طالب / طالبة",
+     "fr": "ana taaleb / taaleba",
+     "ok": "ana tâleb / tâleba",
+     "tr": "Öğrenciyim (e / k)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "أنا متجوز / متجوزة",
+     "fr": "ana mitgawwiz / mitgawwiza",
+     "ok": "ana mitgavviz / mitgavviza",
+     "tr": "Evliyim (e / k)",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "عندي ولد وبنت",
+     "fr": "3andi walad w bint",
+     "ok": "ʿandi valad v bint",
+     "tr": "Bir oğlum, bir kızım var",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "عندي أخ وأخت",
+     "fr": "3andi akh w okht",
+     "ok": "ʿandi akh v okht",
+     "tr": "Bir erkek bir kız kardeşim var",
+     "group": "Kendini tanıt"
+    },
+    {
+     "ar": "مش فاهم / فاهمة",
+     "fr": "mish faahim / fahma",
+     "ok": "miş fâhim / fahma",
+     "tr": "Anlamıyorum (e / k)",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "ممكن تعيد؟",
+     "fr": "mumkin ti3iid?",
+     "ok": "mumkin tiʿîd?",
+     "tr": "Tekrar eder misin?",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "ممكن تتكلم بالراحة؟",
+     "fr": "mumkin titkallim bir-raa7a?",
+     "ok": "mumkin titkallim bir-râhha?",
+     "tr": "Yavaş konuşur musun? (e)",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "يعني إيه ...؟",
+     "fr": "ya3ni eih ...?",
+     "ok": "yaʿni eyh ...?",
+     "tr": "... ne demek?",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "إيه ده بالعربي؟",
+     "fr": "eih da bil-3arabi?",
+     "ok": "eyh da bil-ʿarabi?",
+     "tr": "Bunun Arapçası ne?",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "إزاي أقول ... بالعربي؟",
+     "fr": "izzaay a2uul ... bil-3arabi?",
+     "ok": "izzây a’ûl ... bil-ʿarabi?",
+     "tr": "... Arapçada nasıl denir?",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "ممكن تكتبها؟",
+     "fr": "mumkin tiktibha?",
+     "ok": "mumkin tiktibha?",
+     "tr": "Yazar mısın?",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "بتتكلم إنجليزي؟",
+     "fr": "bititkallim ingiliizi?",
+     "ok": "bititkallim ingilîzi?",
+     "tr": "İngilizce konuşuyor musun? (e)",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "بتكلم عربي شوية",
+     "fr": "batkallim 3arabi shuwayya",
+     "ok": "batkallim ʿarabi şuvayya",
+     "tr": "Biraz Arapça konuşuyorum",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "لسه بتعلم",
+     "fr": "lissa bat3allim",
+     "ok": "lissa batʿallim",
+     "tr": "Hâlâ öğreniyorum",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "بتعلم مصري",
+     "fr": "bat3allim masri",
+     "ok": "batʿallim masri",
+     "tr": "Mısır Arapçası öğreniyorum",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "معرفش",
+     "fr": "ma3rafsh",
+     "ok": "maʿrafş",
+     "tr": "Bilmiyorum",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "ممكن رقمك؟",
+     "fr": "mumkin ra2amak?",
+     "ok": "mumkin ra’amak?",
+     "tr": "Numaranı alabilir miyim? (e)",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "ابعتلي على الواتس",
+     "fr": "ib3atli 3ala il-waats",
+     "ok": "ibʿatli ʿala il-vâts",
+     "tr": "WhatsApp'tan yaz / gönder",
+     "group": "Anlamadığında hayat kurtaran kalıplar"
+    },
+    {
+     "ar": "أول مرة آجي مصر",
+     "fr": "awwil marra aagi masr",
+     "ok": "avvil marra âgi masr",
+     "tr": "Mısır'a ilk gelişim",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "مصر حلوة أوي",
+     "fr": "masr 7ilwa awi",
+     "ok": "masr hhilva avi",
+     "tr": "Mısır çok güzel",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "بحب مصر",
+     "fr": "ba7ibb masr",
+     "ok": "bahhibb masr",
+     "tr": "Mısır'ı seviyorum",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "بحب الأكل المصري",
+     "fr": "ba7ibb il-akl il-masri",
+     "ok": "bahhibb il-akl il-masri",
+     "tr": "Mısır yemeklerini seviyorum",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "بحب الكورة",
+     "fr": "ba7ibb il-koora",
+     "ok": "bahhibb il-kûra",
+     "tr": "Futbolu seviyorum",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "بحب أسافر",
+     "fr": "ba7ibb asaafir",
+     "ok": "bahhibb asâfir",
+     "tr": "Seyahat etmeyi severim",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "بتحب إيه؟",
+     "fr": "bit7ibb eih?",
+     "ok": "bithhibb eyh?",
+     "tr": "Neyi seversin? (e)",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "إيه الأخبار؟",
+     "fr": "eih il-akhbaar?",
+     "ok": "eyh il-akhbâr?",
+     "tr": "Ne haber?",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "إيه الحكاية؟",
+     "fr": "eih il-7ikaaya?",
+     "ok": "eyh il-hhikâya?",
+     "tr": "Ne oluyor / ne var ne yok?",
+     "group": "Sohbeti sürdürmek"
+    },
+    {
+     "ar": "عامل إيه في الشغل؟",
+     "fr": "3aamil eih fish-shoghl?",
+     "ok": "ʿâmil eyh fiş-şoğl?",
+     "tr": "İş nasıl gidiyor? (e)",
+     "group": "Sohbeti sürdürmek"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Tanışmada ilk 5 soru hep aynıdır: adın ne, nerelisin, ne iş yapıyorsun, kaç yaşındasın, evli misin. Cevapları hazır tut.",
+    "Anlamadığında sessiz kalma: \"mumkin ti3iid?\" (tekrar eder misin?) en değerli cümlendir."
+   ],
+   "practice": [
+    {
+     "ar": "اسمي علي، أنا من تركيا",
+     "fr": "ismi 3ali, ana min turkiya",
+     "ok": "ismi ʿali, ana min turkiya",
+     "tr": "Adım Ali, Türkiye'denim."
+    },
+    {
+     "ar": "إيه ده بالعربي؟",
+     "fr": "eih da bil-3arabi?",
+     "ok": "eyh da bil-ʿarabi?",
+     "tr": "Bunun Arapçası ne?"
+    },
+    {
+     "ar": "بتعلم مصري",
+     "fr": "bat3allim masri",
+     "ok": "batʿallim masri",
+     "tr": "Mısır Arapçası öğreniyorum."
+    },
+    {
+     "ar": "مش فاهم",
+     "fr": "mish faahim",
+     "ok": "miş fâhim",
+     "tr": "Anlamıyorum. (erkek konuşuyor)"
+    },
+    {
+     "ar": "ممكن تعيد؟",
+     "fr": "mumkin ti3iid?",
+     "ok": "mumkin tiʿîd?",
+     "tr": "Tekrar eder misin?"
+    },
+    {
+     "ar": "بتتكلم إنجليزي؟",
+     "fr": "bititkallim ingiliizi?",
+     "ok": "bititkallim ingilîzi?",
+     "tr": "İngilizce konuşuyor musun? (erkeğe)"
+    }
+   ]
+  },
+  {
+   "id": "sayilar-para-saat-gunler",
+   "title": "Sayılar, Para, Saat ve Günler",
+   "emoji": "🔢",
+   "summary": "Pazarda, takside, randevuda en çok lazım olanlar",
+   "phrases": [
+    {
+     "ar": "واحد",
+     "fr": "wa7id",
+     "ok": "vahhid",
+     "tr": "1 (bir)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "اتنين",
+     "fr": "itneen",
+     "ok": "itnîn",
+     "tr": "2 (iki)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "تلاتة",
+     "fr": "talaata",
+     "ok": "talâta",
+     "tr": "3 (üç)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "أربعة",
+     "fr": "arba3a",
+     "ok": "arbaʿa",
+     "tr": "4 (dört)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "خمسة",
+     "fr": "khamsa",
+     "ok": "khamsa",
+     "tr": "5 (beş)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "ستة",
+     "fr": "sitta",
+     "ok": "sitta",
+     "tr": "6 (altı)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "سبعة",
+     "fr": "sab3a",
+     "ok": "sabʿa",
+     "tr": "7 (yedi)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "تمانية",
+     "fr": "tamanya",
+     "ok": "tamanya",
+     "tr": "8 (sekiz)",
+     "group": "Sayılar 1–8"
+    },
+    {
+     "ar": "تسعة",
+     "fr": "tis3a",
+     "ok": "tisʿa",
+     "tr": "9 (dokuz)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "عشرة",
+     "fr": "3ashara",
+     "ok": "ʿaşara",
+     "tr": "10 (on)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "حداشر",
+     "fr": "7idaashar",
+     "ok": "hhidâşar",
+     "tr": "11 (on bir)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "اتناشر",
+     "fr": "itnaashar",
+     "ok": "itnâşar",
+     "tr": "12 (on iki)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "تلتاشر",
+     "fr": "talattaashar",
+     "ok": "talattâşar",
+     "tr": "13 (on üç)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "أربعتاشر",
+     "fr": "arba3taashar",
+     "ok": "arbaʿtâşar",
+     "tr": "14 (on dört)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "خمستاشر",
+     "fr": "khamastaashar",
+     "ok": "khamastâşar",
+     "tr": "15 (on beş)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "ستاشر",
+     "fr": "sittaashar",
+     "ok": "sittâşar",
+     "tr": "16 (on altı)",
+     "group": "Sayılar 9–16"
+    },
+    {
+     "ar": "سبعتاشر",
+     "fr": "saba3taashar",
+     "ok": "sabaʿtâşar",
+     "tr": "17 (on yedi)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "تمنتاشر",
+     "fr": "tamantaashar",
+     "ok": "tamantâşar",
+     "tr": "18 (on sekiz)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "تسعتاشر",
+     "fr": "tisa3taashar",
+     "ok": "tisaʿtâşar",
+     "tr": "19 (on dokuz)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "عشرين",
+     "fr": "3ishriin",
+     "ok": "ʿişrîn",
+     "tr": "20 (yirmi)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "تلاتين",
+     "fr": "talaatiin",
+     "ok": "talâtîn",
+     "tr": "30 (otuz)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "أربعين",
+     "fr": "arba3iin",
+     "ok": "arbaʿîn",
+     "tr": "40 (kırk)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "خمسين",
+     "fr": "khamsiin",
+     "ok": "khamsîn",
+     "tr": "50 (elli)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "ستين",
+     "fr": "sittiin",
+     "ok": "sittîn",
+     "tr": "60 (altmış)",
+     "group": "Sayılar 17–19, onlar"
+    },
+    {
+     "ar": "سبعين",
+     "fr": "sab3iin",
+     "ok": "sabʿîn",
+     "tr": "70 (yetmiş)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "تمانين",
+     "fr": "tamaniin",
+     "ok": "tamanîn",
+     "tr": "80 (seksen)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "تسعين",
+     "fr": "tis3iin",
+     "ok": "tisʿîn",
+     "tr": "90 (doksan)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "مية",
+     "fr": "miyya",
+     "ok": "miyya",
+     "tr": "100 (yüz)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "ميتين",
+     "fr": "miteen",
+     "ok": "mitîn",
+     "tr": "200 (iki yüz)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "ألف",
+     "fr": "alf",
+     "ok": "alf",
+     "tr": "1000 (bin)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "ألفين",
+     "fr": "alfeen",
+     "ok": "alfîn",
+     "tr": "2000 (iki bin)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "صفر",
+     "fr": "sifr",
+     "ok": "sifr",
+     "tr": "0 (sıfır)",
+     "group": "70'ten sonrası ve sıfır"
+    },
+    {
+     "ar": "واحد وعشرين",
+     "fr": "wa7id w 3ishriin",
+     "ok": "vahhid v ʿişrîn",
+     "tr": "21 (birler önce, sonra onlar)",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "خمسة وعشرين جنيه",
+     "fr": "khamsa w 3ishriin ginee",
+     "ok": "khamsa v ʿişrîn ginî",
+     "tr": "25 lira",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "بكام؟",
+     "fr": "bikaam?",
+     "ok": "bikâm?",
+     "tr": "Kaç para?",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "بخمسين جنيه",
+     "fr": "bi-khamsiin ginee",
+     "ok": "bi-khamsîn ginî",
+     "tr": "Elli liraya",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "نص جنيه",
+     "fr": "nus ginee",
+     "ok": "nus ginî",
+     "tr": "Yarım lira",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "معاك فكة؟",
+     "fr": "ma3aak fakka?",
+     "ok": "maʿâk fakka?",
+     "tr": "Bozuk paran var mı? (e)",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "مية جنيه",
+     "fr": "miyya ginee",
+     "ok": "miyya ginî",
+     "tr": "Yüz lira",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "تلات تلاف",
+     "fr": "talat talaaf",
+     "ok": "talat talâf",
+     "tr": "Üç bin",
+     "group": "Sayılar ve para"
+    },
+    {
+     "ar": "الساعة كام؟",
+     "fr": "is-saa3a kaam?",
+     "ok": "is-sâʿa kâm?",
+     "tr": "Saat kaç?",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "الساعة واحدة",
+     "fr": "is-saa3a wa7da",
+     "ok": "is-sâʿa vahhda",
+     "tr": "Saat bir",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "الساعة تلاتة",
+     "fr": "is-saa3a talaata",
+     "ok": "is-sâʿa talâta",
+     "tr": "Saat üç",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "تلاتة ونص",
+     "fr": "talaata w nus",
+     "ok": "talâta v nus",
+     "tr": "Üç buçuk",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "ستة وربع",
+     "fr": "sitta w rub3",
+     "ok": "sitta v rubʿ",
+     "tr": "Altıyı çeyrek geçiyor (6:15)",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "سبعة إلا ربع",
+     "fr": "sab3a illa rub3",
+     "ok": "sabʿa illa rubʿ",
+     "tr": "Yediye çeyrek var (6:45)",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "خمسة وخمسة",
+     "fr": "khamsa w khamsa",
+     "ok": "khamsa v khamsa",
+     "tr": "Beşi beş geçiyor (5:05)",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "بعد ساعة",
+     "fr": "ba3d saa3a",
+     "ok": "baʿd sâʿa",
+     "tr": "Bir saat sonra",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "الصبح",
+     "fr": "is-sob7",
+     "ok": "is-sobhh",
+     "tr": "Sabah",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "الضهر",
+     "fr": "id-dohr",
+     "ok": "id-dohr",
+     "tr": "Öğle",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "العصر",
+     "fr": "il-3asr",
+     "ok": "il-ʿasr",
+     "tr": "İkindi / öğleden sonra",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "المغرب",
+     "fr": "il-maghrib",
+     "ok": "il-mağrib",
+     "tr": "Akşam (gün batımı)",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "بالليل",
+     "fr": "bil-leil",
+     "ok": "bil-leyl",
+     "tr": "Gece",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "الفجر",
+     "fr": "il-fagr",
+     "ok": "il-fagr",
+     "tr": "Şafak",
+     "group": "Saat ve gün bölümleri"
+    },
+    {
+     "ar": "السبت",
+     "fr": "es-sabt",
+     "ok": "es-sabt",
+     "tr": "Cumartesi",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "الحد",
+     "fr": "il-7add",
+     "ok": "il-hhadd",
+     "tr": "Pazar",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "الاتنين",
+     "fr": "il-itneen",
+     "ok": "il-itnîn",
+     "tr": "Pazartesi",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "التلات",
+     "fr": "it-talaat",
+     "ok": "it-talât",
+     "tr": "Salı",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "الأربع",
+     "fr": "il-arba3",
+     "ok": "il-arbaʿ",
+     "tr": "Çarşamba",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "الخميس",
+     "fr": "il-khamiis",
+     "ok": "il-khamîs",
+     "tr": "Perşembe",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "الجمعة",
+     "fr": "il-gum3a",
+     "ok": "il-gumʿa",
+     "tr": "Cuma",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "النهارده",
+     "fr": "en-nahaarda",
+     "ok": "en-nahârda",
+     "tr": "Bugün",
+     "group": "Haftanın günleri"
+    },
+    {
+     "ar": "بكرة",
+     "fr": "bukra",
+     "ok": "bukra",
+     "tr": "Yarın",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "امبارح",
+     "fr": "imbaare7",
+     "ok": "imbârehh",
+     "tr": "Dün",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "دلوقتي",
+     "fr": "dilwa2ti",
+     "ok": "dilva’ti",
+     "tr": "Şimdi",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "بعدين",
+     "fr": "ba3deen",
+     "ok": "baʿdîn",
+     "tr": "Sonra",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "الأسبوع ده",
+     "fr": "il-usbuu3 da",
+     "ok": "il-usbûʿ da",
+     "tr": "Bu hafta",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "الشهر ده",
+     "fr": "ish-shahr da",
+     "ok": "iş-şahr da",
+     "tr": "Bu ay",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "السنة دي",
+     "fr": "is-sana di",
+     "ok": "is-sana di",
+     "tr": "Bu yıl",
+     "group": "Zaman zarfları"
+    },
+    {
+     "ar": "كل يوم",
+     "fr": "kull yoom",
+     "ok": "kull yûm",
+     "tr": "Her gün",
+     "group": "Zaman zarfları"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Sayılar fiyat, saat, telefon ve yaş için konuşmanın omurgasıdır.",
+    "Para birimi جنيه (ginee, Mısır lirası). Fiyatta çoğu zaman sadece sayı söylenir: \"khamsa\" = beş lira.",
+    "21 gibi sayılarda önce birler, sonra onlar gelir: wa7id w 3ishriin."
+   ],
+   "practice": [
+    {
+     "ar": "الساعة كام؟",
+     "fr": "is-saa3a kaam?",
+     "ok": "is-sâʿa kâm?",
+     "tr": "Saat kaç?"
+    },
+    {
+     "ar": "خمسة وعشرين جنيه",
+     "fr": "khamsa w 3ishriin ginee",
+     "ok": "khamsa v ʿişrîn ginî",
+     "tr": "Yirmi beş lira."
+    },
+    {
+     "ar": "الساعة تلاتة ونص",
+     "fr": "is-saa3a talaata w nus",
+     "ok": "is-sâʿa talâta v nus",
+     "tr": "Saat üç buçuk."
+    },
+    {
+     "ar": "معاك فكة؟",
+     "fr": "ma3aak fakka?",
+     "ok": "maʿâk fakka?",
+     "tr": "Bozuk paran var mı? (erkeğe)"
+    },
+    {
+     "ar": "بكرة الجمعة",
+     "fr": "bukra il-gum3a",
+     "ok": "bukra il-gumʿa",
+     "tr": "Yarın Cuma."
+    },
+    {
+     "ar": "الساعة ستة وربع",
+     "fr": "is-saa3a sitta w rub3",
+     "ok": "is-sâʿa sitta v rubʿ",
+     "tr": "Saat altıyı çeyrek geçiyor."
+    }
+   ]
+  },
+  {
+   "id": "alisveris-pazarlik",
+   "title": "Alışveriş ve Pazarlık",
+   "emoji": "🛍️",
+   "summary": "Çarşı, market, pazar",
+   "phrases": [
+    {
+     "ar": "بكام ده؟",
+     "fr": "bikaam da?",
+     "ok": "bikâm da?",
+     "tr": "Bu kaç para?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "بكام الكيلو؟",
+     "fr": "bikaam il-keeloo?",
+     "ok": "bikâm il-kîlû?",
+     "tr": "Kilosu kaç?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "غالي أوي",
+     "fr": "ghaali awi",
+     "ok": "ğâli avi",
+     "tr": "Çok pahalı",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "رخيص",
+     "fr": "rakhiis",
+     "ok": "rakhîs",
+     "tr": "Ucuz",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "ينفع تنزل شوية؟",
+     "fr": "yinfa3 tinzil shuwayya?",
+     "ok": "yinfaʿ tinzil şuvayya?",
+     "tr": "Biraz indirir misin?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "آخر سعر إيه؟",
+     "fr": "aakhir si3r eih?",
+     "ok": "âkhir siʿr eyh?",
+     "tr": "Son fiyat ne?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "هاخد ده",
+     "fr": "hakhod da",
+     "ok": "hakhod da",
+     "tr": "Bunu alacağım",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "مش هاخد",
+     "fr": "mish hakhod",
+     "ok": "miş hakhod",
+     "tr": "Almayacağım",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "أنا بس بتفرج",
+     "fr": "ana bass batfarrag",
+     "ok": "ana bass batfarrag",
+     "tr": "Sadece bakıyorum",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "خلاص، شكرًا",
+     "fr": "khalaas, shukran",
+     "ok": "khalâs, şukran",
+     "tr": "Tamam, sağ ol (nazikçe geçiştirmek)",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "ممكن أجرب ده؟",
+     "fr": "mumkin agarrab da?",
+     "ok": "mumkin agarrab da?",
+     "tr": "Bunu deneyebilir miyim?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "فيه مقاس أكبر؟",
+     "fr": "fiih ma2aas akbar?",
+     "ok": "fîh ma’âs akbar?",
+     "tr": "Daha büyük beden var mı?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "فيه ألوان تانية؟",
+     "fr": "fiih alwaan tanya?",
+     "ok": "fîh alvân tanya?",
+     "tr": "Başka renk var mı?",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "ده عجبني",
+     "fr": "da 3agabni",
+     "ok": "da ʿagabni",
+     "tr": "Bunu beğendim",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "ده معجبنيش",
+     "fr": "da ma3gabniish",
+     "ok": "da maʿgabnîş",
+     "tr": "Bunu beğenmedim",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "عايز اتنين كيلو طماطم",
+     "fr": "3aayiz itneen keeloo tataatim",
+     "ok": "ʿâyiz itnîn kîlû tatâtim",
+     "tr": "2 kilo domates istiyorum (e)",
+     "group": "Pazarda ve dükkânda"
+    },
+    {
+     "ar": "كاش",
+     "fr": "kaash",
+     "ok": "kâş",
+     "tr": "Nakit",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "بتقبلوا فيزا؟",
+     "fr": "bti2balu viza?",
+     "ok": "bti’balu viza?",
+     "tr": "Kart kabul ediyor musunuz?",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "معاك فكة؟",
+     "fr": "ma3aak fakka?",
+     "ok": "maʿâk fakka?",
+     "tr": "Bozuk paran var mı? (e)",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "الباقي",
+     "fr": "il-baa2i",
+     "ok": "il-bâ’i",
+     "tr": "Para üstü",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "خلي الباقي",
+     "fr": "khalli il-baa2i",
+     "ok": "khalli il-bâ’i",
+     "tr": "Üstü kalsın",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "ممكن كيس؟",
+     "fr": "mumkin kees?",
+     "ok": "mumkin kîs?",
+     "tr": "Poşet alabilir miyim?",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "ممكن فاتورة؟",
+     "fr": "mumkin faatoora?",
+     "ok": "mumkin fâtûra?",
+     "tr": "Fatura / fiş alabilir miyim?",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "دقيقة لو سمحت",
+     "fr": "di2ii2a law sama7t",
+     "ok": "di’î’a lav samahht",
+     "tr": "Bir dakika lütfen",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "الحساب كام؟",
+     "fr": "il-7isaab kaam?",
+     "ok": "il-hhisâb kâm?",
+     "tr": "Toplam ne kadar?",
+     "group": "Ödeme"
+    },
+    {
+     "ar": "اتفضل الفلوس",
+     "fr": "itfaddal il-filoos",
+     "ok": "itfaddal il-filûs",
+     "tr": "Buyurun para (uzatırken)",
+     "group": "Ödeme"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Mısır'da pazarlık bir sohbettir, kavga değil: gülümse, \"ghaali!\" de, \"yinfa3 tinzil?\" diye sor.",
+    "Satıcı ısrar ederse nazikçe \"khalaas, shukran\" demek yeterli."
+   ],
+   "practice": [
+    {
+     "ar": "بكام ده؟",
+     "fr": "bikaam da?",
+     "ok": "bikâm da?",
+     "tr": "Bu kaç para?"
+    },
+    {
+     "ar": "ممكن أجرب ده؟",
+     "fr": "mumkin agarrab da?",
+     "ok": "mumkin agarrab da?",
+     "tr": "Bunu deneyebilir miyim?"
+    },
+    {
+     "ar": "غالي أوي!",
+     "fr": "ghaali awi!",
+     "ok": "ğâli avi!",
+     "tr": "Çok pahalı!"
+    },
+    {
+     "ar": "أنا بس بتفرج",
+     "fr": "ana bass batfarrag",
+     "ok": "ana bass batfarrag",
+     "tr": "Sadece bakıyorum."
+    },
+    {
+     "ar": "ينفع تنزل شوية؟",
+     "fr": "yinfa3 tinzil shuwayya?",
+     "ok": "yinfaʿ tinzil şuvayya?",
+     "tr": "Biraz indirir misin?"
+    },
+    {
+     "ar": "هاخد ده",
+     "fr": "hakhod da",
+     "ok": "hakhod da",
+     "tr": "Bunu alacağım."
+    }
+   ]
+  },
+  {
+   "id": "yemek-icmek-restoran",
+   "title": "Yemek, İçmek ve Restoran",
+   "emoji": "🍽️",
+   "summary": "Sipariş, tercih, hesap",
+   "phrases": [
+    {
+     "ar": "ممكن المنيو؟",
+     "fr": "mumkin il-menyuu?",
+     "ok": "mumkin il-menyû?",
+     "tr": "Menü alabilir miyim?",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "عايز أطلب",
+     "fr": "3aayiz atlub",
+     "ok": "ʿâyiz atlub",
+     "tr": "Sipariş vermek istiyorum (e)",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "إيه الأكلة المشهورة هنا؟",
+     "fr": "eih il-akla il-mashhuura hena?",
+     "ok": "eyh il-akla il-maşhûra hena?",
+     "tr": "Burada meşhur yemek ne?",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "واحد كشري لو سمحت",
+     "fr": "waa7id kushari law sama7t",
+     "ok": "vâhhid kuşari lav samahht",
+     "tr": "Bir koshari lütfen",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "من غير بصل",
+     "fr": "min gheir basal",
+     "ok": "min ğeyr basal",
+     "tr": "Soğansız",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "من غير سكر",
+     "fr": "min gheir sukkar",
+     "ok": "min ğeyr sukkar",
+     "tr": "Şekersiz",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "سكر خفيف / زيادة",
+     "fr": "sukkar khafiif / ziyaada",
+     "ok": "sukkar khafîf / ziyâda",
+     "tr": "Az şekerli / fazla şekerli",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "حار / مش حار",
+     "fr": "7aarr / mish 7aarr",
+     "ok": "hhârr / miş hhârr",
+     "tr": "Acı / acı değil",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "مية ساقعة",
+     "fr": "mayya sa2i3a",
+     "ok": "mayya sa’iʿa",
+     "tr": "Soğuk su",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "شاي بلبن",
+     "fr": "shaay bi-laban",
+     "ok": "şây bi-laban",
+     "tr": "Sütlü çay",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "قهوة تركي",
+     "fr": "2ahwa torki",
+     "ok": "’ahva torki",
+     "tr": "Türk kahvesi",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "قهوة سادة / مظبوط",
+     "fr": "2ahwa saada / mazbuut",
+     "ok": "’ahva sâda / mazbût",
+     "tr": "Şekersiz / orta şekerli kahve",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "الحساب لو سمحت",
+     "fr": "il-7isaab law sama7t",
+     "ok": "il-hhisâb lav samahht",
+     "tr": "Hesap lütfen",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "الأكل كان حلو أوي",
+     "fr": "il-akl kaan 7ilw awi",
+     "ok": "il-akl kân hhilv avi",
+     "tr": "Yemek çok güzeldi",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "تسلم إيدك",
+     "fr": "tislam iidak",
+     "ok": "tislam îdak",
+     "tr": "Elinize sağlık",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "أنا شبعان",
+     "fr": "ana shab3aan",
+     "ok": "ana şabʿân",
+     "tr": "Doydum / tokum (e)",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "أنا جعان / عطشان",
+     "fr": "ana ga3aan / 3atshaan",
+     "ok": "ana gaʿân / ʿatşân",
+     "tr": "Açım / susadım (e)",
+     "group": "Restoran ve kafede"
+    },
+    {
+     "ar": "عيش",
+     "fr": "3eish",
+     "ok": "ʿeyş",
+     "tr": "ekmek",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "مية",
+     "fr": "mayya",
+     "ok": "mayya",
+     "tr": "su",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "شاي",
+     "fr": "shaay",
+     "ok": "şây",
+     "tr": "çay",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "قهوة",
+     "fr": "2ahwa",
+     "ok": "’ahva",
+     "tr": "kahve",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "لبن",
+     "fr": "laban",
+     "ok": "laban",
+     "tr": "süt",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "عصير",
+     "fr": "3asiir",
+     "ok": "ʿasîr",
+     "tr": "meyve suyu",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "جبنة",
+     "fr": "gibna",
+     "ok": "gibna",
+     "tr": "peynir",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "بيض",
+     "fr": "beed",
+     "ok": "bîd",
+     "tr": "yumurta",
+     "group": "İçecek ve temel yiyecekler"
+    },
+    {
+     "ar": "فراخ",
+     "fr": "firaakh",
+     "ok": "firâkh",
+     "tr": "tavuk",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "لحمة",
+     "fr": "la7ma",
+     "ok": "lahhma",
+     "tr": "et",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "سمك",
+     "fr": "samak",
+     "ok": "samak",
+     "tr": "balık",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "رز",
+     "fr": "ruzz",
+     "ok": "ruzz",
+     "tr": "pilav",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "خضار",
+     "fr": "khudaar",
+     "ok": "khudâr",
+     "tr": "sebze",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "فاكهة",
+     "fr": "faakiha",
+     "ok": "fâkiha",
+     "tr": "meyve",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "سكر",
+     "fr": "sukkar",
+     "ok": "sukkar",
+     "tr": "şeker",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "ملح",
+     "fr": "mal7",
+     "ok": "malhh",
+     "tr": "tuz",
+     "fix": "ملح ح ile: mal7",
+     "group": "Et, sebze, temel yemek"
+    },
+    {
+     "ar": "كشري",
+     "fr": "kushari",
+     "ok": "kuşari",
+     "tr": "koshari",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "فول",
+     "fr": "ful",
+     "ok": "ful",
+     "tr": "bakla ezmesi",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "طعمية",
+     "fr": "ta3miyya",
+     "ok": "taʿmiyya",
+     "tr": "Mısır falafeli",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "ملوخية",
+     "fr": "molokheyya",
+     "ok": "molokheyya",
+     "tr": "molohiya çorbası",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "محشي",
+     "fr": "ma7shi",
+     "ok": "mahhşi",
+     "tr": "sarma / dolma",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "كباب",
+     "fr": "kabaab",
+     "ok": "kabâb",
+     "tr": "kebap",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "شاورما",
+     "fr": "shawerma",
+     "ok": "şaverma",
+     "tr": "şavurma",
+     "group": "Mısır mutfağından klasikler"
+    },
+    {
+     "ar": "حواوشي",
+     "fr": "7awaawshi",
+     "ok": "hhavâvşi",
+     "tr": "etli ekmek",
+     "group": "Mısır mutfağından klasikler"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "\"min gheir ...\" (...siz) kalıbı özel istekler için altın anahtardır: min gheir ba9al (soğansız), min gheir sukkar (şekersiz).",
+    "Yemekten sonra aşçıya / ev sahibine \"tislam iidak\" (elinize sağlık) de."
+   ],
+   "practice": [
+    {
+     "ar": "ممكن المنيو؟",
+     "fr": "mumkin il-menyuu?",
+     "ok": "mumkin il-menyû?",
+     "tr": "Menüyü alabilir miyim?"
+    },
+    {
+     "ar": "الحساب لو سمحت",
+     "fr": "il-7isaab law sama7t",
+     "ok": "il-hhisâb lav samahht",
+     "tr": "Hesap lütfen."
+    },
+    {
+     "ar": "شاي من غير سكر لو سمحت",
+     "fr": "shaay min gheir sukkar law sama7t",
+     "ok": "şây min ğeyr sukkar lav samahht",
+     "tr": "Şekersiz çay lütfen."
+    },
+    {
+     "ar": "تسلم إيدك",
+     "fr": "tislam iidak",
+     "ok": "tislam îdak",
+     "tr": "Elinize sağlık."
+    },
+    {
+     "ar": "كشري من غير بصل",
+     "fr": "kushari min gheir basal",
+     "ok": "kuşari min ğeyr basal",
+     "tr": "Soğansız bir koshari."
+    },
+    {
+     "ar": "أنا عطشان",
+     "fr": "ana 3atshaan",
+     "ok": "ana ʿatşân",
+     "tr": "Ben susadım. (erkek konuşuyor)"
+    }
+   ]
+  },
+  {
+   "id": "yol-sorma-ulasim",
+   "title": "Yol Sorma ve Ulaşım",
+   "emoji": "🚕",
+   "summary": "Taksi, metro, adres tarifi",
+   "phrases": [
+    {
+     "ar": "فين ...؟",
+     "fr": "feen ...?",
+     "ok": "fîn ...?",
+     "tr": "... nerede?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "فين الحمام؟",
+     "fr": "feen il-7ammaam?",
+     "ok": "fîn il-hhammâm?",
+     "tr": "Tuvalet nerede?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "فين محطة المترو؟",
+     "fr": "feen ma7attit il-metro?",
+     "ok": "fîn mahhattit il-metro?",
+     "tr": "Metro istasyonu nerede?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "فين أقرب صيدلية؟",
+     "fr": "feen a2rab saydaliyya?",
+     "ok": "fîn a’rab saydaliyya?",
+     "tr": "En yakın eczane nerede?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "أروح ... إزاي؟",
+     "fr": "aruu7 ... izzaay?",
+     "ok": "arûhh ... izzây?",
+     "tr": "... nasıl giderim?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "يمين",
+     "fr": "yimiin",
+     "ok": "yimîn",
+     "tr": "Sağ",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "شمال",
+     "fr": "shimaal",
+     "ok": "şimâl",
+     "tr": "Sol",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "على طول",
+     "fr": "3ala tuul",
+     "ok": "ʿala tûl",
+     "tr": "Dümdüz",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "لف يمين",
+     "fr": "liff yimiin",
+     "ok": "liff yimîn",
+     "tr": "Sağa dön",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "لف شمال",
+     "fr": "liff shimaal",
+     "ok": "liff şimâl",
+     "tr": "Sola dön",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "قدام / ورا",
+     "fr": "2uddaam / wara",
+     "ok": "’uddâm / vara",
+     "tr": "Ön / arka",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "جنب",
+     "fr": "ganb",
+     "ok": "ganb",
+     "tr": "Yanında",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "في آخر الشارع",
+     "fr": "fi aakhir ish-shaari3",
+     "ok": "fi âkhir iş-şâriʿ",
+     "tr": "Caddenin sonunda",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "قريب / بعيد",
+     "fr": "2areeb / ba3iid",
+     "ok": "’arîb / baʿîd",
+     "tr": "Yakın / uzak",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "أنا تايه",
+     "fr": "ana taayih",
+     "ok": "ana tâyih",
+     "tr": "Kayboldum (e)",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "ممكن تساعدني؟",
+     "fr": "mumkin tisaa3idni?",
+     "ok": "mumkin tisâʿidni?",
+     "tr": "Bana yardım eder misin?",
+     "group": "Yol sorma ve tarif"
+    },
+    {
+     "ar": "تاكسي!",
+     "fr": "taksi!",
+     "ok": "taksi!",
+     "tr": "Taksi!",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "ممكن تشغل العداد؟",
+     "fr": "mumkin tishaghghal il-3addaad?",
+     "ok": "mumkin tişağğal il-ʿaddâd?",
+     "tr": "Taksimetreyi açar mısın?",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "المشوار ده بكام؟",
+     "fr": "il-mishwaar da bikaam?",
+     "ok": "il-mişvâr da bikâm?",
+     "tr": "Bu yol kaç para?",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "عايز أروح المطار",
+     "fr": "3aayiz aruu7 il-mataar",
+     "ok": "ʿâyiz arûhh il-matâr",
+     "tr": "Havalimanına gitmek istiyorum (e)",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "وقف هنا لو سمحت",
+     "fr": "wa22af hena law sama7t",
+     "ok": "va’’af hena lav samahht",
+     "tr": "Burada dur lütfen",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "على جنب",
+     "fr": "3ala ganb",
+     "ok": "ʿala ganb",
+     "tr": "Kenara (çek / dur)",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "أنا نازل هنا",
+     "fr": "ana naazil hena",
+     "ok": "ana nâzil hena",
+     "tr": "Ben burada iniyorum",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "ده بيروح ...؟",
+     "fr": "da biyruu7 ...?",
+     "ok": "da biyrûhh ...?",
+     "tr": "Bu ... gidiyor mu?",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "هنوصل بعد قد إيه؟",
+     "fr": "hanuusal ba3d 2add eih?",
+     "ok": "hanûsal baʿd ’add eyh?",
+     "tr": "Ne kadar sürede varırız?",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "بكام التذكرة؟",
+     "fr": "bikaam it-tazkara?",
+     "ok": "bikâm it-tazkara?",
+     "tr": "Bilet kaç para?",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "مستعجل",
+     "fr": "musta3gil",
+     "ok": "mustaʿgil",
+     "tr": "Acelem var (e)",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "بالراحة",
+     "fr": "bir-raa7a",
+     "ok": "bir-râhha",
+     "tr": "Yavaş / sakin",
+     "group": "Taksi, metro, otobüs"
+    },
+    {
+     "ar": "البيت",
+     "fr": "il-beit",
+     "ok": "il-beyt",
+     "tr": "ev",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "الشغل",
+     "fr": "ish-shoghl",
+     "ok": "iş-şoğl",
+     "tr": "iş",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "المدرسة",
+     "fr": "il-madrasa",
+     "ok": "il-madrasa",
+     "tr": "okul",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "الجامعة",
+     "fr": "il-gaam3a",
+     "ok": "il-gâmʿa",
+     "tr": "üniversite",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "المستشفى",
+     "fr": "il-mustashfa",
+     "ok": "il-mustaşfa",
+     "tr": "hastane",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "الصيدلية",
+     "fr": "il-saydaliyya",
+     "ok": "is-saydaliyya",
+     "tr": "eczane",
+     "fix": "Güneş harfi: il- değil is-saydaliyya",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "البنك",
+     "fr": "il-bank",
+     "ok": "il-bank",
+     "tr": "banka",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "المطعم",
+     "fr": "il-mat3am",
+     "ok": "il-matʿam",
+     "tr": "restoran",
+     "group": "Önemli yerler"
+    },
+    {
+     "ar": "السوق",
+     "fr": "is-suu2",
+     "ok": "is-sû’",
+     "tr": "çarşı / pazar",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "المحل",
+     "fr": "il-ma7all",
+     "ok": "il-mahhall",
+     "tr": "dükkân",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "الفندق",
+     "fr": "il-fundu2",
+     "ok": "il-fundu’",
+     "tr": "otel",
+     "fix": "Mısır ağzında ق hemze okunur: il-fundu2",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "المطار",
+     "fr": "il-mataar",
+     "ok": "il-matâr",
+     "tr": "havalimanı",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "المحطة",
+     "fr": "il-ma7atta",
+     "ok": "il-mahhatta",
+     "tr": "istasyon",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "الشارع",
+     "fr": "ish-shaari3",
+     "ok": "iş-şâriʿ",
+     "tr": "cadde / sokak",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "الميدان",
+     "fr": "il-meedaan",
+     "ok": "il-mîdân",
+     "tr": "meydan",
+     "group": "Yerler (devam)"
+    },
+    {
+     "ar": "الجامع",
+     "fr": "il-gaami3",
+     "ok": "il-gâmiʿ",
+     "tr": "cami",
+     "group": "Yerler (devam)"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Kahire'de yön tarifi genelde işaret parmağı + üç kelimeyle gelir: 3ala tuul (dümdüz), yimiin (sağ), shimaal (sol).",
+    "Takside en önemli cümle \"il-mishwaar da bikaam?\" (yol kaç para?); binmeden önce sor."
+   ],
+   "practice": [
+    {
+     "ar": "فين محطة المترو؟",
+     "fr": "feen ma7attit il-metro?",
+     "ok": "fîn mahhattit il-metro?",
+     "tr": "Metro istasyonu nerede?"
+    },
+    {
+     "ar": "وقف هنا لو سمحت",
+     "fr": "wa22af hena law sama7t",
+     "ok": "va’’af hena lav samahht",
+     "tr": "Burada dur lütfen."
+    },
+    {
+     "ar": "لف يمين",
+     "fr": "liff yimiin",
+     "ok": "liff yimîn",
+     "tr": "Sağa dön."
+    },
+    {
+     "ar": "أنا تايه",
+     "fr": "ana taayih",
+     "ok": "ana tâyih",
+     "tr": "Kayboldum. (erkek konuşuyor)"
+    },
+    {
+     "ar": "امشي على طول",
+     "fr": "imshi 3ala tuul",
+     "ok": "imşi ʿala tûl",
+     "tr": "Dümdüz git."
+    },
+    {
+     "ar": "المطار بعيد؟",
+     "fr": "il-mataar ba3iid?",
+     "ok": "il-matâr baʿîd?",
+     "tr": "Havalimanı uzak mı?"
+    }
+   ]
+  },
+  {
+   "id": "saglik-acil-durum",
+   "title": "Sağlık ve Acil Durum",
+   "emoji": "🚑",
+   "summary": "Doktor, eczane, yardım isteme",
+   "phrases": [
+    {
+     "ar": "أنا تعبان",
+     "fr": "ana ta3baan",
+     "ok": "ana taʿbân",
+     "tr": "Kendimi iyi hissetmiyorum / yorgunum (e)",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "عندي صداع",
+     "fr": "3andi suda3",
+     "ok": "ʿandi sudaʿ",
+     "tr": "Başım ağrıyor",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "بطني بتوجعني",
+     "fr": "batni bitewga3ni",
+     "ok": "batni bitevgaʿni",
+     "tr": "Karnım ağrıyor",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "ضهري بيوجعني",
+     "fr": "dahri biyewga3ni",
+     "ok": "dahri biyevgaʿni",
+     "tr": "Belim / sırtım ağrıyor",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "عندي برد",
+     "fr": "3andi bard",
+     "ok": "ʿandi bard",
+     "tr": "Soğuk algınlığım var",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "عندي حرارة",
+     "fr": "3andi 7araara",
+     "ok": "ʿandi hharâra",
+     "tr": "Ateşim var",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "عندي حساسية",
+     "fr": "3andi 7asaasiyya",
+     "ok": "ʿandi hhasâsiyya",
+     "tr": "Alerjim var",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "ده بيوجع",
+     "fr": "da biyewga3",
+     "ok": "da biyevgaʿ",
+     "tr": "Burası ağrıyor",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "محتاج دكتور",
+     "fr": "ma7taag doktoor",
+     "ok": "mahhtâg doktûr",
+     "tr": "Doktora ihtiyacım var (e)",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "عايز حاجة للصداع",
+     "fr": "3aayiz 7aaga lis-suda3",
+     "ok": "ʿâyiz hhâga lis-sudaʿ",
+     "tr": "Baş ağrısına bir şey istiyorum (e)",
+     "fix": "Güneş harfi: lil- değil lis-suda3",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "من إمتى؟",
+     "fr": "min imta?",
+     "ok": "min imta?",
+     "tr": "Ne zamandan beri?",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "من امبارح",
+     "fr": "min imbaare7",
+     "ok": "min imbârehh",
+     "tr": "Dünden beri",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "خد الدوا ده مرتين في اليوم",
+     "fr": "khud id-dawa da marreteen fil-yoom",
+     "ok": "khud id-dava da marretîn fil-yûm",
+     "tr": "Bu ilacı günde iki kez al",
+     "group": "Kendini iyi hissetmediğinde"
+    },
+    {
+     "ar": "ساعدوني!",
+     "fr": "saa3iduuni!",
+     "ok": "sâʿidûni!",
+     "tr": "Yardım edin!",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "اتصل بالإسعاف!",
+     "fr": "ittasil bil-is3aaf!",
+     "ok": "ittasil bil-isʿâf!",
+     "tr": "Ambulans çağır!",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "اتصل بالبوليس!",
+     "fr": "ittasil bil-bolees!",
+     "ok": "ittasil bil-bolîs!",
+     "tr": "Polisi ara!",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "حرامي!",
+     "fr": "7araami!",
+     "ok": "hharâmi!",
+     "tr": "Hırsız!",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "ضاع مني الموبايل",
+     "fr": "daa3 minni il-mobayl",
+     "ok": "dâʿ minni il-mobayl",
+     "tr": "Telefonumu kaybettim",
+     "fix": "ضاع uzun ünlü: daa3",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "اتسرقت مني الشنطة",
+     "fr": "itsara2it minni ish-shanta",
+     "ok": "itsara’it minni iş-şanta",
+     "tr": "Çantam çalındı",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "فيه حريقة!",
+     "fr": "fiih 7ari2a!",
+     "ok": "fîh hhari’a!",
+     "tr": "Yangın var!",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "أنا محتاج مساعدة",
+     "fr": "ana ma7taag musa3da",
+     "ok": "ana mahhtâg musaʿda",
+     "tr": "Yardıma ihtiyacım var (e)",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "فين المستشفى؟",
+     "fr": "feen il-mustashfa?",
+     "ok": "fîn il-mustaşfa?",
+     "tr": "Hastane nerede?",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "ده مهم",
+     "fr": "da muhimm",
+     "ok": "da muhimm",
+     "tr": "Bu önemli",
+     "group": "Acil durum"
+    },
+    {
+     "ar": "راس",
+     "fr": "raas",
+     "ok": "râs",
+     "tr": "baş",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "عين",
+     "fr": "3een",
+     "ok": "ʿîn",
+     "tr": "göz",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "ودن",
+     "fr": "widn",
+     "ok": "vidn",
+     "tr": "kulak",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "بؤ",
+     "fr": "bo2",
+     "ok": "bo’",
+     "tr": "ağız",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "سنان",
+     "fr": "sinaan",
+     "ok": "sinân",
+     "tr": "diş",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "إيد",
+     "fr": "iid",
+     "ok": "îd",
+     "tr": "el / kol",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "رجل",
+     "fr": "rigl",
+     "ok": "rigl",
+     "tr": "bacak / ayak",
+     "group": "Vücut bölümleri"
+    },
+    {
+     "ar": "بطن",
+     "fr": "batn",
+     "ok": "batn",
+     "tr": "karın",
+     "group": "Vücut bölümleri"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Eczaneler Mısır'da çok yaygındır; hafif şikâyetlerde önce eczacıya danışabilirsin.",
+    "Acil durumda en kısa ve güçlü kelime: ساعدوني (saa3iduuni!) — Yardım edin!"
+   ],
+   "practice": [
+    {
+     "ar": "عندي صداع",
+     "fr": "3andi suda3",
+     "ok": "ʿandi sudaʿ",
+     "tr": "Başım ağrıyor."
+    },
+    {
+     "ar": "ساعدوني!",
+     "fr": "saa3iduuni!",
+     "ok": "sâʿidûni!",
+     "tr": "Yardım edin!"
+    },
+    {
+     "ar": "محتاج دكتور",
+     "fr": "ma7taag doktoor",
+     "ok": "mahhtâg doktûr",
+     "tr": "Doktora ihtiyacım var. (erkek)"
+    },
+    {
+     "ar": "ضاع مني الموبايل",
+     "fr": "daa3 minni il-mobayl",
+     "ok": "dâʿ minni il-mobayl",
+     "tr": "Telefonumu kaybettim.",
+     "fix": "ضاع uzun ünlü: daa3"
+    },
+    {
+     "ar": "بطني بتوجعني",
+     "fr": "batni bitewga3ni",
+     "ok": "batni bitevgaʿni",
+     "tr": "Karnım ağrıyor."
+    },
+    {
+     "ar": "اتصل بالإسعاف!",
+     "fr": "ittasil bil-is3aaf!",
+     "ok": "ittasil bil-isʿâf!",
+     "tr": "Ambulans çağır!"
+    }
+   ]
+  },
+  {
+   "id": "duygular-tepkiler",
+   "title": "Duygular, Tepkiler ve Küçük Kelimeler",
+   "emoji": "😊",
+   "summary": "Sohbeti canlı tutan küçük ama vazgeçilmez kelimeler",
+   "phrases": [
+    {
+     "ar": "مبسوط",
+     "fr": "mabsoot",
+     "ok": "mabsût",
+     "tr": "mutlu",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "زعلان",
+     "fr": "za3laan",
+     "ok": "zaʿlân",
+     "tr": "üzgün / kırgın",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "تعبان",
+     "fr": "ta3baan",
+     "ok": "taʿbân",
+     "tr": "yorgun",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "زهقان",
+     "fr": "zah2aan",
+     "ok": "zah’ân",
+     "tr": "canı sıkkın",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "خايف",
+     "fr": "khaayif",
+     "ok": "khâyif",
+     "tr": "korkuyor",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "نعسان",
+     "fr": "na3saan",
+     "ok": "naʿsân",
+     "tr": "uykulu",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "فاضي",
+     "fr": "faadi",
+     "ok": "fâdi",
+     "tr": "boş / müsait",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "مشغول",
+     "fr": "mashghool",
+     "ok": "maşğûl",
+     "tr": "meşgul",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "مستعجل",
+     "fr": "musta3gil",
+     "ok": "mustaʿgil",
+     "tr": "aceleci / acelesi var",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "متأكد",
+     "fr": "mit2akkid",
+     "ok": "mit’akkid",
+     "tr": "emin",
+     "group": "Nasıl hissediyorsun? (erkek biçimi; kadın için sona -a ekle: mabsoota)"
+    },
+    {
+     "ar": "أيوه / لأ",
+     "fr": "aywa / laa",
+     "ok": "ayva / lâ",
+     "tr": "Evet / hayır",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "طبعًا",
+     "fr": "tab3an",
+     "ok": "tabʿan",
+     "tr": "Tabii ki",
+     "fix": "Kaynakta \"ta6ban / tatban\" (ع eksik); طبعًا = tab3an",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "أكيد",
+     "fr": "akiid",
+     "ok": "akîd",
+     "tr": "Kesinlikle",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "ماشي",
+     "fr": "maashi",
+     "ok": "mâşi",
+     "tr": "Tamam / olur",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "خلاص",
+     "fr": "khalaas",
+     "ok": "khalâs",
+     "tr": "Tamam / bitti / yeter",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "يلا",
+     "fr": "yalla",
+     "ok": "yalla",
+     "tr": "Hadi",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "عادي",
+     "fr": "3aadi",
+     "ok": "ʿâdi",
+     "tr": "Sorun değil / normal",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "بجد؟",
+     "fr": "bi-gadd?",
+     "ok": "bi-gadd?",
+     "tr": "Gerçekten mi?",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "يا سلام!",
+     "fr": "yaa salaam!",
+     "ok": "yâ salâm!",
+     "tr": "Vay be! / harika!",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "ولا يهمك",
+     "fr": "wala yihimmak",
+     "ok": "vala yihimmak",
+     "tr": "Dert etme",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "عندك حق",
+     "fr": "3andak 7a22",
+     "ok": "ʿandak hha’’",
+     "tr": "Haklısın",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "أنا موافق",
+     "fr": "ana muwaafi2",
+     "ok": "ana muvâfi’",
+     "tr": "Katılıyorum",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "مش عارف",
+     "fr": "mish 3aarif",
+     "ok": "miş ʿârif",
+     "tr": "Bilmiyorum / emin değilim",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "حاضر",
+     "fr": "7aadir",
+     "ok": "hhâdir",
+     "tr": "Tamam / emredersiniz",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "صح / غلط",
+     "fr": "sa77 / ghalat",
+     "ok": "sahh / ğalat",
+     "tr": "Doğru / yanlış",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "جامد",
+     "fr": "gaamid",
+     "ok": "gâmid",
+     "tr": "Harika / süper (günlük argo)",
+     "group": "Günlük tepkiler (sohbeti akıcı yapan kelimeler)"
+    },
+    {
+     "ar": "أوي",
+     "fr": "awi",
+     "ok": "avi",
+     "tr": "çok",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "شوية",
+     "fr": "shuwayya",
+     "ok": "şuvayya",
+     "tr": "biraz",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "كتير",
+     "fr": "kiteer",
+     "ok": "kitîr",
+     "tr": "çok / bir sürü",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "قليل",
+     "fr": "2aliil",
+     "ok": "’alîl",
+     "tr": "az",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "كله",
+     "fr": "kullu",
+     "ok": "kullu",
+     "tr": "hepsi",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "كفاية",
+     "fr": "kifaaya",
+     "ok": "kifâya",
+     "tr": "yeter",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "زيادة",
+     "fr": "ziyaada",
+     "ok": "ziyâda",
+     "tr": "fazla",
+     "group": "Miktar ve derece"
+    },
+    {
+     "ar": "خالص",
+     "fr": "khaalis",
+     "ok": "khâlis",
+     "tr": "hiç / tamamen",
+     "group": "Miktar ve derece"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Gerçek konuşma küçük tepkilerle akar: maashi, khalaas, tab3an, yalla, 3aadi.",
+    "\"awi\" (çok) kelimesini sıfatın sonuna ekle: 7ilw awi, ta3baan awi.",
+    "Duygu sıfatlarının kadın biçimi için sona -a ekle: mabsoot → mabsoota."
+   ],
+   "practice": [
+    {
+     "ar": "أنا تعبان",
+     "fr": "ana ta3baan",
+     "ok": "ana taʿbân",
+     "tr": "Yorgunum. (erkek konuşuyor)"
+    },
+    {
+     "ar": "عادي",
+     "fr": "3aadi",
+     "ok": "ʿâdi",
+     "tr": "Sorun değil."
+    },
+    {
+     "ar": "عندك حق",
+     "fr": "3andak 7a22",
+     "ok": "ʿandak hha’’",
+     "tr": "Haklısın. (erkeğe)"
+    },
+    {
+     "ar": "حلو أوي!",
+     "fr": "7ilw awi!",
+     "ok": "hhilv avi!",
+     "tr": "Çok güzel!"
+    },
+    {
+     "ar": "طبعًا",
+     "fr": "tab3an",
+     "ok": "tabʿan",
+     "tr": "Tabii ki.",
+     "fix": "Kaynakta \"ta6ban / tatban\" (ع eksik); طبعًا = tab3an"
+    },
+    {
+     "ar": "مش متأكد",
+     "fr": "mish mit2akkid",
+     "ok": "miş mit’akkid",
+     "tr": "Emin değilim. (erkek)"
+    }
+   ]
+  },
+  {
+   "id": "fiiller-emirler",
+   "title": "En Çok Kullanılan Fiiller ve Emirler",
+   "emoji": "🏃",
+   "summary": "Konuşmanın motoru",
+   "phrases": [
+    {
+     "ar": "قال / بقول",
+     "fr": "2aal / ba2uul",
+     "ok": "’âl / ba’ûl",
+     "tr": "söylemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "سأل / بسأل",
+     "fr": "sa2al / bas2al",
+     "ok": "sa’al / bas’al",
+     "tr": "sormak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "رد / برد",
+     "fr": "radd / barudd",
+     "ok": "radd / barudd",
+     "tr": "cevap vermek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "استنى / بستنى",
+     "fr": "istanna / bastanna",
+     "ok": "istanna / bastanna",
+     "tr": "beklemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "مشي / بمشي",
+     "fr": "mishi / bamshi",
+     "ok": "mişi / bamşi",
+     "tr": "yürümek / gitmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "جاب / بجيب",
+     "fr": "gaab / bagiib",
+     "ok": "gâb / bagîb",
+     "tr": "getirmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "ساعد / بساعد",
+     "fr": "saa3id / basaa3id",
+     "ok": "sâʿid / basâʿid",
+     "tr": "yardım etmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "دفع / بدفع",
+     "fr": "dafa3 / badfa3",
+     "ok": "dafaʿ / badfaʿ",
+     "tr": "ödemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "لبس / بلبس",
+     "fr": "libis / balbis",
+     "ok": "libis / balbis",
+     "tr": "giymek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "غسل / بغسل",
+     "fr": "ghasal / baghsil",
+     "ok": "ğasal / bağsil",
+     "tr": "yıkamak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "ركب / بركب",
+     "fr": "rikib / barkab",
+     "ok": "rikib / barkab",
+     "tr": "binmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "نزل / بنزل",
+     "fr": "nizil / banzil",
+     "ok": "nizil / banzil",
+     "tr": "inmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "سوق / بسوق",
+     "fr": "saa2 / basuu2",
+     "ok": "sâ’ / basû’",
+     "tr": "araba kullanmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "رجع / برجع",
+     "fr": "rigi3 / bargu3",
+     "ok": "rigiʿ / barguʿ",
+     "tr": "geri dönmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتعلم / بتعلم",
+     "fr": "it3allim / bat3allim",
+     "ok": "itʿallim / batʿallim",
+     "tr": "öğrenmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "قرا / بقرا",
+     "fr": "2ara / ba2ra",
+     "ok": "’ara / ba’ra",
+     "tr": "okumak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتكلم / بتكلم",
+     "fr": "itkallim / batkallim",
+     "ok": "itkallim / batkallim",
+     "tr": "konuşmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "فكر / بفكر",
+     "fr": "fakkar / bafakkar",
+     "ok": "fakkar / bafakkar",
+     "tr": "düşünmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "لاقى / بلاقي",
+     "fr": "laa2a / bala2i",
+     "ok": "lâ’a / bala’i",
+     "tr": "bulmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "دور / بدور",
+     "fr": "dawwar / badawwar",
+     "ok": "davvar / badavvar",
+     "tr": "aramak (bir şeyi)",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "أخد / باخد",
+     "fr": "akhad / baakhud",
+     "ok": "akhad / bâkhud",
+     "tr": "almak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "بعت / ببعت",
+     "fr": "ba3at / bab3at",
+     "ok": "baʿat / babʿat",
+     "tr": "göndermek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "ضحك / بضحك",
+     "fr": "di7ik / bad7ak",
+     "ok": "dihhik / badhhak",
+     "tr": "gülmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "غنى / بغني",
+     "fr": "ghanna / baghanni",
+     "ok": "ğanna / bağanni",
+     "tr": "şarkı söylemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "عام / بعوم",
+     "fr": "3aam / ba3uum",
+     "ok": "ʿâm / baʿûm",
+     "tr": "yüzmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "مسك / بمسك",
+     "fr": "misik / bamsik",
+     "ok": "misik / bamsik",
+     "tr": "tutmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "سكت / بسكت",
+     "fr": "sakat / baskut",
+     "ok": "sakat / baskut",
+     "tr": "susmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "حاول / بحاول",
+     "fr": "7aawil / ba7aawil",
+     "ok": "hhâvil / bahhâvil",
+     "tr": "çabalamak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتصل / بتصل",
+     "fr": "ittasal / battisil",
+     "ok": "ittasal / battisil",
+     "tr": "telefon etmek",
+     "fix": "Kaynakta \"ita9al / bat9il\"; Mısır çekimi ittasal / battisil",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتقابل / بتقابل",
+     "fr": "it2aabil / bat2aabil",
+     "ok": "it’âbil / bat’âbil",
+     "tr": "buluşmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتأخر / بتأخر",
+     "fr": "it2akhkhar / bat2akhkhar",
+     "ok": "it’akhkhar / bat’akhkhar",
+     "tr": "gecikmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "تعب / بتعب",
+     "fr": "ta3ib / bat3ab",
+     "ok": "taʿib / batʿab",
+     "tr": "yorulmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "حجز / بحجز",
+     "fr": "7agaz / ba7giz",
+     "ok": "hhagaz / bahhgiz",
+     "tr": "rezervasyon yapmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "طلب / بطلب",
+     "fr": "talab / batlub",
+     "ok": "talab / batlub",
+     "tr": "istemek / sipariş etmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "جرب / بجرب",
+     "fr": "garrab / bagarrab",
+     "ok": "garrab / bagarrab",
+     "tr": "denemek / tatmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "غير / بغير",
+     "fr": "ghayyar / baghayyar",
+     "ok": "ğayyar / bağayyar",
+     "tr": "değiştirmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "سيب / بسيب",
+     "fr": "sayyib / basayyib",
+     "ok": "sayyib / basayyib",
+     "tr": "bırakmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "افتكر / بفتكر",
+     "fr": "iftakar / baftikir",
+     "ok": "iftakar / baftikir",
+     "tr": "hatırlamak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "فطر / بفطر",
+     "fr": "fitir / baftar",
+     "ok": "fitir / baftar",
+     "tr": "kahvaltı etmek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتغدى / بتغدى",
+     "fr": "itghadda / batghadda",
+     "ok": "itğadda / batğadda",
+     "tr": "öğle yemeği yemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتعشى / بتعشى",
+     "fr": "it3ashsha / bat3ashsha",
+     "ok": "itʿaşşa / batʿaşşa",
+     "tr": "akşam yemeği yemek",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتفرج / بتفرج",
+     "fr": "itfarrag / batfarrag",
+     "ok": "itfarrag / batfarrag",
+     "tr": "seyretmek / bakmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "اتمشى / بتمشى",
+     "fr": "itmashsha / batmashsha",
+     "ok": "itmaşşa / batmaşşa",
+     "tr": "yürüyüşe çıkmak",
+     "group": "42 ek fiil (fiil bankası 2)"
+    },
+    {
+     "ar": "تعالى",
+     "fr": "ta3aala",
+     "ok": "taʿâla",
+     "tr": "Gel! (e)",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "تعالي",
+     "fr": "ta3aali",
+     "ok": "taʿâli",
+     "tr": "Gel! (k)",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "استنى",
+     "fr": "istanna",
+     "ok": "istanna",
+     "tr": "Bekle!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "بص",
+     "fr": "buss",
+     "ok": "buss",
+     "tr": "Bak!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "اسمع",
+     "fr": "isma3",
+     "ok": "ismaʿ",
+     "tr": "Dinle!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "شوف",
+     "fr": "shuuf",
+     "ok": "şûf",
+     "tr": "Bak / gör!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "قول",
+     "fr": "2uul",
+     "ok": "’ûl",
+     "tr": "Söyle!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "خد",
+     "fr": "khud",
+     "ok": "khud",
+     "tr": "Al!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "هات",
+     "fr": "haat",
+     "ok": "hât",
+     "tr": "Getir / ver!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "خلي بالك",
+     "fr": "khalli baalak",
+     "ok": "khalli bâlak",
+     "tr": "Dikkat et!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "متقلقش",
+     "fr": "mat2la2sh",
+     "ok": "mat’la’ş",
+     "tr": "Endişelenme!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "متزعلش",
+     "fr": "matiz3alsh",
+     "ok": "matizʿalş",
+     "tr": "Üzülme!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "خليك معايا",
+     "fr": "khallik ma3aaya",
+     "ok": "khallik maʿâya",
+     "tr": "Benimle kal!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "افتح / اقفل",
+     "fr": "iftah / i2fil",
+     "ok": "iftah / i’fil",
+     "tr": "Aç / kapat!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "ساعدني",
+     "fr": "saa3idni",
+     "ok": "sâʿidni",
+     "tr": "Bana yardım et!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "كلمني",
+     "fr": "kallimni",
+     "ok": "kallimni",
+     "tr": "Beni ara!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "ابعتلي",
+     "fr": "ib3atli",
+     "ok": "ibʿatli",
+     "tr": "Bana gönder!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    },
+    {
+     "ar": "هاتلي مية",
+     "fr": "haatli mayya",
+     "ok": "hâtli mayya",
+     "tr": "Bana su getir!",
+     "group": "Emir kalıpları (günde 20 kez kullanırsın)"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Fiil tablosunda ikinci biçim \"ben\" şimdiki zamanıdır (ba- ile): bafham = anlıyorum.",
+    "Gelecek için ba- yerine ha- koy: bafham → hafham (anlayacağım).",
+    "Olumsuz için ma- ... -sh: mabafhamsh (anlamıyorum).",
+    "Emir kalıpları günlük hayatta en sık duyacağın cümlelerdir."
+   ],
+   "practice": [
+    {
+     "ar": "استنى!",
+     "fr": "istanna!",
+     "ok": "istanna!",
+     "tr": "Bekle!"
+    },
+    {
+     "ar": "متقلقش!",
+     "fr": "mat2la2sh!",
+     "ok": "mat’la’ş!",
+     "tr": "Endişelenme!"
+    },
+    {
+     "ar": "بص!",
+     "fr": "buss!",
+     "ok": "buss!",
+     "tr": "Bak!"
+    },
+    {
+     "ar": "هاتلي مية",
+     "fr": "haatli mayya",
+     "ok": "hâtli mayya",
+     "tr": "Bana su getir."
+    },
+    {
+     "ar": "خلي بالك!",
+     "fr": "khalli baalak!",
+     "ok": "khalli bâlak!",
+     "tr": "Dikkat et!"
+    },
+    {
+     "ar": "كلمني",
+     "fr": "kallimni",
+     "ok": "kallimni",
+     "tr": "Beni ara."
+    }
+   ]
+  },
+  {
+   "id": "misira-ozgu-kaliplar",
+   "title": "Mısır'a Özgü Kalıplar ve Hitaplar",
+   "emoji": "🇪🇬",
+   "summary": "Yerel gibi konuşmak",
+   "phrases": [
+    {
+     "ar": "على فكرة",
+     "fr": "3ala fikra",
+     "ok": "ʿala fikra",
+     "tr": "Bu arada",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "يعني",
+     "fr": "ya3ni",
+     "ok": "yaʿni",
+     "tr": "Yani (dolgu kelimesi)",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "حاجة كده",
+     "fr": "7aaga kida",
+     "ok": "hhâga kida",
+     "tr": "Öyle bir şey",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "مفيش مشكلة",
+     "fr": "mafiish mushkila",
+     "ok": "mafîş muşkila",
+     "tr": "Sorun yok",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "على راسي",
+     "fr": "3ala raasi",
+     "ok": "ʿala râsi",
+     "tr": "Başım gözüm üstüne",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "ربنا يوفقك",
+     "fr": "rabbina yiwaffa2ak",
+     "ok": "rabbina yivaffa’ak",
+     "tr": "Allah başarı versin",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "الله يبارك فيك",
+     "fr": "allaah yibaarik fiik",
+     "ok": "allâh yibârik fîk",
+     "tr": "Allah razı olsun / sağ ol",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "ربنا يقويك",
+     "fr": "rabbina yi2awwiik",
+     "ok": "rabbina yi’avvîk",
+     "tr": "Kolay gelsin",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "إن شاء الله خير",
+     "fr": "in shaa2 allaah kheir",
+     "ok": "in şâ’ allâh kheyr",
+     "tr": "Hayırlısı olsun",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "يا سلام",
+     "fr": "yaa salaam",
+     "ok": "yâ salâm",
+     "tr": "Vay canına!",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "بالسلامة",
+     "fr": "bis-salaama",
+     "ok": "bis-salâma",
+     "tr": "Yolun açık olsun",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "مصر أم الدنيا",
+     "fr": "masr omm id-dunya",
+     "ok": "masr omm id-dunya",
+     "tr": "Mısır dünyanın anasıdır (ünlü söz)",
+     "group": "Mısırlıların sevdiği kalıplar"
+    },
+    {
+     "ar": "يا باشا",
+     "fr": "yaa baasha",
+     "ok": "yâ bâşa",
+     "tr": "Dostane hitap (efendim / abi)",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا أستاذ",
+     "fr": "yaa ustaaz",
+     "ok": "yâ ustâz",
+     "tr": "Bay / bey (saygılı)",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا فندم",
+     "fr": "yaa findim",
+     "ok": "yâ findim",
+     "tr": "Efendim (resmi)",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا حاج",
+     "fr": "yaa 7aagg",
+     "ok": "yâ hhâgg",
+     "tr": "Yaşlı erkeğe saygılı hitap",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا ريّس",
+     "fr": "yaa ra2iis",
+     "ok": "yâ ra’îs",
+     "tr": "Patron / usta",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا حبيبي",
+     "fr": "yaa 7abibi",
+     "ok": "yâ hhabibi",
+     "tr": "Canım (erkeğe, dostane)",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    },
+    {
+     "ar": "يا جماعة",
+     "fr": "yaa gamaa3a",
+     "ok": "yâ gamâʿa",
+     "tr": "Arkadaşlar / millet",
+     "group": "Hitap şekilleri (sohbette çok duyacaksın)"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Mısırlılar dua ve iyi dilek kalıplarını çok sever: rabbina yiwaffa2ak, allaah yibaarik fiik. Yerinde söylemek kalpleri açar.",
+    "Hitap olarak \"yaa baasha\" ve \"yaa ustaaz\" güvenli, sıcak seçeneklerdir."
+   ],
+   "practice": [
+    {
+     "ar": "إن شاء الله بكرة",
+     "fr": "in shaa2 allaah bukra",
+     "ok": "in şâ’ allâh bukra",
+     "tr": "İnşallah yarın."
+    },
+    {
+     "ar": "الحمد لله على السلامة",
+     "fr": "il-7amdu lillaah 3ala is-salaama",
+     "ok": "il-hhamdu lillâh ʿala is-salâma",
+     "tr": "Hoş geldin (yolculuktan dönene)."
+    },
+    {
+     "ar": "ألف سلامة",
+     "fr": "alf salaama",
+     "ok": "alf salâma",
+     "tr": "Geçmiş olsun."
+    },
+    {
+     "ar": "يا سلام!",
+     "fr": "yaa salaam!",
+     "ok": "yâ salâm!",
+     "tr": "Vay be!"
+    },
+    {
+     "ar": "ربنا يقويك",
+     "fr": "rabbina yi2awwiik",
+     "ok": "rabbina yi’avvîk",
+     "tr": "Kolay gelsin."
+    },
+    {
+     "ar": "ماشي",
+     "fr": "maashi",
+     "ok": "mâşi",
+     "tr": "Tamam, olur."
+    }
+   ]
+  },
+  {
+   "id": "konusma-testi",
+   "title": "Konuşma Testi: 24 Gerçek Durum",
+   "emoji": "🎯",
+   "summary": "24 gerçek durum için hızlı konuşma testi",
+   "phrases": [
+    {
+     "ar": "عايز أروح ميدان التحرير",
+     "fr": "3aayiz aruu7 meedaan it-ta7riir",
+     "ok": "ʿâyiz arûhh mîdân it-tahhrîr",
+     "tr": "Taksideyiz: “Tahrir Meydanı'na gitmek istiyorum.” (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "هياخد قد إيه؟",
+     "fr": "hayaakhud 2add eih?",
+     "ok": "hayâkhud ’add eyh?",
+     "tr": "Ne kadar sürer?",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "ممكن كوباية مية؟",
+     "fr": "mumkin kubbayit mayya?",
+     "ok": "mumkin kubbayit mayya?",
+     "tr": "Bir bardak su alabilir miyim?",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "دقيقة لو سمحت",
+     "fr": "di2ii2a law sama7t",
+     "ok": "di’î’a lav samahht",
+     "tr": "Bir dakika lütfen.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "أنا تركي بس بتكلم عربي شوية",
+     "fr": "ana torki bass batkallim 3arabi shuwayya",
+     "ok": "ana torki bass batkallim ʿarabi şuvayya",
+     "tr": "Ben Türküm ama biraz Arapça konuşuyorum. (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "أشوفك بكرة",
+     "fr": "ashuufak bukra",
+     "ok": "aşûfak bukra",
+     "tr": "Yarın görüşürüz.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "نتقابل بكرة الساعة خمسة",
+     "fr": "nit2aabil bukra is-saa3a khamsa",
+     "ok": "nit’âbil bukra is-sâʿa khamsa",
+     "tr": "Yarın saat beşte buluşalım.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "ساكن فين؟",
+     "fr": "saakin feen?",
+     "ok": "sâkin fîn?",
+     "tr": "Nerede oturuyorsun? (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "نتقابل فين؟",
+     "fr": "nit2aabil feen?",
+     "ok": "nit’âbil fîn?",
+     "tr": "Nerede buluşalım?",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "الباسورد بتاع الواي فاي إيه؟",
+     "fr": "il-password bitaa3 il-way fay eih?",
+     "ok": "il-passvord bitâʿ il-vay fay eyh?",
+     "tr": "Wi-Fi şifresi ne?",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "كلمني بكرة",
+     "fr": "kallimni bukra",
+     "ok": "kallimni bukra",
+     "tr": "Beni yarın ara.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "معرفش عربي",
+     "fr": "ma3rafsh 3arabi",
+     "ok": "maʿrafş ʿarabi",
+     "tr": "Arapça bilmiyorum. (Mısır)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "رقمك كام؟",
+     "fr": "ra2amak kaam?",
+     "ok": "ra’amak kâm?",
+     "tr": "Numaran kaç? (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "الأكل كان حلو أوي",
+     "fr": "il-akl kaan 7ilw awi",
+     "ok": "il-akl kân hhilv avi",
+     "tr": "Yemek çok güzeldi.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "مش هروح الشغل بكرة",
+     "fr": "mish haruu7 ish-shoghl bukra",
+     "ok": "miş harûhh iş-şoğl bukra",
+     "tr": "Yarın işe gitmeyeceğim.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "بتقبلوا فيزا؟",
+     "fr": "bti2balu viza?",
+     "ok": "bti’balu viza?",
+     "tr": "Kart kabul ediyor musunuz?",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "أنا تعبان أوي النهارده",
+     "fr": "ana ta3baan awi en-nahaarda",
+     "ok": "ana taʿbân avi en-nahârda",
+     "tr": "Bugün çok yoruldum. (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "هكتبلك بعدين",
+     "fr": "haktiblak ba3deen",
+     "ok": "haktiblak baʿdîn",
+     "tr": "Sana sonra yazacağım. (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "مأكلتش حاجة وأنا جعان أوي",
+     "fr": "makaltish 7aaga wana ga3aan awi",
+     "ok": "makaltiş hhâga vana gaʿân avi",
+     "tr": "Hiçbir şey yemedim, çok açım. (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "إيه رأيك؟",
+     "fr": "eih ra2yak?",
+     "ok": "eyh ra’yak?",
+     "tr": "Ne düşünüyorsun? (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "ده عجبني",
+     "fr": "da 3agabni",
+     "ok": "da ʿagabni",
+     "tr": "Bunu beğendim.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "اتكلم بالراحة لو سمحت",
+     "fr": "itkallim bir-raa7a law sama7t",
+     "ok": "itkallim bir-râhha lav samahht",
+     "tr": "Lütfen yavaş konuş. (e)",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "ده معجبنيش",
+     "fr": "da ma3gabniish",
+     "ok": "da maʿgabnîş",
+     "tr": "Bunu beğenmedim.",
+     "group": "Konuşma Testi"
+    },
+    {
+     "ar": "ممكن تساعدني؟",
+     "fr": "mumkin tisaa3idni?",
+     "ok": "mumkin tisâʿidni?",
+     "tr": "Bana yardım eder misin? (e)",
+     "group": "Konuşma Testi"
+    }
+   ],
+   "dialogs": [],
+   "tips": [
+    "Önce Türkçesine bak, sesli söyle, sonra cevabı kontrol et.",
+    "(e) erkeğe / erkek konuşuyor demektir."
+   ]
+  },
+  {
+   "id": "mini-diyaloglar",
+   "title": "Mini Diyaloglar",
+   "emoji": "💬",
+   "summary": "Tanışma, pazar, yol sorma ve eczanede 4 kısa diyalog",
+   "phrases": [],
+   "dialogs": [
+    {
+     "title": "Tanışma",
+     "lines": [
+      {
+       "who": "A",
+       "ar": "أهلاً! اسمي علي.",
+       "fr": "ahlan! ismi 3ali.",
+       "ok": "ahlan! ismi ʿali.",
+       "tr": "Merhaba! Adım Ali."
+      },
+      {
+       "who": "B",
+       "ar": "أهلاً بيك يا علي. اسمي هبة.",
+       "fr": "ahlan bik yaa 3ali. ismi heba.",
+       "ok": "ahlan bik yâ ʿali. ismi heba.",
+       "tr": "Hoş geldin Ali. Adım Heba."
+      },
+      {
+       "who": "A",
+       "ar": "فرصة سعيدة. إنتِ منين؟",
+       "fr": "fursa sa3iida. inti minein?",
+       "ok": "fursa saʿîda. inti mineyn?",
+       "tr": "Memnun oldum. Nerelisin?"
+      },
+      {
+       "who": "B",
+       "ar": "أنا من الإسكندرية. وإنتَ؟",
+       "fr": "ana min il-iskindiriyya. wi inta?",
+       "ok": "ana min il-iskindiriyya. vi inta?",
+       "tr": "İskenderiyeliyim. Ya sen?"
+      },
+      {
+       "who": "A",
+       "ar": "أنا من تركيا. لسه بتعلم عربي.",
+       "fr": "ana min turkiya. lissa bat3allim 3arabi.",
+       "ok": "ana min turkiya. lissa batʿallim ʿarabi.",
+       "tr": "Türkiye'denim. Hâlâ Arapça öğreniyorum."
+      },
+      {
+       "who": "B",
+       "ar": "عربيك حلو أوي!",
+       "fr": "3arabiik 7ilw awi!",
+       "ok": "ʿarabîk hhilv avi!",
+       "tr": "Arapçan çok güzel!"
+      },
+      {
+       "who": "A",
+       "ar": "متشكر! ممكن تتكلمي بالراحة شوية؟",
+       "fr": "mutashakkir! mumkin titkallimi bir-raa7a shuwayya?",
+       "ok": "mutaşakkir! mumkin titkallimi bir-râhha şuvayya?",
+       "tr": "Sağ ol! Biraz yavaş konuşur musun?"
+      },
+      {
+       "who": "B",
+       "ar": "طبعًا، مفيش مشكلة.",
+       "fr": "tab3an, mafiish mushkila.",
+       "ok": "tabʿan, mafîş muşkila.",
+       "tr": "Tabii, sorun değil."
+      }
+     ]
+    },
+    {
+     "title": "Pazarda",
+     "lines": [
+      {
+       "who": "A",
+       "ar": "صباح الخير. بكام الطماطم؟",
+       "fr": "saba7 il-kheir. bikaam it-tataatim?",
+       "ok": "sabahh il-kheyr. bikâm it-tatâtim?",
+       "tr": "Günaydın. Domates kaç para?"
+      },
+      {
+       "who": "B",
+       "ar": "صباح النور. بخمسة جنيه الكيلو.",
+       "fr": "saba7 in-noor. bi-khamsa ginee il-keeloo.",
+       "ok": "sabahh in-nûr. bi-khamsa ginî il-kîlû.",
+       "tr": "Günaydın. Kilosu beş lira."
+      },
+      {
+       "who": "A",
+       "ar": "غالي شوية. ينفع تنزل؟",
+       "fr": "ghaali shuwayya. yinfa3 tinzil?",
+       "ok": "ğâli şuvayya. yinfaʿ tinzil?",
+       "tr": "Biraz pahalı. İndirim olur mu?"
+      },
+      {
+       "who": "B",
+       "ar": "خلاص، بأربعة جنيه علشانك.",
+       "fr": "khalaas, bi-arba3a ginee 3ashaanak.",
+       "ok": "khalâs, bi-arbaʿa ginî ʿaşânak.",
+       "tr": "Tamam, senin için dört lira."
+      },
+      {
+       "who": "A",
+       "ar": "تمام. هاخد اتنين كيلو.",
+       "fr": "tamaam. hakhod itneen keeloo.",
+       "ok": "tamâm. hakhod itnîn kîlû.",
+       "tr": "Tamam. İki kilo alacağım."
+      },
+      {
+       "who": "B",
+       "ar": "اتفضل. تمانية جنيه.",
+       "fr": "itfaddal. tamanya ginee.",
+       "ok": "itfaddal. tamanya ginî.",
+       "tr": "Buyurun. Sekiz lira."
+      },
+      {
+       "who": "A",
+       "ar": "اتفضل. شكرًا.",
+       "fr": "itfaddal. shukran.",
+       "ok": "itfaddal. şukran.",
+       "tr": "Buyurun. Teşekkürler."
+      },
+      {
+       "who": "B",
+       "ar": "الله يسلمك.",
+       "fr": "allaah yisallimak.",
+       "ok": "allâh yisallimak.",
+       "tr": "Sağ ol."
+      }
+     ]
+    },
+    {
+     "title": "Yol sorma",
+     "lines": [
+      {
+       "who": "A",
+       "ar": "لو سمحت، فين محطة المترو؟",
+       "fr": "law sama7t, feen ma7attit il-metro?",
+       "ok": "lav samahht, fîn mahhattit il-metro?",
+       "tr": "Affedersiniz, metro istasyonu nerede?"
+      },
+      {
+       "who": "B",
+       "ar": "على طول وبعدين شمال.",
+       "fr": "3ala tuul w ba3deen shimaal.",
+       "ok": "ʿala tûl v baʿdîn şimâl.",
+       "tr": "Dümdüz gidin, sonra sola."
+      },
+      {
+       "who": "A",
+       "ar": "هي بعيدة؟",
+       "fr": "heyya ba3iida?",
+       "ok": "heyya baʿîda?",
+       "tr": "Uzak mı?"
+      },
+      {
+       "who": "B",
+       "ar": "لأ، قريبة. خمس دقايق مشي.",
+       "fr": "laa, 2areeba. khamas da2aayi2 mashi.",
+       "ok": "lâ, ’arîba. khamas da’âyi’ maşi.",
+       "tr": "Hayır, yakın. Beş dakika yürüyüş."
+      },
+      {
+       "who": "A",
+       "ar": "متشكر جدًا.",
+       "fr": "mutashakkir giddan.",
+       "ok": "mutaşakkir giddan.",
+       "tr": "Çok teşekkürler."
+      },
+      {
+       "who": "B",
+       "ar": "العفو.",
+       "fr": "il-3afw.",
+       "ok": "il-ʿafv.",
+       "tr": "Rica ederim."
+      }
+     ]
+    },
+    {
+     "title": "Eczanede",
+     "lines": [
+      {
+       "who": "A",
+       "ar": "السلام عليكم. عندي صداع وحرارة.",
+       "fr": "is-salaamu 3aleikum. 3andi suda3 w 7araara.",
+       "ok": "is-salâmu ʿaleykum. ʿandi sudaʿ v hharâra.",
+       "tr": "Selamun aleyküm. Baş ağrım ve ateşim var."
+      },
+      {
+       "who": "B",
+       "ar": "وعليكم السلام. من إمتى؟",
+       "fr": "wa 3aleikum is-salaam. min imta?",
+       "ok": "va ʿaleykum is-salâm. min imta?",
+       "tr": "Aleyküm selam. Ne zamandan beri?"
+      },
+      {
+       "who": "A",
+       "ar": "من امبارح.",
+       "fr": "min imbaare7.",
+       "ok": "min imbârehh.",
+       "tr": "Dünden beri."
+      },
+      {
+       "who": "B",
+       "ar": "خد الدوا ده مرتين في اليوم.",
+       "fr": "khud id-dawa da marreteen fil-yoom.",
+       "ok": "khud id-dava da marretîn fil-yûm.",
+       "tr": "Bu ilacı günde iki kez al."
+      },
+      {
+       "who": "A",
+       "ar": "ماشي. الحساب كام؟",
+       "fr": "maashi. il-7isaab kaam?",
+       "ok": "mâşi. il-hhisâb kâm?",
+       "tr": "Tamam. Toplam ne kadar?"
+      },
+      {
+       "who": "B",
+       "ar": "أربعين جنيه.",
+       "fr": "arba3iin ginee.",
+       "ok": "arbaʿîn ginî.",
+       "tr": "Kırk lira."
+      },
+      {
+       "who": "A",
+       "ar": "شكرًا.",
+       "fr": "shukran.",
+       "ok": "şukran.",
+       "tr": "Teşekkürler."
+      },
+      {
+       "who": "B",
+       "ar": "ألف سلامة عليك.",
+       "fr": "alf salaama 3aleik.",
+       "ok": "alf salâma ʿaleyk.",
+       "tr": "Geçmiş olsun."
+      }
+     ]
+    }
+   ],
+   "tips": [
+    "Diyalogları rol yaparak, yüksek sesle okuyun."
+   ],
+   "practice": []
+  }
+ ]
+}

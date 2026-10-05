@@ -1,0 +1,1141 @@
+{
+ "units": [
+  {
+   "id": "wb-a-da-deh",
+   "title": "A. ده mi دي mi?",
+   "emoji": "⚖️",
+   "instructions": "Boşluğa ismin cinsiyetine göre da (ده, eril) veya deh (دي, dişil) yaz.",
+   "exercises": [
+    {
+     "type": "fill",
+     "q": "___ baab (باب) — kapı",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ sama (سما) — gökyüzü",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)",
+     "explain": "-ah ile bitmese de dişildir (istisna)."
+    },
+    {
+     "type": "fill",
+     "q": "___ kursi (كرسي) — sandalye",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ shams (شمس) — güneş",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)",
+     "explain": "-ah ile bitmese de dişildir (istisna)."
+    },
+    {
+     "type": "fill",
+     "q": "___ telefezyoon (تلفزيون) — televizyon",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ 3arabeyah (عربية) — araba",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ sereer (سرير) — yatak",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ makhaddah (مخدة) — yastık",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ walad (ولد) — erkek çocuk",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ bint (بنت) — kız çocuğu",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ shanta (شنطة) — çanta",
+     "answer": "deh",
+     "alts": [
+      "دي",
+      "de",
+      "di"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    },
+    {
+     "type": "fill",
+     "q": "___ 7ammaam (حمام) — banyo",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "hint": "Eril → da (ده), dişil → deh (دي)"
+    }
+   ]
+  },
+  {
+   "id": "wb-b-resim",
+   "title": "B. Resme bak ve söyle",
+   "emoji": "🖼️",
+   "instructions": "Resme bak, 'eh da / eh deh?' diye sor ve cevabı (da/deh + isim) Franko ile yaz.",
+   "exercises": [
+    {
+     "type": "fill",
+     "q": "🚪  eh da / eh deh? → ___",
+     "answer": "da baab",
+     "alts": [
+      "ده باب"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🌴  eh da / eh deh? → ___",
+     "answer": "deh nakhlah",
+     "alts": [
+      "دي نخلة",
+      "de nakhlah",
+      "di nakhlah"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🛋️  eh da / eh deh? → ___",
+     "answer": "de kanabah",
+     "alts": [
+      "دي كنبة",
+      "deh kanabah",
+      "di kanabah"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🚗  eh da / eh deh? → ___",
+     "answer": "de 3arabeyah",
+     "alts": [
+      "دي عربية",
+      "deh 3arabeyah",
+      "di 3arabeyah"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "📺  eh da / eh deh? → ___",
+     "answer": "da telefezyoon",
+     "alts": [
+      "ده تلفزيون"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "☀️  eh da / eh deh? → ___",
+     "answer": "deh shams",
+     "alts": [
+      "دي شمس",
+      "de shams",
+      "di shams"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🛏️  eh da / eh deh? → ___",
+     "answer": "da sereer",
+     "alts": [
+      "ده سرير"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🥛  eh da / eh deh? → ___",
+     "answer": "de koobayah",
+     "alts": [
+      "دي كوباية",
+      "deh koobayah",
+      "di koobayah"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "📱  eh da / eh deh? → ___",
+     "answer": "da mobayl",
+     "alts": [
+      "ده موبايل"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🐈  eh da / eh deh? → ___",
+     "answer": "de 'otta",
+     "alts": [
+      "دي قطة",
+      "deh 'otta",
+      "di 'otta"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "🍵  eh da / eh deh? → ___",
+     "answer": "da shay",
+     "alts": [
+      "ده شاي"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    },
+    {
+     "type": "fill",
+     "q": "☕  eh da / eh deh? → ___",
+     "answer": "de 'ahwa",
+     "alts": [
+      "دي قهوة",
+      "deh 'ahwa",
+      "di 'ahwa"
+     ],
+     "hint": "Eril → da, dişil → deh/de"
+    }
+   ]
+  },
+  {
+   "id": "wb-c-ceviri",
+   "title": "C. Türkçe → Mısır Arapçası",
+   "emoji": "🔁",
+   "instructions": "Cümleleri Mısır Arapçasına çevir ve Franko ile yaz.",
+   "exercises": [
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu bir kapı.",
+     "answer": "da baab.",
+     "alts": [
+      "ده باب."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu bir araba.",
+     "answer": "de 3arabeyah.",
+     "alts": [
+      "دي عربية.",
+      "deh 3arabeyah.",
+      "de 3arabeya."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu büyük bir masa.",
+     "answer": "de tarabiezah kebeerah.",
+     "alts": [
+      "دي ترابيزة كبيرة.",
+      "de tarabeezah kebeerah.",
+      "deh tarabiezah kebeerah."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu yeni bir telefon.",
+     "answer": "da mobayl gedeed.",
+     "alts": [
+      "ده موبايل جديد.",
+      "da telefoon gedeed."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu ne? (kadın isim için) – Bu bir yastık.",
+     "answer": "eh deh? de makhaddah.",
+     "alts": [
+      "إيه دي؟ دي مخدة.",
+      "eh de? de makhaddah.",
+      "eh deh? deh makhaddah."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu çanta değil, bu kitap.",
+     "answer": "da mish shanta, da ketaab.",
+     "alts": [
+      "ده مش شنطة، ده كتاب.",
+      "de mish shanta, da ketaab."
+     ],
+     "explain": "شنطة dişil olsa da cümlede 'da' (bu şey) kullanımı kaynaktaki gibidir; 'de mish shanta' da kabul edilir."
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Banyo nerede?",
+     "answer": "fein el-7ammaam?",
+     "alts": [
+      "فين الحمام؟",
+      "fen el-7ammaam?",
+      "fein el7ammaam?"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu çok pahalı!",
+     "answer": "da ghaly awy!",
+     "alts": [
+      "ده غالي أوي!",
+      "da ghali awi!"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Su istiyorum, lütfen. (erkek)",
+     "answer": "3ayez maya, law samaht.",
+     "alts": [
+      "عايز مية، لو سمحت.",
+      "ana 3ayez maya, law samaht."
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Anlamıyorum. (kadın)",
+     "answer": "ana mish fahmah.",
+     "alts": [
+      "أنا مش فاهمة.",
+      "ana mish faahmah.",
+      "mish fahmah."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wb-d-bosluk",
+   "title": "D. Boşluk doldur",
+   "emoji": "✏️",
+   "instructions": "Parantezdeki anlama uygun kelimeyi Franko ile yaz.",
+   "exercises": [
+    {
+     "type": "fill",
+     "q": "de shanta ___ (büyük)",
+     "answer": "kebeerah",
+     "alts": [
+      "كبيرة",
+      "kebeera"
+     ],
+     "hint": "Dişil sıfat: -ah"
+    },
+    {
+     "type": "fill",
+     "q": "da ketaab ___ (yeni)",
+     "answer": "gedeed",
+     "alts": [
+      "جديد",
+      "gedid"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "eh ___? (Bu ne? eril)",
+     "answer": "da",
+     "alts": [
+      "ده",
+      "dah"
+     ],
+     "explain": "Kaynakta boşluk '___ eh?' biçimindeydi; cevap 'eh da?' (إيه ده؟)."
+    },
+    {
+     "type": "fill",
+     "q": "de 3arabeyah ___ (küçük)",
+     "answer": "soghayyarah",
+     "alts": [
+      "صغيرة",
+      "soghayyara",
+      "so8ayyarah"
+     ],
+     "hint": "Dişil sıfat: -ah"
+    },
+    {
+     "type": "fill",
+     "q": "fein el-___? (banyo)",
+     "answer": "7ammaam",
+     "alts": [
+      "حمام",
+      "7amam",
+      "hammam"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "ana mish ___ (anlamıyorum, erkek)",
+     "answer": "faahem",
+     "alts": [
+      "فاهم",
+      "fahem"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wb-kelime",
+   "title": "Kelime tekrarı: eşyalar, şehir, insanlar",
+   "emoji": "🏠",
+   "instructions": "Kelimeleri anlamlarıyla eşleştir ve soruları cevapla.",
+   "exercises": [
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "ده باب (da baab)",
+       "kapı"
+      ],
+      [
+       "ده شباك (da shebbak)",
+       "pencere"
+      ],
+      [
+       "دي بلكونة (de balakonah)",
+       "balkon"
+      ],
+      [
+       "دي حيطة (de 7eytah)",
+       "duvar"
+      ],
+      [
+       "دي مخدة (de makhaddah)",
+       "yastık"
+      ],
+      [
+       "دي ملاية (de melayah)",
+       "çarşaf"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "ده كومودينو (da komodino)",
+       "komodin"
+      ],
+      [
+       "دي لمبة (de lambah)",
+       "lamba"
+      ],
+      [
+       "ده درج (da durg)",
+       "çekmece"
+      ],
+      [
+       "دي سجادة (de seggaadah)",
+       "halı"
+      ],
+      [
+       "دي لوحة (de lo7ah)",
+       "tablo"
+      ],
+      [
+       "دي إزازة (de 'ezaazah)",
+       "şişe"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "ده هرم (da haram)",
+       "piramit"
+      ],
+      [
+       "ده قطر (da 'atr)",
+       "tren"
+      ],
+      [
+       "ده شارع (da share3)",
+       "sokak"
+      ],
+      [
+       "دي مدرسة (de madrasah)",
+       "okul"
+      ],
+      [
+       "ده بيت (da beit)",
+       "ev"
+      ],
+      [
+       "ده فندق (da fondo')",
+       "otel"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "دي ست (de set)",
+       "kadın"
+      ],
+      [
+       "ده راجل (da ragel)",
+       "adam"
+      ],
+      [
+       "ده صاحبي (da sa7by)",
+       "arkadaşım (erkek)"
+      ],
+      [
+       "دي صاحبتي (de sa7bety)",
+       "arkadaşım (kadın)"
+      ],
+      [
+       "ده دكتور (da doktoor)",
+       "doktor (erkek)"
+      ],
+      [
+       "دي دكتورة (de doktoorah)",
+       "doktor (kadın)"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "ده عيش (da 3eesh)",
+       "ekmek"
+      ],
+      [
+       "دي مية (de maya)",
+       "su"
+      ],
+      [
+       "ده مفتاح (da meftaa7)",
+       "anahtar"
+      ],
+      [
+       "دي فلوس (de feloos)",
+       "para"
+      ],
+      [
+       "ده قلم (da 'alam)",
+       "kalem"
+      ],
+      [
+       "ده كلب (da kalb)",
+       "köpek"
+      ]
+     ]
+    },
+    {
+     "type": "mc",
+     "q": "ده قطر — 'atr kelimesinde ق nasıl okunur?",
+     "options": [
+      "hemze (')",
+      "k",
+      "g",
+      "ğ"
+     ],
+     "answer": 0,
+     "explain": "Kahire'de ق çoğunlukla hemze okunur: 'atr, 'alam, 'ahwa."
+    },
+    {
+     "type": "mc",
+     "q": "Hangisi dişildir (دي ile kullanılır)?",
+     "options": [
+      "sama (gökyüzü)",
+      "baab (kapı)",
+      "kursi (sandalye)",
+      "sereer (yatak)"
+     ],
+     "answer": 0,
+     "explain": "سما ve شمس -ah ile bitmese de dişildir."
+    },
+    {
+     "type": "mc",
+     "q": "شباك (pencere) ile hangisi doğru?",
+     "options": [
+      "ده شباك",
+      "دي شباك"
+     ],
+     "answer": 0,
+     "explain": "شباك eril: da shebbak."
+    },
+    {
+     "type": "mc",
+     "q": "'Bunlar' Mısır Arapçasında nasıl söylenir?",
+     "options": [
+      "دول (dawl)",
+      "ده (da)",
+      "دي (deh)",
+      "هنا (hena)"
+     ],
+     "answer": 0
+    }
+   ]
+  },
+  {
+   "id": "wb-sifat",
+   "title": "Sıfatlar (eril / dişil)",
+   "emoji": "📏",
+   "instructions": "Sıfatı eşleştir; dişil isim için sonuna -ah ekle.",
+   "exercises": [
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "كبير (kebeer)",
+       "büyük"
+      ],
+      [
+       "صغير (soghayyar)",
+       "küçük"
+      ],
+      [
+       "جديد (gedeed)",
+       "yeni"
+      ],
+      [
+       "قديم ('adeem)",
+       "eski"
+      ],
+      [
+       "حلو (7elw)",
+       "güzel"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "غالي (ghaly)",
+       "pahalı"
+      ],
+      [
+       "رخيص (rakhees)",
+       "ucuz"
+      ],
+      [
+       "نضيف (nadeef)",
+       "temiz"
+      ],
+      [
+       "وسخ (wesekh)",
+       "kirli"
+      ]
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "büyük: kebeer (eril) → ___ (dişil)",
+     "answer": "kebeerah",
+     "alts": [
+      "كبيرة",
+      "kebeera"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "küçük: soghayyar (eril) → ___ (dişil)",
+     "answer": "soghayyarah",
+     "alts": [
+      "صغيرة",
+      "soghayyara"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "yeni: gedeed (eril) → ___ (dişil)",
+     "answer": "gedeedah",
+     "alts": [
+      "جديدة",
+      "gedeeda"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "eski: 'adeem (eril) → ___ (dişil)",
+     "answer": "'adeemah",
+     "alts": [
+      "قديمة",
+      "'adeema"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "güzel: 7elw (eril) → ___ (dişil)",
+     "answer": "7elwah",
+     "alts": [
+      "حلوة",
+      "7elwa"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "pahalı: ghaly (eril) → ___ (dişil)",
+     "answer": "ghalyah",
+     "alts": [
+      "غالية",
+      "ghalya"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "ucuz: rakhees (eril) → ___ (dişil)",
+     "answer": "rakheesah",
+     "alts": [
+      "رخيصة",
+      "rakheesa"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "temiz: nadeef (eril) → ___ (dişil)",
+     "answer": "nadeefah",
+     "alts": [
+      "نضيفة",
+      "nadeefa"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "kirli: wesekh (eril) → ___ (dişil)",
+     "answer": "weskhah",
+     "alts": [
+      "وسخة",
+      "weskha"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "de 'oodah ___ (güzel)",
+     "answer": "7elwah",
+     "alts": [
+      "حلوة",
+      "7elwa"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "da telefezyoon ___ (yeni)",
+     "answer": "gedeed",
+     "alts": [
+      "جديد"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "de shanta ___ (ucuz)",
+     "answer": "rakheesah",
+     "alts": [
+      "رخيصة",
+      "rakheesa"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "da beit ___ (temiz)",
+     "answer": "nadeef",
+     "alts": [
+      "نضيف"
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wb-cumle",
+   "title": "ده / دي ile cümleler",
+   "emoji": "🧩",
+   "instructions": "Kelimeleri doğru sıraya koy veya cümleyi çevir.",
+   "exercises": [
+    {
+     "type": "order",
+     "words": [
+      "قلم.",
+      "ده؟",
+      "إيه",
+      "ده"
+     ],
+     "answer": "إيه ده؟ ده قلم.",
+     "hint": "Bu ne? Bu bir kalem. (eh da? da 'alam.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "كتاب",
+      "ده",
+      "كبير."
+     ],
+     "answer": "ده كتاب كبير.",
+     "hint": "Bu büyük bir kitap. (da ketaab kebeer.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "شنطة",
+      "صغيرة.",
+      "دي"
+     ],
+     "answer": "دي شنطة صغيرة.",
+     "hint": "Bu küçük bir çanta. (de shanta soghayyarah.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "مش",
+      "ده",
+      "كتاب.",
+      "ده",
+      "قلم،"
+     ],
+     "answer": "ده مش قلم، ده كتاب.",
+     "hint": "Bu kalem değil, bu kitap. (da mish 'alam, da ketaab.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "ولاد.",
+      "دول"
+     ],
+     "answer": "دول ولاد.",
+     "hint": "Bunlar çocuklar. (dawl welaad.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "هنا.",
+      "الباب"
+     ],
+     "answer": "الباب هنا.",
+     "hint": "Kapı burada. (el-baab hena.)"
+    },
+    {
+     "type": "order",
+     "words": [
+      "ده",
+      "أوي!",
+      "غالي"
+     ],
+     "answer": "ده غالي أوي!",
+     "hint": "Bu çok pahalı! (da ghaly awy!)"
+    },
+    {
+     "type": "translate",
+     "from": "ar",
+     "q": "فين الحمام؟",
+     "answer": "Banyo nerede?",
+     "alts": [
+      "Tuvalet nerede?",
+      "Banyo / tuvalet nerede?"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "ar",
+     "q": "ده كرسي؟ أيوه.",
+     "answer": "Bu sandalye mi? Evet.",
+     "alts": [
+      "Bu sandalye mi? Evet"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bu eski bir araba.",
+     "answer": "de 3arabeyah 'adeemah.",
+     "alts": [
+      "دي عربية قديمة.",
+      "deh 3arabeyah 'adeemah."
+     ]
+    }
+   ]
+  },
+  {
+   "id": "wb-kalip",
+   "title": "Selamlaşma ve günlük kalıplar",
+   "emoji": "👋",
+   "instructions": "Günlük kalıpları eşleştir, seç, tamamla ve çevir.",
+   "exercises": [
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "صباح الخير (sabaa7 el-kheir)",
+       "Günaydın"
+      ],
+      [
+       "مساء الخير (masaa' el-kheir)",
+       "İyi akşamlar"
+      ],
+      [
+       "تشرفنا (tasharrafna)",
+       "Memnun oldum"
+      ],
+      [
+       "معلش (ma3lesh)",
+       "Sorun değil / Boş ver"
+      ],
+      [
+       "يلا (yalla)",
+       "Hadi"
+      ],
+      [
+       "خلاص (khalaas)",
+       "Bitti / Yeter"
+      ]
+     ]
+    },
+    {
+     "type": "match",
+     "pairs": [
+      [
+       "أيوه (aywa)",
+       "Evet"
+      ],
+      [
+       "لأ (la')",
+       "Hayır"
+      ],
+      [
+       "ماشي (maashy)",
+       "Olur"
+      ],
+      [
+       "لو سمحت (law samaht)",
+       "Lütfen / Affedersiniz"
+      ],
+      [
+       "مفيش مشكلة (mafeesh moshkelah)",
+       "Sorun yok"
+      ],
+      [
+       "إن شاء الله (in shaa' allah)",
+       "Allah izin verirse"
+      ]
+     ]
+    },
+    {
+     "type": "mc",
+     "q": "صباح الخير (sabaa7 el-kheir) diyen birine ne cevap verilir?",
+     "options": [
+      "صباح النور (sabaa7 en-noor)",
+      "مساء الخير",
+      "تشرفنا",
+      "معلش"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Bir kadına 'Nasılsın?' nasıl sorulur?",
+     "options": [
+      "إزيك؟ (ezzayyek?)",
+      "إزيك؟ (ezzayyak?)",
+      "اسمك إيه؟",
+      "فين؟"
+     ],
+     "answer": 0,
+     "explain": "Erkeğe ezzayyak, kadına ezzayyek."
+    },
+    {
+     "type": "mc",
+     "q": "Bir erkeğe 'Adın ne?'",
+     "options": [
+      "enta esmak eh?",
+      "enti esmek eh?",
+      "ana esmy...",
+      "eh da?"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "Kadın konuşuyor: 'Açım.'",
+     "options": [
+      "ana ga3aanah",
+      "ana ga3aan",
+      "ana 3atshaan",
+      "ana ta3baan"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "بكام ده؟ (bekaam da?) ne demek?",
+     "options": [
+      "Bu kaç para?",
+      "Bu ne?",
+      "Bu nerede?",
+      "Bu kimin?"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "mc",
+     "q": "'Dümdüz' hangisi?",
+     "options": [
+      "على طول (3ala tool)",
+      "يمين (yemeen)",
+      "شمال (shemaal)",
+      "هناك (henaak)"
+     ],
+     "answer": 0
+    },
+    {
+     "type": "fill",
+     "q": "kewayyes, el-___ lellah (İyiyim, şükür)",
+     "answer": "7amdu",
+     "alts": [
+      "حمد",
+      "hamdu"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "ana min ___ (Türkiye'denim)",
+     "answer": "torkeya",
+     "alts": [
+      "تركيا",
+      "turkeya",
+      "torkiya"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "mumkin te3eed ___? (Tekrar eder misin?)",
+     "answer": "tany",
+     "alts": [
+      "تاني",
+      "tani"
+     ]
+    },
+    {
+     "type": "fill",
+     "q": "mumkin el-___? (Hesap alabilir miyim?)",
+     "answer": "7esaab",
+     "alts": [
+      "حساب",
+      "hesab",
+      "7esab"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Yavaş konuşabilir misin?",
+     "answer": "mumkin tetkallem beraa7a?",
+     "alts": [
+      "ممكن تتكلم براحة؟",
+      "momken tetkallem bera7a?"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "İngilizce konuşuyor musun?",
+     "answer": "betetkallem engleezy?",
+     "alts": [
+      "بتتكلم إنجليزي؟",
+      "enta betetkallem engleezy?"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Yorgunum. (kadın)",
+     "answer": "ana ta3baanah",
+     "alts": [
+      "أنا تعبانة",
+      "ana ta3bana"
+     ]
+    },
+    {
+     "type": "translate",
+     "from": "tr",
+     "q": "Bir saniye lütfen.",
+     "answer": "la7za min fadlak",
+     "alts": [
+      "لحظة من فضلك",
+      "la7za law samaht"
+     ]
+    },
+    {
+     "type": "write",
+     "q": "Kendini tanıt: selam ver, adını ve nereli olduğunu söyle (Franko veya Arapça).",
+     "model": "sabaa7 el-kheir! esmy Ayşe. ana min torkeya. tasharrafna. — صباح الخير! اسمي عائشة. أنا من تركيا. تشرفنا."
+    }
+   ]
+  }
+ ]
+}

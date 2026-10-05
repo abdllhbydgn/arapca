@@ -1,0 +1,1521 @@
+{
+ "intro": "Bu kitapçıkta Arap alfabesinin 28 harfi, harf sırasına göre işlenmiştir. Her harf için 5 günlük kelime; görseli, Arapça yazılışı, Franko (Arapça chat) yazılışı, Türkçe okunuşu ve Türkçe anlamı ile birlikte verilmiştir. Kelimeler Mısır lehçesindeki yaygın telaffuza göre okunuşlandırılmıştır. Franko yazılış hakkında: 2 = ء / ق (gırtlak durağı), 3 = ع, 5 veya kh = خ, 7 = ح, 8 veya gh = غ harflerinin yerine kullanılan rakam/harflerdir.",
+ "letters": [
+  {
+   "letter": "ا",
+   "name": "Elif",
+   "fr": "a",
+   "sound": "Uzun 'a' (â) sesi; başta hemze (أ) taşıyıcısı olarak a/e/u sesi verir. Sağdaki harfe bağlanmaz.",
+   "forms": {
+    "iso": "ا",
+    "ini": "ا",
+    "med": "ـا",
+    "fin": "ـا"
+   },
+   "words": [
+    {
+     "ar": "أب",
+     "fr": "ab",
+     "ok": "ab",
+     "tr": "baba",
+     "emoji": "👨",
+     "note": "Günlük dilde 'baba' (بابا) daha yaygın."
+    },
+    {
+     "ar": "أم",
+     "fr": "omm",
+     "ok": "omm",
+     "tr": "anne",
+     "emoji": "👩",
+     "note": "Günlük dilde 'mama' (ماما) daha yaygın.",
+     "fix": "Franko 'om' → 'omm'"
+    },
+    {
+     "ar": "أرنب",
+     "fr": "arnab",
+     "ok": "arnab",
+     "tr": "tavşan",
+     "emoji": "🐰",
+     "fix": "Okunuş 'arneb' → 'arnab' (Mısır)"
+    },
+    {
+     "ar": "أسد",
+     "fr": "asad",
+     "ok": "asad",
+     "tr": "aslan",
+     "emoji": "🦁",
+     "fix": "Okunuş 'esed' → 'asad' (Mısır)"
+    },
+    {
+     "ar": "أرز",
+     "fr": "aroz",
+     "ok": "aruz",
+     "tr": "pirinç",
+     "emoji": "🍚",
+     "note": "Mısır'da pirinç için 'ruz' (رز) daha yaygın.",
+     "fix": "Okunuş 'eruz' → 'aruz'"
+    }
+   ]
+  },
+  {
+   "letter": "ب",
+   "name": "Be",
+   "fr": "b",
+   "sound": "Türkçe 'b' gibi. Mısır'da 'p' sesi yoktur; yabancı kelimelerde 'p' de 'b' okunur.",
+   "forms": {
+    "iso": "ب",
+    "ini": "بـ",
+    "med": "ـبـ",
+    "fin": "ـب"
+   },
+   "words": [
+    {
+     "ar": "باب",
+     "fr": "baab",
+     "ok": "bâb",
+     "tr": "kapı",
+     "emoji": "🚪"
+    },
+    {
+     "ar": "بيت",
+     "fr": "beet",
+     "ok": "bêt",
+     "tr": "ev",
+     "emoji": "🏠",
+     "note": "Mısır'da ev için 'ba2' değil 'bêt' ya da 'şa22a' (daire) denir.",
+     "fix": "Okunuş 'beyt' → 'bêt' (Mısır'da ey → ê)"
+    },
+    {
+     "ar": "بطة",
+     "fr": "batta",
+     "ok": "batta",
+     "tr": "ördek",
+     "emoji": "🦆"
+    },
+    {
+     "ar": "بطاطس",
+     "fr": "bataates",
+     "ok": "batâtis",
+     "tr": "patates",
+     "emoji": "🥔"
+    },
+    {
+     "ar": "بنت",
+     "fr": "bent",
+     "ok": "bint",
+     "tr": "kız çocuk",
+     "emoji": "👧"
+    }
+   ]
+  },
+  {
+   "letter": "ت",
+   "name": "Te",
+   "fr": "t",
+   "sound": "Türkçe 't' gibi.",
+   "forms": {
+    "iso": "ت",
+    "ini": "تـ",
+    "med": "ـتـ",
+    "fin": "ـت"
+   },
+   "words": [
+    {
+     "ar": "تفاحة",
+     "fr": "toffaa7a",
+     "ok": "tuffâha",
+     "tr": "elma",
+     "emoji": "🍎",
+     "fix": "Franko 'tofaha' → 'toffaa7a' (ح = 7)"
+    },
+    {
+     "ar": "تمساح",
+     "fr": "temsaa7",
+     "ok": "timsâh",
+     "tr": "timsah",
+     "emoji": "🐊",
+     "fix": "Franko 'temsah' → 'temsaa7'"
+    },
+    {
+     "ar": "تاج",
+     "fr": "taag",
+     "ok": "tâg",
+     "tr": "taç",
+     "emoji": "👑",
+     "fix": "Okunuş 'tâc' → 'tâg' (Mısır'da ج = g)"
+    },
+    {
+     "ar": "توت",
+     "fr": "toot",
+     "ok": "tût",
+     "tr": "dut",
+     "emoji": "🫐",
+     "fix": "Anlam 'çilek' → 'dut' (çilek = فراولة farawla)"
+    },
+    {
+     "ar": "تليفزيون",
+     "fr": "telefezyoon",
+     "ok": "tilivizyon",
+     "tr": "televizyon",
+     "emoji": "📺",
+     "fix": "Okunuş Mısır telaffuzuna göre düzeltildi"
+    }
+   ]
+  },
+  {
+   "letter": "ث",
+   "name": "Se",
+   "fr": "s/t",
+   "sound": "Fushada İngilizce 'th' (peltek s). Mısır'da günlük kelimelerde 't', alıntı/resmî kelimelerde 's' okunur.",
+   "forms": {
+    "iso": "ث",
+    "ini": "ثـ",
+    "med": "ـثـ",
+    "fin": "ـث"
+   },
+   "words": [
+    {
+     "ar": "ثعبان",
+     "fr": "ta3baan",
+     "ok": "ta'bân",
+     "tr": "yılan",
+     "emoji": "🐍"
+    },
+    {
+     "ar": "ثوم",
+     "fr": "toom",
+     "ok": "tôm",
+     "tr": "sarımsak",
+     "emoji": "🧄",
+     "fix": "Okunuş 'tûm' → 'tôm' (Mısır)"
+    },
+    {
+     "ar": "ثلج",
+     "fr": "talg",
+     "ok": "talg",
+     "tr": "kar / buz",
+     "emoji": "❄️",
+     "fix": "Okunuş 'telc' → 'talg' (Mısır'da ث = t, ج = g)"
+    },
+    {
+     "ar": "ثوب",
+     "fr": "tob",
+     "ok": "tôb",
+     "tr": "elbise / cübbe",
+     "emoji": "👘",
+     "note": "Mısır'da günlük dilde nadir; elbise için 'fostaan' kullanılır.",
+     "fix": "Franko 'thob' → 'tob', okunuş 'sevb' → 'tôb'"
+    },
+    {
+     "ar": "ثعلب",
+     "fr": "ta3lab",
+     "ok": "ta'lab",
+     "tr": "tilki",
+     "emoji": "🦊",
+     "fix": "Okunuş 'ta'leb' → 'ta'lab'"
+    }
+   ]
+  },
+  {
+   "letter": "ج",
+   "name": "Cim",
+   "fr": "g",
+   "sound": "Mısır'da (Kahire) sert 'g' sesi: جمل = gamal. Fushadaki 'c' sesi Mısır'da kullanılmaz.",
+   "forms": {
+    "iso": "ج",
+    "ini": "جـ",
+    "med": "ـجـ",
+    "fin": "ـج"
+   },
+   "words": [
+    {
+     "ar": "جمل",
+     "fr": "gamal",
+     "ok": "gamal",
+     "tr": "deve",
+     "emoji": "🐪",
+     "fix": "Okunuş 'cemel' → 'gamal' (Mısır'da ج = g)"
+    },
+    {
+     "ar": "جبنة",
+     "fr": "gebna",
+     "ok": "gibna",
+     "tr": "peynir",
+     "emoji": "🧀",
+     "fix": "Okunuş 'cibne' → 'gibna'"
+    },
+    {
+     "ar": "جزر",
+     "fr": "gazar",
+     "ok": "gazar",
+     "tr": "havuç",
+     "emoji": "🥕",
+     "fix": "Okunuş 'cezer' → 'gazar'"
+    },
+    {
+     "ar": "جريدة",
+     "fr": "gareeda",
+     "ok": "garîde",
+     "tr": "gazete",
+     "emoji": "📰",
+     "note": "Günlük dilde 'gornaal' (جورنال) de denir.",
+     "fix": "Okunuş 'cerîde' → 'garîde'"
+    },
+    {
+     "ar": "جبل",
+     "fr": "gabal",
+     "ok": "gabal",
+     "tr": "dağ",
+     "emoji": "⛰️",
+     "fix": "Okunuş 'cebel' → 'gabal'"
+    }
+   ]
+  },
+  {
+   "letter": "ح",
+   "name": "Ha",
+   "fr": "7",
+   "sound": "Gırtlaktan, boğazı sıkarak çıkarılan sert ve hırıltısız 'h'. Franko'da 7 ile yazılır.",
+   "forms": {
+    "iso": "ح",
+    "ini": "حـ",
+    "med": "ـحـ",
+    "fin": "ـح"
+   },
+   "words": [
+    {
+     "ar": "حصان",
+     "fr": "7osaan",
+     "ok": "husân",
+     "tr": "at",
+     "emoji": "🐴",
+     "fix": "Franko 'hosan' → '7osaan'"
+    },
+    {
+     "ar": "حوت",
+     "fr": "7oot",
+     "ok": "hût",
+     "tr": "balina",
+     "emoji": "🐋",
+     "fix": "Franko 'hoot' → '7oot'"
+    },
+    {
+     "ar": "حذاء",
+     "fr": "7ezaa2",
+     "ok": "hizâ",
+     "tr": "ayakkabı",
+     "emoji": "👞",
+     "note": "Mısır'da günlük dilde 'gazma' (جزمة) denir.",
+     "fix": "Franko 'hezaa' → '7ezaa2'"
+    },
+    {
+     "ar": "حليب",
+     "fr": "7aleeb",
+     "ok": "halîb",
+     "tr": "süt",
+     "emoji": "🥛",
+     "note": "Mısır'da süt için genelde 'laban' (لبن) denir.",
+     "fix": "Franko 'haleeb' → '7aleeb'"
+    },
+    {
+     "ar": "حقيبة",
+     "fr": "7a2eeba",
+     "ok": "ha'îba",
+     "tr": "çanta",
+     "emoji": "👜",
+     "note": "Mısır'da günlük dilde 'şanta' (شنطة) denir.",
+     "fix": "Franko 'ha2eeba' → '7a2eeba'"
+    }
+   ]
+  },
+  {
+   "letter": "خ",
+   "name": "Hı",
+   "fr": "kh",
+   "sound": "Gırtlaktan hırıltılı 'h' (Almanca 'Bach'taki ch). Franko'da kh veya 5.",
+   "forms": {
+    "iso": "خ",
+    "ini": "خـ",
+    "med": "ـخـ",
+    "fin": "ـخ"
+   },
+   "words": [
+    {
+     "ar": "خبز",
+     "fr": "khobz",
+     "ok": "hubz",
+     "tr": "ekmek",
+     "emoji": "🍞",
+     "note": "Fusha kelime; Mısır'da ekmek 'عيش' (3eesh, 'êş) denir."
+    },
+    {
+     "ar": "خيار",
+     "fr": "kheyaar",
+     "ok": "hiyâr",
+     "tr": "salatalık",
+     "emoji": "🥒",
+     "fix": "Franko 'khyar' → 'kheyaar'"
+    },
+    {
+     "ar": "خروف",
+     "fr": "kharoof",
+     "ok": "harûf",
+     "tr": "koyun",
+     "emoji": "🐑"
+    },
+    {
+     "ar": "خاتم",
+     "fr": "khaatem",
+     "ok": "hâtim",
+     "tr": "yüzük",
+     "emoji": "💍"
+    },
+    {
+     "ar": "خيمة",
+     "fr": "kheema",
+     "ok": "hêma",
+     "tr": "çadır",
+     "emoji": "⛺",
+     "fix": "Okunuş 'hayme' → 'hêma' (Mısır)"
+    }
+   ]
+  },
+  {
+   "letter": "د",
+   "name": "Dal",
+   "fr": "d",
+   "sound": "Türkçe 'd' gibi.",
+   "forms": {
+    "iso": "د",
+    "ini": "د",
+    "med": "ـد",
+    "fin": "ـد"
+   },
+   "words": [
+    {
+     "ar": "دجاجة",
+     "fr": "dagaaga",
+     "ok": "dagâga",
+     "tr": "tavuk",
+     "emoji": "🐔",
+     "note": "Mısır'da günlük dilde 'farkha' (فرخة) daha yaygın.",
+     "fix": "Okunuş 'decâce' → 'dagâga'"
+    },
+    {
+     "ar": "دب",
+     "fr": "dob",
+     "ok": "dubb",
+     "tr": "ayı",
+     "emoji": "🐻"
+    },
+    {
+     "ar": "دراجة",
+     "fr": "darraaga",
+     "ok": "darrâga",
+     "tr": "bisiklet",
+     "emoji": "🚲",
+     "note": "Mısır'da günlük dilde 'agala' (عجلة) denir.",
+     "fix": "Okunuş 'derrâce' → 'darrâga'"
+    },
+    {
+     "ar": "دفتر",
+     "fr": "daftar",
+     "ok": "daftar",
+     "tr": "defter",
+     "emoji": "📓",
+     "fix": "Okunuş 'defter' → 'daftar'"
+    },
+    {
+     "ar": "دواء",
+     "fr": "dawa",
+     "ok": "dava",
+     "tr": "ilaç",
+     "emoji": "💊",
+     "note": "Mısır'da 'دوا' diye yazılır.",
+     "fix": "Okunuş 'devâ' → 'dava'"
+    }
+   ]
+  },
+  {
+   "letter": "ذ",
+   "name": "Zel",
+   "fr": "d/z",
+   "sound": "Fushada İngilizce 'this'teki 'th'. Mısır'da günlük kelimelerde 'd', alıntı/resmî kelimelerde 'z' okunur.",
+   "forms": {
+    "iso": "ذ",
+    "ini": "ذ",
+    "med": "ـذ",
+    "fin": "ـذ"
+   },
+   "words": [
+    {
+     "ar": "ذرة",
+     "fr": "dora",
+     "ok": "dura",
+     "tr": "mısır",
+     "emoji": "🌽",
+     "fix": "Okunuş 'durra' → 'dura' (Mısır)",
+     "note": "ذ burada d okunur."
+    },
+    {
+     "ar": "ذيل",
+     "fr": "deel",
+     "ok": "dêl",
+     "tr": "kuyruk",
+     "emoji": "🐒",
+     "fix": "Okunuş 'zeyl' → 'dêl'; Mısır'da 'ديل' yazılır",
+     "note": "Mısır'da 'ديل' diye de yazılır; ذ burada d okunur."
+    },
+    {
+     "ar": "ذهب",
+     "fr": "dahab",
+     "ok": "dahab",
+     "tr": "altın",
+     "emoji": "🥇",
+     "fix": "Okunuş 'zeheb' → 'dahab'; Mısır'da 'دهب' yazılır",
+     "note": "Mısır'da 'دهب' diye de yazılır; ذ burada d okunur."
+    },
+    {
+     "ar": "ذئب",
+     "fr": "deeb",
+     "ok": "dîb",
+     "tr": "kurt",
+     "emoji": "🐺",
+     "fix": "Okunuş 'zi'b' → 'dîb'; Mısır'da 'ديب' yazılır",
+     "note": "Mısır'da 'ديب' diye de yazılır; ذ burada d okunur."
+    },
+    {
+     "ar": "ذبابة",
+     "fr": "debbaana",
+     "ok": "dibbâna",
+     "tr": "sinek",
+     "emoji": "🪰",
+     "fix": "Franko 'debbana', okunuş 'zübâbe' → 'dibbâna'; Mısır'da 'دبانة' yazılır",
+     "note": "Mısır'da 'دبانة' diye de yazılır; ذ burada d okunur."
+    }
+   ]
+  },
+  {
+   "letter": "ر",
+   "name": "Ra",
+   "fr": "r",
+   "sound": "Türkçe 'r' gibi, dilin ucu titretilerek.",
+   "forms": {
+    "iso": "ر",
+    "ini": "ر",
+    "med": "ـر",
+    "fin": "ـر"
+   },
+   "words": [
+    {
+     "ar": "راجل",
+     "fr": "raagel",
+     "ok": "râgil",
+     "tr": "adam",
+     "emoji": "👨",
+     "fix": "Kaynakta 'رجل' (râcil); Mısır'da 'راجل' râgil"
+    },
+    {
+     "ar": "راديو",
+     "fr": "radyo",
+     "ok": "radyo",
+     "tr": "radyo",
+     "emoji": "📻"
+    },
+    {
+     "ar": "ريشة",
+     "fr": "reesha",
+     "ok": "rîşa",
+     "tr": "tüy",
+     "emoji": "🪶"
+    },
+    {
+     "ar": "رسالة",
+     "fr": "resaala",
+     "ok": "risâla",
+     "tr": "mektup",
+     "emoji": "✉️",
+     "fix": "Okunuş 'risâle' → 'risâla'"
+    },
+    {
+     "ar": "راس",
+     "fr": "raas",
+     "ok": "râs",
+     "tr": "baş / kafa",
+     "emoji": "🗣️",
+     "fix": "Kaynakta 'رأس' (re's); Mısır'da 'راس' râs"
+    }
+   ]
+  },
+  {
+   "letter": "ز",
+   "name": "Ze",
+   "fr": "z",
+   "sound": "Türkçe 'z' gibi.",
+   "forms": {
+    "iso": "ز",
+    "ini": "ز",
+    "med": "ـز",
+    "fin": "ـز"
+   },
+   "words": [
+    {
+     "ar": "زرافة",
+     "fr": "zaraafa",
+     "ok": "zarâfa",
+     "tr": "zürafa",
+     "emoji": "🦒",
+     "fix": "Okunuş 'zerâfe' → 'zarâfa'"
+    },
+    {
+     "ar": "زهرة",
+     "fr": "zahra",
+     "ok": "zahra",
+     "tr": "çiçek",
+     "emoji": "🌸"
+    },
+    {
+     "ar": "زبدة",
+     "fr": "zebda",
+     "ok": "zibda",
+     "tr": "tereyağı",
+     "emoji": "🧈",
+     "fix": "Okunuş 'zibde' → 'zibda'"
+    },
+    {
+     "ar": "زجاجة",
+     "fr": "ezaaza",
+     "ok": "izâza",
+     "tr": "şişe",
+     "emoji": "🍾",
+     "note": "Mısır'da 'إزازة' (ezaaza) denir; ج/ز düşer.",
+     "fix": "Okunuş 'izâze' → 'izâza'"
+    },
+    {
+     "ar": "زيتون",
+     "fr": "zatoon",
+     "ok": "zatûn",
+     "tr": "zeytin",
+     "emoji": "🫒",
+     "fix": "Okunuş 'zeytûn' → 'zatûn' (Mısır)"
+    }
+   ]
+  },
+  {
+   "letter": "س",
+   "name": "Sin",
+   "fr": "s",
+   "sound": "Türkçe 's' gibi.",
+   "forms": {
+    "iso": "س",
+    "ini": "سـ",
+    "med": "ـسـ",
+    "fin": "ـس"
+   },
+   "words": [
+    {
+     "ar": "سمكة",
+     "fr": "samaka",
+     "ok": "samaka",
+     "tr": "balık",
+     "emoji": "🐟",
+     "fix": "Okunuş 'semeke' → 'samaka'"
+    },
+    {
+     "ar": "سيارة",
+     "fr": "sayyaara",
+     "ok": "sayyâra",
+     "tr": "araba",
+     "emoji": "🚗",
+     "note": "Mısır'da günlük dilde 'arabiyya' (عربية) denir.",
+     "fix": "Okunuş 'seyyâre' → 'sayyâra'"
+    },
+    {
+     "ar": "سرير",
+     "fr": "sereer",
+     "ok": "sirîr",
+     "tr": "yatak",
+     "emoji": "🛏️",
+     "fix": "Okunuş 'serîr' → 'sirîr'"
+    },
+    {
+     "ar": "سكر",
+     "fr": "sokkar",
+     "ok": "sukkar",
+     "tr": "şeker",
+     "emoji": "🍬",
+     "fix": "Okunuş 'sükker' → 'sukkar'"
+    },
+    {
+     "ar": "ساعة",
+     "fr": "saa3a",
+     "ok": "sâ'a",
+     "tr": "saat",
+     "emoji": "⌚"
+    }
+   ]
+  },
+  {
+   "letter": "ش",
+   "name": "Şın",
+   "fr": "sh",
+   "sound": "Türkçe 'ş' gibi. Franko'da sh veya ch.",
+   "forms": {
+    "iso": "ش",
+    "ini": "شـ",
+    "med": "ـشـ",
+    "fin": "ـش"
+   },
+   "words": [
+    {
+     "ar": "شمس",
+     "fr": "shams",
+     "ok": "şams",
+     "tr": "güneş",
+     "emoji": "☀️",
+     "fix": "Okunuş 'şems' → 'şams'"
+    },
+    {
+     "ar": "شجرة",
+     "fr": "shagara",
+     "ok": "şagara",
+     "tr": "ağaç",
+     "emoji": "🌳",
+     "fix": "Okunuş 'şecere' → 'şagara'"
+    },
+    {
+     "ar": "شنطة",
+     "fr": "shanta",
+     "ok": "şanta",
+     "tr": "çanta",
+     "emoji": "👜"
+    },
+    {
+     "ar": "شوكة",
+     "fr": "shoka",
+     "ok": "şôka",
+     "tr": "çatal",
+     "emoji": "🍴",
+     "fix": "Okunuş 'şevke' → 'şôka'"
+    },
+    {
+     "ar": "شاي",
+     "fr": "shaay",
+     "ok": "şây",
+     "tr": "çay",
+     "emoji": "🍵"
+    }
+   ]
+  },
+  {
+   "letter": "ص",
+   "name": "Sad",
+   "fr": "s",
+   "sound": "Kalın (vurgulu) 's'; ağız kalınlaştırılarak söylenir, yanındaki ünlüler kalın (a, o, u) çıkar.",
+   "forms": {
+    "iso": "ص",
+    "ini": "صـ",
+    "med": "ـصـ",
+    "fin": "ـص"
+   },
+   "words": [
+    {
+     "ar": "صورة",
+     "fr": "soora",
+     "ok": "sûra",
+     "tr": "resim / fotoğraf",
+     "emoji": "🖼️"
+    },
+    {
+     "ar": "صابون",
+     "fr": "saboon",
+     "ok": "sabûn",
+     "tr": "sabun",
+     "emoji": "🧼"
+    },
+    {
+     "ar": "صندوق",
+     "fr": "sandoo2",
+     "ok": "sandû'",
+     "tr": "kutu",
+     "emoji": "📦",
+     "fix": "Okunuş 'sandûk' → 'sandû'' (Kahire'de ق = hemze)"
+    },
+    {
+     "ar": "صقر",
+     "fr": "sa2r",
+     "ok": "sa'r",
+     "tr": "şahin",
+     "emoji": "🦅",
+     "fix": "Okunuş 'sakr' → 'sa'r'"
+    },
+    {
+     "ar": "صحن",
+     "fr": "sa7n",
+     "ok": "sahn",
+     "tr": "tabak",
+     "emoji": "🍽️",
+     "fix": "Franko 'sahn' → 'sa7n'"
+    }
+   ]
+  },
+  {
+   "letter": "ض",
+   "name": "Dad",
+   "fr": "d",
+   "sound": "Kalın (vurgulu) 'd'. Bazı alıntı kelimelerde 'z' okunur (ضابط = zâbit).",
+   "forms": {
+    "iso": "ض",
+    "ini": "ضـ",
+    "med": "ـضـ",
+    "fin": "ـض"
+   },
+   "words": [
+    {
+     "ar": "ضفدع",
+     "fr": "dofda3",
+     "ok": "dufda'",
+     "tr": "kurbağa",
+     "emoji": "🐸",
+     "note": "Mısır'da 'ڤروجة'/'ضفدعة' de denir.",
+     "fix": "Okunuş 'difda'' → 'dufda''"
+    },
+    {
+     "ar": "ضوء",
+     "fr": "daw2",
+     "ok": "daw'",
+     "tr": "ışık",
+     "emoji": "💡",
+     "note": "Mısır'da günlük dilde 'nûr' (نور) denir.",
+     "fix": "Franko 'dow2' → 'daw2'"
+    },
+    {
+     "ar": "ضابط",
+     "fr": "zaabet",
+     "ok": "zâbit",
+     "tr": "subay",
+     "emoji": "👮",
+     "note": "Burada ض, 'z' okunur.",
+     "fix": "Franko 'dabet' → 'zaabet'"
+    },
+    {
+     "ar": "ضيف",
+     "fr": "deef",
+     "ok": "dêf",
+     "tr": "misafir",
+     "emoji": "🧳",
+     "fix": "Okunuş 'dayf' → 'dêf' (Mısır)"
+    },
+    {
+     "ar": "ضرس",
+     "fr": "ders",
+     "ok": "dirs",
+     "tr": "azı dişi",
+     "emoji": "🦷",
+     "fix": "Okunuş 'dırs' → 'dirs'"
+    }
+   ]
+  },
+  {
+   "letter": "ط",
+   "name": "Tı",
+   "fr": "t",
+   "sound": "Kalın (vurgulu) 't'; yanındaki ünlüler kalın çıkar.",
+   "forms": {
+    "iso": "ط",
+    "ini": "طـ",
+    "med": "ـطـ",
+    "fin": "ـط"
+   },
+   "words": [
+    {
+     "ar": "طيارة",
+     "fr": "tayyaara",
+     "ok": "tayyâra",
+     "tr": "uçak",
+     "emoji": "✈️",
+     "fix": "Kaynakta 'طائرة' (Fusha); Mısır'da 'طيارة' tayyâra"
+    },
+    {
+     "ar": "طبيب",
+     "fr": "tabeeb",
+     "ok": "tabîb",
+     "tr": "doktor",
+     "emoji": "🩺",
+     "note": "Mısır'da günlük dilde 'doktoor' (دكتور) denir."
+    },
+    {
+     "ar": "طماطم",
+     "fr": "tamaatem",
+     "ok": "tamâtim",
+     "tr": "domates",
+     "emoji": "🍅",
+     "note": "Mısır'da sık sık 'ota' (أوطة) de denir."
+    },
+    {
+     "ar": "طفل",
+     "fr": "tefl",
+     "ok": "tifl",
+     "tr": "bebek / çocuk",
+     "emoji": "👶",
+     "fix": "Okunuş 'tıfl' → 'tifl'"
+    },
+    {
+     "ar": "طاووس",
+     "fr": "tawoos",
+     "ok": "tâvûs",
+     "tr": "tavus kuşu",
+     "emoji": "🦚"
+    }
+   ]
+  },
+  {
+   "letter": "ظ",
+   "name": "Zı",
+   "fr": "z/d",
+   "sound": "Kalın 'z'. Mısır'da günlük kelimelerde kalın 'd' (ض gibi) okunur: ظهر = dahr; alıntılarda 'z'.",
+   "forms": {
+    "iso": "ظ",
+    "ini": "ظـ",
+    "med": "ـظـ",
+    "fin": "ـظ"
+   },
+   "words": [
+    {
+     "ar": "ظرف",
+     "fr": "zarf",
+     "ok": "zarf",
+     "tr": "zarf",
+     "emoji": "✉️"
+    },
+    {
+     "ar": "ظل",
+     "fr": "dell",
+     "ok": "dill",
+     "tr": "gölge",
+     "emoji": "🌳",
+     "fix": "Franko 'zel2' → 'dell', okunuş 'zıll' → 'dill'",
+     "note": "Mısır'da 'ضل' diye de yazılır; ظ burada kalın d okunur."
+    },
+    {
+     "ar": "ظفر",
+     "fr": "dofr",
+     "ok": "dufr",
+     "tr": "tırnak",
+     "emoji": "💅",
+     "fix": "Franko 'zofr' → 'dofr', okunuş 'zufr' → 'dufr'",
+     "note": "Mısır'da 'ضفر' diye de yazılır; ظ burada kalın d okunur."
+    },
+    {
+     "ar": "ظبي",
+     "fr": "zabi",
+     "ok": "zabi",
+     "tr": "ceylan",
+     "emoji": "🦌"
+    },
+    {
+     "ar": "ظهر",
+     "fr": "dahr",
+     "ok": "dahr",
+     "tr": "sırt",
+     "emoji": "🧍",
+     "fix": "Franko 'zahr2' → 'dahr'",
+     "note": "Mısır'da 'ضهر' diye de yazılır; ظ burada kalın d okunur."
+    }
+   ]
+  },
+  {
+   "letter": "ع",
+   "name": "Ayn",
+   "fr": "3",
+   "sound": "Gırtlaktan sıkıştırılarak çıkarılan ses; Türkçede yoktur. Franko'da 3, okunuşta ' ile gösterilir.",
+   "forms": {
+    "iso": "ع",
+    "ini": "عـ",
+    "med": "ـعـ",
+    "fin": "ـع"
+   },
+   "words": [
+    {
+     "ar": "عين",
+     "fr": "3een",
+     "ok": "'ên",
+     "tr": "göz",
+     "emoji": "👁️",
+     "fix": "Franko 'ein' → '3een', okunuş 'ayn' → ''ên'"
+    },
+    {
+     "ar": "عصفور",
+     "fr": "3asfoor",
+     "ok": "'asfûr",
+     "tr": "kuş",
+     "emoji": "🐦",
+     "fix": "Okunuş 'usfûr' → ''asfûr'"
+    },
+    {
+     "ar": "عسل",
+     "fr": "3asal",
+     "ok": "'asal",
+     "tr": "bal",
+     "emoji": "🍯",
+     "fix": "Okunuş 'asel' → ''asal'"
+    },
+    {
+     "ar": "عربية",
+     "fr": "3arabeyya",
+     "ok": "'arabiyya",
+     "tr": "araba",
+     "emoji": "🚗",
+     "fix": "Franko '3arabeya' → '3arabeyya'"
+    },
+    {
+     "ar": "عنب",
+     "fr": "3enab",
+     "ok": "'inab",
+     "tr": "üzüm",
+     "emoji": "🍇",
+     "fix": "Okunuş 'ineb' → ''inab'"
+    }
+   ]
+  },
+  {
+   "letter": "غ",
+   "name": "Gayn",
+   "fr": "gh",
+   "sound": "Gırtlaktan hırıltılı 'ğ' (Fransızca 'r' gibi). Franko'da gh veya 8.",
+   "forms": {
+    "iso": "غ",
+    "ini": "غـ",
+    "med": "ـغـ",
+    "fin": "ـغ"
+   },
+   "words": [
+    {
+     "ar": "غراب",
+     "fr": "ghoraab",
+     "ok": "ğurâb",
+     "tr": "karga",
+     "emoji": "🐦‍⬛"
+    },
+    {
+     "ar": "غيمة",
+     "fr": "gheema",
+     "ok": "ğêma",
+     "tr": "bulut",
+     "emoji": "☁️",
+     "note": "Mısır'da 'sa7aaba' (سحابة) da denir.",
+     "fix": "Franko 'ghayma' → 'gheema'"
+    },
+    {
+     "ar": "غرفة",
+     "fr": "ghorfa",
+     "ok": "ğurfa",
+     "tr": "oda",
+     "emoji": "🛏️",
+     "note": "Mısır'da günlük dilde 'ôda' (أوضة) denir.",
+     "fix": "Okunuş 'gurfe' → 'ğurfa'"
+    },
+    {
+     "ar": "غسالة",
+     "fr": "ghassaala",
+     "ok": "ğassâla",
+     "tr": "çamaşır makinesi",
+     "emoji": "🧺",
+     "fix": "Okunuş 'ğassâle' → 'ğassâla'"
+    },
+    {
+     "ar": "غابة",
+     "fr": "ghaaba",
+     "ok": "ğâba",
+     "tr": "orman",
+     "emoji": "🌲",
+     "fix": "Okunuş 'ğâbe' → 'ğâba'"
+    }
+   ]
+  },
+  {
+   "letter": "ف",
+   "name": "Fe",
+   "fr": "f",
+   "sound": "Türkçe 'f' gibi. Mısır'da 'v' yoktur; yabancı kelimelerde 'v' bazen ڤ ile yazılır.",
+   "forms": {
+    "iso": "ف",
+    "ini": "فـ",
+    "med": "ـفـ",
+    "fin": "ـف"
+   },
+   "words": [
+    {
+     "ar": "فيل",
+     "fr": "feel",
+     "ok": "fîl",
+     "tr": "fil",
+     "emoji": "🐘"
+    },
+    {
+     "ar": "فراشة",
+     "fr": "faraasha",
+     "ok": "farâşa",
+     "tr": "kelebek",
+     "emoji": "🦋",
+     "fix": "Okunuş 'firâşe' → 'farâşa'"
+    },
+    {
+     "ar": "فستان",
+     "fr": "fostaan",
+     "ok": "fustân",
+     "tr": "elbise",
+     "emoji": "👗"
+    },
+    {
+     "ar": "فار",
+     "fr": "faar",
+     "ok": "fâr",
+     "tr": "fare",
+     "emoji": "🐭",
+     "fix": "Kaynakta 'فأر' (fe'r); Mısır'da 'فار' fâr"
+    },
+    {
+     "ar": "فرن",
+     "fr": "forn",
+     "ok": "furn",
+     "tr": "fırın",
+     "emoji": "🔥",
+     "fix": "Okunuş 'fırn' → 'furn'"
+    }
+   ]
+  },
+  {
+   "letter": "ق",
+   "name": "Kaf",
+   "fr": "2",
+   "sound": "Fushada gırtlak dibinden kalın 'k'. Kahire'de hemze (gırtlak durağı) okunur: قلم = 2alam ('alam). Franko'da 2.",
+   "forms": {
+    "iso": "ق",
+    "ini": "قـ",
+    "med": "ـقـ",
+    "fin": "ـق"
+   },
+   "words": [
+    {
+     "ar": "قطة",
+     "fr": "2otta",
+     "ok": "'utta",
+     "tr": "kedi",
+     "emoji": "🐱",
+     "fix": "Okunuş 'kutta' → ''utta' (Kahire'de ق = hemze)"
+    },
+    {
+     "ar": "قلم",
+     "fr": "2alam",
+     "ok": "'alam",
+     "tr": "kalem",
+     "emoji": "✏️",
+     "fix": "Okunuş 'kalem' → ''alam'"
+    },
+    {
+     "ar": "قمر",
+     "fr": "2amar",
+     "ok": "'amar",
+     "tr": "ay",
+     "emoji": "🌙",
+     "fix": "Okunuş 'kamer' → ''amar'"
+    },
+    {
+     "ar": "قميص",
+     "fr": "2amees",
+     "ok": "'amîs",
+     "tr": "gömlek",
+     "emoji": "👔",
+     "fix": "Okunuş 'kamîs' → ''amîs'"
+    },
+    {
+     "ar": "قرد",
+     "fr": "2erd",
+     "ok": "'ird",
+     "tr": "maymun",
+     "emoji": "🐒",
+     "fix": "Okunuş 'kırd' → ''ird'"
+    }
+   ]
+  },
+  {
+   "letter": "ك",
+   "name": "Kef",
+   "fr": "k",
+   "sound": "İnce Türkçe 'k' gibi (kedi'deki k).",
+   "forms": {
+    "iso": "ك",
+    "ini": "كـ",
+    "med": "ـكـ",
+    "fin": "ـك"
+   },
+   "words": [
+    {
+     "ar": "كتاب",
+     "fr": "ketaab",
+     "ok": "kitâb",
+     "tr": "kitap",
+     "emoji": "📖"
+    },
+    {
+     "ar": "كرسي",
+     "fr": "korsy",
+     "ok": "kursi",
+     "tr": "sandalye",
+     "emoji": "🪑",
+     "fix": "Okunuş 'kürsî' → 'kursi'"
+    },
+    {
+     "ar": "كلب",
+     "fr": "kalb",
+     "ok": "kalb",
+     "tr": "köpek",
+     "emoji": "🐕",
+     "fix": "Okunuş 'kelb' → 'kalb'"
+    },
+    {
+     "ar": "كوب",
+     "fr": "koob",
+     "ok": "kûb",
+     "tr": "bardak",
+     "emoji": "🥤",
+     "note": "Mısır'da günlük dilde 'kubbâya' (كوباية) denir."
+    },
+    {
+     "ar": "كورة",
+     "fr": "kora",
+     "ok": "kôra",
+     "tr": "top",
+     "emoji": "⚽",
+     "fix": "Kaynakta 'كرة' (küre); Mısır'da 'كورة' kôra"
+    }
+   ]
+  },
+  {
+   "letter": "ل",
+   "name": "Lam",
+   "fr": "l",
+   "sound": "Türkçe 'l' gibi. 'Allah' kelimesinde kalın okunur. ل + ا birleşince 'لا' yazılır.",
+   "forms": {
+    "iso": "ل",
+    "ini": "لـ",
+    "med": "ـلـ",
+    "fin": "ـل"
+   },
+   "words": [
+    {
+     "ar": "لعبة",
+     "fr": "le3ba",
+     "ok": "li'ba",
+     "tr": "oyuncak",
+     "emoji": "🧸",
+     "fix": "Franko 'lo3ba' → 'le3ba', okunuş 'lu'be' → 'li'ba'"
+    },
+    {
+     "ar": "لمون",
+     "fr": "lamoon",
+     "ok": "lamûn",
+     "tr": "limon",
+     "emoji": "🍋",
+     "fix": "Kaynakta 'ليمون'; Mısır'da 'لمون' lamûn"
+    },
+    {
+     "ar": "لبن",
+     "fr": "laban",
+     "ok": "laban",
+     "tr": "süt",
+     "emoji": "🥛",
+     "note": "Mısır'da 'laban' süt demektir.",
+     "fix": "Okunuş 'leben' → 'laban'"
+    },
+    {
+     "ar": "لسان",
+     "fr": "lesaan",
+     "ok": "lisân",
+     "tr": "dil",
+     "emoji": "👅"
+    },
+    {
+     "ar": "لوحة",
+     "fr": "law7a",
+     "ok": "lôha",
+     "tr": "tablo",
+     "emoji": "🖼️",
+     "fix": "Franko 'lawha' → 'law7a', okunuş 'levha' → 'lôha'"
+    }
+   ]
+  },
+  {
+   "letter": "م",
+   "name": "Mim",
+   "fr": "m",
+   "sound": "Türkçe 'm' gibi.",
+   "forms": {
+    "iso": "م",
+    "ini": "مـ",
+    "med": "ـمـ",
+    "fin": "ـم"
+   },
+   "words": [
+    {
+     "ar": "موز",
+     "fr": "mooz",
+     "ok": "môz",
+     "tr": "muz",
+     "emoji": "🍌",
+     "fix": "Okunuş 'mûz' → 'môz' (Mısır)"
+    },
+    {
+     "ar": "مدرسة",
+     "fr": "madrasa",
+     "ok": "madrasa",
+     "tr": "okul",
+     "emoji": "🏫",
+     "fix": "Okunuş 'medrese' → 'madrasa'"
+    },
+    {
+     "ar": "مفتاح",
+     "fr": "mofta7",
+     "ok": "muftâh",
+     "tr": "anahtar",
+     "emoji": "🔑",
+     "fix": "Franko 'moftah' → 'mofta7', okunuş 'miftâh' → 'muftâh'"
+    },
+    {
+     "ar": "مطر",
+     "fr": "matar",
+     "ok": "matar",
+     "tr": "yağmur",
+     "emoji": "🌧️",
+     "note": "Mısır'da yağmur için 'matara' (مطرة) da denir."
+    },
+    {
+     "ar": "مراية",
+     "fr": "maraaya",
+     "ok": "marâya",
+     "tr": "ayna",
+     "emoji": "🪞",
+     "fix": "Kaynakta 'مرآة' (mir'ât); Mısır'da 'مراية' marâya"
+    }
+   ]
+  },
+  {
+   "letter": "ن",
+   "name": "Nun",
+   "fr": "n",
+   "sound": "Türkçe 'n' gibi.",
+   "forms": {
+    "iso": "ن",
+    "ini": "نـ",
+    "med": "ـنـ",
+    "fin": "ـن"
+   },
+   "words": [
+    {
+     "ar": "نجمة",
+     "fr": "negma",
+     "ok": "nigma",
+     "tr": "yıldız",
+     "emoji": "⭐",
+     "fix": "Okunuş 'necme' → 'nigma'"
+    },
+    {
+     "ar": "نمر",
+     "fr": "nemr",
+     "ok": "nimr",
+     "tr": "kaplan",
+     "emoji": "🐅",
+     "fix": "Okunuş 'nemr' → 'nimr'"
+    },
+    {
+     "ar": "نظارة",
+     "fr": "naddaara",
+     "ok": "naddâra",
+     "tr": "gözlük",
+     "emoji": "👓",
+     "fix": "Franko 'nazzara' → 'naddaara'; Mısır'da 'نضارة' yazılır",
+     "note": "Mısır'da 'نضارة' diye de yazılır."
+    },
+    {
+     "ar": "نار",
+     "fr": "naar",
+     "ok": "nâr",
+     "tr": "ateş",
+     "emoji": "🔥"
+    },
+    {
+     "ar": "نافذة",
+     "fr": "nafza",
+     "ok": "nâfza",
+     "tr": "pencere",
+     "emoji": "🪟",
+     "note": "Fusha kelime; Mısır'da pencere 'şibbâk' (شباك) denir.",
+     "fix": "Okunuş 'nâfize' → 'nâfza'"
+    }
+   ]
+  },
+  {
+   "letter": "ه",
+   "name": "He",
+   "fr": "h",
+   "sound": "Türkçe 'h' gibi, hafif nefesli. Kelime sonunda 'ة' (ta marbuta) da 'a/e' okunur.",
+   "forms": {
+    "iso": "ه",
+    "ini": "هـ",
+    "med": "ـهـ",
+    "fin": "ـه"
+   },
+   "words": [
+    {
+     "ar": "هرم",
+     "fr": "haram",
+     "ok": "haram",
+     "tr": "piramit",
+     "emoji": "🔺",
+     "fix": "Okunuş 'herem' → 'haram'"
+    },
+    {
+     "ar": "هدية",
+     "fr": "hedeyya",
+     "ok": "hidiyya",
+     "tr": "hediye",
+     "emoji": "🎁",
+     "fix": "Franko 'hedaya' → 'hedeyya', okunuş 'hediyye' → 'hidiyya'"
+    },
+    {
+     "ar": "هاتف",
+     "fr": "haatef",
+     "ok": "hâtif",
+     "tr": "telefon",
+     "emoji": "📞",
+     "note": "Mısır'da günlük dilde 'tilifôn' (تليفون) veya 'mobâyl' denir."
+    },
+    {
+     "ar": "هلال",
+     "fr": "helaal",
+     "ok": "hilâl",
+     "tr": "hilal",
+     "emoji": "🌙"
+    },
+    {
+     "ar": "هوا",
+     "fr": "hawa",
+     "ok": "hava",
+     "tr": "hava",
+     "emoji": "🌬️",
+     "fix": "Kaynakta 'هواء' (hevâ); Mısır'da 'هوا' hava"
+    }
+   ]
+  },
+  {
+   "letter": "و",
+   "name": "Vav",
+   "fr": "w",
+   "sound": "İngilizce 'w' gibi; ünlü olarak uzun 'u/o' (û, ô) sesi verir. Soldaki harfe bağlanmaz.",
+   "forms": {
+    "iso": "و",
+    "ini": "و",
+    "med": "ـو",
+    "fin": "ـو"
+   },
+   "words": [
+    {
+     "ar": "وردة",
+     "fr": "warda",
+     "ok": "warda",
+     "tr": "gül",
+     "emoji": "🌹",
+     "fix": "Okunuş 'verde' → 'warda'"
+    },
+    {
+     "ar": "وزة",
+     "fr": "wezza",
+     "ok": "wizza",
+     "tr": "kaz",
+     "emoji": "🪿",
+     "fix": "Okunuş 'vizze' → 'wizza'"
+    },
+    {
+     "ar": "ولد",
+     "fr": "walad",
+     "ok": "walad",
+     "tr": "erkek çocuk",
+     "emoji": "👦",
+     "fix": "Okunuş 'veled' → 'walad'"
+    },
+    {
+     "ar": "وسادة",
+     "fr": "wesaada",
+     "ok": "wisâda",
+     "tr": "yastık",
+     "emoji": "🛌",
+     "note": "Mısır'da günlük dilde 'mahadda' (مخدة) denir.",
+     "fix": "Okunuş 'visâde' → 'wisâda'"
+    },
+    {
+     "ar": "وادي",
+     "fr": "waady",
+     "ok": "wâdi",
+     "tr": "vadi",
+     "emoji": "🏞️",
+     "fix": "Okunuş 'vâdî' → 'wâdi'"
+    }
+   ]
+  },
+  {
+   "letter": "ي",
+   "name": "Ye",
+   "fr": "y",
+   "sound": "Türkçe 'y' gibi; ünlü olarak uzun 'i/e' (î, ê) sesi verir. Mısır'da sonda noktasız (ى) da yazılır.",
+   "forms": {
+    "iso": "ي",
+    "ini": "يـ",
+    "med": "ـيـ",
+    "fin": "ـي"
+   },
+   "words": [
+    {
+     "ar": "يد",
+     "fr": "eed",
+     "ok": "îd",
+     "tr": "el",
+     "emoji": "✋",
+     "note": "Fusha yazım; Mısır'da 'إيد' (eed, îd) denir.",
+     "fix": "Okunuş 'yed' → 'îd' (Mısır)"
+    },
+    {
+     "ar": "يوسفي",
+     "fr": "yosafy",
+     "ok": "yusafi",
+     "tr": "mandalina",
+     "emoji": "🍊",
+     "fix": "Okunuş 'yûsufî' → 'yusafi'"
+    },
+    {
+     "ar": "ياسمين",
+     "fr": "yasmeen",
+     "ok": "yasmîn",
+     "tr": "yasemin",
+     "emoji": "🌼",
+     "fix": "Okunuş 'yâsemîn' → 'yasmîn'"
+    },
+    {
+     "ar": "يخت",
+     "fr": "yakht",
+     "ok": "yaht",
+     "tr": "yat",
+     "emoji": "🛥️"
+    },
+    {
+     "ar": "يمامة",
+     "fr": "yamaama",
+     "ok": "yamâma",
+     "tr": "kumru",
+     "emoji": "🕊️",
+     "fix": "Okunuş 'yemâme' → 'yamâma'"
+    }
+   ]
+  }
+ ]
+}

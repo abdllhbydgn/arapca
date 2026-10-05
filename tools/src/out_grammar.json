@@ -1,0 +1,4488 @@
+{
+ "lessons": [
+  {
+   "id": "okuma-rehberi",
+   "title": "Franko ve okunuş rehberi",
+   "emoji": "🔤",
+   "summary": "Franko rakam-harfleri ve rehberdeki okunuş işaretleri",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Her örnekte sırayla: Arapça → Franko → Türkçe okunuş → Türkçe anlam. aa / ee / oo = uzun ünlü (â / î / û). (e) = erkeğe / erkek konuşuyor, (k) = kadına / kadın konuşuyor."
+    },
+    {
+     "type": "table",
+     "head": [
+      "Franko",
+      "Arapça harf",
+      "Okunuş"
+     ],
+     "rows": [
+      [
+       "2",
+       "ق / ء",
+       "’ hemze (Kahire'de ق de hemze okunur)"
+      ],
+      [
+       "3",
+       "ع",
+       "ʿ boğaz sesi"
+      ],
+      [
+       "7",
+       "ح",
+       "hh (sert h)"
+      ],
+      [
+       "kh",
+       "خ",
+       "kh (hırıltılı h)"
+      ],
+      [
+       "t",
+       "ط",
+       "t (kalın)"
+      ],
+      [
+       "s",
+       "ص",
+       "s (kalın)"
+      ],
+      [
+       "gh",
+       "غ",
+       "ğ"
+      ],
+      [
+       "sh",
+       "ش",
+       "ş"
+      ]
+     ]
+    },
+    {
+     "type": "tip",
+     "text": "Kaynak PDF'te خ için 5, ط için 6, ص için 9 kullanılmıştı; portalda tutarlılık için kh, t, s yazıldı."
+    }
+   ]
+  },
+  {
+   "id": "simdiki-genis-zaman",
+   "title": "Şimdiki / geniş zaman (bi- öneki)",
+   "emoji": "⏳",
+   "summary": "bi- + kişi öneki + kök: hem 'içiyorum' hem 'içerim'",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Mısır Arapçasında şimdiki zaman ve geniş zaman aynı yapıdadır: بشرب (bashrab) hem “içiyorum” hem “içerim” demektir. Zamanı bağlam ve zarflar (dilwa2ti = şimdi, kull yoom = her gün) belirler. Örnek: بروح baruu7 = gidiyorum / giderim."
+    },
+    {
+     "type": "text",
+     "text": "Formül: bi- + kişi öneki + kök. Ön ekler: a- (ben), ti- (sen, o kadın), yi- (o erkek), ni- (biz); sona -i (sen kadın), -u (siz, onlar). Olumsuz: ma- + fiil + -sh."
+    },
+    {
+     "type": "tip",
+     "text": "bi- düşer: عايز (istiyor), لازم (gerek), ممكن (olur mu), عشان (için), يلا (hadi), نفسي (çok isterim) sonrasında fiil bi- almadan gelir."
+    },
+    {
+     "type": "table",
+     "title": "Fiil bankası: 24 temel fiil (geçmiş o e → şimdiki ben)",
+     "head": [
+      "Geçmiş (o e)",
+      "Şimdiki (ben)",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "كتب",
+       "بكتب",
+       "katab / baktib",
+       "katab / baktib",
+       "yazmak"
+      ],
+      [
+       "شرب",
+       "بشرب",
+       "shirib / bashrab",
+       "şirib / başrab",
+       "içmek"
+      ],
+      [
+       "أكل",
+       "باكل",
+       "akal / baakul",
+       "akal / bâkul",
+       "yemek"
+      ],
+      [
+       "راح",
+       "بروح",
+       "raa7 / baruu7",
+       "râhh / barûhh",
+       "gitmek"
+      ],
+      [
+       "جه",
+       "باجي",
+       "gih / baagi",
+       "gih / bâgi",
+       "gelmek"
+      ],
+      [
+       "عمل",
+       "بعمل",
+       "3amal / ba3mil",
+       "ʿamal / baʿmil",
+       "yapmak"
+      ],
+      [
+       "شاف",
+       "بشوف",
+       "shaaf / bashuuf",
+       "şâf / başûf",
+       "görmek"
+      ],
+      [
+       "فتح",
+       "بفتح",
+       "fata7 / bafta7",
+       "fatahh / baftahh",
+       "açmak"
+      ],
+      [
+       "قفل",
+       "بقفل",
+       "2afal / ba2fil",
+       "’afal / ba’fil",
+       "kapatmak"
+      ],
+      [
+       "اشتغل",
+       "بشتغل",
+       "ishtaghal / bashtaghal",
+       "iştağal / baştağal",
+       "çalışmak (iş)"
+      ],
+      [
+       "دخل",
+       "بدخل",
+       "dakhal / badkhul",
+       "dakhal / badkhul",
+       "girmek"
+      ],
+      [
+       "خرج",
+       "بخرج",
+       "kharag / bakhrug",
+       "kharag / bakhrug",
+       "çıkmak"
+      ],
+      [
+       "نام",
+       "بنام",
+       "naam / banaam",
+       "nâm / banâm",
+       "uyumak"
+      ],
+      [
+       "اشترى",
+       "بشتري",
+       "ishtara / bashtiri",
+       "iştara / baştiri",
+       "satın almak"
+      ],
+      [
+       "كلّم",
+       "بكلّم",
+       "kallim / bakallim",
+       "kallim / bakallim",
+       "konuşmak, aramak"
+      ],
+      [
+       "فهم",
+       "بفهم",
+       "fihim / bafham",
+       "fihim / bafham",
+       "anlamak"
+      ],
+      [
+       "عرف",
+       "بعرف",
+       "3irif / ba3raf",
+       "ʿirif / baʿraf",
+       "bilmek"
+      ],
+      [
+       "حبّ",
+       "بحبّ",
+       "7abb / ba7ibb",
+       "hhabb / bahhibb",
+       "sevmek"
+      ],
+      [
+       "سافر",
+       "بسافر",
+       "saafir / basaafir",
+       "sâfir / basâfir",
+       "seyahat etmek"
+      ],
+      [
+       "ذاكر",
+       "بذاكر",
+       "zaakir / bazaakir",
+       "zâkir / bazâkir",
+       "ders çalışmak"
+      ],
+      [
+       "طبخ",
+       "بطبخ",
+       "tabakh / batbukh",
+       "tabakh / batbukh",
+       "yemek pişirmek"
+      ],
+      [
+       "لعب",
+       "بلعب",
+       "li3ib / bal3ab",
+       "liʿib / balʿab",
+       "oynamak"
+      ],
+      [
+       "نسي",
+       "بنسى",
+       "nisi / bansa",
+       "nisi / bansa",
+       "unutmak"
+      ],
+      [
+       "سمع",
+       "بسمع",
+       "simi3 / basma3",
+       "simiʿ / basmaʿ",
+       "duymak, dinlemek"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "İçmek (shirib) – şimdiki / geniş zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "بشرب",
+       "مبشربش",
+       "bashrab / mabashrabsh",
+       "başrab / mabaşrabş",
+       "içiyorum / içmiyorum"
+      ],
+      [
+       "sen (e)",
+       "بتشرب",
+       "مبتشربش",
+       "bitishrab / mabtishrabsh",
+       "bitişrab / mabtişrabş",
+       "içiyorsun / içmiyorsun"
+      ],
+      [
+       "sen (k)",
+       "بتشربي",
+       "مبتشربيش",
+       "bitishrabi / mabtishrabiish",
+       "bitişrabi / mabtişrabîş",
+       "içiyorsun / içmiyorsun"
+      ],
+      [
+       "o (e)",
+       "بيشرب",
+       "مبيشربش",
+       "biyishrab / mabyishrabsh",
+       "biyişrab / mabyişrabş",
+       "içiyor / içmiyor"
+      ],
+      [
+       "o (k)",
+       "بتشرب",
+       "مبتشربش",
+       "bitishrab / mabtishrabsh",
+       "bitişrab / mabtişrabş",
+       "içiyor / içmiyor"
+      ],
+      [
+       "biz",
+       "بنشرب",
+       "مبنشربش",
+       "binishrab / mabnishrabsh",
+       "binişrab / mabnişrabş",
+       "içiyoruz / içmiyoruz"
+      ],
+      [
+       "siz",
+       "بتشربوا",
+       "مبتشربوش",
+       "bitishrabu / mabtishrabuush",
+       "bitişrabu / mabtişrabûş",
+       "içiyorsunuz / içmiyorsunuz"
+      ],
+      [
+       "onlar",
+       "بيشربوا",
+       "مبيشربوش",
+       "biyishrabu / mabyishrabuush",
+       "biyişrabu / mabyişrabûş",
+       "içiyorlar / içmiyorlar"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Gitmek (raa7) – şimdiki / geniş zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "بروح",
+       "مبروحش",
+       "baruu7 / mabaruu7sh",
+       "barûhh / mabarûhhş",
+       "gidiyorum / gitmiyorum"
+      ],
+      [
+       "sen (e)",
+       "بتروح",
+       "مبتروحش",
+       "bitruu7 / mabtruu7sh",
+       "bitrûhh / mabtrûhhş",
+       "gidiyorsun / gitmiyorsun"
+      ],
+      [
+       "sen (k)",
+       "بتروحي",
+       "مبتروحيش",
+       "bitruu7i / mabtruu7iish",
+       "bitrûhhi / mabtrûhhîş",
+       "gidiyorsun / gitmiyorsun"
+      ],
+      [
+       "o (e)",
+       "بيروح",
+       "مبيروحش",
+       "biyruu7 / mabyruu7sh",
+       "biyrûhh / mabyrûhhş",
+       "gidiyor / gitmiyor"
+      ],
+      [
+       "o (k)",
+       "بتروح",
+       "مبتروحش",
+       "bitruu7 / mabtruu7sh",
+       "bitrûhh / mabtrûhhş",
+       "gidiyor / gitmiyor"
+      ],
+      [
+       "biz",
+       "بنروح",
+       "مبنروحش",
+       "binruu7 / mabnruu7sh",
+       "binrûhh / mabnrûhhş",
+       "gidiyoruz / gitmiyoruz"
+      ],
+      [
+       "siz",
+       "بتروحوا",
+       "مبتروحوش",
+       "bitruu7u / mabtruu7uush",
+       "bitrûhhu / mabtrûhhûş",
+       "gidiyorsunuz / gitmiyorsunuz"
+      ],
+      [
+       "onlar",
+       "بيروحوا",
+       "مبيروحوش",
+       "biyruu7u / mabyruu7uush",
+       "biyrûhhu / mabyrûhhûş",
+       "gidiyorlar / gitmiyorlar"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Zaman ifadeleri (geniş / şimdiki)",
+     "head": [
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "دلوقتي",
+       "dilwa2ti",
+       "dilva’ti",
+       "şimdi"
+      ],
+      [
+       "كل يوم",
+       "kull yoom",
+       "kull yûm",
+       "her gün"
+      ],
+      [
+       "دايمًا",
+       "daayiman",
+       "dâyiman",
+       "her zaman"
+      ],
+      [
+       "ساعات",
+       "sa3aat",
+       "saʿât",
+       "bazen"
+      ],
+      [
+       "عادةً",
+       "3aadatan",
+       "ʿâdatan",
+       "genellikle"
+      ],
+      [
+       "لسه",
+       "lissa",
+       "lissa",
+       "hâlâ"
+      ],
+      [
+       "النهارده",
+       "en-nahaarda",
+       "en-nahârda",
+       "bugün"
+      ],
+      [
+       "كمان",
+       "kamaan",
+       "kamân",
+       "ayrıca, daha"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "bi- OLMADAN kalıplar (istek, gereklilik, rica): kişi öneki + kök."
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "عايز أشرب مية.",
+       "fr": "3aayiz ashrab mayya.",
+       "ok": "ʿâyiz aşrab mayya.",
+       "tr": "Su içmek istiyorum. (e)"
+      },
+      {
+       "ar": "لازم أروح دلوقتي.",
+       "fr": "laazim aruu7 dilwa2ti.",
+       "ok": "lâzim arûhh dilva’ti.",
+       "tr": "Şimdi gitmem lazım."
+      },
+      {
+       "ar": "ممكن أدخل؟",
+       "fr": "mumkin adkhul?",
+       "ok": "mumkin adkhul?",
+       "tr": "Girebilir miyim?"
+      },
+      {
+       "ar": "يلا نروح!",
+       "fr": "yalla nruu7!",
+       "ok": "yalla nrûhh!",
+       "tr": "Hadi gidelim!"
+      },
+      {
+       "ar": "نفسي أسافر مصر.",
+       "fr": "nifsi asaafir masr.",
+       "ok": "nifsi asâfir masr.",
+       "tr": "Mısır'a seyahat etmeyi çok isterim."
+      },
+      {
+       "ar": "محتاج أنام.",
+       "fr": "ma7taag anaam.",
+       "ok": "mahhtâg anâm.",
+       "tr": "Uyumaya ihtiyacım var. (e)"
+      },
+      {
+       "ar": "لازم تذاكر.",
+       "fr": "laazim tzaakir.",
+       "ok": "lâzim tzâkir.",
+       "tr": "Ders çalışmalısın. (e)"
+      },
+      {
+       "ar": "عايزين ناكل.",
+       "fr": "3aayzeen naakul.",
+       "ok": "ʿâyzîn nâkul.",
+       "tr": "Yemek yemek istiyoruz."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "بشرب قهوة كل يوم الصبح.",
+       "fr": "bashrab 2ahwa kull yoom is-sob7.",
+       "ok": "başrab ’ahva kull yûm is-sobhh.",
+       "tr": "Her sabah kahve içerim."
+      },
+      {
+       "ar": "بروح الشغل بالمترو.",
+       "fr": "baruu7 ish-shoghl bil-metro.",
+       "ok": "barûhh iş-şoğl bil-metro.",
+       "tr": "İşe metroyla giderim."
+      },
+      {
+       "ar": "بتعمل إيه دلوقتي؟",
+       "fr": "bit3mil eih dilwa2ti?",
+       "ok": "bitʿmil eyh dilva’ti?",
+       "tr": "Şimdi ne yapıyorsun? (e)"
+      },
+      {
+       "ar": "بذاكر عشان الامتحان.",
+       "fr": "bazaakir 3ashaan il-imti7aan.",
+       "ok": "bazâkir ʿaşân il-imtihhân.",
+       "tr": "Sınav için çalışıyorum."
+      },
+      {
+       "ar": "أمي بتطبخ الغدا.",
+       "fr": "ommi bittbukh il-ghadaa.",
+       "ok": "ommi bittbukh il-ğadâ.",
+       "tr": "Annem öğle yemeği pişiriyor."
+      },
+      {
+       "ar": "هُم بيلعبوا كورة في الشارع.",
+       "fr": "homma biyil3abu koora fish-shaari3.",
+       "ok": "homma biyilʿabu kûra fiş-şâriʿ.",
+       "tr": "Onlar sokakta top oynuyor."
+      },
+      {
+       "ar": "مباكلش لحمة.",
+       "fr": "mabaakulsh la7ma.",
+       "ok": "mabâkulş lahhma.",
+       "tr": "Et yemem."
+      },
+      {
+       "ar": "بتسمع إيه؟",
+       "fr": "bitisma3 eih?",
+       "ok": "bitismaʿ eyh?",
+       "tr": "Ne dinliyorsun? (e)"
+      },
+      {
+       "ar": "بنشوف فيلم كل جمعة.",
+       "fr": "binshuuf film kull gum3a.",
+       "ok": "binşûf film kull gumʿa.",
+       "tr": "Her cuma film izleriz."
+      },
+      {
+       "ar": "بتتكلم عربي كويس!",
+       "fr": "bititkallim 3arabi kwayyis!",
+       "ok": "bititkallim ʿarabi kvayyis!",
+       "tr": "Arapçayı iyi konuşuyorsun! (e)"
+      },
+      {
+       "ar": "لسه بستنى الأتوبيس.",
+       "fr": "lissa bastanna il-otobiis.",
+       "ok": "lissa bastanna il-otobîs.",
+       "tr": "Hâlâ otobüsü bekliyorum."
+      },
+      {
+       "ar": "بتاكل فين النهارده؟",
+       "fr": "bitaakul feen en-nahaarda?",
+       "ok": "bitâkul fîn en-nahârda?",
+       "tr": "Bugün nerede yiyorsun? (e)"
+      },
+      {
+       "ar": "مبشربش قهوة بالليل.",
+       "fr": "mabashrabsh 2ahwa bil-leil.",
+       "ok": "mabaşrabş ’ahva bil-leyl.",
+       "tr": "Geceleri kahve içmem."
+      },
+      {
+       "ar": "بحب أسمع مزيكا وأنا ماشي.",
+       "fr": "ba7ibb asma3 muzika wana maashi.",
+       "ok": "bahhibb asmaʿ muzika vana mâşi.",
+       "tr": "Yürürken müzik dinlemeyi severim."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "بشرب قهوة كل يوم.",
+       "fr": "bashrab 2ahwa kull yoom.",
+       "ok": "başrab ’ahva kull yûm.",
+       "tr": "Her gün kahve içerim."
+      },
+      {
+       "ar": "بتروح فين؟",
+       "fr": "bitruu7 feen?",
+       "ok": "bitrûhh fîn?",
+       "tr": "Sen (e) nereye gidiyorsun?"
+      },
+      {
+       "ar": "بنلعب كورة كل جمعة.",
+       "fr": "binil3ab koora kull gum3a.",
+       "ok": "binilʿab kûra kull gumʿa.",
+       "tr": "Biz her cuma futbol oynarız."
+      },
+      {
+       "ar": "مبروحش الشغل.",
+       "fr": "mabaruu7sh ish-shoghl.",
+       "ok": "mabarûhhş iş-şoğl.",
+       "tr": "Olumsuz (بروح الشغل): İşe gitmiyorum."
+      },
+      {
+       "ar": "مبيشربش شاي.",
+       "fr": "mabyishrabsh shaay.",
+       "ok": "mabyişrabş şây.",
+       "tr": "Olumsuz (بيشرب شاي): Çay içmiyor."
+      },
+      {
+       "ar": "أحمد بيذاكر.",
+       "fr": "a7mad biyzaakir.",
+       "ok": "ahhmad biyzâkir.",
+       "tr": "Ahmet ders çalışıyor."
+      },
+      {
+       "ar": "عايز أشرب مية.",
+       "fr": "3aayiz ashrab mayya.",
+       "ok": "ʿâyiz aşrab mayya.",
+       "tr": "Su içmek istiyorum. (e)"
+      },
+      {
+       "ar": "لازم أروح دلوقتي.",
+       "fr": "laazim aruu7 dilwa2ti.",
+       "ok": "lâzim arûhh dilva’ti.",
+       "tr": "Şimdi gitmem lazım."
+      },
+      {
+       "ar": "بتعملي إيه؟",
+       "fr": "bit3imli eih?",
+       "ok": "bitʿimli eyh?",
+       "tr": "Sen (k) ne yapıyorsun?"
+      },
+      {
+       "ar": "مبيتكلموش عربي.",
+       "fr": "mabyitkallimuush 3arabi.",
+       "ok": "mabyitkallimûş ʿarabi.",
+       "tr": "Onlar Arapça konuşmuyor."
+      },
+      {
+       "ar": "أمي بتشرب شاي الصبح.",
+       "fr": "ommi bitishrab shaay is-sob7.",
+       "ok": "ommi bitişrab şây is-sobhh.",
+       "tr": "Annem sabahları çay içer."
+      },
+      {
+       "ar": "لسه بذاكر.",
+       "fr": "lissa bazaakir.",
+       "ok": "lissa bazâkir.",
+       "tr": "Hâlâ ders çalışıyorum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gecmis-zaman",
+   "title": "Geçmiş zaman ve olumsuzu",
+   "emoji": "⏪",
+   "summary": "Kök fiil + kişi eki; olumsuz ma- … -sh",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Geçmiş zaman en kolay zamandır: kök fiil + kişi eki. Olumsuz için başa ma-, sona -sh eklenir: روحت ru7t (gittim) → مروحتش maru7tish (gitmedim). Alışkanlık ya da süregelen geçmiş (“giderdim, gidiyordum”) için كان + şimdiki fiil kullanılır."
+    },
+    {
+     "type": "text",
+     "text": "Kişi ekleri: -t (ben, sen e), -ti (sen k), -Ø (o e), -it (o k), -na (biz), -tu (siz), -u (onlar). Olumsuz: ma- + geçmiş fiil + -sh."
+    },
+    {
+     "type": "tip",
+     "text": "Yazıda ben, sen (e), o (k) genelde aynı görünür: كتبت. Uzun ünlülü fiiller (raa7, shaaf, naam, gih) ekten önce kısalır: ru7t, shuft, nimt, geet."
+    },
+    {
+     "type": "table",
+     "title": "Yazmak (katab) – geçmiş zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "كتبت",
+       "مكتبتش",
+       "katabt / maktabtish",
+       "katabt / maktabtiş",
+       "yazdım / yazmadım"
+      ],
+      [
+       "sen (e)",
+       "كتبت",
+       "مكتبتش",
+       "katabt / maktabtish",
+       "katabt / maktabtiş",
+       "yazdın / yazmadın"
+      ],
+      [
+       "sen (k)",
+       "كتبتي",
+       "مكتبتيش",
+       "katabti / maktabtiish",
+       "katabti / maktabtîş",
+       "yazdın / yazmadın"
+      ],
+      [
+       "o (e)",
+       "كتب",
+       "مكتبش",
+       "katab / maktabsh",
+       "katab / maktabş",
+       "yazdı / yazmadı"
+      ],
+      [
+       "o (k)",
+       "كتبت",
+       "مكتبتش",
+       "katabit / maktabitsh",
+       "katabit / maktabitş",
+       "yazdı / yazmadı"
+      ],
+      [
+       "biz",
+       "كتبنا",
+       "مكتبناش",
+       "katabna / maktabnaash",
+       "katabna / maktabnâş",
+       "yazdık / yazmadık"
+      ],
+      [
+       "siz",
+       "كتبتوا",
+       "مكتبتوش",
+       "katabtu / maktabtuush",
+       "katabtu / maktabtûş",
+       "yazdınız / yazmadınız"
+      ],
+      [
+       "onlar",
+       "كتبوا",
+       "مكتبوش",
+       "katabu / maktabuush",
+       "katabu / maktabûş",
+       "yazdılar / yazmadılar"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Gitmek (raa7) – geçmiş zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "روحت",
+       "مروحتش",
+       "ru7t / maru7tish",
+       "ruhht / maruhhtiş",
+       "gittim / gitmedim"
+      ],
+      [
+       "sen (e)",
+       "روحت",
+       "مروحتش",
+       "ru7t / maru7tish",
+       "ruhht / maruhhtiş",
+       "gittin / gitmedin"
+      ],
+      [
+       "sen (k)",
+       "روحتي",
+       "مروحتيش",
+       "ru7ti / maru7tiish",
+       "ruhhti / maruhhtîş",
+       "gittin / gitmedin"
+      ],
+      [
+       "o (e)",
+       "راح",
+       "مراحش",
+       "raa7 / maraa7sh",
+       "râhh / marâhhş",
+       "gitti / gitmedi"
+      ],
+      [
+       "o (k)",
+       "راحت",
+       "مراحتش",
+       "raa7it / maraa7itsh",
+       "râhhit / marâhhitş",
+       "gitti / gitmedi"
+      ],
+      [
+       "biz",
+       "روحنا",
+       "مروحناش",
+       "ru7na / maru7naash",
+       "ruhhna / maruhhnâş",
+       "gittik / gitmedik"
+      ],
+      [
+       "siz",
+       "روحتوا",
+       "مروحتوش",
+       "ru7tu / maru7tuush",
+       "ruhhtu / maruhhtûş",
+       "gittiniz / gitmediniz"
+      ],
+      [
+       "onlar",
+       "راحوا",
+       "مراحوش",
+       "raa7u / maraa7uush",
+       "râhhu / marâhhûş",
+       "gittiler / gitmediler"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Gelmek (gih) – düzensiz fiil, geçmiş zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "جيت",
+       "مجيتش",
+       "geet / mageetish",
+       "gît / magîtiş",
+       "geldim / gelmedim"
+      ],
+      [
+       "sen (e)",
+       "جيت",
+       "مجيتش",
+       "geet / mageetish",
+       "gît / magîtiş",
+       "geldin / gelmedin"
+      ],
+      [
+       "sen (k)",
+       "جيتي",
+       "مجيتيش",
+       "geeti / mageetiish",
+       "gîti / magîtîş",
+       "geldin / gelmedin"
+      ],
+      [
+       "o (e)",
+       "جه",
+       "مجاش",
+       "gih / magaash",
+       "gih / magâş",
+       "geldi / gelmedi"
+      ],
+      [
+       "o (k)",
+       "جت",
+       "مجتش",
+       "gat / magatsh",
+       "gat / magatş",
+       "geldi / gelmedi"
+      ],
+      [
+       "biz",
+       "جينا",
+       "مجيناش",
+       "geena / mageenaash",
+       "gîna / magînâş",
+       "geldik / gelmedik"
+      ],
+      [
+       "siz",
+       "جيتوا",
+       "مجيتوش",
+       "geetu / mageetuush",
+       "gîtu / magîtûş",
+       "geldiniz / gelmediniz"
+      ],
+      [
+       "onlar",
+       "جم",
+       "مجوش",
+       "gum / magoosh",
+       "gum / magûş",
+       "geldiler / gelmediler"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Olmak (kaan) ve “yapardım, yapıyordum” = kaan + şimdiki fiil",
+     "head": [
+      "Zamir",
+      "kaan (idi)",
+      "kaan + fiil",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "كنت",
+       "كنت بروح",
+       "kunt / kunt baruu7",
+       "kunt / kunt barûhh",
+       "idim / giderdim"
+      ],
+      [
+       "sen (e)",
+       "كنت",
+       "كنت بتروح",
+       "kunt / kunt bitruu7",
+       "kunt / kunt bitrûhh",
+       "idin / giderdin"
+      ],
+      [
+       "sen (k)",
+       "كنتي",
+       "كنتي بتروحي",
+       "kunti / kunti bitruu7i",
+       "kunti / kunti bitrûhhi",
+       "idin / giderdin"
+      ],
+      [
+       "o (e)",
+       "كان",
+       "كان بيروح",
+       "kaan / kaan biyruu7",
+       "kân / kân biyrûhh",
+       "idi / giderdi"
+      ],
+      [
+       "o (k)",
+       "كانت",
+       "كانت بتروح",
+       "kaanit / kaanit bitruu7",
+       "kânit / kânit bitrûhh",
+       "idi / giderdi"
+      ],
+      [
+       "biz",
+       "كنا",
+       "كنا بنروح",
+       "kunna / kunna binruu7",
+       "kunna / kunna binrûhh",
+       "idik / giderdik"
+      ],
+      [
+       "siz",
+       "كنتوا",
+       "كنتوا بتروحوا",
+       "kuntu / kuntu bitruu7u",
+       "kuntu / kuntu bitrûhhu",
+       "idiniz / giderdiniz"
+      ],
+      [
+       "onlar",
+       "كانوا",
+       "كانوا بيروحوا",
+       "kaanu / kaanu biyruu7u",
+       "kânu / kânu biyrûhhu",
+       "idiler / giderlerdi"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Zaman ifadeleri (geçmiş)",
+     "head": [
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "امبارح",
+       "imbaare7",
+       "imbârehh",
+       "dün"
+      ],
+      [
+       "من ساعة",
+       "min saa3a",
+       "min sâʿa",
+       "bir saat önce"
+      ],
+      [
+       "من زمان",
+       "min zamaan",
+       "min zamân",
+       "çoktan, eskiden"
+      ],
+      [
+       "قبل كده",
+       "2abl kida",
+       "’abl kida",
+       "bundan önce"
+      ],
+      [
+       "خلاص",
+       "khalaas",
+       "khalâs",
+       "bitti, zaten"
+      ],
+      [
+       "الصبح",
+       "is-sob7",
+       "is-sobhh",
+       "sabah"
+      ],
+      [
+       "بالليل",
+       "bil-leil",
+       "bil-leyl",
+       "geceleri, akşam"
+      ],
+      [
+       "مرة",
+       "marra",
+       "marra",
+       "bir kere"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "امبارح روحت الشغل بدري.",
+       "fr": "imbaare7 ru7t ish-shoghl badri.",
+       "ok": "imbârehh ruhht iş-şoğl badri.",
+       "tr": "Dün işe erken gittim."
+      },
+      {
+       "ar": "أكلت كشري النهارده.",
+       "fr": "akalt kushari en-nahaarda.",
+       "ok": "akalt kuşari en-nahârda.",
+       "tr": "Bugün koshari yedim."
+      },
+      {
+       "ar": "شفت فيلم حلو.",
+       "fr": "shuft film 7ilw.",
+       "ok": "şuft film hhilv.",
+       "tr": "Güzel bir film izledim."
+      },
+      {
+       "ar": "اتصلت بيك مرتين.",
+       "fr": "ittasalt bik marriteen.",
+       "ok": "ittasalt bik marritîn.",
+       "tr": "Seni iki kere aradım. (e)"
+      },
+      {
+       "ar": "نمت متأخر امبارح.",
+       "fr": "nimt mit2akhkhar imbaare7.",
+       "ok": "nimt mit’akhkhar imbârehh.",
+       "tr": "Dün geç yattım."
+      },
+      {
+       "ar": "جيت من الشغل الساعة خمسة.",
+       "fr": "geet min ish-shoghl is-saa3a khamsa.",
+       "ok": "gît min iş-şoğl is-sâʿa khamsa.",
+       "tr": "Saat beşte işten geldim."
+      },
+      {
+       "ar": "اشتريت هدوم جديدة.",
+       "fr": "ishtareet hudoom gedeeda.",
+       "ok": "iştarît hudûm gedîda.",
+       "tr": "Yeni kıyafetler aldım."
+      },
+      {
+       "ar": "هي كلمتني الصبح.",
+       "fr": "heyya kallimitni is-sob7.",
+       "ok": "heyya kallimitni is-sobhh.",
+       "tr": "Sabah beni aradı. (k)"
+      },
+      {
+       "ar": "إحنا سافرنا إسكندرية الصيف اللي فات.",
+       "fr": "e7na saafirna iskindiriyya is-seif illi faat.",
+       "ok": "ehhna sâfirna iskindiriyya is-seyf illi fât.",
+       "tr": "Geçen yaz İskenderiye'ye gittik."
+      },
+      {
+       "ar": "مروحتش المدرسة النهارده.",
+       "fr": "maru7tish il-madrasa en-nahaarda.",
+       "ok": "maruhhtiş il-madrasa en-nahârda.",
+       "tr": "Bugün okula gitmedim."
+      },
+      {
+       "ar": "مأكلتش حاجة من الصبح.",
+       "fr": "makaltish 7aaga min is-sob7.",
+       "ok": "makaltiş hhâga min is-sobhh.",
+       "tr": "Sabahtan beri hiçbir şey yemedim."
+      },
+      {
+       "ar": "هُم وصلوا امبارح بالليل.",
+       "fr": "homma wislu imbaare7 bil-leil.",
+       "ok": "homma vislu imbârehh bil-leyl.",
+       "tr": "Onlar dün gece vardı."
+      },
+      {
+       "ar": "كنت في البيت لما اتصلت.",
+       "fr": "kunt fil-beit lamma ittasalt.",
+       "ok": "kunt fil-beyt lamma ittasalt.",
+       "tr": "Aradığında evdeydim."
+      },
+      {
+       "ar": "إنتَ مقولتليش ليه؟",
+       "fr": "inta ma2ultilish leeh?",
+       "ok": "inta ma’ultiliş lîh?",
+       "tr": "Bana neden söylemedin? (e)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "امبارح روحت المدرسة.",
+       "fr": "imbaare7 ru7t il-madrasa.",
+       "ok": "imbârehh ruhht il-madrasa.",
+       "tr": "Dün okula gittim."
+      },
+      {
+       "ar": "كتب جواب.",
+       "fr": "katab gawaab.",
+       "ok": "katab gavâb.",
+       "tr": "O (e) bir mektup yazdı."
+      },
+      {
+       "ar": "أكلنا بيتزا.",
+       "fr": "akalna bitza.",
+       "ok": "akalna bitza.",
+       "tr": "Biz pizza yedik."
+      },
+      {
+       "ar": "مشربتش قهوة.",
+       "fr": "mashribtish 2ahwa.",
+       "ok": "maşribtiş ’ahva.",
+       "tr": "Olumsuz (شربت قهوة): Kahve içmedim."
+      },
+      {
+       "ar": "مراحش الشغل.",
+       "fr": "maraa7sh ish-shoghl.",
+       "ok": "marâhhş iş-şoğl.",
+       "tr": "Olumsuz (راح الشغل): İşe gitmedi."
+      },
+      {
+       "ar": "جيتي إمتى؟",
+       "fr": "geeti imta?",
+       "ok": "gîti imta?",
+       "tr": "Sen (k) ne zaman geldin?"
+      },
+      {
+       "ar": "مجوش امبارح.",
+       "fr": "magoosh imbaare7.",
+       "ok": "magûş imbârehh.",
+       "tr": "Onlar dün gelmediler."
+      },
+      {
+       "ar": "نسيت الموبايل في البيت.",
+       "fr": "niseet il-mobayl fil-beit.",
+       "ok": "nisît il-mobayl fil-beyt.",
+       "tr": "Telefonumu evde unuttum."
+      },
+      {
+       "ar": "فطرت؟",
+       "fr": "fitirt?",
+       "ok": "fitirt?",
+       "tr": "Sen (e) kahvaltı yaptın mı?"
+      },
+      {
+       "ar": "مأكلتش العشا امبارح.",
+       "fr": "makaltish il-3asha imbaare7.",
+       "ok": "makaltiş il-ʿaşa imbârehh.",
+       "tr": "Dün akşam yemek yemedim."
+      },
+      {
+       "ar": "علي جه البيت الساعة تمانية.",
+       "fr": "3ali gih il-beit is-saa3a tamanya.",
+       "ok": "ʿali gih il-beyt is-sâʿa tamanya.",
+       "tr": "Ali eve saat sekizde geldi."
+      },
+      {
+       "ar": "كنت بروح النادي كل يوم.",
+       "fr": "kunt baruu7 in-naadi kull yoom.",
+       "ok": "kunt barûhh in-nâdi kull yûm.",
+       "tr": "Eskiden her gün kulübe giderdim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "gelecek-zaman",
+   "title": "Gelecek zaman (ha- öneki)",
+   "emoji": "⏩",
+   "summary": "bi- yerine ha-: baktib → haktib (yazacağım)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Gelecek zaman şimdiki zamandan bir adım uzaktır: bi- yerine ha- koyarsın. بكتب baktib (yazıyorum) → هكتب haktib (yazacağım). Gelecekten söz ederken sık sık إن شاء الله eklenir."
+    },
+    {
+     "type": "text",
+     "text": "Formül: ha- (ه) + kişi öneki + kök; bi- kullanılmaz. Karşılaştır: بروح baruu7 (gidiyorum) → هروح haruu7 (gideceğim). Olumsuz: مش mish + gelecek fiil: مش هروح mish haruu7."
+    },
+    {
+     "type": "tip",
+     "text": "Yakın gelecek: رايح raayi7 (e) veya رايحة raay7a (k) + fiil = “...meye gidiyorum, ...ecek”: رايح أشتري raayi7 ashtiri."
+    },
+    {
+     "type": "table",
+     "title": "Yemek (akal) – gelecek zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "هاكل",
+       "مش هاكل",
+       "haakul / mish haakul",
+       "hâkul / miş hâkul",
+       "yiyeceğim / yemeyeceğim"
+      ],
+      [
+       "sen (e)",
+       "هتاكل",
+       "مش هتاكل",
+       "hataakul / mish hataakul",
+       "hatâkul / miş hatâkul",
+       "yiyeceksin / yemeyeceksin"
+      ],
+      [
+       "sen (k)",
+       "هتاكلي",
+       "مش هتاكلي",
+       "hataakli / mish hataakli",
+       "hatâkli / miş hatâkli",
+       "yiyeceksin / yemeyeceksin"
+      ],
+      [
+       "o (e)",
+       "هياكل",
+       "مش هياكل",
+       "hayaakul / mish hayaakul",
+       "hayâkul / miş hayâkul",
+       "yiyecek / yemeyecek"
+      ],
+      [
+       "o (k)",
+       "هتاكل",
+       "مش هتاكل",
+       "hataakul / mish hataakul",
+       "hatâkul / miş hatâkul",
+       "yiyecek / yemeyecek"
+      ],
+      [
+       "biz",
+       "هناكل",
+       "مش هناكل",
+       "hanaakul / mish hanaakul",
+       "hanâkul / miş hanâkul",
+       "yiyeceğiz / yemeyeceğiz"
+      ],
+      [
+       "siz",
+       "هتاكلوا",
+       "مش هتاكلوا",
+       "hataaklu / mish hataaklu",
+       "hatâklu / miş hatâklu",
+       "yiyeceksiniz / yemeyeceksiniz"
+      ],
+      [
+       "onlar",
+       "هياكلوا",
+       "مش هياكلوا",
+       "hayaaklu / mish hayaaklu",
+       "hayâklu / miş hayâklu",
+       "yiyecekler / yemeyecekler"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Görmek (shaaf) – gelecek zaman",
+     "head": [
+      "Zamir",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "هشوف",
+       "مش هشوف",
+       "hashuuf / mish hashuuf",
+       "haşûf / miş haşûf",
+       "göreceğim / görmeyeceğim"
+      ],
+      [
+       "sen (e)",
+       "هتشوف",
+       "مش هتشوف",
+       "hatshuuf / mish hatshuuf",
+       "hatşûf / miş hatşûf",
+       "göreceksin / görmeyeceksin"
+      ],
+      [
+       "sen (k)",
+       "هتشوفي",
+       "مش هتشوفي",
+       "hatshuufi / mish hatshuufi",
+       "hatşûfi / miş hatşûfi",
+       "göreceksin / görmeyeceksin"
+      ],
+      [
+       "o (e)",
+       "هيشوف",
+       "مش هيشوف",
+       "hayshuuf / mish hayshuuf",
+       "hayşûf / miş hayşûf",
+       "görecek / görmeyecek"
+      ],
+      [
+       "o (k)",
+       "هتشوف",
+       "مش هتشوف",
+       "hatshuuf / mish hatshuuf",
+       "hatşûf / miş hatşûf",
+       "görecek / görmeyecek"
+      ],
+      [
+       "biz",
+       "هنشوف",
+       "مش هنشوف",
+       "hanshuuf / mish hanshuuf",
+       "hanşûf / miş hanşûf",
+       "göreceğiz / görmeyeceğiz"
+      ],
+      [
+       "siz",
+       "هتشوفوا",
+       "مش هتشوفوا",
+       "hatshuufu / mish hatshuufu",
+       "hatşûfu / miş hatşûfu",
+       "göreceksiniz / görmeyeceksiniz"
+      ],
+      [
+       "onlar",
+       "هيشوفوا",
+       "مش هيشوفوا",
+       "hayshuufu / mish hayshuufu",
+       "hayşûfu / miş hayşûfu",
+       "görecekler / görmeyecekler"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Zaman ifadeleri (gelecek)",
+     "head": [
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "بكرة",
+       "bukra",
+       "bukra",
+       "yarın"
+      ],
+      [
+       "بعد بكرة",
+       "ba3d bukra",
+       "baʿd bukra",
+       "öbür gün"
+      ],
+      [
+       "بعدين",
+       "ba3deen",
+       "baʿdîn",
+       "sonra"
+      ],
+      [
+       "قريب",
+       "2areeb",
+       "’arîb",
+       "yakında"
+      ],
+      [
+       "بعد ساعة",
+       "ba3d saa3a",
+       "baʿd sâʿa",
+       "bir saat sonra"
+      ],
+      [
+       "الصيف الجاي",
+       "is-seif ig-gaay",
+       "is-seyf ig-gây",
+       "gelecek yaz"
+      ],
+      [
+       "السنة الجاية",
+       "is-sana ig-gaaya",
+       "is-sana ig-gâya",
+       "gelecek yıl"
+      ],
+      [
+       "إن شاء الله",
+       "in shaa2 allaah",
+       "in şâ’ allâh",
+       "inşallah"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "هروح الدكتور بكرة.",
+       "fr": "haruu7 id-doktoor bukra.",
+       "ok": "harûhh id-doktûr bukra.",
+       "tr": "Yarın doktora gideceğim."
+      },
+      {
+       "ar": "هنسافر الصيف الجاي إن شاء الله.",
+       "fr": "hansaafir is-seif ig-gaay in shaa2 allaah.",
+       "ok": "hansâfir is-seyf ig-gây in şâ’ allâh.",
+       "tr": "Gelecek yaz seyahat edeceğiz inşallah."
+      },
+      {
+       "ar": "هتيجي معانا؟",
+       "fr": "hatiigi ma3aana?",
+       "ok": "hatîgi maʿâna?",
+       "tr": "Bizimle gelecek misin? (e)"
+      },
+      {
+       "ar": "هكلّم أحمد بعدين.",
+       "fr": "hakallim a7mad ba3deen.",
+       "ok": "hakallim ahhmad baʿdîn.",
+       "tr": "Ahmet'le sonra konuşacağım."
+      },
+      {
+       "ar": "مش هروح الشغل النهارده.",
+       "fr": "mish haruu7 ish-shoghl en-nahaarda.",
+       "ok": "miş harûhh iş-şoğl en-nahârda.",
+       "tr": "Bugün işe gitmeyeceğim."
+      },
+      {
+       "ar": "هتعمل إيه آخر الأسبوع؟",
+       "fr": "hat3mil eih aakhir il-usbuu3?",
+       "ok": "hatʿmil eyh âkhir il-usbûʿ?",
+       "tr": "Hafta sonu ne yapacaksın? (e)"
+      },
+      {
+       "ar": "هنتقابل الساعة سبعة.",
+       "fr": "hanit2aabil is-saa3a sab3a.",
+       "ok": "hanit’âbil is-sâʿa sabʿa.",
+       "tr": "Saat yedide buluşacağız."
+      },
+      {
+       "ar": "هيوصل بعد ساعة.",
+       "fr": "hayuusal ba3d saa3a.",
+       "ok": "hayûsal baʿd sâʿa.",
+       "tr": "Bir saat sonra varacak. (e)"
+      },
+      {
+       "ar": "هجيب العيش وأجي.",
+       "fr": "hagiib il-3eish w-agi.",
+       "ok": "hagîb il-ʿeyş v-agi.",
+       "tr": "Ekmeği alıp geleceğim."
+      },
+      {
+       "ar": "مش هنام بدري النهارده.",
+       "fr": "mish hanaam badri en-nahaarda.",
+       "ok": "miş hanâm badri en-nahârda.",
+       "tr": "Bugün erken yatmayacağım."
+      },
+      {
+       "ar": "هدفع الحساب.",
+       "fr": "hadfa3 il-7isaab.",
+       "ok": "hadfaʿ il-hhisâb.",
+       "tr": "Hesabı ben ödeyeceğim."
+      },
+      {
+       "ar": "أنا رايح أشتري عيش.",
+       "fr": "ana raayi7 ashtiri 3eish.",
+       "ok": "ana râyihh aştiri ʿeyş.",
+       "tr": "Ekmek almaya gidiyorum. (e)"
+      },
+      {
+       "ar": "الجو هيبقى حر بكرة.",
+       "fr": "il-gaw hayib2a 7arr bukra.",
+       "ok": "il-gav hayib’a hharr bukra.",
+       "tr": "Yarın hava sıcak olacak."
+      },
+      {
+       "ar": "إن شاء الله هنعدّي عليك بكرة.",
+       "fr": "in shaa2 allaah han3addi 3aleik bukra.",
+       "ok": "in şâ’ allâh hanʿaddi ʿaleyk bukra.",
+       "tr": "İnşallah yarın sana uğrarız. (e)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "هروح بكرة.",
+       "fr": "haruu7 bukra.",
+       "ok": "harûhh bukra.",
+       "tr": "Yarın gideceğim."
+      },
+      {
+       "ar": "هنيجي الأسبوع الجاي.",
+       "fr": "haniigi il-usbuu3 ig-gaay.",
+       "ok": "hanîgi il-usbûʿ ig-gây.",
+       "tr": "Biz haftaya geleceğiz."
+      },
+      {
+       "ar": "هتاكل إيه؟",
+       "fr": "hataakul eih?",
+       "ok": "hatâkul eyh?",
+       "tr": "Sen (e) ne yiyeceksin?"
+      },
+      {
+       "ar": "مش هسافر بكرة.",
+       "fr": "mish hasaafir bukra.",
+       "ok": "miş hasâfir bukra.",
+       "tr": "Olumsuz (هسافر بكرة): Yarın seyahat etmeyeceğim."
+      },
+      {
+       "ar": "مش هييجي النهارده.",
+       "fr": "mish hayiigi en-nahaarda.",
+       "ok": "miş hayîgi en-nahârda.",
+       "tr": "Olumsuz (هيجي النهارده): Bugün gelmeyecek."
+      },
+      {
+       "ar": "عندي امتحان بكرة، هذاكر.",
+       "fr": "3andi imti7aan bukra, hazaakir.",
+       "ok": "ʿandi imtihhân bukra, hazâkir.",
+       "tr": "Yarın sınavım var; çalışacağım."
+      },
+      {
+       "ar": "هييجوا بالليل.",
+       "fr": "hayiigu bil-leil.",
+       "ok": "hayîgu bil-leyl.",
+       "tr": "Onlar akşam gelecek."
+      },
+      {
+       "ar": "هكلمك بعدين.",
+       "fr": "hakallimak ba3deen.",
+       "ok": "hakallimak baʿdîn.",
+       "tr": "Seni (e) sonra arayacağım."
+      },
+      {
+       "ar": "هتروحي السينما النهارده بالليل؟",
+       "fr": "hatruu7i is-sinima en-nahaarda bil-leil?",
+       "ok": "hatrûhhi is-sinima en-nahârda bil-leyl?",
+       "tr": "Bu akşam sinemaya gidecek misin? (k)"
+      },
+      {
+       "ar": "هدفع الحساب.",
+       "fr": "hadfa3 il-7isaab.",
+       "ok": "hadfaʿ il-hhisâb.",
+       "tr": "Hesabı ben ödeyeceğim."
+      },
+      {
+       "ar": "مش هعمل حاجة بكرة.",
+       "fr": "mish ha3mil 7aaga bukra.",
+       "ok": "miş haʿmil hhâga bukra.",
+       "tr": "Yarın bir şey yapmayacağım."
+      },
+      {
+       "ar": "رايح أشتري عيش.",
+       "fr": "raayi7 ashtiri 3eish.",
+       "ok": "râyihh aştiri ʿeyş.",
+       "tr": "Ekmek almaya gidiyorum. (e)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "olumsuzluk",
+   "title": "Olumsuzluk: ma…sh ve mish",
+   "emoji": "🚫",
+   "summary": "Çekimli fiilde ma-…-sh, diğerlerinde mish",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Mısır Arapçasının imzası: fiilin önüne ma-, sonuna -sh. Kelimeyi bir “sandviç” gibi düşün: ما + شرب + ش → مشربش. Fiil olmayan cümlelerde kısa yol vardır: sadece مش koy."
+    },
+    {
+     "type": "text",
+     "text": "İki olumsuzluk aracı: 1) ما...ش ma-...-sh → çekimli fiillerde (geçmiş, şimdiki, emir). 2) مش mish → isim, sıfat, zarf, gelecek (mish ha-), 3aayiz, laazim, mumkin; ayrıca mish baktib şeklinde şimdiki zamanda da yaygın."
+    },
+    {
+     "type": "tip",
+     "text": "Eke göre yazım: -i → -iish, -u → -uush (kadın ve çoğul ekleri uzar)."
+    },
+    {
+     "type": "table",
+     "title": "Olumlu ↔ olumsuz karşılaştırma",
+     "head": [
+      "Tür",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "geçmiş",
+       "كتبت",
+       "مكتبتش",
+       "katabt / maktabtish",
+       "katabt / maktabtiş",
+       "yazdım / yazmadım"
+      ],
+      [
+       "şimdiki",
+       "بكتب",
+       "مبكتبش",
+       "baktib / mabaktibsh",
+       "baktib / mabaktibş",
+       "yazıyorum / yazmıyorum"
+      ],
+      [
+       "gelecek",
+       "هكتب",
+       "مش هكتب",
+       "haktib / mish haktib",
+       "haktib / miş haktib",
+       "yazacağım / yazmayacağım"
+      ],
+      [
+       "isim / sıfat",
+       "أنا تعبان",
+       "أنا مش تعبان",
+       "ana ta3baan / ana mish ta3baan",
+       "ana taʿbân / ana miş taʿbân",
+       "yorgunum / yorgun değilim"
+      ],
+      [
+       "var / yok",
+       "فيه",
+       "مفيش",
+       "fiih / mafiish",
+       "fîh / mafîş",
+       "var / yok"
+      ],
+      [
+       "sahiplik",
+       "عندي",
+       "معنديش",
+       "3andi / ma3andeesh",
+       "ʿandi / maʿandîş",
+       "bende var / bende yok"
+      ],
+      [
+       "istek",
+       "عايز",
+       "مش عايز",
+       "3aayiz / mish 3aayiz",
+       "ʿâyiz / miş ʿâyiz",
+       "istiyorum / istemiyorum (e)"
+      ],
+      [
+       "bilgi",
+       "عارف",
+       "مش عارف",
+       "3aarif / mish 3aarif",
+       "ʿârif / miş ʿârif",
+       "biliyorum / bilmiyorum (e)"
+      ],
+      [
+       "olasılık",
+       "ممكن",
+       "مش ممكن",
+       "mumkin / mish mumkin",
+       "mumkin / miş mumkin",
+       "olur / olmaz"
+      ],
+      [
+       "emir",
+       "اكتب",
+       "متكتبش",
+       "iktib / matiktibsh",
+       "iktib / matiktibş",
+       "yaz! / yazma!"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Emir ve yasak: ma-ti-...-sh (“...me!”)",
+     "head": [
+      "Kime",
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "sen (e)",
+       "اكتب",
+       "متكتبش",
+       "iktib / matiktibsh",
+       "iktib / matiktibş",
+       "yaz! / yazma!"
+      ],
+      [
+       "sen (k)",
+       "اكتبي",
+       "متكتبيش",
+       "iktibi / matiktibiish",
+       "iktibi / matiktibîş",
+       "yaz! / yazma!"
+      ],
+      [
+       "siz",
+       "اكتبوا",
+       "متكتبوش",
+       "iktibu / matiktibuush",
+       "iktibu / matiktibûş",
+       "yazın! / yazmayın!"
+      ],
+      [
+       "sen (e)",
+       "روح",
+       "متروحش",
+       "ruu7 / matruu7sh",
+       "rûhh / matrûhhş",
+       "git! / gitme!"
+      ],
+      [
+       "sen (k)",
+       "روحي",
+       "متروحيش",
+       "ruu7i / matruu7iish",
+       "rûhhi / matrûhhîş",
+       "git! / gitme!"
+      ],
+      [
+       "siz",
+       "روحوا",
+       "متروحوش",
+       "ruu7u / matruu7uush",
+       "rûhhu / matrûhhûş",
+       "gidin! / gitmeyin!"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Nesne ekiyle olumsuz: shaaf (görmek) + zamir",
+     "head": [
+      "Olumlu",
+      "Olumsuz",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "شفتك",
+       "مشفتكش",
+       "shuftak / mashuftakish",
+       "şuftak / maşuftakiş",
+       "seni (e) gördüm / görmedim"
+      ],
+      [
+       "شفتك",
+       "مشفتكيش",
+       "shuftik / mashuftikiish",
+       "şuftik / maşuftikîş",
+       "seni (k) gördüm / görmedim"
+      ],
+      [
+       "شفته",
+       "مشفتوش",
+       "shuftu / mashuftuush",
+       "şuftu / maşuftûş",
+       "onu (e) gördüm / görmedim"
+      ],
+      [
+       "شفتها",
+       "مشفتهاش",
+       "shuftaha / mashuftahaash",
+       "şuftaha / maşuftahâş",
+       "onu (k) gördüm / görmedim"
+      ],
+      [
+       "شفتكم",
+       "مشفتكمش",
+       "shuftukum / mashuftukumsh",
+       "şuftukum / maşuftukumş",
+       "sizi gördüm / görmedim"
+      ],
+      [
+       "شفتهم",
+       "مشفتهمش",
+       "shuftohom / mashuftohomsh",
+       "şuftohom / maşuftohomş",
+       "onları gördüm / görmedim"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Sık kullanılan olumsuz kalıplar",
+     "head": [
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ولا حاجة",
+       "wala 7aaga",
+       "vala hhâga",
+       "hiçbir şey"
+      ],
+      [
+       "ماحدش ، ولا حد",
+       "ma7addish , wala 7add",
+       "mahhaddiş , vala hhadd",
+       "hiç kimse"
+      ],
+      [
+       "أبدًا",
+       "abadan",
+       "abadan",
+       "asla, hiç"
+      ],
+      [
+       "لسه مأكلتش",
+       "lissa makaltish",
+       "lissa makaltiş",
+       "henüz yemedim"
+      ],
+      [
+       "مش لازم",
+       "mish laazim",
+       "miş lâzim",
+       "gerek yok"
+      ],
+      [
+       "مش مهم",
+       "mish muhimm",
+       "miş muhimm",
+       "önemli değil"
+      ],
+      [
+       "مش كده؟",
+       "mish kida?",
+       "miş kida?",
+       "öyle değil mi?"
+      ],
+      [
+       "مفيش مشكلة",
+       "mafiish mushkila",
+       "mafîş muşkila",
+       "sorun yok"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "مباكلش لحمة.",
+       "fr": "mabaakulsh la7ma.",
+       "ok": "mabâkulş lahhma.",
+       "tr": "Et yemem."
+      },
+      {
+       "ar": "معرفش.",
+       "fr": "ma3rafsh.",
+       "ok": "maʿrafş.",
+       "tr": "Bilmiyorum."
+      },
+      {
+       "ar": "مش فاهم.",
+       "fr": "mish faahim.",
+       "ok": "miş fâhim.",
+       "tr": "Anlamıyorum. (e)"
+      },
+      {
+       "ar": "معنديش فلوس.",
+       "fr": "ma3andeesh filoos.",
+       "ok": "maʿandîş filûs.",
+       "tr": "Param yok."
+      },
+      {
+       "ar": "متقلقش!",
+       "fr": "mat2la2sh!",
+       "ok": "mat’la’ş!",
+       "tr": "Endişelenme! (e)"
+      },
+      {
+       "ar": "مش هينفع.",
+       "fr": "mish hayinfa3.",
+       "ok": "miş hayinfaʿ.",
+       "tr": "Olmaz, yapılamaz."
+      },
+      {
+       "ar": "لسه مجاش.",
+       "fr": "lissa magaash.",
+       "ok": "lissa magâş.",
+       "tr": "Henüz gelmedi. (e)"
+      },
+      {
+       "ar": "مسمعتش حاجة.",
+       "fr": "masma3tish 7aaga.",
+       "ok": "masmaʿtiş hhâga.",
+       "tr": "Hiçbir şey duymadım."
+      },
+      {
+       "ar": "مش عايز أروح.",
+       "fr": "mish 3aayiz aruu7.",
+       "ok": "miş ʿâyiz arûhh.",
+       "tr": "Gitmek istemiyorum. (e)"
+      },
+      {
+       "ar": "ماحدش رد.",
+       "fr": "ma7addish radd.",
+       "ok": "mahhaddiş radd.",
+       "tr": "Kimse cevap vermedi."
+      },
+      {
+       "ar": "مقدرتش أنام.",
+       "fr": "ma2dartish anaam.",
+       "ok": "ma’dartiş anâm.",
+       "tr": "Uyuyamadım."
+      },
+      {
+       "ar": "متنساش الموبايل!",
+       "fr": "matinsaash il-mobayl!",
+       "ok": "matinsâş il-mobayl!",
+       "tr": "Telefonu unutma! (e)"
+      },
+      {
+       "ar": "ولا حاجة، شكرًا.",
+       "fr": "wala 7aaga, shukran.",
+       "ok": "vala hhâga, şukran.",
+       "tr": "Hiçbir şey, teşekkürler."
+      },
+      {
+       "ar": "مفيش مية النهارده.",
+       "fr": "mafiish mayya en-nahaarda.",
+       "ok": "mafîş mayya en-nahârda.",
+       "tr": "Bugün su yok."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "مبشربش شاي.",
+       "fr": "mabashrabsh shaay.",
+       "ok": "mabaşrabş şây.",
+       "tr": "Olumsuz (بشرب شاي): Çay içmiyorum."
+      },
+      {
+       "ar": "مأكلتش العشا.",
+       "fr": "makaltish il-3asha.",
+       "ok": "makaltiş il-ʿaşa.",
+       "tr": "Olumsuz (أكلت العشا): Akşam yemeğini yemedim."
+      },
+      {
+       "ar": "مش هروح بكرة.",
+       "fr": "mish haruu7 bukra.",
+       "ok": "miş harûhh bukra.",
+       "tr": "Olumsuz (هروح بكرة): Yarın gitmeyeceğim."
+      },
+      {
+       "ar": "هي مش في البيت.",
+       "fr": "heyya mish fil-beit.",
+       "ok": "heyya miş fil-beyt.",
+       "tr": "Olumsuz (هي في البيت): O evde değil."
+      },
+      {
+       "ar": "معنديش وقت.",
+       "fr": "ma3andeesh wa2t.",
+       "ok": "maʿandîş va’t.",
+       "tr": "Olumsuz (عندي وقت): Vaktim yok."
+      },
+      {
+       "ar": "مفيش مية.",
+       "fr": "mafiish mayya.",
+       "ok": "mafîş mayya.",
+       "tr": "Olumsuz (فيه مية): Su yok."
+      },
+      {
+       "ar": "متروحش!",
+       "fr": "matruu7sh!",
+       "ok": "matrûhhş!",
+       "tr": "Gitme! (e)"
+      },
+      {
+       "ar": "متاكليش!",
+       "fr": "mataakliish!",
+       "ok": "matâklîş!",
+       "tr": "Yemek yeme! (k)"
+      },
+      {
+       "ar": "مشافنيش.",
+       "fr": "mashaafniish.",
+       "ok": "maşâfnîş.",
+       "tr": "O (e) beni görmedi."
+      },
+      {
+       "ar": "مش فاهمة.",
+       "fr": "mish fahma.",
+       "ok": "miş fahma.",
+       "tr": "Anlamıyorum. (k)"
+      },
+      {
+       "ar": "لسه مأكلتش.",
+       "fr": "lissa makaltish.",
+       "ok": "lissa makaltiş.",
+       "tr": "Henüz yemedim."
+      },
+      {
+       "ar": "مشفتش حد.",
+       "fr": "mashuftish 7add.",
+       "ok": "maşuftiş hhadd.",
+       "tr": "Hiç kimseyi görmedim."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "zamirler-iyelik",
+   "title": "Zamirler ve iyelik ekleri",
+   "emoji": "👤",
+   "summary": "Tek ek seti: kitabım, beni gördü, benimle",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Bu bölüm dilin en büyük kısayoludur: tek bir ek seti (-i, -ak, -ik, -u, -ha, -na, -kum, -hum) hem “benim kitabım” hem “beni gördü” hem “benimle” için kullanılır. Bir kez öğren, her yerde kullan."
+    },
+    {
+     "type": "text",
+     "text": "Mısır Arapçasında “benim, senin...” için ayrı kelime yoktur: ekler isme yapışır (Türkçe -im, -in gibi). Aynı ekler fiile (nesne: beni, seni...) ve edatlara (ile, için...) da gelir. Dişil (ـة, -a) ile biten isimlerde -a → -it olur: 3arabiyya → 3arabiyyiti. Ünlüyle biten isimlerde ek değişir: abu → abuuya."
+    },
+    {
+     "type": "tip",
+     "text": "Yazıda (e) ve (k) çoğu zaman aynı görünür; fark sesteki -ak / -ik ünlüsündedir."
+    },
+    {
+     "type": "table",
+     "title": "Özne zamirleri (bağımsız)",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "أنا",
+       "ana",
+       "ana",
+       "ben"
+      ],
+      [
+       "sen (e)",
+       "إنتَ",
+       "inta",
+       "inta",
+       "sen (e)"
+      ],
+      [
+       "sen (k)",
+       "إنتِ",
+       "inti",
+       "inti",
+       "sen (k)"
+      ],
+      [
+       "o (e)",
+       "هُوَّ",
+       "howwa",
+       "hovva",
+       "o (e)"
+      ],
+      [
+       "o (k)",
+       "هِيَّ",
+       "heyya",
+       "heyya",
+       "o (k)"
+      ],
+      [
+       "biz",
+       "إحنا",
+       "e7na",
+       "ehhna",
+       "biz"
+      ],
+      [
+       "siz",
+       "إنتوا",
+       "intu",
+       "intu",
+       "siz"
+      ],
+      [
+       "onlar",
+       "هُمَّ",
+       "homma",
+       "homma",
+       "onlar"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "İyelik eki: ünsüzle biten isim kitaab (kitap)",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "كتابي",
+       "kitaabi",
+       "kitâbi",
+       "kitabım"
+      ],
+      [
+       "sen (e)",
+       "كتابَك",
+       "kitaabak",
+       "kitâbak",
+       "kitabın (e)"
+      ],
+      [
+       "sen (k)",
+       "كتابِك",
+       "kitaabik",
+       "kitâbik",
+       "kitabın (k)"
+      ],
+      [
+       "o (e)",
+       "كتابه",
+       "kitaabu",
+       "kitâbu",
+       "onun kitabı (e)"
+      ],
+      [
+       "o (k)",
+       "كتابها",
+       "kitaabha",
+       "kitâbha",
+       "onun kitabı (k)"
+      ],
+      [
+       "biz",
+       "كتابنا",
+       "kitaabna",
+       "kitâbna",
+       "kitabımız"
+      ],
+      [
+       "siz",
+       "كتابكم",
+       "kitaabkum",
+       "kitâbkum",
+       "kitabınız"
+      ],
+      [
+       "onlar",
+       "كتابهم",
+       "kitaabhum",
+       "kitâbhum",
+       "onların kitabı"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Dişil isim: 3arabiyya (araba) → -a, -it olur",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "عربيتي",
+       "3arabiyyiti",
+       "ʿarabiyyiti",
+       "arabam"
+      ],
+      [
+       "sen (e)",
+       "عربيتَك",
+       "3arabiyyitak",
+       "ʿarabiyyitak",
+       "araban (e)"
+      ],
+      [
+       "sen (k)",
+       "عربيتِك",
+       "3arabiyyitik",
+       "ʿarabiyyitik",
+       "araban (k)"
+      ],
+      [
+       "o (e)",
+       "عربيته",
+       "3arabiyyitu",
+       "ʿarabiyyitu",
+       "onun arabası (e)"
+      ],
+      [
+       "o (k)",
+       "عربيتها",
+       "3arabiyyitha",
+       "ʿarabiyyitha",
+       "onun arabası (k)"
+      ],
+      [
+       "biz",
+       "عربيتنا",
+       "3arabiyyitna",
+       "ʿarabiyyitna",
+       "arabamız"
+      ],
+      [
+       "siz",
+       "عربيتكم",
+       "3arabiyyitkum",
+       "ʿarabiyyitkum",
+       "arabanız"
+      ],
+      [
+       "onlar",
+       "عربيتهم",
+       "3arabiyyithum",
+       "ʿarabiyyithum",
+       "onların arabası"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Ünlüyle biten isim: abu (baba)",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "أبويا",
+       "abuuya",
+       "abûya",
+       "babam"
+      ],
+      [
+       "sen (e)",
+       "أبوك",
+       "abuuk",
+       "abûk",
+       "baban (e)"
+      ],
+      [
+       "sen (k)",
+       "أبوكي",
+       "abuuki",
+       "abûki",
+       "baban (k)"
+      ],
+      [
+       "o (e)",
+       "أبوه",
+       "abuuh",
+       "abûh",
+       "onun babası (e)"
+      ],
+      [
+       "o (k)",
+       "أبوها",
+       "abuuha",
+       "abûha",
+       "onun babası (k)"
+      ],
+      [
+       "biz",
+       "أبونا",
+       "abuuna",
+       "abûna",
+       "babamız"
+      ],
+      [
+       "siz",
+       "أبوكم",
+       "abuukum",
+       "abûkum",
+       "babanız"
+      ],
+      [
+       "onlar",
+       "أبوهم",
+       "abuuhum",
+       "abûhum",
+       "onların babası"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "bitaa3 = “...ninki” (çoğulda bituu3: ish-shonat bituu3i = çantalar benimki)",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "بتاعي",
+       "bitaa3i",
+       "bitâʿi",
+       "benimki"
+      ],
+      [
+       "sen (e)",
+       "بتاعَك",
+       "bitaa3ak",
+       "bitâʿak",
+       "seninki (e)"
+      ],
+      [
+       "sen (k)",
+       "بتاعِك",
+       "bitaa3ik",
+       "bitâʿik",
+       "seninki (k)"
+      ],
+      [
+       "o (e)",
+       "بتاعه",
+       "bitaa3u",
+       "bitâʿu",
+       "onunki (e)"
+      ],
+      [
+       "o (k)",
+       "بتاعها",
+       "bitaa3ha",
+       "bitâʿha",
+       "onunki (k)"
+      ],
+      [
+       "biz",
+       "بتاعنا",
+       "bitaa3na",
+       "bitâʿna",
+       "bizimki"
+      ],
+      [
+       "siz",
+       "بتاعكم",
+       "bitaa3kum",
+       "bitâʿkum",
+       "sizinki"
+      ],
+      [
+       "onlar",
+       "بتاعهم",
+       "bitaa3hum",
+       "bitâʿhum",
+       "onlarınki"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Fiile nesne eki: shaaf (gördü) + zamir",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "شافني",
+       "shaafni",
+       "şâfni",
+       "beni gördü"
+      ],
+      [
+       "sen (e)",
+       "شافَك",
+       "shaafak",
+       "şâfak",
+       "seni gördü (e)"
+      ],
+      [
+       "sen (k)",
+       "شافِك",
+       "shaafik",
+       "şâfik",
+       "seni gördü (k)"
+      ],
+      [
+       "o (e)",
+       "شافه",
+       "shaafu",
+       "şâfu",
+       "onu gördü (e)"
+      ],
+      [
+       "o (k)",
+       "شافها",
+       "shaafha",
+       "şâfha",
+       "onu gördü (k)"
+      ],
+      [
+       "biz",
+       "شافنا",
+       "shaafna",
+       "şâfna",
+       "bizi gördü"
+      ],
+      [
+       "siz",
+       "شافكم",
+       "shaafkum",
+       "şâfkum",
+       "sizi gördü"
+      ],
+      [
+       "onlar",
+       "شافهم",
+       "shaafhum",
+       "şâfhum",
+       "onları gördü"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "li + zamir = -e, -a (...ye, ...ya)",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "ليّا",
+       "leyya",
+       "leyya",
+       "bana"
+      ],
+      [
+       "sen (e)",
+       "ليك",
+       "leek",
+       "lîk",
+       "sana (e)"
+      ],
+      [
+       "sen (k)",
+       "ليكي",
+       "leeki",
+       "lîki",
+       "sana (k)"
+      ],
+      [
+       "o (e)",
+       "ليه",
+       "leeh",
+       "lîh",
+       "ona (e)"
+      ],
+      [
+       "o (k)",
+       "ليها",
+       "leeha",
+       "lîha",
+       "ona (k)"
+      ],
+      [
+       "biz",
+       "لينا",
+       "leena",
+       "lîna",
+       "bize"
+      ],
+      [
+       "siz",
+       "ليكم",
+       "leekum",
+       "lîkum",
+       "size"
+      ],
+      [
+       "onlar",
+       "ليهم",
+       "leehum",
+       "lîhum",
+       "onlara"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "ma3a + zamir = ile",
+     "head": [
+      "Zamir",
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "ben",
+       "معايا",
+       "ma3aaya",
+       "maʿâya",
+       "benimle"
+      ],
+      [
+       "sen (e)",
+       "معاك",
+       "ma3aak",
+       "maʿâk",
+       "seninle (e)"
+      ],
+      [
+       "sen (k)",
+       "معاكي",
+       "ma3aaki",
+       "maʿâki",
+       "seninle (k)"
+      ],
+      [
+       "o (e)",
+       "معاه",
+       "ma3aah",
+       "maʿâh",
+       "onunla (e)"
+      ],
+      [
+       "o (k)",
+       "معاها",
+       "ma3aaha",
+       "maʿâha",
+       "onunla (k)"
+      ],
+      [
+       "biz",
+       "معانا",
+       "ma3aana",
+       "maʿâna",
+       "bizimle"
+      ],
+      [
+       "siz",
+       "معاكم",
+       "ma3aakum",
+       "maʿâkum",
+       "sizinle"
+      ],
+      [
+       "onlar",
+       "معاهم",
+       "ma3aahum",
+       "maʿâhum",
+       "onlarla"
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "ده كتابي، وده كتابك.",
+       "fr": "da kitaabi, wi da kitaabak.",
+       "ok": "da kitâbi, vi da kitâbak.",
+       "tr": "Bu benim kitabım, şu da senin kitabın. (e)"
+      },
+      {
+       "ar": "عربيتك جديدة؟",
+       "fr": "3arabiyyitak gideeda?",
+       "ok": "ʿarabiyyitak gidîda?",
+       "tr": "Araban yeni mi? (e)"
+      },
+      {
+       "ar": "أخوها عايش في أمريكا.",
+       "fr": "akhuuha 3aayish fi amriika.",
+       "ok": "akhûha ʿâyiş fi amrîka.",
+       "tr": "Onun (k) erkek kardeşi Amerika'da yaşıyor."
+      },
+      {
+       "ar": "شفتك امبارح في المترو.",
+       "fr": "shuftak imbaare7 fil-metro.",
+       "ok": "şuftak imbârehh fil-metro.",
+       "tr": "Seni dün metroda gördüm. (e)"
+      },
+      {
+       "ar": "كلّمتها الصبح.",
+       "fr": "kallimtaha is-sob7.",
+       "ok": "kallimtaha is-sobhh.",
+       "tr": "Onunla (k) sabah konuştum."
+      },
+      {
+       "ar": "هاتلي مية من فضلك.",
+       "fr": "haatli mayya min fadlak.",
+       "ok": "hâtli mayya min fadlak.",
+       "tr": "Bana su getir lütfen. (e)"
+      },
+      {
+       "ar": "ابعتلي الرسالة.",
+       "fr": "ib3atli ir-risaala.",
+       "ok": "ibʿatli ir-risâla.",
+       "tr": "Bana mesajı gönder. (e)"
+      },
+      {
+       "ar": "أنا معاك في الموضوع ده.",
+       "fr": "ana ma3aak fil-mawdoo3 da.",
+       "ok": "ana maʿâk fil-mavdûʿ da.",
+       "tr": "Bu konuda seninleyim. (e)"
+      },
+      {
+       "ar": "البيت ده بتاعنا.",
+       "fr": "il-beit da bitaa3na.",
+       "ok": "il-beyt da bitâʿna.",
+       "tr": "Bu ev bizim."
+      },
+      {
+       "ar": "الشنط دي بتوعهم.",
+       "fr": "ish-shonat di bituu3hum.",
+       "ok": "iş-şonat di bitûʿhum.",
+       "tr": "Bu çantalar onların."
+      },
+      {
+       "ar": "جوزها مهندس.",
+       "fr": "gozha muhandis.",
+       "ok": "gozha muhandis.",
+       "tr": "Kocası mühendis. (k)"
+      },
+      {
+       "ar": "صاحبي بيحبني.",
+       "fr": "sa7bi biy7ibbini.",
+       "ok": "sahhbi biyhhibbini.",
+       "tr": "Arkadaşım beni seviyor."
+      },
+      {
+       "ar": "تعالى معايا!",
+       "fr": "ta3aala ma3aaya!",
+       "ok": "taʿâla maʿâya!",
+       "tr": "Benimle gel! (e)"
+      },
+      {
+       "ar": "ده ليك وده ليها.",
+       "fr": "da leek wi da leeha.",
+       "ok": "da lîk vi da lîha.",
+       "tr": "Bu sana, bu da ona. (e)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "اسمي سارة.",
+       "fr": "ismi saara.",
+       "ok": "ismi sâra.",
+       "tr": "Benim adım Sara."
+      },
+      {
+       "ar": "عربيتها حمرا.",
+       "fr": "3arabiyyitha 7amra.",
+       "ok": "ʿarabiyyitha hhamra.",
+       "tr": "Onun (k) arabası kırmızı."
+      },
+      {
+       "ar": "بيتنا كبير.",
+       "fr": "beitna kibiir.",
+       "ok": "beytna kibîr.",
+       "tr": "Bizim evimiz büyük."
+      },
+      {
+       "ar": "ولادهم في المدرسة.",
+       "fr": "wilaadhom fil-madrasa.",
+       "ok": "vilâdhom fil-madrasa.",
+       "tr": "Onların çocukları okulda."
+      },
+      {
+       "ar": "بحبك.",
+       "fr": "ba7ibbak.",
+       "ok": "bahhibbak.",
+       "tr": "Seni seviyorum. (e)"
+      },
+      {
+       "ar": "شفته.",
+       "fr": "shuftu.",
+       "ok": "şuftu.",
+       "tr": "Onu (e) gördüm."
+      },
+      {
+       "ar": "ساعدني!",
+       "fr": "saa3idni!",
+       "ok": "sâʿidni!",
+       "tr": "Bana yardım et! (e)"
+      },
+      {
+       "ar": "جبتلك هدية.",
+       "fr": "gibtilik hadiyya.",
+       "ok": "gibtilik hadiyya.",
+       "tr": "Sana bir hediye aldım. (k)"
+      },
+      {
+       "ar": "الموبايل ده بتاعي.",
+       "fr": "il-mobayl da bitaa3i.",
+       "ok": "il-mobayl da bitâʿi.",
+       "tr": "Bu telefon benim."
+      },
+      {
+       "ar": "الشنط دي بتوعنا.",
+       "fr": "ish-shonat di bituu3na.",
+       "ok": "iş-şonat di bitûʿna.",
+       "tr": "Bu çantalar bizim."
+      },
+      {
+       "ar": "تعالي معايا!",
+       "fr": "ta3aali ma3aaya!",
+       "ok": "taʿâli maʿâya!",
+       "tr": "Benimle gel! (k)"
+      },
+      {
+       "ar": "كلمته.",
+       "fr": "kallimtu.",
+       "ok": "kallimtu.",
+       "tr": "Onunla (e) konuştum."
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "soru-kelimeleri",
+   "title": "Soru kelimeleri",
+   "emoji": "❓",
+   "summary": "eih, feen, izzaay, imta, meen… cümle sonunda",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Soru kelimeleri az ve sabittir; hepsi cinsiyet ve sayıdan bağımsızdır (değişmez). Bir soru kelimesini fiil çekimleriyle birleştirince tüm günlük sohbeti kurabilirsin: هتيجي إمتى؟ (ne zaman geleceksin?), روحت فين؟ (nereye gittin?)."
+    },
+    {
+     "type": "text",
+     "text": "Kural: Soru kelimesi Türkçedeki gibi genellikle cümlenin sonunda durur: اسمك إيه؟ ismak eih? (adın ne?). Evet-hayır sorusunda ayrı bir ek yoktur, sadece ses tonu yükselir: إنتَ تعبان؟ inta ta3baan? Cevap: أيوه aywa (evet), لأ la2 (hayır)."
+    },
+    {
+     "type": "table",
+     "title": "Soru kelimeleri",
+     "head": [
+      "Arapça",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "إيه",
+       "eih",
+       "eyh",
+       "ne"
+      ],
+      [
+       "فين",
+       "feen",
+       "fîn",
+       "nerede"
+      ],
+      [
+       "منين",
+       "minein",
+       "mineyn",
+       "nereden"
+      ],
+      [
+       "إمتى",
+       "imta",
+       "imta",
+       "ne zaman"
+      ],
+      [
+       "مين",
+       "meen",
+       "mîn",
+       "kim"
+      ],
+      [
+       "ليه",
+       "leeh",
+       "lîh",
+       "neden"
+      ],
+      [
+       "عشان إيه",
+       "3ashaan eih",
+       "ʿaşân eyh",
+       "ne için"
+      ],
+      [
+       "إزاي",
+       "izzaay",
+       "izzây",
+       "nasıl"
+      ],
+      [
+       "كام",
+       "kaam",
+       "kâm",
+       "kaç"
+      ],
+      [
+       "بكام",
+       "bikaam",
+       "bikâm",
+       "kaç para, kaça"
+      ],
+      [
+       "أنهي",
+       "anhi",
+       "anhi",
+       "hangi"
+      ],
+      [
+       "بتاع مين",
+       "bitaa3 meen",
+       "bitâʿ mîn",
+       "kimin"
+      ],
+      [
+       "مع مين",
+       "ma3a meen",
+       "maʿa mîn",
+       "kiminle"
+      ],
+      [
+       "لمين",
+       "li-meen",
+       "li-mîn",
+       "kime"
+      ],
+      [
+       "لغاية إمتى",
+       "li-ghaayit imta",
+       "li-ğâyit imta",
+       "ne zamana kadar"
+      ],
+      [
+       "إيه ده؟",
+       "eih da?",
+       "eyh da?",
+       "bu ne?"
+      ]
+     ]
+    },
+    {
+     "type": "table",
+     "title": "Soru ve cevap kalıpları",
+     "head": [
+      "Soru",
+      "Cevap",
+      "Franko",
+      "Okunuş",
+      "Türkçe"
+     ],
+     "rows": [
+      [
+       "اسمك إيه؟",
+       "اسمي منى.",
+       "ismak eih? / ismi mona.",
+       "ismak eyh? / ismi mona.",
+       "Adın ne? / Adım Mona."
+      ],
+      [
+       "إنتِ منين؟",
+       "أنا من القاهرة.",
+       "inti minein? / ana min il-2aahira.",
+       "inti mineyn? / ana min il-’âhira.",
+       "Nerelisin? (k) / Kahireliyim."
+      ],
+      [
+       "ساكنة فين؟",
+       "ساكنة في المعادي.",
+       "sakna feen? / sakna fil-ma3aadi.",
+       "sakna fîn? / sakna fil-maʿâdi.",
+       "Nerede oturuyorsun? (k) / Maadi'de."
+      ],
+      [
+       "الامتحان إمتى؟",
+       "بكرة الصبح.",
+       "il-imti7aan imta? / bukra is-sob7.",
+       "il-imtihhân imta? / bukra is-sobhh.",
+       "Sınav ne zaman? / Yarın sabah."
+      ],
+      [
+       "مين ده؟",
+       "ده أخويا.",
+       "meen da? / da akhuuya.",
+       "mîn da? / da akhûya.",
+       "Bu kim? / Bu erkek kardeşim."
+      ],
+      [
+       "ليه متأخر؟",
+       "الطريق كان زحمة.",
+       "leeh mit2akhkhar? / it-tarii2 kaan za7ma.",
+       "lîh mit’akhkhar? / it-tarî’ kân zahhma.",
+       "Neden geç kaldın? / Yol kalabalıktı."
+      ],
+      [
+       "إزاي أروح المحطة؟",
+       "امشي دغري.",
+       "izzaay aruu7 il-ma7atta? / imshi doghri.",
+       "izzây arûhh il-mahhatta? / imşi doğri.",
+       "İstasyona nasıl giderim? / Dosdoğru yürü."
+      ],
+      [
+       "عندك كام سنة؟",
+       "عندي تلاتين سنة.",
+       "3andak kaam sana? / 3andi talatiin sana.",
+       "ʿandak kâm sana? / ʿandi talatîn sana.",
+       "Kaç yaşındasın? / Otuz yaşındayım."
+      ],
+      [
+       "بكام الكيلو؟",
+       "بخمسة جنيه.",
+       "bikaam il-kiilo? / bi-khamsa gineeh.",
+       "bikâm il-kîlo? / bi-khamsa ginîh.",
+       "Kilosu kaça? / Beş lira."
+      ],
+      [
+       "عايز إيه؟",
+       "عايز مية.",
+       "3aayiz eih? / 3aayiz mayya.",
+       "ʿâyiz eyh? / ʿâyiz mayya.",
+       "Ne istiyorsun? / Su istiyorum."
+      ]
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Evet-hayır soruları"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "عايز شاي ولا قهوة؟",
+       "fr": "3aayiz shaay wala 2ahwa?",
+       "ok": "ʿâyiz şây vala ’ahva?",
+       "tr": "Çay mı, kahve mi istiyorsun? (e)"
+      },
+      {
+       "ar": "إنتَ كويس؟",
+       "fr": "inta kwayyis?",
+       "ok": "inta kvayyis?",
+       "tr": "İyi misin? (ton yükselir)"
+      },
+      {
+       "ar": "مش كده؟",
+       "fr": "mish kida?",
+       "ok": "miş kida?",
+       "tr": "Öyle değil mi?"
+      },
+      {
+       "ar": "صح؟",
+       "fr": "sa77?",
+       "ok": "sahh?",
+       "tr": "Doğru mu?"
+      },
+      {
+       "ar": "فاهم؟",
+       "fr": "faahim?",
+       "ok": "fâhim?",
+       "tr": "Anladın mı? (e)"
+      },
+      {
+       "ar": "تمام؟",
+       "fr": "tamaam?",
+       "ok": "tamâm?",
+       "tr": "Tamam mı, olur mu?"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Günlük hayattan cümleler"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "إزيّك؟ عامل إيه؟",
+       "fr": "izzayyak? 3aamil eih?",
+       "ok": "izzayyak? ʿâmil eyh?",
+       "tr": "Nasılsın? Ne haber? (e)"
+      },
+      {
+       "ar": "إنتَ رايح فين؟",
+       "fr": "inta raayi7 feen?",
+       "ok": "inta râyihh fîn?",
+       "tr": "Nereye gidiyorsun? (e)"
+      },
+      {
+       "ar": "هتيجي إمتى؟",
+       "fr": "hatiigi imta?",
+       "ok": "hatîgi imta?",
+       "tr": "Ne zaman geleceksin? (e)"
+      },
+      {
+       "ar": "مين اللي كلمك؟",
+       "fr": "meen illi kallimak?",
+       "ok": "mîn illi kallimak?",
+       "tr": "Seni kim aradı? (e)"
+      },
+      {
+       "ar": "بتعمل إيه في الويك إند؟",
+       "fr": "bit3mil eih fil-week end?",
+       "ok": "bitʿmil eyh fil-vîk end?",
+       "tr": "Hafta sonu ne yapıyorsun? (e)"
+      },
+      {
+       "ar": "ليه مجيتش امبارح؟",
+       "fr": "leeh mageetish imbaare7?",
+       "ok": "lîh magîtiş imbârehh?",
+       "tr": "Neden dün gelmedin? (e)"
+      },
+      {
+       "ar": "الساعة كام دلوقتي؟",
+       "fr": "is-saa3a kaam dilwa2ti?",
+       "ok": "is-sâʿa kâm dilva’ti?",
+       "tr": "Şimdi saat kaç?"
+      },
+      {
+       "ar": "المشوار ده بكام؟",
+       "fr": "il-mishwaar da bikaam?",
+       "ok": "il-mişvâr da bikâm?",
+       "tr": "Bu yol (taksi) kaç para?"
+      },
+      {
+       "ar": "فين الحمام؟",
+       "fr": "feen il-7ammaam?",
+       "ok": "fîn il-hhammâm?",
+       "tr": "Tuvalet nerede?"
+      },
+      {
+       "ar": "أنهي واحد أحسن؟",
+       "fr": "anhi waa7id a7san?",
+       "ok": "anhi vâhhid ahhsan?",
+       "tr": "Hangisi daha iyi?"
+      },
+      {
+       "ar": "ده بتاع مين؟",
+       "fr": "da bitaa3 meen?",
+       "ok": "da bitâʿ mîn?",
+       "tr": "Bu kimin?"
+      },
+      {
+       "ar": "إنتَ منين في تركيا؟",
+       "fr": "inta minein fi turkiya?",
+       "ok": "inta mineyn fi turkiya?",
+       "tr": "Türkiye'nin neresindensin? (e)"
+      },
+      {
+       "ar": "عشان إيه؟",
+       "fr": "3ashaan eih?",
+       "ok": "ʿaşân eyh?",
+       "tr": "Ne için?"
+      },
+      {
+       "ar": "إيه رأيك؟",
+       "fr": "eih ra2yak?",
+       "ok": "eyh ra’yak?",
+       "tr": "Ne düşünüyorsun? (e)"
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "Pratik yap (cevaplarıyla)"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "اسمك إيه؟",
+       "fr": "ismak eih?",
+       "ok": "ismak eyh?",
+       "tr": "Adın ne? (e)"
+      },
+      {
+       "ar": "ساكن فين؟",
+       "fr": "saakin feen?",
+       "ok": "sâkin fîn?",
+       "tr": "Nerede oturuyorsun? (e)"
+      },
+      {
+       "ar": "الساعة كام؟",
+       "fr": "is-saa3a kaam?",
+       "ok": "is-sâʿa kâm?",
+       "tr": "Saat kaç?"
+      },
+      {
+       "ar": "الامتحان إمتى؟",
+       "fr": "il-imti7aan imta?",
+       "ok": "il-imtihhân imta?",
+       "tr": "Sınav ne zaman?"
+      },
+      {
+       "ar": "مين ده؟",
+       "fr": "meen da?",
+       "ok": "mîn da?",
+       "tr": "Bu kim?"
+      },
+      {
+       "ar": "ليه اتأخرتي؟",
+       "fr": "leeh it2akhkharti?",
+       "ok": "lîh it’akhkharti?",
+       "tr": "Neden geç kaldın? (k)"
+      },
+      {
+       "ar": "ده بكام؟",
+       "fr": "da bikaam?",
+       "ok": "da bikâm?",
+       "tr": "Bu kaç para?"
+      },
+      {
+       "ar": "إزاي أروح المحطة؟",
+       "fr": "izzaay aruu7 il-ma7atta?",
+       "ok": "izzây arûhh il-mahhatta?",
+       "tr": "İstasyona nasıl giderim?"
+      },
+      {
+       "ar": "عندك كام أخ؟",
+       "fr": "3andak kaam akh?",
+       "ok": "ʿandak kâm akh?",
+       "tr": "Kaç erkek kardeşin var? (e)"
+      },
+      {
+       "ar": "إنتِ منين؟",
+       "fr": "inti minein?",
+       "ok": "inti mineyn?",
+       "tr": "Nerelisin? (k)"
+      },
+      {
+       "ar": "الشنطة دي بتاعة مين؟",
+       "fr": "ish-shanta di bitaa3it meen?",
+       "ok": "iş-şanta di bitâʿit mîn?",
+       "tr": "Bu çanta kimin?"
+      },
+      {
+       "ar": "عايز شاي ولا قهوة؟",
+       "fr": "3aayiz shaay wala 2ahwa?",
+       "ok": "ʿâyiz şây vala ’ahva?",
+       "tr": "Çay mı kahve mi istersin? (e)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "karisik-pratik",
+   "title": "Karışık pratik: tüm konular",
+   "emoji": "⭐",
+   "summary": "Zamanlar + olumsuzluk + zamirler + sorular (20 cümle)",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Tüm konuları birleştiren 20 cümle. Önce Türkçesini okuyup kendin çevir, sonra cevaba bak."
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "امبارح روحت السينما مع صاحبي.",
+       "fr": "imbaare7 ru7t is-sinima ma3a sa7bi.",
+       "ok": "imbârehh ruhht is-sinima maʿa sahhbi.",
+       "tr": "Dün arkadaşımla sinemaya gittim."
+      },
+      {
+       "ar": "هصحى بدري بكرة.",
+       "fr": "has7a badri bukra.",
+       "ok": "hashha badri bukra.",
+       "tr": "Yarın erken kalkacağım."
+      },
+      {
+       "ar": "بذاكر كل يوم بالليل.",
+       "fr": "bazaakir kull yoom bil-leil.",
+       "ok": "bazâkir kull yûm bil-leyl.",
+       "tr": "Her akşam ders çalışırım."
+      },
+      {
+       "ar": "مروحتش الشغل النهارده.",
+       "fr": "maru7tish ish-shoghl en-nahaarda.",
+       "ok": "maruhhtiş iş-şoğl en-nahârda.",
+       "tr": "Bugün işe gitmedim."
+      },
+      {
+       "ar": "اسمها إيه؟",
+       "fr": "ismaha eih?",
+       "ok": "ismaha eyh?",
+       "tr": "Onun (k) adı ne?"
+      },
+      {
+       "ar": "ممكن تساعدني؟",
+       "fr": "mumkin tisaa3idni?",
+       "ok": "mumkin tisâʿidni?",
+       "tr": "Bana yardım edebilir misin? (e)"
+      },
+      {
+       "ar": "أمي هتيجي بكرة.",
+       "fr": "ommi hatiigi bukra.",
+       "ok": "ommi hatîgi bukra.",
+       "tr": "Annem yarın gelecek."
+      },
+      {
+       "ar": "اتصلت بيك بس مردّتش.",
+       "fr": "ittasalt bik bass maraddetsh.",
+       "ok": "ittasalt bik bass maraddetş.",
+       "tr": "Seni aradım ama cevap vermedin. (e)"
+      },
+      {
+       "ar": "مش جعان، شكرًا.",
+       "fr": "mish ga3aan, shukran.",
+       "ok": "miş gaʿân, şukran.",
+       "tr": "Aç değilim, teşekkürler. (e)"
+      },
+      {
+       "ar": "بيتنا في القاهرة.",
+       "fr": "beitna fil-2aahira.",
+       "ok": "beytna fil-’âhira.",
+       "tr": "Bizim evimiz Kahire'de."
+      },
+      {
+       "ar": "هنتقابل الساعة كام؟",
+       "fr": "hanit2aabil is-saa3a kaam?",
+       "ok": "hanit’âbil is-sâʿa kâm?",
+       "tr": "Saat kaçta buluşacağız?"
+      },
+      {
+       "ar": "مين طبخ الأكل؟",
+       "fr": "meen tabakh il-akl?",
+       "ok": "mîn tabakh il-akl?",
+       "tr": "Yemeği kim pişirdi?"
+      },
+      {
+       "ar": "ده مش بتاعي.",
+       "fr": "da mish bitaa3i.",
+       "ok": "da miş bitâʿi.",
+       "tr": "Bu benim değil."
+      },
+      {
+       "ar": "نسيت كتابك فين؟",
+       "fr": "niseet kitaabak feen?",
+       "ok": "nisît kitâbak fîn?",
+       "tr": "Kitabını nerede unuttun? (e)"
+      },
+      {
+       "ar": "الجو هيبقى حلو بكرة.",
+       "fr": "il-gaw hayib2a 7ilw bukra.",
+       "ok": "il-gav hayib’a hhilv bukra.",
+       "tr": "Yarın hava güzel olacak."
+      },
+      {
+       "ar": "جيت إمتى؟",
+       "fr": "geet imta?",
+       "ok": "gît imta?",
+       "tr": "Ne zaman geldin? (e)"
+      },
+      {
+       "ar": "مش عايز أشرب مية.",
+       "fr": "mish 3aayiz ashrab mayya.",
+       "ok": "miş ʿâyiz aşrab mayya.",
+       "tr": "Su içmek istemiyorum. (e)"
+      },
+      {
+       "ar": "مجوش معانا.",
+       "fr": "magoosh ma3aana.",
+       "ok": "magûş maʿâna.",
+       "tr": "Onlar bizimle gelmediler."
+      },
+      {
+       "ar": "مشفتش حد في الشارع.",
+       "fr": "mashuftish 7add fish-shaari3.",
+       "ok": "maşuftiş hhadd fiş-şâriʿ.",
+       "tr": "Yolda kimseyi görmedim."
+      },
+      {
+       "ar": "هقولك حاجة.",
+       "fr": "ha2ullak 7aaga.",
+       "ok": "ha’ullak hhâga.",
+       "tr": "Sana bir şey söyleyeceğim. (e)"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "id": "mini-diyaloglar",
+   "title": "Mini diyaloglar",
+   "emoji": "💬",
+   "summary": "Taksi, dün ne yaptın, restoranda",
+   "blocks": [
+    {
+     "type": "text",
+     "text": "Yüksek sesle, rol yaparak okuyun."
+    },
+    {
+     "type": "text",
+     "text": "1) Taksi"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "السلام عليكم. عايز أروح ميدان التحرير.",
+       "fr": "is-salaamu 3aleikum. 3aayiz aruu7 midaan it-ta7riir.",
+       "ok": "is-salâmu ʿaleykum. ʿâyiz arûhh midân it-tahhrîr.",
+       "tr": "A: Selamün aleyküm. Tahrir Meydanı'na gitmek istiyorum."
+      },
+      {
+       "ar": "اتفضل. الشوارع زحمة النهارده.",
+       "fr": "itfaddal. ish-shawaari3 za7ma en-nahaarda.",
+       "ok": "itfaddal. iş-şavâriʿ zahhma en-nahârda.",
+       "tr": "B: Buyurun. Bugün sokaklar kalabalık."
+      },
+      {
+       "ar": "هنوصل بعد قد إيه؟",
+       "fr": "hanuusal ba3d 2add eih?",
+       "ok": "hanûsal baʿd ’add eyh?",
+       "tr": "A: Ne kadar sürede varırız?"
+      },
+      {
+       "ar": "تقريبًا نص ساعة.",
+       "fr": "ta2riiban nuss saa3a.",
+       "ok": "ta’rîban nuss sâʿa.",
+       "tr": "B: Yaklaşık yarım saat."
+      },
+      {
+       "ar": "المشوار ده بكام؟",
+       "fr": "il-mishwaar da bikaam?",
+       "ok": "il-mişvâr da bikâm?",
+       "tr": "A: Bu yol kaç para?"
+      },
+      {
+       "ar": "بخمسين جنيه.",
+       "fr": "bi-khamsiin gineeh.",
+       "ok": "bi-khamsîn ginîh.",
+       "tr": "B: Elli lira."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "2) Dün ne yaptın?"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "عملت إيه امبارح؟",
+       "fr": "3amalt eih imbaare7?",
+       "ok": "ʿamalt eyh imbârehh?",
+       "tr": "A: Dün ne yaptın?"
+      },
+      {
+       "ar": "روحت الشغل وبعدين روحت الجيم.",
+       "fr": "ru7t ish-shoghl w-ba3deen ru7t il-gym.",
+       "ok": "ruhht iş-şoğl v-baʿdîn ruhht il-cim.",
+       "tr": "B: İşe gittim, sonra spora gittim."
+      },
+      {
+       "ar": "وبتروح الجيم كل يوم؟",
+       "fr": "w-bitruu7 il-gym kull yoom?",
+       "ok": "v-bitrûhh il-cim kull yûm?",
+       "tr": "A: Her gün spora gider misin?"
+      },
+      {
+       "ar": "لأ، تلات مرات في الأسبوع.",
+       "fr": "la2, talat marraat fil-usbuu3.",
+       "ok": "la’, talat marrât fil-usbûʿ.",
+       "tr": "B: Hayır, haftada üç kez."
+      },
+      {
+       "ar": "وبكرة هتعمل إيه؟",
+       "fr": "w-bukra hat3mil eih?",
+       "ok": "v-bukra hatʿmil eyh?",
+       "tr": "A: Peki yarın ne yapacaksın?"
+      },
+      {
+       "ar": "مش هعمل حاجة. هنام لحد الضهر.",
+       "fr": "mish ha3mil 7aaga. hanaam li7add id-dohr.",
+       "ok": "miş haʿmil hhâga. hanâm lihhadd id-dohr.",
+       "tr": "B: Bir şey yapmayacağım. Öğlene kadar uyuyacağım."
+      }
+     ]
+    },
+    {
+     "type": "text",
+     "text": "3) Restoranda"
+    },
+    {
+     "type": "examples",
+     "items": [
+      {
+       "ar": "ممكن المنيو من فضلك؟",
+       "fr": "mumkin il-menyu min fadlak?",
+       "ok": "mumkin il-menyu min fadlak?",
+       "tr": "A: Menüyü alabilir miyim lütfen?"
+      },
+      {
+       "ar": "اتفضل. تشرب إيه؟",
+       "fr": "itfaddal. tishrab eih?",
+       "ok": "itfaddal. tişrab eyh?",
+       "tr": "B: Buyurun. Ne içersiniz?"
+      },
+      {
+       "ar": "عايز عصير مانجا وكشري.",
+       "fr": "3aayiz 3asiir manga w-kushari.",
+       "ok": "ʿâyiz ʿasîr manga v-kuşari.",
+       "tr": "A: Mango suyu ve koshari istiyorum."
+      },
+      {
+       "ar": "حاضر. حاجة تانية؟",
+       "fr": "7aadir. 7aaga tanya?",
+       "ok": "hhâdir. hhâga tanya?",
+       "tr": "B: Tamam. Başka bir şey?"
+      },
+      {
+       "ar": "لأ، شكرًا. الحساب بعد الأكل.",
+       "fr": "la2, shukran. il-7isaab ba3d il-akl.",
+       "ok": "la’, şukran. il-hhisâb baʿd il-akl.",
+       "tr": "A: Hayır, teşekkürler. Hesap yemekten sonra."
+      },
+      {
+       "ar": "تحت أمرك.",
+       "fr": "ta7t amrak.",
+       "ok": "tahht amrak.",
+       "tr": "B: Emrinize amadeyim."
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "verbs": [
+  {
+   "tr": "yazmak",
+   "past": {
+    "ar": "كتب",
+    "fr": "katab",
+    "ok": "katab"
+   },
+   "pres": {
+    "ar": "بكتب",
+    "fr": "baktib",
+    "ok": "baktib"
+   },
+   "type": "regular",
+   "imp": {
+    "ar": "اكتب",
+    "fr": "iktib",
+    "ok": "iktib"
+   },
+   "conj": {
+    "past": {
+     "ana": {
+      "ar": "كتبت",
+      "fr": "katabt",
+      "neg": {
+       "ar": "مكتبتش",
+       "fr": "maktabtish"
+      }
+     },
+     "enta": {
+      "ar": "كتبت",
+      "fr": "katabt",
+      "neg": {
+       "ar": "مكتبتش",
+       "fr": "maktabtish"
+      }
+     },
+     "enti": {
+      "ar": "كتبتي",
+      "fr": "katabti",
+      "neg": {
+       "ar": "مكتبتيش",
+       "fr": "maktabtiish"
+      }
+     },
+     "howa": {
+      "ar": "كتب",
+      "fr": "katab",
+      "neg": {
+       "ar": "مكتبش",
+       "fr": "maktabsh"
+      }
+     },
+     "heya": {
+      "ar": "كتبت",
+      "fr": "katabit",
+      "neg": {
+       "ar": "مكتبتش",
+       "fr": "maktabitsh"
+      }
+     },
+     "ehna": {
+      "ar": "كتبنا",
+      "fr": "katabna",
+      "neg": {
+       "ar": "مكتبناش",
+       "fr": "maktabnaash"
+      }
+     },
+     "ento": {
+      "ar": "كتبتوا",
+      "fr": "katabtu",
+      "neg": {
+       "ar": "مكتبتوش",
+       "fr": "maktabtuush"
+      }
+     },
+     "homma": {
+      "ar": "كتبوا",
+      "fr": "katabu",
+      "neg": {
+       "ar": "مكتبوش",
+       "fr": "maktabuush"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "içmek",
+   "past": {
+    "ar": "شرب",
+    "fr": "shirib",
+    "ok": "şirib"
+   },
+   "pres": {
+    "ar": "بشرب",
+    "fr": "bashrab",
+    "ok": "başrab"
+   },
+   "type": "regular",
+   "conj": {
+    "pres": {
+     "ana": {
+      "ar": "بشرب",
+      "fr": "bashrab",
+      "neg": {
+       "ar": "مبشربش",
+       "fr": "mabashrabsh"
+      }
+     },
+     "enta": {
+      "ar": "بتشرب",
+      "fr": "bitishrab",
+      "neg": {
+       "ar": "مبتشربش",
+       "fr": "mabtishrabsh"
+      }
+     },
+     "enti": {
+      "ar": "بتشربي",
+      "fr": "bitishrabi",
+      "neg": {
+       "ar": "مبتشربيش",
+       "fr": "mabtishrabiish"
+      }
+     },
+     "howa": {
+      "ar": "بيشرب",
+      "fr": "biyishrab",
+      "neg": {
+       "ar": "مبيشربش",
+       "fr": "mabyishrabsh"
+      }
+     },
+     "heya": {
+      "ar": "بتشرب",
+      "fr": "bitishrab",
+      "neg": {
+       "ar": "مبتشربش",
+       "fr": "mabtishrabsh"
+      }
+     },
+     "ehna": {
+      "ar": "بنشرب",
+      "fr": "binishrab",
+      "neg": {
+       "ar": "مبنشربش",
+       "fr": "mabnishrabsh"
+      }
+     },
+     "ento": {
+      "ar": "بتشربوا",
+      "fr": "bitishrabu",
+      "neg": {
+       "ar": "مبتشربوش",
+       "fr": "mabtishrabuush"
+      }
+     },
+     "homma": {
+      "ar": "بيشربوا",
+      "fr": "biyishrabu",
+      "neg": {
+       "ar": "مبيشربوش",
+       "fr": "mabyishrabuush"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "yemek",
+   "past": {
+    "ar": "أكل",
+    "fr": "akal",
+    "ok": "akal"
+   },
+   "pres": {
+    "ar": "باكل",
+    "fr": "baakul",
+    "ok": "bâkul"
+   },
+   "type": "irregular",
+   "conj": {
+    "fut": {
+     "ana": {
+      "ar": "هاكل",
+      "fr": "haakul",
+      "neg": {
+       "ar": "مش هاكل",
+       "fr": "mish haakul"
+      }
+     },
+     "enta": {
+      "ar": "هتاكل",
+      "fr": "hataakul",
+      "neg": {
+       "ar": "مش هتاكل",
+       "fr": "mish hataakul"
+      }
+     },
+     "enti": {
+      "ar": "هتاكلي",
+      "fr": "hataakli",
+      "neg": {
+       "ar": "مش هتاكلي",
+       "fr": "mish hataakli"
+      }
+     },
+     "howa": {
+      "ar": "هياكل",
+      "fr": "hayaakul",
+      "neg": {
+       "ar": "مش هياكل",
+       "fr": "mish hayaakul"
+      }
+     },
+     "heya": {
+      "ar": "هتاكل",
+      "fr": "hataakul",
+      "neg": {
+       "ar": "مش هتاكل",
+       "fr": "mish hataakul"
+      }
+     },
+     "ehna": {
+      "ar": "هناكل",
+      "fr": "hanaakul",
+      "neg": {
+       "ar": "مش هناكل",
+       "fr": "mish hanaakul"
+      }
+     },
+     "ento": {
+      "ar": "هتاكلوا",
+      "fr": "hataaklu",
+      "neg": {
+       "ar": "مش هتاكلوا",
+       "fr": "mish hataaklu"
+      }
+     },
+     "homma": {
+      "ar": "هياكلوا",
+      "fr": "hayaaklu",
+      "neg": {
+       "ar": "مش هياكلوا",
+       "fr": "mish hayaaklu"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "gitmek",
+   "past": {
+    "ar": "راح",
+    "fr": "raa7",
+    "ok": "râhh"
+   },
+   "pres": {
+    "ar": "بروح",
+    "fr": "baruu7",
+    "ok": "barûhh"
+   },
+   "type": "hollow",
+   "imp": {
+    "ar": "روح",
+    "fr": "ruu7",
+    "ok": "rûhh"
+   },
+   "conj": {
+    "pres": {
+     "ana": {
+      "ar": "بروح",
+      "fr": "baruu7",
+      "neg": {
+       "ar": "مبروحش",
+       "fr": "mabaruu7sh"
+      }
+     },
+     "enta": {
+      "ar": "بتروح",
+      "fr": "bitruu7",
+      "neg": {
+       "ar": "مبتروحش",
+       "fr": "mabitruu7sh"
+      }
+     },
+     "enti": {
+      "ar": "بتروحي",
+      "fr": "bitruu7i",
+      "neg": {
+       "ar": "مبتروحيش",
+       "fr": "mabitruu7iish"
+      }
+     },
+     "howa": {
+      "ar": "بيروح",
+      "fr": "biyruu7",
+      "neg": {
+       "ar": "مبيروحش",
+       "fr": "mabiyruu7sh"
+      }
+     },
+     "heya": {
+      "ar": "بتروح",
+      "fr": "bitruu7",
+      "neg": {
+       "ar": "مبتروحش",
+       "fr": "mabitruu7sh"
+      }
+     },
+     "ehna": {
+      "ar": "بنروح",
+      "fr": "binruu7",
+      "neg": {
+       "ar": "مبنروحش",
+       "fr": "mabinruu7sh"
+      }
+     },
+     "ento": {
+      "ar": "بتروحوا",
+      "fr": "bitruu7u",
+      "neg": {
+       "ar": "مبتروحوش",
+       "fr": "mabitruu7uush"
+      }
+     },
+     "homma": {
+      "ar": "بيروحوا",
+      "fr": "biyruu7u",
+      "neg": {
+       "ar": "مبيروحوش",
+       "fr": "mabiyruu7uush"
+      }
+     }
+    },
+    "past": {
+     "ana": {
+      "ar": "روحت",
+      "fr": "ru7t",
+      "neg": {
+       "ar": "مروحتش",
+       "fr": "maru7tish"
+      }
+     },
+     "enta": {
+      "ar": "روحت",
+      "fr": "ru7t",
+      "neg": {
+       "ar": "مروحتش",
+       "fr": "maru7tish"
+      }
+     },
+     "enti": {
+      "ar": "روحتي",
+      "fr": "ru7ti",
+      "neg": {
+       "ar": "مروحتيش",
+       "fr": "maru7tiish"
+      }
+     },
+     "howa": {
+      "ar": "راح",
+      "fr": "raa7",
+      "neg": {
+       "ar": "مراحش",
+       "fr": "maraa7sh"
+      }
+     },
+     "heya": {
+      "ar": "راحت",
+      "fr": "raa7it",
+      "neg": {
+       "ar": "مراحتش",
+       "fr": "maraa7itsh"
+      }
+     },
+     "ehna": {
+      "ar": "روحنا",
+      "fr": "ru7na",
+      "neg": {
+       "ar": "مروحناش",
+       "fr": "maru7naash"
+      }
+     },
+     "ento": {
+      "ar": "روحتوا",
+      "fr": "ru7tu",
+      "neg": {
+       "ar": "مروحتوش",
+       "fr": "maru7tuush"
+      }
+     },
+     "homma": {
+      "ar": "راحوا",
+      "fr": "raa7u",
+      "neg": {
+       "ar": "مراحوش",
+       "fr": "maraa7uush"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "gelmek",
+   "past": {
+    "ar": "جه",
+    "fr": "gih",
+    "ok": "gih"
+   },
+   "pres": {
+    "ar": "باجي",
+    "fr": "baagi",
+    "ok": "bâgi"
+   },
+   "type": "irregular",
+   "conj": {
+    "past": {
+     "ana": {
+      "ar": "جيت",
+      "fr": "geet",
+      "neg": {
+       "ar": "مجيتش",
+       "fr": "mageetish"
+      }
+     },
+     "enta": {
+      "ar": "جيت",
+      "fr": "geet",
+      "neg": {
+       "ar": "مجيتش",
+       "fr": "mageetish"
+      }
+     },
+     "enti": {
+      "ar": "جيتي",
+      "fr": "geeti",
+      "neg": {
+       "ar": "مجيتيش",
+       "fr": "mageetiish"
+      }
+     },
+     "howa": {
+      "ar": "جه",
+      "fr": "gih",
+      "neg": {
+       "ar": "مجاش",
+       "fr": "magaash"
+      }
+     },
+     "heya": {
+      "ar": "جت",
+      "fr": "gat",
+      "neg": {
+       "ar": "مجتش",
+       "fr": "magatsh"
+      }
+     },
+     "ehna": {
+      "ar": "جينا",
+      "fr": "geena",
+      "neg": {
+       "ar": "مجيناش",
+       "fr": "mageenaash"
+      }
+     },
+     "ento": {
+      "ar": "جيتوا",
+      "fr": "geetu",
+      "neg": {
+       "ar": "مجيتوش",
+       "fr": "mageetuush"
+      }
+     },
+     "homma": {
+      "ar": "جم",
+      "fr": "gum",
+      "neg": {
+       "ar": "مجوش",
+       "fr": "magoosh"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "yapmak",
+   "past": {
+    "ar": "عمل",
+    "fr": "3amal",
+    "ok": "ʿamal"
+   },
+   "pres": {
+    "ar": "بعمل",
+    "fr": "ba3mil",
+    "ok": "baʿmil"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "görmek",
+   "past": {
+    "ar": "شاف",
+    "fr": "shaaf",
+    "ok": "şâf"
+   },
+   "pres": {
+    "ar": "بشوف",
+    "fr": "bashuuf",
+    "ok": "başûf"
+   },
+   "type": "hollow",
+   "conj": {
+    "fut": {
+     "ana": {
+      "ar": "هشوف",
+      "fr": "hashuuf",
+      "neg": {
+       "ar": "مش هشوف",
+       "fr": "mish hashuuf"
+      }
+     },
+     "enta": {
+      "ar": "هتشوف",
+      "fr": "hatshuuf",
+      "neg": {
+       "ar": "مش هتشوف",
+       "fr": "mish hatshuuf"
+      }
+     },
+     "enti": {
+      "ar": "هتشوفي",
+      "fr": "hatshuufi",
+      "neg": {
+       "ar": "مش هتشوفي",
+       "fr": "mish hatshuufi"
+      }
+     },
+     "howa": {
+      "ar": "هيشوف",
+      "fr": "hayshuuf",
+      "neg": {
+       "ar": "مش هيشوف",
+       "fr": "mish hayshuuf"
+      }
+     },
+     "heya": {
+      "ar": "هتشوف",
+      "fr": "hatshuuf",
+      "neg": {
+       "ar": "مش هتشوف",
+       "fr": "mish hatshuuf"
+      }
+     },
+     "ehna": {
+      "ar": "هنشوف",
+      "fr": "hanshuuf",
+      "neg": {
+       "ar": "مش هنشوف",
+       "fr": "mish hanshuuf"
+      }
+     },
+     "ento": {
+      "ar": "هتشوفوا",
+      "fr": "hatshuufu",
+      "neg": {
+       "ar": "مش هتشوفوا",
+       "fr": "mish hatshuufu"
+      }
+     },
+     "homma": {
+      "ar": "هيشوفوا",
+      "fr": "hayshuufu",
+      "neg": {
+       "ar": "مش هيشوفوا",
+       "fr": "mish hayshuufu"
+      }
+     }
+    }
+   }
+  },
+  {
+   "tr": "açmak",
+   "past": {
+    "ar": "فتح",
+    "fr": "fata7",
+    "ok": "fatahh"
+   },
+   "pres": {
+    "ar": "بفتح",
+    "fr": "bafta7",
+    "ok": "baftahh"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "kapatmak",
+   "past": {
+    "ar": "قفل",
+    "fr": "2afal",
+    "ok": "’afal"
+   },
+   "pres": {
+    "ar": "بقفل",
+    "fr": "ba2fil",
+    "ok": "ba’fil"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "çalışmak (iş)",
+   "past": {
+    "ar": "اشتغل",
+    "fr": "ishtaghal",
+    "ok": "iştağal"
+   },
+   "pres": {
+    "ar": "بشتغل",
+    "fr": "bashtaghal",
+    "ok": "baştağal"
+   },
+   "type": "form8"
+  },
+  {
+   "tr": "girmek",
+   "past": {
+    "ar": "دخل",
+    "fr": "dakhal",
+    "ok": "dakhal"
+   },
+   "pres": {
+    "ar": "بدخل",
+    "fr": "badkhul",
+    "ok": "badkhul"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "çıkmak",
+   "past": {
+    "ar": "خرج",
+    "fr": "kharag",
+    "ok": "kharag"
+   },
+   "pres": {
+    "ar": "بخرج",
+    "fr": "bakhrug",
+    "ok": "bakhrug"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "uyumak",
+   "past": {
+    "ar": "نام",
+    "fr": "naam",
+    "ok": "nâm"
+   },
+   "pres": {
+    "ar": "بنام",
+    "fr": "banaam",
+    "ok": "banâm"
+   },
+   "type": "hollow"
+  },
+  {
+   "tr": "satın almak",
+   "past": {
+    "ar": "اشترى",
+    "fr": "ishtara",
+    "ok": "iştara"
+   },
+   "pres": {
+    "ar": "بشتري",
+    "fr": "bashtiri",
+    "ok": "baştiri"
+   },
+   "type": "defective"
+  },
+  {
+   "tr": "konuşmak, aramak",
+   "past": {
+    "ar": "كلّم",
+    "fr": "kallim",
+    "ok": "kallim"
+   },
+   "pres": {
+    "ar": "بكلّم",
+    "fr": "bakallim",
+    "ok": "bakallim"
+   },
+   "type": "form2"
+  },
+  {
+   "tr": "anlamak",
+   "past": {
+    "ar": "فهم",
+    "fr": "fihim",
+    "ok": "fihim"
+   },
+   "pres": {
+    "ar": "بفهم",
+    "fr": "bafham",
+    "ok": "bafham"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "bilmek",
+   "past": {
+    "ar": "عرف",
+    "fr": "3irif",
+    "ok": "ʿirif"
+   },
+   "pres": {
+    "ar": "بعرف",
+    "fr": "ba3raf",
+    "ok": "baʿraf"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "sevmek",
+   "past": {
+    "ar": "حبّ",
+    "fr": "7abb",
+    "ok": "hhabb"
+   },
+   "pres": {
+    "ar": "بحبّ",
+    "fr": "ba7ibb",
+    "ok": "bahhibb"
+   },
+   "type": "doubled"
+  },
+  {
+   "tr": "seyahat etmek",
+   "past": {
+    "ar": "سافر",
+    "fr": "saafir",
+    "ok": "sâfir"
+   },
+   "pres": {
+    "ar": "بسافر",
+    "fr": "basaafir",
+    "ok": "basâfir"
+   },
+   "type": "form3"
+  },
+  {
+   "tr": "ders çalışmak",
+   "past": {
+    "ar": "ذاكر",
+    "fr": "zaakir",
+    "ok": "zâkir"
+   },
+   "pres": {
+    "ar": "بذاكر",
+    "fr": "bazaakir",
+    "ok": "bazâkir"
+   },
+   "type": "form3"
+  },
+  {
+   "tr": "yemek pişirmek",
+   "past": {
+    "ar": "طبخ",
+    "fr": "tabakh",
+    "ok": "tabakh"
+   },
+   "pres": {
+    "ar": "بطبخ",
+    "fr": "batbukh",
+    "ok": "batbukh"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "oynamak",
+   "past": {
+    "ar": "لعب",
+    "fr": "li3ib",
+    "ok": "liʿib"
+   },
+   "pres": {
+    "ar": "بلعب",
+    "fr": "bal3ab",
+    "ok": "balʿab"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "unutmak",
+   "past": {
+    "ar": "نسي",
+    "fr": "nisi",
+    "ok": "nisi"
+   },
+   "pres": {
+    "ar": "بنسى",
+    "fr": "bansa",
+    "ok": "bansa"
+   },
+   "type": "defective"
+  },
+  {
+   "tr": "duymak, dinlemek",
+   "past": {
+    "ar": "سمع",
+    "fr": "simi3",
+    "ok": "simiʿ"
+   },
+   "pres": {
+    "ar": "بسمع",
+    "fr": "basma3",
+    "ok": "basmaʿ"
+   },
+   "type": "regular"
+  },
+  {
+   "tr": "olmak (idi)",
+   "past": {
+    "ar": "كان",
+    "fr": "kaan",
+    "ok": "kân"
+   },
+   "pres": {
+    "ar": "بيبقى",
+    "fr": "biyib2a",
+    "ok": "biyib’a"
+   },
+   "type": "hollow",
+   "note": "Geçmişte kaan + şimdiki fiil = alışkanlık (giderdim). Şimdiki hali kaynakta yok; Mısır kullanımına göre eklendi.",
+   "conj": {
+    "past": {
+     "ana": {
+      "ar": "كنت",
+      "fr": "kunt"
+     },
+     "enta": {
+      "ar": "كنت",
+      "fr": "kunt"
+     },
+     "enti": {
+      "ar": "كنتي",
+      "fr": "kunti"
+     },
+     "howa": {
+      "ar": "كان",
+      "fr": "kaan"
+     },
+     "heya": {
+      "ar": "كانت",
+      "fr": "kaanit"
+     },
+     "ehna": {
+      "ar": "كنا",
+      "fr": "kunna"
+     },
+     "ento": {
+      "ar": "كنتوا",
+      "fr": "kuntu"
+     },
+     "homma": {
+      "ar": "كانوا",
+      "fr": "kaanu"
+     }
+    }
+   }
+  }
+ ]
+}

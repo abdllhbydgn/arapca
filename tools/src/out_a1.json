@@ -1,0 +1,3387 @@
+{
+ "intro": {
+  "method": [
+   "Kart: üst yarı (emoji + Türkçe) soru, kesikli çizginin altı cevap. Alt kısmı kapat, söyle, kontrol et; bildiğinde ☐ işaretle.",
+   "Kutu 1: Yeni kelimeler. Her gün 10 kart al.",
+   "Kutu 2: Doğru bildiklerin. 2 günde bir tekrar et.",
+   "Kutu 3: Çok iyi bildiklerin. Haftada bir bak.",
+   "Yanlış bildiğin kart hep Kutu 1'e döner.",
+   "Günlük plan (15 dk): 10 yeni kart + dünkü kartların tekrarı. 7 günde 70 kelime, bir ayda tüm liste."
+  ],
+  "tips": [
+   "Kelimeyi yüksek sesle 3 kez söyle.",
+   "💡 işaretli kartlar Türkçe'ye geçmiş kelimelerdir (kitap, kalem, şükür, hamam, tezkere…), bunlar bedava!",
+   "Kelimeyi kendi cümlenin içinde kullan: da ketaab (bu kitap).",
+   "Aynı kategoriden çalış: önce yiyecek, sonra ev eşyaları gibi."
+  ],
+  "franko": "3 = ع (boğazdan ayn) · 7 = ح (güçlü h) · ' ve 2 = hemze (kısa durma; ق Mısır'da çoğu zaman bu sesle okunur) · kh = خ · gh = غ · aa/ee/oo = uzun ünlü. Dişil sıfat: sonuna -a eklenir (kebeer → kebeera). Fiillerde \"ba-\" öneki \"ben, şimdiki zaman\" demektir; kadın da erkek de aynı söyler."
+ },
+ "categories": [
+  {
+   "name": "Selamlaşma ve kalıplar",
+   "emoji": "🗣️",
+   "count": 26
+  },
+  {
+   "name": "Zamirler ve soru kelimeleri",
+   "emoji": "❓",
+   "count": 30
+  },
+  {
+   "name": "Sayılar",
+   "emoji": "🔢",
+   "count": 18
+  },
+  {
+   "name": "Günler ve zaman",
+   "emoji": "📅",
+   "count": 25
+  },
+  {
+   "name": "Aile ve insanlar",
+   "emoji": "👨‍👩‍👧",
+   "count": 20
+  },
+  {
+   "name": "Meslekler",
+   "emoji": "💼",
+   "count": 12
+  },
+  {
+   "name": "Vücut",
+   "emoji": "🫀",
+   "count": 14
+  },
+  {
+   "name": "Yiyecek ve içecek",
+   "emoji": "🍽️",
+   "count": 35
+  },
+  {
+   "name": "Renkler",
+   "emoji": "🎨",
+   "count": 10
+  },
+  {
+   "name": "Ev ve eşyalar",
+   "emoji": "🏠",
+   "count": 26
+  },
+  {
+   "name": "Şehir, ulaşım ve doğa",
+   "emoji": "🏙️",
+   "count": 36
+  },
+  {
+   "name": "Hayvanlar",
+   "emoji": "🐾",
+   "count": 8
+  },
+  {
+   "name": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "⚙️",
+   "count": 30
+  },
+  {
+   "name": "Sıfatlar (erkek hâli)",
+   "emoji": "📐",
+   "count": 32
+  },
+  {
+   "name": "Yer ve yön",
+   "emoji": "🧭",
+   "count": 18
+  },
+  {
+   "name": "Alışveriş ve para",
+   "emoji": "🛍️",
+   "count": 11
+  }
+ ],
+ "cards": [
+  {
+   "ar": "أهلًا",
+   "fr": "ahlan",
+   "ok": "ehlen",
+   "tr": "Merhaba",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "👋",
+   "level": "A1"
+  },
+  {
+   "ar": "صباح الخير",
+   "fr": "sabaa7 el-kheir",
+   "ok": "sabâh elhayr",
+   "tr": "Günaydın",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "☀️",
+   "level": "A1"
+  },
+  {
+   "ar": "صباح النور",
+   "fr": "sabaa7 en-noor",
+   "ok": "sabâh ennûr",
+   "tr": "Günaydın (cevap)",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🌅",
+   "level": "A1"
+  },
+  {
+   "ar": "مساء الخير",
+   "fr": "masaa' el-kheir",
+   "ok": "mesâ elhayr",
+   "tr": "İyi akşamlar",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🌆",
+   "level": "A1"
+  },
+  {
+   "ar": "تصبح على خير",
+   "fr": "tesbah 3ala kheir",
+   "ok": "tesbah ala hayr",
+   "tr": "İyi geceler (erkeğe)",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🌙",
+   "level": "A1"
+  },
+  {
+   "ar": "إزيك؟",
+   "fr": "ezzayyak?",
+   "ok": "ezzayyak",
+   "tr": "Nasılsın? (erkeğe)",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🤝",
+   "level": "A1"
+  },
+  {
+   "ar": "كويس",
+   "fr": "kwayyes",
+   "ok": "kevayyis",
+   "tr": "İyiyim",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "😊",
+   "level": "A1"
+  },
+  {
+   "ar": "الحمد لله",
+   "fr": "el-7amdu lellah",
+   "ok": "elhamdulillah",
+   "tr": "Şükür / Çok şükür",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🙏",
+   "level": "A1"
+  },
+  {
+   "ar": "شكرًا",
+   "fr": "shokran",
+   "ok": "şukran",
+   "tr": "Teşekkürler",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🙏",
+   "note": "Türkçe: şükür",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "عفوًا",
+   "fr": "3afwan",
+   "ok": "afven",
+   "tr": "Rica ederim",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🤗",
+   "note": "Türkçe: af",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "لو سمحت",
+   "fr": "law samaht",
+   "ok": "lev semaht",
+   "tr": "Lütfen / Affedersiniz",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🙇",
+   "level": "A1"
+  },
+  {
+   "ar": "معلش",
+   "fr": "ma3lesh",
+   "ok": "maalış",
+   "tr": "Boş ver / Kusura bakma",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "😅",
+   "level": "A1"
+  },
+  {
+   "ar": "أيوه",
+   "fr": "aywa",
+   "ok": "ayva",
+   "tr": "Evet",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "✅",
+   "level": "A1"
+  },
+  {
+   "ar": "لأ",
+   "fr": "la'",
+   "ok": "la",
+   "tr": "Hayır",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "❌",
+   "level": "A1"
+  },
+  {
+   "ar": "ماشي",
+   "fr": "maashy",
+   "ok": "mâşi",
+   "tr": "Tamam (olur)",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "👌",
+   "level": "A1"
+  },
+  {
+   "ar": "تمام",
+   "fr": "tamaam",
+   "ok": "temâm",
+   "tr": "Tamam / Mükemmel",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "👍",
+   "note": "Türkçe: tamam",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "يلا",
+   "fr": "yalla",
+   "ok": "yalla",
+   "tr": "Hadi",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🏃",
+   "level": "A1"
+  },
+  {
+   "ar": "مع السلامة",
+   "fr": "ma3a es-salaama",
+   "ok": "maa essalâme",
+   "tr": "Güle güle",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "👋",
+   "note": "Türkçe: selâmet",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "أهلًا وسهلًا",
+   "fr": "ahlan wa sahlan",
+   "ok": "ehlen ve sehlen",
+   "tr": "Hoş geldin",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🙌",
+   "level": "A1"
+  },
+  {
+   "ar": "إن شاء الله",
+   "fr": "in shaa' allah",
+   "ok": "inşallah",
+   "tr": "İnşallah",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🤲",
+   "level": "A1"
+  },
+  {
+   "ar": "تشرفنا",
+   "fr": "tasharrafna",
+   "ok": "teşerrefnâ",
+   "tr": "Memnun oldum",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🤝",
+   "note": "Türkçe: şeref",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "اسمي",
+   "fr": "esmy",
+   "ok": "ismî",
+   "tr": "Adım ...",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "📛",
+   "note": "Türkçe: isim",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "أنا من تركيا",
+   "fr": "ana min torkeya",
+   "ok": "ene min turkiyya",
+   "tr": "Türkiye'denim",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🇹🇷",
+   "level": "A1"
+  },
+  {
+   "ar": "مش فاهم",
+   "fr": "mish faahem",
+   "ok": "miş fâhim",
+   "tr": "Anlamıyorum (erkek)",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🤷",
+   "note": "Türkçe: fehim",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "ممكن تعيد؟",
+   "fr": "mumkin te3eed?",
+   "ok": "mumkin teîd",
+   "tr": "Tekrar eder misin?",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🔁",
+   "level": "A1"
+  },
+  {
+   "ar": "مفيش مشكلة",
+   "fr": "mafeesh moshkela",
+   "ok": "mafîş muşkile",
+   "tr": "Sorun yok",
+   "cat": "Selamlaşma ve kalıplar",
+   "emoji": "🆗",
+   "note": "Türkçe: müşkül",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "أنا",
+   "fr": "ana",
+   "ok": "ene",
+   "tr": "Ben",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👤",
+   "level": "A1"
+  },
+  {
+   "ar": "إنت",
+   "fr": "enta",
+   "ok": "ente",
+   "tr": "Sen (erkek)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👤",
+   "level": "A1"
+  },
+  {
+   "ar": "إنتي",
+   "fr": "enty",
+   "ok": "entî",
+   "tr": "Sen (kadın)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👤",
+   "level": "A1"
+  },
+  {
+   "ar": "هو",
+   "fr": "howwa",
+   "ok": "hüvve",
+   "tr": "O (erkek)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👨",
+   "level": "A1"
+  },
+  {
+   "ar": "هي",
+   "fr": "heyya",
+   "ok": "hiyye",
+   "tr": "O (kadın)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👩",
+   "level": "A1"
+  },
+  {
+   "ar": "إحنا",
+   "fr": "e7na",
+   "ok": "ihna",
+   "tr": "Biz",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👥",
+   "level": "A1"
+  },
+  {
+   "ar": "إنتو",
+   "fr": "entoo",
+   "ok": "entû",
+   "tr": "Siz",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👥",
+   "level": "A1"
+  },
+  {
+   "ar": "هم",
+   "fr": "homma",
+   "ok": "humme",
+   "tr": "Onlar",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👥",
+   "level": "A1"
+  },
+  {
+   "ar": "مين؟",
+   "fr": "meen?",
+   "ok": "mîn",
+   "tr": "Kim?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🙋",
+   "level": "A1"
+  },
+  {
+   "ar": "إيه؟",
+   "fr": "eh?",
+   "ok": "ey",
+   "tr": "Ne?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "❓",
+   "level": "A1"
+  },
+  {
+   "ar": "فين؟",
+   "fr": "fein?",
+   "ok": "feyn",
+   "tr": "Nerede?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "📍",
+   "level": "A1"
+  },
+  {
+   "ar": "إمتى؟",
+   "fr": "emta?",
+   "ok": "emta",
+   "tr": "Ne zaman?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "⏰",
+   "level": "A1"
+  },
+  {
+   "ar": "ليه؟",
+   "fr": "leih?",
+   "ok": "leyh",
+   "tr": "Neden?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🤔",
+   "level": "A1"
+  },
+  {
+   "ar": "إزاي؟",
+   "fr": "ezzay?",
+   "ok": "ezzây",
+   "tr": "Nasıl?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🔧",
+   "level": "A1"
+  },
+  {
+   "ar": "كام؟",
+   "fr": "kaam?",
+   "ok": "kâm",
+   "tr": "Kaç? / Ne kadar?",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🔢",
+   "level": "A1"
+  },
+  {
+   "ar": "ده",
+   "fr": "da",
+   "ok": "da",
+   "tr": "Bu (eril)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👉",
+   "level": "A1"
+  },
+  {
+   "ar": "دي",
+   "fr": "de",
+   "ok": "di",
+   "tr": "Bu (dişil)",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👉",
+   "level": "A1"
+  },
+  {
+   "ar": "دول",
+   "fr": "dawl",
+   "ok": "devl",
+   "tr": "Bunlar",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "👉",
+   "level": "A1"
+  },
+  {
+   "ar": "هنا",
+   "fr": "hena",
+   "ok": "hena",
+   "tr": "Burada",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "📌",
+   "level": "A1"
+  },
+  {
+   "ar": "هناك",
+   "fr": "henaak",
+   "ok": "henâk",
+   "tr": "Orada",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "📌",
+   "level": "A1"
+  },
+  {
+   "ar": "فيه",
+   "fr": "feeh",
+   "ok": "fîh",
+   "tr": "Var",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "✔️",
+   "level": "A1"
+  },
+  {
+   "ar": "مفيش",
+   "fr": "mafeesh",
+   "ok": "mafîş",
+   "tr": "Yok",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "✖️",
+   "level": "A1"
+  },
+  {
+   "ar": "و",
+   "fr": "we",
+   "ok": "ve",
+   "tr": "Ve",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "➕",
+   "level": "A1"
+  },
+  {
+   "ar": "بس",
+   "fr": "bas",
+   "ok": "bes",
+   "tr": "Ama",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "↔️",
+   "level": "A1"
+  },
+  {
+   "ar": "عشان",
+   "fr": "3ashaan",
+   "ok": "âşân",
+   "tr": "Çünkü",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "💬",
+   "level": "A1"
+  },
+  {
+   "ar": "أو",
+   "fr": "aw",
+   "ok": "ev",
+   "tr": "Veya",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🔀",
+   "level": "A1"
+  },
+  {
+   "ar": "أوي",
+   "fr": "awy",
+   "ok": "evî",
+   "tr": "Çok",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "💯",
+   "level": "A1"
+  },
+  {
+   "ar": "شوية",
+   "fr": "showayya",
+   "ok": "şuveyye",
+   "tr": "Biraz",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🤏",
+   "level": "A1"
+  },
+  {
+   "ar": "كله",
+   "fr": "kolo",
+   "ok": "kullu",
+   "tr": "Hepsi",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🌐",
+   "level": "A1"
+  },
+  {
+   "ar": "مش",
+   "fr": "mish",
+   "ok": "miş",
+   "tr": "Değil",
+   "cat": "Zamirler ve soru kelimeleri",
+   "emoji": "🚫",
+   "level": "A1"
+  },
+  {
+   "ar": "صفر",
+   "fr": "sefr",
+   "ok": "sıfr",
+   "tr": "Sıfır",
+   "cat": "Sayılar",
+   "emoji": "0",
+   "note": "Türkçe: sıfır",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "واحد",
+   "fr": "waa7ed",
+   "ok": "vâhid",
+   "tr": "Bir",
+   "cat": "Sayılar",
+   "emoji": "1",
+   "level": "A1"
+  },
+  {
+   "ar": "اتنين",
+   "fr": "etneen",
+   "ok": "itnîn",
+   "tr": "İki",
+   "cat": "Sayılar",
+   "emoji": "2",
+   "level": "A1"
+  },
+  {
+   "ar": "تلاتة",
+   "fr": "talaata",
+   "ok": "telâte",
+   "tr": "Üç",
+   "cat": "Sayılar",
+   "emoji": "3",
+   "level": "A1"
+  },
+  {
+   "ar": "أربعة",
+   "fr": "arba3a",
+   "ok": "erbaa",
+   "tr": "Dört",
+   "cat": "Sayılar",
+   "emoji": "4",
+   "level": "A1"
+  },
+  {
+   "ar": "خمسة",
+   "fr": "khamsa",
+   "ok": "hamse",
+   "tr": "Beş",
+   "cat": "Sayılar",
+   "emoji": "5",
+   "level": "A1"
+  },
+  {
+   "ar": "ستة",
+   "fr": "setta",
+   "ok": "sitte",
+   "tr": "Altı",
+   "cat": "Sayılar",
+   "emoji": "6",
+   "level": "A1"
+  },
+  {
+   "ar": "سبعة",
+   "fr": "sab3a",
+   "ok": "sebaa",
+   "tr": "Yedi",
+   "cat": "Sayılar",
+   "emoji": "7",
+   "level": "A1"
+  },
+  {
+   "ar": "تمانية",
+   "fr": "tamanya",
+   "ok": "temânya",
+   "tr": "Sekiz",
+   "cat": "Sayılar",
+   "emoji": "8",
+   "level": "A1"
+  },
+  {
+   "ar": "تسعة",
+   "fr": "tes3a",
+   "ok": "tisaa",
+   "tr": "Dokuz",
+   "cat": "Sayılar",
+   "emoji": "9",
+   "level": "A1"
+  },
+  {
+   "ar": "عشرة",
+   "fr": "3ashara",
+   "ok": "aşara",
+   "tr": "On",
+   "cat": "Sayılar",
+   "emoji": "10",
+   "level": "A1"
+  },
+  {
+   "ar": "احداشر",
+   "fr": "e7daashar",
+   "ok": "ihdâşar",
+   "tr": "On bir",
+   "cat": "Sayılar",
+   "emoji": "11",
+   "level": "A1"
+  },
+  {
+   "ar": "اتناشر",
+   "fr": "etnaashar",
+   "ok": "itnâşar",
+   "tr": "On iki",
+   "cat": "Sayılar",
+   "emoji": "12",
+   "level": "A1"
+  },
+  {
+   "ar": "عشرين",
+   "fr": "3eshreen",
+   "ok": "işrîn",
+   "tr": "Yirmi",
+   "cat": "Sayılar",
+   "emoji": "20",
+   "level": "A1"
+  },
+  {
+   "ar": "تلاتين",
+   "fr": "talateen",
+   "ok": "telâtîn",
+   "tr": "Otuz",
+   "cat": "Sayılar",
+   "emoji": "30",
+   "level": "A1"
+  },
+  {
+   "ar": "خمسين",
+   "fr": "khamseen",
+   "ok": "hamsîn",
+   "tr": "Elli",
+   "cat": "Sayılar",
+   "emoji": "50",
+   "level": "A1"
+  },
+  {
+   "ar": "مية",
+   "fr": "meyya",
+   "ok": "mîyye",
+   "tr": "Yüz",
+   "cat": "Sayılar",
+   "emoji": "100",
+   "level": "A1"
+  },
+  {
+   "ar": "ألف",
+   "fr": "alf",
+   "ok": "elf",
+   "tr": "Bin",
+   "cat": "Sayılar",
+   "emoji": "1000",
+   "level": "A1"
+  },
+  {
+   "ar": "الأحد",
+   "fr": "el-a7ad",
+   "ok": "elahad",
+   "tr": "Pazar",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "الإتنين",
+   "fr": "el-etneen",
+   "ok": "ilitnîn",
+   "tr": "Pazartesi",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "التلات",
+   "fr": "et-talaat",
+   "ok": "ittelât",
+   "tr": "Salı",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "الأربع",
+   "fr": "el-arba3",
+   "ok": "ilerbaa",
+   "tr": "Çarşamba",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "الخميس",
+   "fr": "el-khamees",
+   "ok": "ilhamîs",
+   "tr": "Perşembe",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "الجمعة",
+   "fr": "el-gom3a",
+   "ok": "elgumaa",
+   "tr": "Cuma",
+   "cat": "Günler ve zaman",
+   "emoji": "🕌",
+   "note": "Türkçe: cuma",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "السبت",
+   "fr": "es-sabt",
+   "ok": "essabt",
+   "tr": "Cumartesi",
+   "cat": "Günler ve zaman",
+   "emoji": "📅",
+   "level": "A1"
+  },
+  {
+   "ar": "النهاردة",
+   "fr": "en-naharda",
+   "ok": "ennehârda",
+   "tr": "Bugün",
+   "cat": "Günler ve zaman",
+   "emoji": "☀️",
+   "level": "A1",
+   "fix": "Franko düzeltildi: enaharda → en-naharda"
+  },
+  {
+   "ar": "بكرة",
+   "fr": "bokra",
+   "ok": "bukra",
+   "tr": "Yarın",
+   "cat": "Günler ve zaman",
+   "emoji": "➡️",
+   "level": "A1"
+  },
+  {
+   "ar": "إمبارح",
+   "fr": "embaare7",
+   "ok": "embârih",
+   "tr": "Dün",
+   "cat": "Günler ve zaman",
+   "emoji": "⬅️",
+   "level": "A1"
+  },
+  {
+   "ar": "دلوقتي",
+   "fr": "delwa'ty",
+   "ok": "delva'ti",
+   "tr": "Şimdi",
+   "cat": "Günler ve zaman",
+   "emoji": "⏱️",
+   "level": "A1"
+  },
+  {
+   "ar": "بعدين",
+   "fr": "ba3deen",
+   "ok": "baadîn",
+   "tr": "Sonra",
+   "cat": "Günler ve zaman",
+   "emoji": "⏭️",
+   "level": "A1"
+  },
+  {
+   "ar": "يوم",
+   "fr": "yoom",
+   "ok": "yûm",
+   "tr": "Gün",
+   "cat": "Günler ve zaman",
+   "emoji": "🗓️",
+   "note": "Türkçe: yevm",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "أسبوع",
+   "fr": "esboo3",
+   "ok": "isbûa",
+   "tr": "Hafta",
+   "cat": "Günler ve zaman",
+   "emoji": "🗓️",
+   "level": "A1"
+  },
+  {
+   "ar": "شهر",
+   "fr": "shahr",
+   "ok": "şahr",
+   "tr": "Ay (takvim)",
+   "cat": "Günler ve zaman",
+   "emoji": "🌙",
+   "level": "A1"
+  },
+  {
+   "ar": "سنة",
+   "fr": "sana",
+   "ok": "sene",
+   "tr": "Yıl",
+   "cat": "Günler ve zaman",
+   "emoji": "🎆",
+   "note": "Türkçe: sene",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "ساعة",
+   "fr": "sa3a",
+   "ok": "sâa",
+   "tr": "Saat",
+   "cat": "Günler ve zaman",
+   "emoji": "🕐",
+   "note": "Türkçe: saat",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "دقيقة",
+   "fr": "de2ee2a",
+   "ok": "dekîka",
+   "tr": "Dakika",
+   "cat": "Günler ve zaman",
+   "emoji": "⏲️",
+   "note": "Türkçe: dakika",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "الصبح",
+   "fr": "es-sob7",
+   "ok": "essubh",
+   "tr": "Sabah",
+   "cat": "Günler ve zaman",
+   "emoji": "🌄",
+   "level": "A1"
+  },
+  {
+   "ar": "الضهر",
+   "fr": "ed-dohr",
+   "ok": "eddohr",
+   "tr": "Öğle",
+   "cat": "Günler ve zaman",
+   "emoji": "🌞",
+   "level": "A1"
+  },
+  {
+   "ar": "الليل",
+   "fr": "el-leil",
+   "ok": "elleyl",
+   "tr": "Gece",
+   "cat": "Günler ve zaman",
+   "emoji": "🌃",
+   "level": "A1"
+  },
+  {
+   "ar": "بدري",
+   "fr": "badry",
+   "ok": "bedri",
+   "tr": "Erken",
+   "cat": "Günler ve zaman",
+   "emoji": "🐓",
+   "level": "A1"
+  },
+  {
+   "ar": "متأخر",
+   "fr": "met2akhar",
+   "ok": "met'ahhir",
+   "tr": "Geç",
+   "cat": "Günler ve zaman",
+   "emoji": "🐢",
+   "level": "A1"
+  },
+  {
+   "ar": "كل يوم",
+   "fr": "kol yoom",
+   "ok": "kull yûm",
+   "tr": "Her gün",
+   "cat": "Günler ve zaman",
+   "emoji": "🔁",
+   "level": "A1"
+  },
+  {
+   "ar": "دايمًا",
+   "fr": "daayman",
+   "ok": "dâyimen",
+   "tr": "Her zaman",
+   "cat": "Günler ve zaman",
+   "emoji": "♾️",
+   "level": "A1"
+  },
+  {
+   "ar": "ماما",
+   "fr": "mama",
+   "ok": "mama",
+   "tr": "Anne",
+   "cat": "Aile ve insanlar",
+   "emoji": "👩",
+   "level": "A1"
+  },
+  {
+   "ar": "بابا",
+   "fr": "baba",
+   "ok": "baba",
+   "tr": "Baba",
+   "cat": "Aile ve insanlar",
+   "emoji": "👨",
+   "level": "A1"
+  },
+  {
+   "ar": "أخ",
+   "fr": "akh",
+   "ok": "ah",
+   "tr": "Erkek kardeş",
+   "cat": "Aile ve insanlar",
+   "emoji": "👦",
+   "level": "A1"
+  },
+  {
+   "ar": "أخت",
+   "fr": "okht",
+   "ok": "uht",
+   "tr": "Kız kardeş",
+   "cat": "Aile ve insanlar",
+   "emoji": "👧",
+   "level": "A1"
+  },
+  {
+   "ar": "ابن",
+   "fr": "ebn",
+   "ok": "ibn",
+   "tr": "Oğul",
+   "cat": "Aile ve insanlar",
+   "emoji": "👶",
+   "level": "A1"
+  },
+  {
+   "ar": "بنت",
+   "fr": "bint",
+   "ok": "bint",
+   "tr": "Kız evlat",
+   "cat": "Aile ve insanlar",
+   "emoji": "👧",
+   "level": "A1"
+  },
+  {
+   "ar": "جوز",
+   "fr": "gowz",
+   "ok": "gevz",
+   "tr": "Koca",
+   "cat": "Aile ve insanlar",
+   "emoji": "🤵",
+   "level": "A1"
+  },
+  {
+   "ar": "مراتي",
+   "fr": "miraty",
+   "ok": "mirâtî",
+   "tr": "Karı (eş)",
+   "cat": "Aile ve insanlar",
+   "emoji": "👰",
+   "level": "A1"
+  },
+  {
+   "ar": "جد",
+   "fr": "gedd",
+   "ok": "cedd",
+   "tr": "Dede",
+   "cat": "Aile ve insanlar",
+   "emoji": "👴",
+   "level": "A1"
+  },
+  {
+   "ar": "جدة",
+   "fr": "gedda",
+   "ok": "cedde",
+   "tr": "Nine",
+   "cat": "Aile ve insanlar",
+   "emoji": "👵",
+   "level": "A1"
+  },
+  {
+   "ar": "عم",
+   "fr": "3amm",
+   "ok": "amm",
+   "tr": "Amca",
+   "cat": "Aile ve insanlar",
+   "emoji": "🧔",
+   "level": "A1"
+  },
+  {
+   "ar": "عمة",
+   "fr": "3amma",
+   "ok": "amme",
+   "tr": "Hala",
+   "cat": "Aile ve insanlar",
+   "emoji": "👩",
+   "level": "A1"
+  },
+  {
+   "ar": "خال",
+   "fr": "khaal",
+   "ok": "hâl",
+   "tr": "Dayı",
+   "cat": "Aile ve insanlar",
+   "emoji": "👨",
+   "level": "A1"
+  },
+  {
+   "ar": "خالة",
+   "fr": "khaala",
+   "ok": "hâle",
+   "tr": "Teyze",
+   "cat": "Aile ve insanlar",
+   "emoji": "👩",
+   "level": "A1"
+  },
+  {
+   "ar": "عيلة",
+   "fr": "3eila",
+   "ok": "île",
+   "tr": "Aile",
+   "cat": "Aile ve insanlar",
+   "emoji": "👨‍👩‍👧",
+   "note": "Türkçe: aile",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "صاحب",
+   "fr": "sa7eb",
+   "ok": "sâhib",
+   "tr": "Arkadaş",
+   "cat": "Aile ve insanlar",
+   "emoji": "🧑‍🤝‍🧑",
+   "note": "Türkçe: sahip",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "جار",
+   "fr": "gaar",
+   "ok": "câr",
+   "tr": "Komşu",
+   "cat": "Aile ve insanlar",
+   "emoji": "🏘️",
+   "level": "A1"
+  },
+  {
+   "ar": "عيل",
+   "fr": "3eyyel",
+   "ok": "ayyil",
+   "tr": "Çocuk",
+   "cat": "Aile ve insanlar",
+   "emoji": "🧒",
+   "level": "A1"
+  },
+  {
+   "ar": "راجل",
+   "fr": "ragel",
+   "ok": "râgil",
+   "tr": "Adam",
+   "cat": "Aile ve insanlar",
+   "emoji": "👨",
+   "level": "A1"
+  },
+  {
+   "ar": "ست",
+   "fr": "set",
+   "ok": "set",
+   "tr": "Kadın",
+   "cat": "Aile ve insanlar",
+   "emoji": "👩",
+   "level": "A1"
+  },
+  {
+   "ar": "دكتور",
+   "fr": "doktoor",
+   "ok": "doktûr",
+   "tr": "Doktor",
+   "cat": "Meslekler",
+   "emoji": "🧑‍⚕️",
+   "level": "A1"
+  },
+  {
+   "ar": "مدرّس",
+   "fr": "modarres",
+   "ok": "muderris",
+   "tr": "Öğretmen",
+   "cat": "Meslekler",
+   "emoji": "🧑‍🏫",
+   "note": "Türkçe: müderris",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "طالب",
+   "fr": "taaleb",
+   "ok": "tâlib",
+   "tr": "Öğrenci",
+   "cat": "Meslekler",
+   "emoji": "🧑‍🎓",
+   "note": "Türkçe: talip",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "مهندس",
+   "fr": "mohandes",
+   "ok": "muhendis",
+   "tr": "Mühendis",
+   "cat": "Meslekler",
+   "emoji": "🧑‍🔧",
+   "note": "Türkçe: mühendis",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "سواق",
+   "fr": "sawwa2",
+   "ok": "savvâ'",
+   "tr": "Şoför",
+   "cat": "Meslekler",
+   "emoji": "🚕",
+   "level": "A1"
+  },
+  {
+   "ar": "طباخ",
+   "fr": "tabbaakh",
+   "ok": "tabbâh",
+   "tr": "Aşçı",
+   "cat": "Meslekler",
+   "emoji": "🧑‍🍳",
+   "level": "A1"
+  },
+  {
+   "ar": "ممرضة",
+   "fr": "momarreda",
+   "ok": "mumarrıda",
+   "tr": "Hemşire",
+   "cat": "Meslekler",
+   "emoji": "👩‍⚕️",
+   "level": "A1"
+  },
+  {
+   "ar": "شرطي",
+   "fr": "shorty",
+   "ok": "şurtî",
+   "tr": "Polis",
+   "cat": "Meslekler",
+   "emoji": "👮",
+   "level": "A1"
+  },
+  {
+   "ar": "بياع",
+   "fr": "bayya3",
+   "ok": "bayyâ",
+   "tr": "Satıcı",
+   "cat": "Meslekler",
+   "emoji": "🛍️",
+   "level": "A1"
+  },
+  {
+   "ar": "محاسب",
+   "fr": "mo7aseb",
+   "ok": "muhâsib",
+   "tr": "Muhasebeci",
+   "cat": "Meslekler",
+   "emoji": "🧮",
+   "note": "Türkçe: muhasebe",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "عامل",
+   "fr": "3aamel",
+   "ok": "âmil",
+   "tr": "İşçi / Çalışan",
+   "cat": "Meslekler",
+   "emoji": "🧑‍💼",
+   "note": "Türkçe: amele",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "شيخ",
+   "fr": "sheikh",
+   "ok": "şeyh",
+   "tr": "Hoca / Şeyh",
+   "cat": "Meslekler",
+   "emoji": "👨‍🏫",
+   "note": "Türkçe: şeyh",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "راس",
+   "fr": "raas",
+   "ok": "râs",
+   "tr": "Baş",
+   "cat": "Vücut",
+   "emoji": "🙆",
+   "level": "A1"
+  },
+  {
+   "ar": "وش",
+   "fr": "wesh",
+   "ok": "vêş",
+   "tr": "Yüz",
+   "cat": "Vücut",
+   "emoji": "😀",
+   "level": "A1"
+  },
+  {
+   "ar": "عين",
+   "fr": "3ein",
+   "ok": "ayn",
+   "tr": "Göz",
+   "cat": "Vücut",
+   "emoji": "👁️",
+   "level": "A1"
+  },
+  {
+   "ar": "ودن",
+   "fr": "widn",
+   "ok": "vidn",
+   "tr": "Kulak",
+   "cat": "Vücut",
+   "emoji": "👂",
+   "level": "A1"
+  },
+  {
+   "ar": "مناخير",
+   "fr": "manakheer",
+   "ok": "menâhîr",
+   "tr": "Burun",
+   "cat": "Vücut",
+   "emoji": "👃",
+   "level": "A1"
+  },
+  {
+   "ar": "بوق",
+   "fr": "bo2",
+   "ok": "bu'",
+   "tr": "Ağız",
+   "cat": "Vücut",
+   "emoji": "👄",
+   "level": "A1"
+  },
+  {
+   "ar": "سنة",
+   "fr": "sinna",
+   "ok": "sinne",
+   "tr": "Diş",
+   "cat": "Vücut",
+   "emoji": "🦷",
+   "level": "A1"
+  },
+  {
+   "ar": "إيد",
+   "fr": "eid",
+   "ok": "îd",
+   "tr": "El",
+   "cat": "Vücut",
+   "emoji": "🤚",
+   "level": "A1"
+  },
+  {
+   "ar": "رجل",
+   "fr": "regl",
+   "ok": "ricl",
+   "tr": "Ayak / Bacak",
+   "cat": "Vücut",
+   "emoji": "🦵",
+   "level": "A1"
+  },
+  {
+   "ar": "صباع",
+   "fr": "soba3",
+   "ok": "suba",
+   "tr": "Parmak",
+   "cat": "Vücut",
+   "emoji": "☝️",
+   "level": "A1"
+  },
+  {
+   "ar": "بطن",
+   "fr": "batn",
+   "ok": "batn",
+   "tr": "Karın",
+   "cat": "Vücut",
+   "emoji": "🤰",
+   "level": "A1"
+  },
+  {
+   "ar": "ضهر",
+   "fr": "dahr",
+   "ok": "dahr",
+   "tr": "Sırt",
+   "cat": "Vücut",
+   "emoji": "🔙",
+   "level": "A1"
+  },
+  {
+   "ar": "قلب",
+   "fr": "2alb",
+   "ok": "'alb",
+   "tr": "Kalp",
+   "cat": "Vücut",
+   "emoji": "❤️",
+   "note": "Türkçe: kalp",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "شعر",
+   "fr": "sha3r",
+   "ok": "şaar",
+   "tr": "Saç",
+   "cat": "Vücut",
+   "emoji": "💇",
+   "level": "A1"
+  },
+  {
+   "ar": "عيش",
+   "fr": "3eesh",
+   "ok": "îş",
+   "tr": "Ekmek",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍞",
+   "level": "A1"
+  },
+  {
+   "ar": "مية",
+   "fr": "maya",
+   "ok": "maye",
+   "tr": "Su",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "💧",
+   "level": "A1"
+  },
+  {
+   "ar": "شاي",
+   "fr": "shay",
+   "ok": "şây",
+   "tr": "Çay",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍵",
+   "note": "Türkçe: çay",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "قهوة",
+   "fr": "2ahwa",
+   "ok": "'ahva",
+   "tr": "Kahve",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "☕",
+   "note": "Türkçe: kahve",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "لبن",
+   "fr": "laban",
+   "ok": "leben",
+   "tr": "Süt",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥛",
+   "level": "A1"
+  },
+  {
+   "ar": "عصير",
+   "fr": "3aseer",
+   "ok": "asîr",
+   "tr": "Meyve suyu",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🧃",
+   "level": "A1"
+  },
+  {
+   "ar": "أكل",
+   "fr": "akl",
+   "ok": "ekl",
+   "tr": "Yemek",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍴",
+   "level": "A1"
+  },
+  {
+   "ar": "فطار",
+   "fr": "fetaar",
+   "ok": "fitâr",
+   "tr": "Kahvaltı",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥐",
+   "level": "A1"
+  },
+  {
+   "ar": "غدا",
+   "fr": "ghada",
+   "ok": "ğada",
+   "tr": "Öğle yemeği",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍛",
+   "level": "A1"
+  },
+  {
+   "ar": "عشا",
+   "fr": "3asha",
+   "ok": "aşa",
+   "tr": "Akşam yemeği",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍲",
+   "level": "A1"
+  },
+  {
+   "ar": "لحمة",
+   "fr": "la7ma",
+   "ok": "lahme",
+   "tr": "Et",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥩",
+   "level": "A1"
+  },
+  {
+   "ar": "فراخ",
+   "fr": "ferakh",
+   "ok": "firâh",
+   "tr": "Tavuk",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍗",
+   "level": "A1"
+  },
+  {
+   "ar": "سمك",
+   "fr": "samak",
+   "ok": "semek",
+   "tr": "Balık",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🐟",
+   "level": "A1"
+  },
+  {
+   "ar": "رز",
+   "fr": "roz",
+   "ok": "ruzz",
+   "tr": "Pirinç",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍚",
+   "level": "A1"
+  },
+  {
+   "ar": "جبنة",
+   "fr": "gebna",
+   "ok": "cebne",
+   "tr": "Peynir",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🧀",
+   "level": "A1"
+  },
+  {
+   "ar": "بيض",
+   "fr": "beid",
+   "ok": "bêd",
+   "tr": "Yumurta",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥚",
+   "level": "A1"
+  },
+  {
+   "ar": "خضار",
+   "fr": "khodar",
+   "ok": "hudâr",
+   "tr": "Sebze",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥗",
+   "level": "A1"
+  },
+  {
+   "ar": "تفاح",
+   "fr": "toffa7",
+   "ok": "tuffâh",
+   "tr": "Elma",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍎",
+   "level": "A1"
+  },
+  {
+   "ar": "موز",
+   "fr": "mooz",
+   "ok": "mûz",
+   "tr": "Muz",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍌",
+   "level": "A1"
+  },
+  {
+   "ar": "برتقان",
+   "fr": "borto2aan",
+   "ok": "burtu'ân",
+   "tr": "Portakal",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍊",
+   "level": "A1",
+   "fix": "Franko düzeltildi: bortoaan → borto2aan"
+  },
+  {
+   "ar": "طماطم",
+   "fr": "tamaatem",
+   "ok": "tamâtım",
+   "tr": "Domates",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍅",
+   "level": "A1"
+  },
+  {
+   "ar": "بطاطس",
+   "fr": "bataates",
+   "ok": "batâtis",
+   "tr": "Patates",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥔",
+   "level": "A1"
+  },
+  {
+   "ar": "بصل",
+   "fr": "basal",
+   "ok": "basal",
+   "tr": "Soğan",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🧅",
+   "level": "A1"
+  },
+  {
+   "ar": "عنب",
+   "fr": "3enab",
+   "ok": "enab",
+   "tr": "Üzüm",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍇",
+   "level": "A1"
+  },
+  {
+   "ar": "سكر",
+   "fr": "sokkar",
+   "ok": "sukkar",
+   "tr": "Şeker",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍬",
+   "note": "Türkçe: şeker",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "ملح",
+   "fr": "mel7",
+   "ok": "milh",
+   "tr": "Tuz",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🧂",
+   "level": "A1"
+  },
+  {
+   "ar": "زيت",
+   "fr": "zeit",
+   "ok": "zeyt",
+   "tr": "Yağ",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🫒",
+   "level": "A1"
+  },
+  {
+   "ar": "شوربة",
+   "fr": "shorba",
+   "ok": "şurba",
+   "tr": "Çorba",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥣",
+   "note": "Türkçe: çorba",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "حلو",
+   "fr": "7elw",
+   "ok": "helv",
+   "tr": "Tatlı",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍰",
+   "note": "Türkçe: helva",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "تلج",
+   "fr": "talg",
+   "ok": "telg",
+   "tr": "Buz",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🧊",
+   "level": "A1"
+  },
+  {
+   "ar": "شوكة",
+   "fr": "shoka",
+   "ok": "şuke",
+   "tr": "Çatal",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍴",
+   "level": "A1"
+  },
+  {
+   "ar": "معلقة",
+   "fr": "ma3la2a",
+   "ok": "ma'leka",
+   "tr": "Kaşık",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥄",
+   "level": "A1"
+  },
+  {
+   "ar": "سكينة",
+   "fr": "sekkeena",
+   "ok": "sikkîne",
+   "tr": "Bıçak",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🔪",
+   "level": "A1"
+  },
+  {
+   "ar": "طبق",
+   "fr": "tabaa2",
+   "ok": "tabak",
+   "tr": "Tabak",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🍽️",
+   "note": "Türkçe: tabak",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "كوباية",
+   "fr": "koobaaya",
+   "ok": "kubâye",
+   "tr": "Bardak",
+   "cat": "Yiyecek ve içecek",
+   "emoji": "🥤",
+   "level": "A1"
+  },
+  {
+   "ar": "أحمر",
+   "fr": "a7mar",
+   "ok": "ahmar",
+   "tr": "Kırmızı",
+   "cat": "Renkler",
+   "emoji": "🔴",
+   "level": "A1"
+  },
+  {
+   "ar": "أزرق",
+   "fr": "azra2",
+   "ok": "ezra'",
+   "tr": "Mavi",
+   "cat": "Renkler",
+   "emoji": "🔵",
+   "level": "A1"
+  },
+  {
+   "ar": "أخضر",
+   "fr": "akhdar",
+   "ok": "ahdar",
+   "tr": "Yeşil",
+   "cat": "Renkler",
+   "emoji": "🟢",
+   "level": "A1"
+  },
+  {
+   "ar": "أصفر",
+   "fr": "asfar",
+   "ok": "asfar",
+   "tr": "Sarı",
+   "cat": "Renkler",
+   "emoji": "🟡",
+   "level": "A1"
+  },
+  {
+   "ar": "أبيض",
+   "fr": "abyad",
+   "ok": "ebyad",
+   "tr": "Beyaz",
+   "cat": "Renkler",
+   "emoji": "⚪",
+   "level": "A1"
+  },
+  {
+   "ar": "أسود",
+   "fr": "eswed",
+   "ok": "eswid",
+   "tr": "Siyah",
+   "cat": "Renkler",
+   "emoji": "⚫",
+   "level": "A1"
+  },
+  {
+   "ar": "برتقالي",
+   "fr": "borto2aaly",
+   "ok": "burtu'âlî",
+   "tr": "Turuncu",
+   "cat": "Renkler",
+   "emoji": "🟠",
+   "level": "A1",
+   "fix": "Franko düzeltildi: bortoaaly → borto2aaly"
+  },
+  {
+   "ar": "بني",
+   "fr": "bonny",
+   "ok": "bunnî",
+   "tr": "Kahverengi",
+   "cat": "Renkler",
+   "emoji": "🟤",
+   "level": "A1"
+  },
+  {
+   "ar": "وردي",
+   "fr": "wardy",
+   "ok": "vardî",
+   "tr": "Pembe",
+   "cat": "Renkler",
+   "emoji": "🩷",
+   "level": "A1"
+  },
+  {
+   "ar": "بنفسجي",
+   "fr": "banafsegy",
+   "ok": "benefsegî",
+   "tr": "Mor",
+   "cat": "Renkler",
+   "emoji": "🟣",
+   "level": "A1"
+  },
+  {
+   "ar": "بيت",
+   "fr": "beit",
+   "ok": "beyt",
+   "tr": "Ev",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🏠",
+   "level": "A1"
+  },
+  {
+   "ar": "أوضة",
+   "fr": "ooda",
+   "ok": "ûda",
+   "tr": "Oda",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🚪",
+   "level": "A1",
+   "fix": "Franko düzeltildi: 'oodah → ooda"
+  },
+  {
+   "ar": "باب",
+   "fr": "baab",
+   "ok": "bâb",
+   "tr": "Kapı",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🚪",
+   "level": "A1"
+  },
+  {
+   "ar": "شباك",
+   "fr": "shebbak",
+   "ok": "şebbâk",
+   "tr": "Pencere",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🪟",
+   "level": "A1"
+  },
+  {
+   "ar": "سرير",
+   "fr": "sereer",
+   "ok": "serîr",
+   "tr": "Yatak",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🛏️",
+   "level": "A1"
+  },
+  {
+   "ar": "كرسي",
+   "fr": "kursi",
+   "ok": "kürsî",
+   "tr": "Sandalye",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🪑",
+   "note": "Türkçe: kürsü",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "ترابيزة",
+   "fr": "tarabeeza",
+   "ok": "terabeyze",
+   "tr": "Masa",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🪵",
+   "level": "A1",
+   "fix": "Franko düzeltildi: tarabiezah → tarabeeza"
+  },
+  {
+   "ar": "كنبة",
+   "fr": "kanaba",
+   "ok": "kenebe",
+   "tr": "Koltuk",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🛋️",
+   "level": "A1"
+  },
+  {
+   "ar": "تلفزيون",
+   "fr": "telefezyoon",
+   "ok": "telefezyon",
+   "tr": "Televizyon",
+   "cat": "Ev ve eşyalar",
+   "emoji": "📺",
+   "level": "A1"
+  },
+  {
+   "ar": "نور",
+   "fr": "noor",
+   "ok": "nûr",
+   "tr": "Işık / Lamba",
+   "cat": "Ev ve eşyalar",
+   "emoji": "💡",
+   "note": "Türkçe: nur",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "مطبخ",
+   "fr": "matbakh",
+   "ok": "matbah",
+   "tr": "Mutfak",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🍳",
+   "note": "Türkçe: matbah",
+   "loan": true,
+   "level": "A1",
+   "fix": "Franko düzeltildi: ma6bakh → matbakh"
+  },
+  {
+   "ar": "حمّام",
+   "fr": "7ammaam",
+   "ok": "hammâm",
+   "tr": "Banyo / Tuvalet",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🚿",
+   "note": "Türkçe: hamam",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "صالة",
+   "fr": "saala",
+   "ok": "sâle",
+   "tr": "Salon",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🛋️",
+   "note": "Türkçe: salon",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "سجادة",
+   "fr": "seggaada",
+   "ok": "seccâde",
+   "tr": "Halı",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🧶",
+   "note": "Türkçe: seccade",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "مخدة",
+   "fr": "makhadda",
+   "ok": "mehadde",
+   "tr": "Yastık",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🛌",
+   "level": "A1"
+  },
+  {
+   "ar": "مفتاح",
+   "fr": "meftaa7",
+   "ok": "meftâh",
+   "tr": "Anahtar",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🔑",
+   "level": "A1"
+  },
+  {
+   "ar": "موبايل",
+   "fr": "mobayl",
+   "ok": "mobâyl",
+   "tr": "Telefon",
+   "cat": "Ev ve eşyalar",
+   "emoji": "📱",
+   "level": "A1"
+  },
+  {
+   "ar": "كتاب",
+   "fr": "ketaab",
+   "ok": "ketâb",
+   "tr": "Kitap",
+   "cat": "Ev ve eşyalar",
+   "emoji": "📖",
+   "note": "Türkçe: kitap",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "قلم",
+   "fr": "2alam",
+   "ok": "'alem",
+   "tr": "Kalem",
+   "cat": "Ev ve eşyalar",
+   "emoji": "✏️",
+   "note": "Türkçe: kalem",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "شنطة",
+   "fr": "shanta",
+   "ok": "şanta",
+   "tr": "Çanta",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🎒",
+   "level": "A1"
+  },
+  {
+   "ar": "ورقة",
+   "fr": "wara2a",
+   "ok": "vare'a",
+   "tr": "Kâğıt",
+   "cat": "Ev ve eşyalar",
+   "emoji": "📄",
+   "level": "A1"
+  },
+  {
+   "ar": "مراية",
+   "fr": "mraaya",
+   "ok": "mrâye",
+   "tr": "Ayna",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🪞",
+   "level": "A1"
+  },
+  {
+   "ar": "دولاب",
+   "fr": "doolaab",
+   "ok": "dûlâb",
+   "tr": "Dolap",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🗄️",
+   "level": "A1"
+  },
+  {
+   "ar": "مروحة",
+   "fr": "marwa7a",
+   "ok": "merveha",
+   "tr": "Vantilatör",
+   "cat": "Ev ve eşyalar",
+   "emoji": "🌀",
+   "level": "A1"
+  },
+  {
+   "ar": "تكييف",
+   "fr": "takyeef",
+   "ok": "tekyîf",
+   "tr": "Klima",
+   "cat": "Ev ve eşyalar",
+   "emoji": "❄️",
+   "level": "A1"
+  },
+  {
+   "ar": "فلوس",
+   "fr": "feloos",
+   "ok": "felûs",
+   "tr": "Para",
+   "cat": "Ev ve eşyalar",
+   "emoji": "💵",
+   "level": "A1"
+  },
+  {
+   "ar": "شارع",
+   "fr": "share3",
+   "ok": "şâri",
+   "tr": "Sokak / Cadde",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🛣️",
+   "level": "A1"
+  },
+  {
+   "ar": "مدينة",
+   "fr": "madeena",
+   "ok": "medîne",
+   "tr": "Şehir",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏙️",
+   "note": "Türkçe: medine",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "مدرسة",
+   "fr": "madrasa",
+   "ok": "medrese",
+   "tr": "Okul",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏫",
+   "note": "Türkçe: medrese",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "جامعة",
+   "fr": "gam3a",
+   "ok": "câmia",
+   "tr": "Üniversite",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🎓",
+   "level": "A1"
+  },
+  {
+   "ar": "مستشفى",
+   "fr": "mostashfa",
+   "ok": "mustaşfa",
+   "tr": "Hastane",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏥",
+   "level": "A1"
+  },
+  {
+   "ar": "صيدلية",
+   "fr": "seydaleya",
+   "ok": "saydaliyye",
+   "tr": "Eczane",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "💊",
+   "level": "A1"
+  },
+  {
+   "ar": "بنك",
+   "fr": "bank",
+   "ok": "bank",
+   "tr": "Banka",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏦",
+   "note": "Türkçe: banka",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "سوق",
+   "fr": "soo2",
+   "ok": "sû'",
+   "tr": "Çarşı / Pazar",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🛒",
+   "level": "A1"
+  },
+  {
+   "ar": "مطعم",
+   "fr": "mat3am",
+   "ok": "mat'am",
+   "tr": "Restoran",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🍴",
+   "level": "A1",
+   "fix": "Franko düzeltildi: ma6'am → mat3am"
+  },
+  {
+   "ar": "فندق",
+   "fr": "fondo2",
+   "ok": "funduk",
+   "tr": "Otel",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏨",
+   "level": "A1"
+  },
+  {
+   "ar": "مطار",
+   "fr": "mataar",
+   "ok": "matâr",
+   "tr": "Havaalanı",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "✈️",
+   "level": "A1",
+   "fix": "Franko düzeltildi: ma6aar → mataar"
+  },
+  {
+   "ar": "محطة",
+   "fr": "ma7atta",
+   "ok": "mahatta",
+   "tr": "İstasyon",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚉",
+   "level": "A1",
+   "fix": "Franko düzeltildi: ma7a66a → ma7atta"
+  },
+  {
+   "ar": "جامع",
+   "fr": "gaame3",
+   "ok": "câmi",
+   "tr": "Cami",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🕌",
+   "note": "Türkçe: cami",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "كنيسة",
+   "fr": "kenessa",
+   "ok": "kenîse",
+   "tr": "Kilise",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "⛪",
+   "note": "Türkçe: kilise",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "عربية",
+   "fr": "3arabeya",
+   "ok": "arabiyye",
+   "tr": "Araba",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚗",
+   "level": "A1"
+  },
+  {
+   "ar": "أتوبيس",
+   "fr": "otobees",
+   "ok": "otobîs",
+   "tr": "Otobüs",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚌",
+   "level": "A1"
+  },
+  {
+   "ar": "مترو",
+   "fr": "metro",
+   "ok": "metro",
+   "tr": "Metro",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚇",
+   "level": "A1"
+  },
+  {
+   "ar": "قطر",
+   "fr": "2atr",
+   "ok": "'atr",
+   "tr": "Tren",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚆",
+   "level": "A1"
+  },
+  {
+   "ar": "طيارة",
+   "fr": "tayyaara",
+   "ok": "tayyâre",
+   "tr": "Uçak",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🛫",
+   "level": "A1"
+  },
+  {
+   "ar": "تاكسي",
+   "fr": "taksi",
+   "ok": "taksî",
+   "tr": "Taksi",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🚕",
+   "level": "A1"
+  },
+  {
+   "ar": "تذكرة",
+   "fr": "tazkara",
+   "ok": "tezkere",
+   "tr": "Bilet",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🎫",
+   "note": "Türkçe: tezkere",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "كوبري",
+   "fr": "koobry",
+   "ok": "kubrî",
+   "tr": "Köprü",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌉",
+   "level": "A1"
+  },
+  {
+   "ar": "النيل",
+   "fr": "en-neel",
+   "ok": "ennîl",
+   "tr": "Nil",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌊",
+   "level": "A1"
+  },
+  {
+   "ar": "هرم",
+   "fr": "haram",
+   "ok": "heram",
+   "tr": "Piramit",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🔺",
+   "level": "A1"
+  },
+  {
+   "ar": "شمس",
+   "fr": "shams",
+   "ok": "şems",
+   "tr": "Güneş",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "☀️",
+   "note": "Türkçe: şems",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "قمر",
+   "fr": "2amar",
+   "ok": "'amar",
+   "tr": "Ay (gökyüzü)",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌙",
+   "note": "Türkçe: kamer",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "نجمة",
+   "fr": "negma",
+   "ok": "necme",
+   "tr": "Yıldız",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "⭐",
+   "level": "A1"
+  },
+  {
+   "ar": "شجرة",
+   "fr": "shagara",
+   "ok": "şecere",
+   "tr": "Ağaç",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌳",
+   "level": "A1"
+  },
+  {
+   "ar": "نخلة",
+   "fr": "nakhla",
+   "ok": "nahle",
+   "tr": "Palmiye",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌴",
+   "level": "A1"
+  },
+  {
+   "ar": "جبل",
+   "fr": "gabal",
+   "ok": "cebel",
+   "tr": "Dağ",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "⛰️",
+   "note": "Türkçe: cebel",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "بحر",
+   "fr": "ba7r",
+   "ok": "bahr",
+   "tr": "Deniz",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌊",
+   "note": "Türkçe: bahr",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "صحرا",
+   "fr": "sa7ra",
+   "ok": "sahra",
+   "tr": "Çöl",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🏜️",
+   "note": "Türkçe: sahra",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "مطر",
+   "fr": "matar",
+   "ok": "matar",
+   "tr": "Yağmur",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🌧️",
+   "level": "A1",
+   "fix": "Franko düzeltildi: ma6ar → matar"
+  },
+  {
+   "ar": "ريح",
+   "fr": "ree7",
+   "ok": "rîh",
+   "tr": "Rüzgâr",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "💨",
+   "level": "A1",
+   "fix": "Franko düzeltildi: reeh → ree7"
+  },
+  {
+   "ar": "حر",
+   "fr": "7arr",
+   "ok": "harr",
+   "tr": "Sıcak (hava)",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🥵",
+   "level": "A1"
+  },
+  {
+   "ar": "برد",
+   "fr": "bard",
+   "ok": "bard",
+   "tr": "Soğuk (hava)",
+   "cat": "Şehir, ulaşım ve doğa",
+   "emoji": "🥶",
+   "level": "A1"
+  },
+  {
+   "ar": "كلب",
+   "fr": "kalb",
+   "ok": "kelb",
+   "tr": "Köpek",
+   "cat": "Hayvanlar",
+   "emoji": "🐕",
+   "level": "A1"
+  },
+  {
+   "ar": "قطة",
+   "fr": "2otta",
+   "ok": "'otta",
+   "tr": "Kedi",
+   "cat": "Hayvanlar",
+   "emoji": "🐈",
+   "level": "A1"
+  },
+  {
+   "ar": "حصان",
+   "fr": "7osaan",
+   "ok": "husân",
+   "tr": "At",
+   "cat": "Hayvanlar",
+   "emoji": "🐎",
+   "level": "A1"
+  },
+  {
+   "ar": "جمل",
+   "fr": "gamal",
+   "ok": "cemel",
+   "tr": "Deve",
+   "cat": "Hayvanlar",
+   "emoji": "🐪",
+   "level": "A1"
+  },
+  {
+   "ar": "طير",
+   "fr": "tayr",
+   "ok": "tayr",
+   "tr": "Kuş",
+   "cat": "Hayvanlar",
+   "emoji": "🐦",
+   "level": "A1"
+  },
+  {
+   "ar": "خروف",
+   "fr": "kharoof",
+   "ok": "harûf",
+   "tr": "Kuzu / Koyun",
+   "cat": "Hayvanlar",
+   "emoji": "🐑",
+   "level": "A1"
+  },
+  {
+   "ar": "بقرة",
+   "fr": "ba2ara",
+   "ok": "bekara",
+   "tr": "İnek",
+   "cat": "Hayvanlar",
+   "emoji": "🐄",
+   "level": "A1"
+  },
+  {
+   "ar": "فرخة",
+   "fr": "farkha",
+   "ok": "ferha",
+   "tr": "Tavuk (canlı)",
+   "cat": "Hayvanlar",
+   "emoji": "🐓",
+   "level": "A1"
+  },
+  {
+   "ar": "باكل",
+   "fr": "bakol",
+   "ok": "bâkul",
+   "tr": "yemek → yiyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🍴",
+   "level": "A1"
+  },
+  {
+   "ar": "باشرب",
+   "fr": "bashrab",
+   "ok": "başrab",
+   "tr": "içmek → içiyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🥤",
+   "level": "A1"
+  },
+  {
+   "ar": "باروح",
+   "fr": "baroo7",
+   "ok": "barûh",
+   "tr": "gitmek → gidiyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🚶",
+   "level": "A1"
+  },
+  {
+   "ar": "باجي",
+   "fr": "baagy",
+   "ok": "bâcî",
+   "tr": "gelmek → geliyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🚪",
+   "level": "A1"
+  },
+  {
+   "ar": "باعمل",
+   "fr": "ba3mel",
+   "ok": "bamel",
+   "tr": "yapmak → yapıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🛠️",
+   "level": "A1"
+  },
+  {
+   "ar": "باشوف",
+   "fr": "bashoof",
+   "ok": "başûf",
+   "tr": "görmek → görüyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "👀",
+   "level": "A1"
+  },
+  {
+   "ar": "عارف",
+   "fr": "3aaref",
+   "ok": "ârif",
+   "tr": "bilmek → biliyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🧠",
+   "level": "A1"
+  },
+  {
+   "ar": "فاهم",
+   "fr": "faahem",
+   "ok": "fâhim",
+   "tr": "anlamak → anlıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🧠",
+   "level": "A1"
+  },
+  {
+   "ar": "باتكلم",
+   "fr": "batkallem",
+   "ok": "batkellim",
+   "tr": "konuşmak → konuşuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🗣️",
+   "level": "A1"
+  },
+  {
+   "ar": "باسمع",
+   "fr": "basma3",
+   "ok": "basma",
+   "tr": "duymak/dinlemek → dinliyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "👂",
+   "level": "A1"
+  },
+  {
+   "ar": "باقرا",
+   "fr": "ba2ra",
+   "ok": "ba'ra",
+   "tr": "okumak → okuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "📖",
+   "level": "A1"
+  },
+  {
+   "ar": "باكتب",
+   "fr": "baktob",
+   "ok": "baktub",
+   "tr": "yazmak → yazıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "✍️",
+   "level": "A1"
+  },
+  {
+   "ar": "باشتغل",
+   "fr": "bashtaghal",
+   "ok": "beştağal",
+   "tr": "çalışmak → çalışıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "💻",
+   "level": "A1"
+  },
+  {
+   "ar": "بنام",
+   "fr": "banaam",
+   "ok": "benâm",
+   "tr": "uyumak → uyuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "😴",
+   "level": "A1"
+  },
+  {
+   "ar": "بحب",
+   "fr": "ba7eb",
+   "ok": "bahibb",
+   "tr": "sevmek → seviyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "❤️",
+   "level": "A1"
+  },
+  {
+   "ar": "باشتري",
+   "fr": "bashtery",
+   "ok": "beştirî",
+   "tr": "satın almak → alıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🛍️",
+   "level": "A1"
+  },
+  {
+   "ar": "ببيع",
+   "fr": "babee3",
+   "ok": "babîa",
+   "tr": "satmak → satıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "💰",
+   "level": "A1"
+  },
+  {
+   "ar": "بدّي",
+   "fr": "baddy",
+   "ok": "baddî",
+   "tr": "vermek → veriyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🎁",
+   "level": "A1"
+  },
+  {
+   "ar": "بقعد",
+   "fr": "ba23od",
+   "ok": "ba'ud",
+   "tr": "oturmak → oturuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🪑",
+   "level": "A1",
+   "fix": "Franko düzeltildi: ba2'od → ba23od"
+  },
+  {
+   "ar": "بستنى",
+   "fr": "bastanna",
+   "ok": "bestenna",
+   "tr": "beklemek → bekliyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "⏳",
+   "level": "A1"
+  },
+  {
+   "ar": "بكلّم",
+   "fr": "bakallem",
+   "ok": "bekellim",
+   "tr": "aramak/konuşmak → arıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "📞",
+   "level": "A1"
+  },
+  {
+   "ar": "باتعلم",
+   "fr": "bata3allem",
+   "ok": "bata'allim",
+   "tr": "öğrenmek → öğreniyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "📚",
+   "level": "A1"
+  },
+  {
+   "ar": "بفتح",
+   "fr": "bafta7",
+   "ok": "baftah",
+   "tr": "açmak → açıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🔓",
+   "level": "A1",
+   "fix": "Franko düzeltildi: baftah → bafta7"
+  },
+  {
+   "ar": "بقفل",
+   "fr": "ba2fel",
+   "ok": "ba'fil",
+   "tr": "kapatmak → kapatıyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🔒",
+   "level": "A1"
+  },
+  {
+   "ar": "بمشي",
+   "fr": "bamshy",
+   "ok": "bamşî",
+   "tr": "yürümek → yürüyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🚶",
+   "level": "A1"
+  },
+  {
+   "ar": "بجري",
+   "fr": "bagry",
+   "ok": "bagrî",
+   "tr": "koşmak → koşuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🏃",
+   "level": "A1"
+  },
+  {
+   "ar": "بلعب",
+   "fr": "bal3ab",
+   "ok": "bal'ab",
+   "tr": "oynamak → oynuyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "⚽",
+   "level": "A1"
+  },
+  {
+   "ar": "بفكر",
+   "fr": "bafakkar",
+   "ok": "befekkir",
+   "tr": "düşünmek → düşünüyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🤔",
+   "level": "A1"
+  },
+  {
+   "ar": "بساعد",
+   "fr": "basaa3ed",
+   "ok": "besâid",
+   "tr": "yardım etmek → ediyorum",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🤝",
+   "level": "A1"
+  },
+  {
+   "ar": "عايز",
+   "fr": "3ayez",
+   "ok": "âyiz",
+   "tr": "istemek → istiyorum (erkek)",
+   "cat": "Fiiller (ben, şimdiki zaman)",
+   "emoji": "🙋",
+   "level": "A1"
+  },
+  {
+   "ar": "كبير",
+   "fr": "kebeer",
+   "ok": "kebîr",
+   "tr": "Büyük",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "⬆️",
+   "level": "A1"
+  },
+  {
+   "ar": "صغير",
+   "fr": "soghayyar",
+   "ok": "soğayyar",
+   "tr": "Küçük",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "⬇️",
+   "level": "A1"
+  },
+  {
+   "ar": "جديد",
+   "fr": "gedeed",
+   "ok": "cedîd",
+   "tr": "Yeni",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🆕",
+   "note": "Türkçe: cedid",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "قديم",
+   "fr": "2adeem",
+   "ok": "'adîm",
+   "tr": "Eski",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "📜",
+   "note": "Türkçe: kadim",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "حلو",
+   "fr": "7elw",
+   "ok": "helv",
+   "tr": "Güzel / Tatlı",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😍",
+   "level": "A1"
+  },
+  {
+   "ar": "طويل",
+   "fr": "tawyl",
+   "ok": "tavîl",
+   "tr": "Uzun",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "📏",
+   "level": "A1"
+  },
+  {
+   "ar": "قصير",
+   "fr": "2aseer",
+   "ok": "'asîr",
+   "tr": "Kısa",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🤏",
+   "level": "A1"
+  },
+  {
+   "ar": "غالي",
+   "fr": "ghaly",
+   "ok": "ğâlî",
+   "tr": "Pahalı",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "💎",
+   "level": "A1"
+  },
+  {
+   "ar": "رخيص",
+   "fr": "rakhees",
+   "ok": "rahîs",
+   "tr": "Ucuz",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🏷️",
+   "level": "A1"
+  },
+  {
+   "ar": "سهل",
+   "fr": "sahl",
+   "ok": "sehl",
+   "tr": "Kolay",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😌",
+   "note": "Türkçe: sehl",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "صعب",
+   "fr": "sa3b",
+   "ok": "sa'b",
+   "tr": "Zor",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😤",
+   "level": "A1"
+  },
+  {
+   "ar": "سخن",
+   "fr": "sokhn",
+   "ok": "suhn",
+   "tr": "Sıcak (yemek/içecek)",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🔥",
+   "level": "A1"
+  },
+  {
+   "ar": "ساقع",
+   "fr": "saa2e3",
+   "ok": "sâ'ı",
+   "tr": "Soğuk (yemek/içecek)",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🧊",
+   "level": "A1"
+  },
+  {
+   "ar": "نضيف",
+   "fr": "nadeef",
+   "ok": "nedîf",
+   "tr": "Temiz",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "✨",
+   "level": "A1"
+  },
+  {
+   "ar": "وسخ",
+   "fr": "wesekh",
+   "ok": "vesah",
+   "tr": "Kirli",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🧽",
+   "level": "A1"
+  },
+  {
+   "ar": "كتير",
+   "fr": "kiteer",
+   "ok": "kitîr",
+   "tr": "Çok / Fazla",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "📈",
+   "level": "A1"
+  },
+  {
+   "ar": "قليل",
+   "fr": "2aleel",
+   "ok": "'alîl",
+   "tr": "Az",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "📉",
+   "level": "A1"
+  },
+  {
+   "ar": "سريع",
+   "fr": "sare3",
+   "ok": "serî",
+   "tr": "Hızlı",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "💨",
+   "level": "A1"
+  },
+  {
+   "ar": "بطيء",
+   "fr": "bati'",
+   "ok": "batî",
+   "tr": "Yavaş",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🐌",
+   "level": "A1"
+  },
+  {
+   "ar": "فاضي",
+   "fr": "faady",
+   "ok": "fâdî",
+   "tr": "Boş",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🈳",
+   "level": "A1"
+  },
+  {
+   "ar": "مليان",
+   "fr": "malyaan",
+   "ok": "malyân",
+   "tr": "Dolu",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🈵",
+   "level": "A1"
+  },
+  {
+   "ar": "مفتوح",
+   "fr": "maftoo7",
+   "ok": "meftûh",
+   "tr": "Açık",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🔓",
+   "level": "A1"
+  },
+  {
+   "ar": "مقفول",
+   "fr": "ma2fool",
+   "ok": "ma'fûl",
+   "tr": "Kapalı",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🔒",
+   "level": "A1"
+  },
+  {
+   "ar": "تعبان",
+   "fr": "ta3baan",
+   "ok": "ta'bân",
+   "tr": "Yorgun",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🥱",
+   "level": "A1"
+  },
+  {
+   "ar": "جعان",
+   "fr": "ga3aan",
+   "ok": "câ'ân",
+   "tr": "Aç",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🍽️",
+   "level": "A1"
+  },
+  {
+   "ar": "عطشان",
+   "fr": "3atshaan",
+   "ok": "atşân",
+   "tr": "Susamış",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "🥵",
+   "level": "A1"
+  },
+  {
+   "ar": "مبسوط",
+   "fr": "mabsoot",
+   "ok": "mebsût",
+   "tr": "Mutlu",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😄",
+   "level": "A1"
+  },
+  {
+   "ar": "زعلان",
+   "fr": "za3laan",
+   "ok": "za'lân",
+   "tr": "Üzgün",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😢",
+   "level": "A1"
+  },
+  {
+   "ar": "خايف",
+   "fr": "khayef",
+   "ok": "hâyif",
+   "tr": "Korkmuş",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "😨",
+   "level": "A1"
+  },
+  {
+   "ar": "مشغول",
+   "fr": "mashghool",
+   "ok": "meşğûl",
+   "tr": "Meşgul",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "📵",
+   "level": "A1"
+  },
+  {
+   "ar": "كويس",
+   "fr": "kwayyes",
+   "ok": "kevayyis",
+   "tr": "İyi",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "👍",
+   "level": "A1"
+  },
+  {
+   "ar": "مش كويس",
+   "fr": "mish kwayyes",
+   "ok": "miş kevayyis",
+   "tr": "İyi değil / Kötü",
+   "cat": "Sıfatlar (erkek hâli)",
+   "emoji": "👎",
+   "level": "A1"
+  },
+  {
+   "ar": "في",
+   "fr": "fee",
+   "ok": "fî",
+   "tr": "İçinde (-de)",
+   "cat": "Yer ve yön",
+   "emoji": "📦",
+   "level": "A1"
+  },
+  {
+   "ar": "على",
+   "fr": "3ala",
+   "ok": "ala",
+   "tr": "Üzerinde",
+   "cat": "Yer ve yön",
+   "emoji": "🔝",
+   "level": "A1"
+  },
+  {
+   "ar": "من",
+   "fr": "min",
+   "ok": "min",
+   "tr": "-den / -dan",
+   "cat": "Yer ve yön",
+   "emoji": "🔙",
+   "level": "A1"
+  },
+  {
+   "ar": "ل",
+   "fr": "le",
+   "ok": "li",
+   "tr": "-e / için",
+   "cat": "Yer ve yön",
+   "emoji": "➡️",
+   "level": "A1"
+  },
+  {
+   "ar": "مع",
+   "fr": "ma3a",
+   "ok": "maa",
+   "tr": "ile",
+   "cat": "Yer ve yön",
+   "emoji": "🤝",
+   "level": "A1"
+  },
+  {
+   "ar": "تحت",
+   "fr": "ta7t",
+   "ok": "taht",
+   "tr": "Altında",
+   "cat": "Yer ve yön",
+   "emoji": "⬇️",
+   "level": "A1"
+  },
+  {
+   "ar": "فوق",
+   "fr": "foo2",
+   "ok": "fû'",
+   "tr": "Üstünde",
+   "cat": "Yer ve yön",
+   "emoji": "⬆️",
+   "level": "A1"
+  },
+  {
+   "ar": "جنب",
+   "fr": "ganb",
+   "ok": "canb",
+   "tr": "Yanında",
+   "cat": "Yer ve yön",
+   "emoji": "↔️",
+   "level": "A1"
+  },
+  {
+   "ar": "قدام",
+   "fr": "2oddaam",
+   "ok": "'uddâm",
+   "tr": "Önünde",
+   "cat": "Yer ve yön",
+   "emoji": "⏩",
+   "level": "A1"
+  },
+  {
+   "ar": "ورا",
+   "fr": "wara",
+   "ok": "vera",
+   "tr": "Arkasında",
+   "cat": "Yer ve yön",
+   "emoji": "⏪",
+   "level": "A1"
+  },
+  {
+   "ar": "بين",
+   "fr": "bein",
+   "ok": "beyn",
+   "tr": "Arasında",
+   "cat": "Yer ve yön",
+   "emoji": "↔️",
+   "level": "A1"
+  },
+  {
+   "ar": "جوه",
+   "fr": "gowwa",
+   "ok": "gevva",
+   "tr": "İçeride",
+   "cat": "Yer ve yön",
+   "emoji": "🏠",
+   "level": "A1"
+  },
+  {
+   "ar": "بره",
+   "fr": "barra",
+   "ok": "barra",
+   "tr": "Dışarıda",
+   "cat": "Yer ve yön",
+   "emoji": "🌳",
+   "level": "A1"
+  },
+  {
+   "ar": "يمين",
+   "fr": "yemeen",
+   "ok": "yemîn",
+   "tr": "Sağ",
+   "cat": "Yer ve yön",
+   "emoji": "👉",
+   "note": "Türkçe: yemin",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "شمال",
+   "fr": "shemaal",
+   "ok": "şimâl",
+   "tr": "Sol",
+   "cat": "Yer ve yön",
+   "emoji": "👈",
+   "note": "Türkçe: şimal",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "على طول",
+   "fr": "3ala tool",
+   "ok": "ala tûl",
+   "tr": "Dümdüz",
+   "cat": "Yer ve yön",
+   "emoji": "⬆️",
+   "level": "A1"
+  },
+  {
+   "ar": "قريب",
+   "fr": "2areeb",
+   "ok": "'arîb",
+   "tr": "Yakın",
+   "cat": "Yer ve yön",
+   "emoji": "📍",
+   "level": "A1"
+  },
+  {
+   "ar": "بعيد",
+   "fr": "ba3eed",
+   "ok": "baîd",
+   "tr": "Uzak",
+   "cat": "Yer ve yön",
+   "emoji": "🛰️",
+   "level": "A1"
+  },
+  {
+   "ar": "بكام؟",
+   "fr": "bekaam?",
+   "ok": "bikâm",
+   "tr": "Kaç para?",
+   "cat": "Alışveriş ve para",
+   "emoji": "💵",
+   "level": "A1"
+  },
+  {
+   "ar": "تمن",
+   "fr": "taman",
+   "ok": "teman",
+   "tr": "Fiyat",
+   "cat": "Alışveriş ve para",
+   "emoji": "🏷️",
+   "level": "A1"
+  },
+  {
+   "ar": "جنيه",
+   "fr": "geneeh",
+   "ok": "cenêh",
+   "tr": "Mısır lirası",
+   "cat": "Alışveriş ve para",
+   "emoji": "💷",
+   "level": "A1"
+  },
+  {
+   "ar": "نص",
+   "fr": "noss",
+   "ok": "nuss",
+   "tr": "Yarım",
+   "cat": "Alışveriş ve para",
+   "emoji": "½",
+   "level": "A1"
+  },
+  {
+   "ar": "ربع",
+   "fr": "rob3",
+   "ok": "rub",
+   "tr": "Çeyrek",
+   "cat": "Alışveriş ve para",
+   "emoji": "¼",
+   "level": "A1"
+  },
+  {
+   "ar": "كيلو",
+   "fr": "keelo",
+   "ok": "kîlo",
+   "tr": "Kilo",
+   "cat": "Alışveriş ve para",
+   "emoji": "⚖️",
+   "note": "Türkçe: kilo",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "الحساب",
+   "fr": "el-7esaab",
+   "ok": "elhisâb",
+   "tr": "Hesap",
+   "cat": "Alışveriş ve para",
+   "emoji": "🧾",
+   "note": "Türkçe: hesap",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "الباقي",
+   "fr": "el-baa2y",
+   "ok": "elbâ'î",
+   "tr": "Para üstü",
+   "cat": "Alışveriş ve para",
+   "emoji": "💰",
+   "level": "A1"
+  },
+  {
+   "ar": "ممكن",
+   "fr": "mumkin",
+   "ok": "mumkin",
+   "tr": "Mümkün mü? / Rica",
+   "cat": "Alışveriş ve para",
+   "emoji": "🙏",
+   "level": "A1"
+  },
+  {
+   "ar": "لازم",
+   "fr": "laazem",
+   "ok": "lâzim",
+   "tr": "Lazım",
+   "cat": "Alışveriş ve para",
+   "emoji": "🛍️",
+   "note": "Türkçe: lazım",
+   "loan": true,
+   "level": "A1"
+  },
+  {
+   "ar": "ببلاش",
+   "fr": "bebalash",
+   "ok": "bebelâş",
+   "tr": "Bedava",
+   "cat": "Alışveriş ve para",
+   "emoji": "🆓",
+   "level": "A1"
+  }
+ ]
+}
