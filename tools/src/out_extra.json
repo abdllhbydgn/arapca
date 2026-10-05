@@ -1,19 +1,27 @@
 [
 {
+"ar": "مش فاهم",
+"fr": "mesh fahem",
+"ok": "miş fâhim",
+"tr": "Anlamadım",
+"cat": "Günlük Konuşma",
+"note": "Günlük konuşmada en yaygın söyleyiş. Kadın: مش فاهمة (miş fahma)"
+},
+{
 "ar": "مفهمتش",
 "fr": "ma-fhemtesh",
 "ok": "ma-fhimtiş",
-"tr": "Anlamadım",
+"tr": "Anlamadım (az önce söyleneni)",
 "cat": "Günlük Konuşma",
-"note": "Geçmiş: az önce söyleneni anlamadım"
+"note": "Daha resmî/geçmiş zaman söyleyişi; günlükte en çok \"مش فاهم\" denir"
 },
 {
 "ar": "مش فاهم",
 "fr": "mesh fahem",
 "ok": "miş fâhim",
-"tr": "Anlamıyorum",
+"tr": "Anlamıyorum / anlamadım",
 "cat": "Günlük Konuşma",
-"note": "Kadın söylerse: مش فاهمة (miş fahma)"
+"note": "Günlük konuşmada \"anlamadım\" için de en çok bu söylenir. Kadın: مش فاهمة (miş fahma)"
 },
 {
 "ar": "فهمت",
