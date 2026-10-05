@@ -1,0 +1,602 @@
+[
+{
+"ar": "مفهمتش",
+"fr": "ma-fhemtesh",
+"ok": "ma-fhimtiş",
+"tr": "Anlamadım",
+"cat": "Günlük Konuşma",
+"note": "Geçmiş: az önce söyleneni anlamadım"
+},
+{
+"ar": "مش فاهم",
+"fr": "mesh fahem",
+"ok": "miş fâhim",
+"tr": "Anlamıyorum",
+"cat": "Günlük Konuşma",
+"note": "Kadın söylerse: مش فاهمة (miş fahma)"
+},
+{
+"ar": "فهمت",
+"fr": "fhemt",
+"ok": "fihimt",
+"tr": "Anladım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "فهمت؟",
+"fr": "fhemt?",
+"ok": "fihimt?",
+"tr": "Anladın mı?",
+"cat": "Günlük Konuşma",
+"note": "Kadına: فهمتي؟ (fihimti?)"
+},
+{
+"ar": "ماشي، فهمت",
+"fr": "mashi, fhemt",
+"ok": "maşi, fihimt",
+"tr": "Tamam, anladım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "قول تاني",
+"fr": "2ool tani",
+"ok": "'ûl tâni",
+"tr": "Tekrar söyle",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "بالراحة شوية",
+"fr": "bel-ra7a shewaya",
+"ok": "bir-râha şuvayya",
+"tr": "Biraz yavaş (konuş)",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "معرفش",
+"fr": "ma3rafsh",
+"ok": "ma'rafş",
+"tr": "Bilmiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مكنتش أعرف",
+"fr": "makontesh a3raf",
+"ok": "makuntiş a'raf",
+"tr": "Bilmiyordum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش فاكر",
+"fr": "mesh faker",
+"ok": "miş fâkir",
+"tr": "Hatırlamıyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "نسيت",
+"fr": "neseet",
+"ok": "nisît",
+"tr": "Unuttum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "منستش",
+"fr": "ma-nsitsh",
+"ok": "ma-nsîtş",
+"tr": "Unutmadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش متأكد",
+"fr": "mesh met2akked",
+"ok": "miş mit'akkid",
+"tr": "Emin değilim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش عايز",
+"fr": "mesh 3ayez",
+"ok": "miş 'âyiz",
+"tr": "İstemiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "عايز",
+"fr": "3ayez",
+"ok": "'âyiz",
+"tr": "İstiyorum",
+"cat": "Günlük Konuşma",
+"note": "Kadın: عايزة ('ayza)"
+},
+{
+"ar": "مش قادر",
+"fr": "mesh 2ader",
+"ok": "miş 'âdir",
+"tr": "Yapamıyorum / gücüm yetmiyor",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مقدرش",
+"fr": "ma2darsh",
+"ok": "ma'darş",
+"tr": "Yapamam",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مينفعش",
+"fr": "mayenfa3sh",
+"ok": "mayinfa'ş",
+"tr": "Olmaz",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "ينفع؟",
+"fr": "yenfa3?",
+"ok": "yinfa'?",
+"tr": "Olur mu?",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مفيش",
+"fr": "mafeesh",
+"ok": "mafîş",
+"tr": "Yok",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "معنديش",
+"fr": "ma3andeesh",
+"ok": "ma'andîş",
+"tr": "Bende yok",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "معيش فلوس",
+"fr": "ma3eesh flos",
+"ok": "ma'îş flûs",
+"tr": "Param yok (üstümde)",
+"cat": "Alışveriş & Para"
+},
+{
+"ar": "مجاش",
+"fr": "magash",
+"ok": "magâş",
+"tr": "Gelmedi",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "لسه مجاش",
+"fr": "lessa magash",
+"ok": "lissa magâş",
+"tr": "Daha gelmedi",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش جاي",
+"fr": "mesh gay",
+"ok": "miş gayy",
+"tr": "Gelmiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "جاي",
+"fr": "gay",
+"ok": "gayy",
+"tr": "Geliyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "معملتش",
+"fr": "ma3meltesh",
+"ok": "ma'miltiş",
+"tr": "Yapmadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "عملت",
+"fr": "3emelt",
+"ok": "'imilt",
+"tr": "Yaptım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مشفتش",
+"fr": "mashoftesh",
+"ok": "maşuftiş",
+"tr": "Görmedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "شفت",
+"fr": "shoft",
+"ok": "şuft",
+"tr": "Gördüm",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مسمعتش",
+"fr": "masme3tesh",
+"ok": "masmi'tiş",
+"tr": "Duymadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "سمعت",
+"fr": "seme3t",
+"ok": "simi't",
+"tr": "Duydum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مكلتش",
+"fr": "makaltesh",
+"ok": "makaltiş",
+"tr": "Yemedim",
+"cat": "Yiyecek & İçecek"
+},
+{
+"ar": "كلت",
+"fr": "kalt",
+"ok": "kalt",
+"tr": "Yedim",
+"cat": "Yiyecek & İçecek"
+},
+{
+"ar": "مشربتش",
+"fr": "mashrebtesh",
+"ok": "maşribtiş",
+"tr": "İçmedim",
+"cat": "Yiyecek & İçecek"
+},
+{
+"ar": "مرحتش",
+"fr": "maro7tesh",
+"ok": "maruhtiş",
+"tr": "Gitmedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "رحت",
+"fr": "ro7t",
+"ok": "ruht",
+"tr": "Gittim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش رايح",
+"fr": "mesh raye7",
+"ok": "miş râyih",
+"tr": "Gitmiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "رايح",
+"fr": "raye7",
+"ok": "râyih",
+"tr": "Gidiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مقولتش",
+"fr": "ma2oltesh",
+"ok": "ma'ultiş",
+"tr": "Söylemedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "قلت",
+"fr": "2olt",
+"ok": "'ult",
+"tr": "Söyledim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مخلصتش",
+"fr": "makhallastesh",
+"ok": "mahallastiş",
+"tr": "Bitirmedim",
+"cat": "Fabrika & Tekstil"
+},
+{
+"ar": "لسه مخلصش",
+"fr": "lessa makhlassh",
+"ok": "lissa mahlasş",
+"tr": "Daha bitmedi",
+"cat": "Fabrika & Tekstil"
+},
+{
+"ar": "خلصت",
+"fr": "khallast",
+"ok": "hallast",
+"tr": "Bitirdim",
+"cat": "Fabrika & Tekstil"
+},
+{
+"ar": "خلصت؟",
+"fr": "khallast?",
+"ok": "hallast?",
+"tr": "Bitirdin mi?",
+"cat": "Fabrika & Tekstil"
+},
+{
+"ar": "المكنة مش شغالة",
+"fr": "el-makana mesh shaghala",
+"ok": "il-makana miş şağğâla",
+"tr": "Makine çalışmıyor",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مش شغال",
+"fr": "mesh shaghal",
+"ok": "miş şağğâl",
+"tr": "Çalışmıyor (bozuk)",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مبحبش",
+"fr": "mabe7ebbesh",
+"ok": "mabahibbiş",
+"tr": "Sevmiyorum",
+"cat": "Duygular"
+},
+{
+"ar": "بحب",
+"fr": "ba7ebb",
+"ok": "bahibb",
+"tr": "Seviyorum",
+"cat": "Duygular"
+},
+{
+"ar": "مبشربش سجاير",
+"fr": "mabashrabsh sagayer",
+"ok": "mabaşrabş sagâyir",
+"tr": "Sigara içmiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش مهم",
+"fr": "mesh mohemm",
+"ok": "miş muhimm",
+"tr": "Önemli değil",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش مشكلة",
+"fr": "mesh moshkela",
+"ok": "miş muşkila",
+"tr": "Sorun değil",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش كده",
+"fr": "mesh keda",
+"ok": "miş kida",
+"tr": "Öyle değil",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش دلوقتي",
+"fr": "mesh delwa2ti",
+"ok": "miş dilva'ti",
+"tr": "Şimdi değil",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش النهاردة",
+"fr": "mesh enaharda",
+"ok": "miş innahârda",
+"tr": "Bugün değil",
+"cat": "Zaman & Takvim"
+},
+{
+"ar": "متعملش كده",
+"fr": "mate3melsh keda",
+"ok": "mati'milş kida",
+"tr": "Öyle yapma",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "متتأخرش",
+"fr": "matet2akharsh",
+"ok": "matit'aharş",
+"tr": "Geç kalma",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "متلمسش",
+"fr": "matelmessh",
+"ok": "matilmisş",
+"tr": "Dokunma",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "متقلقش",
+"fr": "mat2la2sh",
+"ok": "mati'la'ş",
+"tr": "Merak etme / endişelenme",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "متزعلش",
+"fr": "matez3alsh",
+"ok": "matiz'alş",
+"tr": "Üzülme / kırılma",
+"cat": "Duygular"
+},
+{
+"ar": "مش فاضي",
+"fr": "mesh fadi",
+"ok": "miş fâdi",
+"tr": "Boş değilim / meşgulüm",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش جاهز",
+"fr": "mesh gahez",
+"ok": "miş gâhiz",
+"tr": "Hazır değil",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مش كويس",
+"fr": "mesh kwayes",
+"ok": "miş kuvayyis",
+"tr": "İyi değil",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش تمام",
+"fr": "mesh tamam",
+"ok": "miş tamâm",
+"tr": "Tamam değil / düzgün değil",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مستنيش",
+"fr": "mestannash",
+"ok": "mistannâş",
+"tr": "Beklemedi",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مش مستني",
+"fr": "mesh mestanni",
+"ok": "miş mistanni",
+"tr": "Beklemiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مشتغلتش النهاردة",
+"fr": "mashta3altesh enaharda",
+"ok": "maştağaltiş innahârda",
+"tr": "Bugün çalışmadım",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مش هقدر آجي بكرة",
+"fr": "mesh ha2dar aagi bokra",
+"ok": "miş ha'dar âgi bukra",
+"tr": "Yarın gelemeyeceğim",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مقبضتش لسه",
+"fr": "ma2abadtesh lessa",
+"ok": "ma'abadtiş lissa",
+"tr": "Daha maaş almadım",
+"cat": "Konfeksiyon Fabrikası"
+},
+{
+"ar": "مش عارف أعمل إيه",
+"fr": "mesh 3aref a3mel eh",
+"ok": "miş 'ârif a'mil eh",
+"tr": "Ne yapacağımı bilmiyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مفيش حد",
+"fr": "mafeesh 7add",
+"ok": "mafîş hadd",
+"tr": "Kimse yok",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "ولا حاجة",
+"fr": "wala 7aga",
+"ok": "vala hâga",
+"tr": "Hiçbir şey",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "عمري ما شفت كده",
+"fr": "3omri ma shoft keda",
+"ok": "'umri ma şuft kida",
+"tr": "Hayatımda böyle görmedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مفهمتكش",
+"fr": "ma-fhemtaksh",
+"ok": "ma-fhimtakş",
+"tr": "Seni anlamadım",
+"cat": "Günlük Konuşma",
+"note": "Kadına: مفهمتكيش (ma-fhimtikîş)"
+},
+{
+"ar": "فاهمك",
+"fr": "fahmak",
+"ok": "fâhmak",
+"tr": "Seni anlıyorum",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مسمعتكش",
+"fr": "masme3taksh",
+"ok": "masmi'takş",
+"tr": "Seni duymadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مشفتكش",
+"fr": "mashoftaksh",
+"ok": "maşuftakş",
+"tr": "Seni görmedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مقريتش",
+"fr": "ma2reetsh",
+"ok": "ma'rîtş",
+"tr": "Okumadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مكتبتش",
+"fr": "makatabtesh",
+"ok": "makatabtiş",
+"tr": "Yazmadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مجيتش",
+"fr": "magitsh",
+"ok": "magîtş",
+"tr": "Gelmedim",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "منمتش",
+"fr": "manemtesh",
+"ok": "manimtiş",
+"tr": "Uyumadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "مدفعتش",
+"fr": "madafa3tesh",
+"ok": "madafa'tiş",
+"tr": "Ödemedim",
+"cat": "Alışveriş & Para"
+},
+{
+"ar": "ماخدتش",
+"fr": "makhadtesh",
+"ok": "mahadtiş",
+"tr": "Almadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "ملقيتش",
+"fr": "mal2eetsh",
+"ok": "mal'îtş",
+"tr": "Bulamadım",
+"cat": "Günlük Konuşma"
+},
+{
+"ar": "متكلمتش",
+"fr": "matkallemtesh",
+"ok": "matkallimtiş",
+"tr": "Konuşmadım",
+"cat": "Günlük Konuşma"
+}
+]

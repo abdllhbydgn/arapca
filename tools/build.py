@@ -138,6 +138,10 @@ gram = load('out_grammar.json', {'lessons': [], 'verbs': []})
 wb = load('out_workbook.json', {'units': []})
 exist = load('out_existing.json') or [dict(id=x['id'], ar=x['arabic'], fr='', ok=x['phonetic'], tr=x['translation'], cat=x['category']) for x in load('existing.json', [])]
 
+# Sık kullanılan olumsuz ve kişili kalıplar (önce gelir, çevirinin ilk karşılığı olur) /
+# Common negative and personal verb forms (added first so they win in translation)
+for c in load('out_extra.json', []):
+    add(c, 'w' if wc(c.get('tr')) <= 2 and len(norm_ar(c.get('ar', '')).split()) <= 2 else 'p', 'ext', c['cat'] if c.get('cat') in CAT_NAMES else canon(c.get('cat')))
 for c in a1['cards']:
     add(c, 'w', 'a1', canon(c['cat']), 'A1', c.get('emoji'))
 # Konfeksiyon fabrikası halk dili (atölye ağzı) / Garment-factory shop-floor colloquial

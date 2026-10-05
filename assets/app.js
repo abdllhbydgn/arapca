@@ -86,7 +86,7 @@
   });
   // Tek kelimeler önce, sonra kısa ifadeler / Single words first, then short phrases
   // Kadına özel söyleyişler ve uzun açıklamalar geriye / Feminine-only forms and long glosses go last
-  const SRC_RANK = { fab: 0, a1: 0, conv: 1, core: 2, phr: 3, alf: 4 };
+  const SRC_RANK = { ext: 0, fab: 0, a1: 0, conv: 1, core: 2, phr: 3, alf: 4 };
   const rank = e => (e.k === 'w' ? 0 : 1) * 1000 + (/\((k|kadın|kadına|dişil)/i.test(e.tr) ? 300 : 0) + (SRC_RANK[e.src] || 0) * 20 + Math.min(19, (e.tr || '').length / 3);
   // Aranan anlam kaydın birincil (ilk) anlamıysa öne alınır / Entries whose first meaning is the key come first
   IX.tr.forEach((a, k) => a.sort((x, y) => {
@@ -329,6 +329,16 @@
   const TR_SUFFIX = ['lerimizden', 'larımızdan', 'lerinden', 'larından', 'lerimiz', 'larımız', 'leri', 'ları', 'ler', 'lar', 'imiz', 'ımız', 'umuz', 'ümüz', 'iniz', 'ınız', 'den', 'dan', 'ten', 'tan', 'de', 'da', 'te', 'ta', 'yi', 'yı', 'yu', 'yü', 'ye', 'ya', 'nin', 'nın', 'nun', 'nün', 'in', 'ın', 'un', 'ün', 'im', 'ım', 'um', 'üm', 'i', 'ı', 'u', 'ü', 'e', 'a', 'm', 'n', 'yor', 'iyor', 'ıyor', 'uyor', 'üyor', 'yorum', 'iyorum', 'ıyorum', 'uyorum', 'üyorum', 'dim', 'dım', 'dum', 'düm', 'tim', 'tım', 'di', 'dı', 'du', 'dü', 'ti', 'tı', 'mak', 'mek', 'sun', 'sün', 'sin', 'sın', 'ım', 'yım', 'yim', 'mı', 'mi', 'mu', 'mü'].map(fold).sort((a, b) => b.length - a.length);
   function lookupTrToken(tok) {
     if (IX.tr.has(tok)) return IX.tr.get(tok);
+    // Olumsuz fiil (anla-ma-dım): olumlu fiil verilmez; hazır kalıp yoksa "مش" ile tahmini olumsuz /
+    // Negative verb: never return the positive verb; without a ready phrase, an approximate "مش" negative
+    const neg = /^(.{2,}?)(ma|me)(di|dim|din|dik|diniz|diler|dilar|yor|yorum|yorsun|yoruz|z|m|n|sin|sun|yacak|yecek|yacagim|yecegim|mis|misim)$/.exec(tok);
+    if (neg) {
+      const st = neg[1], st2 = st.replace(/d$/, 't').replace(/g$/, 'k');
+      for (const k of [st + 'mek', st + 'mak', st2 + 'mek', st2 + 'mak']) if (IX.tr.has(k)) {
+        const e = pickForm(IX.tr.get(k)[0], 'yor');
+        return [Object.assign({}, e, { ar: 'مش ' + e.ar, ok: 'miş ' + e.ok, fr: 'mesh ' + e.fr, tr: 'olumsuz: ' + e.tr, _neg: true })];
+      }
+    }
     for (let cut = 0; cut < 3; cut++) {
       let w = tok;
       for (let n = 0; n <= cut; n++) { const s = TR_SUFFIX.find(x => w.length - x.length >= 2 && w.endsWith(x)); if (!s) break; w = w.slice(0, -s.length); }
