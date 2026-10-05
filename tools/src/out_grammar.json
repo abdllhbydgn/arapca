@@ -576,7 +576,7 @@
        "tr": "Annem öğle yemeği pişiriyor."
       },
       {
-       "ar": "هُم بيلعبوا كورة في الشارع.",
+       "ar": "هما بيلعبوا كورة في الشارع.",
        "fr": "homma biyil3abu koora fish-shaari3.",
        "ok": "homma biyilʿabu kûra fiş-şâriʿ.",
        "tr": "Onlar sokakta top oynuyor."
@@ -1178,7 +1178,7 @@
        "tr": "Sabahtan beri hiçbir şey yemedim."
       },
       {
-       "ar": "هُم وصلوا امبارح بالليل.",
+       "ar": "هما وصلوا امبارح بالليل.",
        "fr": "homma wislu imbaare7 bil-leil.",
        "ok": "homma vislu imbârehh bil-leyl.",
        "tr": "Onlar dün gece vardı."
@@ -2763,9 +2763,9 @@
        "tr": "Onunla (k) sabah konuştum."
       },
       {
-       "ar": "هاتلي مية من فضلك.",
-       "fr": "haatli mayya min fadlak.",
-       "ok": "hâtli mayya min fadlak.",
+       "ar": "هاتلي مية لو سمحت.",
+       "fr": "haatli mayya law sama7t.",
+       "ok": "hâtli mayya lav samahht.",
        "tr": "Bana su getir lütfen. (e)"
       },
       {
@@ -3500,9 +3500,9 @@
        "tr": "A: Ne kadar sürede varırız?"
       },
       {
-       "ar": "تقريبًا نص ساعة.",
-       "fr": "ta2riiban nuss saa3a.",
-       "ok": "ta’rîban nuss sâʿa.",
+       "ar": "حوالي نص ساعة.",
+       "fr": "7awaali nuss saa3a.",
+       "ok": "hhavâli nuss sâʿa.",
        "tr": "B: Yaklaşık yarım saat."
       },
       {
@@ -3572,9 +3572,9 @@
      "type": "examples",
      "items": [
       {
-       "ar": "ممكن المنيو من فضلك؟",
-       "fr": "mumkin il-menyu min fadlak?",
-       "ok": "mumkin il-menyu min fadlak?",
+       "ar": "ممكن المنيو لو سمحت؟",
+       "fr": "mumkin il-menyu law sama7t?",
+       "ok": "mumkin il-menyu lav samahht?",
        "tr": "A: Menüyü alabilir miyim lütfen?"
       },
       {

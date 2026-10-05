@@ -1124,10 +1124,13 @@
      "type": "translate",
      "from": "tr",
      "q": "Bir saniye lütfen.",
-     "answer": "la7za min fadlak",
+     "answer": "sanya law samaht",
      "alts": [
-      "لحظة من فضلك",
-      "la7za law samaht"
+      "ثانية لو سمحت",
+      "ثانية واحدة",
+      "la7za law samaht",
+      "لحظة لو سمحت",
+      "sanya wa7da"
      ]
     },
     {

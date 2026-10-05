@@ -185,10 +185,10 @@
      "group": "Teşekkür, rica, özür"
     },
     {
-     "ar": "من فضلك",
-     "fr": "min fadlak",
-     "ok": "min fadlak",
-     "tr": "Lütfen (e)",
+     "ar": "والنبي",
+     "fr": "wi-nnabi",
+     "ok": "vinnabi",
+     "tr": "Ne olur / hadi lütfen (samimi rica)",
      "group": "Teşekkür, rica, özür"
     },
     {
@@ -2298,16 +2298,16 @@
      "group": "Acil durum"
     },
     {
-     "ar": "اتصل بالإسعاف!",
-     "fr": "ittasil bil-is3aaf!",
-     "ok": "ittasil bil-isʿâf!",
+     "ar": "اطلب الإسعاف!",
+     "fr": "itlub il-is3aaf!",
+     "ok": "itlub il-isʿâf!",
      "tr": "Ambulans çağır!",
      "group": "Acil durum"
     },
     {
-     "ar": "اتصل بالبوليس!",
-     "fr": "ittasil bil-bolees!",
-     "ok": "ittasil bil-bolîs!",
+     "ar": "اطلب البوليس!",
+     "fr": "itlub il-bolees!",
+     "ok": "itlub il-bolîs!",
      "tr": "Polisi ara!",
      "group": "Acil durum"
     },
@@ -2456,9 +2456,9 @@
      "tr": "Karnım ağrıyor."
     },
     {
-     "ar": "اتصل بالإسعاف!",
-     "fr": "ittasil bil-is3aaf!",
-     "ok": "ittasil bil-isʿâf!",
+     "ar": "اطلب الإسعاف!",
+     "fr": "itlub il-is3aaf!",
+     "ok": "itlub il-isʿâf!",
      "tr": "Ambulans çağır!"
     }
    ]
@@ -2846,7 +2846,7 @@
      "group": "42 ek fiil (fiil bankası 2)"
     },
     {
-     "ar": "سوق / بسوق",
+     "ar": "ساق / بسوق",
      "fr": "saa2 / basuu2",
      "ok": "sâ’ / basû’",
      "tr": "araba kullanmak",
@@ -3763,9 +3763,9 @@
       },
       {
        "who": "A",
-       "ar": "متشكر جدًا.",
-       "fr": "mutashakkir giddan.",
-       "ok": "mutaşakkir giddan.",
+       "ar": "متشكر أوي.",
+       "fr": "mutashakkir awi.",
+       "ok": "mutaşakkir avi.",
        "tr": "Çok teşekkürler."
       },
       {
