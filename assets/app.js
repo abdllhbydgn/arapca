@@ -32,6 +32,50 @@
     }
   })();
 
+  // ── Puan (XP), seviye, günlük hedef ve konfeti / XP, level, daily goal and confetti ──
+  const today = () => new Date().toISOString().slice(0, 10);
+  const DAILY_GOAL = 50;
+  const lvlOf = xp => Math.floor(Math.sqrt(xp / 40)) + 1;
+  const lvlXP = l => 40 * (l - 1) * (l - 1);
+  const LVL_NAMES = ['Çırak', 'Kalfa', 'Usta', 'Baş Usta', 'Ustabaşı', 'Ustaların Ustası', 'Masri Ustası', 'Kahire Efsanesi'];
+  const lvlName = l => LVL_NAMES[Math.min(LVL_NAMES.length - 1, l - 1)];
+  function xpState() { const x = store.get('xp', { total: 0, day: today(), n: 0 }); if (x.day !== today()) { x.day = today(); x.n = 0; } return x; }
+  function addXP(n) {
+    const x = xpState(), before = lvlOf(x.total), goalBefore = x.n >= DAILY_GOAL;
+    x.total += n; x.n += n;
+    store.set('xp', x);
+    const after = lvlOf(x.total);
+    if (after > before) { confetti(); toast('🎉 Seviye atladın! Seviye ' + after + ' · ' + lvlName(after)); }
+    else if (!goalBefore && x.n >= DAILY_GOAL) { confetti(); toast('🏆 Günlük hedef tamam! +' + DAILY_GOAL + ' XP'); }
+    else xpPop('+' + n + ' XP');
+    try { buildSideCard(); } catch (e) {}
+  }
+  function xpPop(t) {
+    const el = document.createElement('div');
+    el.className = 'xp-pop';
+    el.textContent = t;
+    document.body.appendChild(el);
+    setTimeout(() => el.remove(), 1100);
+  }
+  function confetti() {
+    if (window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    const c = document.createElement('canvas'), g = c.getContext('2d');
+    c.className = 'confetti';
+    c.width = innerWidth; c.height = innerHeight;
+    document.body.appendChild(c);
+    const COLS = ['#FF5D73', '#FFB020', '#22C55E', '#2EC4F1', '#7C5CFF', '#FF5DA2', '#E9C46A'];
+    const P = Array.from({ length: 140 }, () => ({ x: innerWidth / 2 + (Math.random() - .5) * 200, y: innerHeight * .35, vx: (Math.random() - .5) * 14, vy: -Math.random() * 14 - 4, s: 5 + Math.random() * 6, r: Math.random() * 6, vr: (Math.random() - .5) * .3, c: COLS[Math.floor(Math.random() * COLS.length)] }));
+    const t0 = performance.now();
+    const step = now => {
+      const t = now - t0;
+      g.clearRect(0, 0, c.width, c.height);
+      P.forEach(p => { p.vy += .35; p.x += p.vx; p.y += p.vy; p.r += p.vr; g.save(); g.translate(p.x, p.y); g.rotate(p.r); g.fillStyle = p.c; g.globalAlpha = Math.max(0, 1 - t / 2200); g.fillRect(-p.s / 2, -p.s / 3, p.s, p.s * .66); g.restore(); });
+      if (t < 2200) requestAnimationFrame(step); else c.remove();
+    };
+    requestAnimationFrame(step);
+  }
+  const ringSvg = (pct, size, col) => { const r = size / 2 - 5, L = 2 * Math.PI * r, v = Math.max(0, Math.min(1, pct)); return `<svg width="${size}" height="${size}" viewBox="0 0 ${size} ${size}" class="ring"><circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="rgba(255,255,255,.25)" stroke-width="7"/><circle cx="${size / 2}" cy="${size / 2}" r="${r}" fill="none" stroke="${col}" stroke-width="7" stroke-linecap="round" stroke-dasharray="${L}" stroke-dashoffset="${L * (1 - v)}" transform="rotate(-90 ${size / 2} ${size / 2})"/></svg>`; };
+
   // ── İkonlar / Icons ──
   const IC = {
     home: '<path d="M3 11 12 4l9 7"/><path d="M5 10v10h14V10"/><path d="M10 20v-6h4v6"/>',
@@ -226,12 +270,17 @@
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
   ];
+  const NAV_COL = { '': '#FFB020', fabrika: '#FF7A45', ceviri: '#2EC4F1', sozluk: '#E9C46A', kartlar: '#7C5CFF', alfabe: '#FF5D73', konusma: '#22C55E', gramer: '#C084FC', fiiller: '#FACC15', alistirma: '#38BDF8', test: '#FF5DA2', favoriler: '#FBBF24' };
+  function buildSideCard() {
+    const s = store.get('streak', { n: 1 }), x = xpState(), l = lvlOf(x.total), a = lvlXP(l), b = lvlXP(l + 1);
+    $('#sideCard').innerHTML = `<div class="lvl"><span class="lvl-b">Sv. ${l}</span><div><b>${esc(lvlName(l))}</b><small>${x.total} XP · sonraki seviyeye ${b - x.total} XP</small></div></div>
+      <div class="xpbar"><i style="width:${((x.total - a) / (b - a) * 100).toFixed(1)}%"></i></div>
+      <div class="side-mini"><span>🔥 ${s.n} gün seri</span><span>🎯 Bugün ${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL}</span></div>`;
+  }
   function buildNav() {
-    $('#nav').innerHTML = NAV.map(n => n[0] === 'h' ? `<div class="nav-h">${n[1]}</div>` : `<a href="#/${n[0]}" data-r="${n[0]}">${ic(n[1])}<span>${n[2]}</span>${n[3] ? `<span class="cnt">${n[3]()}</span>` : ''}</a>`).join('');
+    $('#nav').innerHTML = NAV.map(n => n[0] === 'h' ? `<div class="nav-h">${n[1]}</div>` : `<a href="#/${n[0]}" data-r="${n[0]}" style="--nc:${NAV_COL[n[0]] || '#E9C46A'}"><span class="ni">${ic(n[1])}</span><span>${n[2]}</span>${n[3] ? `<span class="cnt">${n[3]()}</span>` : ''}</a>`).join('');
     $('#bnav').innerHTML = [['', 'home', 'Ana'], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük'], ['kartlar', 'cards', 'Kartlar']].map(n => `<a href="#/${n[0]}" data-r="${n[0]}">${ic(n[1])}<span>${n[2]}</span></a>`).join('') + `<button id="bMore">${ic('more')}<span>Daha</span></button>`;
-    const s = store.get('streak', { n: 1 });
-    const learned = Object.values(cards).filter(c => c.box >= 2).length;
-    $('#sideCard').innerHTML = `<b>${E.length.toLocaleString('tr-TR')}</b> kelime ve ifade<div style="margin-top:8px;">🔥 ${s.n} günlük seri · ✅ ${learned} kart öğrenildi</div>`;
+    buildSideCard();
   }
   function parseHash() {
     const h = location.hash.replace(/^#\/?/, '');
@@ -277,7 +326,10 @@
       ['alistirma', '📝', '#E0F2FE', 'Çalışma Defteri', 'Etkileşimli alıştırmalar, anında kontrol'],
       ['test', '🎯', '#FCE7F3', 'Test Çöz', 'Kendini dene: çoktan seçmeli ve dinleme']
     ];
-    view.innerHTML = `<section class="hero fade">
+    const x = xpState(), lv = lvlOf(x.total);
+    const Q = C.quotes || [];
+    view.innerHTML = (Q.length ? `<section class="quote fade" id="quote"></section>` : '') + `<section class="hero fade">
+        <div class="hero-float" aria-hidden="true"><span>ع</span><span>ب</span><span>م</span><span>ص</span><span>ر</span><span>ك</span></div>
         <h1>Ahlan wa sahlan! 👋</h1>
         <p>Mısır lehçesini (Masri) Türkçe açıklamalarla öğren: çeviri, sözlük, kartlar, konuşma ve gramer bir arada.</p>
         <form class="hero-tr" id="heroForm"><input id="heroIn" placeholder="Türkçe veya Arapça yaz, çevirelim… (ör. nasılsın, ne kadar, ماشي)" autocomplete="off" aria-label="Çevrilecek metin"><button class="btn gold" type="submit">${ic('tr')} Çevir</button></form>
@@ -285,23 +337,47 @@
         <div class="hero-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div>
       </section>
       <div class="stats">
-        <div class="card stat"><div class="ic" style="background:var(--gold-soft);color:var(--gold)">${ic('book')}</div><div><b>${E.length.toLocaleString('tr-TR')}</b><small>kelime ve ifade</small></div></div>
-        <div class="card stat"><div class="ic" style="background:var(--teal-soft);color:var(--teal)">${ic('check')}</div><div><b>${learned}</b><small>öğrenilen kart</small></div></div>
-        <div class="card stat"><div class="ic" style="background:var(--red-soft);color:var(--red)">${ic('fire')}</div><div><b>${s.n} gün</b><small>çalışma serisi</small></div></div>
-        <div class="card stat"><div class="ic" style="background:#E8EEFB;color:#3B5BDB">${ic('cards')}</div><div><b>${due}</b><small>tekrar bekleyen kart</small></div></div>
+        <div class="stat vivid" style="--g1:#7C5CFF;--g2:#C084FC"><div class="ringbox">${ringSvg(x.n / DAILY_GOAL, 58, '#fff')}<span>${Math.min(100, Math.round(x.n / DAILY_GOAL * 100))}%</span></div><div><b>${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL} XP</b><small>Günlük hedef</small></div></div>
+        <div class="stat vivid" style="--g1:#FFB020;--g2:#FF7A45"><div class="ic">🏅</div><div><b>Seviye ${lv}</b><small>${esc(lvlName(lv))} · ${x.total} XP</small></div></div>
+        <div class="stat vivid" style="--g1:#FF5D73;--g2:#FF5DA2"><div class="ic flame">🔥</div><div><b>${s.n} gün</b><small>çalışma serisi</small></div></div>
+        <a class="stat vivid" href="#/kartlar${due ? '/tekrar' : ''}" style="--g1:#22C55E;--g2:#2EC4F1;text-decoration:none"><div class="ic">🃏</div><div><b>${due} kart</b><small>${due ? 'tekrar bekliyor →' : learned + ' kart öğrenildi'}</small></div></a>
       </div>
       <div class="grid g2">
-        ${wd ? `<div class="card day"><span class="tag">⭐ Günün kelimesi · ${esc(wd.cat)}</span><div class="ar">${esc(wd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(wd.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(wd.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(wd.tr)}</div>${wd.ex ? `<div class="meta" style="color:var(--muted)"><span class="ar" style="font-size:18px">${esc(wd.ex.ar)}</span> — ${esc(wd.ex.tr)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px;">${playBtn(wd.ar)}${favBtn(wd)}</div></div>` : ''}
+        ${wd ? `<div class="card day"><span class="tag">⭐ Günün kelimesi · ${esc(wd.cat)}</span><div class="ar">${esc(wd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(wd.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(wd.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(wd.tr)}</div>${wd.ex ? `<div class="meta" style="color:var(--muted)"><span class="ar" style="font-size:18px">${esc(wd.ex.ar)}</span> — ${esc(wd.ex.tr)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px;">${playBtn(wd.ar)}${favBtn(wd)}<button class="btn sm ghost" id="luckyBtn" style="margin-left:auto">🎲 Şans kelimesi</button></div></div>` : ''}
         ${pd ? `<div class="card day"><span class="tag">💬 Günün ifadesi · ${esc(pd.cat)}</span><div class="ar" style="font-size:30px">${esc(pd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:17px;">${esc(pd.ok)}</span></div><div style="font-size:16px;font-weight:700;">${esc(pd.tr)}</div><div style="display:flex;gap:8px;margin-top:6px;">${playBtn(pd.ar)}${favBtn(pd)}</div></div>` : ''}
       </div>
       <div class="sec-h"><h2>Modüller</h2></div>
-      <div class="grid g3">${mods.map(m => `<a class="card mod" href="#/${m[0]}"><div class="ic" style="background:${m[2]}">${m[1]}</div><div><b>${m[3]}</b><small>${m[4]}</small></div></a>`).join('')}</div>
+      <div class="grid g3">${mods.map((m, i) => `<a class="card mod vivid-mod" href="#/${m[0]}" style="--mc:${NAV_COL[m[0]] || '#E9C46A'};animation-delay:${i * 40}ms"><div class="ic">${m[1]}</div><div><b>${m[3]}</b><small>${m[4]}</small></div><span class="go">${ic('arrow')}</span></a>`).join('')}</div>
       <div class="sec-h"><h2>Mısır lehçesi ipuçları</h2></div>
       <div class="grid g3">
         <div class="card pad"><b>ج = G</b><p style="margin:6px 0 0;color:var(--muted)">Mısır'da ج sert "g" okunur: <span class="ar">جميل</span> → gamiil (güzel).</p></div>
         <div class="card pad"><b>ق = hemze</b><p style="margin:6px 0 0;color:var(--muted)">Kahire'de ق çoğunlukla yutulur: <span class="ar">قلب</span> → 'alb (kalp).</p></div>
         <div class="card pad"><b>ب- = şimdiki zaman</b><p style="margin:6px 0 0;color:var(--muted)">Fiilin başına b- gelir: <span class="ar">باكل</span> → bākol (yiyorum).</p></div>
       </div>`;
+    // Günün sözü: her gün değişir, oklarla önceki/sonraki günlere bakılır / Saying of the day, browsable
+    let qOff = 0;
+    const drawQuote = () => {
+      const box = $('#quote');
+      if (!box || !Q.length) return;
+      const i = ((dayIdx(Q.length) + qOff) % Q.length + Q.length) % Q.length, q = Q[i];
+      const d = new Date(Date.now() + qOff * 864e5).toLocaleDateString('tr-TR', { day: 'numeric', month: 'long', weekday: 'long' });
+      box.innerHTML = `<div class="q-head"><span class="q-badge">🌟 Günün Sözü</span><span class="q-date">${qOff ? esc(d) : 'Bugün · ' + esc(d)}</span><span class="q-nav"><button class="icon-btn" id="qPrev" title="Önceki gün" aria-label="Önceki gün">‹</button><button class="icon-btn" id="qNext" title="Sonraki gün" aria-label="Sonraki gün">›</button></span></div>
+        <div class="q-body"><div class="q-ar ar">${esc(q.ar)}</div><div class="q-side">${playBtn(q.ar, 'q-play')}</div></div>
+        <div class="q-ok">${esc(q.ok)}</div><div class="q-tr">“${esc(q.tr)}”</div><div class="q-mean">💡 ${esc(q.mean || '')}</div>`;
+      $('#qPrev').onclick = () => { qOff--; drawQuote(); };
+      $('#qNext').onclick = () => { qOff++; drawQuote(); };
+    };
+    drawQuote();
+    const lucky = $('#luckyBtn');
+    if (lucky) lucky.onclick = () => {
+      const pool = E.filter(e => e.k === 'w' && e.src !== 'alf');
+      const e = pool[Math.floor(Math.random() * pool.length)];
+      const card = lucky.closest('.day');
+      card.classList.remove('pop'); void card.offsetWidth; card.classList.add('pop');
+      card.innerHTML = `<span class="tag">🎲 Şans kelimesi · ${esc(e.cat)}</span><div class="ar">${esc(e.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(e.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(e.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(e.tr)}</div><div style="display:flex;gap:8px;margin-top:6px;">${playBtn(e.ar)}${favBtn(e)}<button class="btn sm ghost" id="luckyBtn" style="margin-left:auto">🎲 Bir tane daha</button></div>`;
+      $('#luckyBtn').onclick = lucky.onclick;
+      speak(e.ar);
+    };
     $('#heroForm').onsubmit = ev => { ev.preventDefault(); const v = $('#heroIn').value.trim(); go('#/ceviri?q=' + encodeURIComponent(v)); };
     // Ana sayfada anında çeviri ve Mısır sesiyle dinleme / Instant translation with Egyptian audio on the home page
     let hTm;
@@ -586,6 +662,7 @@
     let i = 0, right = 0, mode = store.get('fcMode', 'tr');
     const draw = () => {
       if (i >= queue.length) {
+        if (right >= queue.length * .8) confetti();
         view.innerHTML = `<div class="fc-wrap"><div class="card score fade"><div style="font-size:48px">🎉</div><b>${right}/${queue.length}</b><p>Oturum tamamlandı. Kartların kutuları güncellendi.</p><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><a class="btn pri" href="#/kartlar/${encodeURIComponent(deck.key)}" id="again">Devam et</a><a class="btn ghost" href="#/kartlar">Destelere dön</a></div></div></div>`;
         $('#again').onclick = ev => { ev.preventDefault(); flashSession(deck); };
         buildNav();
@@ -609,6 +686,7 @@
         const cur = cards[e.id] || { box: 0 };
         cards[e.id] = { box: ok ? Math.min(3, (cur.box || 0) + 1) : 1, t: Date.now() };
         if (ok) right++;
+        addXP(ok ? 5 : 1);
         saveCards();
         i++;
         draw();
@@ -744,6 +822,7 @@
       if (el.dataset.done) return;
       el.dataset.done = 1;
       done++; if (good) ok++;
+      if (good) addXP(5);
       $('.fbx', el).innerHTML = `<div class="fb ${good ? 'right' : 'wrong'}">${good ? '✅ Doğru!' : '❌ Doğru cevap:'} ${msg || ''}</div>`;
       onScore && onScore(ok, done);
     };
@@ -798,7 +877,7 @@
         `<div class="grid" id="wbList">${u.exercises.map(exerciseHtml).join('')}</div>`;
       bindExercises($('#wbList'), u.exercises, (ok, done) => {
         $('#wbScore').textContent = ok + ' doğru · ' + done + ' / ' + u.exercises.length;
-        if (done === u.exercises.length) { best[u.id] = Math.max(best[u.id] || 0, Math.round(ok / done * 100)); store.set('wb', best); toast('Ünite tamamlandı: %' + Math.round(ok / done * 100)); }
+        if (done === u.exercises.length) { best[u.id] = Math.max(best[u.id] || 0, Math.round(ok / done * 100)); store.set('wb', best); toast('Ünite tamamlandı: %' + Math.round(ok / done * 100)); if (ok / done >= .8) confetti(); }
       });
       return;
     }
@@ -832,6 +911,7 @@
     const draw = () => {
       if (i >= qs.length) {
         const pct = Math.round(ok / qs.length * 100);
+        if (pct >= 80) confetti();
         const hist = store.get('tests', []); hist.push({ t: Date.now(), p: pct }); store.set('tests', hist.slice(-50));
         view.innerHTML = `<div class="fc-wrap"><div class="card score fade"><div style="font-size:48px">${pct >= 80 ? '🏆' : pct >= 50 ? '👏' : '💪'}</div><b>%${pct}</b><p>${ok} / ${qs.length} doğru</p><div style="display:flex;gap:10px;justify-content:center;flex-wrap:wrap"><button class="btn pri" id="re">Yeni test</button><a class="btn ghost" href="#/test">Ayarlar</a></div></div></div>`;
         $('#re').onclick = () => ROUTES.test(a, q);
@@ -847,7 +927,7 @@
       if (mode === 'listen') setTimeout(() => speak(e.ar), 250);
       $$('.opt').forEach(b => b.onclick = () => {
         const j = +b.dataset.o, good = j === x.ans;
-        if (good) ok++;
+        if (good) { ok++; addXP(10); }
         $$('.opt').forEach((o, n) => { o.disabled = true; if (n === x.ans) o.classList.add('right'); });
         if (!good) b.classList.add('wrong');
         $('.fbx').innerHTML = `<div class="fb ${good ? 'right' : 'wrong'}">${good ? '✅ Doğru' : '❌ Yanlış'} — <span class="ar">${esc(e.ar)}</span> ${esc(e.ok)} = ${esc(e.tr)}</div>`;
@@ -899,6 +979,7 @@
   // ── Menü, tema, ortak tıklamalar / Menu, theme, shared clicks ──
   // Diyaloğu satır satır, konuşan balonu vurgulayarak çalar / Plays a dialogue line by line, highlighting the speaker
   function playDialog(d, box, btn) {
+    addXP(3);
     const lines = (d.lines || []).map(l => l.ar), bubs = $$('.bub', box);
     let i = 0;
     try { if (curAudio) curAudio.pause(); } catch (e) {}

@@ -211,7 +211,8 @@ for t in conv['topics']:
 units += prac
 
 conv_out = {'intro': conv.get('intro', ''), 'topics': [{k: v for k, v in t.items() if k != 'practice'} for t in conv['topics']]}
-content = {'a1': {'intro': a1.get('intro', {}), 'categories': a1.get('categories', [])}, 'alphabet': alpha, 'conv': conv_out,
+quotes = [{k: (nfc(v) if k == 'ar' else v) for k, v in q.items()} for q in load('out_quotes.json', [])]
+content = {'quotes': quotes, 'a1': {'intro': a1.get('intro', {}), 'categories': a1.get('categories', [])}, 'alphabet': alpha, 'conv': conv_out,
            'grammar': gram, 'workbook': {'units': units}}
 
 os.makedirs(OUT, exist_ok=True)
