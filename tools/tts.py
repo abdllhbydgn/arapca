@@ -87,7 +87,17 @@ def collect():
     return out
 
 
+# Mısır ağzına göre harekelenmiş seslendirme metinleri (anahtar → metin) / Egyptian-vocalised TTS input
+try:
+    TTS_TEXT = json.load(open(os.path.join(ROOT, 'tools', 'src', 'tts_text.json'), encoding='utf-8'))
+except Exception:
+    TTS_TEXT = {}
+
+
 def speakable(t):
+    v = TTS_TEXT.get(key(t))
+    if v:
+        t = v
     # "مشي / بمشي" gibi alternatifler kısa duraklamayla okunur / Alternatives are read with a short pause
     t = re.sub(r'\s*/\s*', '، ', t)
     # Kahire halk ağzı: ق yutulur, hemze okunur (قلم → 'alam). Yazı değişmez, yalnız ses /
