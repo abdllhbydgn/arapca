@@ -65,3 +65,8 @@ Canlı: https://abdllhbydgn.github.io/arapca/ — statik SPA (GitHub Pages), has
 ## Test
 - Yerel sunucu: `python3 -m http.server 8770` (repo kökünde).
 - Tarayıcı testi: Playwright + `/opt/pw-browsers/chromium`. Mobil için 360/390 px genişlikte taşma kontrolü yap.
+
+## ÖNCE ANLAT, SONRA YAP (kullanıcı kuralı)
+- Yeni bir özellik, ayar, otomasyon, eklenti ya da kullanıcıdan bir işlem (silme, kurulum, ayar) isteyen her adımda: **önce ne yapacağını ve nedenini 2–3 kısa maddeyle anlat, kullanıcının onayını bekle, sonra yap.**
+- Kullanıcıya adım adım, tek seferde tek iş ver; gerekirse ekran görüntüsü üzerinde işaretleyerek göster.
+- Kısa ve net yaz; teknik terim kullanma.
