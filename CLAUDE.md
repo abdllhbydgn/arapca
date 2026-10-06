@@ -1,5 +1,7 @@
 # Arapça Öğren (Mısır lehçesi portalı) — kalıcı çalışma kuralları ve harita
 
+> **Sohbet başında varsa `/home/user/ems/HAFIZA.md`'yi (ems deposu) oku; sohbet sonunda oraya kısa not ekle.**
+
 Canlı: https://abdllhbydgn.github.io/arapca/ — statik SPA (GitHub Pages), hash yönlendirme `#/sayfa`.
 **Tüm dosyaları tarama.** Aşağıdaki haritadan ilgili dosyaya git, `grep -n` ile fonksiyonu bul, yalnız o bölümü oku.
 
