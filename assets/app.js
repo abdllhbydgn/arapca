@@ -185,7 +185,7 @@
   let voices = [];
   const loadVoices = () => { try { voices = speechSynthesis.getVoices() || []; } catch (e) {} };
   if ('speechSynthesis' in window) { loadVoices(); speechSynthesis.onvoiceschanged = loadVoices; }
-  // Kayıtlı Mısır lehçesi sesleri (audio/, ar-EG Salma) önce; yoksa cihazın ar-EG sesi, o da yoksa herhangi bir Arapça ses /
+  // Kayıtlı Mısır lehçesi sesleri (audio/, ar-EG Shakir erkek sesi) önce; yoksa cihazın ar-EG sesi, o da yoksa herhangi bir Arapça ses /
   // Recorded Egyptian audio first; otherwise the device's ar-EG voice, then any Arabic voice
   const audioKey = t => {
     t = String(t || '').replace(/\s+/g, ' ').trim();
