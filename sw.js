@@ -8,6 +8,7 @@ const APP_SHELL = [
   './assets/app.css?v=23',
   './assets/app.js?v=23',
   './assets/logo.png',
+  './assets/logo-ayn.png',
   './assets/portal-logo-seffaf.png',
   './assets/nscs-logo-beyaz.png',
   './data/dict.js?v=23',
