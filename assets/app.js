@@ -332,7 +332,7 @@
     drawPnav(r);
     if (!render._first) window.scrollTo(0, 0);
     render._first = false;
-    document.title = ($('.ph h1', view) || {}).textContent ? $('.ph h1', view).textContent + ' | Arapça Öğren' : 'Arapça Öğren | Mısır Lehçesi Portalı';
+    { const h1 = ($('.ph h1', view) || {}).textContent; const pg = h1 ? h1.replace(/^[^A-Za-z0-9\u00C0-\u024F\u0600-\u06FF]+/, '').trim() : ''; document.title = pg ? 'Arapça Öğren | ' + pg : 'Arapça Öğren | Mısır Lehçesi Portalı'; }
   }
   render._first = true;
   const go = h => { location.hash = h; };
