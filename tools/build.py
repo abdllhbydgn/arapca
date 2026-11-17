@@ -219,6 +219,16 @@ os.makedirs(OUT, exist_ok=True)
 js = lambda o: json.dumps(o, ensure_ascii=False, separators=(',', ':'))
 open(os.path.join(OUT, 'dict.js'), 'w').write('/* Mısır lehçesi sözlük verisi — otomatik üretilir (build.py) */\nwindow.MASRI_DICT=' + js({'entries': entries, 'cats': cats}) + ';\n')
 open(os.path.join(OUT, 'content.js'), 'w').write('/* Portal içerikleri — otomatik üretilir (build.py) */\nwindow.MASRI=' + js(content) + ';\n')
+
+# Ortak kelimeler (Türkçe ↔ Mısır Arapçası) — ayrı sayfa verisi / data for the "Ortak Kelimeler" page
+_ort = load('out_ortak.json')
+if _ort:
+    for w in _ort['words']:
+        w['ar'] = nfc(w['ar'])
+    for w in _ort['examples']:
+        w['ar'] = nfc(w['ar'])
+    open(os.path.join(OUT, 'ortak.js'), 'w').write('/* Ortak kelimeler verisi — otomatik üretilir (build.py) */\nwindow.MASRI_ORTAK=' + js(_ort) + ';\n')
+    print('ortak', len(_ort['words']), 'kelime', len(_ort['examples']), 'cümle')
 by = {}
 for e in entries:
     by[e['src']] = by.get(e['src'], 0) + 1

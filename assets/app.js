@@ -6,6 +6,7 @@
   const D = window.MASRI_DICT || { entries: [], cats: [] };
   const C = window.MASRI || {};
   const E = D.entries;
+  const OR = window.MASRI_ORTAK || { sections: [], words: [], examples: [], rules: { franco: [], shift: [] }, tags: {} };
   const byId = new Map(E.map(e => [e.id, e]));
   const $ = (s, r) => (r || document).querySelector(s);
   const $$ = (s, r) => Array.from((r || document).querySelectorAll(s));
@@ -107,6 +108,7 @@
     lock: '<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
     out: '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h11"/>',
     verb: '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+    link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
     fab: '<path d="M3 21V10l5 3V10l5 3V6l8 4v11z"/><path d="M7 17h2M12 17h2M17 17h2"/>'
   };
   const ic = (n, cls) => `<svg class="i${cls ? ' ' + cls : ''}" viewBox="0 0 24 24" aria-hidden="true">${IC[n] || ''}</svg>`;
@@ -273,7 +275,7 @@
 
   // ── Yönlendirme / Routing ──
   const NAV = [
-    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
+    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
     ['h', 'Öğren'], ['kartlar', 'cards', 'Kelime Kartları'], ['alfabe', 'abc', 'Alfabe', () => ((C.alphabet || {}).letters || []).length],
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
@@ -310,7 +312,7 @@
     else if (NAVH.stack[NAVH.pos + 1] === h) NAVH.pos++;
     else { NAVH.stack = NAVH.stack.slice(0, NAVH.pos + 1).concat(h); NAVH.pos++; }
   });
-  const PAGE_NAMES = { '': 'Ana Sayfa', fabrika: 'Fabrika Dili', ceviri: 'Çeviri', sozluk: 'Sözlük', kartlar: 'Kelime Kartları', alfabe: 'Alfabe', konusma: 'Konuşma Rehberi', gramer: 'Gramer', fiiller: 'Fiiller', alistirma: 'Çalışma Defteri', test: 'Test Çöz', favoriler: 'Favorilerim', giris: 'Giriş', hesabim: 'Hesabım', admin: 'Yönetim' };
+  const PAGE_NAMES = { '': 'Ana Sayfa', fabrika: 'Fabrika Dili', ortak: 'Ortak Kelimeler', ceviri: 'Çeviri', sozluk: 'Sözlük', kartlar: 'Kelime Kartları', alfabe: 'Alfabe', konusma: 'Konuşma Rehberi', gramer: 'Gramer', fiiller: 'Fiiller', alistirma: 'Çalışma Defteri', test: 'Test Çöz', favoriler: 'Favorilerim', giris: 'Giriş', hesabim: 'Hesabım', admin: 'Yönetim' };
   function drawPnav(r) {
     const el = $('#pnav');
     if (!el) return;
@@ -350,6 +352,7 @@
     const due = dueCount();
     const mods = [
       ['fabrika', '🧵', '#FBF1DA', 'Fabrika Dili', 'Konfeksiyon atölyesinin halk dili: makine, hat, kalite, vardiya'],
+      ['ortak', '🔗', '#E4EDF9', 'Ortak Kelimeler', 'Türkçeyle benzer ' + OR.words.length + ' kelime: ortak, Osmanlı, Batı, dikkat'],
       ['ceviri', '🔁', '#DDF4F1', 'Çeviri', 'Türkçe ⇄ Mısır lehçesi, kelime kelime açıklamalı'],
       ['sozluk', '📖', '#FBF1DA', 'Sözlük', E.length.toLocaleString('tr-TR') + ' kelime ve ifade'],
       ['kartlar', '🃏', '#E8EEFB', 'Kelime Kartları', due ? due + ' kart tekrar bekliyor' : '3 kutu yöntemiyle ezberle'],
@@ -628,6 +631,55 @@
       ${quick.length ? `<div class="sec-h"><h2>🗣️ Atölyede en çok duyacağın cümleler</h2></div><div class="grid gauto">${quick.map(e => entryHtml(e)).join('')}</div>` : ''}` : `<div class="card empty"><b>🧵</b>Fabrika dili içeriği hazırlanıyor.</div>`);
     const fc = $('#fabCards');
     if (fc) fc.onclick = ev => { ev.preventDefault(); const ids = F.map(e => e.id); flashSession({ key: 'fabrika', cat: 'Konfeksiyon Fabrikası', em: '🧵', ids: ids }); };
+  };
+
+  // ── Ortak Kelimeler / Türkçe ile Mısır Arapçasında ortak ve benzer kelimeler ──
+  const ORT_TAG = { 'Ortak': '#1B3F7A', 'Osmanlı': '#EA580C', 'Batı': '#0E9384', 'Dikkat': '#E11D48' };
+  const ORT_SHORT = { 1: 'Selamlaşma', 2: 'Din ve kültür', 3: 'İnsanlar ve meslekler', 4: 'Duygular ve soyut', 5: 'Zaman ve takvim', 6: 'Doğa ve yer', 7: 'Ev ve mutfak', 8: 'Yiyecek ve içecek', 9: 'Alışveriş ve iş', 10: 'Devlet ve ordu', 11: 'Osmanlı hitapları', 12: 'Batı kökenliler', 13: 'Dikkat: farklı anlam', 14: 'Örnek cümleler', 15: 'Ek kelimeler' };
+  const nA = s => String(s || '').replace(/[ً-ْٰـ]/g, '').replace(/[أإآٱ]/g, 'ا').replace(/ى/g, 'ي').replace(/ة/g, 'ه');
+  const nT = s => String(s || '').replace(/İ/g, 'i').replace(/I/g, 'ı').toLowerCase().replace(/[çğıöşüâîû]/g, c => ({ 'ç': 'c', 'ğ': 'g', 'ı': 'i', 'ö': 'o', 'ş': 's', 'ü': 'u', 'â': 'a', 'î': 'i', 'û': 'u' }[c]));
+  ROUTES.ortak = function (a, q) {
+    const W = OR.words, tag = q.tag || '', sec = q.sec ? +q.sec : 0, qs = q.q || '';
+    const secName = n => (OR.sections.find(s => s.n === n) || {}).name || '';
+    const href = o => '#/ortak' + (() => { const p = Object.assign({ tag: tag, sec: sec || '', q: qs }, o), s = Object.keys(p).filter(k => p[k]).map(k => k + '=' + encodeURIComponent(p[k])).join('&'); return s ? '?' + s : ''; })();
+    const tc = {}, sc = {};
+    W.forEach(w => { tc[w.tag] = (tc[w.tag] || 0) + 1; });
+    W.filter(w => !tag || w.tag === tag).forEach(w => { sc[w.sec] = (sc[w.sec] || 0) + 1; });
+    const rules = `<details class="card pad ort-rules"><summary><b>📘 Okuma anahtarı ve ses kaymaları</b><small>Franko harfleri ve Türkçe ↔ Mısır Arapçası düzenli farkları</small></summary>
+      <h3>Franko (Latin harfli Arapça) okuma anahtarı</h3>
+      <div class="ort-tbl"><div class="ort-th"><span>Franko</span><span>Arap harfi</span><span>Ses</span><span>Örnek</span></div>${OR.rules.franco.map(r => `<div><b>${esc(r[0])}</b><span class="ar">${esc(r[1])}</span><span>${esc(r[2])}</span><span>${esc(r[3])}</span></div>`).join('')}</div>
+      <p class="ort-n">Türkçe okunuş sütununda: ʿ = ayın sesi, ' = hemze (kısa duraklama), kh = hırıltılı h, ğ = gırtlaktan g/ğ, â î û = uzun ünlüler.</p>
+      <h3>Ses kaymaları: Türkçe ile Mısır Arapçası arasındaki düzenli farklar</h3>
+      <p class="ort-n">Bu kuralları bilirsen yeni bir Arapça kelimeyi duyunca Türkçe karşılığını tahmin edebilirsin.</p>
+      <div class="ort-tbl ort-sh">${OR.rules.shift.map(r => `<div><b class="ar">${esc(r[0])}</b><span>${esc(r[1])}</span><span>${esc(r[2])}</span></div>`).join('')}</div></details>`;
+    view.innerHTML = pageHead('🔗 Ortak Kelimeler', 'Türkçede de Mısır Arapçasında da tanıdık gelen kelimeler: iki dilde ortak olanlar, Osmanlı’dan kalanlar, Batı kökenliler ve anlamı farklı olan tuzak kelimeler.') +
+      `<div class="ort-legend">${Object.keys(ORT_TAG).map(k => `<span><i style="background:${ORT_TAG[k]}"></i><b>${k}</b> ${esc(OR.tags[k] || '')}</span>`).join('')}</div>` + rules +
+      `<div class="gsearch" style="max-width:none;margin:14px 0"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="oIn" type="search" placeholder="Türkçe, Arapça veya Franko ara…" value="${esc(qs)}"></div>
+      <div class="chips" style="margin-bottom:10px"><a class="chip${!tag ? ' on' : ''}" href="${href({ tag: '', sec: '' })}">Tümü <span class="n">${W.length}</span></a>${Object.keys(ORT_TAG).map(k => `<a class="chip${tag === k ? ' on' : ''}" href="${href({ tag: k, sec: '' })}"><i class="ort-dot" style="background:${ORT_TAG[k]}"></i>${k} <span class="n">${tc[k] || 0}</span></a>`).join('')}</div>
+      <div class="chips" style="margin-bottom:18px"><a class="chip${!sec ? ' on' : ''}" href="${href({ sec: '' })}">Tüm bölümler</a>${OR.sections.filter(s => s.n <= 13 || s.n === 15).map(s => sc[s.n] ? `<a class="chip${sec === s.n ? ' on' : ''}" href="${href({ sec: s.n })}">${esc(ORT_SHORT[s.n] || s.name)} <span class="n">${sc[s.n]}</span></a>` : '').join('')}<a class="chip${sec === 14 ? ' on' : ''}" href="${href({ sec: 14, tag: '' })}">Örnek cümleler <span class="n">${OR.examples.length}</span></a></div>
+      <div id="oRes" class="grid gauto"></div><div class="more-wrap"><button class="btn ghost" id="oMore" hidden>Daha fazla göster</button></div>`;
+    const card = w => `<article class="card entry fade ort-c" style="--tc:${ORT_TAG[w.tag]}"><div class="top-row"><span class="tag ort-tg"><i class="ort-dot" style="background:${ORT_TAG[w.tag]}"></i>${esc(w.tag)}</span><span class="lv">${esc(ORT_SHORT[w.sec] || '')}</span>${playBtn(w.ar)}</div>
+      <div class="ar">${esc(w.ar)}</div><div class="read-row"><span><small>Okunuş</small> <span class="ok">${esc(w.ok)}</span></span><span><small>Franko</small> <span class="fr">${esc(w.fr)}</span></span></div>
+      <div class="tr">${esc(w.tr)}</div>${w.note ? `<div class="meta">${esc(w.note)}</div>` : ''}</article>`;
+    const exCard = w => `<article class="card entry fade ort-c" style="--tc:#1B3F7A"><div class="top-row"><span class="tag ort-tg"><i class="ort-dot" style="background:#1B3F7A"></i>Örnek cümle</span>${playBtn(w.ar)}</div>
+      <div class="ar">${esc(w.ar)}</div><div class="read-row"><span><small>Okunuş</small> <span class="ok">${esc(w.ok)}</span></span><span><small>Franko</small> <span class="fr">${esc(w.fr)}</span></span></div><div class="tr">${esc(w.tr)}</div></article>`;
+    let list = [], shown = 0;
+    const draw = reset => {
+      if (reset) { $('#oRes').innerHTML = ''; shown = 0; }
+      const part = list.slice(shown, shown + 48);
+      $('#oRes').insertAdjacentHTML('beforeend', part.map(sec === 14 ? exCard : card).join(''));
+      shown += part.length; $('#oMore').hidden = shown >= list.length;
+      if (!list.length) $('#oRes').innerHTML = '<div class="empty" style="grid-column:1/-1"><b>🔎</b>Sonuç bulunamadı.</div>';
+    };
+    const filter = () => {
+      const s = $('#oIn').value.trim(), sa = nA(s), st = nT(s);
+      const src = sec === 14 ? OR.examples : W.filter(w => (!tag || w.tag === tag) && (!sec || w.sec === sec));
+      list = !s ? src : src.filter(w => nT(w.tr).indexOf(st) >= 0 || nA(w.ar).indexOf(sa) >= 0 || nT(w.fr).indexOf(st) >= 0 || nT(w.ok).indexOf(st) >= 0 || nT(w.note || '').indexOf(st) >= 0);
+      draw(true);
+    };
+    let tm; $('#oIn').oninput = () => { clearTimeout(tm); tm = setTimeout(filter, 150); };
+    $('#oMore').onclick = () => draw(false);
+    filter();
   };
 
   // ── Sözlük / Dictionary ──
