@@ -549,3 +549,66 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .av-cam { position: absolute; right: -4px; bottom: -4px; width: 26px; height: 26px; border-radius: 50%; background: var(--card, #fff); box-shadow: 0 2px 8px rgba(0,0,0,.18); display: grid; place-items: center; font-size: 13px; }
 .av-acts { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 14px; }
 .av-acts label.btn { cursor: pointer; }
+
+/* ═══════════════ KURUMSAL TEMA (NSCS): lacivert + turuncu, sade ve profesyonel ═══════════════
+   Gökkuşağı renkleri kaldırıldı; tek vurgu rengi turuncu (#EA580C), yardımcı renk lacivert. Durum renkleri (yeşil/kırmızı) anlamlı kalır. */
+:root {
+  --bg: #F3F5F9; --bg2: #E9EDF4; --surface: #FFFFFF; --surface2: #F8FAFC;
+  --ink: #0E1B33; --ink2: #2A3B58; --muted: #64748B; --line: #DCE3EE;
+  --navy: #0F2A56; --navy2: #1B3F7A;
+  --gold: #EA580C; --gold2: #FB923C; --gold-soft: #FFF1E6;
+  --teal: #2B5C9E; --teal-soft: #E4EDF9;
+  --shadow: 0 1px 2px rgba(15, 42, 86, .06), 0 10px 28px rgba(15, 42, 86, .07);
+  --shadow-lg: 0 24px 56px rgba(15, 42, 86, .16);
+}
+:root[data-theme="dark"], :root:not([data-theme="light"]) { }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) { --bg: #0A1426; --bg2: #0E1B33; --surface: #12203A; --surface2: #172847; --line: #223559; --gold-soft: #2E2013; --teal-soft: #14263F; } }
+:root[data-theme="dark"] { --bg: #0A1426; --bg2: #0E1B33; --surface: #12203A; --surface2: #172847; --line: #223559; --gold-soft: #2E2013; --teal-soft: #14263F; }
+.side { background: linear-gradient(180deg, #0F2A56 0%, #0A1B3A 100%); }
+.nav a { --nc: #FB923C !important; }
+.nav a.on { background: linear-gradient(90deg, rgba(251,146,60,.20), rgba(251,146,60,.04)); box-shadow: inset 3px 0 0 #EA580C; }
+.brand img { box-shadow: none; }
+.brand small { color: #FDBA74; }
+.hero { background: radial-gradient(900px 320px at 100% -10%, rgba(234,88,12,.38), transparent 60%), linear-gradient(125deg, #0A1B3A, #0F2A56 45%, #1B3F7A); background-size: 100% 100%; animation: none; }
+.stat.vivid { --g1: #0F2A56 !important; --g2: #1B3F7A !important; background: linear-gradient(135deg, #0F2A56, #1B3F7A); box-shadow: 0 10px 24px rgba(15, 42, 86, .22); border-bottom: 3px solid #EA580C; }
+.stat.vivid:nth-child(even) { background: linear-gradient(135deg, #1B3F7A, #2B5C9E); }
+.mod.vivid-mod .ic { --mc: #0F2A56 !important; background: linear-gradient(135deg, #0F2A56, #1B3F7A); box-shadow: 0 8px 18px rgba(15, 42, 86, .25); }
+.mod.vivid-mod:hover .ic { background: linear-gradient(135deg, #EA580C, #FB923C); box-shadow: 0 8px 18px rgba(234, 88, 12, .35); }
+.lvl-b, .btn.gold, .pn-b.home { background: linear-gradient(135deg, #EA580C, #FB923C); box-shadow: 0 8px 18px rgba(234, 88, 12, .28); }
+.xpbar i, .prog i { background: linear-gradient(90deg, #EA580C, #FB923C); }
+.xp-pop { background: linear-gradient(135deg, #EA580C, #FB923C); box-shadow: 0 10px 24px rgba(234, 88, 12, .3); }
+.btn.pri { background: linear-gradient(135deg, #0F2A56, #1B3F7A); }
+.icon-btn.play { background: linear-gradient(135deg, #1B3F7A, #2B5C9E); }
+.chip.on { background: linear-gradient(135deg, #0F2A56, #1B3F7A); }
+.fc-b { background: linear-gradient(160deg, #0F2A56, #1B3F7A); }
+.avatar { background: linear-gradient(135deg, #1B3F7A, #2B5C9E); }
+.avatar.adm { background: linear-gradient(135deg, #EA580C, #FB923C); }
+.ann.info { background: linear-gradient(135deg, #1B3F7A, #2B5C9E); }
+.ann.ok { background: linear-gradient(135deg, #15803D, #22A55A); }
+.ann.warn { background: linear-gradient(135deg, #EA580C, #FB923C); }
+.totop { background: linear-gradient(135deg, #EA580C, #FB923C); box-shadow: 0 10px 24px rgba(234, 88, 12, .35); }
+.foot { background: #0A1B3A; }
+.foot a:hover { color: #FDBA74; }
+/* hareket: sade ve hızlı */
+.card, .mod, .stat, .fc, .btn, .chip { transition: transform .22s ease, box-shadow .25s ease, border-color .2s ease, background-color .2s ease; }
+.card:hover, .mod:hover { transform: translateY(-3px); box-shadow: var(--shadow-lg); border-color: color-mix(in srgb, #EA580C 35%, var(--line)); }
+.btn:hover { transform: translateY(-1px); }
+.btn:active { transform: translateY(0) scale(.98); }
+.top { backdrop-filter: blur(14px) saturate(1.3); -webkit-backdrop-filter: blur(14px) saturate(1.3); }
+#view > * { animation: kurumsalIn .45s ease both; }
+@keyframes kurumsalIn { from { opacity: 0; transform: translateY(10px); } to { opacity: 1; transform: none; } }
+:focus-visible { outline: 2px solid #EA580C; outline-offset: 2px; }
+@media (prefers-reduced-motion: reduce) { #view > *, .card, .mod { animation: none !important; transition: none !important; } }
+/* Marka alanı: büyük logo üstte, ad altta */
+.side .brand { flex-direction: column; align-items: center; text-align: center; gap: 10px; padding: 6px 6px 18px; }
+.side .brand img { width: 132px; height: 132px; filter: drop-shadow(0 6px 16px rgba(0,0,0,.35)); }
+.side .brand b { font-size: 19px; }
+.side .brand small { font-size: 10px; margin-top: 2px; }
+@media (max-width: 900px) { .side .brand img { width: 96px; height: 96px; } }
+.quote { background: linear-gradient(125deg, #1B3F7A, #0F2A56 70%) !important; border-left: 4px solid #EA580C; box-shadow: 0 10px 26px rgba(15,42,86,.22); }
+.quote .pill, .quote .tag { background: rgba(255,255,255,.14); }
+.q-side .icon-btn.q-play { color: #EA580C; }
+.q-side .icon-btn.q-play.playing { color: #0F2A56; }
+.bnav a.on svg { color: #EA580C; }
+.pn-b:hover:not(:disabled) { border-color: #EA580C; color: #EA580C; }
+:root { --v1: #1B3F7A; --v2: #EA580C; --v3: #FB923C; --v5: #2B5C9E; --v6: #E11D48; }
