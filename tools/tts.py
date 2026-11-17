@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Mısır lehçesi seslendirme (ar-EG Salma) — GitHub Actions içinde çalışır (.github/workflows/tts.yml).
+"""Mısır lehçesi seslendirme (ar-EG Shakir, erkek sesi) — GitHub Actions içinde çalışır (.github/workflows/tts.yml).
 
 Portaldaki tüm Arapça metinleri (sözlük, örnek cümleler, konuşma rehberi, diyaloglar, gramer, fiiller, alfabe)
 toplar; her biri için audio/<anahtar>.mp3 üretir. Yalnızca eksik olanlar seslendirilir. audio/index.json, mevcut
@@ -11,7 +11,7 @@ import asyncio, json, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 AUDIO = os.path.join(ROOT, 'audio')
-VOICE = os.environ.get('TTS_VOICE', 'ar-EG-SalmaNeural')
+VOICE = os.environ.get('TTS_VOICE', 'ar-EG-ShakirNeural')
 RATE = os.environ.get('TTS_RATE', '-12%')
 LIMIT = int(os.environ.get('TTS_LIMIT', '0') or 0)
 CONC = int(os.environ.get('TTS_CONCURRENCY', '6'))
@@ -46,6 +46,13 @@ def collect():
         add(e['ar'])
         if e.get('ex'):
             add(e['ex'].get('ar'))
+    # Ortak Kelimeler sayfası (data/ortak.js)
+    try:
+        o = load_js(os.path.join(ROOT, 'data', 'ortak.js'), 'MASRI_ORTAK')
+        for w in o.get('words', []) + o.get('examples', []):
+            add(w.get('ar'))
+    except Exception:
+        pass
     for q in c.get('quotes', []):
         add(q.get('ar'))
     for L in c.get('alphabet', {}).get('letters', []):

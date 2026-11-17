@@ -1,4 +1,4 @@
-# Mısır lehçesi seslendirme: data/ değiştiğinde (veya elle başlatıldığında) eksik sesleri ar-EG Salma sesiyle üretir
+# Mısır lehçesi seslendirme: data/ değiştiğinde (veya elle başlatıldığında) eksik sesleri ar-EG Shakir (erkek) sesiyle üretir
 # ve audio/ klasörüne işler. Yalnız yeni metinler seslendirilir.
 name: Mısır lehçesi seslendirme
 
@@ -30,6 +30,8 @@ jobs:
         run: pip install edge-tts
       - name: Sesleri üret
         run: python tools/tts.py
+        env:
+          TTS_CONCURRENCY: '8'
       - name: Sesleri depoya işle
         run: |
           git config user.name "github-actions[bot]"
