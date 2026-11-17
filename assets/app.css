@@ -56,7 +56,7 @@ svg.i { width: 20px; height: 20px; flex-shrink: 0; stroke: currentColor; fill: n
 .shell { display: grid; grid-template-columns: var(--side) 1fr; min-height: 100vh; }
 .side { position: sticky; top: 0; height: 100vh; overflow-y: auto; background: linear-gradient(180deg, var(--navy) 0%, #0D1E38 100%); color: #DCE5F3; padding: 22px 16px; display: flex; flex-direction: column; gap: 6px; scrollbar-width: thin; }
 .brand { display: flex; align-items: center; gap: 12px; text-decoration: none; color: #fff; padding: 2px 6px 18px; border-bottom: 1px solid rgba(255,255,255,.08); margin-bottom: 10px; }
-.brand img { width: 46px; height: 46px; border-radius: 50%; background: #fff; box-shadow: 0 0 0 3px rgba(233,196,106,.35); }
+.brand img { width: 54px; height: 54px; object-fit: contain; }
 .brand b { display: block; font-size: 17px; letter-spacing: -.01em; }
 .brand small { display: block; font-size: 10.5px; letter-spacing: .14em; text-transform: uppercase; color: var(--gold2); font-weight: 700; }
 .nav-h { font-size: 10.5px; letter-spacing: .16em; text-transform: uppercase; color: #7F93B5; font-weight: 800; margin: 14px 10px 6px; }
