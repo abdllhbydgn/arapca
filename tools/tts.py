@@ -12,7 +12,7 @@ import asyncio, json, os, re, sys
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), '..')
 AUDIO = os.path.join(ROOT, 'audio')
 VOICE = os.environ.get('TTS_VOICE', 'ar-EG-ShakirNeural')
-RATE = os.environ.get('TTS_RATE', '-12%')
+RATE = os.environ.get('TTS_RATE', '+0%')
 LIMIT = int(os.environ.get('TTS_LIMIT', '0') or 0)
 CONC = int(os.environ.get('TTS_CONCURRENCY', '6'))
 AR = re.compile('[؀-ۿ]')
