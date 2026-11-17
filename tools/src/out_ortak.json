@@ -1,0 +1,4957 @@
+{
+ "sections": [
+  {
+   "n": 1,
+   "name": "Selamlaşma, nezaket ve ağızdan hiç düşmeyen kalıplar"
+  },
+  {
+   "n": 2,
+   "name": "Din ve kültür dünyasından ortak kelimeler"
+  },
+  {
+   "n": 3,
+   "name": "İnsanlar, akrabalık, meslekler ve unvanlar"
+  },
+  {
+   "n": 4,
+   "name": "Duygular, karakter ve soyut kavramlar"
+  },
+  {
+   "n": 5,
+   "name": "Zaman, takvim ve mevsimler"
+  },
+  {
+   "n": 6,
+   "name": "Doğa, yer ve mekân"
+  },
+  {
+   "n": 7,
+   "name": "Ev, eşya ve mutfak gereçleri"
+  },
+  {
+   "n": 8,
+   "name": "Yiyecek, içecek, baharat, meyve ve sebze"
+  },
+  {
+   "n": 9,
+   "name": "Alışveriş, iş, para ve hukuk"
+  },
+  {
+   "n": 10,
+   "name": "Devlet, ordu ve Osmanlı döneminden kalan unvanlar"
+  },
+  {
+   "n": 11,
+   "name": "Osmanlıdan gelen hitap, unvan ve günlük kelimeler"
+  },
+  {
+   "n": 12,
+   "name": "Batı kökenli, her iki dilde ortak kelimeler"
+  },
+  {
+   "n": 13,
+   "name": "Dikkat: benzer ama anlamı farklı olan kelimeler"
+  },
+  {
+   "n": 14,
+   "name": "Günlük hayatta kullanabileceğin örnek cümleler"
+  },
+  {
+   "n": 15,
+   "name": "Ek kelimeler (Benzer Kelimeler Sözlüğü)"
+  }
+ ],
+ "words": [
+  {
+   "sec": 1,
+   "tr": "Merhaba",
+   "ar": "مرحبا",
+   "fr": "mar7aba",
+   "ok": "marhaba",
+   "note": "Merhaba. Mısır'da günlük selamlaşmada \"ahlan\" daha yaygındır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Ehlen",
+   "ar": "أهلا",
+   "fr": "ahlan",
+   "ok": "ahlan",
+   "note": "Merhaba, hoş geldin. Türkçedeki \"ehlen ve sehlen\" ile aynı kelime.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Ehlen ve sehlen",
+   "ar": "أهلا وسهلا",
+   "fr": "ahlan wa sahlan",
+   "ok": "ahlan wa sahlan",
+   "note": "Hoş geldiniz. Türkçede de aynen kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Selam",
+   "ar": "سلام",
+   "fr": "salaam",
+   "ok": "salâm",
+   "note": "Selam, esenlik, barış.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Selamün aleyküm",
+   "ar": "السلام عليكم",
+   "fr": "es-salaamu 3alaykom",
+   "ok": "es-salâmu ʿalaykom",
+   "note": "Selam size. Türkçedeki \"selamün aleyküm\" ile aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Aleykümselam",
+   "ar": "السلام وعليكم",
+   "fr": "wa 3alaykom es-salaam",
+   "ok": "wa ʿalaykom es-salâm",
+   "note": "Size de selam (cevap).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Günaydın (sabah hayrı)",
+   "ar": "صباح الخير",
+   "fr": "sabaah el-5eir",
+   "ok": "sabâh el-kheyr",
+   "note": "Günaydın. \"Sabah\" ve \"hayır\" Türkçede de var.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Günaydın (cevap)",
+   "ar": "صباح النور",
+   "fr": "sabaah en-noor",
+   "ok": "sabâh en-nûr",
+   "note": "\"Sabahın nuru\" demek; günaydına cevap. \"Nur\" Türkçede de var.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Hayır / iyilik",
+   "ar": "خير",
+   "fr": "5eir",
+   "ok": "kheyr",
+   "note": "Mısır'da \"iyi, sorun yok\". Türkçe \"hayırlı olsun\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Şükür / teşekkür",
+   "ar": "شكرا",
+   "fr": "shokran",
+   "ok": "şokran",
+   "note": "Teşekkürler. Türkçe \"şükür\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Af / rica ederim",
+   "ar": "عفوا",
+   "fr": "3afwan",
+   "ok": "ʿafwan",
+   "note": "Rica ederim; pardon. Türkçe \"af\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Rica",
+   "ar": "رجاء",
+   "fr": "ragaa'",
+   "ok": "ragâ'",
+   "note": "Rica; yazılı dilde \"lütfen\" yerine de kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Lütuf / fazl (lütfen)",
+   "ar": "من فضلك",
+   "fr": "min fadlak",
+   "ok": "min fadlak",
+   "note": "Lütfen. \"Fazl, fazilet\" kökünden. Konuşmada genelde \"men fadlak\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Mübarek / tebrikler",
+   "ar": "مبروك",
+   "fr": "mabrook",
+   "ok": "mabrûk",
+   "note": "Tebrikler, hayırlı olsun. \"Mübarek\" ve \"bereket\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Elhamdülillah",
+   "ar": "الحمد لله",
+   "fr": "el-7amdu lillaah",
+   "ok": "el-hamdu lillâh",
+   "note": "Allah'a şükürler olsun. \"Nasılsın?\" cevabında çok kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "İnşallah",
+   "ar": "إن شاء الله",
+   "fr": "en shaa' allaah",
+   "ok": "en şâ' allâh",
+   "note": "Allah izin verirse. Mısır'da \"belki / bakalım\" gibi de kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Maşallah",
+   "ar": "ما شاء الله",
+   "fr": "maa shaa' allaah",
+   "ok": "mâ şâ' allâh",
+   "note": "Ne güzel, nazar değmesin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Bismillah",
+   "ar": "بسم الله",
+   "fr": "bismillaah",
+   "ok": "bismillâh",
+   "note": "Başlarken ve yemeğe başlarken söylenir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Sübhanallah",
+   "ar": "سبحان الله",
+   "fr": "sob7aan allaah",
+   "ok": "sobhân allâh",
+   "note": "Hayret ve şaşkınlık ifadesi olarak da kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Vallahi",
+   "ar": "والله",
+   "fr": "wallaahi",
+   "ok": "wallâhi",
+   "note": "Vallahi, yemin ederim.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Hadi / yallah",
+   "ar": "يلا",
+   "fr": "yalla",
+   "ok": "yalla",
+   "note": "Hadi, haydi, gidelim. Türkçede \"yallah\" ile aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Tamam",
+   "ar": "تمام",
+   "fr": "tamaam",
+   "ok": "tamâm",
+   "note": "Tamam, iyi, mükemmel. Türkçede de aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Halas / bitti",
+   "ar": "خلاص",
+   "fr": "5alaas",
+   "ok": "khalâs",
+   "note": "Bitti, yeter, tamam. Türkçe \"halas (kurtuluş)\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Hazır / peki",
+   "ar": "حاضر",
+   "fr": "7aader",
+   "ok": "hâder",
+   "note": "\"Peki, başüstüne\". Hem \"hazır\" hem \"emredersiniz\" anlamında.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Lazım",
+   "ar": "لازم",
+   "fr": "laazem",
+   "ok": "lâzem",
+   "note": "Lazım, gerek, mecbur. Türkçede de aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Tabii",
+   "ar": "طبعا",
+   "fr": "tab3an",
+   "ok": "tabʿan",
+   "note": "Tabii ki, elbette.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Galiba",
+   "ar": "غالبا",
+   "fr": "ghaaleban",
+   "ok": "ğâleban",
+   "note": "Muhtemelen, çoğunlukla. Türkçe \"galiba\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Fiilen / gerçekten",
+   "ar": "فعلا",
+   "fr": "fe3lan",
+   "ok": "feʿlan",
+   "note": "Gerçekten, hakikaten. Türkçe \"fiilen\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Aslında / zaten",
+   "ar": "أصلا",
+   "fr": "aslan",
+   "ok": "aslan",
+   "note": "Zaten, hiç. Dikkat: Türkçe \"aslan\" (hayvan) bambaşka.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 1,
+   "tr": "Daima",
+   "ar": "دايما",
+   "fr": "daayman",
+   "ok": "dâyman",
+   "note": "Daima, hep. Türkçe \"daima\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Ebediyen / asla",
+   "ar": "أبدا",
+   "fr": "abadan",
+   "ok": "abadan",
+   "note": "Asla (olumsuzla), hiçbir zaman. Türkçe \"ebediyen\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Hâlen / hemen",
+   "ar": "حالا",
+   "fr": "7aalan",
+   "ok": "hâlan",
+   "note": "Hemen, derhal. Türkçedeki \"hâlen\" (şu anda) ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Fevren",
+   "ar": "فورا",
+   "fr": "fawran",
+   "ok": "fawran",
+   "note": "Hemen, derhal. Türkçe \"fevren\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Takriben",
+   "ar": "تقريبا",
+   "fr": "ta2reeban",
+   "ok": "ta'rîban",
+   "note": "Yaklaşık olarak. Türkçe \"takriben\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Meselâ",
+   "ar": "مثلا",
+   "fr": "masalan",
+   "ok": "masalan",
+   "note": "Örneğin, mesela.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Hususen",
+   "ar": "خصوصا",
+   "fr": "5osoosan",
+   "ok": "khosûsan",
+   "note": "Özellikle. Türkçe \"hususen\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Umumen",
+   "ar": "عموما",
+   "fr": "3omooman",
+   "ok": "ʿomûman",
+   "note": "Genel olarak. Türkçe \"umumen\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Nihayet / sonunda",
+   "ar": "أخيرا",
+   "fr": "a5eeran",
+   "ok": "akhîran",
+   "note": "Sonunda. Türkçedeki \"ahiren\" (kısa süre önce) ile karıştırma.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 1,
+   "tr": "Mümkün",
+   "ar": "ممكن",
+   "fr": "momken",
+   "ok": "momken",
+   "note": "Mümkün mü? / olur mu? Mısır'da rica için çok kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "İmkânsız / müstahil",
+   "ar": "مستحيل",
+   "fr": "mostaheel",
+   "ok": "mostahîl",
+   "note": "İmkânsız. Türkçe \"müstahil\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Muhtemel / ihtimal",
+   "ar": "احتمال",
+   "fr": "e7temaal",
+   "ok": "ehtemâl",
+   "note": "İhtimal, olasılık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Mühim / önemli",
+   "ar": "مهم",
+   "fr": "mohem",
+   "ok": "mohem",
+   "note": "Önemli. Türkçe \"mühim\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Memnun",
+   "ar": "ممنون",
+   "fr": "mamnoon",
+   "ok": "mamnûn",
+   "note": "Memnun, minnettar; teşekkür yerine de kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Mecbur",
+   "ar": "مجبور",
+   "fr": "magboor",
+   "ok": "magbûr",
+   "note": "Zorunda, mecbur.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Mümkün değil / memnu",
+   "ar": "ممنوع",
+   "fr": "mamnoo3",
+   "ok": "mamnûʿ",
+   "note": "Yasak. Türkçe \"memnu\" (yasak) ile aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Meşhur",
+   "ar": "مشهور",
+   "fr": "mashhoor",
+   "ok": "maşhûr",
+   "note": "Ünlü, meşhur.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 1,
+   "tr": "Müşkül / sorun",
+   "ar": "مشكلة",
+   "fr": "moshkela",
+   "ok": "moşkela",
+   "note": "Sorun, problem. Türkçe \"müşkül\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Allah",
+   "ar": "الله",
+   "fr": "allaah",
+   "ok": "allâh",
+   "note": "Allah.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Din",
+   "ar": "دين",
+   "fr": "deen",
+   "ok": "dîn",
+   "note": "Din. (Başka bir anlamı: borç, \"deyn\".)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "İman",
+   "ar": "إيمان",
+   "fr": "eemaan",
+   "ok": "îmân",
+   "note": "İman, inanç.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mümin",
+   "ar": "مؤمن",
+   "fr": "mo'men",
+   "ok": "mo'men",
+   "note": "İnanan kişi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kâfir",
+   "ar": "كافر",
+   "fr": "kaafer",
+   "ok": "kâfer",
+   "note": "İnkâr eden, kâfir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Müslüman",
+   "ar": "مسلم",
+   "fr": "moslem",
+   "ok": "moslem",
+   "note": "Müslüman.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Şeytan",
+   "ar": "شيطان",
+   "fr": "shaytaan",
+   "ok": "şaytân",
+   "note": "Şeytan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Melek",
+   "ar": "ملاك",
+   "fr": "malaak",
+   "ok": "malâk",
+   "note": "Melek. (Kral: \"malek\" – Türkçe \"melik\".)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Cin",
+   "ar": "جن",
+   "fr": "ginn",
+   "ok": "ginn",
+   "note": "Cin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Sihir",
+   "ar": "سحر",
+   "fr": "se7r",
+   "ok": "sehr",
+   "note": "Büyü, sihir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kur'an",
+   "ar": "القرآن",
+   "fr": "el-2or'aan",
+   "ok": "el-'or'ân",
+   "note": "Kur'an.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Sure",
+   "ar": "سورة",
+   "fr": "soora",
+   "ok": "sûra",
+   "note": "Kur'an suresi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Ayet",
+   "ar": "آية",
+   "fr": "aaya",
+   "ok": "âya",
+   "note": "Ayet; işaret, delil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Salât (namaz)",
+   "ar": "صلاة",
+   "fr": "salaah",
+   "ok": "salâh",
+   "note": "Namaz. Türkçe \"salât, salavat\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Oruç / sıyâm",
+   "ar": "صيام",
+   "fr": "seyaam",
+   "ok": "seyâm",
+   "note": "Oruç. Türkçedeki \"oruç\" Farsça; \"sıyâm\" eski dilde kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Zekât",
+   "ar": "زكاة",
+   "fr": "zakaah",
+   "ok": "zakâh",
+   "note": "Zekât.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Hac",
+   "ar": "حج",
+   "fr": "7agg",
+   "ok": "hagg",
+   "note": "Hac. Hacca gidene \"hacı\" (7aagg).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Umre",
+   "ar": "عمرة",
+   "fr": "3omra",
+   "ok": "ʿomra",
+   "note": "Umre.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Ramazan",
+   "ar": "رمضان",
+   "fr": "ramadaan",
+   "ok": "ramadân",
+   "note": "Ramazan ayı. Mısır'da çok kutlanan, fenerli bir aydır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Îd / bayram",
+   "ar": "عيد",
+   "fr": "3eed",
+   "ok": "ʿîd",
+   "note": "Bayram. \"Îd mübarek\" gibi kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Cami",
+   "ar": "جامع",
+   "fr": "gaame3",
+   "ok": "gâmeʿ",
+   "note": "Cami. Mısır'da \"masgid\" da denir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mescit",
+   "ar": "مسجد",
+   "fr": "masgid",
+   "ok": "masgid",
+   "note": "Mescit, cami.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Minare",
+   "ar": "منارة",
+   "fr": "manaara",
+   "ok": "manâra",
+   "note": "Minare. Aynı kökten \"fener, deniz feneri\" de olur.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mihrap",
+   "ar": "محراب",
+   "fr": "me7raab",
+   "ok": "mehrâb",
+   "note": "Mihrap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Minber",
+   "ar": "منبر",
+   "fr": "menbar",
+   "ok": "menbar",
+   "note": "Minber.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kıble",
+   "ar": "قبلة",
+   "fr": "2ebla",
+   "ok": "'ebla",
+   "note": "Kıble.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Şeyh",
+   "ar": "شيخ",
+   "fr": "sheikh",
+   "ok": "şeykh",
+   "note": "Şeyh; saygın yaşlı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "İmam",
+   "ar": "إمام",
+   "fr": "emaam",
+   "ok": "emâm",
+   "note": "İmam.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Müftü",
+   "ar": "مفتي",
+   "fr": "mofty",
+   "ok": "mofty",
+   "note": "Müftü.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kadı",
+   "ar": "قاضي",
+   "fr": "2aady",
+   "ok": "'âdy",
+   "note": "Yargıç, kadı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Sadaka",
+   "ar": "صدقة",
+   "fr": "sada2a",
+   "ok": "sada'a",
+   "note": "Sadaka, hayır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Hasene",
+   "ar": "حسنة",
+   "fr": "7asana",
+   "ok": "hasana",
+   "note": "İyilik, sevap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Seyyie",
+   "ar": "سيئة",
+   "fr": "sayyi'a",
+   "ok": "sayyi'a",
+   "note": "Kötülük, günah.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Zenb / günah",
+   "ar": "ذنب",
+   "fr": "zanb",
+   "ok": "zanb",
+   "note": "Günah, suç. Türkçedeki \"zenb\" eski dildedir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Sevap",
+   "ar": "ثواب",
+   "fr": "sawaab",
+   "ok": "sawâb",
+   "note": "Sevap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Cennet",
+   "ar": "جنة",
+   "fr": "ganna",
+   "ok": "ganna",
+   "note": "Cennet; bahçe.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Cehennem",
+   "ar": "جهنم",
+   "fr": "gahannam",
+   "ok": "gahannam",
+   "note": "Cehennem.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Ahiret",
+   "ar": "آخرة",
+   "fr": "aakhra",
+   "ok": "âkhra",
+   "note": "Ahiret, öteki dünya.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mevt / ölüm",
+   "ar": "موت",
+   "fr": "moot",
+   "ok": "mût",
+   "note": "Ölüm. Türkçe \"mevt\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Rahmet / merhamet",
+   "ar": "رحمة",
+   "fr": "ra7ma",
+   "ok": "rahma",
+   "note": "Merhamet, rahmet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Merhum",
+   "ar": "مرحوم",
+   "fr": "mar7oom",
+   "ok": "marhûm",
+   "note": "Rahmetli.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Şehit",
+   "ar": "شهيد",
+   "fr": "shaheed",
+   "ok": "şahîd",
+   "note": "Şehit.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Ruh",
+   "ar": "روح",
+   "fr": "rooh",
+   "ok": "rûh",
+   "note": "Ruh. Dikkat: Mısır'da emir kipinde \"rooh\" = \"git, eve git!\".",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 2,
+   "tr": "Nur",
+   "ar": "نور",
+   "fr": "noor",
+   "ok": "nûr",
+   "note": "Işık, nur.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Bereket",
+   "ar": "بركة",
+   "fr": "baraka",
+   "ok": "baraka",
+   "note": "Bereket, bolluk.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Nasip",
+   "ar": "نصيب",
+   "fr": "naseeb",
+   "ok": "nasîb",
+   "note": "Pay, nasip, kısmet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kader",
+   "ar": "قدر",
+   "fr": "2adar",
+   "ok": "'adar",
+   "note": "Kader.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Kısmet",
+   "ar": "قسمة",
+   "fr": "2esma",
+   "ok": "'esma",
+   "note": "Pay, bölüşüm, nasip. Türkçe \"kısmet\" ve \"kısım\" ile ilgili.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Hikmet",
+   "ar": "حكمة",
+   "fr": "7ekma",
+   "ok": "hekma",
+   "note": "Bilgelik, hikmet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Ömür",
+   "ar": "عمر",
+   "fr": "3omr",
+   "ok": "ʿomr",
+   "note": "Ömür, yaş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Âlem",
+   "ar": "عالم",
+   "fr": "3aalam",
+   "ok": "ʿâlam",
+   "note": "Dünya, âlem.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Dünya",
+   "ar": "دنيا",
+   "fr": "donya",
+   "ok": "donya",
+   "note": "Dünya, hayat.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Cemaat",
+   "ar": "جماعة",
+   "fr": "gama3a",
+   "ok": "gamaʿa",
+   "note": "Topluluk, cemaat.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Taat",
+   "ar": "طاعة",
+   "fr": "ta3a",
+   "ok": "taʿa",
+   "note": "İtaat, boyun eğme.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Takva",
+   "ar": "تقوى",
+   "fr": "ta2wa",
+   "ok": "ta'wa",
+   "note": "Takva, Allah korkusu.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Tövbe",
+   "ar": "توبة",
+   "fr": "tawba",
+   "ok": "tawba",
+   "note": "Tövbe.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Dua",
+   "ar": "دعاء",
+   "fr": "do3aa'",
+   "ok": "doʿâ'",
+   "note": "Dua.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Hamd",
+   "ar": "حمد",
+   "fr": "7amd",
+   "ok": "hamd",
+   "note": "Övgü, hamd.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Âmin",
+   "ar": "آمين",
+   "fr": "aameen",
+   "ok": "âmîn",
+   "note": "Âmin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Helal",
+   "ar": "حلال",
+   "fr": "7alaal",
+   "ok": "halâl",
+   "note": "Helal.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Haram",
+   "ar": "حرام",
+   "fr": "7araam",
+   "ok": "harâm",
+   "note": "Haram, yasak. Mısır'da \"ayıp, yazık\" anlamında da kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mukaddes",
+   "ar": "مقدس",
+   "fr": "mo2addas",
+   "ok": "mo'addas",
+   "note": "Kutsal, mukaddes.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 2,
+   "tr": "Mübarek",
+   "ar": "مبارك",
+   "fr": "mobaarek",
+   "ok": "mobârek",
+   "note": "Kutlu, mübarek. Mısır'da yaygın bir soyadı ve isimdir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "İnsan",
+   "ar": "إنسان",
+   "fr": "ensaan",
+   "ok": "ensân",
+   "note": "İnsan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Akraba",
+   "ar": "أقارب",
+   "fr": "a2aareb",
+   "ok": "a'âreb",
+   "note": "Akrabalar. Türkçe \"akraba\" Arapça çoğuldan gelir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Ehil / aile",
+   "ar": "أهل",
+   "fr": "ahl",
+   "ok": "ahl",
+   "note": "Aile, ahali. \"Ehil\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Ahali",
+   "ar": "الأهالي",
+   "fr": "el-ahaaly",
+   "ok": "el-ahâly",
+   "note": "Halk, ahali.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Evlât",
+   "ar": "أولاد",
+   "fr": "awlaad",
+   "ok": "awlâd",
+   "note": "Çocuklar. Türkçe \"evlat\" (çoğul \"evlad\").",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Veled",
+   "ar": "ولد",
+   "fr": "walad",
+   "ok": "walad",
+   "note": "Mısır'da oğlan çocuk, çocuk.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Vâlid (baba)",
+   "ar": "والد",
+   "fr": "waaled",
+   "ok": "wâled",
+   "note": "Baba (resmî dilde).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Vâlide (anne)",
+   "ar": "والدة",
+   "fr": "waalda",
+   "ok": "wâlda",
+   "note": "Anne (resmî dilde). \"Valide sultan\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Dost / sadık",
+   "ar": "صديق",
+   "fr": "sadeeq",
+   "ok": "sadîq",
+   "note": "Arkadaş. Türkçe \"sadık\" ve \"sadakat\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Habib",
+   "ar": "حبيب",
+   "fr": "7abeeb",
+   "ok": "habîb",
+   "note": "Sevgili, dost. \"Habibi\" = canım.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Ahbap",
+   "ar": "أحباب",
+   "fr": "a7baab",
+   "ok": "ahbâb",
+   "note": "Sevilenler, dostlar. Türkçe \"ahbap\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Refik",
+   "ar": "رفيق",
+   "fr": "rafeeq",
+   "ok": "rafîq",
+   "note": "Yoldaş, arkadaş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Civar",
+   "ar": "جوار",
+   "fr": "gawaar",
+   "ok": "gawâr",
+   "note": "Yan, yakınında. Türkçe \"civar\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Müdür",
+   "ar": "مدير",
+   "fr": "modeer",
+   "ok": "modîr",
+   "note": "Müdür.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Memur / vazifeli",
+   "ar": "موظف",
+   "fr": "mowazzaf",
+   "ok": "mowazzaf",
+   "note": "Memur, çalışan. Türkçe \"vazife\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Mesul",
+   "ar": "مسؤول",
+   "fr": "mas'ool",
+   "ok": "mas'ûl",
+   "note": "Sorumlu, yetkili. Türkçe \"mesul\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Amele",
+   "ar": "عامل",
+   "fr": "3aamel",
+   "ok": "ʿâmel",
+   "note": "İşçi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Tâcir",
+   "ar": "تاجر",
+   "fr": "taager",
+   "ok": "tâger",
+   "note": "Tüccar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Şerik / ortak",
+   "ar": "شريك",
+   "fr": "shareek",
+   "ok": "şarîk",
+   "note": "Ortak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Müşteri",
+   "ar": "مشتري",
+   "fr": "moshtary",
+   "ok": "moştary",
+   "note": "Alıcı, müşteri. (Satıcı: \"baayi3\" = bayi.)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Bayi",
+   "ar": "بايع",
+   "fr": "baaye3",
+   "ok": "bâyeʿ",
+   "note": "Satıcı. Türkçe \"bayi\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Bakkal",
+   "ar": "بقال",
+   "fr": "ba22aal",
+   "ok": "ba''âl",
+   "note": "Bakkal.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Kasap",
+   "ar": "قصاب",
+   "fr": "2assaab",
+   "ok": "'assâb",
+   "note": "Kasap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Fırıncı / fırın",
+   "ar": "فرن",
+   "fr": "forn",
+   "ok": "forn",
+   "note": "Fırın.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Attar",
+   "ar": "عطار",
+   "fr": "3attaar",
+   "ok": "ʿattâr",
+   "note": "Baharatçı, attar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Hamal",
+   "ar": "حمال",
+   "fr": "7ammaal",
+   "ok": "hammâl",
+   "note": "Hamal, yük taşıyan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Müteahhit",
+   "ar": "متعهد",
+   "fr": "mota3ahhed",
+   "ok": "motaʿahhed",
+   "note": "Müteahhit, taahhüt eden.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Mühendis",
+   "ar": "مهندس",
+   "fr": "mohandes",
+   "ok": "mohandes",
+   "note": "Mühendis.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Mimar",
+   "ar": "معماري",
+   "fr": "me3maary",
+   "ok": "meʿmâry",
+   "note": "Mimar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Muhasip",
+   "ar": "محاسب",
+   "fr": "mo7aaseb",
+   "ok": "mohâseb",
+   "note": "Muhasebeci.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Müderris",
+   "ar": "مدرس",
+   "fr": "modarres",
+   "ok": "modarres",
+   "note": "Mısır'da öğretmen. Türkçedeki eski anlamı medrese hocası.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Talebe",
+   "ar": "طالب",
+   "fr": "taaleb",
+   "ok": "tâleb",
+   "note": "Öğrenci. Türkçe \"talebe, talip\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Tilmiz",
+   "ar": "تلميذ",
+   "fr": "telmeez",
+   "ok": "telmîz",
+   "note": "İlkokul öğrencisi, talebe.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Kâtip",
+   "ar": "كاتب",
+   "fr": "kaateb",
+   "ok": "kâteb",
+   "note": "Yazar, kâtip.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Şair",
+   "ar": "شاعر",
+   "fr": "shaa3er",
+   "ok": "şâʿer",
+   "note": "Şair.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Vezir",
+   "ar": "وزير",
+   "fr": "wazeer",
+   "ok": "wazîr",
+   "note": "Bakan, vezir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Sultan",
+   "ar": "سلطان",
+   "fr": "soltaan",
+   "ok": "soltân",
+   "note": "Sultan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Halife",
+   "ar": "خليفة",
+   "fr": "5aleefa",
+   "ok": "khalîfa",
+   "note": "Halife.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Emir",
+   "ar": "أمير",
+   "fr": "ameer",
+   "ok": "amîr",
+   "note": "Prens, emir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Melik",
+   "ar": "ملك",
+   "fr": "malek",
+   "ok": "malek",
+   "note": "Kral.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Reis",
+   "ar": "رئيس",
+   "fr": "ra'ees",
+   "ok": "ra'îs",
+   "note": "Başkan, reis.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Zabıt / subay",
+   "ar": "ضابط",
+   "fr": "daabet",
+   "ok": "dâbet",
+   "note": "Subay. Türkçe \"zabit, zabıta\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Asker",
+   "ar": "عسكري",
+   "fr": "3askary",
+   "ok": "ʿaskary",
+   "note": "Asker, polis eri.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Nefer",
+   "ar": "نفر",
+   "fr": "nafar",
+   "ok": "nafar",
+   "note": "Kişi, er. Türkçe \"nefer\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Hakem",
+   "ar": "حكم",
+   "fr": "7akam",
+   "ok": "hakam",
+   "note": "Hakem, yargıç.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Şahit",
+   "ar": "شاهد",
+   "fr": "shaahed",
+   "ok": "şâhed",
+   "note": "Şahit, tanık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Fakir",
+   "ar": "فقير",
+   "fr": "fa2eer",
+   "ok": "fa'îr",
+   "note": "Fakir, yoksul.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Gani / zengin",
+   "ar": "غني",
+   "fr": "ghany",
+   "ok": "ğany",
+   "note": "Zengin. Türkçe \"gani\" ve \"ganimet\" ile aynı kök.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Cahil",
+   "ar": "جاهل",
+   "fr": "gaahel",
+   "ok": "gâhel",
+   "note": "Cahil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Mecnun",
+   "ar": "مجنون",
+   "fr": "magnoon",
+   "ok": "magnûn",
+   "note": "Deli. Türkçe \"Leyla ile Mecnun\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Âşık",
+   "ar": "عاشق",
+   "fr": "3aashe2",
+   "ok": "ʿâşe'",
+   "note": "Âşık, aşık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Hain",
+   "ar": "خاين",
+   "fr": "5aayen",
+   "ok": "khâyen",
+   "note": "Hain.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Garip",
+   "ar": "غريب",
+   "fr": "ghareeb",
+   "ok": "ğarîb",
+   "note": "Yabancı, tuhaf, garip.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Zalim",
+   "ar": "ظالم",
+   "fr": "zaalem",
+   "ok": "zâlem",
+   "note": "Zalim.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Mazlum",
+   "ar": "مظلوم",
+   "fr": "mazloom",
+   "ok": "mazlûm",
+   "note": "Haksızlığa uğramış.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 3,
+   "tr": "Hakim",
+   "ar": "حاكم",
+   "fr": "7aakem",
+   "ok": "hâkem",
+   "note": "Yönetici, hâkim.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Aşk",
+   "ar": "عشق",
+   "fr": "3esh2",
+   "ok": "ʿeş'",
+   "note": "Aşk, tutkulu sevgi. Gündelik dilde \"7ob\" kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hüzün",
+   "ar": "حزن",
+   "fr": "7ozn",
+   "ok": "hozn",
+   "note": "Hüzün, keder.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hazin",
+   "ar": "حزين",
+   "fr": "7azeen",
+   "ok": "hazîn",
+   "note": "Hüzünlü, hazin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Ferah / sevinç",
+   "ar": "فرح",
+   "fr": "fara7",
+   "ok": "farah",
+   "note": "Sevinç, düğün. Türkçe \"ferah\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Saadet",
+   "ar": "سعادة",
+   "fr": "sa3aada",
+   "ok": "saʿâda",
+   "note": "Mutluluk. Mısır'da saygılı hitap (\"saadetli bey\").",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Said",
+   "ar": "سعيد",
+   "fr": "sa3eed",
+   "ok": "saʿîd",
+   "note": "Mutlu. Türkçede \"Said\" ismi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Gazap",
+   "ar": "غضب",
+   "fr": "ghadab",
+   "ok": "ğadab",
+   "note": "Öfke, kızgınlık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Haset",
+   "ar": "حسد",
+   "fr": "7asad",
+   "ok": "hasad",
+   "note": "Kıskançlık, haset.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Havf",
+   "ar": "خوف",
+   "fr": "5oof",
+   "ok": "khûf",
+   "note": "Korku. Türkçedeki \"havf\" eski dildedir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Emel / umut",
+   "ar": "أمل",
+   "fr": "amal",
+   "ok": "amal",
+   "note": "Umut.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hayal",
+   "ar": "خيال",
+   "fr": "5ayaal",
+   "ok": "khayâl",
+   "note": "Hayal, gölge.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Fikir",
+   "ar": "فكرة",
+   "fr": "fekra",
+   "ok": "fekra",
+   "note": "Fikir, düşünce.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Akıl",
+   "ar": "عقل",
+   "fr": "3a2l",
+   "ok": "ʿa'l",
+   "note": "Akıl.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kalp",
+   "ar": "قلب",
+   "fr": "2alb",
+   "ok": "'alb",
+   "note": "Kalp.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Beden",
+   "ar": "بدن",
+   "fr": "badan",
+   "ok": "badan",
+   "note": "Beden, vücut.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Cisim",
+   "ar": "جسم",
+   "fr": "gesm",
+   "ok": "gesm",
+   "note": "Vücut, cisim.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Nefes",
+   "ar": "نفس",
+   "fr": "nafas",
+   "ok": "nafas",
+   "note": "Nefes. (Aynı yazılışla \"nefs\" = kendi, nefis.)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sabır",
+   "ar": "صبر",
+   "fr": "sabr",
+   "ok": "sabr",
+   "note": "Sabır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kerem",
+   "ar": "كرم",
+   "fr": "karam",
+   "ok": "karam",
+   "note": "Cömertlik. Türkçe \"kerem\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kerim",
+   "ar": "كريم",
+   "fr": "kareem",
+   "ok": "karîm",
+   "note": "Cömert. Türkçede \"Kerim\" ismi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Şeref",
+   "ar": "شرف",
+   "fr": "sharaf",
+   "ok": "şaraf",
+   "note": "Onur, şeref.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Şerif",
+   "ar": "شريف",
+   "fr": "shareef",
+   "ok": "şarîf",
+   "note": "Onurlu, soylu.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Aziz",
+   "ar": "عزيز",
+   "fr": "3azeez",
+   "ok": "ʿazîz",
+   "note": "Aziz, sevgili, değerli. \"Azizim\" = canım.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "İzzet",
+   "ar": "عزة",
+   "fr": "3ezza",
+   "ok": "ʿezza",
+   "note": "Onur, izzet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Keramet / haysiyet",
+   "ar": "كرامة",
+   "fr": "karaama",
+   "ok": "karâma",
+   "note": "Mısır'da onur, haysiyet. Türkçede evliya mucizesi. Anlam farklı.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 4,
+   "tr": "Edep / adab",
+   "ar": "أدب",
+   "fr": "adab",
+   "ok": "adab",
+   "note": "Nezaket, edebiyat. Türkçe \"edep, edebiyat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Ayıp",
+   "ar": "عيب",
+   "fr": "3eib",
+   "ok": "ʿeyb",
+   "note": "Ayıp. Çok kullanılır: \"3eib!\"",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sır",
+   "ar": "سر",
+   "fr": "serr",
+   "ok": "serr",
+   "note": "Sır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Özür",
+   "ar": "عذر",
+   "fr": "3ozr",
+   "ok": "ʿozr",
+   "note": "Özür, mazeret.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Şikâyet",
+   "ar": "شكوى",
+   "fr": "shakwa",
+   "ok": "şakwa",
+   "note": "Şikâyet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Adalet",
+   "ar": "عدالة",
+   "fr": "3adaala",
+   "ok": "ʿadâla",
+   "note": "Adalet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Zulüm",
+   "ar": "ظلم",
+   "fr": "zolm",
+   "ok": "zolm",
+   "note": "Zulüm, haksızlık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hak",
+   "ar": "حق",
+   "fr": "7a2",
+   "ok": "ha'",
+   "note": "Hak, doğru; hesap, bedel.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hakikat",
+   "ar": "حقيقة",
+   "fr": "7a2ee2a",
+   "ok": "ha'î'a",
+   "note": "Gerçek, hakikat.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sıhhat",
+   "ar": "صحة",
+   "fr": "se77a",
+   "ok": "sehha",
+   "note": "Sağlık, sıhhat. \"Se77etak\" = sıhhatine.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sahih / sahi",
+   "ar": "صح",
+   "fr": "sa7",
+   "ok": "sah",
+   "note": "Doğru. Türkçedeki \"sahi\" ile aynı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Galat",
+   "ar": "غلط",
+   "fr": "ghalat",
+   "ok": "ğalat",
+   "note": "Yanlış, hata. Türkçe \"galat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sehl",
+   "ar": "سهل",
+   "fr": "sahl",
+   "ok": "sahl",
+   "note": "Kolay. Türkçede \"sehl\" (eski dilde).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Sa'b",
+   "ar": "صعب",
+   "fr": "sa3b",
+   "ok": "saʿb",
+   "note": "Zor. Türkçede \"sa'b\" (eski dilde).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hayret",
+   "ar": "حيرة",
+   "fr": "7eera",
+   "ok": "hîra",
+   "note": "Şaşkınlık, hayret.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Acayip",
+   "ar": "عجيب",
+   "fr": "3ageeb",
+   "ok": "ʿagîb",
+   "note": "Garip, harika, acayip.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Âdet / alışkanlık",
+   "ar": "عادة",
+   "fr": "3aada",
+   "ok": "ʿâda",
+   "note": "Âdet, alışkanlık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Âdi",
+   "ar": "عادي",
+   "fr": "3aady",
+   "ok": "ʿâdy",
+   "note": "Sıradan, normal. Türkçedeki \"âdi\" (bayağı) anlam kaymasına uğramıştır.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 4,
+   "tr": "Gaye",
+   "ar": "غاية",
+   "fr": "ghaaya",
+   "ok": "ğâya",
+   "note": "Amaç, hedef; \"çok, son derece\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Gayret / kıskançlık",
+   "ar": "غيرة",
+   "fr": "gheera",
+   "ok": "ğîra",
+   "note": "Mısır'da kıskançlık. Türkçe \"gayret\" (çaba) anlamı farklıdır.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 4,
+   "tr": "Sürat",
+   "ar": "سرعة",
+   "fr": "sor3a",
+   "ok": "sorʿa",
+   "note": "Hız. Türkçe \"sürat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kuvvet",
+   "ar": "قوة",
+   "fr": "2owwa",
+   "ok": "'owwa",
+   "note": "Güç.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kudret",
+   "ar": "قدرة",
+   "fr": "2odra",
+   "ok": "'odra",
+   "note": "Güç, yetenek.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hürriyet",
+   "ar": "حرية",
+   "fr": "7orreyya",
+   "ok": "horreyya",
+   "note": "Özgürlük.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hürr",
+   "ar": "حر",
+   "fr": "7orr",
+   "ok": "horr",
+   "note": "Özgür. Mısır'da \"7arr\" (sıcak) ile karıştırma.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hararet",
+   "ar": "حرارة",
+   "fr": "7araara",
+   "ok": "harâra",
+   "note": "Sıcaklık, ateş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Mutlak",
+   "ar": "مطلق",
+   "fr": "mot2al",
+   "ok": "mot'al",
+   "note": "Mutlak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Mahrum",
+   "ar": "محروم",
+   "fr": "ma7room",
+   "ok": "mahrûm",
+   "note": "Yoksun.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Kıymet / değer",
+   "ar": "قيمة",
+   "fr": "2eema",
+   "ok": "'îma",
+   "note": "Değer. Türkçe \"kıymet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Hareket",
+   "ar": "حركة",
+   "fr": "7araka",
+   "ok": "haraka",
+   "note": "Hareket.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Tabiat",
+   "ar": "طبيعة",
+   "fr": "tabee3a",
+   "ok": "tabîʿa",
+   "note": "Doğa, tabiat. Mısır'da \"doğal\" anlamında da kullanılır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "İşaret",
+   "ar": "إشارة",
+   "fr": "eshaara",
+   "ok": "eşâra",
+   "note": "İşaret, trafik ışığı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 4,
+   "tr": "Terbiye",
+   "ar": "تربية",
+   "fr": "tarbeya",
+   "ok": "tarbeya",
+   "note": "Yetiştirilme, terbiye.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Vakit",
+   "ar": "وقت",
+   "fr": "wa2t",
+   "ok": "wa't",
+   "note": "Zaman, vakit.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Saat",
+   "ar": "ساعة",
+   "fr": "saa3a",
+   "ok": "sâʿa",
+   "note": "Saat; bir saatlik süre.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Dakika",
+   "ar": "دقيقة",
+   "fr": "de2ee2a",
+   "ok": "de'î'a",
+   "note": "Dakika.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Saniye",
+   "ar": "ثانية",
+   "fr": "taanya",
+   "ok": "tânya",
+   "note": "Saniye (aynı kök: ikinci).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Yevm / gün",
+   "ar": "يوم",
+   "fr": "yoom",
+   "ok": "yûm",
+   "note": "Gün. Türkçe \"yevmiye\" ve \"yevm\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Şehr / ay",
+   "ar": "شهر",
+   "fr": "shahr",
+   "ok": "şahr",
+   "note": "Takvim ayı. Türkçede \"şehr-i Ramazan\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Sene",
+   "ar": "سنة",
+   "fr": "sana",
+   "ok": "sana",
+   "note": "Yıl, sene.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Asır",
+   "ar": "عصر",
+   "fr": "3asr",
+   "ok": "ʿasr",
+   "note": "Çağ, asır; ikindi vakti.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Sabah",
+   "ar": "صباح",
+   "fr": "sabaah",
+   "ok": "sabâh",
+   "note": "Sabah.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Leyl / gece",
+   "ar": "ليل",
+   "fr": "leil",
+   "ok": "leyl",
+   "note": "Gece. \"Leyla\" bu kökten gelir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Leyle",
+   "ar": "ليلة",
+   "fr": "leila",
+   "ok": "leyla",
+   "note": "Bir gece. Türkçe \"leyle\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Nehâr / gündüz",
+   "ar": "نهار",
+   "fr": "nahaar",
+   "ok": "nahâr",
+   "note": "Gündüz. Türkçe \"nehar\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Zaman",
+   "ar": "زمان",
+   "fr": "zamaan",
+   "ok": "zamân",
+   "note": "Zaman, eskiden.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Evvel",
+   "ar": "أول",
+   "fr": "awwel",
+   "ok": "awwel",
+   "note": "İlk, evvel.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Âhir",
+   "ar": "آخر",
+   "fr": "aa5er",
+   "ok": "âkher",
+   "note": "Son, diğer, ahir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Nihayet",
+   "ar": "نهاية",
+   "fr": "nehaaya",
+   "ok": "nehâya",
+   "note": "Son, bitiş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Bidayet",
+   "ar": "بداية",
+   "fr": "bedaaya",
+   "ok": "bedâya",
+   "note": "Başlangıç.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Takvim",
+   "ar": "تقويم",
+   "fr": "ta2weem",
+   "ok": "ta'wîm",
+   "note": "Takvim.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Tarih",
+   "ar": "تاريخ",
+   "fr": "tareekh",
+   "ok": "tarîkh",
+   "note": "Tarih; gün tarihi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Mevsim",
+   "ar": "موسم",
+   "fr": "mawsem",
+   "ok": "mawsem",
+   "note": "Mevsim, sezon.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Rebi / ilkbahar",
+   "ar": "ربيع",
+   "fr": "rabee3",
+   "ok": "rabîʿ",
+   "note": "İlkbahar. Türkçe \"rebi\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Sayf / yaz",
+   "ar": "صيف",
+   "fr": "seif",
+   "ok": "seyf",
+   "note": "Yaz. Türkçe \"sayfiye\" (yazlık).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 5,
+   "tr": "Şita / kış",
+   "ar": "شتاء",
+   "fr": "shetaa",
+   "ok": "şetâ",
+   "note": "Kış. Türkçe \"şita\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Hava",
+   "ar": "هوا",
+   "fr": "hawa",
+   "ok": "hawa",
+   "note": "Hava, rüzgâr. (Heves: \"hawa\" = hevâ, aşk.)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Şems / güneş",
+   "ar": "شمس",
+   "fr": "shams",
+   "ok": "şams",
+   "note": "Güneş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Şemsiye",
+   "ar": "شمسية",
+   "fr": "shamseyya",
+   "ok": "şamseyya",
+   "note": "Şemsiye. Türkçe \"şemsiye\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Kamer / ay",
+   "ar": "قمر",
+   "fr": "2amar",
+   "ok": "'amar",
+   "note": "Ay (gök cismi). Türkçe \"kamer\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Necm / yıldız",
+   "ar": "نجم",
+   "fr": "nagm",
+   "ok": "nagm",
+   "note": "Yıldız.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Sema",
+   "ar": "سما",
+   "fr": "sama",
+   "ok": "sama",
+   "note": "Gökyüzü.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Arz",
+   "ar": "أرض",
+   "fr": "ard",
+   "ok": "ard",
+   "note": "Yer, yeryüzü, arazi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Bahr",
+   "ar": "بحر",
+   "fr": "ba7r",
+   "ok": "bahr",
+   "note": "Deniz. Türkçe \"bahriye\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Nehir",
+   "ar": "نهر",
+   "fr": "nahr",
+   "ok": "nahr",
+   "note": "Nehir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Nil",
+   "ar": "النيل",
+   "fr": "en-neel",
+   "ok": "en-nîl",
+   "note": "Nil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Cebel",
+   "ar": "جبل",
+   "fr": "gabal",
+   "ok": "gabal",
+   "note": "Dağ. Türkçe \"Cebelitarık\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Sahra",
+   "ar": "صحراء",
+   "fr": "sa7raa",
+   "ok": "sahrâ",
+   "note": "Çöl.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Cezire",
+   "ar": "جزيرة",
+   "fr": "gezeera",
+   "ok": "gezîra",
+   "note": "Ada. Türkçe \"cezire, Cezayir\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Belde / ülke",
+   "ar": "بلد",
+   "fr": "balad",
+   "ok": "balad",
+   "note": "Ülke, memleket, köy.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Medine",
+   "ar": "مدينة",
+   "fr": "madeena",
+   "ok": "madîna",
+   "note": "Şehir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Karye / köy",
+   "ar": "قرية",
+   "fr": "2arya",
+   "ok": "'arya",
+   "note": "Köy.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Kale",
+   "ar": "قلعة",
+   "fr": "2al3a",
+   "ok": "'alʿa",
+   "note": "Kale. Kahire'de \"El Kal'a\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Kasır",
+   "ar": "قصر",
+   "fr": "2asr",
+   "ok": "'asr",
+   "note": "Saray, köşk.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Sur",
+   "ar": "سور",
+   "fr": "soor",
+   "ok": "sûr",
+   "note": "Sur, duvar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Bâb / kapı",
+   "ar": "باب",
+   "fr": "baab",
+   "ok": "bâb",
+   "note": "Kapı. Türkçe \"bab\" (bölüm), \"Bâbıâli\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Beyt",
+   "ar": "بيت",
+   "fr": "beit",
+   "ok": "beyt",
+   "note": "Ev. Türkçe \"beyt\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Mesken",
+   "ar": "مسكن",
+   "fr": "maskan",
+   "ok": "maskan",
+   "note": "Konut, mesken.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Hücre",
+   "ar": "حجرة",
+   "fr": "7egra",
+   "ok": "hegra",
+   "note": "Oda. Türkçe \"hücre\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Oda",
+   "ar": "أوضة",
+   "fr": "oda",
+   "ok": "oda",
+   "note": "Oda. Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 6,
+   "tr": "Han",
+   "ar": "خان",
+   "fr": "5aan",
+   "ok": "khân",
+   "note": "Han. \"Han el-Halili\" ünlü çarşıdır.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Hamam",
+   "ar": "حمام",
+   "fr": "7ammaam",
+   "ok": "hammâm",
+   "note": "Banyo, hamam. Kısa okunuşla \"7amaam\" = güvercin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Meydan",
+   "ar": "ميدان",
+   "fr": "meidaan",
+   "ok": "meydân",
+   "note": "Meydan, alan. \"Meydan et-Tahrir\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Saha",
+   "ar": "ساحة",
+   "fr": "saa7a",
+   "ok": "sâha",
+   "note": "Alan, saha.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Pazar / bazar",
+   "ar": "بازار",
+   "fr": "bazaar",
+   "ok": "bazâr",
+   "note": "Turistik çarşı dükkânı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Dükkân",
+   "ar": "دكان",
+   "fr": "dokkaan",
+   "ok": "dokkân",
+   "note": "Dükkân.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Sûk",
+   "ar": "سوق",
+   "fr": "soo2",
+   "ok": "sû'",
+   "note": "Çarşı, pazar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Harita",
+   "ar": "خريطة",
+   "fr": "5areeta",
+   "ok": "kharîta",
+   "note": "Harita.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Tarik / yol",
+   "ar": "طريق",
+   "fr": "taree2",
+   "ok": "tarî'",
+   "note": "Yol. Türkçe \"tarik, tarikat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Sefer",
+   "ar": "سفر",
+   "fr": "safar",
+   "ok": "safar",
+   "note": "Yolculuk, sefer.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Ziyaret",
+   "ar": "زيارة",
+   "fr": "zeyaara",
+   "ok": "zeyâra",
+   "note": "Ziyaret.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Davet",
+   "ar": "دعوة",
+   "fr": "da3wa",
+   "ok": "daʿwa",
+   "note": "Davet. (Aynı yazılışla \"dava, iddia\" da olabilir.)",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Misafir",
+   "ar": "مسافر",
+   "fr": "mosaafer",
+   "ok": "mosâfer",
+   "note": "Mısır'da yolcu. Türkçedeki \"misafir\" (konuk) farklı. Konuk: \"deif\".",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 6,
+   "tr": "Sâkin",
+   "ar": "ساكن",
+   "fr": "saaken",
+   "ok": "sâken",
+   "note": "Mısır'da oturan, sakin. Türkçede \"sakin\" sakin demektir.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 6,
+   "tr": "Mevki",
+   "ar": "موقع",
+   "fr": "maw2e3",
+   "ok": "maw'eʿ",
+   "note": "Yer, konum, site.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Mahal",
+   "ar": "محل",
+   "fr": "ma7all",
+   "ok": "mahall",
+   "note": "Dükkân, yer.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Mahalle",
+   "ar": "محلة",
+   "fr": "ma7alla",
+   "ok": "mahalla",
+   "note": "Mahalle, semt.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Bina",
+   "ar": "بناء",
+   "fr": "benaa'",
+   "ok": "benâ'",
+   "note": "Bina, inşaat.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "İmaret",
+   "ar": "عمارة",
+   "fr": "3emaara",
+   "ok": "ʿemâra",
+   "note": "Apartman, bina. Türkçe \"imaret, imar\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Fanus",
+   "ar": "فانوس",
+   "fr": "faanoos",
+   "ok": "fânûs",
+   "note": "Fener, Ramazan feneri. Türkçe \"fanus\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Kandil",
+   "ar": "قنديل",
+   "fr": "2andeel",
+   "ok": "'andîl",
+   "note": "Kandil, lamba.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Şem / mum",
+   "ar": "شمعة",
+   "fr": "sham3a",
+   "ok": "şamʿa",
+   "note": "Mum. Türkçe \"şem'\" ve \"şamdan\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 6,
+   "tr": "Şamdan",
+   "ar": "شمعدان",
+   "fr": "sham3edaan",
+   "ok": "şamʿedân",
+   "note": "Şamdan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Köprü",
+   "ar": "كوبري",
+   "fr": "koobry",
+   "ok": "kûbry",
+   "note": "Köprü. Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Çanta",
+   "ar": "شنطة",
+   "fr": "shanta",
+   "ok": "şanta",
+   "note": "Çanta. Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Çizme",
+   "ar": "جزمة",
+   "fr": "gazma",
+   "ok": "gazma",
+   "note": "Mısır'da ayakkabı. Türkçe \"çizme\" kökenlidir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Pabuç",
+   "ar": "بابوج",
+   "fr": "baboog",
+   "ok": "babûg",
+   "note": "Terlik. Türkçe \"pabuç\" kökenlidir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Çorap",
+   "ar": "شراب",
+   "fr": "shorab",
+   "ok": "şorab",
+   "note": "Mısır'da çorap. (Standart Arapçada \"şarap, içecek\".) Türkçe \"çorap\"tan.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Dolap",
+   "ar": "دولاب",
+   "fr": "doolaab",
+   "ok": "dûlâb",
+   "note": "Dolap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Sandık",
+   "ar": "صندوق",
+   "fr": "sandoo2",
+   "ok": "sandû'",
+   "note": "Kutu, sandık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Hazine",
+   "ar": "خزنة",
+   "fr": "5azna",
+   "ok": "khazna",
+   "note": "Kasa, hazine.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Kürsü",
+   "ar": "كرسي",
+   "fr": "korsy",
+   "ok": "korsy",
+   "note": "Mısır'da sandalye. Türkçe \"kürsü\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Serir",
+   "ar": "سرير",
+   "fr": "sereer",
+   "ok": "serîr",
+   "note": "Mısır'da yatak. Türkçe \"serir\" eski dilde.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Seccade",
+   "ar": "سجادة",
+   "fr": "sagaada",
+   "ok": "sagâda",
+   "note": "Seccade, halı.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Miftah",
+   "ar": "مفتاح",
+   "fr": "meftaa7",
+   "ok": "meftâh",
+   "note": "Anahtar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Sofra",
+   "ar": "سفرة",
+   "fr": "sofra",
+   "ok": "sofra",
+   "note": "Sofra, yemek sofrası. Türkçe \"sofra\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Matbah",
+   "ar": "مطبخ",
+   "fr": "matba5",
+   "ok": "matbakh",
+   "note": "Mutfak. Türkçe \"matbah\" (eski dilde).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Sahan",
+   "ar": "صحن",
+   "fr": "sa7n",
+   "ok": "sahn",
+   "note": "Tabak, sahan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Tabak",
+   "ar": "طبق",
+   "fr": "taba2",
+   "ok": "taba'",
+   "note": "Tabak, çanak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Tas",
+   "ar": "طاسة",
+   "fr": "tassa",
+   "ok": "tassa",
+   "note": "Küçük kâse, tas.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Kâse",
+   "ar": "كاسة",
+   "fr": "kaasa",
+   "ok": "kâsa",
+   "note": "Kâse, bardak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Fincan",
+   "ar": "فنجان",
+   "fr": "fengaan",
+   "ok": "fengân",
+   "note": "Fincan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "İbrik",
+   "ar": "إبريق",
+   "fr": "ebree2",
+   "ok": "ebrî'",
+   "note": "İbrik, çaydanlık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Tencere",
+   "ar": "طنجرة",
+   "fr": "tangara",
+   "ok": "tangara",
+   "note": "Tencere.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Tulumba",
+   "ar": "طلمبة",
+   "fr": "tolomba",
+   "ok": "tolomba",
+   "note": "Pompa. Türkçe \"tulumba\".",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Hurda",
+   "ar": "خردة",
+   "fr": "5orda",
+   "ok": "khorda",
+   "note": "Hurda.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 7,
+   "tr": "Zarf",
+   "ar": "ظرف",
+   "fr": "zarf",
+   "ok": "zarf",
+   "note": "Zarf. Türkçe \"zarf\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Kalem",
+   "ar": "قلم",
+   "fr": "2alam",
+   "ok": "'alam",
+   "note": "Kalem.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Defter",
+   "ar": "دفتر",
+   "fr": "daftar",
+   "ok": "daftar",
+   "note": "Defter.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Varak",
+   "ar": "ورقة",
+   "fr": "wara2a",
+   "ok": "wara'a",
+   "note": "Kâğıt, yaprak. Türkçe \"varak\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Kitap",
+   "ar": "كتاب",
+   "fr": "ketaab",
+   "ok": "ketâb",
+   "note": "Kitap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Kütüb",
+   "ar": "كتب",
+   "fr": "kotob",
+   "ok": "kotob",
+   "note": "Kitaplar. Türkçe \"kütüphane\" ve \"kütüb\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Mektup",
+   "ar": "مكتوب",
+   "fr": "maktoob",
+   "ok": "maktûb",
+   "note": "Mektup; yazılı, kader. Türkçe \"mektup\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Mektep / büro",
+   "ar": "مكتب",
+   "fr": "maktab",
+   "ok": "maktab",
+   "note": "Mısır'da büro, ofis. Türkçe \"mektep\" (okul, eski dil).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 7,
+   "tr": "Eşya",
+   "ar": "أشياء",
+   "fr": "ashyaa'",
+   "ok": "aşyâ'",
+   "note": "Şeyler, eşyalar. Türkçe \"eşya\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Kahve",
+   "ar": "قهوة",
+   "fr": "2ahwa",
+   "ok": "'ahwa",
+   "note": "Kahve; \"ahwa\" = kahvehane. Türkçe \"kahve\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Kahveci",
+   "ar": "قهوجي",
+   "fr": "ahwagy",
+   "ok": "ahwagy",
+   "note": "Kahveci. Türkçe \"-cı\" eki Mısır'da \"-gy\" olmuş.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 8,
+   "tr": "Çay",
+   "ar": "شاي",
+   "fr": "shaay",
+   "ok": "şây",
+   "note": "Çay.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Şerbet",
+   "ar": "شربات",
+   "fr": "sharbaat",
+   "ok": "şarbât",
+   "note": "Şerbet (düğün ve kutlama içeceği).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Çorba",
+   "ar": "شوربة",
+   "fr": "shorba",
+   "ok": "şorba",
+   "note": "Çorba.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Turşu",
+   "ar": "طرشي",
+   "fr": "torshy",
+   "ok": "torşy",
+   "note": "Turşu.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Hoşaf",
+   "ar": "خشاف",
+   "fr": "5oshaaf",
+   "ok": "khoşâf",
+   "note": "Hoşaf, komposto.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 8,
+   "tr": "Yemiş",
+   "ar": "ياميش",
+   "fr": "yameesh",
+   "ok": "yamîş",
+   "note": "Ramazan kuruyemişi. Türkçe \"yemiş\".",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 8,
+   "tr": "Helva",
+   "ar": "حلاوة",
+   "fr": "7alaawa",
+   "ok": "halâwa",
+   "note": "Tatlı, helva.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Baklava",
+   "ar": "بقلاوة",
+   "fr": "ba2laawa",
+   "ok": "ba'lâwa",
+   "note": "Baklava.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Künefe",
+   "ar": "كنافة",
+   "fr": "konaafa",
+   "ok": "konâfa",
+   "note": "Künefe.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Lokma",
+   "ar": "لقمة",
+   "fr": "lo2ma",
+   "ok": "lo'ma",
+   "note": "Lokma, ağız dolusu yemek.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Köfte",
+   "ar": "كفتة",
+   "fr": "kofta",
+   "ok": "kofta",
+   "note": "Köfte.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Kebap",
+   "ar": "كباب",
+   "fr": "kebaab",
+   "ok": "kebâb",
+   "note": "Kebap.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Şiş",
+   "ar": "شيش",
+   "fr": "sheesh",
+   "ok": "şîş",
+   "note": "Şiş. \"Şiş tavuk\" = shish taawook.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Sucuk",
+   "ar": "سجق",
+   "fr": "soga2",
+   "ok": "soga'",
+   "note": "Sucuk (sosis). Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 8,
+   "tr": "Pastırma",
+   "ar": "بسطرمة",
+   "fr": "basterma",
+   "ok": "basterma",
+   "note": "Pastırma.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 8,
+   "tr": "Fıstık",
+   "ar": "فستق",
+   "fr": "fosto2",
+   "ok": "fosto'",
+   "note": "Fıstık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Zeytin",
+   "ar": "زيتون",
+   "fr": "zeitoon",
+   "ok": "zeytûn",
+   "note": "Zeytin. Türkçe \"zeytin\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Zeyt / yağ",
+   "ar": "زيت",
+   "fr": "zeit",
+   "ok": "zeyt",
+   "note": "Yağ. Türkçe \"zeytinyağı\"nın ilk parçası.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Şeker",
+   "ar": "سكر",
+   "fr": "sokkar",
+   "ok": "sokkar",
+   "note": "Şeker. Kökeni aynı aile (Farsça-Hintçe).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Susam",
+   "ar": "سمسم",
+   "fr": "semsem",
+   "ok": "semsem",
+   "note": "Susam.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Nane",
+   "ar": "نعناع",
+   "fr": "na3na3",
+   "ok": "naʿnaʿ",
+   "note": "Nane.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Kimyon",
+   "ar": "كمون",
+   "fr": "kammoon",
+   "ok": "kammûn",
+   "note": "Kimyon.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Safran",
+   "ar": "زعفران",
+   "fr": "za3faraan",
+   "ok": "zaʿfarân",
+   "note": "Safran.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Karanfil",
+   "ar": "قرنفل",
+   "fr": "2aranfel",
+   "ok": "'aranfel",
+   "note": "Karanfil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Zencefil",
+   "ar": "زنجبيل",
+   "fr": "zangabeel",
+   "ok": "zangabîl",
+   "note": "Zencefil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Anason",
+   "ar": "ينسون",
+   "fr": "yansoon",
+   "ok": "yansûn",
+   "note": "Anason. Mısır'da sıcak anason çayı çok içilir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Hardal",
+   "ar": "خردل",
+   "fr": "5ardal",
+   "ok": "khardal",
+   "note": "Hardal.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Sumak",
+   "ar": "سماق",
+   "fr": "summa2",
+   "ok": "summa'",
+   "note": "Sumak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Ispanak",
+   "ar": "سبانخ",
+   "fr": "sabaanekh",
+   "ok": "sabânekh",
+   "note": "Ispanak.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Patlıcan",
+   "ar": "باذنجان",
+   "fr": "bitingaan",
+   "ok": "bitingân",
+   "note": "Patlıcan.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Bamya",
+   "ar": "بامية",
+   "fr": "bamya",
+   "ok": "bamya",
+   "note": "Bamya.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Fasulye",
+   "ar": "فاصوليا",
+   "fr": "faasooleya",
+   "ok": "fâsûleya",
+   "note": "Fasulye.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Limon",
+   "ar": "ليمون",
+   "fr": "leimoon",
+   "ok": "leymûn",
+   "note": "Limon.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Portakal",
+   "ar": "برتقال",
+   "fr": "borto2aan",
+   "ok": "borto'ân",
+   "note": "Portakal.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Muz",
+   "ar": "موز",
+   "fr": "mooz",
+   "ok": "mûz",
+   "note": "Muz.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 8,
+   "tr": "Nar (meyve)",
+   "ar": "رمان",
+   "fr": "rommaan",
+   "ok": "rommân",
+   "note": ".ritkemed şeta )نار( \"raan\" :takkiD .isevyem ran ad'rısıM",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 9,
+   "tr": "Ticaret",
+   "ar": "تجارة",
+   "fr": "tegaara",
+   "ok": "tegâra",
+   "note": "Ticaret.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Bey' / satış",
+   "ar": "بيع",
+   "fr": "bei3",
+   "ok": "beyʿ",
+   "note": "Satış. Türkçe \"bey'\" (eski dil).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Ücret",
+   "ar": "أجرة",
+   "fr": "ogra",
+   "ok": "ogra",
+   "note": "Ücret, taksi parası.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "İcar / kira",
+   "ar": "إيجار",
+   "fr": "eegaar",
+   "ok": "îgâr",
+   "note": "Kira. Türkçe \"icar, icare\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Mülk",
+   "ar": "ملك",
+   "fr": "melk",
+   "ok": "melk",
+   "note": "Mülk.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Maaş",
+   "ar": "معاش",
+   "fr": "ma3aash",
+   "ok": "maʿâş",
+   "note": "Emekli maaşı, maaş. Türkçe \"maaş\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Vazife",
+   "ar": "وظيفة",
+   "fr": "wazeefa",
+   "ok": "wazîfa",
+   "note": "Görev, iş. Türkçe \"vazife\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Şirket",
+   "ar": "شركة",
+   "fr": "sharika",
+   "ok": "şarika",
+   "note": "Şirket.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Emanet",
+   "ar": "أمانة",
+   "fr": "amaana",
+   "ok": "amâna",
+   "note": "Emanet, güven.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Emin",
+   "ar": "أمين",
+   "fr": "ameen",
+   "ok": "amîn",
+   "note": "Güvenilir, emin. \"Emin\" ismi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Emniyet",
+   "ar": "أمن",
+   "fr": "amn",
+   "ok": "amn",
+   "note": "Güvenlik. Türkçe \"emniyet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Aman",
+   "ar": "أمان",
+   "fr": "amaan",
+   "ok": "amân",
+   "note": "Güven, emniyet. Türkçe \"aman!\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Zamin / kefil",
+   "ar": "ضامن",
+   "fr": "daamen",
+   "ok": "dâmen",
+   "note": "Kefil, garantör. Türkçe \"zâmin\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Zimmet",
+   "ar": "ذمة",
+   "fr": "zemma",
+   "ok": "zemma",
+   "note": "Sorumluluk, vicdan. Türkçe \"zimmet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Bedel",
+   "ar": "بدل",
+   "fr": "badal",
+   "ok": "badal",
+   "note": "Yerine, karşılık. Türkçe \"bedel\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Semen",
+   "ar": "ثمن",
+   "fr": "taman",
+   "ok": "taman",
+   "note": "Fiyat, bedel.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Müflis",
+   "ar": "مفلس",
+   "fr": "mefles",
+   "ok": "mefles",
+   "note": "Parasız, iflas etmiş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Hasar / hüsran",
+   "ar": "خسارة",
+   "fr": "5esaara",
+   "ok": "khesâra",
+   "note": "Kayıp, zarar. \"Ya 5esaara!\" = yazık!",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Fayda",
+   "ar": "فايدة",
+   "fr": "fayda",
+   "ok": "fayda",
+   "note": "Fayda, yarar, faiz.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Zarar",
+   "ar": "ضرر",
+   "fr": "darar",
+   "ok": "darar",
+   "note": "Zarar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Fark",
+   "ar": "فرق",
+   "fr": "far2",
+   "ok": "far'",
+   "note": "Fark.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Lüzum",
+   "ar": "لزوم",
+   "fr": "lozoom",
+   "ok": "lozûm",
+   "note": "Gerek, lüzum.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "İhtiyaç",
+   "ar": "احتياج",
+   "fr": "e7teyaag",
+   "ok": "ehteyâg",
+   "note": "İhtiyaç.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Hacet / haga",
+   "ar": "حاجة",
+   "fr": "7aaga",
+   "ok": "hâga",
+   "note": "Şey, ihtiyaç. Türkçe \"hacet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Fırsat",
+   "ar": "فرصة",
+   "fr": "forsa",
+   "ok": "forsa",
+   "note": "Fırsat.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Mevzu",
+   "ar": "موضوع",
+   "fr": "mawdoo3",
+   "ok": "mawdûʿ",
+   "note": "Konu, mesele. Türkçe \"mevzu\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Mesele",
+   "ar": "مسألة",
+   "fr": "mas'ala",
+   "ok": "mas'ala",
+   "note": "Mesele, sorun.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Sual",
+   "ar": "سؤال",
+   "fr": "so'aal",
+   "ok": "so'âl",
+   "note": "Soru. Türkçe \"sual\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Cevap",
+   "ar": "جواب",
+   "fr": "gawaab",
+   "ok": "gawâb",
+   "note": "Cevap; mektup.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Sebep",
+   "ar": "سبب",
+   "fr": "sabab",
+   "ok": "sabab",
+   "note": "Sebep.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Netice",
+   "ar": "نتيجة",
+   "fr": "nateega",
+   "ok": "natîga",
+   "note": "Sonuç. Türkçe \"netice\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Hâsıl",
+   "ar": "حاصل",
+   "fr": "7aasel",
+   "ok": "hâsel",
+   "note": "Sonuç, ürün. Türkçe \"hâsıl olmak\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Hulâsa",
+   "ar": "خلاصة",
+   "fr": "5olaasa",
+   "ok": "kholâsa",
+   "note": "Özet, hülasa.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Malum",
+   "ar": "معلوم",
+   "fr": "ma3loom",
+   "ok": "maʿlûm",
+   "note": "Bilinen, tabii. Türkçe \"malum\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Malumat",
+   "ar": "معلومات",
+   "fr": "ma3loomaat",
+   "ok": "maʿlûmât",
+   "note": "Bilgiler. Türkçe \"malumat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Hesap",
+   "ar": "حساب",
+   "fr": "7esaab",
+   "ok": "hesâb",
+   "note": "Hesap, fatura.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Rakam",
+   "ar": "رقم",
+   "fr": "ra2am",
+   "ok": "ra'am",
+   "note": "Rakam, numara.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Adet",
+   "ar": "عدد",
+   "fr": "3adad",
+   "ok": "ʿadad",
+   "note": "Sayı, adet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Cüz",
+   "ar": "جزء",
+   "fr": "goz'",
+   "ok": "goz'",
+   "note": "Parça, bölüm. Türkçe \"cüz, cüzdan\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Küll / hepsi",
+   "ar": "كل",
+   "fr": "kol",
+   "ok": "kol",
+   "note": "Hepsi, her. Türkçe \"külli\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Mukavele",
+   "ar": "مقاولة",
+   "fr": "mo2aawla",
+   "ok": "mo'âwla",
+   "note": "Müteahhitlik, taahhüt. Türkçe \"mukavele\" (sözleşme).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Mukabele",
+   "ar": "مقابلة",
+   "fr": "mo2aabla",
+   "ok": "mo'âbla",
+   "note": "Görüşme, mülakat. Türkçe \"mukabele\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Müsabaka",
+   "ar": "مسابقة",
+   "fr": "mosaab2a",
+   "ok": "mosâb'a",
+   "note": "Yarışma, müsabaka.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Müzakere",
+   "ar": "مذاكرة",
+   "fr": "mozaakra",
+   "ok": "mozâkra",
+   "note": "Mısır'da ders çalışma. Türkçe \"müzakere\" (görüşme) farklı.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 9,
+   "tr": "Mümessil",
+   "ar": "ممثل",
+   "fr": "momassel",
+   "ok": "momassel",
+   "note": "Mısır'da aktör. Türkçe \"mümessil\" (temsilci) farklı.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 9,
+   "tr": "Temsil",
+   "ar": "تمثيل",
+   "fr": "tamseel",
+   "ok": "tamsîl",
+   "note": "Oyunculuk, temsil.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Islah",
+   "ar": "إصلاح",
+   "fr": "eslaa7",
+   "ok": "eslâh",
+   "note": "Düzeltme, onarım.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Nakil",
+   "ar": "نقل",
+   "fr": "na2l",
+   "ok": "na'l",
+   "note": "Taşıma. Türkçe \"nakil, nakliye\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Sanat / zanaat",
+   "ar": "صنعة",
+   "fr": "san3a",
+   "ok": "sanʿa",
+   "note": "Zanaat, meslek. Türkçe \"sanat\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Sanayi",
+   "ar": "صناعة",
+   "fr": "sena3a",
+   "ok": "senaʿa",
+   "note": "Sanayi, sanayi.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 9,
+   "tr": "Fen / sanat",
+   "ar": "فن",
+   "fr": "fann",
+   "ok": "fann",
+   "note": "Mısır'da sanat. Türkçe \"fen\" (bilim) anlamı farklı.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 10,
+   "tr": "Devlet",
+   "ar": "دولة",
+   "fr": "dawla",
+   "ok": "dawla",
+   "note": "Devlet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Hükümet",
+   "ar": "حكومة",
+   "fr": "7okooma",
+   "ok": "hokûma",
+   "note": "Hükümet.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Cumhuriyet",
+   "ar": "جمهورية",
+   "fr": "gomhoreyya",
+   "ok": "gomhoreyya",
+   "note": "Cumhuriyet. \"Mısır Arap Cumhuriyeti\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Cumhur",
+   "ar": "جمهور",
+   "fr": "gomhoor",
+   "ok": "gomhûr",
+   "note": "Halk, kitle. Türkçe \"cumhur\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Meclis",
+   "ar": "مجلس",
+   "fr": "magles",
+   "ok": "magles",
+   "note": "Meclis, konsey.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Heyet",
+   "ar": "هيئة",
+   "fr": "hay'a",
+   "ok": "hay'a",
+   "note": "Kurul, kurum. Türkçe \"heyet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Cemiyet",
+   "ar": "جمعية",
+   "fr": "gam3eyya",
+   "ok": "gamʿeyya",
+   "note": "Dernek. Türkçe \"cemiyet\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Mahkeme",
+   "ar": "محكمة",
+   "fr": "ma7kama",
+   "ok": "mahkama",
+   "note": "Mahkeme.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Kanun",
+   "ar": "قانون",
+   "fr": "ganoon",
+   "ok": "ganûn",
+   "note": "Kanun, yasa.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Hukuk",
+   "ar": "حقوق",
+   "fr": "7o2oo2",
+   "ok": "ho'û'",
+   "note": "Haklar, hukuk.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Mahkûm",
+   "ar": "محكوم",
+   "fr": "ma7koom",
+   "ok": "mahkûm",
+   "note": "Hüküm giymiş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Kaziye",
+   "ar": "قضية",
+   "fr": "2adeyya",
+   "ok": "'adeyya",
+   "note": "Dava, mesele. Türkçe \"kaziye\" (eski dil).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Harp",
+   "ar": "حرب",
+   "fr": "7arb",
+   "ok": "harb",
+   "note": "Savaş.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Sulh",
+   "ar": "صلح",
+   "fr": "solh",
+   "ok": "solh",
+   "note": "Barış, uzlaşma. Türkçe \"sulh\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Silah",
+   "ar": "سلاح",
+   "fr": "selaa7",
+   "ok": "selâh",
+   "note": "Silah.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Seyf",
+   "ar": "سيف",
+   "fr": "seif",
+   "ok": "seyf",
+   "note": "Kılıç. Türkçe \"seyf\".",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Hançer",
+   "ar": "خنجر",
+   "fr": "5angar",
+   "ok": "khangar",
+   "note": "Hançer.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Ceyş",
+   "ar": "جيش",
+   "fr": "geish",
+   "ok": "geyş",
+   "note": "Ordu. Türkçe \"ceyş\" (eski dil).",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Barut",
+   "ar": "بارود",
+   "fr": "baaroud",
+   "ok": "bârûd",
+   "note": "Barut.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 10,
+   "tr": "Tabanca",
+   "ar": "طبنجة",
+   "fr": "tabanga",
+   "ok": "tabanga",
+   "note": "Tabanca. Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Karakol",
+   "ar": "قراقول",
+   "fr": "2ara2ool",
+   "ok": "'ara'ûl",
+   "note": "Karakol (polis noktası). Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Tabur / kuyruk",
+   "ar": "طابور",
+   "fr": "taaboor",
+   "ok": "tâbûr",
+   "note": "Mısır'da sıra, kuyruk. Türkçe \"tabur\" (askeri birlik). Türkçeden geçmiştir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Alay",
+   "ar": "ألاي",
+   "fr": "alay",
+   "ok": "alay",
+   "note": "Alay (askeri birlik). Tarihî kullanım.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Onbaşı",
+   "ar": "أونباشي",
+   "fr": "onbaashy",
+   "ok": "onbâşy",
+   "note": "Onbaşı. Tarihî rütbe.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Yüzbaşı",
+   "ar": "يوزباشي",
+   "fr": "yoozbaashy",
+   "ok": "yûzbâşy",
+   "note": "Yüzbaşı. Tarihî rütbe.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Binbaşı",
+   "ar": "بكباشي",
+   "fr": "bekbaashy",
+   "ok": "bekbâşy",
+   "note": "Binbaşı. Tarihî rütbe.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Miralay",
+   "ar": "ميرالاي",
+   "fr": "miralay",
+   "ok": "miralay",
+   "note": "Albay. Tarihî rütbe.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Başmühendis",
+   "ar": "باشمهندس",
+   "fr": "bashmohandes",
+   "ok": "başmohandes",
+   "note": "Mühendislere hitap: \"Baş mühendis\".",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Başkâtip",
+   "ar": "باشكاتب",
+   "fr": "bashkaateb",
+   "ok": "başkâteb",
+   "note": "Baş yazman.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Baltacı",
+   "ar": "بلطجي",
+   "fr": "baltagy",
+   "ok": "baltagy",
+   "note": "Mısır'da külhanbeyi, çete elemanı. Türkçe \"baltacı\"dan.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Sofracı",
+   "ar": "سفرجي",
+   "fr": "sofragy",
+   "ok": "sofragy",
+   "note": "Garson, sofracı.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Arabacı",
+   "ar": "عربجي",
+   "fr": "3arabagy",
+   "ok": "ʿarabagy",
+   "note": "Arabacı.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Postacı",
+   "ar": "بوسطجي",
+   "fr": "bostagy",
+   "ok": "bostagy",
+   "note": "Postacı.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Terzi",
+   "ar": "ترزي",
+   "fr": "tarzy",
+   "ok": "tarzy",
+   "note": "Terzi.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Bostancı",
+   "ar": "بستانجي",
+   "fr": "bostangy",
+   "ok": "bostangy",
+   "note": "Bahçıvan, bostancı.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 10,
+   "tr": "Boyacı",
+   "ar": "بويجي",
+   "fr": "boyagy",
+   "ok": "boyagy",
+   "note": "Boyacı.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Bey",
+   "ar": "بيه",
+   "fr": "beih",
+   "ok": "beyh",
+   "note": "Bey. Saygılı hitap: \"Ahmed Beih\".",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Hanım",
+   "ar": "هانم",
+   "fr": "haanem",
+   "ok": "hânem",
+   "note": "Hanım. Saygılı hitap.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Efendi",
+   "ar": "أفندي",
+   "fr": "afandy",
+   "ok": "afandy",
+   "note": "Bey, efendi, okumuş kişi.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Paşa",
+   "ar": "باشا",
+   "fr": "baasha",
+   "ok": "bâşa",
+   "note": "Paşa. Mısır'da saygılı hitap olarak da kullanılır.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Ağa",
+   "ar": "أغا",
+   "fr": "agha",
+   "ok": "ağa",
+   "note": "Ağa.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Usta",
+   "ar": "أسطى",
+   "fr": "osta",
+   "ok": "osta",
+   "note": "Usta. Şoför, esnaf, işinin ehli.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Çavuş",
+   "ar": "شاويش",
+   "fr": "shaawish",
+   "ok": "şâwiş",
+   "note": "Çavuş, görevli, bekçi.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Köşk",
+   "ar": "كشك",
+   "fr": "koshk",
+   "ok": "koşk",
+   "note": "Küçük büfe, kiosk. Türkçe \"köşk\" kökenlidir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Aferin",
+   "ar": "عفارم",
+   "fr": "afaarem",
+   "ok": "afârem",
+   "note": "Aferin, bravo. Türkçe \"aferin\" kökenlidir.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 11,
+   "tr": "Hoca / hâce",
+   "ar": "خواجة",
+   "fr": "5awaaga",
+   "ok": "khawâga",
+   "note": "Mısır'da yabancı, Avrupalı, beyefendi. Türkçe \"hoca\" ile aynı kök.",
+   "tag": "Osmanlı"
+  },
+  {
+   "sec": 12,
+   "tr": "Telefon",
+   "ar": "تليفون",
+   "fr": "telefoon",
+   "ok": "telefûn",
+   "note": "Telefon.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Televizyon",
+   "ar": "تلفزيون",
+   "fr": "telefizyoon",
+   "ok": "telefizyûn",
+   "note": "Televizyon.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Sinema",
+   "ar": "سينما",
+   "fr": "seenema",
+   "ok": "sînema",
+   "note": "Sinema.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Banka",
+   "ar": "بنك",
+   "fr": "bank",
+   "ok": "bank",
+   "note": "Banka.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Bira",
+   "ar": "بيرة",
+   "fr": "beera",
+   "ok": "bîra",
+   "note": "Bira.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Otobüs",
+   "ar": "أتوبيس",
+   "fr": "otobees",
+   "ok": "otobîs",
+   "note": "Otobüs.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Tramvay",
+   "ar": "ترام",
+   "fr": "traam",
+   "ok": "trâm",
+   "note": "Tramvay.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Polis",
+   "ar": "بوليس",
+   "fr": "bolees",
+   "ok": "bolîs",
+   "note": "Polis.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Karantina",
+   "ar": "كرنتينة",
+   "fr": "karanteena",
+   "ok": "karantîna",
+   "note": "Karantina.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Kamera",
+   "ar": "كاميرا",
+   "fr": "kamera",
+   "ok": "kamera",
+   "note": "Kamera.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Otomobil",
+   "ar": "أوتومبيل",
+   "fr": "otomobeel",
+   "ok": "otomobîl",
+   "note": "Otomobil.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Benzin",
+   "ar": "بنزين",
+   "fr": "benzeen",
+   "ok": "benzîn",
+   "note": "Benzin.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Doktor",
+   "ar": "دكتور",
+   "fr": "doktoor",
+   "ok": "doktûr",
+   "note": "Doktor.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Kilo",
+   "ar": "كيلو",
+   "fr": "keelo",
+   "ok": "kîlo",
+   "note": "Kilo.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Metre",
+   "ar": "متر",
+   "fr": "metr",
+   "ok": "metr",
+   "note": "Metre.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Litre",
+   "ar": "لتر",
+   "fr": "letr",
+   "ok": "letr",
+   "note": "Litre.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Kilometre",
+   "ar": "كيلومتر",
+   "fr": "keelometr",
+   "ok": "kîlometr",
+   "note": "Kilometre.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Salata",
+   "ar": "سلطة",
+   "fr": "salata",
+   "ok": "salata",
+   "note": "Salata.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Makarna",
+   "ar": "مكرونة",
+   "fr": "makarona",
+   "ok": "makarona",
+   "note": "Makarna.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Çikolata",
+   "ar": "شيكولاتة",
+   "fr": "shekolaata",
+   "ok": "şekolâta",
+   "note": "Çikolata.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Bisküvi",
+   "ar": "بسكويت",
+   "fr": "baskoweet",
+   "ok": "baskowît",
+   "note": "Bisküvi.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Sandviç",
+   "ar": "ساندويتش",
+   "fr": "sandwitsh",
+   "ok": "sandwiç",
+   "note": "Sandviç.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Lamba",
+   "ar": "لمبة",
+   "fr": "lamba",
+   "ok": "lamba",
+   "note": "Lamba.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Balkon",
+   "ar": "بلكونة",
+   "fr": "balakoona",
+   "ok": "balakûna",
+   "note": "Balkon.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 12,
+   "tr": "Milyon",
+   "ar": "مليون",
+   "fr": "milyoon",
+   "ok": "milyûn",
+   "note": "Milyon.",
+   "tag": "Batı"
+  },
+  {
+   "sec": 13,
+   "tr": "Şarap",
+   "ar": "شراب",
+   "fr": "sharaab",
+   "ok": "şarâb",
+   "note": "Standart Arapçada içecek, şurup; Türkçedeki alkollü içki değildir. Mısır'da \"shorab\" = çorap.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Aslan",
+   "ar": "أصلا",
+   "fr": "aslan",
+   "ok": "aslan",
+   "note": "Mısır'da \"zaten, hiç\". Türkçede aslan = hayvan.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Misafir",
+   "ar": "مسافر",
+   "fr": "mosaafer",
+   "ok": "mosâfer",
+   "note": "Mısır'da yolcu. Türkçede misafir = konuk.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Sakin",
+   "ar": "ساكن",
+   "fr": "saaken",
+   "ok": "sâken",
+   "note": "Mısır'da oturan. Türkçede sakin = sakin, durgun.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Gayret",
+   "ar": "غيرة",
+   "fr": "gheera",
+   "ok": "ğîra",
+   "note": "Mısır'da kıskançlık. Türkçede gayret = çaba.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Keramet",
+   "ar": "كرامة",
+   "fr": "karaama",
+   "ok": "karâma",
+   "note": "Mısır'da onur. Türkçede keramet = evliya mucizesi.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Muallim",
+   "ar": "معلم",
+   "fr": "mo3allem",
+   "ok": "moʿallem",
+   "note": "Mısır'da usta, patron, \"usta\". Türkçede öğretmen.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Müzakere",
+   "ar": "مذاكرة",
+   "fr": "mozaakra",
+   "ok": "mozâkra",
+   "note": "Mısır'da ders çalışma. Türkçede görüşme, tartışma.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Mümessil",
+   "ar": "ممثل",
+   "fr": "momassel",
+   "ok": "momassel",
+   "note": "Mısır'da aktör. Türkçede temsilci.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Fen",
+   "ar": "فن",
+   "fr": "fann",
+   "ok": "fann",
+   "note": "Mısır'da sanat. Türkçede fen = bilim.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Adi",
+   "ar": "عادي",
+   "fr": "3aady",
+   "ok": "ʿâdy",
+   "note": "Mısır'da normal, sıradan. Türkçede adi = bayağı, alçak.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Nar",
+   "ar": "نار",
+   "fr": "naar",
+   "ok": "nâr",
+   "note": "Mısır'da ateş. Türkçede nar = meyve (Mısır'da meyve \"rommaan\").",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Ahiren",
+   "ar": "أخيرا",
+   "fr": "a5eeran",
+   "ok": "akhîran",
+   "note": "Mısır'da sonunda. Türkçede ahiren = kısa süre önce.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Ruh (emir)",
+   "ar": "روح",
+   "fr": "rooh",
+   "ok": "rûh",
+   "note": "Mısır'da emir kipinde \"git, eve git\". Türkçede ruh.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Yemin",
+   "ar": "يمين",
+   "fr": "yemeen",
+   "ok": "yemîn",
+   "note": "Mısır'da sağ taraf. Türkçede yemin = ant.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Hadi",
+   "ar": "هادي",
+   "fr": "haady",
+   "ok": "hâdy",
+   "note": "Sadece ses benzerliği: Mısır'da sakin, huzurlu. Türkçedeki \"hadi\" (haydi) ile ilgisi yok.",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 13,
+   "tr": "Hamam",
+   "ar": "حمام",
+   "fr": "7amaam",
+   "ok": "hamâm",
+   "note": "Kısa okunuşla güvercin. Banyo için uzun okunuş \"7ammaam\".",
+   "tag": "Dikkat"
+  },
+  {
+   "sec": 15,
+   "tr": "Zeki",
+   "ar": "ذكي",
+   "fr": "zaky",
+   "ok": "zeki",
+   "note": "Zeki, akıllı. Örnek: إنت ذكي أوي (enta zaky awy) – Çok zekisin.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Hayat",
+   "ar": "حياة",
+   "fr": "7ayaah",
+   "ok": "hayât",
+   "note": "Hayat, yaşam.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Haber",
+   "ar": "خبر",
+   "fr": "5abar",
+   "ok": "haber",
+   "note": "Haber, bilgi. Mısır telaffuzunda çoğunlukla khabar.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Merhamet",
+   "ar": "رحمة",
+   "fr": "ra7ma",
+   "ok": "rahma",
+   "note": "Merhamet, acıma.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Nimet",
+   "ar": "نعمة",
+   "fr": "ne3ma",
+   "ok": "ne'ma",
+   "note": "Nimet, lütuf.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "İhtimal",
+   "ar": "احتمال",
+   "fr": "e7temaal",
+   "ok": "ihtimâl",
+   "note": "İhtimal, olasılık.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Adam",
+   "ar": "آدم",
+   "fr": "aadem",
+   "ok": "âdem",
+   "note": "Arapçada öncelikle Âdem adı ve insanlıkla ilgili kullanımlar. Türkçedeki günlük 'adam' kelimesiyle her bağlamda birebir aynı değildir.",
+   "tag": "Ortak"
+  },
+  {
+   "sec": 15,
+   "tr": "Lezzet",
+   "ar": "لذة",
+   "fr": "lazza",
+   "ok": "lezza",
+   "note": "Arapça لذة (lezzah) haz/tat alma anlamına gelir; Türkçedeki 'lezzet' ile ilişkili olsa da telaffuz ve kullanım farklıdır.",
+   "tag": "Ortak"
+  }
+ ],
+ "examples": [
+  {
+   "ar": "إنت ذكي أوي",
+   "fr": "enta zaky awy",
+   "ok": "enta zaky awy",
+   "tr": "Çok zekisin. (erkeğe)"
+  },
+  {
+   "ar": "إنتي ذكية أوي",
+   "fr": "enty zakeyya awy",
+   "ok": "enty zakeyya awy",
+   "tr": "Çok zekisin. (kadına)"
+  },
+  {
+   "ar": "فين الكتاب؟",
+   "fr": "feen el-ketaab?",
+   "ok": "fîn el-ketâb?",
+   "tr": "Kitap nerede?"
+  },
+  {
+   "ar": "الساعة كام؟",
+   "fr": "es-saa3a kaam?",
+   "ok": "es-sâʿa kâm?",
+   "tr": "Saat kaç?"
+  },
+  {
+   "ar": "عندي فكرة",
+   "fr": "3andy fekra",
+   "ok": "ʿandy fekra",
+   "tr": "Bir fikrim var."
+  },
+  {
+   "ar": "عندي فرصة",
+   "fr": "3andy forsa",
+   "ok": "ʿandy forsa",
+   "tr": "Bir fırsatım var."
+  },
+  {
+   "ar": "عندي موضوع مهم",
+   "fr": "3andy mawdoo3 mohem",
+   "ok": "ʿandy mawdûʿ mohem",
+   "tr": "Önemli bir konum var."
+  },
+  {
+   "ar": "صباح الخير",
+   "fr": "sabaah el-5eir",
+   "ok": "sabâh el-kheyr",
+   "tr": "Günaydın."
+  },
+  {
+   "ar": "شكرا",
+   "fr": "shokran",
+   "ok": "şokran",
+   "tr": "Teşekkürler."
+  },
+  {
+   "ar": "عفوا",
+   "fr": "3afwan",
+   "ok": "ʿafwan",
+   "tr": "Rica ederim."
+  },
+  {
+   "ar": "ممكن؟",
+   "fr": "momken?",
+   "ok": "momken?",
+   "tr": "Olur mu? / Mümkün mü?"
+  },
+  {
+   "ar": "لازم أروح دلوقتي",
+   "fr": "laazem aroo7 delwa2ty",
+   "ok": "lâzem arûh delwa'ty",
+   "tr": "Şimdi gitmem lazım."
+  },
+  {
+   "ar": "دي مش مشكلة",
+   "fr": "dy mesh moshkela",
+   "ok": "dy meş moşkela",
+   "tr": "Bu sorun değil."
+  },
+  {
+   "ar": "تمام، خلاص",
+   "fr": "tamaam, 5alaas",
+   "ok": "tamâm, khalâs",
+   "tr": "Tamam, bitti."
+  },
+  {
+   "ar": "طبعا!",
+   "fr": "tab3an",
+   "ok": "tabʿan",
+   "tr": "Tabii ki!"
+  },
+  {
+   "ar": "ده مستحيل",
+   "fr": "da mostaheel",
+   "ok": "da mostahîl",
+   "tr": "Bu imkânsız."
+  },
+  {
+   "ar": "أنا مسؤول عن ده",
+   "fr": "ana mas'ool 3an da",
+   "ok": "ana mas'ûl ʿan da",
+   "tr": "Bundan ben sorumluyum."
+  },
+  {
+   "ar": "الحمد لله، أنا كويس",
+   "fr": "el-7amdu lillaah, ana kwayyes",
+   "ok": "el-hamdu lillâh, ana kwayyes",
+   "tr": "Elhamdülillah, iyiyim."
+  },
+  {
+   "ar": "ممنوع الدخول",
+   "fr": "mamnoo3 ed-do5ool",
+   "ok": "mamnûʿ ed-dokhûl",
+   "tr": "Girmek yasak."
+  },
+  {
+   "ar": "مبروك! ألف مبروك",
+   "fr": "mabrook! alf mabrook",
+   "ok": "mabrûk! alf mabrûk",
+   "tr": "Tebrikler! Bin kere tebrikler."
+  },
+  {
+   "ar": "ده غلط",
+   "fr": "da ghalat",
+   "ok": "da ğalat",
+   "tr": "Bu yanlış."
+  },
+  {
+   "ar": "عيب!",
+   "fr": "3eib!",
+   "ok": "ʿeyb!",
+   "tr": "Ayıp!"
+  },
+  {
+   "ar": "ده حرام",
+   "fr": "da 7araam",
+   "ok": "da harâm",
+   "tr": "Bu haram. / Yazık."
+  },
+  {
+   "ar": "أهلا وسهلا",
+   "fr": "ahlan wa sahlan",
+   "ok": "ahlan wa sahlan",
+   "tr": "Hoş geldiniz."
+  },
+  {
+   "ar": "Türkçe  Mısır Arapçası Ortak ve Ben",
+   "fr": "nzer Kelimeler Sözlüğü",
+   "ok": "",
+   "tr": "25 / 26"
+  },
+  {
+   "ar": "يلا بينا",
+   "fr": "yalla beena",
+   "ok": "yalla bîna",
+   "tr": "Hadi gidelim."
+  },
+  {
+   "ar": "أنا عاشق القهوة",
+   "fr": "ana 3aashe2 el-2ahwa",
+   "ok": "ana ʿâşe' el-'ahwa",
+   "tr": "Kahveye âşığım."
+  },
+  {
+   "ar": "حاضر",
+   "fr": "7aader",
+   "ok": "hâder",
+   "tr": "Tamam, başüstüne."
+  },
+  {
+   "ar": "لازم نمضي المقاولة",
+   "fr": "laazem nemdy el-mo2aawla",
+   "ok": "lâzem nemdy el-mo'âwla",
+   "tr": "Sözleşmeyi imzalamamız lazım."
+  },
+  {
+   "ar": "Öğrenirken aklında tut 1. Önce \"Ortak\" etiketli kelim 2. Satırın sonundaki \"Dikkat\" kullanılmaz. 3. \"Osmanlı\" etiketli kelimele tarihî kullanımdadır. 4. Aynı kelimenin yazılışı ile o Türkçe  Mısır Arapçası Ortak ve Ben",
+   "fr": "melerle başla. Bu kelimeleri zaten \" etiketi önemli: aslan, misafir, sak er (bey, hanım, usta, çavuş, köprü okunuşu farklı olabilir. Franco ve nzer Kelimeler Sözlüğü",
+   "ok": "biliyorsun; sadece Mısır'daki s kin, gayret, nar gibi kelimeler T ü, çanta) Mısır'da hâlâ duyulur. Türkçe okunuş sütunlarını birli",
+   "tr": "söyleyişlerini öğreneceksin. Türkçedeki anlamlarıyla . Bazı rütbe adları ise sadece ikte okuyup sesli tekrar et. 26 / 26"
+  }
+ ],
+ "rules": {
+  "franco": [
+   [
+    "2",
+    "ء / ق",
+    "Hemze ya da Mısır'da ق",
+    "2alb = kalp"
+   ],
+   [
+    "3",
+    "ع",
+    "Ayın (boğazdan ses)",
+    "3eib = ayıp"
+   ],
+   [
+    "5",
+    "خ",
+    "Kh (hırıltılı h)",
+    "5abar = haber"
+   ],
+   [
+    "7",
+    "ح",
+    "Nefesli, kuvvetli h",
+    "7aya = hayat"
+   ],
+   [
+    "gh",
+    "غ",
+    "Gırtlaktan ğ",
+    "ghalat = galat"
+   ],
+   [
+    "sh",
+    "ش",
+    "Türkçe ş",
+    "shokran = teşekkürler"
+   ],
+   [
+    "g",
+    "ج",
+    "Mısır'da sert g",
+    "gabal = dağ"
+   ],
+   [
+    "aa / ee / oo",
+    "uzun ünlüler",
+    "â, î, û gibi uzatılır",
+    "saa3a = saat"
+   ]
+  ],
+  "shift": [
+   [
+    "ق → ʼ (hemze)",
+    "Arapçadaki kaf, Mısır'da boğazdan bir duraklama sesi olur.",
+    "kalp ← 2alb · kalem ← 2alam · kale ← 2al3a · kıble ← 2ebla · kadim ← 2adeem"
+   ],
+   [
+    "ج → g",
+    "Türkçe c, Mısır'da sert g okunur.",
+    "cami ← gaame3 · cebel ← gabal · cisim ← gesm · cümle ← gomla · ceyş ← geish"
+   ],
+   [
+    "ع → ünlü",
+    "Türkçede ayın sesi yoktur; çoğunlukla a, ö, u, ı gibi bir ünlüye döner.",
+    "ayıp ← 3eib · ömür ← 3omr · özür ← 3ozr · âdet ← 3aada · asker ← 3askary · mana ← ma3na"
+   ],
+   [
+    "ح، خ → h",
+    "İki ayrı boğaz sesi, Türkçede h olur. Franco'da 5 = خ, 7 = ح.",
+    "hak ← 7a2 · hesap ← 7esaab · haber ← 5abar · hayal ← 5ayaal · hasar ← 5esaara"
+   ],
+   [
+    "غ → g/ğ",
+    "Gırtlaktan gelen g gibi bir ses.",
+    "galat ← ghalat · gazap ← ghadab · garip ← ghareeb"
+   ],
+   [
+    "ث، ذ، ظ → s, z",
+    "Mısır'da çoğunlukla s/t ve z okunur.",
+    "saniye ← taanya · sevap ← sawaab · zenb ← zanb · zulüm ← zolm"
+   ],
+   [
+    "ة → -et / -iyet",
+    "Arapçada kelime sonundaki ة, Türkçede çoğu zaman -et, -at, -iyet olur.",
+    "hürriyet ← 7orreyya · cumhuriyet ← gomhoreyya · hükümet ← 7okooma · devlet ← dawla · kıymet ← 2eema · hareket ← 7araka · sıhhat ← se77a"
+   ],
+   [
+    "o, u → ö, ü",
+    "Mısır Arapçasındaki o/u, Türkçede ö/ü olabilir.",
+    "hüzün ← 7ozn · kürsü ← korsy · dükkân ← dokkaan · müşteri ← moshtary"
+   ],
+   [
+    "-cı → -gy",
+    "Türkçe meslek eki -cı/-ci, Mısır Arapçasında -gy olarak yaşar.",
+    "kahveci ← ahwagy · postacı ← bostagy · boyacı ← boyagy · arabacı ← 3arabagy · baltacı ← baltagy"
+   ],
+   [
+    "Arapça çoğullar",
+    "Türkçede bazı kelimeler, Arapçadaki çoğul biçimiyle girmiştir.",
+    "akraba ← a2aareb · evlât ← awlaad · ahbap ← a7baab · eşya ← ashyaa' · kütüb ← kotob · malumat ← ma3loomaat"
+   ]
+  ]
+ },
+ "tags": {
+  "Ortak": "Arapçadan Türkçeye geçmiş; iki dilde aynı ya da çok benzer.",
+  "Osmanlı": "Türkçeden Mısır Arapçasına geçmiş.",
+  "Batı": "Fransızca, İtalyanca, İngilizce kökenli; iki dilde ortak.",
+  "Dikkat": "Benziyor ama anlamı farklı."
+ }
+}
