@@ -1,10 +1,11 @@
 /**
  * Arapça Öğren — çeviri aracı sunucusu (Cloudflare Worker)
- * Türkçe ⇄ Mısır lehçesi (Kahire halk ağzı) çevirisini Claude ile yapar.
+ * Türkçe ⇄ Mısır lehçesi (Kahire halk ağzı) çevirisini yapar: GEMINI_API_KEY varsa Google Gemini (ücretsiz kota), yoksa ANTHROPIC_API_KEY ile Claude.
  * API anahtarı siteye konmaz; yalnız burada, Cloudflare "Secret" olarak saklanır.
  *
  * Ayarlar (Cloudflare → Worker → Settings → Variables):
- *   ANTHROPIC_API_KEY  (Secret, zorunlu)
+ *   GEMINI_API_KEY     (Secret, ücretsiz yol: aistudio.google.com anahtarı)
+ *   ANTHROPIC_API_KEY  (Secret, ücretli alternatif; Gemini anahtarı yoksa kullanılır)
  *   MODEL              (isteğe bağlı, varsayılan claude-sonnet-5-5)
  *   ALLOWED_ORIGINS    (isteğe bağlı, varsayılan https://abdllhbydgn.github.io)
  *   HOURLY_LIMIT       (isteğe bağlı, kişi başı saatlik istek sınırı, varsayılan 40; KV "RL" bağlıysa çalışır)
@@ -68,7 +69,7 @@ export default {
     if (req.method === 'OPTIONS') return new Response(null, { status: 204, headers: ch });
     if (req.method !== 'POST') return json({ error: 'yalnız POST' }, 405, ch);
     if (!allowed.includes(origin)) return json({ error: 'izin yok' }, 403, ch);
-    if (!env.ANTHROPIC_API_KEY) return json({ error: 'sunucu ayarı eksik' }, 500, ch);
+    if (!env.GEMINI_API_KEY && !env.ANTHROPIC_API_KEY) return json({ error: 'sunucu ayarı eksik' }, 500, ch);
     let body;
     try { body = await req.json(); } catch (e) { return json({ error: 'geçersiz istek' }, 400, ch); }
     const text = String((body && body.text) || '').trim();
@@ -77,6 +78,33 @@ export default {
     if (text.length > MAX_LEN) return json({ error: 'metin en fazla ' + MAX_LEN + ' karakter olabilir' }, 413, ch);
     const ip = req.headers.get('CF-Connecting-IP') || 'x';
     if (await limited(env, ip)) return json({ error: 'saatlik çeviri sınırına ulaştınız, biraz sonra tekrar deneyin' }, 429, ch);
+    if (env.GEMINI_API_KEY) {
+      const models = (env.GEMINI_MODELS || 'gemini-3.1-flash-lite,gemini-3.5-flash-lite,gemini-3.5-flash').split(',').map(s => s.trim());
+      for (const m of models) {
+        for (const think of [{ thinkingBudget: 0 }, null]) {
+          const gc = { responseMimeType: 'application/json', temperature: 0.2 };
+          if (think) gc.thinkingConfig = think;
+          let gr;
+          try {
+            gr = await doFetch('https://generativelanguage.googleapis.com/v1beta/models/' + m + ':generateContent', {
+              method: 'POST',
+              headers: { 'content-type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
+              body: JSON.stringify({ systemInstruction: { parts: [{ text: SYSTEM }] }, contents: [{ role: 'user', parts: [{ text: 'Yön: ' + dir + '\nMetin:\n' + text }] }], generationConfig: gc })
+            });
+          } catch (e) { break; }
+          if (gr.status === 400 && think) continue;
+          if (gr.status === 429) return json({ error: 'günlük ücretsiz çeviri hakkı doldu, yarın tekrar deneyin' }, 429, ch);
+          if (!gr.ok) break;
+          try {
+            const j = await gr.json();
+            const out = parseModelJson((((((j.candidates || [])[0] || {}).content || {}).parts || [{}])[0]).text);
+            if (out.error) return json({ error: String(out.error) }, 422, ch);
+            return json({ ok: true, dir: dir, result: out }, 200, ch);
+          } catch (e) { break; }
+        }
+      }
+      return json({ error: 'çeviri servisi şu an yoğun, biraz sonra tekrar deneyin' }, 503, ch);
+    }
     let r;
     try {
       r = await doFetch('https://api.anthropic.com/v1/messages', {
