@@ -728,3 +728,13 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .ai-dot { width: 12px; height: 12px; border-radius: 50%; background: #EA580C; animation: pulse 1s ease infinite; }
 /* Aynı sayfanın yeniden çizimi (üyelik/eşitleme): animasyon oynatma, titreme olmasın */
 #view.rerender, #view.rerender * { animation: none !important; }
+
+/* Çeviri kutusunda hareket efekti yok */
+.gt-home, .gt-home *, .tr-box.gt, .tr-box.gt *, .gt-hints, .gt-hints * { animation: none !important; transition: none !important; }
+.tr-box.gt:hover, .gt-hints button:hover, .gt-swap:hover, .gt .icon-btn:hover { transform: none !important; }
+.ai-dot { animation: none !important; }
+.gt-btns { display: flex; gap: 8px; }
+.gt .icon-btn#trMic.rec { background: #E11D48; border-color: #E11D48; color: #fff; }
+.brand { cursor: pointer; }
+.brand:active { opacity: .8; }
+.brand:focus-visible { outline: 2px solid #EA580C; outline-offset: 4px; border-radius: 8px; }
