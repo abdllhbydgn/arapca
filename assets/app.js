@@ -368,13 +368,10 @@
     ];
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
-    view.innerHTML = (Q.length ? `<section class="quote fade" id="quote"></section>` : '') + `<section class="hero fade">
+    view.innerHTML = `<section class="gt-home fade"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `<section class="hero fade">
         <div class="hero-float" aria-hidden="true"><span>ع</span><span>ب</span><span>م</span><span>ص</span><span>ر</span><span>ك</span></div>
         <h1>Ahlan wa sahlan! 👋</h1>
         <p>Mısır lehçesini (Masri) Türkçe açıklamalarla öğren: çeviri, sözlük, kartlar, konuşma ve gramer bir arada.</p>
-        <form class="hero-tr" id="heroForm"><input id="heroIn" placeholder="Türkçe veya Arapça yaz, çevirelim… (ör. nasılsın, ne kadar, ماشي)" autocomplete="off" aria-label="Çevrilecek metin"><button class="btn gold" type="submit">${ic('tr')} Çevir</button></form>
-        <div id="heroOut" class="hero-out" hidden></div>
-        <div class="hero-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div>
       </section>
       <div class="stats">
         <div class="stat vivid" style="--g1:#7C5CFF;--g2:#C084FC"><div class="ringbox">${ringSvg(x.n / DAILY_GOAL, 58, '#fff')}<span>${Math.min(100, Math.round(x.n / DAILY_GOAL * 100))}%</span></div><div><b>${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL} XP</b><small>Günlük hedef</small></div></div>
@@ -393,7 +390,7 @@
         <div class="card pad"><b>ج = G</b><p style="margin:6px 0 0;color:var(--muted)">Mısır'da ج sert "g" okunur: <span class="ar">جميل</span> → gamiil (güzel).</p></div>
         <div class="card pad"><b>ق = hemze</b><p style="margin:6px 0 0;color:var(--muted)">Kahire'de ق çoğunlukla yutulur: <span class="ar">قلب</span> → 'alb (kalp).</p></div>
         <div class="card pad"><b>ب- = şimdiki zaman</b><p style="margin:6px 0 0;color:var(--muted)">Fiilin başına b- gelir: <span class="ar">باكل</span> → bākol (yiyorum).</p></div>
-      </div>`;
+      </div>` + (Q.length ? `<section class="quote q-small fade" id="quote"></section>` : '');
     // Günün sözü: her gün değişir, oklarla önceki/sonraki günlere bakılır / Saying of the day, browsable
     let qOff = 0;
     const drawQuote = () => {
@@ -418,26 +415,9 @@
       $('#luckyBtn').onclick = lucky.onclick;
       speak(e.ar);
     };
-    $('#heroForm').onsubmit = ev => { ev.preventDefault(); const v = $('#heroIn').value.trim(); go('#/ceviri?q=' + encodeURIComponent(v)); };
-    // Ana sayfada anında çeviri ve Mısır sesiyle dinleme / Instant translation with Egyptian audio on the home page
-    let hTm;
-    const heroRun = () => {
-      const v = $('#heroIn').value.trim(), box = $('#heroOut');
-      if (!v) { box.hidden = true; return; }
-      const dir = isAr(v) ? 'ar' : 'tr', r = translate(v, dir);
-      let m = r.exact[0], sentence = null;
-      // (kelime dizisi çeviri gibi gösterilmez)
-      if (!m && !sentence) m = r.similar[0];
-      const ar = m ? m.ar : sentence ? sentence.map(e => e.ar).join(' ') : '';
-      const ok = m ? m.ok : sentence ? sentence.map(e => e.ok).join(' ') : '';
-      const tr = m ? m.tr : '';
-      box.hidden = false;
-      box.innerHTML = ar ? `<div class="ho-main">${dir === 'tr' ? `<span class="ar">${esc(ar)}</span><span class="ok">${esc(ok)}</span>` : `<span class="tw">${esc(tr || ok)}</span><span class="ok">${esc(ok)}</span>`}</div>
-        <div class="ho-act">${playBtn(ar)}<a class="btn sm ghost" href="#/ceviri?q=${encodeURIComponent(v)}">Detaylı çeviri →</a></div>${!r.exact.length ? '<small class="ho-note">En yakın karşılık · ayrıntı için detaylı çeviriye bakın</small>' : ''}`
-        : `<small class="ho-note">Sözlükte karşılık bulunamadı · <a href="#/ceviri?q=${encodeURIComponent(v)}">detaylı çeviriyi dene</a></small>`;
-    };
-    $('#heroIn').oninput = () => { clearTimeout(hTm); hTm = setTimeout(heroRun, 180); };
-    $$('[data-hint]').forEach(b => b.onclick = () => { $('#heroIn').value = b.dataset.hint; heroRun(); });
+    // Ana sayfa çeviri kutusu: Çeviri sayfasıyla aynı motor ve tasarım / Home translator: same engine and design as the Translate page
+    mountTranslator('', { hash: false, focus: false, more: false });
+    $$('[data-hint]').forEach(b => b.onclick = () => { const i = $('#trIn'); i.value = b.dataset.hint; i.dispatchEvent(new Event('input')); });
   };
 
   // ── Çeviri motoru / Translation engine ──
@@ -542,23 +522,22 @@
     }
     return res;
   }
-  ROUTES.ceviri = function (a, q) {
-    let dir = q.dir === 'ar' ? 'ar' : 'tr';
-    const init = q.q || '';
+  const trBoxHtml = () => `<div class="card tr-box gt">
+      <div class="gt-bar"><span class="lang gt-l" id="lIn"></span><button id="trSwap" class="gt-swap" aria-label="Yön değiştir" title="Yön değiştir">${ic('swap')}</button><span class="lang gt-l gt-r" id="lOut"></span></div>
+      <div class="gt-panes">
+        <div class="tr-pane gt-in"><textarea class="tr-in" id="trIn" rows="5" placeholder="Metni yazın…" aria-label="Çevrilecek metin"></textarea>
+          <div class="gt-foot"><button class="icon-btn" id="trClear" title="Temizle" aria-label="Temizle">${ic('x')}</button><span id="trCount"></span></div></div>
+        <div class="tr-pane gt-out"><div id="trOut" class="tr-out-main"></div></div>
+      </div></div>`;
+  function mountTranslator(init, o) {
+    o = o || {};
+    let dir = o.dir === 'ar' ? 'ar' : 'tr';
     if (init && isAr(init)) dir = 'ar';
-    view.innerHTML = pageHead('Çeviri', 'Türkçe ⇄ Mısır lehçesi. Yalnızca portalın Mısır lehçesi sözlüğünü kullanır (standart Arapça/Fusha yok); birebir karşılık yoksa kelime kelime çözümler ve en yakın ifadeyi gösterir. Franko (ör. <b>ezzayak</b>) da yazabilirsiniz.') +
-      `<div class="card tr-box">
-        <div class="tr-pane"><div class="tr-head"><span class="lang" id="lIn"></span></div><textarea class="tr-in" id="trIn" rows="4" placeholder="Yazın…" aria-label="Çevrilecek metin"></textarea>
-          <div style="display:flex;gap:8px;align-items:center;"><button class="btn sm ghost" id="trClear">${ic('x')} Temizle</button><span id="trCount" style="margin-left:auto;font-size:12px;color:var(--muted)"></span></div></div>
-        <div class="tr-swap"><button id="trSwap" aria-label="Yön değiştir" title="Yön değiştir">${ic('swap')}</button></div>
-        <div class="tr-pane"><div class="tr-head"><span class="lang" id="lOut"></span></div><div id="trOut" class="tr-out-main"></div></div>
-      </div>
-      <div id="trMore"></div>`;
     const inp = $('#trIn');
     inp.value = init;
     const setDir = () => {
-      $('#lIn').textContent = dir === 'tr' ? '🇹🇷 Türkçe' : '🇪🇬 Mısır Arapçası';
-      $('#lOut').textContent = dir === 'tr' ? '🇪🇬 Mısır Arapçası' : '🇹🇷 Türkçe';
+      $('#lIn').textContent = dir === 'tr' ? 'Türkçe' : 'Mısır Arapçası';
+      $('#lOut').textContent = dir === 'tr' ? 'Mısır Arapçası' : 'Türkçe';
       inp.classList.toggle('ar', dir === 'ar');
       inp.dir = dir === 'ar' ? 'rtl' : 'ltr';
     };
@@ -567,10 +546,10 @@
       const text = inp.value;
       $('#trCount').textContent = text.length ? text.length + ' karakter' : '';
       if (text.trim() && isAr(text) && dir === 'tr') { dir = 'ar'; setDir(); }
-      history.replaceState(null, '', '#/ceviri?q=' + encodeURIComponent(text) + (dir === 'ar' ? '&dir=ar' : ''));
+      if (o.hash) history.replaceState(null, '', '#/ceviri?q=' + encodeURIComponent(text) + (dir === 'ar' ? '&dir=ar' : ''));
       const r = translate(text, dir);
-      const out = $('#trOut'), more = $('#trMore');
-      if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri burada görünecek.</div>`; more.innerHTML = ''; return; }
+      const out = $('#trOut'), more = o.more ? $('#trMore') : { innerHTML: '' };
+      if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri</div>`; more.innerHTML = ''; return; }
       let main = r.exact[0], approx = false;
       if (!main && r.similar.length && !r.gloss.every(g => g.e)) {
         // En yakın ifade, sözlükte bulunan asıl kelimeleri de içermeli (ör. "avans") / The closest phrase must contain the known content words
@@ -619,7 +598,11 @@
     };
     $('#trClear').onclick = () => { inp.value = ''; run(); inp.focus(); };
     run();
-    inp.focus();
+    if (o.focus) inp.focus();
+  }
+  ROUTES.ceviri = function (a, q) {
+    view.innerHTML = pageHead('Çeviri', 'Türkçe ⇄ Mısır lehçesi. Yalnızca portalın Mısır lehçesi sözlüğünü kullanır (standart Arapça/Fusha yok); birebir karşılık yoksa kelime kelime çözümler ve en yakın ifadeyi gösterir. Franko (ör. <b>ezzayak</b>) da yazabilirsiniz.') + trBoxHtml() + '<div id="trMore"></div>';
+    mountTranslator(q.q || '', { dir: q.dir, hash: true, focus: true, more: true });
   };
 
   // ── Fabrika dili / Garment-factory shop-floor language ──
