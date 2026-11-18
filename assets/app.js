@@ -387,11 +387,7 @@
     ];
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
-    view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `<section class="hero fade">
-        <div class="hero-float" aria-hidden="true"><span>ع</span><span>ب</span><span>م</span><span>ص</span><span>ر</span><span>ك</span></div>
-        <h1>Ahlan wa sahlan! 👋</h1>
-        <p>Mısır lehçesini (Masri) Türkçe açıklamalarla öğren: çeviri, sözlük, kartlar, konuşma ve gramer bir arada.</p>
-      </section>
+    view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `
       <div class="stats">
         <div class="stat vivid" style="--g1:#7C5CFF;--g2:#C084FC"><div class="ringbox">${ringSvg(x.n / DAILY_GOAL, 58, '#fff')}<span>${Math.min(100, Math.round(x.n / DAILY_GOAL * 100))}%</span></div><div><b>${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL} XP</b><small>Günlük hedef</small></div></div>
         <div class="stat vivid" style="--g1:#FFB020;--g2:#FF7A45"><div class="ic">🏅</div><div><b>Seviye ${lv}</b><small>${esc(lvlName(lv))} · ${x.total} XP</small></div></div>
