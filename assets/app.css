@@ -646,3 +646,24 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .ort-sh > div { grid-template-columns: 150px 1fr 1.4fr; align-items: start; }
 .ort-n { font-size: 13px; color: var(--muted); margin: 8px 0 0; line-height: 1.55; }
 @media (max-width: 720px) { .ort-legend { grid-template-columns: 1fr; } .ort-tbl > div { grid-template-columns: 70px 90px 1fr; } .ort-tbl > div > span:nth-child(4) { grid-column: 1 / -1; color: var(--muted); } .ort-tbl .ort-th span:nth-child(4) { display: none; } .ort-sh > div { grid-template-columns: 1fr; gap: 3px; } }
+
+/* Cümle Kur */
+.ck-card { display: flex; flex-direction: column; gap: 18px; }
+.ck-sec > b { display: block; margin-bottom: 8px; color: var(--navy); font-size: 14px; }
+:root[data-theme="dark"] .ck-sec > b { color: #fff; }
+.ck-in { width: 100%; padding: 11px 14px; border: 1.5px solid var(--line); border-radius: 12px; background: var(--surface); color: var(--ink); font: inherit; font-size: 15px; }
+.ck-mini { margin-top: 8px; }
+.ck-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 10px; }
+.ck-grid label { display: flex; flex-direction: column; gap: 4px; font-size: 12px; font-weight: 700; color: var(--muted); }
+.ck-grid select { width: 100%; min-width: 0; padding: 9px 10px; border: 1.5px solid var(--line); border-radius: 10px; background: var(--surface); color: var(--ink); font: inherit; font-size: 14px; }
+.ck-out { margin-top: 16px; border-left: 4px solid #EA580C; }
+.ck-ar { font-size: 32px; line-height: 1.5; }
+.ck-tr { margin-top: 8px; font-size: 13px; color: var(--muted); }
+.ck-pcs { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 14px; }
+.ck-pc { flex-direction: column; align-items: center; cursor: pointer; }
+.ck-pc .ar { font-size: 18px; }
+.ck-pc small { font-size: 11px; color: var(--muted); }
+.ck-err { color: #E11D48; font-weight: 700; }
+.ck-note { font-size: 12.5px; color: var(--muted); margin: 12px 4px; }
+@media (max-width: 720px) { .ck-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } .ck-ar { font-size: 26px; } }
+.tr-none p { color: var(--muted); font-size: 14px; line-height: 1.55; margin: 6px 0 12px; }

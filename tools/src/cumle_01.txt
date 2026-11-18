@@ -1,0 +1,137 @@
+SN|Günaydın, nasılsın? / Günaydın, naber?|صباح الخير، عامل إيه؟|sabaa7 el-5eir, 3aamel eh?
+SN|Günaydın, nasılsınız? (kadına)|صباح الخير، عاملة إيه؟|sabaa7 el-5eir, 3amla eh?
+SN|İyi akşamlar, hoş geldiniz|مساء الخير، نورتوا|masaa2 el-5eir, nawwartoo
+SN|İyi geceler, yarın görüşürüz|تصبح على خير، نتقابل بكرة|tesba7 3ala 5eir, netqabel bokra
+SN|Hoş geldin, buyur otur|أهلا بيك، اتفضل اقعد|ahlan beek, etfaddal o2o3od
+SN|Hoş bulduk|أهلا بيك|ahlan beek
+SN|Seni görmek ne güzel|فرحت أوي إني شفتك|fere7t awy enny shoftak
+SN|Uzun zamandır görüşemedik|مبقناش نشوفك من زمان|mabaqnash neshoofak men zamaan
+SN|Ailen nasıl? / Aile nasıl?|أخبار أهلك إيه؟|a5baar ahlak eh?
+SN|Çok sağ ol, Allah razı olsun|متشكر أوي، ربنا يجازيك خير|motashakker awy, rabbena yegaazeek 5eir
+SN|Rica ederim, bir şey değil|العفو، ولا يهمك|el-3afw, wala yehemmak
+SN|Affedersiniz, bir şey sorabilir miyim?|لو سمحت، ممكن أسأل سؤال؟|law samaht, momken as2al so2aal?
+SN|Pardon, yolu açar mısınız?|ممكن تفسحلي الطريق لو سمحت؟|momken tefasa7ly el-taree2 law samaht?
+SN|Özür dilerim, geç kaldım|آسف إني اتأخرت|aasef enny et2a5art
+SN|Sorun değil, olur böyle şeyler|مفيش مشكلة، بتحصل|mafeesh moshkela, bte7sal
+SN|Allah’a emanet ol|في أمان الله|fy amaan allah
+SN|Görüşürüz, kendine iyi bak|نشوفك على خير، خلي بالك من نفسك|neshoofak 3ala 5eir, 5ally baalak men nafsak
+SN|Haydi, hayırlı işler|يلا، شغل موفق|yalla, shoghl mowaffa2
+SN|Allah kolaylık versin|ربنا يسهّل|rabbena yesahhel
+SN|Geçmiş olsun|سلامتك|salaamtak
+SN|Allah rahatlık versin|ربنا يشفيك|rabbena yeshfeek
+SN|Tebrik ederim, hayırlı olsun|مبروك، ألف مبروك|mabrook, alf mabrook
+SN|Bayramınız mübarek olsun|كل سنة وانتو طيبين|kol sana wenta tayyebeen
+SN|Her şey gönlünce olsun|ربنا يوفقك|rabbena yewaffa2ak
+SN|Şerefe, afiyet olsun|بالهنا والشفا|bel-hana wesh-shefa
+SN|Sizi tanıştırayım, bu müdürümüz|أعرفك على المدير بتاعنا|a3arrefak 3ala el-modeer beta3na
+SN|Tanıştığımıza memnun oldum|اتشرفت بمعرفتك|et-sharraft bema3refetak
+SN|Adım Abdullah, sizin adınız?|اسمي عبد الله، حضرتك اسمك إيه؟|esmy abdallah, 7adretak esmak eh?
+SN|Nerelisin? / Memleketin neresi?|إنت منين؟|enta meneen?
+SN|Türkiye’denim, İstanbul’dan|أنا من تركيا، من إسطنبول|ana men torkeya, men esTanbool
+SN|Mısır’ı çok seviyorum|أنا بحب مصر أوي|ana ba7ebb maSr awy
+SN|Burada kaç yıldır çalışıyorsun?|بقالك قد إيه شغال هنا؟|ba2alak 2add eh shaghaal hena?
+SN|İki yıldır buradayım|بقالي سنتين هنا|ba2aly santeen hena
+SN|Arapçam çok iyi değil|عربيتي مش حلوة أوي|3arabeyyety mesh 7elwa awy
+SN|Biraz Arapça biliyorum|بعرف شوية عربي|ba3raf showayet 3araby
+SN|Yavaş konuşur musun lütfen?|ممكن تتكلم أبطأ لو سمحت؟|momken tetkallem abta2 law samaht?
+SN|Tekrar eder misin?|ممكن تعيد تاني؟|momken te3eed tany?
+SN|Anladım, teşekkürler|فهمت، شكرا|fehemt, shokran
+SN|Tam anlamadım, açıklar mısın?|مفهمتش كويس، ممكن توضحلي؟|mafhemtesh kwayes, momken twadda7ly?
+SN|Bunu Arapça nasıl söylerim?|أقولها إزاي بالعربي؟|a2oolha ezzay bel-3araby?
+SN|Bu ne demek?|ده معناه إيه؟|da ma3nah eh?
+SN|Bunu bana yazar mısın?|ممكن تكتبهالي؟|momken tektebhaly?
+SN|Telefon numaranı alabilir miyim?|ممكن آخد رقم تليفونك؟|momken a5od ra2am telefonak?
+SN|Seni WhatsApp’tan ararım|هكلمك على الواتساب|hakallemak 3ala el-whatsapp
+SN|Bir mesaj atarım|هبعتلك رسالة|haba3tilak resala
+SN|Allah’ın izniyle yarın görüşürüz|إن شاء الله نتقابل بكرة|enshallah netqabel bokra
+GK|Ne yapıyorsun?|بتعمل إيه؟|bet3mel eh?
+GK|Şu an işteyim, sonra konuşalım|أنا في الشغل دلوقتي، نتكلم بعدين|ana fel-shoghl delwa2ty, netkallem ba3deen
+GK|Bir dakika bekle lütfen|استنى دقيقة لو سمحت|esstanna de2ee2a law samaht
+GK|Hemen geliyorum|جاي حالا|gaay 7aalan
+GK|Şimdi uygun değilim|مش فاضي دلوقتي|mesh faady delwa2ty
+GK|Seninle sonra konuşabilir miyim?|ينفع أكلمك بعدين؟|yenfa3 akallemak ba3deen?
+GK|Bugün çok yoğunum|أنا مشغول أوي النهارده|ana mashghool awy el-naharda
+GK|Çok yorgunum, dinlenmek istiyorum|أنا تعبان أوي، عايز أرتاح|ana ta3baan awy, 3aayez artaa7
+GK|Bugün işe gelemeyeceğim|مش هقدر آجي الشغل النهارده|mesh ha2dar aagy el-shoghl el-naharda
+GK|Yarın erken geleceğim|هاجي بدري بكرة|hagy badry bokra
+GK|Beni bekleme, geç kalacağım|متستناش، هتأخر|matestanash, hat2a5ar
+GK|Yoldayım, birazdan oradayım|أنا في الطريق، هوصل كمان شوية|ana fel-taree2, hawsal kamaan showaya
+GK|Trafik çok yoğun|الزحمة جامدة أوي|el-zo7ma gaamda awy
+GK|Neredesin şimdi?|إنت فين دلوقتي؟|enta feen delwa2ty?
+GK|Ofisteyim, sen neredesin?|أنا في المكتب، إنت فين؟|ana fel-maktab, enta feen?
+GK|Bilmiyorum, öğrenip sana haber veririm|معرفش، هعرف وأقولك|ma3rafsh, ha3raf wa2olak
+GK|Emin değilim|مش متأكد|mesh mota2akked
+GK|Evet, kesinlikle|أيوه، أكيد|aywa, akeed
+GK|Hayır, öyle değil|لأ، مش كده|la2, mesh kedda
+GK|Belki, bakalım|يمكن، نشوف|yemken, neshoof
+GK|Tamam, anlaştık|ماشي، اتفقنا|maashy, ettafa2na
+GK|Olur, sorun yok|تمام، مفيش مشكلة|tamaam, mafeesh moshkela
+GK|Katılmıyorum|مش موافق|mesh mowaf2
+GK|Haklısın|عندك حق|3andak 7a2
+GK|Bana güven|ثق فيا|se2 fiyya
+GK|Sana söz veriyorum|أوعدك|aw3edak
+GK|Merak etme, ben hallederim|متقلقش، أنا هظبطها|mat2la2sh, ana hazabbatha
+GK|Bu benim hatam|ده غلطتي|da ghaltety
+GK|Bu senin suçun değil|دي مش غلطتك|dy mesh ghaltetak
+GK|Ne oldu? Neyin var?|حصل إيه؟ مالك؟|7asal eh? maalak?
+GK|Hiçbir şey, iyiyim|مفيش حاجة، أنا كويس|mafeesh 7aaga, ana kwayes
+GK|Sana bir şey söyleyeceğim|عايز أقولك حاجة|3aayez a2olak 7aaga
+GK|Bir fikrim var|عندي فكرة|3andy fekra
+GK|Ne düşünüyorsun?|إنت شايف إيه؟|enta shayef eh?
+GK|Bence daha iyi olur|أنا شايف إنه هيبقى أحسن|ana shayef enno hayeb2a a7san
+GK|Neden böyle yaptın?|ليه عملت كده؟|leh 3amalt keda?
+GK|Çünkü vaktim yoktu|لأن مكانش عندي وقت|le2enno makansh 3andy wa2t
+GK|Bunu ben yapamam|أنا مقدرش أعمل ده|ana ma2darsh a3mel da
+GK|Bana yardım edebilir misin?|ينفع تساعدني؟|yenfa3 tesa3edny?
+GK|Elbette, ne lazım?|طبعا، محتاج إيه؟|tab3an, me7taag eh?
+GK|Buraya gel lütfen|تعالى هنا لو سمحت|ta3aala hena law samaht
+GK|Şuraya bak|بص هناك|boss henaak
+GK|Dinle beni|اسمعني|esma3ny
+GK|Sakin ol, acele etme|اهدى، متستعجلش|ehda, matest3ajelsh
+GK|Dikkat et, düşersin|خد بالك، هتقع|5od baalak, hat2a3
+GK|Haydi gidelim|يلا نمشي|yalla nemshy
+GK|Biraz daha bekleyelim|نستنى شوية كمان|nestanna showaya kamaan
+GK|Artık gidebiliriz|نقدر نمشي دلوقتي|ne2dar nemshy delwa2ty
+GK|Bugün hava çok sıcak|الجو حر أوي النهارده|el-gaw 7arr awy el-naharda
+GK|Hava soğudu, ceket al|الجو برد، خد جاكت|el-gaw bard, 5od jaket
+GK|Yağmur yağacak galiba|شكلها هتمطر|shakloha hatmattar
+GK|Bugün günlerden ne?|النهارده إيه؟|el-naharda eh?
+GK|Saat kaç oldu?|الساعة كام دلوقتي؟|el-saa3a kaam delwa2ty?
+GK|Saat beş buçuk|الساعة خمسة ونص|el-saa3a 5amsa we noss
+GK|Kaçta buluşuyoruz?|هنتقابل الساعة كام؟|hanetqabel el-saa3a kaam?
+GK|Sabah sekizde burada ol|كون هنا الساعة تمانية الصبح|koon hena el-saa3a tamanya el-sob7
+GK|On dakika içinde bitiririm|هخلصها في عشر دقايق|ha5alleshha fy 3ashar de2aye2
+GK|Yarım saat sonra tekrar ara|كلمني بعد نص ساعة|kallemny ba3d noss saa3a
+GK|Bu hafta sonu boşum|أنا فاضي في الويك إند|ana faady fel-weekend
+GK|Cuma günü tatil|يوم الجمعة إجازة|yom el-gom3a egaaza
+GK|Gelecek ay izin alacağım|هاخد إجازة الشهر الجاي|ha5od egaaza el-shahr el-gaay
+GK|Geçen hafta çok çalıştık|اشتغلنا كتير الأسبوع اللي فات|eshtaghalna ketir el-osboo3 elly faat
+GK|Dün gece hiç uyuyamadım|معرفتش أنام إمبارح بالليل|ma3refsh anaam embaare7 bel-leel
+GK|Bu sabah geç kalktım|صحيت متأخر الصبح ده|se7eet met2a5ar el-sob7 da
+GK|Kahve içer misin?|تشرب قهوة؟|tesharab ahwa?
+GK|Çay içelim, ısmarlıyorum|نشرب شاي، أنا هعزمك|nesharab shay, ana ha3zemak
+GK|Su var mı?|فيه ميه؟|fee meyya?
+GK|Acıktım, bir şey yiyelim|أنا جعان، نأكل حاجة|ana ga3aan, nakol 7aaga
+GK|Çok susadım|أنا عطشان أوي|ana 3atshaan awy
+GK|Telefonum şarj bitti|الموبايل فصل شحن|el-mobile fassal shahn
+GK|Şarj aletin var mı?|معاك شاحن؟|ma3ak shaa7en?
+GK|İnternet çekmiyor|النت مش شغال|el-net mesh shaghaal
+GK|Wi-Fi şifresi nedir?|باسورد الواي فاي إيه؟|password el-wifi eh?
+GK|Bunu fotoğrafını çekebilir misin?|ممكن تصور ده؟|momken tSawwar da?
+GK|Bana adresi gönder|ابعتلي العنوان|ebta3ly el-3enwaan
+GK|Konumunu paylaşır mısın?|ممكن تبعتلي لوكيشنك؟|momken tebta3ly location-ak?
+GK|Beni bir yere bırakır mısın?|ممكن توصلني في مكان؟|momken twaSSalny fy makaan?
+GK|Anahtarımı kaybettim|ضيعت المفتاح بتاعي|dayya3t el-meftaa7 beta3y
+GK|Cüzdanımı unuttum|نسيت المحفظة|nesyt el-ma7faza
+GK|Şemsiyeni getirdin mi?|جبت الشمسية؟|gebt el-shamseyya?
+GK|Pasaportunu yanına al|خد جواز السفر معاك|5od gawaaz el-safar ma3aak
+GK|Bugün ne yapacağız?|هنعمل إيه النهارده؟|hana3mel eh el-naharda?
+GK|Bir planın var mı?|عندك خطة؟|3andak 5otta?
+GK|Bu işi birlikte yaparız|هنعمل الشغلانة دي سوا|hana3mel el-shaghlaana dy sawa
+GK|Herkes hazır mı?|الكل جاهز؟|el-kol gaahez?
+GK|Başlayabiliriz|نقدر نبدأ|ne2dar nebda2
+GK|Bitti, teşekkürler herkese|خلصنا، شكرا للجميع|5alasna, shokran lel-gamee3
+GK|Yarın görüşürüz, hoşça kal|نتقابل بكرة، مع السلامة|netqabel bokra, ma3a el-salaama
+GK|Allah’a emanet ol, yolun açık olsun|في رعاية الله، طريق السلامة|fy re3aayet allah, taree2 el-salaama
+GK|Eve varınca haber ver|لما توصل البيت طمني|lamma tewsal el-beit tammeny
+GK|Kendine iyi bak, hoşça kal|خلي بالك من نفسك، مع السلامة|5ally baalak men nafsak, ma3a el-salaama

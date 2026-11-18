@@ -1,0 +1,90 @@
+# tr|P (geçmiş 3. tekil erkek)|C (ünsüz ekinden önce kök)|S (şimdiki kök, ön ek yok)|I (emir)|p3f|p3p|bayraklar|participle
+# her alan ar~franko ; bayraklar: d=eksik fiil (sonu ا/ى/ي), v=ünlüyle başlayan kök, ana=... (ben için özel biçim)
+gitmek|راح~raa7|رح~ro7|روح~roo7|روح~roo7|راحت~raa7it|راحوا~raa7oo||رايح~raaye7
+gelmek|جه~geh|جي~gee|جي~gy|تعالى~ta3aala;تعالي~ta3aaly;تعالوا~ta3aaloo|جت~get|جم~gom|d,neg3=ماجاش~magaash;ماجتش~magetsh;ماجوش~magoosh|جاي~gaay
+yapmak / etmek|عمل~3amal|عمل~3amal|عمل~3mel|اعمل~e3mel|عملت~3amalit|عملوا~3amaloo||
+yemek|أكل~akal|أكل~akal|اكل~aakol|كل~kol|أكلت~akalit|أكلوا~akaloo|v,ana=آكل~aakol|
+içmek|شرب~shereb|شرب~sherib|شرب~shrab|اشرب~eshrab|شربت~sherbit|شربوا~sherboo||
+görmek|شاف~shaaf|شف~shof|شوف~shoof|شوف~shoof|شافت~shaafit|شافوا~shaafoo||شايف~shaayef
+söylemek / demek|قال~2aal|قل~2ol|قول~2ool|قول~2ool|قالت~2aalit|قالوا~2aaloo||
+bilmek|عرف~3eraf|عرف~3eraf|عرف~3raf|اعرف~e3raf|عرفت~3arafit|عرفوا~3arafoo||عارف~3aaref
+anlamak|فهم~fehem|فهم~fehem|فهم~fham|افهم~efham|فهمت~fehmit|فهموا~fehmoo||فاهم~faahem
+çalışmak|اشتغل~eshtaghal|اشتغل~eshtaghal|شتغل~shtaghal|اشتغل~eshtaghal|اشتغلت~eshtaghalit|اشتغلوا~eshtaghaloo||شغال~shaghaal
+yazmak|كتب~katab|كتب~katab|كتب~ktib|اكتب~ektib|كتبت~katabit|كتبوا~katabo||
+okumak|قرا~2ara|قري~2aray|قرا~2ra|اقرا~e2ra|قرت~2arit|قروا~2aroo|d|
+beklemek|استنى~estanna|استني~estannay|ستنى~stanna|استنى~estanna|استنت~estannit|استنوا~estannoo|d|مستني~mestanny
+oturmak|قعد~2a3ad|قعد~2a3ad|قعد~2o3od|اقعد~o2o3od|قعدت~2a3adit|قعدوا~2a3adoo||قاعد~2aa3ed
+uyumak|نام~naam|نم~nem|نام~naam|نام~naam|نامت~naamit|ناموا~naamoo||نايم~naayem
+uyanmak|صحي~se7y|صحي~se7ee|صحى~s7a|اصحى~es7a|صحيت~se7yit|صحيوا~se7yoo|d|
+vermek|ادى~edda|ادي~edday|دي~ddy|ادي~eddy|ادت~eddit|ادوا~eddoo|d|
+almak|خد~5ad|خد~5ad|اخد~aa5od|خد~5od|خدت~5adit|خدوا~5adoo|v,ana=آخد~aa5od|
+getirmek|جاب~gaab|جب~geb|جيب~geeb|جيب~geeb|جابت~gaabit|جابوا~gaaboo||
+koymak / bırakmak (yerleştirmek)|حط~7att|حطي~7attay|حط~7ott|حط~7ott|حطت~7attit|حطوا~7attoo||
+açmak|فتح~fatah|فتح~fatah|فتح~fta7|افتح~efta7|فتحت~fata7it|فتحوا~fata7oo||
+kapatmak|قفل~2afal|قفل~2afal|قفل~2fel|اقفل~e2fel|قفلت~2afalit|قفلوا~2afaloo||
+başlamak|بدأ~bada2|بدأ~bada2|بدأ~bda2|ابدأ~ebda2|بدأت~bada2it|بدأوا~bada2oo||
+bitirmek|خلص~5allas|خلص~5allas|خلص~5allas|خلص~5allas|خلصت~5allasit|خلصوا~5allasoo||
+aramak (telefonla) / hitap etmek|كلم~kallem|كلم~kallem|كلم~kallem|كلم~kallem|كلمت~kallemit|كلموا~kallemoo||
+konuşmak|اتكلم~etkallem|اتكلم~etkallem|تكلم~tkallem|اتكلم~etkallem|اتكلمت~etkallemit|اتكلموا~etkallemoo||
+sormak|سأل~sa2al|سأل~sa2al|سأل~s2al|اسأل~es2al|سألت~sa2alit|سألوا~sa2aloo||
+yardım etmek|ساعد~saa3ed|ساعد~saa3ed|ساعد~saa3ed|ساعد~saa3ed|ساعدت~saa3edit|ساعدوا~saa3edoo||
+öğrenmek|اتعلم~et3allem|اتعلم~et3allem|تعلم~t3allem|اتعلم~et3allem|اتعلمت~et3allemit|اتعلموا~et3allemoo||
+öğretmek|علم~3allem|علم~3allem|علم~3allem|علم~3allem|علمت~3allemit|علموا~3allemoo||
+sevmek|حب~7abb|حبي~7abbay|حب~7ebb|حب~7ebb|حبت~7abbit|حبوا~7abboo||
+satın almak|اشترى~eshtara|اشتري~eshteray|شتري~shtery|اشتري~eshtery|اشترت~eshtarit|اشتروا~eshtaroo|d|
+satmak|باع~baa3|بع~be3|بيع~bee3|بيع~bee3|باعت~baa3it|باعوا~baa3oo||
+ödemek|دفع~dafa3|دفع~dafa3|دفع~dfa3|ادفع~edfa3|دفعت~dafa3it|دفعوا~dafa3oo||
+çalıştırmak (makineyi)|شغل~shaghghal|شغل~shaghghal|شغل~shaghghal|شغل~shaghghal|شغلت~shaghghalit|شغلوا~shaghghaloo||
+durdurmak|وقف~wa22af|وقف~wa22af|وقف~wa22af|وقف~wa22af|وقفت~wa22afit|وقفوا~wa22afoo||
+tamir etmek|صلح~sallah|صلح~sallah|صلح~sallah|صلح~sallah|صلحت~sallahit|صلحوا~sallahoo||
+temizlemek|نضف~naddaf|نضف~naddaf|نضف~naddaf|نضف~naddaf|نضفت~naddafit|نضفوا~naddafoo||
+kesmek|قطع~2ata3|قطع~2ata3|قطع~2ta3|اقطع~e2ta3|قطعت~2ata3it|قطعوا~2ata3oo||
+dikmek|خيط~5ayyat|خيط~5ayyat|خيط~5ayyat|خيط~5ayyat|خيطت~5ayyatit|خيطوا~5ayyatoo||
+ütülemek|كوى~kawwa|كوي~kawway|كوي~kawwy|كوي~kawwy|كوت~kawwit|كووا~kawwoo|d|
+paketlemek|غلف~ghallaf|غلف~ghallaf|غلف~ghallaf|غلف~ghallaf|غلفت~ghallafit|غلفوا~ghallafoo||
+göndermek|بعت~ba3at|بعت~ba3at|بعت~b3at|ابعت~eb3at|بعتت~ba3atit|بعتوا~ba3atoo||
+teslim almak|استلم~estalam|استلم~estalam|ستلم~stalem|استلم~estalem|استلمت~estalamit|استلموا~estalamoo||
+teslim etmek|سلم~sallem|سلم~sallem|سلم~sallem|سلم~sallem|سلمت~sallemit|سلموا~sallemoo||
+kontrol etmek|شيك~shayyek|شيك~shayyek|شيك~shayyek|شيك~shayyek|شيكت~shayyekit|شيكوا~shayyekoo||
+hazırlamak|حضر~7addar|حضر~7addar|حضر~7addar|حضر~7addar|حضرت~7addarit|حضروا~7addaroo||
+geri dönmek|رجع~rega3|رجع~rega3|رجع~rga3|ارجع~erga3|رجعت~rege3it|رجعوا~rege3oo||
+çıkmak|خرج~5arag|خرج~5arag|خرج~5rog|اخرج~o5rog|خرجت~5aragit|خرجوا~5aragoo||
+girmek|دخل~da5al|دخل~da5al|دخل~d5ol|ادخل~od5ol|دخلت~da5alit|دخلوا~da5aloo||
+yürümek / ayrılmak|مشي~mesha|مشي~meshay|مشي~mshy|امشي~emshy|مشيت~meshyit|مشيوا~meshyoo|d|ماشي~maashy
+unutmak|نسي~nesy|نسي~nessy|نسى~nsa|انسى~ensa|نسيت~nesyit|نسيوا~nesyoo|d|
+hatırlamak|افتكر~eftakar|افتكر~eftakar|فتكر~ftaker|افتكر~eftaker|افتكرت~eftakarit|افتكروا~eftakaroo||
+düşünmek|فكر~fakkar|فكر~fakkar|فكر~fakkar|فكر~fakkar|فكرت~fakkarit|فكروا~fakkaroo||
+aramak (bulmaya çalışmak)|دور~dawwar|دور~dawwar|دور~dawwar|دور~dawwar|دورت~dawwarit|دوروا~dawwaroo||
+bulmak|لقى~la2a|لقي~la2ay|لاقي~laa2y|لاقي~laa2y|لقت~la2it|لقوا~la2oo|d|
+kaybetmek|ضيع~dayya3|ضيع~dayya3|ضيع~dayya3|ضيع~dayya3|ضيعت~dayya3it|ضيعوا~dayya3oo||
+kırmak|كسر~kasar|كسر~kasar|كسر~ksar|اكسر~eksar|كسرت~kasarit|كسروا~kasaroo||
+tutmak|مسك~masak|مسك~masak|مسك~msek|امسك~emsek|مسكت~masakit|مسكوا~masakoo||
+taşımak|شال~shaal|شل~shel|شيل~sheel|شيل~sheel|شالت~shaalit|شالوا~shaaloo||
+bırakmak (terk etmek)|ساب~saab|سب~seb|سيب~seeb|سيب~seeb|سابت~saabit|سابوا~saaboo||
+gülmek|ضحك~de7ek|ضحك~de7ek|ضحك~d7ak|اضحك~ed7ak|ضحكت~de7ekit|ضحكوا~de7ekoo||
+üzülmek|زعل~ze3el|زعل~ze3el|زعل~z3al|ازعل~ez3al|زعلت~ze3elit|زعلوا~ze3eloo||
+korkmak|خاف~5aaf|خف~5ef|خاف~5aaf|خاف~5aaf|خافت~5aafit|خافوا~5aafoo||
+yorulmak|تعب~te3eb|تعب~te3eb|تعب~t3ab|اتعب~et3ab|تعبت~te3ebit|تعبوا~te3eboo||
+dinlenmek|ارتاح~ertaa7|ارتح~erta7|رتاح~rtaa7|ارتاح~ertaa7|ارتاحت~ertaa7it|ارتاحوا~ertaa7oo||
+kullanmak|استعمل~esta3mel|استعمل~esta3mel|ستعمل~sta3mel|استعمل~esta3mel|استعملت~esta3melit|استعملوا~esta3meloo||
+değiştirmek|غير~ghayyar|غير~ghayyar|غير~ghayyar|غير~ghayyar|غيرت~ghayyarit|غيروا~ghayyaroo||
+göstermek|فرج~farrag|فرج~farrag|فرج~farrag|فرج~farrag|فرجت~farragit|فرجوا~farragoo||
+kabul etmek / uymak (anlaşmak)|وافق~waafe2|وافق~waafe2|وافق~waafe2|وافق~waafe2|وافقت~waafe2it|وافقوا~waafe2oo||
+reddetmek|رفض~rafad|رفض~rafad|رفض~rfod|ارفض~erfod|رفضت~rafadit|رفضوا~rafadoo||
+geç kalmak|اتأخر~et2a55ar|اتأخر~et2a55ar|تأخر~t2a55ar|اتأخر~et2a55ar|اتأخرت~et2a55arit|اتأخروا~et2a55aroo||
+atmak (çöpe)|رمى~rama|رمي~ramay|رمي~rmy|ارمي~ermy|رمت~ramit|رموا~ramoo|d|
+fotoğraf çekmek|صور~Sawwar|صور~Sawwar|صور~Sawwar|صور~Sawwar|صورت~Sawwarit|صوروا~Sawwaroo||
+doldurmak|ملا~mala|ملي~malay|ملا~mla|املا~emla|ملت~malit|ملوا~maloo|d|
+imzalamak|امضى~emda|امضي~emday|مضي~mdy|امضي~emdy|امضت~emdit|امضوا~emdoo|d|
+hesaplamak|حسب~7asab|حسب~7asab|حسب~7seb|احسب~e7seb|حسبت~7asabit|حسبوا~7asaboo||
+ölçmek|قاس~2aas|قس~2es|قيس~2ees|قيس~2ees|قاست~2aasit|قاسوا~2aasoo||
+yıkamak|غسل~ghasal|غسل~ghasal|غسل~ghsel|اغسل~eghsel|غسلت~ghasalit|غسلوا~ghasaloo||
+pişirmek|طبخ~tabakh|طبخ~tabakh|طبخ~tbokh|اطبخ~otbokh|طبخت~tabakhit|طبخوا~tabakhoo||
+duymak|سمع~sama3|سمع~sama3|سمع~sma3|اسمع~esma3|سمعت~sama3it|سمعوا~sama3oo||
+kalmak|فضل~fadal|فضل~fadal|فضل~fdal|افضل~efdal|فضلت~fadalit|فضلوا~fadaloo||
+yaşamak|عاش~3aash|عش~3esh|عيش~3eesh|عيش~3eesh|عاشت~3aashit|عاشوا~3aashoo||
+haber vermek|بلغ~ballagh|بلغ~ballagh|بلغ~ballagh|بلغ~ballagh|بلغت~ballaghit|بلغوا~ballaghoo||
+yetişmek (zamanında varmak)|لحق~la7a2|لحق~la7a2|لحق~l7a2|الحق~el7a2|لحقت~la7a2it|لحقوا~la7a2oo||
+kalkmak (yataktan)|قام~2aam|قم~2om|قوم~2oom|قوم~2oom|قامت~2aamit|قاموا~2aamoo||
+dönmek (çevirmek)|لف~laff|لفي~laffay|لف~lef|لف~lef|لفت~laffit|لفوا~laffoo||
+gücü yetmek / yapabilmek|قدر~2adar|قدر~2adar|قدر~2dar|اقدر~e2dar|قدرت~2adarit|قدروا~2adaroo||
