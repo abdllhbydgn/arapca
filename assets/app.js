@@ -531,6 +531,31 @@
           <div class="gt-foot"><button class="icon-btn" id="trClear" title="Temizle" aria-label="Temizle">${ic('x')}</button><span id="trCount"></span></div></div>
         <div class="tr-pane gt-out"><div id="trOut" class="tr-out-main"></div></div>
       </div></div>`;
+  // ── Yapay zekâ çevirisi (Claude, Cloudflare Worker üzerinden) ──
+  // Hazır doğrulanmış cümle yoksa serbest metin çevrilir. API adresi assets/tr-config.js içinde.
+  const AIC = { get() { try { return JSON.parse(localStorage.getItem('masri.trc') || '{}'); } catch (e) { return {}; } }, set(k, v) { try { const m = AIC.get(); m[k] = v; const ks = Object.keys(m); if (ks.length > 150) delete m[ks[0]]; localStorage.setItem('masri.trc', JSON.stringify(m)); } catch (e) {} } };
+  function aiHtml(res, dir) {
+    if (dir === 'ar') return `<div style="font-size:24px;font-weight:800">${esc(res.tr || '')}</div>${res.okunus ? `<div class="ok">${esc(res.okunus)}</div>` : ''}<span class="tr-src ai"><span class="dot"></span>Yapay zekâ çevirisi · Mısır lehçesi</span>${res.note ? `<div class="ai-note">${esc(res.note)}</div>` : ''}`;
+    const alt = res.alt && res.alt.ar && res.alt.ar !== res.ar ? `<div class="cmp-f"><small>${esc(res.alt.label || 'Kadına söylerken')}:</small><div class="ar">${esc(res.alt.ar)}</div>${res.alt.okunus ? `<div class="ok">${esc(res.alt.okunus)}</div>` : ''}<div style="margin-top:4px"><button class="icon-btn play" data-say-dev="${esc(res.alt.ar)}" aria-label="Dinle">${ic('vol')}</button></div></div>` : '';
+    return `<div class="ar">${esc(res.ar || '')}</div>${res.okunus ? `<div class="ok">${esc(res.okunus)}</div>` : ''}${res.franco ? `<div class="fr">${esc(res.franco)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px"><button class="icon-btn play" data-say-dev="${esc(res.ar || '')}" aria-label="Dinle" title="Dinle">${ic('vol')}</button><button class="icon-btn" data-copy="${esc(res.ar || '')}" title="Kopyala">${ic('copy')}</button></div><span class="tr-src ai"><span class="dot"></span>Yapay zekâ çevirisi · Mısır lehçesi</span>${res.note ? `<div class="ai-note">${esc(res.note)}</div>` : ''}${alt}`;
+  }
+  let aiSeq = 0, aiTm = null;
+  function aiAsk(text, dir, out) {
+    const key = dir + '|' + text, hit = AIC.get()[key], my = ++aiSeq;
+    clearTimeout(aiTm);
+    if (hit) { out.innerHTML = aiHtml(hit, dir); return; }
+    out.innerHTML = `<div class="ai-wait"><span class="ai-dot"></span> Çevriliyor…</div>`;
+    aiTm = setTimeout(() => {
+      fetch(window.MASRI_TR_API, { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: text, dir: dir }) })
+        .then(r => r.json().then(j => ({ ok: r.ok, j: j })))
+        .then(x => {
+          if (my !== aiSeq) return;
+          if (x.ok && x.j && x.j.result) { AIC.set(key, x.j.result); out.innerHTML = aiHtml(x.j.result, dir); }
+          else out.innerHTML = `<div class="tr-none"><b>Çeviri yapılamadı.</b><p>${esc((x.j && x.j.error) || 'Bilinmeyen hata')}</p></div>`;
+        })
+        .catch(() => { if (my === aiSeq) out.innerHTML = `<div class="tr-none"><b>Çeviri servisine ulaşılamadı.</b><p>İnternetinizi kontrol edip tekrar deneyin.</p></div>`; });
+    }, 700);
+  }
   function mountTranslator(init, o) {
     o = o || {};
     let dir = o.dir === 'ar' ? 'ar' : 'tr';
@@ -551,7 +576,7 @@
       if (o.hash) history.replaceState(null, '', '#/ceviri?q=' + encodeURIComponent(text) + (dir === 'ar' ? '&dir=ar' : ''));
       const r = translate(text, dir);
       const out = $('#trOut'), more = o.more ? $('#trMore') : { innerHTML: '' };
-      if (!text.trim()) { out.innerHTML = `<div style="color:var(--muted)">Çeviri</div>`; more.innerHTML = ''; return; }
+      if (!text.trim()) { aiSeq++; clearTimeout(aiTm); out.innerHTML = `<div style="color:var(--muted)">Çeviri</div>`; more.innerHTML = ''; return; }
       let main = r.exact[0], approx = false;
       if (!main && r.similar.length && !r.gloss.every(g => g.e)) {
         // En yakın ifade, sözlükte bulunan asıl kelimeleri de içermeli (ör. "avans") / The closest phrase must contain the known content words
@@ -575,6 +600,7 @@
         // The closest phrase is no longer shown as the translation (wrong-translation risk); it stays in the “similar phrases” list only
       }
       if (main) {
+        aiSeq++; clearTimeout(aiTm);
         out.innerHTML = dir === 'tr'
           ? `<div class="ar">${esc(main.ar)}</div><div class="ok">${esc(main.ok)}</div><div class="fr">${esc(main.fr)}</div><div style="display:flex;gap:8px;margin-top:6px">${playBtn(main.ar)}${favBtn(main)}<button class="icon-btn" data-copy="${esc(main.ar)}" title="Kopyala">${ic('copy')}</button></div><span class="tr-src${approx ? ' mt' : ''}"><span class="dot"></span>${approx ? 'En yakın ifade: “' + esc(main.tr) + '”' : 'Portal sözlüğü'} · ${esc(main.cat)}</span>`
           : `<div style="font-size:24px;font-weight:800">${esc(main.tr)}</div><div class="ok">${esc(main.ok)}</div><div style="display:flex;gap:8px;margin-top:6px">${playBtn(main.ar)}${favBtn(main)}</div><span class="tr-src${approx ? ' mt' : ''}"><span class="dot"></span>${approx ? 'En yakın ifade' : 'Portal sözlüğü'} · ${esc(main.cat)}</span>`;
@@ -582,7 +608,12 @@
         const known = r.gloss.filter(g => g.e);
         // Dürüst davranış: birebir karşılık yoksa kelime dizisini çeviri gibi göstermeyiz /
         // No exact match: we do not present a word list as a translation
-        out.innerHTML = `<div class="tr-none"><b>Bu cümlenin hazır karşılığı yok.</b><p>Yanlış çeviri göstermemek için kelimeleri art arda dizmiyorum. Aşağıda kelimelerin tek tek anlamları ve en yakın hazır cümleler var.</p><a class="btn gold" href="#/cumlekur">🧩 Cümle Kur ile kendin kur</a></div>`;
+        if (window.MASRI_TR_API && text.trim().length <= 600) {
+          aiAsk(text.trim(), dir, out);
+        } else {
+          aiSeq++;
+          out.innerHTML = `<div class="tr-none"><b>Bu cümlenin hazır karşılığı yok.</b><p>Yanlış çeviri göstermemek için kelimeleri art arda dizmiyorum. Aşağıda kelimelerin tek tek anlamları ve en yakın hazır cümleler var.</p><a class="btn gold" href="#/cumlekur">🧩 Cümle Kur ile kendin kur</a></div>`;
+        }
       }
       const gl = r.gloss.length > 1 || (!main && r.gloss.length) ? `<div class="sec-h"><h2>Kelime kelime</h2></div><div class="card pad"><div class="gloss">${r.gloss.map(g => g.e ? `<div class="gl" data-say="${esc(g.e.ar)}" style="cursor:pointer" title="Dinle"><small>${esc(g.src)}</small><span class="ar">${esc(g.e.ar)}</span><small><b>${esc(g.e.ok)}</b></small><small>${esc(g.e.tr)}</small></div>` : `<div class="gl miss"><small>${esc(g.src)}</small><span>?</span></div>`).join('')}</div></div>` : '';
       const alts = (main && !approx ? r.exact.slice(1) : r.similar);
@@ -1191,6 +1222,8 @@
   function openSide() { $('#side').classList.add('open'); const s = document.createElement('div'); s.className = 'scrim'; s.onclick = closeSide; document.body.appendChild(s); }
   function setThemeIcon() { const dark = document.documentElement.getAttribute('data-theme') === 'dark' || (!document.documentElement.getAttribute('data-theme') && matchMedia('(prefers-color-scheme: dark)').matches); $('#themeBtn').innerHTML = ic(dark ? 'sun' : 'moon'); return dark; }
   document.addEventListener('click', ev => {
+    const dv = ev.target.closest('[data-say-dev]');
+    if (dv) { ev.preventDefault(); dv.classList.add('playing'); deviceSpeak(dv.dataset.sayDev, dv); return; }
     const say = ev.target.closest('[data-say]');
     if (say) { ev.preventDefault(); ev.stopPropagation(); speak(say.dataset.say, say); return; }
     const fav = ev.target.closest('[data-fav]');
@@ -1219,7 +1252,7 @@
   // Üyelik modülü (members.js) için arayüz / API for the membership module
   window.MASRI_APP = {
     store: store, ROUTES: ROUTES, view: view, esc: esc, ic: ic, pageHead: pageHead, toast: toast, go: go, confetti: confetti,
-    buildNav: buildNav, render: render, xpState: xpState, lvlOf: lvlOf, lvlName: lvlName,
+    translate: translate, buildNav: buildNav, render: render, xpState: xpState, lvlOf: lvlOf, lvlName: lvlName,
     reloadState: () => { favs = new Set(store.get('favs', [])); cards = store.get('cards', {}); }
   };
   buildNav();
