@@ -30,6 +30,7 @@ export default {
       const sp = String((body && body.text) || '').trim();
       if (!sp) return reply({ error: 'metin boş' }, 400, h);
       if (sp.length > 300) return reply({ error: 'metin çok uzun' }, 413, h);
+      let ttsQuota = false;
       for (const m of TTS_MODELS) {
         try {
           const r = await go('https://generativelanguage.googleapis.com/v1beta/models/' + m + ':generateContent', {
@@ -37,13 +38,14 @@ export default {
             headers: { 'content-type': 'application/json', 'x-goog-api-key': env.GEMINI_API_KEY },
             body: JSON.stringify({ contents: [{ parts: [{ text: 'Say naturally, in casual Egyptian Arabic (Cairo), as a man: ' + sp }] }], generationConfig: { responseModalities: ['AUDIO'], speechConfig: { languageCode: 'ar-EG', voiceConfig: { prebuiltVoiceConfig: { voiceName: env.VOICE || 'Charon' } } } } })
           });
-          if (r.status === 429) return reply({ error: 'günlük ücretsiz ses hakkı doldu' }, 429, h);
+          if (r.status === 429) { ttsQuota = true; continue; }
           if (!r.ok) continue;
           const j = await r.json();
           const inl = j.candidates[0].content.parts[0].inlineData;
           if (inl && inl.data) return reply({ ok: true, mime: inl.mimeType, data: inl.data }, 200, h);
         } catch (e) { /* sıradaki model */ }
       }
+      if (ttsQuota) return reply({ error: 'günlük ücretsiz ses hakkı doldu' }, 429, h);
       return reply({ error: 'ses şu an üretilemedi' }, 503, h);
     }
 

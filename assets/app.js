@@ -602,6 +602,7 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
   }
   // ── Yapay zekâ sesi (Gemini TTS, ücretsiz kota): çevrilen serbest cümleler erkek sesle okunur; olmazsa cihaz sesi ──
   const aiAudio = new Map();
+  let aiTtsLimited = false;
   let aiPlaying = null;
   function pcmToWav(b64, rate) {
     const bin = atob(b64), n = bin.length, buf = new ArrayBuffer(44 + n), v = new DataView(buf);
@@ -629,19 +630,36 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
     }
     return null;
   }
+  const TTS_CACHE = 'masri-tts-v1';
+  async function ttsCacheGet(text) { try { const c = await caches.open(TTS_CACHE), r = await c.match('/__tts/' + encodeURIComponent(text)); return r ? await r.json() : null; } catch (e) { return null; } }
+  async function ttsCachePut(text, j) { try { const c = await caches.open(TTS_CACHE); await c.put('/__tts/' + encodeURIComponent(text), new Response(JSON.stringify(j), { headers: { 'Content-Type': 'application/json' } })); } catch (e) {} }
+  const toAudioUrl = j => { const mm = /rate=(\d+)/.exec(j.mime || ''); return /wav/i.test(j.mime || '') ? URL.createObjectURL(new Blob([Uint8Array.from(atob(j.data), c => c.charCodeAt(0))], { type: 'audio/wav' })) : URL.createObjectURL(pcmToWav(j.data, mm ? +mm[1] : 24000)); };
   async function workerTts(text) {
+    const hit = await ttsCacheGet(text);
+    if (hit && hit.data) { try { return toAudioUrl(hit); } catch (e) {} }
     try {
       const r = await withTimeout(window.MASRI_TR_API.replace(/\/$/, '') + '/tts', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: text }) }, 20000);
-      if (!r.ok) return null;
+      if (!r.ok) { aiTtsLimited = r.status === 429; return null; }
       const j = await r.json();
       if (!j || !j.data) return null;
-      const mm = /rate=(\d+)/.exec(j.mime || '');
-      return /wav/i.test(j.mime || '') ? URL.createObjectURL(new Blob([Uint8Array.from(atob(j.data), c => c.charCodeAt(0))], { type: 'audio/wav' })) : URL.createObjectURL(pcmToWav(j.data, mm ? +mm[1] : 24000));
+      aiTtsLimited = false;
+      ttsCachePut(text, { mime: j.mime, data: j.data });
+      return toAudioUrl(j);
     } catch (e) { return null; }
+  }
+  // Yedek: kelimelerin kayıtlı erkek sesi (hazırda varsa) art arda çalınır
+  function speakRecorded(text, btn) {
+    const words = text.replace(/[؟?!.,،:؛]/g, ' ').split(/\s+/).filter(Boolean);
+    const go = () => {
+      const keys = words.map(audioKey).filter(k => audioIdx && audioIdx.has(k));
+      if (keys.length && keys.length >= words.length * .5) { if (btn) btn.classList.add('playing'); playSequence(keys, btn, () => { if (btn) btn.classList.remove('playing'); }); }
+      else { if (btn) btn.classList.remove('playing'); toast(aiTtsLimited ? 'Google’ın ücretsiz ses hakkı şu an dolu. Biraz sonra tekrar deneyin.' : 'Ses şu an üretilemedi, tekrar deneyin'); }
+    };
+    audioIdx ? go() : loadAudioIdx().then(go);
   }
   async function aiSpeak(text, btn, onFail) {
     const done = () => { if (btn) btn.classList.remove('playing'); };
-    const fail = () => { done(); if (onFail) onFail(); else toast('Ses şu an üretilemedi, tekrar deneyin'); };
+    const fail = () => { done(); if (onFail) onFail(); else speakRecorded(text, btn); };
     const direct = window.MASRI_GEMINI && window.MASRI_GEMINI.key;
     if (!direct && !window.MASRI_TR_API) { fail(); return; }
     if (btn) btn.classList.add('playing');
