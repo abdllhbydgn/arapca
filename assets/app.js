@@ -368,7 +368,7 @@
     ];
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
-    view.innerHTML = `<section class="gt-home fade"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + (Q.length ? `<section class="quote fade" id="quote"></section>` : '') + `<section class="hero fade">
+    view.innerHTML = `<section class="gt-home fade"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `<section class="hero fade">
         <div class="hero-float" aria-hidden="true"><span>ع</span><span>ب</span><span>م</span><span>ص</span><span>ر</span><span>ك</span></div>
         <h1>Ahlan wa sahlan! 👋</h1>
         <p>Mısır lehçesini (Masri) Türkçe açıklamalarla öğren: çeviri, sözlük, kartlar, konuşma ve gramer bir arada.</p>
@@ -390,7 +390,7 @@
         <div class="card pad"><b>ج = G</b><p style="margin:6px 0 0;color:var(--muted)">Mısır'da ج sert "g" okunur: <span class="ar">جميل</span> → gamiil (güzel).</p></div>
         <div class="card pad"><b>ق = hemze</b><p style="margin:6px 0 0;color:var(--muted)">Kahire'de ق çoğunlukla yutulur: <span class="ar">قلب</span> → 'alb (kalp).</p></div>
         <div class="card pad"><b>ب- = şimdiki zaman</b><p style="margin:6px 0 0;color:var(--muted)">Fiilin başına b- gelir: <span class="ar">باكل</span> → bākol (yiyorum).</p></div>
-      </div>`;
+      </div>` + (Q.length ? `<section class="quote q-small fade" id="quote"></section>` : '');
     // Günün sözü: her gün değişir, oklarla önceki/sonraki günlere bakılır / Saying of the day, browsable
     let qOff = 0;
     const drawQuote = () => {

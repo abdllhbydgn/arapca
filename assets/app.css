@@ -698,3 +698,17 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
   .gt-swap { transform: none; }
 }
 .gt .tr-in:focus, .gt .tr-in:focus-visible { outline: none; box-shadow: none; }
+/* Günün sözü: sayfanın en altında, küçük */
+.quote.q-small { padding: 10px 16px; border-radius: 14px; margin: 22px 0 6px; box-shadow: none; border-left-width: 3px; }
+.quote.q-small::before { display: none; }
+.quote.q-small .q-head { gap: 8px; }
+.quote.q-small .q-badge { font-size: 11px; padding: 2px 9px; }
+.quote.q-small .q-date { font-size: 11.5px; }
+.quote.q-small .q-body { margin-top: 6px; gap: 10px; }
+.quote.q-small .q-ar { font-size: clamp(18px, 2.6vw, 22px); line-height: 1.4; }
+.quote.q-small .q-side .icon-btn.q-play { width: 34px; height: 34px; }
+.quote.q-small .q-side .icon-btn.q-play svg { width: 16px; height: 16px; }
+.quote.q-small .q-ok { font-size: 12.5px; }
+.quote.q-small .q-tr { font-size: 13.5px; margin-top: 2px; }
+.quote.q-small .q-mean { font-size: 12.5px; margin-top: 2px; }
+.quote.q-small .q-nav .icon-btn { width: 28px; height: 28px; font-size: 16px; }
