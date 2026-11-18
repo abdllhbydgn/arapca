@@ -122,14 +122,16 @@
   const normTr = s => fold(String(s || '').toLocaleLowerCase('tr')).replace(/\([^)]*\)/g, ' ').replace(/[^a-z0-9\s]/g, ' ').replace(/\s+/g, ' ').trim();
   const normFr = s => String(s || '').toLowerCase().replace(/[’'`´]/g, '2').replace(/[^a-z0-9\s]/g, ' ').replace(/(.)\1+/g, '$1').replace(/\s+/g, ' ').trim();
   const isAr = s => /[؀-ۿ]/.test(s);
-  const trVariants = t => String(t || '').split(/\s*[\/;,|]\s*|\s+veya\s+/).map(normTr).filter(Boolean);
+  // Cümlelerde (k='p') virgül iki ayrı cümleyi ayırır, eş anlamlı değildir: parça eşleşmesi yanlış çeviri verir /
+  // In sentences a comma separates clauses, not synonyms: partial matches would give wrong translations
+  const trVariants = (t, phrase) => String(t || '').split(phrase ? /\s*[\/;|]\s*|\s+veya\s+/ : /\s*[\/;,|]\s*|\s+veya\s+/).map(normTr).filter(Boolean);
 
   // ── Dizinler / Indexes ──
   const IX = { tr: new Map(), ar: new Map(), fr: new Map(), trTok: new Map() };
   const add = (m, k, e) => { if (!k) return; let a = m.get(k); if (!a) m.set(k, a = []); if (!a.includes(e)) a.push(e); };
   E.forEach(e => {
     e._ar = normAr(e.ar); e._fr = normFr(e.fr); e._tr = normTr(e.tr); e._ok = normTr(e.ok);
-    trVariants(e.tr).forEach(v => {
+    trVariants(e.tr, e.k === 'p').forEach(v => {
       add(IX.tr, v, e);
       // "gitmek" → "git" kökü / verb stem
       if (/(mek|mak)$/.test(v) && v.indexOf(' ') < 0) add(IX.tr, v.slice(0, -3), e);
@@ -146,7 +148,7 @@
   const rank = e => (e.k === 'w' ? 0 : 1) * 1000 + (/\((k|kadın|kadına|dişil)/i.test(e.tr) ? 300 : 0) + (SRC_RANK[e.src] || 0) * 20 + Math.min(19, (e.tr || '').length / 3);
   // Aranan anlam kaydın birincil (ilk) anlamıysa öne alınır / Entries whose first meaning is the key come first
   IX.tr.forEach((a, k) => a.sort((x, y) => {
-    const px = trVariants(x.tr).indexOf(k), py = trVariants(y.tr).indexOf(k);
+    const px = trVariants(x.tr, x.k === 'p').indexOf(k), py = trVariants(y.tr, y.k === 'p').indexOf(k);
     return (px < 0 ? 0 : Math.min(px, 2)) - (py < 0 ? 0 : Math.min(py, 2)) || rank(x) - rank(y);
   }));
   IX.ar.forEach(a => a.sort((x, y) => rank(x) - rank(y)));
@@ -168,7 +170,7 @@
       const t = normTr(q), f = normFr(q);
       E.forEach(e => {
         let s = 0;
-        if (trVariants(e.tr).includes(t)) s = 100;
+        if (trVariants(e.tr, e.k === 'p').includes(t)) s = 100;
         else if (e._tr.startsWith(t)) s = 75;
         else if ((' ' + e._tr).includes(' ' + t)) s = 60;
         else if (e._tr.includes(t)) s = 35;
@@ -569,7 +571,8 @@
           });
           if (best && bs >= .5) cand = { id: best.id, ar: best.ex.ar, ok: best.ex.ok, fr: best.ex.fr, tr: best.ex.tr, cat: best.cat, _tr: normTr(best.ex.tr) };
         }
-        if (cand) { main = cand; approx = true; r.similar = r.similar.filter(e => e !== cand); }
+        // En yakın ifade çeviri olarak gösterilmez (yanlış çeviri riski); yalnız “Benzer ifadeler” listesinde kalır /
+        // The closest phrase is no longer shown as the translation (wrong-translation risk); it stays in the “similar phrases” list only
       }
       if (main) {
         out.innerHTML = dir === 'tr'
