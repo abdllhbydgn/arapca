@@ -205,15 +205,11 @@
   // Yalnız Mısır Arapçası (ar-EG) cihaz sesi kullanılır; standart Arapça (Fusha) sese asla düşülmez /
   // Only an Egyptian (ar-EG) device voice is used; never a standard Arabic (Fusha) voice
   function deviceSpeak(text, btn) {
-    const eg = 'speechSynthesis' in window ? voices.find(v => /ar[-_]EG/i.test(v.lang)) : null;
-    if (!eg) { if (btn) btn.classList.remove('playing'); toast('Bu metnin Mısır lehçesi ses kaydı yok'); return; }
-    try {
-      speechSynthesis.cancel();
-      const u = new SpeechSynthesisUtterance(text);
-      u.voice = eg; u.lang = eg.lang; u.rate = slow ? .65 : .85;
-      if (btn) u.onend = u.onerror = () => btn.classList.remove('playing');
-      speechSynthesis.speak(u);
-    } catch (e) { if (btn) btn.classList.remove('playing'); }
+    // Cihazın kadın sesi hiçbir zaman kullanılmaz; kaydı olmayan metinler erkek Mısır sesiyle (Gemini) okunur /
+    // The device (female) voice is never used; unrecorded text is read with the male Egyptian voice
+    if (window.MASRI_TR_API || (window.MASRI_GEMINI && window.MASRI_GEMINI.key)) { aiSpeak(text, btn); return; }
+    if (btn) btn.classList.remove('playing');
+    toast('Bu metnin erkek ses kaydı yok');
   }
   // Kaydı olmayan cümle: kelimelerin kayıtlı Mısır sesleri sırayla çalınır / Unrecorded sentence: recorded word clips in sequence
   function playSequence(keys, btn, onFail) {
@@ -245,7 +241,9 @@
         a.play().catch(fallback);
       } else {
         const parts = text.replace(/[؟?!.,،:؛]/g, ' ').split(/\s+/).filter(Boolean).map(audioKey).filter(k2 => audioIdx && audioIdx.has(k2));
-        if (parts.length && parts.length >= text.split(/\s+/).filter(Boolean).length * .6) playSequence(parts, btn, () => deviceSpeak(text, btn));
+        const canAi = window.MASRI_TR_API || (window.MASRI_GEMINI && window.MASRI_GEMINI.key);
+        if (canAi) aiSpeak(text, btn, () => { if (parts.length && parts.length >= text.split(/\s+/).filter(Boolean).length * .6) playSequence(parts, btn, () => deviceSpeak(text, btn)); else { if (btn) btn.classList.remove('playing'); toast('Ses şu an üretilemedi, tekrar deneyin'); } });
+        else if (parts.length && parts.length >= text.split(/\s+/).filter(Boolean).length * .6) playSequence(parts, btn, () => deviceSpeak(text, btn));
         else deviceSpeak(text, btn);
       }
     };
@@ -330,14 +328,26 @@
   }
   function render() {
     const { r, a, q } = parseHash();
+    // Üyelik/eşitleme aynı sayfayı arka arkaya yeniden çizer: bu durumda animasyon oynatma, kaydırmayı ve yazılan metni koru /
+    // Same-page re-renders (auth/sync) must not replay animations, jump to top or wipe typed text
+    const soft = !!render._done && render._last === location.hash;
+    render._last = location.hash;
+    const keepY = window.scrollY, tin = $('#trIn'), keepTxt = tin ? tin.value : null, keepFocus = !!tin && document.activeElement === tin;
+    view.classList.toggle('rerender', soft);
+    if (soft) view.style.minHeight = view.offsetHeight + 'px';  // sayfa kısalıp kaydırma sıfırlanmasın
     $$('#nav a, #bnav a').forEach(x => x.classList.toggle('on', x.dataset.r === r || (x.dataset.r && x.dataset.r.indexOf('/') > 0 && location.hash.indexOf('#/' + x.dataset.r) === 0)));
     closeSide();
     if (window.MASRI_GATE && !window.MASRI_GATE(r) && ROUTES.__locked) ROUTES.__locked(r, a, q);
     else (ROUTES[r] || ROUTES[''])(a, q);
     try { if (window.MASRI_AFTER_RENDER) window.MASRI_AFTER_RENDER(r, a, q); } catch (e) {}
     drawPnav(r);
-    if (!render._first) window.scrollTo(0, 0);
-    render._first = false;
+    if (soft) {
+      window.scrollTo(0, keepY);
+      setTimeout(() => { view.style.minHeight = ''; window.scrollTo(0, keepY); }, 900);
+      const ni = $('#trIn');
+      if (ni && keepTxt) { ni.value = keepTxt; ni.dispatchEvent(new Event('input')); if (keepFocus) ni.focus(); }
+    } else if (!render._first) window.scrollTo(0, 0);
+    render._first = false; render._done = true;
     { const h1 = ($('.ph h1', view) || {}).textContent; const pg = h1 ? h1.replace(/^[^A-Za-z0-9\u00C0-\u024F\u0600-\u06FF]+/, '').trim() : ''; document.title = pg ? 'Arapça Öğren | ' + pg : 'Arapça Öğren | Mısır Lehçesi Portalı'; }
   }
   render._first = true;
@@ -616,16 +626,29 @@ JSON (ar→tr): {"tr":"","okunus":"","note":""}   Hata: {"error":""}`;
     }
     return null;
   }
-  async function aiSpeak(text, btn) {
+  async function workerTts(text) {
+    try {
+      const r = await withTimeout(window.MASRI_TR_API.replace(/\/$/, '') + '/tts', { method: 'POST', headers: { 'Content-Type': 'application/json' }, body: JSON.stringify({ text: text }) }, 20000);
+      if (!r.ok) return null;
+      const j = await r.json();
+      if (!j || !j.data) return null;
+      const mm = /rate=(\d+)/.exec(j.mime || '');
+      return /wav/i.test(j.mime || '') ? URL.createObjectURL(new Blob([Uint8Array.from(atob(j.data), c => c.charCodeAt(0))], { type: 'audio/wav' })) : URL.createObjectURL(pcmToWav(j.data, mm ? +mm[1] : 24000));
+    } catch (e) { return null; }
+  }
+  async function aiSpeak(text, btn, onFail) {
     const done = () => { if (btn) btn.classList.remove('playing'); };
-    if (!(window.MASRI_GEMINI && window.MASRI_GEMINI.key)) { deviceSpeak(text, btn); return; }
-    try { if (aiPlaying) aiPlaying.pause(); if ('speechSynthesis' in window) speechSynthesis.cancel(); } catch (e) {}
+    const fail = () => { done(); if (onFail) onFail(); else toast('Ses şu an üretilemedi, tekrar deneyin'); };
+    const direct = window.MASRI_GEMINI && window.MASRI_GEMINI.key;
+    if (!direct && !window.MASRI_TR_API) { fail(); return; }
+    if (btn) btn.classList.add('playing');
+    try { if (aiPlaying) aiPlaying.pause(); if (curAudio) curAudio.pause(); } catch (e) {}
     let url = aiAudio.get(text);
-    if (!url) { url = await geminiTts(text); if (url) aiAudio.set(text, url); }
-    if (!url) { deviceSpeak(text, btn); return; }
+    if (!url) { url = direct ? await geminiTts(text) : await workerTts(text); if (url) aiAudio.set(text, url); }
+    if (!url) { fail(); return; }
     const a = aiPlaying = new Audio(url);
-    a.onended = done; a.onerror = () => { done(); deviceSpeak(text, btn); };
-    a.play().catch(() => { done(); deviceSpeak(text, btn); });
+    a.onended = done; a.onerror = fail;
+    a.play().catch(fail);
   }
   function mountTranslator(init, o) {
     o = o || {};
@@ -644,7 +667,7 @@ JSON (ar→tr): {"tr":"","okunus":"","note":""}   Hata: {"error":""}`;
       const text = inp.value;
       $('#trCount').textContent = text.length ? text.length + ' karakter' : '';
       if (text.trim() && isAr(text) && dir === 'tr') { dir = 'ar'; setDir(); }
-      if (o.hash) history.replaceState(null, '', '#/ceviri?q=' + encodeURIComponent(text) + (dir === 'ar' ? '&dir=ar' : ''));
+      // (adres çubuğu sabit kalır: yazılan metin adrese yazılmaz)
       const r = translate(text, dir);
       const out = $('#trOut'), more = o.more ? $('#trMore') : { innerHTML: '' };
       if (!text.trim()) { aiSeq++; clearTimeout(aiTm); out.innerHTML = `<div style="color:var(--muted)">Çeviri</div>`; more.innerHTML = ''; return; }
@@ -847,12 +870,17 @@ JSON (ar→tr): {"tr":"","okunus":"","note":""}   Hata: {"error":""}`;
       return { pcs: pcs };
     };
     const speakPieces = (pcs, btn) => {
+      const sentence = pcs.map(x => x.ar).join(' ');
       const keys = pcs.map(x => audioKey(x.ar));
-      const go = () => {
-        if (keys.every(k => audioIdx && audioIdx.has(k))) { if (btn) btn.classList.add('playing'); playSequence(keys, btn, () => deviceSpeak(pcs.map(x => x.ar).join(' '), btn)); }
-        else deviceSpeak(pcs.map(x => x.ar).join(' '), btn);
+      const seq = () => {
+        const go = () => {
+          if (keys.every(k => audioIdx && audioIdx.has(k))) { if (btn) btn.classList.add('playing'); playSequence(keys, btn, () => { if (btn) btn.classList.remove('playing'); toast('Ses şu an üretilemedi, tekrar deneyin'); }); }
+          else { if (btn) btn.classList.remove('playing'); toast('Ses şu an üretilemedi, tekrar deneyin'); }
+        };
+        audioIdx ? go() : loadAudioIdx().then(go);
       };
-      audioIdx ? go() : loadAudioIdx().then(go);
+      // Önce tüm cümle erkek sesle (doğal akış); olmazsa kayıtlı erkek ses parçaları
+      if (window.MASRI_TR_API || (window.MASRI_GEMINI && window.MASRI_GEMINI.key)) aiSpeak(sentence, btn, seq); else seq();
     };
     let cur = [];
     const draw = () => {
@@ -861,7 +889,7 @@ JSON (ar→tr): {"tr":"","okunus":"","note":""}   Hata: {"error":""}`;
       $('#ckNeg').classList.toggle('on', st.neg); $('#ckQs').classList.toggle('on', st.qs);
       $('#ckOd').classList.toggle('on', st.od); $('#ckPd').classList.toggle('on', st.pd);
       const vv = verb(); if (vv && document.activeElement !== $('#ckV')) $('#ckV').value = vv.tr;
-      history.replaceState(null, '', '#/cumlekur?' + new URLSearchParams({ p: st.p, t: st.t, v: st.v, neg: st.neg ? 1 : 0, qs: st.qs ? 1 : 0, qw: st.qw, o: st.o, od: st.od ? 1 : 0, pl: st.pl, pp: st.pp, pd: st.pd ? 1 : 0, ad: st.ad, tm: st.tm }).toString());
+      // (adres çubuğu sabit kalır)
       const r = build(), out = $('#ckOut');
       if (r.err) { out.innerHTML = `<div class="ck-err">${esc(r.err)}</div>`; cur = []; return; }
       cur = r.pcs;
