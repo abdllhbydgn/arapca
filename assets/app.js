@@ -525,7 +525,7 @@
   const trBoxHtml = () => `<div class="card tr-box gt">
       <div class="gt-bar"><span class="lang gt-l" id="lIn"></span><button id="trSwap" class="gt-swap" aria-label="Yön değiştir" title="Yön değiştir">${ic('swap')}</button><span class="lang gt-l gt-r" id="lOut"></span></div>
       <div class="gt-panes">
-        <div class="tr-pane gt-in"><textarea class="tr-in" id="trIn" rows="5" placeholder="Metni yazın…" aria-label="Çevrilecek metin"></textarea>
+        <div class="tr-pane gt-in"><textarea class="tr-in" id="trIn" rows="3" placeholder="Metni yazın…" aria-label="Çevrilecek metin"></textarea>
           <div class="gt-foot"><button class="icon-btn" id="trClear" title="Temizle" aria-label="Temizle">${ic('x')}</button><span id="trCount"></span></div></div>
         <div class="tr-pane gt-out"><div id="trOut" class="tr-out-main"></div></div>
       </div></div>`;

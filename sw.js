@@ -1,23 +1,23 @@
 // Arapça Öğren — Service Worker
 // Siteyi bir kez (internetteyken) açtıktan sonra tüm portal ve veriler internetsiz de çalışır.
 // İçerik güncellendiğinde CACHE_NAME sürümünü artırın; tarayıcı eski önbelleği silip yenisini indirir.
-const CACHE_NAME = 'arapca-ogren-v33';
+const CACHE_NAME = 'arapca-ogren-v34';
 const APP_SHELL = [
   './',
   './index.html',
-  './assets/app.css?v=33',
-  './assets/app.js?v=33',
+  './assets/app.css?v=34',
+  './assets/app.js?v=34',
   './assets/logo.png',
-  './assets/legal.js?v=33',
+  './assets/legal.js?v=34',
   './assets/logo-ayn.png',
   './assets/portal-logo-seffaf.png',
   './assets/nscs-logo-beyaz.png',
-  './data/dict.js?v=33',
-  './data/content.js?v=33',
-  './data/ortak.js?v=33',
-  './data/verbs.js?v=33',
-  './assets/fb-config.js?v=33',
-  './assets/members.js?v=33',
+  './data/dict.js?v=34',
+  './data/content.js?v=34',
+  './data/ortak.js?v=34',
+  './data/verbs.js?v=34',
+  './assets/fb-config.js?v=34',
+  './assets/members.js?v=34',
   './manifest.json',
   './icon-192.png',
   './favicon.png',
