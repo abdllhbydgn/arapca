@@ -735,3 +735,6 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .ai-dot { animation: none !important; }
 .gt-btns { display: flex; gap: 8px; }
 .gt .icon-btn#trMic.rec { background: #E11D48; border-color: #E11D48; color: #fff; }
+.brand { cursor: pointer; }
+.brand:active { opacity: .8; }
+.brand:focus-visible { outline: 2px solid #EA580C; outline-offset: 4px; border-radius: 8px; }
