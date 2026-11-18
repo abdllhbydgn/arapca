@@ -162,6 +162,32 @@ for L in alpha['letters']:
     for w in L.get('words', []):
         add(w, 'w', 'alf', 'Alfabe Kelimeleri', 'A1', w.get('emoji'))
 
+
+# Hazır cümle bankası: tools/src/cumle_*.txt  (kategori|Türkçe|Arapça|franko). Okunuş franko'dan üretilir.
+import glob as _glob
+_CK = {'SN': 'Selamlaşma & Nezaket', 'GK': 'Günlük Konuşma', 'AP': 'Alışveriş & Para', 'SU': 'Şehir & Ulaşım', 'YI': 'Yiyecek & İçecek', 'VS': 'Vücut & Sağlık',
+       'AD': 'Acil Durumlar', 'SI': 'Sosyal İlişkiler', 'ZT': 'Zaman & Takvim', 'EV': 'Ev & Eşyalar', 'DU': 'Duygular', 'YY': 'Yer & Yön', 'IO': 'İş & Ofis',
+       'TK': 'Teknik & Kalite', 'FT': 'Fabrika & Tekstil', 'MI': "Mısır'a Özgü İfadeler", 'AI': 'Aile & İnsanlar', 'GI': 'Giyim', 'DH': 'Doğa & Hava'}
+
+
+def fr2ok(s):
+    s = re.sub(r'\bel-', 'il-', s)
+    for a, b in (('sh', 'ş'), ('gh', 'ğ'), ('ch', 'ç'), ('kh', 'x'), ('5', 'x'), ('7', 'h'), ('2', "'"), ('3', "'"), ('aa', 'â'), ('ee', 'î'), ('oo', 'û'), ('x', 'kh')):
+        s = s.replace(a, b)
+    return re.sub('[STDZ]', lambda m: m.group(0).lower(), s)
+
+
+for _f in sorted(_glob.glob(os.path.join(S, 'cumle_*.txt'))):
+    for _ln in open(_f, encoding='utf-8'):
+        _ln = _ln.strip()
+        if not _ln or _ln.startswith('#'):
+            continue
+        _p = _ln.split('|')
+        if len(_p) != 4 or _p[0] not in _CK:
+            print('cümle satırı atlandı:', _ln[:60])
+            continue
+        add({'ar': _p[2], 'tr': _p[1], 'fr': _p[3], 'ok': fr2ok(_p[3])}, 'p', 'cum', _CK[_p[0]])
+
 # Halk dili düzeltmeleri aynı kimlikle uygulanır (kart ilerlemesi ve favoriler korunur) /
 # Colloquial corrections applied by the same id (card progress and favourites are kept)
 OVR = {o['id']: o for o in load('halk_overrides.json', [])}

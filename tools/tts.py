@@ -53,6 +53,22 @@ def collect():
             add(w.get('ar'))
     except Exception:
         pass
+    # Cümle Kur sayfası (data/verbs.js): çekimlenmiş fiiller, sözcükler, belirli (ال) biçimler, yardımcı sözler
+    try:
+        vb = load_js(os.path.join(ROOT, 'data', 'verbs.js'), 'MASRI_VERBS')
+        for v in vb.get('verbs', []):
+            for k in ('past', 'pastneg', 'pres', 'fut', 'subj', 'imp', 'impneg', 'part'):
+                for f in v.get(k, []):
+                    add(f[0])
+        for n in vb.get('nouns', []):
+            add(n['ar'])
+            if n['k'] in ('n', 'p'):
+                add('ال' + n['ar'] if not n['ar'].startswith('ال') else n['ar'])
+        for w in ('مش', 'لازم', 'عايز', 'عايزة', 'عايزين', 'أنا', 'إنت', 'إنتي', 'هو', 'هي', 'إحنا', 'إنتو', 'هما', 'في', 'من', 'مع', 'على', 'جنب', 'قدام', 'تحت', 'فوق',
+                  'فين', 'إمتى', 'ليه', 'إزاي', 'إيه', 'مين', 'كام', 'أوي', 'شوية'):
+            add(w)
+    except Exception:
+        pass
     for q in c.get('quotes', []):
         add(q.get('ar'))
     for L in c.get('alphabet', {}).get('letters', []):

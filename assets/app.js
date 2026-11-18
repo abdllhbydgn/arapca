@@ -6,6 +6,7 @@
   const D = window.MASRI_DICT || { entries: [], cats: [] };
   const C = window.MASRI || {};
   const E = D.entries;
+  const VB = window.MASRI_VERBS || { verbs: [], nouns: [] };
   const OR = window.MASRI_ORTAK || { sections: [], words: [], examples: [], rules: { franco: [], shift: [] }, tags: {} };
   const byId = new Map(E.map(e => [e.id, e]));
   const $ = (s, r) => (r || document).querySelector(s);
@@ -108,6 +109,7 @@
     lock: '<rect x="4" y="11" width="16" height="10" rx="2"/><path d="M8 11V7a4 4 0 0 1 8 0v4"/>',
     out: '<path d="M15 4h4v16h-4M10 8l-4 4 4 4M6 12h11"/>',
     verb: '<path d="M13 2 3 14h9l-1 8 10-12h-9z"/>',
+    build: '<path d="M4 6h16M4 12h10M4 18h13"/><path d="m17 10 3 2-3 2"/>',
     link: '<path d="M10 14a4 4 0 0 0 5.7 0l3-3a4 4 0 0 0-5.7-5.7l-1 1"/><path d="M14 10a4 4 0 0 0-5.7 0l-3 3a4 4 0 0 0 5.7 5.7l1-1"/>',
     fab: '<path d="M3 21V10l5 3V10l5 3V6l8 4v11z"/><path d="M7 17h2M12 17h2M17 17h2"/>'
   };
@@ -275,7 +277,7 @@
 
   // ── Yönlendirme / Routing ──
   const NAV = [
-    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
+    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['cumlekur', 'build', 'Cümle Kur'], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
     ['h', 'Öğren'], ['kartlar', 'cards', 'Kelime Kartları'], ['alfabe', 'abc', 'Alfabe', () => ((C.alphabet || {}).letters || []).length],
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
@@ -312,7 +314,7 @@
     else if (NAVH.stack[NAVH.pos + 1] === h) NAVH.pos++;
     else { NAVH.stack = NAVH.stack.slice(0, NAVH.pos + 1).concat(h); NAVH.pos++; }
   });
-  const PAGE_NAMES = { '': 'Ana Sayfa', fabrika: 'Fabrika Dili', ortak: 'Ortak Kelimeler', ceviri: 'Çeviri', sozluk: 'Sözlük', kartlar: 'Kelime Kartları', alfabe: 'Alfabe', konusma: 'Konuşma Rehberi', gramer: 'Gramer', fiiller: 'Fiiller', alistirma: 'Çalışma Defteri', test: 'Test Çöz', favoriler: 'Favorilerim', giris: 'Giriş', hesabim: 'Hesabım', admin: 'Yönetim' };
+  const PAGE_NAMES = { '': 'Ana Sayfa', fabrika: 'Fabrika Dili', cumlekur: 'Cümle Kur', ortak: 'Ortak Kelimeler', ceviri: 'Çeviri', sozluk: 'Sözlük', kartlar: 'Kelime Kartları', alfabe: 'Alfabe', konusma: 'Konuşma Rehberi', gramer: 'Gramer', fiiller: 'Fiiller', alistirma: 'Çalışma Defteri', test: 'Test Çöz', favoriler: 'Favorilerim', giris: 'Giriş', hesabim: 'Hesabım', admin: 'Yönetim' };
   function drawPnav(r) {
     const el = $('#pnav');
     if (!el) return;
@@ -352,6 +354,7 @@
     const due = dueCount();
     const mods = [
       ['fabrika', '🧵', '#FBF1DA', 'Fabrika Dili', 'Konfeksiyon atölyesinin halk dili: makine, hat, kalite, vardiya'],
+      ['cumlekur', '🧩', '#FFF1E6', 'Cümle Kur', 'Kim, ne zaman, hangi fiil: kendi cümleni kur, doğru çekimle dinle'],
       ['ortak', '🔗', '#E4EDF9', 'Ortak Kelimeler', 'Türkçeyle benzer ' + OR.words.length + ' kelime: ortak, Osmanlı, Batı, dikkat'],
       ['ceviri', '🔁', '#DDF4F1', 'Çeviri', 'Türkçe ⇄ Mısır lehçesi, kelime kelime açıklamalı'],
       ['sozluk', '📖', '#FBF1DA', 'Sözlük', E.length.toLocaleString('tr-TR') + ' kelime ve ifade'],
@@ -423,7 +426,7 @@
       if (!v) { box.hidden = true; return; }
       const dir = isAr(v) ? 'ar' : 'tr', r = translate(v, dir);
       let m = r.exact[0], sentence = null;
-      if (!m && r.gloss.length && r.gloss.every(g => g.e)) sentence = r.gloss.map(g => g.e);
+      // (kelime dizisi çeviri gibi gösterilmez)
       if (!m && !sentence) m = r.similar[0];
       const ar = m ? m.ar : sentence ? sentence.map(e => e.ar).join(' ') : '';
       const ok = m ? m.ok : sentence ? sentence.map(e => e.ok).join(' ') : '';
@@ -595,9 +598,9 @@
           : `<div style="font-size:24px;font-weight:800">${esc(main.tr)}</div><div class="ok">${esc(main.ok)}</div><div style="display:flex;gap:8px;margin-top:6px">${playBtn(main.ar)}${favBtn(main)}</div><span class="tr-src${approx ? ' mt' : ''}"><span class="dot"></span>${approx ? 'En yakın ifade' : 'Portal sözlüğü'} · ${esc(main.cat)}</span>`;
       } else {
         const known = r.gloss.filter(g => g.e);
-        out.innerHTML = known.length
-          ? `<div class="${dir === 'tr' ? 'ar' : ''}" style="${dir === 'tr' ? '' : 'font-size:22px;font-weight:700'}">${esc(r.gloss.map(g => g.e ? (dir === 'tr' ? g.e.ar : g.e.tr.split(/\s*\/\s*/)[0]) : (dir === 'tr' ? '…' : g.src)).join(' '))}</div>${dir === 'tr' ? `<div class="ok">${esc(r.gloss.map(g => g.e ? g.e.ok : '…').join(' '))}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px">${playBtn(dir === 'tr' ? known.map(g => g.e.ar).join(' ') : text.trim())}</div><span class="tr-src mt"><span class="dot"></span>Kelime kelime çözümleme — cümle yapısını aşağıdaki benzer ifadelerle kontrol edin</span>`
-          : `<div style="color:var(--muted)">Sözlükte birebir karşılık bulunamadı.</div>`;
+        // Dürüst davranış: birebir karşılık yoksa kelime dizisini çeviri gibi göstermeyiz /
+        // No exact match: we do not present a word list as a translation
+        out.innerHTML = `<div class="tr-none"><b>Bu cümlenin hazır karşılığı yok.</b><p>Yanlış çeviri göstermemek için kelimeleri art arda dizmiyorum. Aşağıda kelimelerin tek tek anlamları ve en yakın hazır cümleler var.</p><a class="btn gold" href="#/cumlekur">🧩 Cümle Kur ile kendin kur</a></div>`;
       }
       const gl = r.gloss.length > 1 || (!main && r.gloss.length) ? `<div class="sec-h"><h2>Kelime kelime</h2></div><div class="card pad"><div class="gloss">${r.gloss.map(g => g.e ? `<div class="gl" data-say="${esc(g.e.ar)}" style="cursor:pointer" title="Dinle"><small>${esc(g.src)}</small><span class="ar">${esc(g.e.ar)}</span><small><b>${esc(g.e.ok)}</b></small><small>${esc(g.e.tr)}</small></div>` : `<div class="gl miss"><small>${esc(g.src)}</small><span>?</span></div>`).join('')}</div></div>` : '';
       const alts = (main && !approx ? r.exact.slice(1) : r.similar);
@@ -680,6 +683,119 @@
     let tm; $('#oIn').oninput = () => { clearTimeout(tm); tm = setTimeout(filter, 150); };
     $('#oMore').onclick = () => draw(false);
     filter();
+  };
+
+  // ── Cümle Kur / Kurallı cümle kurucu (fiil çekimi + sözcükler) ──
+  const FR_OK = fr => String(fr || '').replace(/\bel-/g, 'il-').replace(/sh/g, 'ş').replace(/gh/g, 'ğ').replace(/ch/g, 'ç').replace(/kh/g, 'x').replace(/5/g, 'x').replace(/7/g, 'h').replace(/[23]/g, "'").replace(/aa/g, 'â').replace(/ee/g, 'î').replace(/oo/g, 'û').replace(/x/g, 'kh').replace(/[STDZ]/g, c => c.toLowerCase());
+  const CK_PERS = [
+    { k: 'b1', l: 'Ben (erkek)', i: 0, g: 'm', ar: 'أنا', fr: 'ana' }, { k: 'b2', l: 'Ben (kadın)', i: 0, g: 'f', ar: 'أنا', fr: 'ana' },
+    { k: 's1', l: 'Sen (erkek)', i: 1, g: 'm', ar: 'إنت', fr: 'enta' }, { k: 's2', l: 'Sen (kadın)', i: 2, g: 'f', ar: 'إنتي', fr: 'enti' },
+    { k: 'o1', l: 'O (erkek)', i: 3, g: 'm', ar: 'هو', fr: 'howwa' }, { k: 'o2', l: 'O (kadın)', i: 4, g: 'f', ar: 'هي', fr: 'heyya' },
+    { k: 'bz', l: 'Biz', i: 5, g: 'p', ar: 'إحنا', fr: 'e7na' }, { k: 'sz', l: 'Siz', i: 6, g: 'p', ar: 'إنتو', fr: 'entoo' }, { k: 'on', l: 'Onlar', i: 7, g: 'p', ar: 'هما', fr: 'homma' }
+  ];
+  const CK_TENSE = [
+    ['now', 'Şu an (yapıyorum)'], ['habit', 'Genelde (yaparım)'], ['past', 'Geçmiş (yaptım)'], ['fut', 'Gelecek (yapacağım)'], ['imp', 'Emir (yap!)'],
+    ['want', 'İstek (yapmak istiyorum)'], ['must', 'Gerek (yapmalıyım)'], ['can', 'Yapabilir (yapabilirim)']
+  ];
+  const CK_QW = [['', '—'], ['فين', 'nerede? / nereye?'], ['إمتى', 'ne zaman?'], ['ليه', 'neden?'], ['إزاي', 'nasıl?'], ['إيه', 'ne?'], ['كام', 'kaç?'], ['مين', 'kim?']];
+  const CK_QWFR = { 'فين': 'feen', 'إمتى': 'emta', 'ليه': 'leh', 'إزاي': 'ezzay', 'إيه': 'eh', 'كام': 'kaam', 'مين': 'meen' };
+  const CK_PREP = [['', 'edatsız (gitmek, gelmek)'], ['في', 'içinde / -de'], ['من', '-den'], ['مع', 'ile (birlikte)'], ['على', 'üstünde / -e'], ['جنب', 'yanında'], ['قدام', 'önünde'], ['تحت', 'altında'], ['فوق', 'üstünde']];
+  const CK_PREPFR = { 'في': 'fee', 'من': 'min', 'مع': 'ma3a', 'على': '3ala', 'جنب': 'ganb', 'قدام': '2oddaam', 'تحت': 'ta7t', 'فوق': 'foo2' };
+  ROUTES.cumlekur = function (a, q) {
+    const V = VB.verbs, N = VB.nouns;
+    const st = { p: q.p || 's1', t: q.t || 'fut', v: q.v || (V.find(v => /^gitmek/.test(v.tr)) || V[0] || {}).id, neg: q.neg === '1', qs: q.qs === '1', qw: q.qw || '', o: q.o || '', od: q.od !== '0', pl: q.pl || '', pp: q.pp || '', pd: q.pd !== '0', ad: q.ad || '', tm: q.tm || '' };
+    const opt = (list, cur, any) => (any ? `<option value="">${any}</option>` : '') + list.map(x => `<option value="${esc(x[0])}"${x[0] === cur ? ' selected' : ''}>${esc(x[1])}</option>`).join('');
+    const nl = k => N.map((n, i) => [i, n]).filter(x => x[1].k === k).map(x => [String(x[0]), x[1].tr]);
+    view.innerHTML = pageHead('🧩 Cümle Kur', 'Kim, ne zaman, hangi fiil, nesne ve yer: seç, site doğru çekimleyip günlük Mısır lehçesinde cümleyi kursun ve seslendirsin.') +
+      `<div class="card pad ck-card">
+        <div class="ck-sec"><b>1. Kim?</b><div class="chips" id="ckP">${CK_PERS.map(x => `<button class="chip" data-p="${x.k}">${x.l}</button>`).join('')}</div></div>
+        <div class="ck-sec"><b>2. Ne zaman / nasıl?</b><div class="chips" id="ckT">${CK_TENSE.map(x => `<button class="chip" data-t="${x[0]}">${x[1]}</button>`).join('')}</div></div>
+        <div class="ck-sec"><b>3. Ne yapıyor?</b><input id="ckV" list="ckVL" class="ck-in" placeholder="Fiil yaz veya seç (gitmek, yazmak, beklemek…)" autocomplete="off"><datalist id="ckVL">${V.map(v => `<option value="${esc(v.tr)}">`).join('')}</datalist>
+          <div class="chips ck-mini"><button class="chip" id="ckNeg">Olumsuz (yapmıyorum)</button><button class="chip" id="ckQs">Soru (yapıyor musun?)</button></div></div>
+        <div class="ck-sec"><b>4. Eklemek istersen</b><div class="ck-grid">
+          <label>Nesne<select id="ckO"><option value="">—</option>${nl('n').map(x => `<option value="${x[0]}"${x[0] === st.o ? ' selected' : ''}>${esc(x[1])}</option>`).join('')}</select></label>
+          <label>Yer<select id="ckPl"><option value="">—</option>${nl('p').map(x => `<option value="${x[0]}"${x[0] === st.pl ? ' selected' : ''}>${esc(x[1])}</option>`).join('')}</select></label>
+          <label>Yer edatı<select id="ckPP">${opt(CK_PREP, st.pp)}</select></label>
+          <label>Ne zaman<select id="ckTm"><option value="">—</option>${nl('t').map(x => `<option value="${x[0]}"${x[0] === st.tm ? ' selected' : ''}>${esc(x[1])}</option>`).join('')}</select></label>
+          <label>Nasıl / ne kadar<select id="ckAd"><option value="">—</option>${nl('a').map(x => `<option value="${x[0]}"${x[0] === st.ad ? ' selected' : ''}>${esc(x[1])}</option>`).join('')}</select></label>
+          <label>Soru sözcüğü<select id="ckQW">${opt(CK_QW, st.qw)}</select></label></div>
+          <div class="chips ck-mini"><button class="chip" id="ckOd">Nesne belirli (el-)</button><button class="chip" id="ckPd">Yer belirli (el-)</button></div></div>
+      </div>
+      <div class="card pad ck-out" id="ckOut"></div><p class="ck-note">Cümleler kurallara göre kurulur ve fiil çekimleri tablolardan gelir; seslendirme parça parça kayıtlı erkek sesle yapılır. Mısır günlük dilinde bazı cümleler farklı söylenebilir.</p>`;
+    const person = () => CK_PERS.find(x => x.k === st.p) || CK_PERS[2];
+    const verb = () => V.find(v => v.id === st.v) || V[0];
+    const piece = (ar, fr) => ({ ar: ar, fr: fr });
+    const defn = n => ({ ar: /^ال/.test(n.ar) ? n.ar : 'ال' + n.ar, fr: 'el-' + n.fr });
+    const build = () => {
+      const P = person(), v = verb(), pcs = [];
+      if (!v) return { pcs: [] };
+      const form = (arr, i) => arr[i] || arr[0];
+      const pr = piece(P.ar, P.fr);
+      const NEG = piece('مش', 'mesh');
+      let main = [], showPron = true, neg = st.neg;
+      const t = st.t;
+      if (t === 'imp') {
+        if (![1, 2, 6].includes(P.i)) { return { err: 'Emir kipi yalnız “sen” ve “siz” için kullanılır.' }; }
+        const k = P.i === 1 ? 0 : P.i === 2 ? 1 : 2;
+        main = [neg ? form(v.impneg, k) : form(v.imp, k)]; showPron = false; neg = false;
+        if (!main[0]) return { err: 'Bu fiilin emir biçimi tabloda yok.' };
+      } else if (t === 'past') { main = [neg ? form(v.pastneg, P.i) : form(v.past, P.i)]; neg = false; }
+      else if (t === 'fut') main = [form(v.fut, P.i)];
+      else if (t === 'habit') main = [form(v.pres, P.i)];
+      else if (t === 'now') { if (v.part) { const gi = P.g === 'm' ? 0 : P.g === 'f' ? 1 : 2; main = [v.part[gi]]; } else main = [form(v.pres, P.i)]; }
+      else if (t === 'want') { main = [piece(P.g === 'f' ? 'عايزة' : P.g === 'p' ? 'عايزين' : 'عايز', P.g === 'f' ? '3ayza' : P.g === 'p' ? '3ayzeen' : '3aayez'), form(v.subj, P.i)]; }
+      else if (t === 'must') { main = [piece('لازم', 'laazem'), form(v.subj, P.i)]; showPron = false; }
+      else if (t === 'can') { const cv = V.find(x => /^gücü yetmek/.test(x.tr)); main = [cv ? form(cv.pres, P.i) : piece('بقدر', 'ba2dar'), form(v.subj, P.i)]; }
+      if (st.qw === 'ليه') pcs.push(piece('ليه', 'leh'));
+      if (showPron) pcs.push(pr);
+      if (neg) pcs.push(NEG);
+      main.forEach(x => pcs.push(piece(x[0] || x.ar, x[1] || x.fr)));
+      const no = st.o !== '' ? N[+st.o] : null, np = st.pl !== '' ? N[+st.pl] : null, nad = st.ad !== '' ? N[+st.ad] : null, nt = st.tm !== '' ? N[+st.tm] : null;
+      if (no) pcs.push(st.od ? defn(no) : piece(no.ar, no.fr));
+      if (np) { if (st.pp) pcs.push(piece(st.pp, CK_PREPFR[st.pp])); pcs.push(st.pd ? defn(np) : piece(np.ar, np.fr)); }
+      if (nad) pcs.push(piece(nad.ar, nad.fr));
+      if (nt) pcs.push(piece(nt.ar, nt.fr));
+      if (st.qw && st.qw !== 'ليه') pcs.push(piece(st.qw, CK_QWFR[st.qw]));
+      return { pcs: pcs };
+    };
+    const speakPieces = (pcs, btn) => {
+      const keys = pcs.map(x => audioKey(x.ar));
+      const go = () => {
+        if (keys.every(k => audioIdx && audioIdx.has(k))) { if (btn) btn.classList.add('playing'); playSequence(keys, btn, () => deviceSpeak(pcs.map(x => x.ar).join(' '), btn)); }
+        else deviceSpeak(pcs.map(x => x.ar).join(' '), btn);
+      };
+      audioIdx ? go() : loadAudioIdx().then(go);
+    };
+    let cur = [];
+    const draw = () => {
+      $$('#ckP .chip').forEach(b => b.classList.toggle('on', b.dataset.p === st.p));
+      $$('#ckT .chip').forEach(b => b.classList.toggle('on', b.dataset.t === st.t));
+      $('#ckNeg').classList.toggle('on', st.neg); $('#ckQs').classList.toggle('on', st.qs);
+      $('#ckOd').classList.toggle('on', st.od); $('#ckPd').classList.toggle('on', st.pd);
+      const vv = verb(); if (vv && document.activeElement !== $('#ckV')) $('#ckV').value = vv.tr;
+      history.replaceState(null, '', '#/cumlekur?' + new URLSearchParams({ p: st.p, t: st.t, v: st.v, neg: st.neg ? 1 : 0, qs: st.qs ? 1 : 0, qw: st.qw, o: st.o, od: st.od ? 1 : 0, pl: st.pl, pp: st.pp, pd: st.pd ? 1 : 0, ad: st.ad, tm: st.tm }).toString());
+      const r = build(), out = $('#ckOut');
+      if (r.err) { out.innerHTML = `<div class="ck-err">${esc(r.err)}</div>`; cur = []; return; }
+      cur = r.pcs;
+      const qm = (st.qs || st.qw) ? '؟' : '';
+      const ar = cur.map(x => x.ar).join(' ') + qm, fr = cur.map(x => x.fr).join(' ') + (qm ? '?' : ''), ok = FR_OK(cur.map(x => x.fr).join(' ')) + (qm ? '?' : '');
+      out.innerHTML = `<div class="ar ck-ar">${esc(ar)}</div><div class="ok">${esc(ok)}</div><div class="fr">${esc(fr)}</div>
+        <div class="ck-tr">${esc(person().l)} · ${esc(vv ? vv.tr : '')} · ${esc((CK_TENSE.find(x => x[0] === st.t) || [])[1] || '')}${st.neg ? ' · olumsuz' : ''}${st.qs ? ' · soru' : ''}</div>
+        <div style="display:flex;gap:8px;margin-top:10px;flex-wrap:wrap"><button class="btn gold" id="ckPlay">${ic('vol')} Dinle</button><button class="btn ghost" id="ckCopy">${ic('copy')} Kopyala</button></div>
+        <div class="ck-pcs">${cur.map(x => `<button class="chip ck-pc" data-say="${esc(x.ar)}"><span class="ar">${esc(x.ar)}</span><small>${esc(FR_OK(x.fr))}</small></button>`).join('')}</div>`;
+      $('#ckPlay').onclick = ev => speakPieces(cur, ev.currentTarget);
+      $('#ckCopy').onclick = () => { try { navigator.clipboard.writeText(ar); toast('Kopyalandı'); } catch (e) {} };
+    };
+    $('#ckP').onclick = ev => { const b = ev.target.closest('[data-p]'); if (b) { st.p = b.dataset.p; draw(); } };
+    $('#ckT').onclick = ev => { const b = ev.target.closest('[data-t]'); if (b) { st.t = b.dataset.t; draw(); } };
+    $('#ckNeg').onclick = () => { st.neg = !st.neg; draw(); };
+    $('#ckQs').onclick = () => { st.qs = !st.qs; draw(); };
+    $('#ckOd').onclick = () => { st.od = !st.od; draw(); };
+    $('#ckPd').onclick = () => { st.pd = !st.pd; draw(); };
+    $('#ckV').oninput = ev => { const x = V.find(v => v.tr === ev.target.value.trim()) || V.find(v => v.tr.split(/[\s\/]+/)[0] === ev.target.value.trim()); if (x) { st.v = x.id; draw(); } };
+    $('#ckV').onchange = () => draw();
+    [['ckO', 'o'], ['ckPl', 'pl'], ['ckPP', 'pp'], ['ckTm', 'tm'], ['ckAd', 'ad'], ['ckQW', 'qw']].forEach(x => { $('#' + x[0]).onchange = ev => { st[x[1]] = ev.target.value; draw(); }; });
+    draw();
   };
 
   // ── Sözlük / Dictionary ──

@@ -1,0 +1,138 @@
+# tür|tr|ar (belirsiz)|franko   tür: n=nesne, p=yer, t=zaman, a=zarf
+p|fabrika|مصنع|masna3
+p|ofis|مكتب|maktab
+p|ev|بيت|beit
+p|işyeri / atölye|ورشة|warsha
+p|depo|مخزن|ma5zan
+p|kesim bölümü|قسم القص|2esm el-2ass
+p|dikim bölümü|قسم الخياطة|2esm el-5iyaata
+p|ütü bölümü|قسم الكوي|2esm el-kawy
+p|paketleme bölümü|قسم التغليف|2esm el-taghleef
+p|kalite bölümü|قسم الجودة|2esm el-gawda
+p|yemekhane|المطعم|el-maT3am
+p|tuvalet|حمام|7ammaam
+p|kapı|باب|baab
+p|bahçe|جنينة|ganeena
+p|hastane|مستشفى|mostashfa
+p|eczane|صيدلية|Saydaleyya
+p|banka|بنك|bank
+p|market|سوبر ماركت|super market
+p|çarşı / pazar|سوق|soo2
+p|otel|فندق|fondo2
+p|havalimanı|مطار|maTaar
+p|şehir|مدينة|madeena
+p|otobüs durağı|موقف الأتوبيس|maw2ef el-otobees
+p|polis karakolu|القسم|el-2esm
+p|cami|مسجد|masgid
+p|okul|مدرسة|madrasa
+p|müşterinin ofisi|مكتب العميل|maktab el-3ameel
+p|liman|ميناء|meenaa
+p|sokak|شارع|shaare3
+n|kumaş|قماش|2omaash
+n|iplik|خيط|5eit
+n|makine|مكنة|makana
+n|iğne|إبرة|ebra
+n|makas|مقص|ma2ass
+n|düğme|زرار|zorraar
+n|fermuar|سوستة|soosta
+n|etiket|إتيكيت|etiket
+n|numune|عينة|3ayyena
+n|sipariş|أوردر|order
+n|model|موديل|model
+n|beden|مقاس|ma2aas
+n|palet|بالتة|baleta
+n|koli|كرتونة|kartoona
+n|poşet|كيس|kees
+n|rapor|تقرير|ta2reer
+n|liste|قايمة|2aayma
+n|belge|ورقة|wara2a
+n|form|استمارة|estemaara
+n|fatura|فاتورة|faatoora
+n|sözleşme|عقد|3a2d
+n|plan|خطة|5otta
+n|toplantı|اجتماع|egtemaa3
+n|vardiya|وردية|wardeyya
+n|maaş|مرتب|martab
+n|avans|سلفة|solfa
+n|izin|إجازة|egaaza
+n|kalite sorunu|مشكلة في الجودة|moshkela fel-gawda
+n|hata|غلطة|ghalTa
+n|leke|بقعة|ba2'a
+n|fire / kusurlu ürün|تالف|taalef
+n|sertifika|شهادة|shahaada
+n|denetim|تفتيش|taftesh
+n|müşteri|عميل|3ameel
+n|işçi|عامل|3aamel
+n|usta|أسطى|osTa
+n|müdür|مدير|modeer
+n|patron|معلم|me3allem
+n|telefon|موبايل|mobaayl
+n|bilgisayar|كمبيوتر|kombyooter
+n|kağıt|ورق|wara2
+n|kalem|قلم|2alam
+n|anahtar|مفتاح|meftaa7
+n|çanta|شنطة|shanTa
+n|su|ميه|meyya
+n|çay|شاي|shay
+n|kahve|قهوة|ahwa
+n|yemek|أكل|akl
+n|ekmek|عيش|3eesh
+n|ilaç|دوا|dawa
+n|para|فلوس|floos
+n|kitap|كتاب|ketaab
+n|araba|عربية|3arabeyya
+n|bilet|تذكرة|tazkara
+n|pasaport|جواز سفر|gawaaz safar
+n|kimlik|بطاقة|beTaa2a
+n|mektup / mesaj|رسالة|resaala
+n|haber|خبر|5abar
+n|soru|سؤال|so2aal
+n|cevap|إجابة|egaaba
+n|iş|شغل|shoghl
+n|ürün|منتج|montag
+n|malzeme|خامة|5aama
+n|kimyasal|كيماويات|kimaawyaat
+n|boya|صبغة|sebgha
+n|baskı|طباعة|Tebaa3a
+n|nakış|تطريز|taTreez
+n|elbise|هدوم|hodoom
+n|gömlek|قميص|2ameeS
+n|pantolon|بنطلون|bantalon
+n|tişört|تيشيرت|tee-shirt
+n|ceket|جاكت|jaket
+t|bugün|النهارده|el-naharda
+t|yarın|بكرة|bokra
+t|dün|إمبارح|embaare7
+t|şimdi|دلوقتي|delwa2ty
+t|sabah|الصبح|el-sob7
+t|akşam|بالليل|bel-leel
+t|öğleden sonra|العصر|el-3aSr
+t|öğlen|الضهر|el-dohr
+t|bu hafta|الأسبوع ده|el-osboo3 da
+t|gelecek hafta|الأسبوع الجاي|el-osboo3 el-gaay
+t|geçen hafta|الأسبوع اللي فات|el-osboo3 elly faat
+t|bu ay|الشهر ده|el-shahr da
+t|gelecek ay|الشهر الجاي|el-shahr el-gaay
+t|her gün|كل يوم|kol yom
+t|her zaman|دايما|daayman
+t|bazen|أحيانا|a7yaanan
+t|hiç|أبدا|abadan
+t|erken|بدري|badry
+t|geç|متأخر|met2a5er
+t|hemen|حالا|7aalan
+t|birazdan|كمان شوية|kamaan showaya
+t|sonra|بعدين|ba3deen
+t|önce|الأول|el-awwal
+t|bir saat sonra|بعد ساعة|ba3d saa3a
+t|iki gün sonra|بعد يومين|ba3d yomeen
+t|saat beşte|الساعة خمسة|el-saa3a 5amsa
+t|pazartesi günü|يوم الإثنين|yom el-ethneen
+t|cuma günü|يوم الجمعة|yom el-gom3a
+a|çok|أوي|awy
+a|biraz|شوية|showaya
+a|hızlıca|بسرعة|bessor3a
+a|yavaşça|براحة|beraa7a
+a|dikkatlice|بحرص|be7erS
+a|birlikte|سوا|sawa
+a|tek başına|لوحدي|le-wa7dy
+a|tekrar|تاني|tany

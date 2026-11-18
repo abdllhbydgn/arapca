@@ -72,3 +72,10 @@ Canlı: https://abdllhbydgn.github.io/arapca/ — statik SPA (GitHub Pages), has
 - Yeni bir özellik, ayar, otomasyon, eklenti ya da kullanıcıdan bir işlem (silme, kurulum, ayar) isteyen her adımda: **önce ne yapacağını ve nedenini 2–3 kısa maddeyle anlat, kullanıcının onayını bekle, sonra yap.**
 - Kullanıcıya adım adım, tek seferde tek iş ver; gerekirse ekran görüntüsü üzerinde işaretleyerek göster.
 - Kısa ve net yaz; teknik terim kullanma.
+
+## Yeni sayfalar ve veri araçları (17-18.11.2026)
+- **Ortak Kelimeler** (`#/ortak`): `tools/src/out_ortak.json` → `tools/build.py` → `data/ortak.js` (PDF sözlüklerinden 511 kelime, 30 cümle, okuma kuralları).
+- **Cümle Kur** (`#/cumlekur`, `ROUTES.cumlekur`): `tools/src/verbs.txt` (fiil kökleri) + `nouns.txt` (nesne/yer/zaman/zarf) → `python3 tools/build_verbs.py` → `data/verbs.js` (tüm çekimler hazır). Kurallı cümle: kim + zaman/kip + fiil + nesne + yer + zaman. Franko→okunuş: `FR_OK` (app.js) ve `fr2ok` (build.py) aynı kural.
+- **Cümle bankası**: `tools/src/cumle_*.txt` (`kategori|Türkçe|Arapça|franko`), `tools/build.py` okur; tekrarlananlar atlanır.
+- **Çeviri** ekranı birebir karşılık yoksa kelime dizisini çeviri gibi göstermez (kullanıcı kararı); "Cümle Kur"a yönlendirir.
+- Seslendirme: `ar-EG-ShakirNeural` (erkek), hız `+0%`; `data/**` değişince Actions tüm eksik sesleri üretir. Ses önbelleği için sw.js `CACHE_NAME` sürümünü artır.
