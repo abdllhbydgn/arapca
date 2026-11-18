@@ -3,6 +3,12 @@
    alfabe, konuşma rehberi, gramer & fiiller, çalışma defteri ve testler. Veriler data/*.js içinde gömülüdür. */
 (function () {
   'use strict';
+  // Site yeni açıldığında (adres yazma, yer imi, tarayıcı önerisi) her zaman Ana Sayfa'dan başlar. Yenileme ve geri/ileri etkilenmez /
+  // A fresh visit always starts on the home page; reload and back/forward are not affected
+  try {
+    const nv = (performance.getEntriesByType('navigation') || [])[0];
+    if (nv && nv.type === 'navigate' && location.hash && location.hash !== '#/' && location.hash !== '#') history.replaceState(null, '', location.pathname + location.search);
+  } catch (e) {}
   const D = window.MASRI_DICT || { entries: [], cats: [] };
   const C = window.MASRI || {};
   const E = D.entries;
