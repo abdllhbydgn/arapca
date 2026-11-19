@@ -1,24 +1,24 @@
 // Arapça Öğren — Service Worker
 // Siteyi bir kez (internetteyken) açtıktan sonra tüm portal ve veriler internetsiz de çalışır.
 // İçerik güncellendiğinde CACHE_NAME sürümünü artırın; tarayıcı eski önbelleği silip yenisini indirir.
-const CACHE_NAME = 'arapca-ogren-v46';
+const CACHE_NAME = 'arapca-ogren-v47';
 const APP_SHELL = [
   './',
   './index.html',
-  './assets/app.css?v=46',
-  './assets/tr-config.js?v=46',
-  './assets/app.js?v=46',
+  './assets/app.css?v=47',
+  './assets/tr-config.js?v=47',
+  './assets/app.js?v=47',
   './assets/logo.png',
-  './assets/legal.js?v=46',
+  './assets/legal.js?v=47',
   './assets/logo-ayn.png',
   './assets/portal-logo-seffaf.png',
   './assets/nscs-logo-beyaz.png',
-  './data/dict.js?v=46',
-  './data/content.js?v=46',
-  './data/ortak.js?v=46',
-  './data/verbs.js?v=46',
-  './assets/fb-config.js?v=46',
-  './assets/members.js?v=46',
+  './data/dict.js?v=47',
+  './data/content.js?v=47',
+  './data/ortak.js?v=47',
+  './data/verbs.js?v=47',
+  './assets/fb-config.js?v=47',
+  './assets/members.js?v=47',
   './manifest.json',
   './icon-192.png',
   './favicon.png',
