@@ -1405,7 +1405,7 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
   buildNav();
   // Logo bağlantısı: ana sayfadayken de çalışır (menüyü kapatır, en üste kaydırır) /
   // Logo link also works while already on the home page (closes the menu, scrolls to top)
-  { const br = $('.brand'); [br].concat($$('.foot-home')).forEach(el => el && el.addEventListener('click', ev => { const h = location.hash; if (h === '' || h === '#' || h === '#/') { ev.preventDefault(); closeSide(); window.scrollTo({ top: 0, behavior: 'smooth' }); } })); }
+  { const br = $('.brand'); [br].concat($$('.foot-home')).forEach(el => el && el.addEventListener('click', ev => { ev.preventDefault(); closeSide(); location.assign(location.pathname); })); }
   initSearch();
   setThemeIcon();
   window.addEventListener('hashchange', render);
