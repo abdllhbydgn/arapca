@@ -540,7 +540,7 @@
   const trBoxHtml = () => `<div class="card tr-box gt">
       <div class="gt-bar"><span class="lang gt-l" id="lIn"></span><button id="trSwap" class="gt-swap" aria-label="Yön değiştir" title="Yön değiştir">${ic('swap')}</button><span class="lang gt-l gt-r" id="lOut"></span></div>
       <div class="gt-panes">
-        <div class="tr-pane gt-in"><textarea class="tr-in" id="trIn" rows="3" placeholder="Metni yazın…" aria-label="Çevrilecek metin"></textarea>
+        <div class="tr-pane gt-in"><textarea class="tr-in" id="trIn" rows="3" autocomplete="off" spellcheck="false" placeholder="Metni yazın…" aria-label="Çevrilecek metin"></textarea>
           <div class="gt-foot"><span class="gt-btns"><button class="icon-btn" id="trMic" title="Sesle yaz" aria-label="Sesle yaz">${ic('mic')}</button><button class="icon-btn" id="trClear" title="Temizle" aria-label="Temizle">${ic('x')}</button></span><span id="trCount"></span></div></div>
         <div class="tr-pane gt-out"><div id="trOut" class="tr-out-main"></div></div>
       </div></div>`;
@@ -677,6 +677,11 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
     if (init && isAr(init)) dir = 'ar';
     const inp = $('#trIn');
     inp.value = init;
+    // Sayfa yenilenince tarayıcı eski yazıyı geri koymasın: kullanıcı yazmadıkça kutu başlangıç değerinde kalır
+    let typed = false;
+    inp.addEventListener('input', ev => { if (ev.isTrusted) typed = true; });
+    const wipe = () => { if (!typed && inp.value !== init) { inp.value = init; inp.dispatchEvent(new Event('input')); } };
+    if (!render._done) { setTimeout(wipe, 0); setTimeout(wipe, 400); window.addEventListener('pageshow', wipe, { once: true }); }
     const setDir = () => {
       $('#lIn').textContent = dir === 'tr' ? 'Türkçe' : 'Mısır Arapçası';
       $('#lOut').textContent = dir === 'tr' ? 'Mısır Arapçası' : 'Türkçe';
