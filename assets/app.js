@@ -966,14 +966,17 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
       `<div class="chips"><a class="chip${!kind ? ' on' : ''}" href="#/sozluk?cat=${encodeURIComponent(cat)}">Tümü</a><a class="chip${kind === 'w' ? ' on' : ''}" href="#/sozluk?k=w&cat=${encodeURIComponent(cat)}">Kelimeler</a><a class="chip${kind === 'p' ? ' on' : ''}" href="#/sozluk?k=p&cat=${encodeURIComponent(cat)}">İfadeler</a></div>`) +
       `<div class="gsearch" style="max-width:none;margin-bottom:14px"><svg class="i" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="dIn" type="search" placeholder="Ara…" value="${esc(q.q || '')}" aria-label="Sözlükte ara"></div>
       <div class="chips" style="margin-bottom:18px"><a class="chip${!cat ? ' on' : ''}" href="#/sozluk?k=${kind}">Tüm kategoriler</a>${D.cats.filter(c => counts[c.name]).map(c => `<a class="chip${cat === c.name ? ' on' : ''}" href="#/sozluk?k=${kind}&cat=${encodeURIComponent(c.name)}">${esc(c.emoji || '')} ${esc(c.name)} <span class="n">${counts[c.name]}</span></a>`).join('')}</div>
+      ${(() => { const sc = {}; if (cat) E.forEach(e => { if (e.cat === cat && e.sub) sc[e.sub] = (sc[e.sub] || 0) + 1; }); const ks = Object.keys(sc); return ks.length ? `<div class="chips" style="margin:-6px 0 16px"><a class="chip${!sub ? ' on' : ''}" href="#/sozluk?k=${kind}&cat=${encodeURIComponent(cat)}">Tüm alt başlıklar</a>${ks.map(s => `<a class="chip${sub === s ? ' on' : ''}" href="#/sozluk?k=${kind}&cat=${encodeURIComponent(cat)}&sub=${encodeURIComponent(s)}">${esc(s)} <span class="n">${sc[s]}</span></a>`).join('')}</div>` : ''; })()}
+      <div id="dCnt" class="muted" style="margin:0 0 10px;font-size:13px"></div>
       <div id="dRes" class="grid gauto"></div><div class="more-wrap"><button class="btn ghost" id="dMore" hidden>Daha fazla göster</button></div>`;
     let list = [], shown = 0;
     const draw = reset => {
       if (reset) { $('#dRes').innerHTML = ''; shown = 0; }
-      const part = list.slice(shown, shown + 48);
+      const part = list.slice(shown, shown + ((cat || sub || $('#dIn').value.trim()) ? list.length : 48));  // kategori ya da arama seçiliyse hepsi tek seferde
       $('#dRes').insertAdjacentHTML('beforeend', part.map(e => entryHtml(e)).join(''));
       shown += part.length;
       $('#dMore').hidden = shown >= list.length;
+      $('#dCnt').textContent = list.length ? list.length + ' sonuç' + (shown < list.length ? ' · ' + shown + ' gösteriliyor, aşağı kaydırdıkça devamı gelir' : ' · hepsi gösteriliyor') : '';
       if (!list.length) $('#dRes').innerHTML = `<div class="empty" style="grid-column:1/-1"><b>🔎</b>Sonuç bulunamadı. <a href="#/ceviri?q=${encodeURIComponent($('#dIn').value)}">Çeviriyi deneyin</a></div>`;
     };
     const filter = () => {
@@ -985,6 +988,8 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
     let tm;
     $('#dIn').oninput = () => { clearTimeout(tm); tm = setTimeout(filter, 150); };
     $('#dMore').onclick = () => draw(false);
+    // Aşağı kaydırınca sonraki kelimeler kendiliğinden gelsin
+    try { if ('IntersectionObserver' in window) { const mb = $('#dMore'); const io = new IntersectionObserver(es => { if (es[0].isIntersecting && !mb.hidden) { draw(false); io.unobserve(mb); io.observe(mb); } }, { rootMargin: '900px' }); io.observe(mb); } } catch (e) {}
     filter();
   };
 
