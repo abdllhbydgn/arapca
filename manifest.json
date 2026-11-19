@@ -5,8 +5,8 @@
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
-  "background_color": "#F4F2EC",
-  "theme_color": "#12284A",
+  "background_color": "#F3F5F9",
+  "theme_color": "#0F2A56",
   "lang": "tr",
   "orientation": "portrait-primary",
   "icons": [
@@ -33,6 +33,48 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
+    }
+  ],
+  "id": "/arapca/",
+  "categories": [
+    "education"
+  ],
+  "dir": "ltr",
+  "screenshots": [
+    {
+      "src": "magaza/ekran-1-ana-sayfa-ceviri.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Çeviri"
+    },
+    {
+      "src": "magaza/ekran-2-cumle-kur.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Cümle Kur"
+    },
+    {
+      "src": "magaza/ekran-3-ortak-kelimeler.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Ortak Kelimeler"
+    },
+    {
+      "src": "magaza/ekran-4-fabrika-dili.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Fabrika Dili"
+    },
+    {
+      "src": "magaza/ekran-5-sozluk.png",
+      "sizes": "1080x1920",
+      "type": "image/png",
+      "form_factor": "narrow",
+      "label": "Sözlük"
     }
   ]
 }
