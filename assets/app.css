@@ -738,3 +738,7 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .brand { cursor: pointer; }
 .brand:active { opacity: .8; }
 .brand:focus-visible { outline: 2px solid #EA580C; outline-offset: 4px; border-radius: 8px; }
+
+.foot-home { display: inline-block; text-decoration: none; color: inherit; cursor: pointer; }
+.foot-home:hover .foot-logo { opacity: .85; }
+.foot-name:hover { color: #FDBA74; }
