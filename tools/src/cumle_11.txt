@@ -1,0 +1,72 @@
+TK|Müşteri denetimi yarın|مراجعة العميل بكره|moraag3et el-3emeel bokra
+TK|Denetçi saat onda gelecek|المراجع هييجي الساعة عشرة|el-moraage3 hayeegy es-sa3a 3ashra
+TK|Denetime hazır mıyız?|احنا جاهزين للمراجعة؟|eHna gahzeen lel-moraag3a?
+TK|Denetim öncesi kontrol yapalım|نعمل مراجعة قبل المراجعة|na3mel moraag3a abl el-moraag3a
+TK|Fabrikayı temiz tutalım|خلّي المصنع نضيف|khalley el-maSna3 naDeef
+TK|Bütün kayıtlar hazır olmalı|كل السجلات لازم تبقى جاهزة|kol es-segillaat laazem tebqa gahza
+TK|Dosyalar masada hazır|الملفات جاهزة على المكتب|el-malaffaat gahza 3ala el-maktab
+TK|Denetçi soru sorarsa doğruyu söyle|لو المراجع سأل قول الحقيقة|law el-moraage3 sa2al 2ool el-Ha2ee2a
+TK|Bilmiyorsan, bilmiyorum de|لو مش عارف قول مش عارف|law mesh 3aaref 2ool mesh 3aaref
+TK|Kimsenin yerine cevap verme|ماتجاوبش بدل حد|matgaawebsh badal Hadd
+TK|Denetim bulgusu çıktı|المراجعة طلعت فيها ملاحظة|el-moraag3a Tal3et feeha molaHza
+TK|Kritik bulgu yok|مفيش ملاحظات حرجة|mafeesh molaHzaat Harega
+TK|Düzeltici faaliyet planı hazırla|جهّز خطة الإجراء التصحيحي|gahhez khoTTet el-egra2 et-taSHeeHy
+TK|Termin tarihini yaz|اكتب تاريخ التسليم|ekteb tareekh et-tasleem
+TK|Sorumlu kişi kim?|مين المسؤول؟|meen el-mas2ool?
+TK|Kök nedeni bulmamız lazım|لازم نلاقي السبب الأساسي|laazem nelaa2y es-sabab el-asaasy
+TK|Aynı hata tekrar etmesin|الغلط ده ماينفعش يتكرر|el-ghalaT da mayenfa3sh yetkarrar
+TK|Kanıt fotoğrafı ekle|ضيف صورة إثبات|Deef Sooret ethbaat
+TK|Belgeyi sisteme yükle|ارفع الورقة على السيستم|erfa3 el-wara2a 3ala el-system
+TK|Prosedürün son hâli hangisi?|إيه آخر نسخة من الإجراء؟|eeh aakher noskha men el-egra2?
+TK|Bu form eski, yenisini kullan|الفورم ده قديم، استخدم الجديد|el-form da 2adeem, estakhdem el-gedeed
+TK|Her şey kayıt altında olmalı|كل حاجة لازم تتسجل|kol Haaga laazem tetsagel
+TK|Kayıt olmayan iş yapılmamış sayılır|الشغل اللي مش متسجل يعتبر ما اتعملش|esh-shoghl elly mesh metsaggel ye3tabar ma et3amalsh
+TK|İmza ve tarih unutma|ماتنساش التوقيع والتاريخ|matensaash et-tawqee3 wel-tareekh
+TK|Kalem düzeltme yapma, çizip yeniden yaz|ماتمسحش، اشطب واكتب تاني|matemsaHsh, ishTeb we ekteb tany
+TK|Sertifikalar duvarda asılı|الشهادات معلقة على الحيطة|esh-shahaadaat mit3alla2a 3ala el-Heyta
+TK|Sertifikanın süresi dolmuş|الشهادة انتهت صلاحيتها|esh-shahaada entahat Salaaheyyetha
+TK|Sertifikayı yenilemeliyiz|لازم نجدد الشهادة|laazem negaddad esh-shahaada
+TK|Yangın tatbikatı yaptık mı?|عملنا تدريب حريق؟|3amalna tadreeb Hareeq?
+TK|Tatbikat kayıtları burada|سجلات التدريب هنا|segillaat et-tadreeb hena
+TK|Acil çıkış yolu açık olmalı|مخرج الطوارئ لازم يبقى مفتوح|makhrag eT-Tawaare2 laazem yebqa maftooH
+TK|Yangın söndürücüler kontrol edildi|طفايات الحريق اتفحصت|Tafayaat el-Hareeq etfaHaset
+TK|İlk yardım dolabı eksiksiz mi?|صندوق الإسعافات كامل؟|Sandoo2 el-es3aafaat kaamel?
+TK|İşçilere kişisel koruyucu ekipman verildi|اتوزع على العمال معدات الحماية|etwazza3 3ala el-3ommaal ma3addaat el-Himaaya
+TK|Maske ve eldiven kullan|البس الماسك والجوانتي|ebsa el-mask wel-gwanty
+TK|Kimyasal etiketleri okunur olmalı|ملصقات الكيماويات لازم تبقى واضحة|molSaqaat el-kemaweyyaat laazem tebqa waDHa
+TK|Güvenlik bilgi formu yanında olsun|ورقة بيانات السلامة تبقى جنبها|wara2et bayanaat es-salaama tebqa ganbaha
+TK|Kimyasal sızıntı olursa hemen haber ver|لو فيه تسريب كيماوي بلّغ فورًا|law feeh tasreeb kemaawy ballegh fawran
+TK|Atık su arıtma çalışıyor mu?|محطة معالجة المياه شغالة؟|maHaTTet mo3aalagat el-meyaah shaghgaala?
+TK|Atıklar ayrı toplanıyor|المخلفات بتتجمع منفصلة|el-mokhallafaat betetgama3 monfaSela
+TK|Tehlikeli atıkları ayrı koy|حط المخلفات الخطرة لوحدها|HoTT el-mokhallafaat el-khaTra le-waHdaha
+TK|Elektrik ve su tüketimini kaydet|سجل استهلاك الكهربا والمية|saggel esteh-laak el-kahraba wel-mayya
+TK|Enerji tasarrufu yapmalıyız|لازم نوفر في الطاقة|laazem nowaffar fel-Taaqa
+TK|Kalibrasyon etiketi kontrol edilsin|اتأكد من استيكر المعايرة|et2akked men esteeker el-mo3ayara
+TK|Cihazın kalibrasyonu geçmiş|جهاز المعايرة خلص ميعاده|gehaaz el-mo3ayara khalaS me3aado
+TK|Bu cihazı kullanma|ماتستخدمش الجهاز ده|matestakhdemsh el-gehaaz da
+TK|Test raporu geldi|تقرير الاختبار وصل|ta2reer el-ekhtebaar waSal
+TK|Test sonucu geçti|نتيجة الاختبار ناجحة|nateegat el-ekhtebaar naagHa
+TK|Test sonucu kaldı, tekrar yapacağız|نتيجة الاختبار رسبت، هنعيده|nateegat el-ekhtebaar rasabet, han3eedo
+TK|Numune laboratuvara gönderildi|العينة اتبعتت للمعمل|el-3ayyena etba3atet lel-ma3mal
+TK|Ürün müşterinin standardına uygun|المنتج مطابق لمعيار العميل|el-montag moTaabe2 le-me3yaar el-3emeel
+TK|Ölçü toleransın dışında|المقاس برا التولرانس|el-ma2aas barra el-tolerans
+TK|Renk farkı var|فيه فرق في اللون|feeh fare2 fel-lawn
+TK|Çekme oranı yüksek|نسبة الانكماش عالية|nesbet el-enkemaash 3aalya
+TK|Haslık testi tekrar edilsin|اعيدوا اختبار الثبات|a3eedo ekhtebaar eth-thabaat
+TK|Parti serbest bırakıldı|الشحنة اتفرج عنها|esh-shaHna etfaraag 3anha
+TK|Parti bekletildi, sevk etme|الشحنة موقوفة، ماتشحنش|esh-shaHna mawqoofa, matesh-Hansh
+TK|Hatalı ürünleri ayır|افصل المنتجات المعيوبة|ifSel el-montagaat el-ma3eeba
+TK|Ayrılan ürünlere etiket yapıştır|الصق ملصق على اللي اتفصل|elSa2 molSaq 3ala elly etfaSal
+TK|Yeniden işlem yapılacak|هيتعمله إعادة تشغيل|hayet3amalo e3aadet tashgheel
+TK|Müşteri şikâyeti geldi|جه شكوى من العميل|geh shakwa men el-3emeel
+TK|Şikâyetin nedenini araştır|ابحث عن سبب الشكوى|ebHas 3an sabab esh-shakwa
+TK|Müşteriye cevap hazırla|جهز رد للعميل|gahhez radd lel-3emeel
+TK|Yönetim gözden geçirme toplantısı|اجتماع مراجعة الإدارة|egtemaa3 moraag3et el-edaara
+TK|Aylık kalite raporu hazır|تقرير الجودة الشهري جاهز|ta2reer el-gawda esh-shahry gaahez
+TK|Hedefe ulaştık mı?|وصلنا للهدف؟|waSalna lel-hadaf?
+TK|Göstergeler iyiye gidiyor|المؤشرات بتتحسن|el-mo2ashsheraat betetHassan
+TK|Çalışan memnuniyet anketi yapılacak|هنعمل استبيان رضا العاملين|han3mel estebyaan reDa el-3aamleen
+TK|Sosyal uyum denetimi geliyor|مراجعة الامتثال الاجتماعي جاية|moraag3et el-emtethaal el-egtemaa3y gaaya
+TK|Çalışma saatleri kayıtlarla uyumlu olmalı|ساعات الشغل لازم تطابق السجلات|sa3aat esh-shoghl laazem teTaabe2 es-segillaat
+TK|İşçilerle özel görüşme yapılabilir|ممكن المراجع يتكلم مع العمال لوحده|momken el-moraage3 yetkallem ma3a el-3ommaal le-waHdo
+TK|Sorulara doğru ve rahat cevap ver|جاوب بصراحة وبراحة|gaweb beSaraHa we beraaHa

@@ -1,0 +1,69 @@
+IO|Yeni işçi bugün başlıyor|فيه عامل جديد هيبدأ النهارده|feeh 3aamel gedeed hayebda2 en-naharda
+IO|Yeni işçiye eğitim vereceğiz|هندّي العامل الجديد تدريب|handdy el-3aamel el-gedeed tadreeb
+IO|Eğitim yarın saat dokuzda|التدريب بكره الساعة تسعة|et-tadreeb bokra es-sa3a tes3a
+IO|Eğitime katılmak zorunlu|حضور التدريب إجباري|HoDoor et-tadreeb egbaary
+IO|Eğitimi kim verecek?|مين اللي هيدّي التدريب؟|meen elly haydy et-tadreeb?
+IO|Eğitim formunu imzala|امضي على ورقة التدريب|emDy 3ala wara2et et-tadreeb
+IO|Eğitimi anladın mı?|فهمت التدريب؟|fehemt et-tadreeb?
+IO|Tekrar anlatayım mı?|تحب أشرح تاني؟|teHebb ashraH tany?
+IO|Sorun varsa bana söyle|لو فيه مشكلة قولي|law feeh moshkela 2ooly
+IO|Performans toplantısı yarın|اجتماع تقييم الأداء بكره|egtemaa3 ta2yeem el-adaa2 bokra
+IO|Performansın bu ay çok iyi|أداءك الشهر ده كويس قوي|adaa2ak esh-shahr da kwayyes awy
+IO|Performansın düşük, bunu düzeltmeliyiz|أداءك ضعيف ولازم نظبطه|adaa2ak Da3eef we laazem neZabbaTo
+IO|Hedefine ulaşmak için yardım edeceğim|هساعدك توصل للهدف|hasa3dak teewsal lel-hadaf
+IO|Bu ay hedefi geçtin|عديت التارجت الشهر ده|3addeet et-target esh-shahr da
+IO|Teşekkür ederim, çok iyi çalıştın|شكرًا، اشتغلت كويس قوي|shokran, ishtaghalt kwayyes awy
+IO|Kimlik kartını yanında taşı|خليك شايل الكارنيه معاك|khalleek shayel el-karneeh ma3ak
+IO|Geç kaldın, sebebi ne?|اتأخرت ليه؟|et2akhkhart leeh?
+IO|Bu ikinci geç kalman|دي تاني مرة تتأخر|dee taany marra tet2akhkhar
+IO|Uyarı almamak için zamanında gel|تعالى في المعاد عشان ماتخدش إنذار|ta3aala fel-me3aad 3ashan matakhodsh ensaar
+IO|Sana yazılı uyarı verildi|اتكتبلك إنذار كتابي|etketeblak ensaar ketaaby
+IO|Disiplin kuruluna çağrıldın|اتطلبت في لجنة التأديب|etTalabt fee lagnet et-ta2deeb
+IO|Önce sözlü uyarı yaparız|الأول بننبه شفوي|el-awwal benneb-beh shafawy
+IO|Kurallara uymak herkes için şart|الالتزام بالقواعد على الكل|el-eltezaam bel-qawa3ed 3ala el-kol
+IO|İş kuralları duvarda asılı|قواعد الشغل متعلقة على الحيطة|qawa3ed esh-shoghl mit3alla2a 3ala el-Heyta
+IO|Telefon kullanmak yasak|ممنوع استخدام الموبايل|mamnoo3 estekhdaam el-mobayl
+IO|Hat içinde telefon kullanma|ماتستخدمش الموبايل في الخط|matestakhdemsh el-mobayl fel-khaTT
+IO|Mola saatinde kullanabilirsin|تقدر تستخدمه وقت الراحة|te2dar testakhdemo wa2t el-raaHa
+IO|İzin istiyorum|عايز أخد إجازة|3ayez aakhod egaaza
+IO|Kaç gün izin istiyorsun?|عايز كام يوم إجازة؟|3ayez kaam yoom egaaza?
+IO|İzin formunu doldur|املا ورقة الإجازة|emla wara2et el-egaaza
+IO|İzninin onaylandı|اتوافق على إجازتك|etwafe2 3ala egaazetak
+IO|İzin onaylanmadı, yoğun dönem|الإجازة ماتوافقش عليها، فيه ضغط شغل|el-egaaza matwafe2sh 3aleeha, feeh Daght shoghl
+IO|Hastalık izni için rapor getir|هات تقرير طبي للإجازة المرضي|haat ta2reer Teby lel-egaaza el-maraDy
+IO|Raporun var mı?|معاك تقرير؟|ma3ak ta2reer?
+IO|Maaş bordroları ayın beşinde|كشوف المرتبات يوم خمسة في الشهر|koshoof el-mortabaat yoom khamsa fesh-shahr
+IO|Sigorta girişin yapıldı|اتعملك تأمين|et3amalak ta2meen
+IO|Sigorta bilgilerini kontrol et|راجع بيانات التأمين|raaje3 bayanaat et-ta2meen
+IO|İşten ayrılmak istiyorum|عايز أسيب الشغل|3ayez aseeb esh-shoghl
+IO|İstifa dilekçesini yaz|اكتب استقالتك|ekteb este2aaltak
+IO|Son çalışma günün ne zaman?|آخر يوم شغل ليك إمتى؟|aakher yoom shoghl leek emta?
+IO|Tazminatın hesaplanacak|هنحسبلك مستحقاتك|hanHasablak mosteHa2aatak
+IO|Ücretini ayın sonunda alacaksın|هتاخد فلوسك آخر الشهر|hatakhod floosak aakher esh-shahr
+IO|Yeni vardiya listesi asıldı|جدول الورديات الجديد اتعلق|gadwal el-wardiyaat el-gedeed et3alla2
+IO|Vardiyanı kontrol et|شوف ورديتك|shoof wardeetak
+IO|Vardiya değiştirmek ister misin?|عايز تبدل الوردية؟|3ayez tebaddel el-wardiya?
+IO|Yarın fazla mesai var|بكره فيه أوفر تايم|bokra feeh over time
+IO|Fazla mesai ücretli|الأوفر تايم بفلوس|el-over time be-floos
+IO|Mesaiye kalabilecek misin?|تقدر تفضل أوفر تايم؟|te2dar tefDal over time?
+IO|Bugün erken çıkabilirsin|النهارده تقدر تمشي بدري|en-naharda te2dar temshy badry
+IO|Takım liderine haber ver|قول لرئيس الفريق|2ool le-ra2ees el-fareeq
+IO|Amirine haber ver|قول للمشرف بتاعك|2ool lel-moshref bet3ak
+IO|Şikâyetin varsa İK ile konuş|لو عندك شكوى كلم الموارد البشرية|law 3andak shakwa kallem el-mawaared el-bashareyya
+IO|Şikâyet kutusu girişte|صندوق الشكاوي عند المدخل|Sandoo2 esh-shakaawy 3and el-madkhal
+IO|Şikâyetin gizli tutulur|شكواك هتفضل سرية|shakwaak hatefDal serreyya
+IO|Herkese eşit davranıyoruz|بنعامل الكل بالتساوي|benea3mel el-kol bet-tasaawy
+IO|Kimseye ayrımcılık yapılmaz|مفيش تمييز مع حد|mafeesh tam-yeez ma3a Hadd
+IO|Kimseye zorla çalıştırılmaz|محدش بيتجبر على الشغل|maHaddesh beyetgabber 3ala esh-shoghl
+IO|Çocuk işçi çalıştırmıyoruz|مابنشغلش أطفال|mabneshaghalsh aTfaal
+IO|Yaşın kaç? Kimliğini göster|سنك كام؟ وريني البطاقة|senak kaam? wareeny el-biTaa2a
+IO|Aday bugün mülakata gelecek|المرشح هييجي النهارده للمقابلة|el-morashsha7 hayeegy en-naharda lel-moqabla
+IO|Mülakat saat ikide|المقابلة الساعة اتنين|el-moqabla es-sa3a etneen
+IO|Kaç yıllık tecrübeniz var?|عندك خبرة كام سنة؟|3andak khebra kaam sana?
+IO|Daha önce nerede çalıştın?|اشتغلت فين قبل كده؟|ishtaghalt feen abl keda?
+IO|Dikiş makinesi kullanabiliyor musun?|تعرف تشغل ماكينة خياطة؟|ta3raf teshaghghal makenet khayaaTa?
+IO|Deneme süresi üç ay|فترة التجربة تلات شهور|fatret et-tagriba talat shohoor
+IO|Deneme süresi bitince kadroya alırız|بعد فترة التجربة بنثبتك|ba3d fatret et-tagriba benthabbetak
+IO|Çalışma saatleri sabah sekiz, akşam beş|الشغل من تمانية الصبح لخمسة العصر|esh-shoghl min tamanya eS-Subh le-khamsa el-3aSr
+IO|Öğle arası bir saat|راحة الغدا ساعة|raaHet el-ghada sa3a
+IO|Yemekhane aşağıda|المطعم تحت|el-maT3am taHt
