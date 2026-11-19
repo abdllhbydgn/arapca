@@ -1,0 +1,135 @@
+SU|Otelde rezervasyonum var|عندي حجز في الفندق|3andy 7agz fel-fondo2
+SU|Bir oda istiyorum|عايز أوضة|3aayez owDa
+SU|Tek kişilik oda|أوضة سنجل|owDa single
+SU|Çift kişilik oda|أوضة دبل|owDa double
+SU|Kaç gece kalacaksınız?|هتقعدوا كام ليلة؟|hat2o3dooo kaam layla?
+SU|İki gece kalacağım|هقعد ليلتين|ha2a3ad layltayn
+SU|Kahvaltı dahil mi?|الفطار شامل؟|el-feTaar shaamel?
+SU|Oda fiyatı ne kadar?|سعر الأوضة كام؟|sa3r el-owDa kaam?
+SU|Anahtarı alabilir miyim?|ممكن المفتاح؟|momken el-meftaa7?
+SU|Odamda sıcak su yok|مفيش ميه سخنة في أوضتي|mafeesh meyya so5na fy owDety
+SU|Klima çalışmıyor|التكييف عطلان|el-takyeef 3aTlaan
+SU|Havlu getirir misiniz?|ممكن تجيبوا فوطة؟|momken tegeeboo foTa?
+SU|Check-out saat kaçta?|الخروج الساعة كام؟|el-5oroog el-saa3a kaam?
+SU|Bagajı burada bırakabilir miyim?|ممكن أسيب الشنط هنا؟|momken asebb el-shonaT hena?
+SU|Bir taksi çağırır mısınız?|ممكن تنادولي تاكسي؟|momken tenadooly taksy?
+SU|Pasaportumu verdim, geri alabilir miyim?|إديت جواز سفري، ممكن أخده؟|edeet gawaaz safary, momken a5do?
+SU|Uçak ne zaman kalkıyor?|الطيارة بتقوم إمتى؟|el-Tayyaara bet2oom emta?
+SU|Uçak rötarlı|الطيارة متأخرة|el-Tayyaara met2a55ara
+SU|Uçuş iptal oldu|الرحلة اتلغت|el-ra7la etlaghet
+SU|Biniş kapısı kaç?|بوابة الصعود رقم كام؟|bawwabet el-So3ood ra2am kaam?
+SU|Valizim çok ağır|شنطتي تقيلة أوي|shanTety te2eela awy
+SU|Elimde sadece el çantası var|معايا شنطة إيد بس|ma3aaya shanTet eed bass
+SU|Bu eşya yasak mı?|الحاجة دي ممنوعة؟|el-7aaga dy mamnoo3a?
+SU|Gümrükte beyan edecek bir şeyim yok|معييش حاجة أصرح بيها|ma3eeesh 7aaga aSarre7 beeha
+SU|Ne kadar kalacaksınız?|هتقعد قد إيه؟|hat2a3ad 2add eh?
+SU|İş için geldim|جيت عشان الشغل|geet 3ashaan el-shoghl
+SU|Turist olarak geldim|جيت سياحة|geet seyaa7a
+SU|Valizim kayboldu|شنطتي ضاعت|shanTety Daa3et
+SU|Bilet fiyatı ne kadar?|سعر التذكرة كام؟|sa3r el-tazkara kaam?
+SU|Gidiş dönüş bilet|تذكرة ذهاب وعودة|tazkaret zehaab we 3awda
+SU|Tek yön bilet|تذكرة ذهاب بس|tazkaret zehaab bass
+SU|Koltuk numaram kaç?|رقم كرسيي كام؟|ra2am korsyy kaam?
+SU|Cam kenarı olsun|عايز جنب الشباك|3aayez ganb el-shebbaak
+SU|Yolculuk ne kadar sürer?|الرحلة هتاخد قد إيه؟|el-ra7la hataa5od 2add eh?
+SU|Tren hangi perondan kalkıyor?|القطر بيقوم من أنهي رصيف؟|el-2aTr beye2oom men anhy raSeef?
+SU|Servis aracı ne zaman gelir?|عربية الشركة هتيجي إمتى؟|3arabeyyet el-share-ka hatyeegy emta?
+SU|Araba kiralamak istiyorum|عايز أأجّر عربية|3aayez a2aggar 3arabeyya
+SU|Ehliyetim yanımda|معايا رخصة القيادة|ma3aaya rekh-sit el-2eyaada
+SU|Benzin istasyonu nerede?|محطة البنزين فين؟|ma7aTTet el-benzeen feen?
+SU|Depoyu doldur lütfen|املا التانك لو سمحت|emla el-tank law samaht
+GI|Bu gömleğin bedeni kaç?|القميص ده مقاسه كام؟|el-2ameeS da ma2aaso kaam?
+GI|Bir beden büyüğü var mı?|فيه مقاس أكبر؟|fee ma2aas akbar?
+GI|Bir beden küçüğü var mı?|فيه مقاس أصغر؟|fee ma2aas aS3ar?
+GI|Bu pantolon bana uymadı|البنطلون ده مش مقاسي|el-banTaloon da mesh ma2aasy
+GI|Çok dar|ضيق أوي|Daye2 awy
+GI|Çok bol|واسع أوي|waase3 awy
+GI|Bu renk bana yakıştı mı?|اللون ده حلو عليا؟|el-lawn da 7elw 3aleyya?
+GI|Ceket kaç para?|الجاكت بكام؟|el-jaket bekaam?
+GI|Ayakkabı numaram kırk iki|مقاس جزمتي اتنين وأربعين|ma2aas gazmety etneen wa arba3een
+GI|Bunu başka renkte görebilir miyim?|ممكن أشوفه بلون تاني؟|momken ashoofo be-lawn tany?
+GI|Kış için kalın bir mont arıyorum|بدوّر على جاكيت تقيل للشتا|badawwar 3ala jaket te2eel lel-shetaa
+GI|Yazlık ince kıyafet|هدوم خفيفة للصيف|hodoom 5afeefa lel-Sayf
+GI|Kumaşı pamuklu mu?|القماش قطن؟|el-2omaash 2oTn?
+GI|Yıkanınca çeker mi?|بينكمش في الغسيل؟|beyenkamesh fel-ghaseel?
+GI|Etiketinde yıkama talimatı var|الإتيكيت عليه تعليمات الغسيل|el-eteeket 3aleeh ta3leemaat el-ghaseel
+GI|Bu kumaş çok yumuşak|القماش ده ناعم أوي|el-2omaash da naa3em awy
+GI|Dikişi sökülmüş|الخياطة فتقت|el-5iyaaTa fate2et
+GI|Düğmesi kopmuş|الزرار اتقطع|el-zorraar et2aTa3
+GI|Fermuarı bozuk|السوستة بايظة|el-soosta baayza
+GI|Paça boyunu kısaltır mısın?|ممكن تقصر الرجل؟|momken te2aSSar el-regl?
+DH|Bugün hava nasıl?|الجو عامل إزاي النهارده؟|el-gaw 3aamel ezzay el-naharda?
+DH|Hava çok sıcak|الجو حر جدا|el-gaw 7arr awy
+DH|Hava çok soğuk|الجو برد أوي|el-gaw bard awy
+DH|Yağmur yağıyor|بتمطر|betmaTTar
+DH|Bugün güneşli|النهارده الجو مشمس|el-naharda el-gaw meshmes
+DH|Hava bulutlu|الجو غايم|el-gaw ghaayem
+DH|Rüzgâr çok kuvvetli|الريح قوية أوي|el-ree7 2aweyya awy
+DH|Kum fırtınası var|فيه عاصفة رملية|fee 3aaSefa ramleyya
+DH|Yarın hava nasıl olacak?|الجو هيبقى عامل إزاي بكرة؟|el-gaw hayeb2a 3aamel ezzay bokra?
+DH|Nem çok yüksek|الرطوبة عالية أوي|el-roTooba 3aaleya awy
+DH|Yazın burası çok sıcak|هنا حر أوي في الصيف|hena 7arr awy fel-Sayf
+DH|Kışın biraz soğuk olur|في الشتا بيبقى برد شوية|fel-shetaa beyeb2a bard showaya
+DH|Bugün hava çok güzel|الجو حلو أوي النهارده|el-gaw 7elw awy el-naharda
+MI|Allah'ın izniyle|إن شاء الله|enshaa2 allah
+MI|Allah razı olsun|الله يرضى عنك|allah yerDa 3anak
+MI|Maşallah, çok güzel|ما شاء الله، حلو أوي|maashaa2 allah, 7elw awy
+MI|Hayırlı olsun|مبروك عليك|mabrook 3aleek
+MI|Allah yardımcın olsun|ربنا يعينك|rabbena ye3eenak
+MI|Allah kolaylık versin|ربنا يسهّل عليك|rabbena yesahhel 3aleek
+MI|Allah'a emanet|في أمان الله|fy amaan allah
+MI|Elhamdülillah|الحمد لله|el-7amdo lellaah
+MI|Allah seni korusun|ربنا يحميك|rabbena ye7meek
+MI|Allah rahmet eylesin|الله يرحمه|allah yer7amo
+MI|Başın sağ olsun|البقاء لله|el-ba2aa2 lellaah
+MI|Cuma namazına gidiyorum|رايح صلاة الجمعة|raaye7 Salaat el-gom3a
+MI|Ezan okunuyor|الأذان بيأذن|el-azaan beye2azzen
+MI|Namaz kılacağım|هصلي|haSally
+MI|Namaz odası nerede?|مكان الصلاة فين؟|makaan el-Salaa feen?
+MI|Bayram tatili var|فيه إجازة العيد|fee egaazet el-3eed
+MI|Bayramınız kutlu olsun|عيد سعيد|3eed sa3eed
+MI|Kurban bayramı yaklaşıyor|عيد الأضحى قرب|3eed el-ad7a 2arrab
+MI|Ramazan'da mesai saatleri değişir|مواعيد الشغل بتتغير في رمضان|mawaa3eed el-shoghl betetghayyar fy ramadaan
+MI|Yoluna devam et|كمّل طريقك|kammel Taree2ak
+MI|Nasip olursa|لو ربنا كتب|law rabbena katab
+MI|Ne diyeyim, Allah versin|أقول إيه، ربنا يرزقك|a2ool eh, rabbena yerze2ak
+MI|Zaten öyle|هو كده أصلا|howwa keda aSlan
+MI|Öyle olsun|ماشي يبقى كده|maashy yeb2a keda
+MI|Boşver, takma kafana|سيبك، متشغلش بالك|seebak, matesh-ghelsh baalak
+MI|Aman aman, çok yoruldum|يا ساتر، تعبت أوي|ya saater, ta3abt awy
+MI|Vallahi doğru söylüyorum|والله بقول الحقيقة|wallahi ba2ool el-7a2ee2a
+MI|Sağ ol, ağabey|تسلم يا أخويا|tesallam ya a5ooya
+MI|Hoş geldin, usta|أهلا يا أسطى|ahlan ya osTa
+MI|Merhaba, hacı|أهلا يا حاج|ahlan ya 7aag
+MI|Ne haber, şef?|إيه الأخبار يا باشمهندس؟|eh el-a5baar ya bashmohandes?
+MI|Buyurun efendim|أي خدمة يا فندم؟|ay khedma ya fandem?
+MI|Tamam, hallederiz|تمام، نظبطها|tamaam, nezabbaTha
+MI|Merak etme, ben hallederim|متقلقش، عليا أنا|mat2la2sh, 3aleyya ana
+MI|Bir şey olmaz|مفيش حاجة هتحصل|mafeesh 7aaga hat7aSal
+MI|Hiç önemi yok|ولا يهمك|wala yehemmak
+MI|Allah vere de yetişelim|يا رب نلحق|ya rabb nel7a2
+MI|Yarın bakarız|نشوف بكرة|neshoof bokra
+MI|Olur mu böyle şey?|ينفع كده؟|yenfa3 keda?
+MI|Hadi be|ما تقولش|ma te2oolsh
+MI|Kafam karıştı|دماغي لخبطت|demaaghy lakhbaTet
+MI|Şaka yapıyorsun|إنت بتهزر|enta behazzar
+MI|Çok güldüm|ضحكت أوي|De7ekt awy
+MI|Ne güzel bir sürpriz|يا سلام، مفاجأة حلوة|ya salaam, mofag2a 7elwa
+GK|Spor yapıyor musun?|بتلعب رياضة؟|betel3ab reyaaDa?
+GK|Futbol oynuyorum|بلعب كورة|bel3ab koora
+GK|Maç kaçta?|الماتش الساعة كام؟|el-match el-saa3a kaam?
+GK|Hangi takımı tutuyorsun?|بتشجع أنهي فريق؟|betshagga3 anhy fareeq?
+GK|Dün akşam maçı izledin mi?|شفت ماتش إمبارح؟|shoft match embaare7?
+GK|Sinemaya gidelim mi?|نروح السينما؟|neroo7 el-seenema?
+GK|Hangi film var?|فيه فيلم إيه؟|fee feelm eh?
+GK|Müzik dinlemeyi severim|بحب أسمع موسيقى|ba7ebb asma3 mooseeqa
+GK|Kitap okuyorum|بقرا كتاب|ba2ra ketaab
+GK|Hafta sonu ne yapıyorsun?|هتعمل إيه في الويك إند؟|hat3mel eh fel-weekend?
+GK|Pazara gideceğim|هروح السوق|haroo7 el-soo2
+GK|Piramitleri görmek istiyorum|عايز أشوف الأهرامات|3aayez ashoof el-ahramaat
+GK|Nil'de tekne gezisi yapalım|نركب مركب في النيل|nerkab markab fel-neel
+GK|Fotoğraf çekelim|ناخد صورة|naa5od Soora
+GK|Burası çok güzel|المكان حلو أوي هنا|el-makaan 7elw awy hena
+GK|Kahire çok kalabalık|القاهرة زحمة أوي|el-2aahera zo7ma awy
+GK|İskenderiye'yi çok severim|بحب إسكندرية أوي|ba7ebb eskenderyya awy
+GK|Mısır yemeklerini çok seviyorum|بحب الأكل المصري أوي|ba7ebb el-akl el-maSry awy
