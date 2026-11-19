@@ -167,7 +167,12 @@ for L in alpha['letters']:
 import glob as _glob
 _CK = {'SN': 'Selamlaşma & Nezaket', 'GK': 'Günlük Konuşma', 'AP': 'Alışveriş & Para', 'SU': 'Şehir & Ulaşım', 'YI': 'Yiyecek & İçecek', 'VS': 'Vücut & Sağlık',
        'AD': 'Acil Durumlar', 'SI': 'Sosyal İlişkiler', 'ZT': 'Zaman & Takvim', 'EV': 'Ev & Eşyalar', 'DU': 'Duygular', 'YY': 'Yer & Yön', 'IO': 'İş & Ofis',
-       'TK': 'Teknik & Kalite', 'FT': 'Fabrika & Tekstil', 'MI': "Mısır'a Özgü İfadeler", 'AI': 'Aile & İnsanlar', 'GI': 'Giyim', 'DH': 'Doğa & Hava'}
+       'TK': 'Teknik & Kalite', 'FT': 'Fabrika & Tekstil', 'MI': "Mısır'a Özgü İfadeler", 'AI': 'Aile & İnsanlar', 'GI': 'Giyim', 'DH': 'Doğa & Hava',
+       # Konfeksiyon Fabrikası alt başlıkları (kategori, alt başlık)
+       'KK': ('Konfeksiyon Fabrikası', 'Kesim'), 'KD': ('Konfeksiyon Fabrikası', 'Dikim Hattı'), 'KU': ('Konfeksiyon Fabrikası', 'Ütü & Paketleme'),
+       'KM': ('Konfeksiyon Fabrikası', 'Makineler & Ekipman'), 'KQ': ('Konfeksiyon Fabrikası', 'Kalite Kontrol'), 'KP': ('Konfeksiyon Fabrikası', 'Üretim & Hedef'),
+       'KV': ('Konfeksiyon Fabrikası', 'Vardiya & Devam'), 'KS': ('Konfeksiyon Fabrikası', 'Maaş & Prim'), 'KG': ('Konfeksiyon Fabrikası', 'İş Güvenliği'),
+       'KT': ('Konfeksiyon Fabrikası', 'Usta–İşçi Konuşmaları'), 'KF': ('Konfeksiyon Fabrikası', 'Kumaş & Malzeme')}
 
 
 def fr2ok(s):
@@ -186,7 +191,12 @@ for _f in sorted(_glob.glob(os.path.join(S, 'cumle_*.txt'))):
         if len(_p) != 4 or _p[0] not in _CK:
             print('cümle satırı atlandı:', _ln[:60])
             continue
-        add({'ar': _p[2], 'tr': _p[1], 'fr': _p[3], 'ok': fr2ok(_p[3])}, 'p', 'cum', _CK[_p[0]])
+        _c = _CK[_p[0]]
+        _rec = {'ar': _p[2], 'tr': _p[1], 'fr': _p[3], 'ok': fr2ok(_p[3])}
+        if isinstance(_c, tuple):
+            _rec['sub'] = _c[1]
+            _c = _c[0]
+        add(_rec, 'p', 'cum', _c)
 
 # Halk dili düzeltmeleri aynı kimlikle uygulanır (kart ilerlemesi ve favoriler korunur) /
 # Colloquial corrections applied by the same id (card progress and favourites are kept)

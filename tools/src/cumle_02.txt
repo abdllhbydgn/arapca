@@ -1,0 +1,140 @@
+AP|Bu kaç para?|ده بكام؟|da bekaam?
+AP|Fiyatı ne kadar?|سعره كام؟|sa3ro kaam?
+AP|Çok pahalı|غالي أوي|ghaaly awy
+AP|İndirim yapar mısın?|ممكن تعملي خصم؟|momken ta3mely 5asm?
+AP|Son fiyat nedir?|آخر سعر كام؟|aa5er sa3r kaam?
+AP|Biraz daha ucuz olur mu?|ينفع أرخص شوية؟|yenfa3 ar5as showaya?
+AP|Bunu alıyorum|هاخد ده|ha5od da
+AP|Bunu istemiyorum|مش عايز ده|mesh 3aayez da
+AP|Başka rengi var mı?|فيه لون تاني؟|fee lawn tany?
+AP|Daha büyüğü var mı?|فيه أكبر من كده؟|fee akbar men keda?
+AP|Daha küçüğü var mı?|فيه أصغر من كده؟|fee as3ar men keda?
+AP|Denemek istiyorum|عايز أجرب|3aayez agarreb
+AP|Deneme odası nerede?|أوضة القياس فين؟|owdet el-2eyaas feen?
+AP|Hesap lütfen|الحساب لو سمحت|el-7esaab law samaht
+AP|Kartla ödeyebilir miyim?|أقدر أدفع بالكارت؟|a2dar adfa3 bel-kart?
+AP|Nakit ödeyeceğim|هدفع كاش|hadfa3 kash
+AP|Üstü kalsın|الباقي لك|el-ba2y lak
+AP|Para üstünü verir misin?|ممكن الباقي؟|momken el-ba2y?
+AP|Fiş alabilir miyim?|ممكن إيصال؟|momken eyssaal?
+AP|Fatura istiyorum|عايز فاتورة|3aayez fatoora
+AP|Bozuk paran var mı?|معاك فكة؟|ma3aak fakka?
+AP|Bu ürünü iade etmek istiyorum|عايز أرجّع المنتج ده|3aayez arag-ga3 el-montag da
+AP|Değiştirebilir miyim?|ينفع أبدّله؟|yenfa3 abaddelo?
+AP|Garantisi var mı?|فيه ضمان؟|fee damaan?
+AP|Kaç lira? |كام ليرة؟|kaam leera?
+AP|Kaç dolar?|كام دولار؟|kaam dolaar?
+AP|Kaç Mısır lirası?|كام جنيه؟|kaam geneeh?
+AP|Dolar kuru kaç?|سعر الدولار كام؟|sa3r el-dolaar kaam?
+AP|Bozdurmak istiyorum|عايز أصرف|3aayez aSref
+AP|Parayı nereden çevirebilirim?|أصرف فلوس منين؟|aSref floos meneen?
+AP|Bankamatik nerede?|الصراف الآلي فين؟|el-Sarraaf el-aaly feen?
+AP|Hesabıma para yatırmak istiyorum|عايز أحط فلوس في حسابي|3aayez a7ot floos fy 7esaby
+AP|Havale yapmak istiyorum|عايز أعمل تحويل|3aayez a3mel ta7weel
+AP|Bütçemiz sınırlı|ميزانيتنا محدودة|meezaneyyetna ma7dooda
+AP|Bunu taksitle alabilir miyim?|ينفع أشتريه بالتقسيط؟|yenfa3 ashteryh bel-ta2seet?
+AP|Ne zaman ödeme yapacaksınız?|هتدفعوا إمتى؟|hatedfa3oo emta?
+AP|Ödeme vadesi kaç gün?|مدة الدفع كام يوم؟|moddet el-dafa3 kaam yom?
+AP|Peşin ödersek indirim var mı?|لو دفعنا كاش فيه خصم؟|law dafa3na kash fee 5asm?
+AP|Bir teklif almak istiyorum|عايز عرض سعر|3aayez 3ard sa3r
+AP|Teklifinizi yazılı gönderin|ابعتولنا العرض مكتوب|ebta3oolna el-3ard maktoob
+AP|Fiyatlar KDV dahil mi?|الأسعار شاملة الضريبة؟|el-as3aar shamla el-dareeba?
+AP|Minimum sipariş miktarı nedir?|أقل كمية للأوردر كام؟|a2all kammeyya lel-order kaam?
+AP|Stokta var mı?|متوفر في المخزن؟|motawaffer fel-ma5zan?
+AP|Ne zaman teslim edersiniz?|هتسلموه إمتى؟|hatesallemoh emta?
+AP|Kargo ücreti kaç?|الشحن بكام؟|el-shahn bekaam?
+SU|Taksi çağırır mısın?|ممكن تنادي تاكسي؟|momken tenaady taksy?
+SU|Beni şuraya götürür müsün?|ممكن توصلني هنا؟|momken twaSSalny hena?
+SU|Fabrikaya gitmek istiyorum|عايز أروح المصنع|3aayez aroo7 el-masna3
+SU|Ne kadar tutar?|هتبقى كام؟|hateb2a kaam?
+SU|Taksimetre açık mı?|العداد شغال؟|el-3addaad shaghaal?
+SU|Sağa dön|لف يمين|lef yemeen
+SU|Sola dön|لف شمال|lef shemaal
+SU|Düz git|امشي على طول|emshy 3ala Tool
+SU|Burada dur lütfen|وقف هنا لو سمحت|wa22ef hena law samaht
+SU|Biraz yavaş git|امشي براحة شوية|emshy beraa7a showaya
+SU|Acelem var|أنا مستعجل|ana mest3gel
+SU|Yol kapalı mı?|الطريق مقفول؟|el-taree2 me2fool?
+SU|Trafik çok var|فيه زحمة أوي|fee zo7ma awy
+SU|Otobüs durağı nerede?|موقف الأتوبيس فين؟|maw2ef el-otobees feen?
+SU|Bu otobüs nereye gidiyor?|الأتوبيس ده رايح فين؟|el-otobees da raaye7 feen?
+SU|Metro istasyonu nerede?|محطة المترو فين؟|ma7aTTet el-metro feen?
+SU|Bilet nereden alınır?|أجيب التذكرة منين؟|agyb el-tazkara meneen?
+SU|Bir bilet lütfen|تذكرة واحدة لو سمحت|tazkara wa7da law samaht
+SU|Son otobüs saat kaçta?|آخر أتوبيس الساعة كام؟|aa5er otobees el-saa3a kaam?
+SU|Servis kaçta kalkıyor?|السيارة بتمشي الساعة كام؟|el-sayyaara betemshy el-saa3a kaam?
+SU|İşçi servisi geldi mi?|عربية العمال جت؟|3arabeyyet el-3ommaal get?
+SU|Servisi kaçırdım|فاتتني العربية|faatetny el-3arabeyya
+SU|Yoldayım|أنا في الطريق|ana fel-taree2
+SU|Geç kalacağım, trafik var|هتأخر، فيه زحمة|hat2a5ar, fee zo7ma
+SU|Adres nedir?|العنوان إيه؟|el-3enwaan eh?
+SU|Bu adresi biliyor musun?|تعرف العنوان ده؟|ta3raf el-3enwaan da?
+SU|Havalimanına ne kadar sürer?|المطار هياخد قد إيه؟|el-maTaar hayaa5od 2add eh?
+SU|Havalimanına gitmem lazım|لازم أروح المطار|laazem aroo7 el-maTaar
+SU|Uçuşum saat kaçta?|طيارتي الساعة كام؟|Tayyaarety el-saa3a kaam?
+SU|Pasaport kontrolü nerede?|مراقبة الجوازات فين؟|moraa2bet el-gawazaat feen?
+SU|Bagajım kayboldu|شنطتي ضاعت|shanTety Daa3et
+SU|Otelime gidiyorum|رايح الفندق|raaye7 el-fondo2
+SU|Burası neresi?|هنا فين؟|hena feen?
+SU|Kayboldum|أنا تهت|ana teht
+SU|Yardım eder misin?|ممكن تساعدني؟|momken tesa3edny?
+SU|Haritada gösterir misin?|ممكن تفرجني على الخريطة؟|momken tfarragny 3ala el-5areeTa?
+SU|Yürüyerek ne kadar sürer?|مشي هياخد قد إيه؟|mashy hayaa5od 2add eh?
+SU|Yakın mı uzak mı?|قريب ولا بعيد؟|2areeb wala ba3eed?
+SU|Karşıya nasıl geçerim?|أعدّي الشارع إزاي؟|a3addy el-shaare3 ezzay?
+SU|Köprüden geç|عدّي من الكوبري|3addy men el-kobry
+SU|Kavşaktan sağa dön|لف يمين من الميدان|lef yemeen men el-meedaan
+SU|Park yeri yok|مفيش ركنة|mafeesh rakna
+SU|Arabayı buraya park edebilir miyim?|أركن العربية هنا؟|arken el-3arabeyya hena?
+SU|Benzin bitmek üzere|البنزين قرب يخلص|el-benzeen 2arrab ye5las
+SU|Lastik patladı|الكاوتش فرقع|el-kawetsh far2a3
+SU|Araba çalışmıyor|العربية مش بتشتغل|el-3arabeyya mesh betesht-aghal
+SU|Tamirci nerede?|الميكانيكي فين؟|el-mekaneeky feen?
+YI|Acıktım|أنا جعان|ana ga3aan
+YI|Çok acıktım|أنا جعان جدا|ana ga3aan awy
+YI|Ne yiyelim?|ناكل إيه؟|nakol eh?
+YI|Menüyü alabilir miyim?|ممكن المنيو؟|momken el-menu?
+YI|Ne tavsiye edersin?|إيه اللي تنصح بيه؟|eh elly tensa7 beeh?
+YI|Bir tavuk lütfen|فرخة لو سمحت|farkha law samaht
+YI|Pilav ve et istiyorum|عايز رز ولحمة|3aayez rozz we la7ma
+YI|Salata var mı?|فيه سلطة؟|fee salaTa?
+YI|Çorba istiyorum|عايز شوربة|3aayez shorba
+YI|Ekmek getirir misin?|ممكن عيش؟|momken 3eesh?
+YI|Biraz su lütfen|شوية ميه لو سمحت|showayet meyya law samaht
+YI|Soğuk su var mı?|فيه ميه ساقعة؟|fee meyya sa2e3a?
+YI|Bir çay lütfen|شاي لو سمحت|shay law samaht
+YI|Şekersiz çay|شاي من غير سكر|shay men gheir sokkar
+YI|Az şekerli|سكر خفيف|sokkar 5afeef
+YI|Sütlü kahve|قهوة بلبن|ahwa bel-laban
+YI|Türk kahvesi|قهوة تركي|ahwa torky
+YI|Biraz acı olsun|يبقى حار شوية|yeb2a 7aar showaya
+YI|Acı olmasın|من غير حار|men gheir 7aar
+YI|Etsiz olsun|من غير لحمة|men gheir la7ma
+YI|Tuz yok|مفيش ملح|mafeesh mel7
+YI|Çok lezzetli|لذيذ أوي|lazeez awy
+YI|Ellerine sağlık|تسلم إيدك|tesallam eedak
+YI|Doydum, çok teşekkürler|شبعت، متشكر أوي|shebe3t, motashakker awy
+YI|Hesabı ben ödüyorum|الحساب عليا|el-7esaab 3aleyya
+YI|Yarı yarıya ödeyelim|نقسم الحساب|ne2assem el-7esaab
+YI|Paket yapar mısınız?|ممكن تغلفوهولي؟|momken tghallefooholy?
+YI|Eve götürmek istiyorum|عايز آخده البيت|3aayez aa5do el-beit
+YI|Yemek ne zaman hazır olur?|الأكل هيجهز إمتى؟|el-akl hayegha-hez emta?
+YI|Yemek soğumuş|الأكل برد|el-akl bared
+YI|Yemekhane ne zaman açılıyor?|المطعم بيفتح إمتى؟|el-maT3am beyefta7 emta?
+YI|Öğle yemeği molası saat kaçta?|راحة الغدا الساعة كام؟|raa7et el-ghada el-saa3a kaam?
+YI|Bugün yemekte ne var?|النهارده في الغدا إيه؟|el-naharda fel-ghada eh?
+YI|Kahvaltı yaptın mı?|فطرت؟|faTart?
+YI|Henüz yemedim|لسه مأكلتش|lessa ma2aktesh
+YI|Çay molası verelim|نريّح شوية ونشرب شاي|nereyya7 showaya wenesharab shay
+YI|Meyve yemek ister misin?|تاكل فاكهة؟|takol fakha?
+YI|Portakal suyu lütfen|عصير برتقال لو سمحت|3aSeer bor-to2aal law samaht
+YI|Bir bardak daha|كوباية كمان|kobbaya kamaan
+YI|Tatlı ne var?|إيه الحلويات؟|eh el-7alawayaat?
+YI|Alerjim var|عندي حساسية|3andy 7assaseyya
+YI|Fıstığa alerjim var|عندي حساسية من الفول السوداني|3andy 7assaseyya men el-fool el-sodaany
+YI|Bunun içinde ne var?|ده فيه إيه؟|da feeh eh?
+YI|Domuz eti yok değil mi?|مفيهوش لحم خنزير مظبوط؟|mafeehoosh la7m 5enzeer maZbooT?
+YI|Helal mi?|حلال؟|7alaal?
+YI|Oruç tutuyorum|أنا صايم|ana Saayem
+YI|İftar saat kaçta?|الإفطار الساعة كام؟|el-eftaar el-saa3a kaam?
+YI|Ramazanınız mübarek olsun|رمضان كريم|ramadaan kareem

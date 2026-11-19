@@ -1,0 +1,137 @@
+KQ|Kalite kontrolcü geldi|مراقب الجودة جه|moraa2eb el-goda geh
+KQ|Bu parça hatalı|القطعة دي فيها عيب|el-2eTa3a dy feeha 3ayb
+KQ|Hatalı parçaları ayır|افصل القطع المعيبة|efSel el-2eTa3 el-ma3eeba
+KQ|Kaç adet hatalı çıktı?|كام قطعة طلعت معيبة؟|kaam 2eTa3a Tal3et ma3eeba?
+KQ|Hata oranı yüzde kaç?|نسبة العيوب كام في المية؟|nesbet el-3oyoob kaam fel-meyya?
+KQ|Hata oranı çok yüksek|نسبة العيوب عالية أوي|nesbet el-3oyoob 3aaleya awy
+KQ|AQL kontrolü yapılacak|هنعمل فحص AQL|hana3mel fa7S AQL
+KQ|Numune çekildi|اتسحبت عينة|etsa7abet 3ayyena
+KQ|Numune testten geçti|العينة نجحت في الاختبار|el-3ayyena nega7et fel-e5tebaar
+KQ|Numune testten kaldı|العينة فشلت في الاختبار|el-3ayyena fashelet fel-e5tebaar
+KQ|Ölçü tablosuna göre ölç|قيس حسب جدول المقاسات|2ees 7asab gadwal el-ma2aasaat
+KQ|Ölçüler toleransın dışında|المقاسات برة التولرانس|el-ma2aasaat barra el-tolerans
+KQ|Beden tutmuyor|المقاس مش مظبوط|el-ma2aas mesh maZbooT
+KQ|Boy kısa çıkmış|الطول جه قصير|el-Tool geh 2aSeer
+KQ|Genişlik fazla|العرض زيادة|el-3ard zeyaada
+KQ|Renk farkı var|فيه فرق في اللون|fee far2 fel-lawn
+KQ|Renk tonu uymuyor|درجة اللون مش مطابقة|daragit el-lawn mesh moTaab2a
+KQ|Ütü kalitesi kötü|جودة الكوي وحشة|goodet el-kawy wa7sha
+KQ|Dikiş kalitesi kötü|جودة الخياطة وحشة|goodet el-5iyaaTa wa7sha
+KQ|Temizlik yetersiz|النضافة مش كفاية|el-naDaafa mesh kefaaya
+KQ|İplik uçları temizlenmemiş|الخيوط الزايدة متقصتش|el-5oyooT el-zaayda ma2oSetsh
+KQ|Kontrol listesine göre kontrol et|افحص حسب قايمة الفحص|ef7aS 7asab 2aayemet el-fa7S
+KQ|Kontrolü tekrar yap|اعمل الفحص تاني|e3mel el-fa7S tany
+KQ|Onaylanmadan sevk etme|متشحنش من غير موافقة|mateshna7sh men gheir mowaf2a
+KQ|Onay verildi|اتوافق عليه|etwaafe2 3aleeh
+KQ|Onay verilmedi|متوافقش عليه|matwaaf2ash 3aleeh
+KQ|Tekrar işlem gerekiyor|محتاج إعادة تشغيل|me7taag e3aadet tashgheel
+KQ|Düzeltici faaliyet başlatıldı|اتبدأ إجراء تصحيحي|etbada2 egraa2 taSHee7y
+KQ|Kök neden analizi yapalım|نعمل تحليل للسبب الجذري|na3mel ta7leel lel-sabab el-gedhry
+KQ|Bu hata tekrar etmemeli|العيب ده ميتكررش|el-3ayb da metkarrarsh
+KQ|Müşteri bu hatayı kabul etmez|العميل مش هيقبل العيب ده|el-3ameel mesh hayeb2a el-3ayb da
+KQ|Kalite standardımız yüksek|معايير الجودة عندنا عالية|ma3ayeer el-goda 3andena 3aleya
+KQ|Üretime başlamadan önce numune onayı şart|لازم موافقة العينة قبل ما نبدأ الإنتاج|laazem mowaf2et el-3ayyena 2abl ma nebda2 el-entaag
+KG|Güvenlik önlemlerine uy|التزم بإجراءات السلامة|eltezem be-egraa2aat el-salaama
+KG|Eldiven tak|البس الجوانتي|elbes el-gawanty
+KG|Maske tak|البس الكمامة|elbes el-kamaama
+KG|Gözlük tak|البس النضارة|elbes el-naDaara
+KG|Kulaklık tak, ses çok yüksek|البس سدادة الودن، الصوت عالي|elbes saddaadet el-wedn, el-Sawt 3aali
+KG|Koruyucu ekipman kullan|استخدم معدات الوقاية|estakhdem mo3eddaat el-wi2aaya
+KG|Bu alanda kask zorunlu|الخوذة إجبارية هنا|el-khooza egbaareyya hena
+KG|Iskarpin ayakkabısı giy|البس حذاء السلامة|elbes 7edhaa2 el-salaama
+KG|Yerler ıslak, kayabilirsin|الأرض مبلولة، ممكن تزحلق|el-arD mabloola, momken tezla2
+KG|Kablolara basma|متدوسش على الكابلات|matedoosh 3ala el-kablaat
+KG|Makinelerin koruyucusunu çıkarma|متشيلش غطاء الحماية من المكن|metsheelsh ghaTa el-7emaaya men el-makan
+KG|Makine çalışırken temizlik yapma|متنضفش المكنة وهي شغالة|matenaDDafsh el-makana wehe shaghaala
+KG|Yangın söndürücü nerede?|طفاية الحريق فين؟|Taffayet el-7ar2 feen?
+KG|Yangın tatbikatı yapacağız|هنعمل تمرين حريق|hana3mel tamreen 7ar2
+KG|Acil çıkış yolu açık olmalı|مخرج الطوارئ لازم يكون مفتوح|ma5rag el-Tawaare2 laazem yekoon maftoo7
+KG|Acil çıkışın önünü kapatma|متسدش قدام مخرج الطوارئ|metseddesh 2oddaam ma5rag el-Tawaare2
+KG|Toplanma noktası burası|دي نقطة التجمع|dy no2Tet el-tagammo3
+KG|Kazayı hemen bildir|بلّغ عن الحادثة فورا|ballagh 3an el-7aadsa fawran
+KG|İş kazası geçirdi|اتصاب في الشغل|etSaab fel-shoghl
+KG|İlk yardım yaptık|عملنا إسعاف أولي|3amalna es3aaf awwaly
+KG|İş güvenliği eğitimi alacağız|هناخد تدريب سلامة مهنية|hanaa5od tadreeb salaama mehneyya
+KG|Eğitimi imzala|امضي على التدريب|emdy 3ala el-tadreeb
+KG|Güvenlik uyarı levhasını oku|اقرا لافتة التحذير|e2ra lafteet el-ta7zeer
+KG|Tehlikeli madde burada|فيه مادة خطرة هنا|fee maadda khaTra hena
+KG|Kimyasal döküldü|الكيماويات اتدلقت|el-kimaawyaat etdala2et
+KG|Kimyasala çıplak elle dokunma|متلمسش الكيماويات بإيدك|matel-massh el-kimaawyaat be-eedak
+KG|Güvenlik bilgi formunu oku|اقرا ورقة بيانات السلامة|e2ra wara2et bayanaat el-salaama
+KG|Kimyasalları etiketle|حط لافتة على الكيماويات|7oT lafta 3ala el-kimaawyaat
+KG|Kimyasal depoyu kilitle|اقفل مخزن الكيماويات|e2fel ma5zan el-kimaawyaat
+KG|Atıkları ayrı topla|اجمع المخلفات منفصلة|egma3 el-makhallafaat monfaSela
+KG|Atık kutusunu boşalt|فضي صندوق المخلفات|fadday Sandoo2 el-makhallafaat
+KG|Çalışma alanı temiz olmalı|مكان الشغل لازم يبقى نضيف|makaan el-shoghl laazem yeb2a naDeef
+KG|Aydınlatma yetersiz|الإضاءة مش كفاية|el-eDaa2a mesh kefaaya
+KG|Havalandırma çalışmıyor|التهوية مش شغالة|el-tahweya mesh shaghaala
+KG|Toz çok fazla|التراب كتير أوي|el-torab kateer awy
+KG|Sıcaklık çok yüksek|الحرارة عالية أوي|el-7araara 3aaleya awy
+KG|Su içmeyi unutma|متنساش تشرب ميه|matensash tesharab meyya
+KG|Çocuk işçi çalıştırılmaz|مفيش تشغيل أطفال|mafeesh tashgheel aTfaal
+KG|Zorla çalıştırma yoktur|مفيش شغل بالإجبار|mafeesh shoghl bel-egbaar
+KG|Herkes eşit muamele görür|الكل بيتعامل بالتساوي|el-kol beyet3aamel bel-tasaawy
+KG|Şikayet kutusu burada|صندوق الشكاوي هنا|Sandoo2 el-shakaawy hena
+KG|Şikayetin gizli kalır|شكواك هتفضل سرية|shakwaak hatefDal serreyya
+KG|İşçi hakları bizim için önemli|حقوق العمال مهمة عندنا|7o2oo2 el-3ommaal mohemma 3andena
+KG|Güvenlik görevlisi kapıda|الأمن على البوابة|el-amn 3ala el-bawwaaba
+KG|Ziyaretçi kaydı yapılıyor|بنسجل الزوار|benesaggel el-zowwaar
+KG|Ziyaretçi kartı al|خد كارت زائر|5od kart zaayer
+KG|Ziyaretçi fabrikaya girebilir mi?|الزائر يقدر يدخل المصنع؟|el-zaayer ye2dar yedkhol el-masna3?
+KG|Kameralar kayıt yapıyor|الكاميرات بتسجل|el-kameeraat betsaggel
+TK|Denetim yarın yapılacak|التفتيش بكرة|el-taftesh bokra
+TK|Denetçi geldi|المفتش وصل|el-mofattesh weSel
+TK|Denetçiye eşlik et|روح مع المفتش|roo7 ma3a el-mofattesh
+TK|Denetçi hangi bölümü görmek istiyor?|المفتش عايز يشوف أنهي قسم؟|el-mofattesh 3aayez yeshoof anhy 2esm?
+TK|Denetçi soru sordu|المفتش سأل سؤال|el-mofattesh sa2al so2aal
+TK|Sorulara doğru cevap ver|جاوب على الأسئلة بصدق|gaawed 3ala el-as2ela beSedq
+TK|Belgeleri hazırla|جهز المستندات|gahhez el-mostanadaat
+TK|Sertifika geçerli|الشهادة سارية|el-shahaada saareya
+TK|Sertifikanın süresi doluyor|الشهادة قربت تنتهي|el-shahaada 2arrabet tentehy
+TK|Sertifikayı yeniledik|جددنا الشهادة|gaddadna el-shahaada
+TK|Denetim raporu geldi|تقرير التفتيش وصل|ta2reer el-taftesh weSel
+TK|Bulgular var|فيه ملاحظات|fee molaa7aZaat
+TK|Bulguları kapatmamız lazım|لازم نقفل الملاحظات|laazem ne2fel el-molaa7aZaat
+TK|Düzeltici faaliyet planı hazırla|جهز خطة الإجراءات التصحيحية|gahhez 5oTTet el-egraa2aat el-taSH7eeheyya
+TK|Kanıt fotoğrafı çek|صوّر دليل|Sawwar daleel
+TK|Kanıt yükle|ارفع الدليل|erfa3 el-daleel
+TK|Termin tarihi ne zaman?|ميعاد التنفيذ إمتى؟|mee3aad el-tanfeez emta?
+TK|Sorumlu kişi kim?|الشخص المسؤول مين؟|el-sha5S el-mas2ool meen?
+TK|Bu madde tamamlandı|البند ده اتنفذ|el-band da etnafaz
+TK|Bu madde devam ediyor|البند ده شغال فيه|el-band da shaghaal feeh
+TK|Bu madde başlanmadı|البند ده لسه مبدأش|el-band da lessa mabdash
+TK|Prosedürü okudun mu?|قريت الإجراء؟|2arayt el-egraa2?
+TK|Prosedüre göre çalış|اشتغل حسب الإجراء|eshtaghal 7asab el-egraa2
+TK|Talimat nerede asılı?|التعليمات متعلقة فين؟|el-ta3leemaat met3alla2a feen?
+TK|Formu doldurdun mu?|مليت الاستمارة؟|malayt el-estemaara?
+TK|Kayıtları tut|احتفظ بالسجلات|e7tafaz bel-segillaat
+TK|Eğitim kaydı var mı?|فيه سجل تدريب؟|fee segill tadreeb?
+TK|Müşteri denetimi yaklaşıyor|تفتيش العميل قرب|taftesh el-3ameel 2arrab
+TK|Müşteri denetimine hazırlanıyoruz|بنجهز لتفتيش العميل|bengahhez le-taftesh el-3ameel
+TK|Sosyal uygunluk denetimi var|فيه تفتيش امتثال اجتماعي|fee taftesh emteSaal egtemaa3y
+TK|Çevre denetimi yapıldı|اتعمل تفتيش بيئي|et3amal taftesh bee2y
+TK|Kimyasal envanteri güncel mi?|جرد الكيماويات محدّث؟|gard el-kimaawyaat mo7addas?
+TK|Atık yönetimi planı var mı?|فيه خطة لإدارة المخلفات؟|fee 5oTTa le-edaarat el-makhallafaat?
+TK|Su ve enerji tüketimini takip ediyoruz|بنتابع استهلاك الميه والطاقة|benetaabe3 esteHlaak el-meyya wel-Taa2a
+TK|Yangın söndürücüler kontrol edildi|طفايات الحريق اتفحصت|Tafayaat el-7ar2 etfa7aSet
+TK|İşçi kayıtları tam|سجلات العمال كاملة|segillaat el-3ommaal kaamela
+TK|Mesai kayıtları doğru mu?|سجلات الدوام صح؟|segillaat el-dawaam Sa77?
+TK|Maaş kayıtlarını hazırla|جهز سجلات المرتبات|gahhez segillaat el-martabaat
+TK|Her şey düzenli, endişelenme|كل حاجة منظمة، متقلقش|kol 7aaga monaZZama, mat2la2sh
+TK|Denetimden geçtik, tebrikler|عدّينا التفتيش، مبروك|3addeena el-taftesh, mabrook
+FT|Sevkiyat için araç geldi|العربية بتاعة الشحن وصلت|el-3arabeyya beta3et el-shahn weSelet
+FT|Yükleme başlıyor|التحميل بيبدأ|el-ta7meel beyebda2
+FT|Koliler sayıldı|الكراتين اتعدّت|el-karateen et3addet
+FT|Sevk irsaliyesi hazır|إذن الشحن جاهز|ezn el-shahn gahez
+FT|Konteyner mührü takıldı|ختم الكونتينر اتركّب|5otm el-kontaynar etrakkab
+FT|Araç yüklendi, yola çıktı|العربية اتحملت ومشيت|el-3arabeyya et7amalet wemashet
+FT|Mal ne zaman limana ulaşır?|الشحنة هتوصل الميناء إمتى؟|el-shehna hatwSal el-meenaa emta?
+FT|Teslimat gecikecek|التسليم هيتأخر|el-taslee hayet2a5ar
+FT|Müşteriye bilgi verdik|بلغنا العميل|ballaghna el-3ameel
+FT|Kargo takip numarası nedir?|رقم تتبع الشحنة إيه؟|ra2am tatabbo3 el-shehna eh?
+FT|Gümrük işlemleri tamamlandı|إجراءات الجمارك خلصت|egraa2aat el-gamaarek 5alaSet
+FT|Ürün hasarsız ulaştı|المنتج وصل سليم|el-montag weSel saleem
+FT|Teslim aldım, teşekkürler|استلمت، شكرا|estalamt, shokran
+FT|Fatura ile mal uyuşmuyor|الفاتورة مش مطابقة للبضاعة|el-fatoora mesh moTaab2a lel-baDaa3a
+FT|İade edilecek mal var|فيه بضاعة هترجع|fee baDaa3a hatergaa3
+FT|Eksik gelen ürünleri bildir|بلّغ عن المنتجات الناقصة|ballagh 3an el-montagaat el-naa2Sa
