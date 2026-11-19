@@ -1,0 +1,103 @@
+FT|Baskı atölyesi hazır mı?|ورشة الطباعة جاهزة؟|warshet el-Tebaa3a gahza?
+FT|Baskı kalıbı hazır|الشاشة جاهزة|el-shaasha gahza
+FT|Baskı rengi tutmadı|لون الطباعة مش مظبوط|lawn el-Tebaa3a mesh maZbooT
+FT|Baskı çatlıyor|الطباعة بتتشقق|el-Tebaa3a betetshaqqa2
+FT|Baskı kurumadı|الطباعة لسه مجفتش|el-Tebaa3a lessa magaffetsh
+FT|Baskı fırını ısındı mı?|فرن الطباعة سخن؟|forn el-Tebaa3a sakhan?
+FT|Baskı yerinden kaymış|الطباعة مزحزحة عن مكانها|el-Tebaa3a mezaH-za7a 3an makaanha
+FT|Boya karışımı hazırla|جهز خلطة الألوان|gahhez khalTet el-alwaan
+FT|Renk kartelasına göre karıştır|اخلط حسب كارت الألوان|ekhleT 7asab kart el-alwaan
+FT|Kimyasal kullanım kaydı tut|سجل استخدام الكيماويات|saggel estekhdaam el-kimaawyaat
+FT|Nakış makinesi çalışıyor|مكنة التطريز شغالة|makanet el-taTreez shaghaala
+FT|Nakış programı yüklendi|برنامج التطريز اتحمل|bernaamag el-taTreez et7ammal
+FT|Nakış ipi bitti|خيط التطريز خلص|5eit el-taTreez 5ales
+FT|Nakış sıklığı fazla|كثافة التطريز عالية|kesaafet el-taTreez 3aleya
+FT|Nakışın yeri kaymış|التطريز مش في مكانه|el-taTreez mesh fy makaano
+FT|Yıkama tesisi nerede?|المغسلة فين؟|el-maghsala feen?
+FT|Yıkama reçetesi onaylandı mı?|وصفة الغسيل اتوافق عليها؟|waSfet el-ghaseel etwaafe2 3aleeha?
+FT|Yıkama sonrası ürün çekti|المنتج انكمش بعد الغسيل|el-montag enkamash ba3d el-ghaseel
+FT|Ürün yıkamada renk akıttı|المنتج سيّح لون في الغسيل|el-montag sayya7 lawn fel-ghaseel
+FT|Kurutma süresi yetersiz|وقت التجفيف مش كفاية|wa2t el-tagfeef mesh kefaaya
+FT|Kalıp farkı var|فيه فرق في الباترون|fee far2 fel-pateron
+FT|Kalıp onaylandı|الباترون اتوافق عليه|el-pateron etwaafe2 3aleeh
+FT|Beden dağılımı nasıl?|توزيع المقاسات إزاي؟|tawzee3 el-ma2aasaat ezzay?
+FT|Her bedenden kaç adet?|كام قطعة من كل مقاس؟|kaam 2eTa3a men kol ma2aas?
+FT|Renk dağılımı aynı mı?|توزيع الألوان نفسه؟|tawzee3 el-alwaan nafso?
+FT|Ürün kodu nedir?|كود المنتج إيه؟|kood el-montag eh?
+FT|Sipariş numarası nedir?|رقم الأوردر إيه؟|ra2am el-order eh?
+FT|PO numarasını kontrol et|راجع رقم أمر الشراء|raaga3 ra2am amr el-sheraa2
+FT|Barkodları yapıştır|الصق الباركود|elSa2 el-barcode
+FT|Yıkama etiketi yanlış basılmış|إتيكيت الغسيل متطبع غلط|eteeket el-ghaseel metTabe3 ghalaT
+FT|İçerik etiketinde yüzde doğru mu?|النسب على إتيكيت الخامة صح؟|el-nesab 3ala eteeket el-5aama Sa77?
+FT|Menşe etiketi var mı?|فيه إتيكيت بلد المنشأ؟|fee eteeket balad el-mansha2?
+FT|Asma etiket takılacak|هنركب التاج|henrakkeb el-tag
+FT|Fiyat etiketi yapıştırıldı|إتيكيت السعر اتلزق|eteeket el-sa3r etlazaq
+FT|Ürünleri askıya diz|رصّ المنتجات على الشماعات|raSS el-montagaat 3ala el-shamma3aat
+FT|Askılı sevkiyat yapılacak|الشحن هيبقى معلق|el-shahn hayeb2a mo3alla2
+FT|Katlı sevkiyat yapılacak|الشحن هيبقى مطوي|el-shahn hayeb2a maTwy
+FT|Kolilerin ağırlığı ne kadar?|وزن الكراتين كام؟|wazn el-karateen kaam?
+FT|Koli ölçüsü uygun mu?|مقاس الكرتونة مناسب؟|ma2aas el-kartoona monaaseb?
+FT|Depoya kaç palet girdi?|دخل المخزن كام بالتة؟|dakhal el-ma5zan kaam baleta?
+FT|Depo dolu|المخزن مليان|el-ma5zan malyaan
+FT|Stok sayımı bugün yapılacak|الجرد هيتعمل النهارده|el-gard hayet3emel el-naharda
+FT|Depo sorumlusu kim?|مسؤول المخزن مين؟|mas2ool el-ma5zan meen?
+FT|Malzeme çıkış formu doldur|املا استمارة صرف الخامات|emla estemaaret Sarf el-5aamaat
+FT|Forklift çalışıyor mu?|الونش شغال؟|el-wensh shaghaal?
+FT|Raflar düzensiz|الرفوف مش منظمة|el-roof mesh monaZZama
+FT|Ürünler yere konmasın|متحطوش المنتجات على الأرض|mate7oTToosh el-montagaat 3ala el-arD
+FT|Yeni model numunesi hazırlandı|عينة الموديل الجديد اتجهزت|3ayyenet el-model el-gedeed etgahhazet
+FT|Numune onayı geldi|وصلت موافقة العينة|weSelet mowaf2et el-3ayyena
+FT|Numune reddedildi|العينة اترفضت|el-3ayyena etrafadet
+FT|Numuneyi müşteriye gönder|ابعت العينة للعميل|ebta3 el-3ayyena lel-3ameel
+FT|Teknik föyü kontrol et|راجع التيك باك|raaga3 el-tech pack
+FT|Teknik föyde ölçü farkı var|فيه فرق مقاسات في التيك باك|fee far2 ma2aasaat fel-tech pack
+FT|Maliyet hesabı yaptık|حسبنا التكلفة|7asabna el-taklefa
+FT|Birim maliyet çok yüksek|تكلفة القطعة عالية أوي|taklefet el-2eTa3a 3aaleya awy
+FT|İşçilik maliyeti nedir?|تكلفة العمالة كام؟|taklefet el-3amaala kaam?
+FT|Kumaş fiyatı arttı|سعر القماش زاد|sa3r el-2omaash zaad
+FT|Yeni sipariş geldi|جه أوردر جديد|geh order gedeed
+FT|Sipariş miktarı artırıldı|كمية الأوردر زادت|kammeyyet el-order zaadet
+FT|Sipariş miktarı azaltıldı|كمية الأوردر قلّت|kammeyyet el-order 2allet
+FT|Teslim tarihi öne çekildi|ميعاد التسليم اتقدم|mee3aad el-taslee etqaddam
+FT|Teslim tarihi ertelendi|ميعاد التسليم اتأجل|mee3aad el-taslee et2aggel
+FT|Hava yoluyla göndereceğiz|هنشحنه جوي|hanashna7o gawwy
+FT|Deniz yoluyla göndereceğiz|هنشحنه بحري|hanashna7o ba7ry
+FT|Konteynere kaç koli sığar?|الكونتينر بيشيل كام كرتونة؟|el-kontaynar beysheel kaam kartoona?
+FT|Yükleme kontrol listesi hazır|قايمة فحص التحميل جاهزة|2aayemet fa7S el-ta7meel gahza
+FT|Konteyner temiz mi?|الكونتينر نضيف؟|el-kontaynar naDeef?
+FT|Mühür numarasını yaz|اكتب رقم الختم|ekteb ra2am el-khatm
+FT|Çıkış belgelerini hazırla|جهز مستندات التصدير|gahhez mostanadaat el-taSdeer
+FT|İhracat işlemi tamamlandı|إجراءات التصدير خلصت|egraa2aat el-taSdeer 5alaSet
+FT|Gümrük müşaviri aradı|المخلص الجمركي اتصل|el-mokhalleS el-gomroky etteSal
+FT|Menşe şahadetnamesi lazım|محتاجين شهادة المنشأ|me7taageen shahaadet el-mansha2
+FT|Faturayı müşteriye gönderdik|بعتنا الفاتورة للعميل|ba3atna el-fatoora lel-3ameel
+FT|Ödeme vadesi bitti|ميعاد الدفع خلص|mee3aad el-dafa3 5ales
+FT|Hammadde tedarikçisi geç gönderdi|مورد الخامات اتأخر في الشحن|mowarred el-5aamaat et2a55ar fel-shahn
+FT|Tedarikçiyi değerlendirdik|قيّمنا المورد|2ayyamna el-mowarred
+FT|Başka tedarikçi bulalım|ندور على مورد تاني|nedawwar 3ala mowarred tany
+FT|Fason üretim yapılıyor|فيه تصنيع لدى الغير|fee tasnee3 ladaa el-ghayr
+FT|Fason firma onaylı mı?|شركة التصنيع للغير معتمدة؟|share-kit el-tasnee3 lel-ghayr mo3tamada?
+FT|Fasona iş vermeden önce haber ver|بلّغ قبل ما تدّي شغل لمصنع تاني|ballagh 2abl ma teddy shoghl le-masna3 tany
+FT|Vardiyada kaç operatör var?|في الوردية كام عاملة؟|fel-wardeyya kaam 3aamela?
+FT|Hatta kaç kişi çalışıyor?|الخط فيه كام واحد؟|el-5aTT feeh kaam waa7ed?
+FT|Yeni operatör eğitim alıyor|العاملة الجديدة بتتدرب|el-3aamela el-gedeeda betetdarrab
+FT|Operatör becerisi yüksek|العاملة دي ماهرة|el-3aamela dy maahera
+FT|Hat şefi kim?|مشرف الخط مين؟|moshref el-5aTT meen?
+FT|Müdür fabrikayı geziyor|المدير بيلف في المصنع|el-modeer beyleff fel-masna3
+FT|Ziyaretçiler geliyor, çevreyi toplayın|فيه زوار جايين، نضفوا المكان|fee zowwaar gayyeen, naDDafoo el-makaan
+FT|Hat temiz ve düzenli olmalı|الخط لازم يبقى نضيف ومنظم|el-5aTT laazem yeb2a naDeef wemonaZZam
+FT|Geri dönüşüm kutusu burada|صندوق إعادة التدوير هنا|Sandoo2 e3aadet el-tadweer hena
+FT|Kumaş artıklarını ayır|افصل بواقي القماش|efSel bawa2y el-2omaash
+FT|Atık kumaşlar satılacak|بواقي القماش هتتباع|bawa2y el-2omaash hatetbaa3
+FT|Enerji tasarrufu yapalım|نوفر الكهربا|nowaffar el-kahraba
+FT|Kullanılmayan makineleri kapat|اقفل المكن اللي مش مستخدمة|e2fel el-makan elly mesh mostakhdama
+FT|Su israfını önleyin|متبذروش الميه|matebazzaroosh el-meyya
+FT|Işıkları kapatmayı unutma|متنساش تطفي النور|matensash teTfy el-noor
+FT|Fabrikada sigara içilmez|ممنوع التدخين في المصنع|mamnoo3 el-tad5een fel-masna3
+FT|Sigara içme alanı dışarıda|مكان التدخين بره|makaan el-tad5een barra
+FT|Mescit fabrikanın içinde|المصلى جوه المصنع|el-moSalla gowwa el-masna3
+FT|Yemekhane temiz tutulmalı|المطعم لازم يفضل نضيف|el-maT3am laazem yefDal naDeef
+FT|İşçi servisleri sabah altıda kalkıyor|عربيات العمال بتتحرك الساعة ستة الصبح|3arabeyyaat el-3ommaal betetharrak el-saa3a setta el-Sob7
+FT|Çıkış kontrolü yapılıyor|فيه تفتيش عند الخروج|fee taftesh 3and el-5oroog
+FT|Üretim raporunu imzala|امضي تقرير الإنتاج|emdy ta2reer el-entaag
+FT|Haftalık üretim toplantısı yarın|اجتماع الإنتاج الأسبوعي بكرة|egtemaa3 el-entaag el-osbo3y bokra

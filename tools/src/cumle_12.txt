@@ -1,0 +1,85 @@
+GK|Eğer yarın gelirsen haber ver|لو جيت بكره قولي|law geet bokra 2ooly
+GK|Eğer vaktin varsa bana yardım et|لو عندك وقت ساعدني|law 3andak wa2t sa3edny
+GK|Eğer yağmur yağarsa gelmem|لو الدنيا مطرت مش هاجي|law ed-donya maTarit mesh haagy
+GK|Eğer istersen birlikte gidelim|لو عايز نروح سوا|law 3ayez nrooH sawa
+GK|Eğer bilseydim sana söylerdim|لو كنت أعرف كنت قلتلك|law konet a3raf konet 2olt-lak
+GK|Ne olursa olsun geleceğim|مهما حصل هاجي|mahma Hasal haagy
+GK|Ya gelirsin ya gelmezsin, söyle|يا تيجي يا ماتيجيش، قولي|ya teegy ya mateegeesh, 2ooly
+GK|Hem ucuz hem kaliteli|رخيص وجودته عالية|rekheeS we gawdto 3aalya
+GK|Ama biraz pahalı|بس شوية غالي|bas shweyya ghaaly
+GK|Çünkü vaktim yok|عشان معنديش وقت|3ashan ma3andeesh wa2t
+GK|O yüzden gelemedim|عشان كده ماقدرتش أجي|3ashan keda ma2darTesh aagy
+GK|Sonra konuşuruz|هنتكلم بعدين|hanetkallem ba3deen
+GK|Önce işi bitir, sonra çık|خلّص الشغل الأول وبعدين اطلع|khalleS esh-shoghl el-awwal we ba3deen eTla3
+GK|Bir dakika bekle|استنى دقيقة|estanna de2ee2a
+GK|Biraz sabret|اصبر شوية|eSbar shweyya
+GK|Hemen geliyorum|جاي دلوقتي|gay delwa2ty
+GK|Şimdi yapıyorum|بعمله دلوقتي|ba3malo delwa2ty
+GK|Yarın yaparım|هعمله بكره|ha3malo bokra
+GK|Bugün yetişmez|النهارده مش هيخلص|en-naharda mesh hayekhlaS
+GK|Daha bitmedi|لسه ماخلصش|lessa makhlaSsh
+GK|Bitti, kontrol edebilirsin|خلص، تقدر تراجع|khalaS, te2dar teraage3
+GK|Yine mi aynı hata?|تاني نفس الغلط؟|tany nafs el-ghalaT?
+GK|Hata bende, özür dilerim|الغلط عندي، آسف|el-ghalaT 3andy, aasef
+GK|Sorun değil, düzeltiriz|مفيش مشكلة، هنظبطها|mafeesh moshkela, hanaZabbaTha
+GK|Anlaştık mı?|اتفقنا؟|etfa2na?
+GK|Anlaştık|اتفقنا|etfa2na
+GK|Tamam, olur|تمام، ماشي|tamaam, maashy
+GK|Hayır, olmaz|لأ، مش ممكن|la2, mesh momken
+GK|Belki yarın|يمكن بكره|yemken bokra
+GK|Emin değilim|مش متأكد|mesh met2akked
+GK|Kesinlikle|أكيد|akeed
+GK|Bence haklısın|أنا شايف إنك صح|ana shayef enak SaH
+GK|Bence yanlış|أنا شايف إنه غلط|ana shayef enno ghalaT
+GK|Bu işi nasıl yapacağız?|هنعمل الشغل ده إزاي؟|han3mel esh-shoghl da ezzay?
+GK|Önce planı yapalım|نعمل الخطة الأول|na3mel el-khoTTa el-awwal
+GK|Kim sorumlu?|مين المسؤول؟|meen el-mas2ool?
+GK|Ne zaman bitecek?|هيخلص إمتى؟|hayekhlaS emta?
+GK|Bu ayın sonunda|آخر الشهر ده|aakher esh-shahr da
+GK|Gelecek hafta|الأسبوع الجاي|el-esboo3 el-gaay
+GK|Geçen hafta|الأسبوع اللي فات|el-esboo3 elly faat
+GK|Geçen ay|الشهر اللي فات|esh-shahr elly faat
+GK|Önümüzdeki ay|الشهر الجاي|esh-shahr el-gaay
+GK|Geçen yıl|السنة اللي فاتت|es-sana elly faatit
+GK|Haftada iki kez|مرتين في الأسبوع|marrateen fel-esboo3
+GK|Her gün|كل يوم|kol yoom
+GK|Her sabah|كل صباح|kol SabaaH
+GK|Her akşam|كل مساء|kol masaa2
+GK|Bazen|أحيانًا|aHyaanan
+GK|Genellikle|غالبًا|ghaalban
+GK|Hiçbir zaman|عمري ما|3omry ma
+GK|Hâlâ|لسه|lessa
+GK|Zaten biliyorum|أنا عارف أصلاً|ana 3aaref aSlan
+ZT|Bugün günlerden ne?|النهارده إيه؟|en-naharda eeh?
+ZT|Bugün pazartesi|النهارده الاتنين|en-naharda el-etneen
+ZT|Bugün cuma, tatil|النهارده الجمعة، إجازة|en-naharda el-gom3a, egaaza
+ZT|Bugünün tarihi kaç?|النهارده كام في الشهر؟|en-naharda kaam fesh-shahr?
+ZT|Bugün ayın on beşi|النهارده خمستاشر في الشهر|en-naharda khamastaashar fesh-shahr
+ZT|Saat kaç?|الساعة كام؟|es-sa3a kaam?
+ZT|Saat yedi buçuk|الساعة سبعة ونص|es-sa3a sab3a we noSS
+ZT|Saat dokuza çeyrek var|الساعة تسعة إلا ربع|es-sa3a tes3a ella rob3
+ZT|Saat on ikiyi çeyrek geçiyor|الساعة اتناشر وربع|es-sa3a etnaashar we rob3
+ZT|Toplantı saat üçte|الاجتماع الساعة تلاتة|el-egtemaa3 es-sa3a talaata
+ZT|Beş dakika sonra|بعد خمس دقايق|ba3d khamas de2aayeq
+ZT|Yarım saat sonra|بعد نص ساعة|ba3d noSS sa3a
+ZT|Bir saat önce|من ساعة|men sa3a
+ZT|Üç gündür burada|بقاله تلات أيام هنا|ba2aalo talaat ayyaam hena
+ZT|Yirmi gün kaldı|فاضل عشرين يوم|faaDel 3eshreen yoom
+ZT|Son tarih ayın yirmisi|آخر معاد يوم عشرين في الشهر|aakher me3aad yoom 3eshreen fesh-shahr
+ZT|Teslimat on gün sonra|التسليم بعد عشرة أيام|et-tasleem ba3d 3ashar ayyaam
+ZT|Sevkiyat haftaya|الشحن الأسبوع الجاي|esh-shaHn el-esboo3 el-gaay
+ZT|Ocak Şubat Mart|يناير فبراير مارس|yanaayer febraayer maares
+ZT|Nisan Mayıs Haziran|أبريل مايو يونيو|abreel maayo yoonyo
+ZT|Temmuz Ağustos Eylül|يوليو أغسطس سبتمبر|yoolyo oghosToss sebtember
+ZT|Ekim Kasım Aralık|أكتوبر نوفمبر ديسمبر|oktoobar november deesember
+ZT|Bin iki yüz parça|ألف ومية قطعة|alf we mayteen 2eT3a
+ZT|Beş yüz adet|خمسميت قطعة|khamsemeet 2eT3a
+ZT|Üç bin beş yüz|تلات تلاف وخمسميت|talat talaaf we khamsemeet
+ZT|Yüzde on|عشرة في المية|3ashra fel-meyya
+ZT|Yüzde yirmi beş|خمسة وعشرين في المية|khamsa we 3eshreen fel-meyya
+ZT|Yarısı bitti|نصه خلص|noSSo khalaS
+ZT|Üçte biri kaldı|فاضل التلت|faaDel et-tolt
+ZT|Çeyrek kaldı|فاضل الربع|faaDel er-rob3
+ZT|İki katı|ضعف|Da3f
+ZT|Birkaç gün|كام يوم|kaam yoom
+ZT|Ortalama on saat|حوالي عشر ساعات|Hawaaly 3ashar sa3aat

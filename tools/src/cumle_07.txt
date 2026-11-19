@@ -1,0 +1,153 @@
+GK|Alo, kim arıyor?|ألو، مين معايا؟|alloo, meen ma3aaya?
+GK|Alo, ben Abdullah|ألو، أنا عبد الله|alloo, ana abdallah
+GK|Sesin gelmiyor|صوتك مش واصل|Sawtak mesh waaSel
+GK|Seni duyamıyorum|مش سامعك|mesh sam3ak
+GK|Sinyal çekmiyor|الشبكة ضعيفة|el-shabaka Da3eefa
+GK|Telefon kapandı|التليفون قفل|el-telefoon 2afal
+GK|Seni tekrar arayacağım|هتصل بيك تاني|hatteSel beek tany
+GK|Beni geri ara|رن عليا|renn 3aleyya
+GK|Cevapsız aramam var|عندي مكالمة فايتة|3andy mukalma faayta
+GK|Meşgul çalıyor|الخط مشغول|el-5aTT mashghool
+GK|Yanlış numara|رقم غلط|ra2am ghalaT
+GK|Bir saniye, hattan ayrılma|ثانية واحدة، متقفلش|saanya wa7da, mate2fel-sh
+GK|Seni yetkiliye bağlıyorum|هوصلك بالمسؤول|hawaSSelak bel-mas2ool
+GK|Mesaj bırakabilir misin?|ممكن تسيب رسالة؟|momken tesebb resaala?
+GK|Mesajını aldım|وصلتني رسالتك|weSletny resaaltak
+GK|Sesli mesaj gönder|ابعتلي رسالة صوتية|ebta3ly resaala Sawteyya
+GK|Resim gönderir misin?|ممكن تبعتلي صورة؟|momken teb3atly Soora?
+GK|Videoyu gördüm|شفت الفيديو|shoft el-video
+GK|Grupta paylaştım|بعتّه في الجروب|ba3attoh fel-group
+GK|Beni gruba ekle|ضيفني في الجروب|Deefny fel-group
+GK|Telefonum bozuldu|موبايلي باظ|mobaayly baaz
+GK|Ekranı kırıldı|الشاشة اتكسرت|el-shaasha etkasaret
+GK|Bataryası çabuk bitiyor|البطارية بتخلص بسرعة|el-baTaareyya bet5alaS be-sor3a
+GK|Şarj cihazım yok|معييش شاحن|ma3eeesh shaa7en
+GK|Hat yüklemem lazım|لازم أشحن رصيد|laazem ashna7 raSeed
+GK|Kontörüm bitti|رصيدي خلص|raSeedy 5ales
+GK|İnternet paketi almak istiyorum|عايز أشترك في باقة نت|3aayez ashtarek fy ba2et net
+GK|İnternet çok yavaş|النت بطيء أوي|el-net baTee2 awy
+GK|Wi-Fi'ye bağlanamıyorum|مش عارف أتصل بالواي فاي|mesh 3aaref aTteSel bel-wifi
+GK|Şifreyi unuttum|نسيت الباسورد|nesyt el-password
+GK|Hesabıma giremiyorum|مش عارف أدخل على حسابي|mesh 3aaref adkhol 3ala 7esaby
+GK|Bilgisayar donuyor|الكمبيوتر بيهنج|el-kombyooter beyhang
+GK|Yazıcı çalışmıyor|الطابعة مش شغالة|el-Taabe3a mesh shaghaala
+GK|Dosya açılmıyor|الملف مش بيفتح|el-malaff mesh beyefta7
+GK|Dosyayı kaydet|احفظ الملف|e7faZ el-malaff
+GK|Dosyayı yedekle|اعمل نسخة احتياطية|e3mel noskha e7teyaaTeyya
+GK|Ekran görüntüsü gönder|ابعت لقطة شاشة|ebta3 la2Taet shaasha
+GK|Excel tablosunu gönderir misin?|ممكن تبعتلي جدول الإكسل؟|momken teb3atly gadwal el-excel?
+GK|Sunumu hazırladım|جهزت العرض التقديمي|gahhezt el-3ard el-ta2deemy
+GK|E-posta adresin nedir?|إيميلك إيه؟|emailak eh?
+GK|Adını nasıl yazıyorsun?|اسمك بيتكتب إزاي؟|esmak beyetketeb ezzay?
+GK|Harf harf söyler misin?|ممكن تقوله حرف حرف؟|momken te2oolo 7arf 7arf?
+GK|Tekrar yazar mısın?|ممكن تكتبه تاني؟|momken tektebo tany?
+GK|Bunu çevirir misin?|ممكن تترجم ده؟|momken tetargem da?
+GK|Arapça yazar mısın?|ممكن تكتبه بالعربي؟|momken tektebo bel-3araby?
+GK|Türkçesi nedir?|بالتركي إيه؟|bel-torky eh?
+GK|İngilizce biliyor musun?|بتعرف إنجليزي؟|bet3raf englizy?
+GK|Türkçe biliyor musun?|بتعرف تركي؟|bet3raf torky?
+GK|Biraz biliyorum|بعرف شوية|ba3raf showaya
+GK|Hiç bilmiyorum|معرفش خالص|ma3rafsh 5aales
+GK|Tercüman lazım|محتاج مترجم|me7taag motargem
+GK|Tercümanlık yapar mısın?|ممكن تترجملي؟|momken tetargemly?
+GK|Ne dediğini anlamadım|مفهمتش إنت قلت إيه|mafhemtesh enta olt eh
+GK|Daha açık anlat|وضّح أكتر|waDDa7 akter
+GK|Örnek verir misin?|ممكن تديني مثال؟|momken tedeeny mesaal?
+GK|Bunu not alabilir miyim?|ممكن أكتب ده؟|momken aktob da?
+GK|Kalemin var mı?|معاك قلم؟|ma3aak 2alam?
+GK|Kâğıt lazım|محتاج ورقة|me7taag wara2a
+IO|Resmi işlerim var|عندي مصالح حكومية|3andy maSaale7 7okoomeyya
+IO|İkamet izni almak istiyorum|عايز آخد إقامة|3aayez a5od e2aama
+IO|İkamet iznim bitiyor|إقامتي بتخلص|e2aamety bet5alaS
+IO|Pasaportumu yenilemem lazım|لازم أجدد جواز سفري|laazem agaddad gawaaz safary
+IO|Çalışma izni için hangi belgeler lazım?|تصريح العمل محتاج أوراق إيه؟|taSreeH el-3amal me7taag awra2 eh?
+IO|Vize başvurusu yapacağım|هقدم على فيزا|ha2addem 3ala veeza
+IO|Vize ne zaman çıkar?|الفيزا هتطلع إمتى؟|el-veeza hateTla3 emta?
+IO|Başvuru formunu nereden alırım?|آخد استمارة التقديم منين؟|a5od estemaaret el-ta2deem meneen?
+IO|Fotoğraf lazım mı?|محتاج صور؟|me7taag Sowar?
+IO|Kaç fotoğraf lazım?|محتاج كام صورة؟|me7taag kaam Soora?
+IO|Evrak fotokopisi alın|صوّروا الأوراق|Sawwaroo el-awra2
+IO|Noter onayı gerekiyor|محتاج توثيق من الشهر العقاري|me7taag tawtheeq men el-shahr el-3a2aary
+IO|Çeviri belgesi lazım|محتاج ورقة مترجمة|me7taag wara2a motargama
+IO|Büyükelçilikle görüşmem lazım|لازم أقابل السفارة|laazem a2aabel el-sefaara
+IO|Konsolosluk nerede?|القنصلية فين؟|el-2onsoleyya feen?
+IO|Vergi numaram|رقمي الضريبي|ra2amy el-dareeby
+IO|Vergi dairesi nerede?|مصلحة الضرائب فين؟|maSla7et el-daraayeb feen?
+IO|Şirket kurmak istiyorum|عايز أأسس شركة|3aayez a2assis share-ka
+IO|Ticaret odasına kayıtlıyız|إحنا مسجلين في الغرفة التجارية|e7na mosaggaleen fel-ghorfa el-togaareyya
+IO|Ruhsat için başvurduk|قدمنا على الرخصة|2addamna 3ala el-rekh-sa
+IO|Ruhsat çıktı|الرخصة طلعت|el-rekh-sa Tal3et
+IO|Resmi yazı geldi|جه خطاب رسمي|geh 5iTaab rasmy
+IO|Cevap yazısı hazırlayalım|نجهز خطاب الرد|negahhez 5iTaab el-radd
+IO|Dilekçe yazdım|كتبت طلب|katabt Talab
+IO|Dilekçeyi nereye vereceğim?|هقدم الطلب فين؟|ha2addem el-Talab feen?
+IO|Sıra numarası aldım|أخدت رقم دور|a5adt ra2am dowr
+IO|Sıra bana ne zaman gelir?|الدور هيجيلي إمتى؟|el-dowr hayeegeely emta?
+IO|Ofis saat kaçta kapanıyor?|المكتب بيقفل الساعة كام؟|el-maktab beye2fel el-saa3a kaam?
+IO|Bugün resmi tatil|النهارده إجازة رسمية|el-naharda egaaza rasmeyya
+IO|Yarın tekrar gelmem lazım mı?|لازم أجي بكرة تاني؟|laazem aagy bokra tany?
+IO|İşlem ne kadar sürer?|الإجراء هياخد قد إيه؟|el-egraa2 hayaa5od 2add eh?
+IO|Harç ne kadar?|الرسوم كام؟|el-rosoom kaam?
+IO|Makbuz verir misiniz?|ممكن إيصال؟|momken eyssaal?
+IO|İş başvurusu yapmak istiyorum|عايز أقدم على وظيفة|3aayez a2addem 3ala waZeefa
+IO|Özgeçmişimi getirdim|جبت السيرة الذاتية|gebt el-seera el-zaateyya
+IO|Mülakat ne zaman?|المقابلة إمتى؟|el-moqaabla emta?
+IO|Mülakata hazırlanıyorum|بجهز للمقابلة|bagahhez lel-moqaabla
+IO|Deneyimim var|عندي خبرة|3andy khebra
+IO|Beş yıldır konfeksiyonda çalışıyorum|بشتغل في الملابس الجاهزة من خمس سنين|bashtaghal fel-malaabes el-gaahza men 5amas seneen
+IO|Hangi pozisyon için başvuruyorsun?|بتقدم على أنهي وظيفة؟|beta2addem 3ala anhy waZeefa?
+IO|Maaş beklentin nedir?|إنت متوقع مرتب كام؟|enta metwa22e3 martab kaam?
+IO|Ne zaman başlayabilirsin?|تقدر تبدأ إمتى؟|te2dar tebda2 emta?
+IO|Yarın başlayabilirim|أقدر أبدأ بكرة|a2dar abda2 bokra
+IO|Deneme süresi kaç ay?|فترة التجربة كام شهر؟|fatret el-tagroba kaam shahr?
+IO|İş tanımım nedir?|وصف وظيفتي إيه؟|wasf waZeefety eh?
+IO|Kime bağlı çalışacağım?|هتبع مين؟|hatba3 meen?
+IO|Referans verebilir misin?|تقدر تدّي مرجع؟|te2dar teddy marga3?
+IO|Seni işe alıyoruz|هنعينك|hane3ayyenak
+IO|İşe başlama tarihi|تاريخ بداية العمل|tareekh bedayet el-3amal
+IO|İşten ayrılmak istiyorum|عايز أستقيل|3aayez asta2eel
+IO|İstifa dilekçemi verdim|قدمت استقالتي|2addamt esti2aalety
+IO|Son iş günüm|آخر يوم شغل ليا|aa5er yom shoghl leyya
+IO|Tazminat hakkım var mı?|لي مستحقات؟|leyya mosta7a22aat?
+IO|Hesabımı kapatın|صفّولي الحساب|Saffooly el-7esaab
+AP|Banka hesabı açmak istiyorum|عايز أفتح حساب في البنك|3aayez aftah 7esaab fel-bank
+AP|Hesap numaram nedir?|رقم حسابي إيه؟|ra2am 7esaaby eh?
+AP|IBAN numaranı yazar mısın?|ممكن تكتبلي رقم الآيبان؟|momken tektebly ra2am el-iban?
+AP|Para gönderdim|بعتّلك فلوس|ba3attelak floos
+AP|Para yatmadı|الفلوس مجتش|el-floos magetsh
+AP|Havale ne zaman ulaşır?|التحويل هيوصل إمتى؟|el-ta7weel haywaSSal emta?
+AP|Kartım çalışmıyor|الكارت بتاعي مش شغال|el-kart beta3y mesh shaghaal
+AP|Kartım bloke oldu|الكارت اتوقف|el-kart etwa22af
+AP|Kartımı kaybettim|ضيعت الكارت|Dayya3t el-kart
+AP|Limitimi artırabilir miyim?|ممكن أزود الحد؟|momken azawwed el-7add?
+AP|Kredi için başvurmak istiyorum|عايز أقدم على قرض|3aayez a2addem 3ala 2ard
+AP|Faiz oranı nedir?|نسبة الفايدة كام؟|nesbet el-faayda kaam?
+AP|Hesap özeti alabilir miyim?|ممكن كشف حساب؟|momken kashf 7esaab?
+AP|Bakiyem ne kadar?|رصيدي كام؟|raSeedy kaam?
+AP|Şifremi değiştirmek istiyorum|عايز أغير الرقم السري|3aayez aghayyar el-ra2am el-serry
+AP|Bu işlem için komisyon var mı?|فيه عمولة على العملية دي؟|fee 3omoola 3ala el-3amaleyya dy?
+AP|Çek kabul ediyor musunuz?|بتقبلوا شيك؟|bete2baloo sheek?
+AP|Senet imzalayacağız|هنوقع على كمبيالة|hanewa22a3 3ala kambyaala
+AP|Borcum var|عليا دين|3aleyya deen
+AP|Borcumu ödedim|سددت ديني|sadadt deeny
+AP|Alacağım var|ليا فلوس عند حد|leyya floos 3end 7ad
+AP|Cari hesap bakiyesi|رصيد الحساب الجاري|raSeed el-7esaab el-gaary
+EV|Kiralık daire arıyorum|بدوّر على شقة للإيجار|badawwar 3ala sha22a lel-eegaar
+EV|Kira ne kadar?|الإيجار كام؟|el-eegaar kaam?
+EV|Depozito ne kadar?|التأمين كام؟|el-ta2meen kaam?
+EV|Kaç odalı?|كام أوضة؟|kaam owDa?
+EV|Eşyalı mı?|مفروشة؟|mafrooSha?
+EV|Aidat dahil mi?|الصيانة شاملة؟|el-Seyaana shaamla?
+EV|Daireyi görebilir miyim?|ممكن أشوف الشقة؟|momken ashoof el-sha22a?
+EV|Sözleşme yapalım|نعمل عقد|na3mel 3a2d
+EV|Ev sahibi kim?|صاحب البيت مين؟|Saa7eb el-beit meen?
+EV|Su faturası geldi|فاتورة الميه جت|fatoorat el-meyya get
+EV|Elektrik faturası çok yüksek|فاتورة الكهربا عالية أوي|fatoorat el-kahraba 3aleya awy
+EV|Doğalgaz kesildi|الغاز اتقطع|el-ghaaz et2aTa3
+EV|Tamirci çağırmam lazım|لازم أنادي سباك|laazem anaady sabbaak
+EV|Musluk bozuk|الحنفية بايظة|el-7anafeyya baayza
+EV|Çamaşır makinesi çalışmıyor|الغسالة مش شغالة|el-ghassaala mesh shaghaala
+EV|Buzdolabı soğutmuyor|التلاجة مش بتبرد|el-talaaga mesh betbarrad
+EV|Kombi arızalı|السخان عطلان|el-sakhaan 3aTlaan
+EV|Çatı akıyor|السقف بينقط|el-sa2f beyne22aT
+EV|Komşular çok gürültü yapıyor|الجيران عاملين دوشة|el-geeraan 3amleen dowsha
