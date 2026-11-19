@@ -1,0 +1,149 @@
+KK|Kesim planı hazır mı?|خطة القص جاهزة؟|5oTTet el-2ass gahza?
+KK|Pastal çıktı mı?|الماركر طلع؟|el-marker Tela3?
+KK|Pastalı seriyoruz|بنفرد الماركر|benefred el-marker
+KK|Kumaşı serelim|نفرد القماش|nefred el-2omaash
+KK|Kaç kat seriyoruz?|بنفرد كام طبقة؟|benefred kaam Tabaqa?
+KK|Seri yüksekliği çok fazla|ارتفاع الفرد عالي أوي|ertefaa3 el-farsh 3aaly awy
+KK|Kesim makinesini hazırla|جهز ماكينة القص|gahhez makanet el-2ass
+KK|Bıçak körelmiş|السكينة كلّت|el-sekeena kallet
+KK|Bıçağı değiştir|غير السكينة|ghayyar el-sekeena
+KK|Parçaları numaralandır|رقّم القطع|ra22am el-2eTa3
+KK|Kesilen parçaları say|عدّ القطع المقصوصة|3odd el-2eTa3 el-ma2Soosa
+KK|Kesim hatası var|فيه غلطة في القص|fee ghalTa fel-2ass
+KK|Parçalar eksik|القطع ناقصة|el-2eTa3 naa2Sa
+KK|Parçalar karışmış|القطع اتلخبطت|el-2eTa3 etlakhbaTet
+KK|Beden etiketlerini yapıştır|الصق إتيكيت المقاس|elSa2 eteeket el-ma2aas
+KK|Kesimhane bugün kaç adet kesti?|قسم القص قص كام قطعة النهارده؟|2esm el-2ass 2aSS kaam 2eTa3a el-naharda?
+KK|Kumaş yetmedi|القماش مكفاش|el-2omaash makafaash
+KK|Fire oranı yüksek|نسبة الهالك عالية|nesbet el-haalek 3aleya
+KK|Artan kumaşı ayır|افصل القماش الباقي|efSel el-2omaash el-baa2y
+KK|Kumaş topunu getir|هات توب القماش|haat toob el-2omaash
+KD|Hat bugün kaç adet dikti?|الخط خيط كام قطعة النهارده؟|el-5aTT 5ayyaT kaam 2eTa3a el-naharda?
+KD|Hedef kaç adet?|الهدف كام قطعة؟|el-hadaf kaam 2eTa3a?
+KD|Hedefin gerisindeyiz|إحنا ورا الهدف|e7na wara el-hadaf
+KD|Hedefi tutturduk|حققنا الهدف|ha22a2na el-hadaf
+KD|Yarın hedef artıyor|الهدف هيزيد بكرة|el-hadaf hayezeed bokra
+KD|İplik bitti|الخيط خلص|el-5eit 5ales
+KD|İplik koparıyor|الخيط بيقطع|el-5eit beye2Ta3
+KD|İğne kırıldı|الإبرة اتكسرت|el-ebra etkasaret
+KD|İğne değiştir|غير الإبرة|ghayyar el-ebra
+KD|Dikiş atlıyor|الغُرزة بتفوت|el-ghorza betefoot
+KD|Dikiş sıkı|الغرزة مشدودة|el-ghorza mashdooda
+KD|Dikiş gevşek|الغرزة رخية|el-ghorza ra5eyya
+KD|Dikiş boyu uygun değil|طول الغرزة مش مظبوط|Tool el-ghorza mesh maZbooT
+KD|Dikiş payı az|الكَفّة قليلة|el-kaffa 2aleela
+KD|Kenar atık|الحرف مفتوح|el-7arf maftoo7
+KD|Kol takma|تركيب الكم|tarkeeb el-kemm
+KD|Yaka takıyoruz|بنركب الياقة|benrakkeb el-yaa2a
+KD|Cep yapıldı mı?|الجيب اتعمل؟|el-geyb et3amal?
+KD|Düğme dikimi|خياطة الزراير|5iyaaT el-zaraareer
+KD|Düğme deliği açılmadı|عروة الزرار مفتوحتش|3orwet el-zorraar maftoo7tesh
+KD|Fermuar takılacak|هنركب السوستة|henrakkeb el-soosta
+KD|Fermuar sıkışıyor|السوستة بتعلق|el-soosta bet3ala2
+KD|Etiket diki yapıldı|الإتيكيت اتخيط|el-eteeket et5ayyaT
+KD|Bu model zor|الموديل ده صعب|el-model da Sa3b
+KD|Bu model kolay|الموديل ده سهل|el-model da sahl
+KD|Dikiş sırasını değiştirelim|نغير ترتيب الخياطة|neghayyar tarteeb el-5iyaaTa
+KD|Hat dengesi bozuk|توازن الخط بايظ|tawaazon el-5aTT baayaz
+KD|Ara kontrol yap|اعمل مراجعة وسط الشغل|e3mel moraag3a wasaT el-shoghl
+KD|Ara stok birikti|الشغل اتكوّم|el-shoghl etkawwem
+KD|Operatör gelmedi|العاملة ماجتش|el-3aamela magetsh
+KD|Yerine kimi koyalım?|نحط مين مكانها؟|na7oT meen makaanha?
+KD|Başka hatta yardım et|روح ساعد في خط تاني|roo7 saa3ed fy 5aTT tany
+KD|Makine başında dikkat et|خد بالك قدام الماكينة|5od baalak 2oddaam el-makana
+KD|Pedala yavaş bas|اضغط الدواسة براحة|eDghaT el-dawwaasa beraa7a
+KD|Kumaşı çok çekme|متشدش القماش أوي|matesheddesh el-2omaash awy
+KD|Düz dikiş makinesi çalışıyor mu?|مكنة السنجر شغالة؟|makanet el-sengar shaghaala?
+KD|Overlok makinesi bozuk|الأوفرلوك بايظ|el-overlock baayaz
+KD|Reçme makinesine ihtiyacımız var|محتاجين مكنة ريكامة|me7taageen makana rekaama
+KD|Overlok ipi bitti|خيط الأوفرلوك خلص|5eit el-overlock 5ales
+KU|Ütü hattı hazır mı?|خط الكوي جاهز؟|5aTT el-kawy gahez?
+KU|Ütü çok sıcak|المكواة سخنة أوي|el-makwaa so5na awy
+KU|Ütü yeterince sıcak değil|المكواة مش سخنة كفاية|el-makwaa mesh so5na kefaaya
+KU|Ütü izi kalmış|فيه أثر كوي|fee asar kawy
+KU|Leke var, temizle|فيه بقعة، نضفها|fee ba2'a, naDDafha
+KU|Ütüle ve as|اكوي وعلّق|ekwy wa3alle2
+KU|Katlama yapılıyor|بنطوي|benetwy
+KU|Doğru katla|اطويه صح|etwyh Sa77
+KU|Poşetle|حطه في الكيس|7oTTo fel-kees
+KU|Poşet hatalı|الكيس غلط|el-kees ghalaT
+KU|Etiket doğru mu?|الإتيكيت صح؟|el-eteeket Sa77?
+KU|Barkod okutuldu mu?|الباركود اتقرا؟|el-barcode et2ara?
+KU|Koli kaç adet alıyor?|الكرتونة بتشيل كام قطعة؟|el-kartoona betsheel kaam 2eTa3a?
+KU|Koliyi kapat|اقفل الكرتونة|e2fel el-kartoona
+KU|Koli etiketini yapıştır|الصق إتيكيت الكرتونة|elSa2 eteeket el-kartoona
+KU|Koli numarasını yaz|اكتب رقم الكرتونة|ekteb ra2am el-kartoona
+KU|Paletlere diz|رصّهم على البالتات|raSSohom 3ala el-baletaat
+KU|Palet çok yüksek|البالتة عالية أوي|el-baleta 3aleya awy
+KU|Palet hazır, sevkiyat bekliyor|البالتة جاهزة والشحن مستني|el-baleta gahza wel-shahn mestanny
+KU|Sevkiyat için kaç koli hazır?|كام كرتونة جاهزة للشحن؟|kaam kartoona gahza lel-shahn?
+KU|Eksik adet var|فيه عدد ناقص|fee 3adad naa2eS
+KU|Adetleri tekrar say|عدّ القطع تاني|3odd el-2eTa3 tany
+KU|Bugün kaç adet paketlendi?|اتغلف كام قطعة النهارده؟|etghallef kaam 2eTa3a el-naharda?
+KM|Makine bozuldu|المكنة باظت|el-makana baazet
+KM|Makine çalışmıyor|المكنة مش شغالة|el-makana mesh shaghaala
+KM|Makine ses yapıyor|المكنة بتطلع صوت|el-makana beteTla3 Sawt
+KM|Makine ısınıyor|المكنة بتسخن|el-makana betesakhan
+KM|Mekanikçiyi çağır|نادي الميكانيكي|naady el-mekaneeky
+KM|Mekanikçi ne zaman gelir?|الميكانيكي هييجي إمتى؟|el-mekaneeky hayeegy emta?
+KM|Yedek parça lazım|محتاج قطعة غيار|me7taag 2eT3et ghayaar
+KM|Yedek parça var mı?|فيه قطع غيار؟|fee 2eTa3 ghayaar?
+KM|Kayış koptu|السير قطع|el-sayr 2aTa3
+KM|Yağ eksik|الزيت ناقص|el-zeit naa2eS
+KM|Makineyi yağla|زيّت المكنة|zayyet el-makana
+KM|Makineyi temizle|نضف المكنة|naDDaf el-makana
+KM|Bakım zamanı geldi|جه وقت الصيانة|geh wa2t el-Seyaana
+KM|Makineyi kapat|اقفل المكنة|e2fel el-makana
+KM|Makineyi aç|شغل المكنة|shaghghal el-makana
+KM|Fişi çek|اسحب الفيشة|es7ab el-feesha
+KM|Şalteri indir|نزّل القاطع|nazzel el-2aaTe3
+KM|Bu makine çok eski|المكنة دي قديمة أوي|el-makana dy 2adeema awy
+KM|Yeni makine alacağız|هنجيب مكنة جديدة|hangeeb makana gedeeda
+KM|Ayarı bozulmuş|ضبطها باظ|DabTaha baaz
+KM|Ayarını yap|اظبط المكنة|eZbaT el-makana
+KM|Gerilim ayarı|ضبط الشد|DabT el-shadd
+KM|Baskı ayağı|رجل الضغط|regl el-Daghi
+KM|Mekik değiştir|غير الماكوك|ghayyar el-makkook
+KM|Masura sar|لف بوبينة|lef bobeena
+KM|Kesim makası kör|المقص كلّ|el-ma2aSS kall
+KM|Ütü buharı çalışmıyor|بخار المكواة مش شغال|bokhaar el-makwaa mesh shaghaal
+KM|Kompresör çalışıyor mu?|الكمبروسر شغال؟|el-kombresor shaghaal?
+KM|Hava basıncı düşük|ضغط الهوا واطي|DaghT el-hawa waaTy
+KF|Kumaş geldi mi?|القماش وصل؟|el-2omaash weSel?
+KF|Kumaş kaç metre?|القماش كام متر؟|el-2omaash kaam metr?
+KF|Kumaş eni kaç?|عرض القماش كام؟|3ard el-2omaash kaam?
+KF|Kumaş gramajı kaç?|وزن القماش كام جرام؟|wazn el-2omaash kaam geraam?
+KF|Kumaşın rengi uymuyor|لون القماش مش مطابق|lawn el-2omaash mesh moTaabe2
+KF|Kumaşta leke var|القماش فيه بقعة|el-2omaash feeh ba2'a
+KF|Kumaşta delik var|القماش فيه خرم|el-2omaash feeh 5orm
+KF|Kumaş çekmiş|القماش انكمش|el-2omaash enkamash
+KF|Kumaş boyası akıyor|لون القماش بيسيح|lawn el-2omaash beyseeh
+KF|Kumaş kalitesi iyi|جودة القماش كويسة|goodet el-2omaash kwayyesa
+KF|Kumaş testi yapıldı mı?|اتعمل اختبار للقماش؟|et3amal e5tebaar lel-2omaash?
+KF|Aksesuar eksik|الإكسسوار ناقص|el-accessoire naa2eS
+KF|Düğmeler geldi mi?|الزراير وصلت؟|el-zaraareer weSelet?
+KF|Fermuarlar yanlış gelmiş|السوست جت غلط|el-sawaaseet gat ghalaT
+KF|Astar eksik|البطانة ناقصة|el-baTaana naa2Sa
+KF|İplik rengi uygun değil|لون الخيط مش مناسب|lawn el-5eit mesh monaaseb
+KF|Etiketler basıldı mı?|الإتيكيتات اتطبعت؟|el-eteekeetaat etTabe3et?
+KF|Poşetler stokta var mı?|الأكياس موجودة؟|el-akyaas mawgooda?
+KF|Koliler yetmez|الكراتين مش هتكفي|el-karateen mesh hatekfy
+KF|Malzemeyi depoya al|دخّل الخامات المخزن|dakh-khel el-5aamaat el-ma5zan
+KF|Depoda ne kadar kumaş var?|في المخزن قد إيه قماش؟|fel-ma5zan 2add eh 2omaash?
+KF|Stok sayımı yapalım|نعمل جرد|na3mel gard
+KP|Bugünkü üretim kaç adet?|إنتاج النهارده كام قطعة؟|entaag el-naharda kaam 2eTa3a?
+KP|Sipariş bu hafta çıkmalı|الأوردر لازم يخلص الأسبوع ده|el-order laazem ye5las el-osboo3 da
+KP|Gecikme var mı?|فيه تأخير؟|fee ta2kheer?
+KP|Teslimat tarihi yaklaşıyor|ميعاد التسليم قرب|mee3aad el-taslee 2arrab
+KP|Fazla mesai yapmamız gerek|لازم نشتغل أوفر تايم|laazem neshtaghal overtime
+KP|Hat verimliliği düşük|إنتاجية الخط قليلة|entaageyyet el-5aTT 2aleela
+KP|Bugün verimli geçti|النهارده كان يوم منتج|el-naharda kaan yom montag
+KP|Üretim planı değişti|خطة الإنتاج اتغيرت|5oTTet el-entaag etghayyaret
+KP|Yeni model hatta girdi|موديل جديد دخل الخط|model gedeed dakhal el-5aTT
+KP|Model değişimi yapıyoruz|بنغير الموديل|benghayyar el-model
+KP|İlk parça onayı bekliyoruz|مستنيين موافقة أول قطعة|mestanneen mowaf2et awwal 2eTa3a
+KP|Seri üretime geçebiliriz|نقدر نبدأ الإنتاج|ne2dar nebda2 el-entaag
+KP|Kapasitemiz dolu|طاقتنا كاملة|Taa2etna kaamela
+KP|Bu sipariş için yeterli kapasite yok|مفيش طاقة كفاية للأوردر ده|mafeesh Taa2a kefaaya lel-order da
+KP|Ek vardiya açalım|نفتح وردية إضافية|nefta7 wardeyya eDaafeyya
+KP|Günlük rapor hazır|التقرير اليومي جاهز|el-ta2reer el-yawmy gaahez

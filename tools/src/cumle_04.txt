@@ -1,0 +1,152 @@
+IO|Toplantı saat kaçta?|الاجتماع الساعة كام؟|el-egtemaa3 el-saa3a kaam?
+IO|Toplantı ertelendi|الاجتماع اتأجل|el-egtemaa3 et2aggel
+IO|Toplantıya katılacak mısın?|هتحضر الاجتماع؟|hat-7ader el-egtemaa3?
+IO|Toplantı odası boş mu?|أوضة الاجتماعات فاضية؟|owdet el-egtemaa3aat faadya?
+IO|Gündem nedir?|جدول الأعمال إيه؟|gadwal el-a3maal eh?
+IO|Bir sorunum var|عندي مشكلة|3andy moshkela
+IO|Sana bir şey danışabilir miyim?|ممكن أستشيرك في حاجة؟|momken astasheerak fee 7aaga?
+IO|Müdürle görüşmek istiyorum|عايز أقابل المدير|3aayez a2aabel el-modeer
+IO|Müdür şu an müsait mi?|المدير فاضي دلوقتي؟|el-modeer faady delwa2ty?
+IO|Randevu alabilir miyim?|ممكن آخد ميعاد؟|momken a5od mee3aad?
+IO|Randevumuz var|عندنا ميعاد|3andena mee3aad
+IO|Raporu hazırladın mı?|جهزت التقرير؟|gahhezt el-ta2reer?
+IO|Rapor yarına hazır olur|التقرير هيبقى جاهز بكرة|el-ta2reer hayeb2a gaahez bokra
+IO|Dosyayı e-postayla gönder|ابعت الملف على الإيميل|ebta3 el-malaff 3ala el-email
+IO|Mail aldım, bakıyorum|وصلني الإيميل، هبص عليه|weSelny el-email, haboSS 3aleeh
+IO|Bunu çıktı alabilir misin?|ممكن تطبع ده؟|momken teTba3 da?
+IO|Fotokopi lazım|محتاج تصوير|me7taag taSweer
+IO|İmzalar mısın?|ممكن تمضي؟|momken temdy?
+IO|Buraya imza at|امضي هنا|emdy hena
+IO|Kaşe lazım|محتاج ختم|me7taag 5otm
+IO|Evrakları kontrol ettim|راجعت الورق|raaga3t el-wara2
+IO|Eksik belge var|فيه ورق ناقص|fee wara2 naa2eS
+IO|Bu belge geçerli değil|الورقة دي مش سارية|el-wara2a dy mesh saareya
+IO|Süresi dolmuş|خلصت مدتها|5alaSet moddetha
+IO|Yenilemek gerekiyor|لازم تتجدد|laazem tetgaddad
+IO|Son tarih ne zaman?|آخر ميعاد إمتى؟|aa5er mee3aad emta?
+IO|Süre yetmiyor|الوقت مش كفاية|el-wa2t mesh kefaaya
+IO|Acil bir iş var|فيه شغل مستعجل|fee shoghl mest3gel
+IO|Önceliğimiz bu|ده أولويتنا|da awlaweyyetna
+IO|Bunu bugün bitirmemiz lazım|لازم نخلصه النهارده|laazem n5alleSoh el-naharda
+IO|Yarına bırakabiliriz|ممكن نسيبه لبكرة|momken nesebboh le-bokra
+IO|Planı değiştirdik|غيرنا الخطة|ghayyarna el-5otta
+IO|Yeni plan nedir?|الخطة الجديدة إيه؟|el-5otta el-gedeeda eh?
+IO|Herkes görevini biliyor mu?|كل واحد عارف شغله؟|kol waa7ed 3aaref shoghlo?
+IO|Görev dağılımı yaptık|وزعنا المهام|wazza3na el-mahaam
+IO|Sorumlu kim?|المسؤول مين؟|el-mas2ool meen?
+IO|Bu işten ben sorumluyum|أنا المسؤول عن الشغلانة دي|ana el-mas2ool 3an el-shaghlaana dy
+IO|Takip eder misin?|ممكن تتابع؟|momken tetaabe3?
+IO|Durumu bana bildir|طمني على الموضوع|Tammeny 3ala el-mawdoo3
+IO|Gelişme var mı?|فيه جديد؟|fee gedeed?
+IO|Henüz cevap gelmedi|لسه مفيش رد|lessa mafeesh radd
+IO|Tekrar hatırlatır mısın?|ممكن تفكرني تاني؟|momken tefakkarny tany?
+IO|Müşteriye ne cevap verelim?|نرد على العميل بإيه؟|nerod 3ala el-3ameel be-eh?
+IO|Müşteri memnun kaldı|العميل كان مبسوط|el-3ameel kaan mabsooT
+IO|Müşteri şikayet etti|العميل اشتكى|el-3ameel eshtaka
+IO|Müşteri yarın geliyor|العميل جاي بكرة|el-3ameel gaay bokra
+IO|Numune hazır mı?|العينة جاهزة؟|el-3ayyena gaahza?
+IO|Numuneyi onaylattık|العينة اتوافق عليها|el-3ayyena etwaafe2 3aleeha
+IO|Sipariş onaylandı|الأوردر اتأكد|el-order et2akked
+IO|Siparişi iptal etmek istiyoruz|عايزين نلغي الأوردر|3ayzeen nelghy el-order
+IO|Teslim tarihini değiştirmek istiyoruz|عايزين نغير ميعاد التسليم|3ayzeen neghayyar mee3aad el-taslee
+IO|Sözleşmeyi imzaladık|وقعنا العقد|wa22a3na el-3a2d
+IO|Sözleşme şartları nedir?|شروط العقد إيه؟|shorooT el-3a2d eh?
+IO|Fiyat teklifi gönderdik|بعتنا عرض السعر|ba3atna 3ard el-sa3r
+IO|Ödeme yapıldı|الدفع اتم|el-dafa3 etamm
+IO|Faturayı kesin|اعملوا الفاتورة|e3maloo el-fatoora
+IO|Sevkiyat ne zaman?|الشحن إمتى؟|el-shahn emta?
+IO|Gümrükte bekliyor|مستني في الجمارك|mestanny fel-gamaarek
+IO|Konteyner yüklendi|الكونتينر اتحمل|el-kontaynar et7amal
+IO|Belgeler hazır|الأوراق جاهزة|el-awra2 gahza
+IO|E-postana baktın mı?|بصيت على الإيميل؟|baSSeet 3ala el-email?
+IO|Telefonda konuşalım|نتكلم في التليفون|netkallem fel-telefoon
+IO|WhatsApp'tan yaz|اكتبلي على الواتساب|ektebly 3ala el-whatsapp
+IO|Şimdi cevap veremem|مش هقدر أرد دلوقتي|mesh ha2dar ared delwa2ty
+IO|Sonra döneceğim|هرجعلك بعدين|harga3lak ba3deen
+IO|Anlaştık mı?|اتفقنا؟|ettafa2na?
+IO|Anlaştık, teşekkürler|اتفقنا، شكرا|ettafa2na, shokran
+IO|Bu konuyu konuşmamız lazım|لازم نتكلم في الموضوع ده|laazem netkallem fel-mawdoo3 da
+IO|Görüşünü alabilir miyim?|ممكن آخد رأيك؟|momken a5od ra2yak?
+IO|Bence doğru karar|أنا شايف إنه قرار صح|ana shaayef enno 2araar SA77
+IO|Katılıyorum|أنا موافق|ana mowaafe2
+IO|Katılmıyorum, çünkü maliyet yüksek|مش موافق لأن التكلفة عالية|mesh mowaafe2 le2enn el-taklefa 3aleya
+IO|Onaya göndereceğim|هبعته للموافقة|hab3atoh lel-mowaf2a
+IO|Onay bekliyoruz|مستنيين الموافقة|mestanneen el-mowaf2a
+IO|Yönetimle konuşacağım|هتكلم مع الإدارة|hatkallem ma3a el-edaara
+KV|Bugün işe geldin mi?|جيت الشغل النهارده؟|geet el-shoghl el-naharda?
+KV|Mesai kaçta başlıyor?|الدوام بيبدأ الساعة كام؟|el-dawaam beyebda2 el-saa3a kaam?
+KV|Mesai kaçta bitiyor?|الدوام بيخلص الساعة كام؟|el-dawaam bey5las el-saa3a kaam?
+KV|Giriş saatin kaç?|ميعاد حضورك الساعة كام؟|mee3aad 7odoorak el-saa3a kaam?
+KV|Çıkış kartını bastın mı?|بصمت انصراف؟|baSamt enSeraaf?
+KV|Parmak izi okutmayı unuttum|نسيت أبصم|nesyt abSem
+KV|Bugün fazla mesai var|النهارده فيه أوفر تايم|el-naharda fee overtime
+KV|Fazla mesai yapacak mısın?|هتعمل أوفر تايم؟|hat3mel overtime?
+KV|Bu hafta kaç saat fazla mesai yaptım?|اشتغلت كام ساعة أوفر تايم الأسبوع ده؟|eshtaghalt kaam saa3a overtime el-osboo3 da?
+KV|Bugün erken çıkabilir miyim?|ممكن أمشي بدري النهارده؟|momken amshy badry el-naharda?
+KV|İzin istiyorum|عايز إجازة|3aayez egaaza
+KV|Yıllık izin hakkım kaç gün?|رصيد إجازتي السنوية كام يوم؟|raSeed egaazety el-sanaweyya kaam yom?
+KV|Yarın izinliyim|أنا في إجازة بكرة|ana fy egaaza bokra
+KV|İzin formunu doldur|املا استمارة الإجازة|emla estemaaret el-egaaza
+KV|İznin onaylandı|إجازتك اتوافق عليها|egaaztak etwaafe2 3aleeha
+KV|İznin reddedildi|إجازتك اترفضت|egaaztak etrafadet
+KV|Mazeret iznim var|عندي إجازة عارضة|3andy egaaza 3aarda
+KV|Hasta izni aldım|أخدت إجازة مرضية|a5adt egaaza maradeyya
+KV|Gelemedim, özür dilerim|معرفتش آجي، آسف|ma3refsh aagy, aasef
+KV|Neden gelmedin?|ليه ماجيتش؟|leh magetsh?
+KV|Devamsızlık yaptın|إنت غبت|enta ghebt
+KV|Bu ay üç gün gelmedin|مجيتش تلات أيام الشهر ده|magetsh talaat ayyaam el-shahr da
+KV|Geç gelirsen haber ver|لو هتتأخر قول|law hate2a5ar 2ool
+KV|Bugün hasta olduğum için gelemedim|ماجيتش النهارده لأني عيان|magetsh el-naharda le2enny 3ayyaan
+KV|Vardiya değiştirmek istiyorum|عايز أغير الوردية|3aayez aghayyar el-wardeyya
+KV|Sabah vardiyası kaçta?|وردية الصبح الساعة كام؟|wardeyyet el-Sob7 el-saa3a kaam?
+KV|Akşam vardiyasına kim kalıyor?|مين باقي في وردية الليل؟|meen baa2y fy wardeyyet el-leel?
+KV|Yarın hangi vardiyadasın?|بكرة في أنهي وردية؟|bokra fy anhy wardeyya?
+KV|Vardiya teslimi yapıldı|تسليم الوردية اتم|tasleem el-wardeyya etamm
+KV|Hat başı yoklaması yapalım|نعمل تمام على الخط|na3mel tamaam 3ala el-5aTT
+KV|Herkes yerinde mi?|الكل في مكانه؟|el-kol fy makaano?
+KV|Yemek molası saat kaçta?|راحة الأكل الساعة كام؟|raa7et el-akl el-saa3a kaam?
+KV|Mola bitti, işbaşı|الراحة خلصت، على الشغل|el-raa7a 5alaSet, 3ala el-shoghl
+KS|Maaşımı ne zaman alacağım?|هقبض مرتبي إمتى؟|ha2bad martaby emta?
+KS|Maaşlar ayın kaçında yatıyor?|المرتبات بتنزل يوم كام؟|el-martabaat betenzel yom kaam?
+KS|Maaş bordrom nerede?|كشف مرتبي فين؟|kashf martaby feen?
+KS|Maaşımda eksik var|فيه نقص في مرتبي|fee na2S fy martaby
+KS|Bu kesinti neden?|الخصم ده ليه؟|el-5asm da leh?
+KS|Prim ne zaman verilecek?|الحافز هيتصرف إمتى؟|el-7aafez hayetSaraf emta?
+KS|Bu ay primim var mı?|فيه حافز الشهر ده؟|fee 7aafez el-shahr da?
+KS|Hedefi tutturursak prim var|لو حققنا الهدف فيه حافز|law ha22a2na el-hadaf fee 7aafez
+KS|Avans almak istiyorum|عايز سلفة|3aayez solfa
+KS|Avansı bu ay keseceğiz|هنخصم السلفة الشهر ده|hanakhSem el-solfa el-shahr da
+KS|Fazla mesai ücreti ne kadar?|أجر الأوفر تايم كام؟|agr el-overtime kaam?
+KS|Saatlik ücret ne kadar?|أجر الساعة كام؟|agr el-saa3a kaam?
+KS|Haftalık mı aylık mı ödeniyor?|الدفع أسبوعي ولا شهري؟|el-dafa3 osboo3y wala shahry?
+KS|Zam istiyorum|عايز زيادة|3aayez zeyaada
+KS|Zam yapıldı|اتعملت زيادة|et3amalet zeyaada
+KS|Sigortam var mı?|عندي تأمين؟|3andy ta2meen?
+KS|Sigorta primlerim yatıyor mu?|اشتراكات التأمين بتتدفع؟|eshteraakaat el-ta2meen betetdefe3?
+KS|Ücret bilgisi gizlidir|بيانات الأجور سرية|bayanaat el-ogoor serreyya
+KT|Usta, bu nasıl yapılır?|يا أسطى، ده بيتعمل إزاي؟|ya osTa, da beyet3emel ezzay?
+KT|Bana gösterir misin?|ممكن تفرجني؟|momken tefarragny?
+KT|Dikkatli yap|اعمله بحرص|e3melo be7erS
+KT|Acele etme, düzgün yap|متستعجلش، اعمله مظبوط|matest3gelsh, e3melo maZbooT
+KT|Bunu bana öğret|علمني ده|3allemny da
+KT|Tekrar yapalım|نعيده تاني|ne3eedoh tany
+KT|Anladın mı?|فهمت؟|fehemt?
+KT|Anlamadım, bir daha göster|مفهمتش، وريني تاني|mafhemtesh, wareeny tany
+KT|Aferin, güzel olmuş|برافو، طلع حلو|brafo, Tela3 7elw
+KT|Böyle olmaz|مش كده|mesh keda
+KT|Yanlış yapmışsın|عملتها غلط|3amaltaha ghalat
+KT|Tekrar yap|اعملها تاني|e3melha tany
+KT|Hatayı nerede yaptın?|غلطت فين؟|ghalaTt feen?
+KT|Bu benim hatam, düzeltirim|دي غلطتي وأنا هصلحها|dy ghaltety wana haSal-7aha
+KT|Dikkat et, tekrar olmasın|خد بالك، متتكررش|5od baalak, matetkarrarsh
+KT|Sakin ol, yetişir|اهدى، هنلحق|ehda, hanel7a2
+KT|Herkes işine baksın|كل واحد في شغله|kol waa7ed fy shoghlo
+KT|Konuşmadan çalışın|اشتغلوا من غير كلام|eshtaghaloo men gheir kalaam
+KT|Telefon kullanmak yasak|ممنوع التليفون|mamnoo3 el-telefoon
+KT|Telefonunu kaldır|شيل الموبايل|sheel el-mobaayl
+KT|Hat başında yemek yenmez|ممنوع الأكل على الخط|mamnoo3 el-akl 3ala el-5aTT
+KT|Yerini terk etme|متسيبش مكانك|matesebsh makaanak
+KT|Başkasına yardım et|ساعد زميلك|saa3ed zameelak
+KT|Çok güzel çalışıyorsun|بتشتغل حلو أوي|betesht-aghal 7elw awy
+KT|Teşekkür ederim, çok emek verdin|شكرا، تعبت أوي|shokran, ta3abt awy
+KT|Allah razı olsun|ربنا يرضى عنك|rabbena yerDa 3anak

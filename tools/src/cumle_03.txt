@@ -1,0 +1,191 @@
+VS|Hastayım|أنا عيان|ana 3ayyaan
+VS|Kendimi kötü hissediyorum|حاسس إني تعبان|7aases enny ta3baan
+VS|Başım ağrıyor|دماغي بتوجعني|demaaghy betewga3ny
+VS|Başım dönüyor|دماغي بتلف بيا|demaaghy betelef beyya
+VS|Midem ağrıyor|بطني بتوجعني|baTny betewga3ny
+VS|Karnım ağrıyor|بطني وجعاني|baTny wag-3aany
+VS|Ateşim var|عندي سخونية|3andy so5oneyya
+VS|Ateşim yüksek|حرارتي عالية|7araarety 3aaleya
+VS|Öksürüyorum|أنا بكح|ana bakoo7
+VS|Boğazım ağrıyor|زوري بيوجعني|zoory beyewga3ny
+VS|Burnum tıkalı|مناخيري مسدودة|manakheery masdooda
+VS|Nezlem var|عندي برد|3andy bard
+VS|Grip oldum|أخدت أنفلونزا|a5adt enflonza
+VS|Kusuyorum|عايز أرجّع|3aayez aragga3
+VS|Mide bulantım var|نفسي غامّة|nafsy ghamma
+VS|İshal oldum|عندي إسهال|3andy es-haal
+VS|Sırtım ağrıyor|ضهري بيوجعني|dahry beyewga3ny
+VS|Belim ağrıyor|وسطي بيوجعني|wesTy beyewga3ny
+VS|Dişim ağrıyor|سناني بتوجعني|senaany betewga3ny
+VS|Gözüm ağrıyor|عيني بتوجعني|3eeny betewga3ny
+VS|Elim yandı|إيدي اتحرقت|eedy et7ara2et
+VS|Parmağımı kestim|جرحت صباعي|gara7t Soba3y
+VS|Kanıyor|بينزف|beyenzef
+VS|Ayağımı burktum|رجلي لوت|regly lawet
+VS|Düştüm, canım yandı|وقعت وبتوجعني|wa2a3t webetewga3ny
+VS|Doktora gitmem lazım|لازم أروح للدكتور|laazem aroo7 lel-doktoor
+VS|Hastaneye gitmek istiyorum|عايز أروح المستشفى|3aayez aroo7 el-mostashfa
+VS|Eczane nerede?|الصيدلية فين؟|el-Saydaleyya feen?
+VS|Bana bir ilaç verir misin?|ممكن تديني دوا؟|momken tedeeny dawa?
+VS|Ağrı kesici var mı?|فيه مسكن؟|fee mosakken?
+VS|İlacı günde kaç kere alacağım?|أخد الدوا كام مرة في اليوم؟|a5od el-dawa kaam marra fel-yom?
+VS|Yemekten önce mi sonra mı?|قبل الأكل ولا بعده؟|2abl el-akl wala ba3do?
+VS|Reçete lazım mı?|محتاج روشتة؟|me7taag roshetta?
+VS|Rapor alabilir miyim?|ممكن آخد تقرير طبي؟|momken a5od ta2reer Tebby?
+VS|İzin raporum var|معايا تقرير مرضي|ma3aaya ta2reer mara-dy
+VS|Bugün işe gelemiyorum, hastayım|مش هقدر آجي الشغل النهارده، أنا عيان|mesh ha2dar aagy el-shoghl el-naharda, ana 3ayyaan
+VS|Biraz dinlenmem lazım|لازم أرتاح شوية|laazem artaa7 showaya
+VS|Çok yorgunum|أنا تعبان أوي|ana ta3baan awy
+VS|Uykusuzum|أنا مش عارف أنام|ana mesh 3aaref anaam
+VS|Gözlerim yanıyor|عيني بتحرقني|3eeny bet7er2any
+VS|Tansiyonum yüksek|ضغطي عالي|daghTy 3aaly
+VS|Şekerim var|عندي سكر|3andy sokkar
+VS|Hamileyim|أنا حامل|ana 7aamel
+VS|İlk yardım çantası nerede?|شنطة الإسعافات الأولية فين؟|shanTet el-es3aafaat el-awwaleyya feen?
+VS|Ambulans çağırın|نادوا الإسعاف|naadoo el-es3aaf
+VS|Su içmen lazım|لازم تشرب ميه|laazem tesharab meyya
+VS|Geçmiş olsun, çabuk iyileş|سلامتك، تقوم بالسلامة|salaamtak, te2oom bel-salaama
+VS|Bugün daha iyiyim|النهارده أحسن|el-naharda a7san
+VS|Ağrım geçti|الوجع راح|el-wagaa3 raa7
+AD|İmdat!|الحقوني!|el-7a2ooni!
+AD|Yangın var!|فيه حريقة!|fee 7areeqa!
+AD|Yangın çıktı, hemen çıkın|فيه حريقة، اطلعوا بره حالا|fee 7areeqa, eT-la3oo barra 7aalan
+AD|Polisi arayın|كلموا البوليس|kallemoo el-boleess
+AD|Ambulans lazım|محتاجين إسعاف|me7taageen es3aaf
+AD|Acil durum!|حالة طوارئ!|7aalet Tawaare2!
+AD|Acil çıkış nerede?|مخرج الطوارئ فين؟|ma5rag el-Tawaare2 feen?
+AD|Sakin olun, sırayla çıkın|اهدوا واخرجوا بالدور|ehdoo wekhrogoo bed-dowr
+AD|Asansörü kullanmayın|متستخدموش الأسانسير|matestakhdemoosh el-asansayr
+AD|Toplanma alanına gidin|روحوا مكان التجمع|rooo7oo makaan el-tagammo3
+AD|Gaz kokusu var|فيه ريحة غاز|fee ree7et ghaaz
+AD|Elektrik kaçağı var|فيه تسريب كهربا|fee tasreeb kahraba
+AD|Herkes dışarı|الكل يخرج بره|el-kol yekhrog barra
+AD|Yaralı var|فيه مصاب|fee moSaab
+AD|Biri bayıldı|حد أغمي عليه|7ad oghmy 3aleyh
+AD|Nefes alamıyor|مش قادر يتنفس|mesh 2aader yetnaffes
+AD|Kimseyi hareket ettirmeyin|متحركوش حد|mate7arrakoosh 7ad
+AD|Çocuk kayboldu|الولد تاه|el-walad taah
+AD|Hırsız var!|فيه حرامي!|fee 7aramy!
+AD|Çantam çalındı|شنطتي اتسرقت|shanTety etsara2et
+AD|Cüzdanım çalındı|المحفظة بتاعتي اتسرقت|el-ma7faza beta3ety etsara2et
+AD|Kaza oldu|حصلت حادثة|7aSalet 7aadsa
+AD|Elektrik kesildi|الكهربا قطعت|el-kahraba 2aTa3et
+AD|Su kesildi|الميه قطعت|el-meyya 2aTa3et
+AD|Jeneratör çalışıyor mu?|المولد شغال؟|el-mowalled shaghaal?
+SI|Arkadaşım, nasılsın?|يا صاحبي، عامل إيه؟|ya Saa7by, 3aamel eh?
+SI|Sizinle çalışmak güzel|الشغل معاكم حلو|el-shoghl ma3aakom 7elw
+SI|Birlikte çay içelim|تعالى نشرب شاي سوا|ta3aala nesharab shay sawa
+SI|Akşam bize gel|تعالى عندنا بالليل|ta3aala 3andena bel-leel
+SI|Seni evimize davet ediyorum|أعزمك عندنا في البيت|a3zemak 3andena fel-beit
+SI|Davet için teşekkürler|متشكر على العزومة|motashakker 3ala el-3ozooma
+SI|Gelemeyeceğim, kusura bakma|مش هقدر آجي، معلش|mesh ha2dar aagy, ma3lesh
+SI|Başka zaman gelirim|هاجي في وقت تاني|hagy fy wa2t tany
+SI|Hediye getirdim|جبتلك هدية|gebtelak hedeyya
+SI|Bu bizim ikram|دي ضيافتنا|dy deyaafetna
+SI|Buyurun, yiyin|اتفضلوا كلوا|etfaddaloo koloo
+SI|Çok güzel bir akşamdı|كانت ليلة حلوة أوي|kaanet layla 7elwa awy
+SI|Seninle tanışmak güzeldi|كان شرف إني اتعرفت عليك|kaan sharaf enny et3arraft 3aleyk
+SI|Sana güveniyorum|أنا واثق فيك|ana waase2 feek
+SI|Beni anladığın için sağ ol|شكرا إنك فاهمني|shokran ennak faahemny
+SI|Kızma bana|متزعلش مني|matez3alsh menny
+SI|Özür dilerim, yanlış anladım|آسف، فهمت غلط|aasef, fehemt ghalat
+SI|Barışalım|نتصالح|netSaale7
+SI|Sorun yok, geçti|مفيش حاجة، عدّت|mafeesh 7aaga, 3addet
+SI|Söz verdim, tutacağım|وعدت وهنفذ|wa3adt wahanaffez
+SI|Yalan söyleme|متكدبش|matekdebsh
+SI|Doğruyu söyle|قول الحقيقة|2ool el-7ae2a
+SI|Bunu kimseye söyleme|متقولش ده لحد|matedoolsh da le-7ad
+SI|Sır olarak kalsın|يفضل سر|yefdal serr
+SI|Dedikodu yapma|متتكلمش عن الناس|matetkallemsh 3an el-naas
+SI|Komşumuz çok iyi|جارنا محترم جدا|gaarna mo7taram awy
+SI|Kardeşin nasıl?|أخوك عامل إيه؟|a5ook 3aamel eh?
+SI|Annen nasıl?|والدتك عاملة إيه؟|waldetak 3amla eh?
+SI|Çocuklar nasıl?|الأولاد عاملين إيه؟|el-awlaad 3amleen eh?
+SI|Evlendim|اتجوزت|etgawwezt
+SI|Evli misin?|متجوز؟|metgawwez?
+SI|Bekârım|أنا أعزب|ana a3zab
+SI|Çocuğun var mı?|عندك أولاد؟|3andak awlaad?
+SI|İki çocuğum var|عندي ولدين|3andy waladeen
+SI|Bir kızım ve bir oğlum var|عندي بنت وولد|3andy bent we walad
+AI|Ailem Türkiye'de|أهلي في تركيا|ahly fy torkeya
+AI|Annemi çok özledim|وحشتني أمي أوي|wa7ashetny omme awy
+AI|Babam hasta|أبويا عيان|abooya 3ayyaan
+AI|Kardeşim geliyor|أخويا جاي|a5ooya gaay
+AI|Eşim evde|مراتي في البيت|merraty fel-beit
+AI|Kocam işte|جوزي في الشغل|gowzy fel-shoghl
+AI|Oğlum okula gidiyor|ابني بيروح المدرسة|ebny beyroo7 el-madrasa
+AI|Kızım çok akıllı|بنتي شاطرة أوي|bendy shaTra awy
+AI|Dedem yaşlı|جدي كبير في السن|gaddy kebeer fel-senn
+AI|Ailemle konuşuyorum|بكلم أهلي|bakallem ahly
+DU|Çok mutluyum|أنا مبسوط أوي|ana mabsooT awy
+DU|Çok üzgünüm|أنا زعلان أوي|ana za3laan awy
+DU|Kızgınım|أنا متضايق|ana metdaye2
+DU|Sinirliyim|أنا متعصب|ana mota3aSSeb
+DU|Korkuyorum|أنا خايف|ana 5aayef
+DU|Endişeliyim|أنا قلقان|ana 2al2aan
+DU|Heyecanlıyım|أنا متحمس|ana metha-mmes
+DU|Utanıyorum|أنا مكسوف|ana maksoof
+DU|Gurur duyuyorum|أنا فخور|ana fa5oor
+DU|Yalnızım|أنا لوحدي|ana le-wa7dy
+DU|Sıkıldım|زهقت|zeh2t
+DU|Moralim bozuk|مزاجي مش حلو|mazaagy mesh 7elw
+DU|Çok şaşırdım|اتفاجئت أوي|etfaag2t awy
+DU|Pişmanım|أنا ندمان|ana nedmaan
+DU|Sana kırıldım|زعلت منك|ze3elt menak
+DU|Seni özledim|وحشتني|wa7ashtany
+DU|Seni seviyorum|بحبك|ba7ebbak
+DU|Sana minnettarım|أنا ممنون ليك|ana memnoon leek
+DU|Umarım iyi olur|أتمنى يبقى كويس|atmanna yeb2a kwayes
+DU|Merak etme, her şey düzelecek|متقلقش، كل حاجة هتتظبط|mat2la2sh, kol 7aaga hatet-zabbaT
+ZT|Bugün hangi gün?|النهارده إيه؟|el-naharda eh?
+ZT|Bugün Pazartesi|النهارده الإثنين|el-naharda el-ethneen
+ZT|Yarın Salı|بكرة التلات|bokra el-talaat
+ZT|Dün Cumaydı|إمبارح كان الجمعة|embaare7 kaan el-gom3a
+ZT|Bu hafta çok yoğun|الأسبوع ده مزدحم أوي|el-osboo3 da mozda7em awy
+ZT|Gelecek hafta izinliyim|الأسبوع الجاي أنا في إجازة|el-osboo3 el-gaay ana fy egaaza
+ZT|Ayın kaçı bugün?|النهارده كام في الشهر؟|el-naharda kaam fel-shahr?
+ZT|Ay sonunda ödeme var|آخر الشهر فيه دفع|aa5er el-shahr fee dafa3
+ZT|Her sabah erken kalkarım|بصحى بدري كل صبح|baSa77y badry kol Sob7
+ZT|Akşama kadar çalıştım|اشتغلت لحد الليل|eshtaghalt le-7add el-leel
+ZT|Gece vardiyasındayım|أنا في الوردية الليلية|ana fel-wardeyya el-layleyya
+ZT|Hafta sonu çalışıyor musun?|بتشتغل في الويك إند؟|betesht-aghal fel-weekend?
+ZT|Tatil günü kaç?|الإجازة يوم إيه؟|el-egaaza yom eh?
+ZT|Saat dokuzda başlıyoruz|بنبدأ الساعة تسعة|benebda2 el-saa3a tes3a
+ZT|On dakika mola|عشر دقايق راحة|3ashar de2aye2 raa7a
+ZT|Yarım saat sonra görüşelim|نتقابل بعد نص ساعة|netqabel ba3d noss saa3a
+ZT|Bir saat önce geldim|جيت من ساعة|geet men saa3a
+ZT|Birazdan geliyorum|جاي كمان شوية|gaay kamaan showaya
+ZT|Çok erken geldin|جيت بدري أوي|geet badry awy
+ZT|Geç kaldın|اتأخرت|et2a5art
+EV|Evde misin?|إنت في البيت؟|enta fel-beit?
+EV|Kapıyı kapat|اقفل الباب|e2fel el-baab
+EV|Pencereyi aç|افتح الشباك|efta7 el-shebbaak
+EV|Işığı yak|ولّع النور|wal-la3 el-noor
+EV|Işığı söndür|طفي النور|Taffy el-noor
+EV|Klima çalışmıyor|التكييف مش شغال|el-takyeef mesh shaghaal
+EV|Musluk akıyor|الحنفية بتنقط|el-7anafeyya betne22aT
+EV|Elektrik gitti|الكهربا راحت|el-kahraba raa7et
+EV|Su sıcak değil|الميه مش سخنة|el-meyya mesh so5na
+EV|Ev kirası ne kadar?|إيجار البيت كام؟|eegaar el-beit kaam?
+EV|Odam çok küçük|أوضتي صغيرة أوي|owdety soghayyara awy
+EV|Çamaşır yıkadım|غسلت الهدوم|ghasalt el-hodoom
+EV|Yemek pişiriyorum|بطبخ|baTbokh
+EV|Bulaşıkları yıka|اغسل الأطباق|eghsel el-aTbaa2
+EV|Çöpü dışarı çıkar|طلّع الزبالة|Tal-la3 el-zebaala
+EV|Anahtarım yok|معييش المفتاح|ma3eeesh el-meftaa7
+EV|Kapı kilitli|الباب مقفول|el-baab me2fool
+YY|Neredesin?|إنت فين؟|enta feen?
+YY|Buradayım|أنا هنا|ana hena
+YY|Orada bekle|استنى هناك|estanna henaak
+YY|Yakınında bir market var mı?|فيه سوبر ماركت قريب؟|fee super market 2areeb?
+YY|Tuvalet nerede?|الحمام فين؟|el-7ammaam feen?
+YY|Merdivenler nerede?|السلم فين؟|el-sellem feen?
+YY|İkinci kat|الدور التاني|el-dowr el-taany
+YY|Binanın arkasında|ورا العمارة|wara el-3emaara
+YY|Kapının yanında|جنب الباب|ganb el-baab
+YY|Sağda|على اليمين|3ala el-yemeen
+YY|Solda|على الشمال|3ala el-shemaal
+YY|Tam karşıda|قدام بالظبط|2oddaam bel-zabT
+YY|Köşede|في الركن|fel-rokn
+YY|İçeride|جوه|gowwa
+YY|Dışarıda|بره|barra
