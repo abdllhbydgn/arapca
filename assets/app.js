@@ -284,7 +284,7 @@
 
   // ── Yönlendirme / Routing ──
   const NAV = [
-    ['', 'home', 'Ana Sayfa'], ['gunluk', 'sun', 'Günün Kelimesi'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['cumlekur', 'build', 'Cümle Kur'], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
+    ['', 'home', 'Ana Sayfa'], ['gunluk', 'sun', 'Günün Kelimesi'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['cumlekur', 'build', 'Cümle Kur'], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['sozluk', 'book', 'Sözlük', () => E.length],
     ['h', 'Öğren'], ['kartlar', 'cards', 'Kelime Kartları'], ['alfabe', 'abc', 'Alfabe', () => ((C.alphabet || {}).letters || []).length],
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
