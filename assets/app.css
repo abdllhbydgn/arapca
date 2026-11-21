@@ -742,3 +742,11 @@ body { background: radial-gradient(900px 500px at 100% -10%, rgba(124, 92, 255, 
 .foot-home { display: inline-block; text-decoration: none; color: inherit; cursor: pointer; }
 .foot-home:hover .foot-logo { opacity: .85; }
 .foot-name:hover { color: #FDBA74; }
+
+/* Günün kelimesi ve ifadesi penceresi (yan menü düğmesi) */
+.day-modal { position: fixed; inset: 0; z-index: 9000; background: rgba(9, 18, 36, .55); backdrop-filter: blur(3px); display: flex; align-items: center; justify-content: center; padding: 16px; animation: dayFade .2s both; }
+@keyframes dayFade { from { opacity: 0; } to { opacity: 1; } }
+.day-box { width: min(980px, 100%); max-height: calc(100vh - 32px); overflow: auto; background: var(--bg, #F4F6FB); border-radius: 20px; box-shadow: 0 30px 80px rgba(0, 0, 0, .4); padding: 16px 18px 20px; }
+.day-head { display: flex; align-items: center; justify-content: space-between; gap: 12px; margin-bottom: 12px; font-size: 18px; color: var(--ink, #0F2140); }
+.day-grid { margin: 0; }
+@media (max-width: 720px) { .day-modal { align-items: flex-end; padding: 0; } .day-box { border-radius: 20px 20px 0 0; max-height: 90vh; } }
