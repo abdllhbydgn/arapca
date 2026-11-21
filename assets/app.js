@@ -284,12 +284,12 @@
 
   // ── Yönlendirme / Routing ──
   const NAV = [
-    ['', 'home', 'Ana Sayfa'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['cumlekur', 'build', 'Cümle Kur'], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
+    ['', 'home', 'Ana Sayfa'], ['gunluk', 'sun', 'Günün Kelimesi'], ['fabrika', 'fab', 'Fabrika Dili', () => E.filter(e => e.src === 'fab').length || ''], ['cumlekur', 'build', 'Cümle Kur'], ['ortak', 'link', 'Ortak Kelimeler', () => OR.words.length || ''], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük', () => E.length],
     ['h', 'Öğren'], ['kartlar', 'cards', 'Kelime Kartları'], ['alfabe', 'abc', 'Alfabe', () => ((C.alphabet || {}).letters || []).length],
     ['konusma', 'chat', 'Konuşma Rehberi', () => ((C.conv || {}).topics || []).length], ['gramer', 'gram', 'Gramer'], ['fiiller', 'verb', 'Fiiller', () => ((C.grammar || {}).verbs || []).length],
     ['h', 'Pratik'], ['alistirma', 'pen', 'Çalışma Defteri'], ['test', 'quiz', 'Test Çöz'], ['favoriler', 'star', 'Favorilerim', () => favs.size]
   ];
-  const NAV_COL = { '': '#FFB020', fabrika: '#FF7A45', ceviri: '#2EC4F1', sozluk: '#E9C46A', kartlar: '#7C5CFF', alfabe: '#FF5D73', konusma: '#22C55E', gramer: '#C084FC', fiiller: '#FACC15', alistirma: '#38BDF8', test: '#FF5DA2', favoriler: '#FBBF24' };
+  const NAV_COL = { '': '#FFB020', gunluk: '#FBBF24', fabrika: '#FF7A45', ceviri: '#2EC4F1', sozluk: '#E9C46A', kartlar: '#7C5CFF', alfabe: '#FF5D73', konusma: '#22C55E', gramer: '#C084FC', fiiller: '#FACC15', alistirma: '#38BDF8', test: '#FF5DA2', favoriler: '#FBBF24' };
   function buildSideCard() {
     const s = store.get('streak', { n: 1 }), x = xpState(), l = lvlOf(x.total), a = lvlXP(l), b = lvlXP(l + 1);
     $('#sideCard').innerHTML = `<div class="lvl"><span class="lvl-b">Sv. ${l}</span><div><b>${esc(lvlName(l))}</b><small>${x.total} XP · sonraki seviyeye ${b - x.total} XP</small></div></div>
@@ -388,10 +388,6 @@
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
     view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `
-      <div class="grid g2">
-        ${wd ? `<div class="card day"><span class="tag">⭐ Günün kelimesi · ${esc(wd.cat)}</span><div class="ar">${esc(wd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(wd.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(wd.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(wd.tr)}</div>${wd.ex ? `<div class="meta" style="color:var(--muted)"><span class="ar" style="font-size:18px">${esc(wd.ex.ar)}</span> — ${esc(wd.ex.tr)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px;">${playBtn(wd.ar)}${favBtn(wd)}<button class="btn sm ghost" id="luckyBtn" style="margin-left:auto">🎲 Şans kelimesi</button></div></div>` : ''}
-        ${pd ? `<div class="card day"><span class="tag">💬 Günün ifadesi · ${esc(pd.cat)}</span><div class="ar" style="font-size:30px">${esc(pd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:17px;">${esc(pd.ok)}</span></div><div style="font-size:16px;font-weight:700;">${esc(pd.tr)}</div><div style="display:flex;gap:8px;margin-top:6px;">${playBtn(pd.ar)}${favBtn(pd)}</div></div>` : ''}
-      </div>
       <div class="sec-h"><h2>Modüller</h2></div>
       <div class="grid g3">${mods.map((m, i) => `<a class="card mod vivid-mod" href="#/${m[0]}" style="--mc:${NAV_COL[m[0]] || '#E9C46A'};animation-delay:${i * 40}ms"><div class="ic">${m[1]}</div><div><b>${m[3]}</b><small>${m[4]}</small></div><span class="go">${ic('arrow')}</span></a>`).join('')}</div>
       <div class="sec-h"><h2>Mısır lehçesi ipuçları</h2></div>
@@ -420,6 +416,32 @@
       $('#qNext').onclick = () => { qOff++; drawQuote(); };
     };
     drawQuote();
+    // Ana sayfa çeviri kutusu: Çeviri sayfasıyla aynı motor ve tasarım / Home translator: same engine and design as the Translate page
+    mountTranslator('', { hash: false, focus: false, more: false });
+    $$('[data-hint]').forEach(b => b.onclick = () => { const i = $('#trIn'); i.value = b.dataset.hint; i.dispatchEvent(new Event('input')); });
+  };
+
+
+  // Günün kelimesi ve ifadesi: yan menüdeki düğmeyle açılan pencere (ana sayfadan kaldırıldı) / Word and phrase of the day: popup opened from a side-menu button
+  function openDayModal() {
+    const words = E.filter(e => e.k === 'w' && e.ex && e.ex.ar);
+    const wd = words.length ? words[dayIdx(words.length)] : E[dayIdx(E.length)];
+    const phr = E.filter(e => e.k === 'p' && e.src === 'conv');
+    const pd = phr.length ? phr[(dayIdx(phr.length) * 7) % phr.length] : null;
+    const old = document.getElementById('dayModal'); if (old) old.remove();
+    const m = document.createElement('div');
+    m.id = 'dayModal'; m.className = 'day-modal'; m.setAttribute('role', 'dialog'); m.setAttribute('aria-modal', 'true'); m.setAttribute('aria-label', 'Günün kelimesi ve ifadesi');
+    m.innerHTML = `<div class="day-box"><div class="day-head"><b>☀️ Günün Kelimesi ve İfadesi</b><button class="icon-btn" id="dayClose" aria-label="Kapat">${ic('x')}</button></div>
+      <div class="day-body"><div class="grid g2 day-grid">
+        ${wd ? `<div class="card day"><span class="tag">⭐ Günün kelimesi · ${esc(wd.cat)}</span><div class="ar">${esc(wd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(wd.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(wd.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(wd.tr)}</div>${wd.ex ? `<div class="meta" style="color:var(--muted)"><span class="ar" style="font-size:18px">${esc(wd.ex.ar)}</span> — ${esc(wd.ex.tr)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px;">${playBtn(wd.ar)}${favBtn(wd)}<button class="btn sm ghost" id="luckyBtn" style="margin-left:auto">🎲 Şans kelimesi</button></div></div>` : ''}
+        ${pd ? `<div class="card day"><span class="tag">💬 Günün ifadesi · ${esc(pd.cat)}</span><div class="ar" style="font-size:30px">${esc(pd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:17px;">${esc(pd.ok)}</span></div><div style="font-size:16px;font-weight:700;">${esc(pd.tr)}</div><div style="display:flex;gap:8px;margin-top:6px;">${playBtn(pd.ar)}${favBtn(pd)}</div></div>` : ''}
+      </div></div></div>`;
+    document.body.appendChild(m);
+    const close = () => { m.remove(); document.removeEventListener('keydown', onKey); };
+    const onKey = ev => { if (ev.key === 'Escape') close(); };
+    document.addEventListener('keydown', onKey);
+    m.addEventListener('click', ev => { if (ev.target === m) close(); });
+    $('#dayClose').onclick = close;
     const lucky = $('#luckyBtn');
     if (lucky) lucky.onclick = () => {
       const pool = E.filter(e => e.k === 'w' && e.src !== 'alf');
@@ -430,10 +452,14 @@
       $('#luckyBtn').onclick = lucky.onclick;
       speak(e.ar);
     };
-    // Ana sayfa çeviri kutusu: Çeviri sayfasıyla aynı motor ve tasarım / Home translator: same engine and design as the Translate page
-    mountTranslator('', { hash: false, focus: false, more: false });
-    $$('[data-hint]').forEach(b => b.onclick = () => { const i = $('#trIn'); i.value = b.dataset.hint; i.dispatchEvent(new Event('input')); });
-  };
+  }
+  document.addEventListener('click', ev => {
+    const a = ev.target.closest && ev.target.closest('#nav a[data-r="gunluk"], #nav button[data-r="gunluk"]');
+    if (!a) return;
+    ev.preventDefault(); ev.stopPropagation();
+    try { closeSide(); } catch (e) {}
+    openDayModal();
+  }, true);
 
   // ── Çeviri motoru / Translation engine ──
   // 1) Tam ifade eşleşmesi  2) Benzer ifadeler  3) Kelime kelime çözümleme (ek ayıklama)  4) İsteğe bağlı makine çevirisi
