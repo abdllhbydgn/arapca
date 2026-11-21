@@ -388,12 +388,6 @@
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
     view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `
-      <div class="stats">
-        <div class="stat vivid" style="--g1:#7C5CFF;--g2:#C084FC"><div class="ringbox">${ringSvg(x.n / DAILY_GOAL, 58, '#fff')}<span>${Math.min(100, Math.round(x.n / DAILY_GOAL * 100))}%</span></div><div><b>${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL} XP</b><small>Günlük hedef</small></div></div>
-        <div class="stat vivid" style="--g1:#FFB020;--g2:#FF7A45"><div class="ic">🏅</div><div><b>Seviye ${lv}</b><small>${esc(lvlName(lv))} · ${x.total} XP</small></div></div>
-        <div class="stat vivid" style="--g1:#FF5D73;--g2:#FF5DA2"><div class="ic flame">🔥</div><div><b>${s.n} gün</b><small>çalışma serisi</small></div></div>
-        <a class="stat vivid" href="#/kartlar${due ? '/tekrar' : ''}" style="--g1:#22C55E;--g2:#2EC4F1;text-decoration:none"><div class="ic">🃏</div><div><b>${due} kart</b><small>${due ? 'tekrar bekliyor →' : learned + ' kart öğrenildi'}</small></div></a>
-      </div>
       <div class="grid g2">
         ${wd ? `<div class="card day"><span class="tag">⭐ Günün kelimesi · ${esc(wd.cat)}</span><div class="ar">${esc(wd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:18px;">${esc(wd.ok)}</span><span class="fr" style="font-family:monospace;color:var(--teal)">${esc(wd.fr)}</span></div><div style="font-size:17px;font-weight:700;">${esc(wd.tr)}</div>${wd.ex ? `<div class="meta" style="color:var(--muted)"><span class="ar" style="font-size:18px">${esc(wd.ex.ar)}</span> — ${esc(wd.ex.tr)}</div>` : ''}<div style="display:flex;gap:8px;margin-top:6px;">${playBtn(wd.ar)}${favBtn(wd)}<button class="btn sm ghost" id="luckyBtn" style="margin-left:auto">🎲 Şans kelimesi</button></div></div>` : ''}
         ${pd ? `<div class="card day"><span class="tag">💬 Günün ifadesi · ${esc(pd.cat)}</span><div class="ar" style="font-size:30px">${esc(pd.ar)}</div><div class="read-row"><span class="ok" style="font-weight:800;font-size:17px;">${esc(pd.ok)}</span></div><div style="font-size:16px;font-weight:700;">${esc(pd.tr)}</div><div style="display:flex;gap:8px;margin-top:6px;">${playBtn(pd.ar)}${favBtn(pd)}</div></div>` : ''}
@@ -405,6 +399,12 @@
         <div class="card pad"><b>ج = G</b><p style="margin:6px 0 0;color:var(--muted)">Mısır'da ج sert "g" okunur: <span class="ar">جميل</span> → gamiil (güzel).</p></div>
         <div class="card pad"><b>ق = hemze</b><p style="margin:6px 0 0;color:var(--muted)">Kahire'de ق çoğunlukla yutulur: <span class="ar">قلب</span> → 'alb (kalp).</p></div>
         <div class="card pad"><b>ب- = şimdiki zaman</b><p style="margin:6px 0 0;color:var(--muted)">Fiilin başına b- gelir: <span class="ar">باكل</span> → bākol (yiyorum).</p></div>
+      </div>
+      <div class="stats">
+        <div class="stat vivid" style="--g1:#7C5CFF;--g2:#C084FC"><div class="ringbox">${ringSvg(x.n / DAILY_GOAL, 58, '#fff')}<span>${Math.min(100, Math.round(x.n / DAILY_GOAL * 100))}%</span></div><div><b>${Math.min(x.n, DAILY_GOAL)}/${DAILY_GOAL} XP</b><small>Günlük hedef</small></div></div>
+        <div class="stat vivid" style="--g1:#FFB020;--g2:#FF7A45"><div class="ic">🏅</div><div><b>Seviye ${lv}</b><small>${esc(lvlName(lv))} · ${x.total} XP</small></div></div>
+        <div class="stat vivid" style="--g1:#FF5D73;--g2:#FF5DA2"><div class="ic flame">🔥</div><div><b>${s.n} gün</b><small>çalışma serisi</small></div></div>
+        <a class="stat vivid" href="#/kartlar${due ? '/tekrar' : ''}" style="--g1:#22C55E;--g2:#2EC4F1;text-decoration:none"><div class="ic">🃏</div><div><b>${due} kart</b><small>${due ? 'tekrar bekliyor →' : learned + ' kart öğrenildi'}</small></div></a>
       </div>` + (Q.length ? `<section class="quote q-small fade" id="quote"></section>` : '');
     // Günün sözü: her gün değişir, oklarla önceki/sonraki günlere bakılır / Saying of the day, browsable
     let qOff = 0;
