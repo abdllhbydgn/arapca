@@ -1447,3 +1447,17 @@ Yön "tr" ise Türkçe → Mısır lehçesi, "ar" ise Mısır lehçesi/Arapça �
     navigator.serviceWorker.register('sw.js', { updateViaCache: 'none' }).then(r => r.update()).catch(() => {});
   }
 })();
+
+// ── Üst çubuk saatleri (Mısır · Kahire ve Türkiye · İstanbul) ──
+(function () {
+  const els = Array.from(document.querySelectorAll('#clocks b[data-tz]')), dEl = document.getElementById('ckDate');
+  if (!els.length) return;
+  const fm = {}; els.forEach(e => { try { fm[e.dataset.tz] = new Intl.DateTimeFormat('tr-TR', { timeZone: e.dataset.tz, hour: '2-digit', minute: '2-digit', second: '2-digit', hourCycle: 'h23' }); } catch (x) {} });
+  let dfm; try { dfm = new Intl.DateTimeFormat('tr-TR', { day: 'numeric', month: 'long', year: 'numeric' }); } catch (x) {}
+  function tick() {
+    const now = new Date();
+    els.forEach(e => { const f = fm[e.dataset.tz]; if (f) e.innerHTML = f.format(now).split(':').join('<i>:</i>'); });
+    if (dEl && dfm) dEl.textContent = dfm.format(now);
+  }
+  tick(); setInterval(tick, 1000);
+})();
