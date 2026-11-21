@@ -300,7 +300,7 @@
     // Üyelik modülü menüyü süzebilir (kilit, yönetim bölümü) / The membership module may filter the menu (locks, admin section)
     const items = window.MASRI_NAV_FILTER ? window.MASRI_NAV_FILTER(NAV.slice()) : NAV;
     $('#nav').innerHTML = items.map(n => n[0] === 'h' ? `<div class="nav-h">${n[1]}</div>` : `<a href="#/${n[0]}" data-r="${n[0]}" style="--nc:${NAV_COL[n[0]] || n[5] || '#E9C46A'}"><span class="ni">${ic(n[1])}</span><span>${n[2]}</span>${n[4] === 'lock' ? '<span class="lockb" title="Üyelere özel">🔒</span>' : n[3] ? `<span class="cnt">${n[3]()}</span>` : ''}</a>`).join('');
-    $('#bnav').innerHTML = [['', 'home', 'Ana'], ['ceviri', 'tr', 'Çeviri'], ['sozluk', 'book', 'Sözlük'], ['kartlar', 'cards', 'Kartlar']].map(n => `<a href="#/${n[0]}" data-r="${n[0]}">${ic(n[1])}<span>${n[2]}</span></a>`).join('') + `<button id="bMore">${ic('more')}<span>Daha</span></button>`;
+    $('#bnav').innerHTML = [['', 'home', 'Ana'], ['sozluk', 'book', 'Sözlük'], ['kartlar', 'cards', 'Kartlar']].map(n => `<a href="#/${n[0]}" data-r="${n[0]}">${ic(n[1])}<span>${n[2]}</span></a>`).join('') + `<button id="bMore">${ic('more')}<span>Daha</span></button>`;
     buildSideCard();
   }
   function parseHash() {
