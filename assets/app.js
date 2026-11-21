@@ -390,7 +390,7 @@
     ];
     const x = xpState(), lv = lvlOf(x.total);
     const Q = C.quotes || [];
-    view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2><a class="btn sm ghost" href="#/cumlekur">🧩 Cümle Kur</a></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `
+    view.innerHTML = `<section class="gt-home"><div class="gt-title"><h2>Çeviri</h2></div>${trBoxHtml()}<div class="hero-hints gt-hints">${['Nasılsın?', 'Ne kadar?', 'Anlamadım', 'Su istiyorum', 'Makine bozuldu', 'معلش'].map(x => `<button type="button" data-hint="${esc(x)}">${esc(x)}</button>`).join('')}</div></section>` + `
       <div class="sec-h"><h2>Modüller</h2></div>
       <div class="grid g3">${mods.map((m, i) => `<a class="card mod vivid-mod" href="#/${m[0]}" style="--mc:${NAV_COL[m[0]] || '#E9C46A'};animation-delay:${i * 40}ms"><div class="ic">${m[1]}</div><div><b>${m[3]}</b><small>${m[4]}</small></div><span class="go">${ic('arrow')}</span></a>`).join('')}</div>
       <div class="sec-h"><h2>Mısır lehçesi ipuçları</h2></div>
