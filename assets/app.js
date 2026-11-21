@@ -325,6 +325,9 @@
   function drawPnav(r) {
     const el = $('#pnav');
     if (!el) return;
+    // Ana sayfada Geri/İleri/Ana Sayfa çubuğu gösterilmez (kullanıcı isteği) / no back-forward-home bar on the home page
+    if (r === '') { el.innerHTML = ''; el.style.display = 'none'; return; }
+    el.style.display = '';
     const t = (($('.ph h1', view) || {}).textContent || PAGE_NAMES[r] || '').trim();
     el.innerHTML = `<button class="pn-b" id="pnBack" ${NAVH.pos > 0 ? '' : 'disabled'} aria-label="Geri">${ic('back')}<span>Geri</span></button>
       <button class="pn-b" id="pnFwd" ${NAVH.pos < NAVH.stack.length - 1 ? '' : 'disabled'} aria-label="İleri"><span>İleri</span>${ic('arrow')}</button>
